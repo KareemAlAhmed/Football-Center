@@ -1,0 +1,149 @@
+.navBar{
+    height: 95px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    background-color: var(--back-color);
+    transition: all 0.3s linear;
+    border-color: transparent;
+}
+.navBar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar .logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.navBar h1{
+    font-size: 23px;
+    height: fit-content;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+.navBar .logo:hover h1{
+    color: var(--hover-color);
+}
+
+.navBar .logo svg{
+    height: 30px;
+}
+.navBar .logo svg path{
+    fill: var(--text-color);
+    transition: all 0.3s ease;
+}
+.navBar .logo:hover svg path{
+    fill: var(--hover-color);
+}
+.navList{
+    position: relative;
+}
+.navList li{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+    vertical-align: middle;
+    position: relative;
+}
+.navList li a{
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+.navList li:hover a{
+    color: var(--hover-color);
+}
+.navList li:last-child{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    transition: all 0.3s linear;
+    background-color: var(--text-color);
+}
+.options{
+    display: flex;
+    gap: 15px;
+}
+
+.options .moreOpt{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.options .moreOpt svg{
+    width: 28px;
+    height: 28px;
+    fill: var(--text-color);
+    transition: all 0.3s ease;
+}
+.options .moreOpt .settings,.options .moreOpt .search{
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.options .moreOpt .settings:hover svg,.options .moreOpt .search:hover svg{
+    fill: var(--hover-color);
+}
+.navBar .auth{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: auto 0;
+}
+.navBar .auth a{
+    background-color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.navBar .auth a:first-child{
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+}
+.navBar .auth a:first-child:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--text-color);
+    z-index: -2;
+}
+.navBar .auth a:first-child:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--hover-color);
+    transition: all 0.3s;
+    z-index: -1;
+}
+.navBar .auth a:hover:before {
+    width: 100%;
+}
+.navBar .auth a:first-child:hover{
+    border-color: var(--hover-color);
+}
+.navBar .auth a:first-child::after{
+    background-color: transparent;
+}
+.line{
+    height: 48px;
+    width: 2px;
+    background-color: var(--text-color);
+}

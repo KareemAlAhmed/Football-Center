@@ -1,0 +1,27 @@
+.home .container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .container h3{
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+.listOfNews{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.seperatorBlock{
+    padding: 2rem;
+    width: 100%;
+    min-height: calc(90px + 2*2rem);
+    background-color: var(--button-hover-color);
+}
+
+
+.newsTitle:hover{
+    color: var(--hover-color) !important;
+}
