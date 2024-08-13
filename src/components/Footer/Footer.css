@@ -1,0 +1,38 @@
+.footer{
+    background-color: var(--button-hover-color);
+    padding: 15px 0;
+    margin-top: 50px;
+    position: relative;
+}
+.footer .container{
+    margin-bottom: 40px;
+    position: relative;
+}
+.footer .socialList{
+    display: flex;
+    gap: 2.5em;
+}
+.footer .social{
+    background-color: var(--social-back-color);
+    width: 100%;
+    padding: 16px;
+    cursor: pointer;
+}
+.footer .social p{
+    font-size: 16px;
+    margin-top: 3px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.footer .social .socialLogo{
+    width: fit-content;
+    background-color: var(--hover-color);
+    border-radius: 100%;
+}
+.footer .brand{
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+    color: var(--text-color);
+    font-size: 17px;
+}

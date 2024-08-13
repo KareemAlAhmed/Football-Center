@@ -70,7 +70,7 @@ export default function FeaturedNews({news}) {
   return (
     <div className="featuredNews">
         <div className="newsImg">
-          {news?.newsImg ? (
+          {news?.title ? (
             <img src={news?.newsImg} alt="" />
           ) :(
             <img src={news?.LINKS[0].IMAGE_VARIANT_URL} alt="" />

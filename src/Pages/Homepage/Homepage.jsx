@@ -6,7 +6,10 @@ import FeaturedNews from '../../components/News/FeaturedNews/FeaturedNews';
 import NewsSmallCard from '../../components/News/NewsSmallCard/NewsSmallCard';
 import NewsMediumCard from '../../components/News/NewsMediumCard/NewsMediumCard';
 import CompetetionSlider from '../../components/CompetetionSlider/CompetetionSlider';
+import Footer from '../../components/Footer/Footer';
+
 export default function Homepage() {
+
     const [news,setNews]=useState([]);
     const [realNews,setRealNews]=useState([]);
     const [cityNews,setCityNews]=useState([]);
@@ -23,6 +26,7 @@ export default function Homepage() {
             // Handle errors
         }
     }
+   
     useEffect(()=>{
         if(sessionStorage.getItem("listOfNews") != null){
             setNews(JSON.parse(sessionStorage.getItem("listOfNews")).result)
@@ -34,11 +38,23 @@ export default function Homepage() {
             
         }
     },[])
+   
   return (
         <>
             <NavBar />
+           
+            {/* <GoogleLogin
+            onSuccess={credentialResponse => {
+                console.log(credentialResponse);
+                const credentialResponseDecoded=jwtDecode(credentialResponse.credential)
+                console.log(credentialResponseDecoded)
+            }}
+            onError={() => {
+                console.log('Login Failed');
+            }}
+            /> */}
+            
             <div className='home'>
-                {console.log(liverNews)}
                 <div className="seperatorBlock"></div>
                 <div className="container">
                     <h3>Top News</h3>
@@ -64,6 +80,8 @@ export default function Homepage() {
                         })}
                     </div>
                 </div>
+                <CompetetionSlider type="tourns" />
+                <CompetetionSlider type="teams" />
                 <div className="container">
                     <h3>Man City News</h3>
                     <div className="listOfNews">
@@ -88,7 +106,7 @@ export default function Homepage() {
                         })}
                     </div>
                 </div>
-                <CompetetionSlider />
+                <Footer />
             </div>
         </>
   )

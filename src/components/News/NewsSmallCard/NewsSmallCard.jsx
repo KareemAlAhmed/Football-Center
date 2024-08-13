@@ -91,8 +91,8 @@ export default function NewsSmallCard({news}) {
           </>
         ) : (
           <>
-            <p  className='newsTitle'>{news?.TITLE} <br /> <a href={news?.LINK} className='originalPSmall'>Original Post...</a></p>
-            <div className="channel">
+            <p  className='newsTitle'>{news?.TITLE.length >121 ? news?.TITLE.slice(0,119) + "..." : news?.TITLE} <br /> <a href={news?.LINK} className='originalPSmall'>Original Post...</a></p>
+            <div className="channel"> 
                 <div className="channelLogo">
                     <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" style={style} />
                 </div>

@@ -8,6 +8,7 @@
     background-color: var(--back-color);
     transition: all 0.3s linear;
     border-color: transparent;
+    z-index: 9;
 }
 .navBar .container{
     display: flex;

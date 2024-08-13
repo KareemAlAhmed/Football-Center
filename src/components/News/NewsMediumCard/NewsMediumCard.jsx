@@ -67,7 +67,7 @@ export default function NewsMediumCard({news}) {
   return (
     <div className='NewsMediumCard'>
          <div className="newsImage">
-            {news?.newsImg ? (
+            {news?.title ? (
             <img src={news?.newsImg} alt="" />
           ) :(
             <img src={news?.LINKS[0].IMAGE_VARIANT_URL} alt="" />
