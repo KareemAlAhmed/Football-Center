@@ -95,3 +95,6 @@ p {
       max-width: 1470px !important;
   }
 }
+.justify-center{
+  justify-content: center;
+}

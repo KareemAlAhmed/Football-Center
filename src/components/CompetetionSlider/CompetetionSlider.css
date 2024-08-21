@@ -1,7 +1,7 @@
 .CompetetionSlider .container,.TeamsSlider .container{
     position: relative;
 }
-.listOfTourns,.listOfTeams{
+.listOfTourns, .TeamsSlider .listOfTeams{
     display: flex;
     gap: 20px;
     transition: all 0.3s ease;
@@ -11,7 +11,8 @@
     position: relative;
     overflow: hidden;
 }
-.listOfTourns .competetion,.listOfTeams .team{
+
+.listOfTourns .competetion,.TeamsSlider .listOfTeams .team{
     display: flex;
     padding: 20px;
     gap: 10px;
@@ -22,23 +23,23 @@
     border-color: transparent;
     border: 2px solid transparent;
 }
-.listOfTourns .competetion:hover ,.listOfTeams .team:hover{
+.listOfTourns .competetion:hover ,.TeamsSlider .listOfTeams .team:hover{
     border-color: var(--text-color);
 }
-.listOfTourns .competetion img,.listOfTeams .team img{
+.listOfTourns .competetion img,.TeamsSlider .listOfTeams .team img{
     width: 50px;
     height: 50px;
 }
-.listOfTourns .competetion .tournInfo,.listOfTeams .team .teamInfo{
+.listOfTourns .competetion .tournInfo, .TeamsSlider .listOfTeams .team .teamInfo{
     display: flex;
     flex-direction: column;
 }
-.listOfTourns .competetion .tournInfo p:first-child,.listOfTeams .team .teamInfo p:first-child{
+.listOfTourns .competetion .tournInfo p:first-child,.TeamsSlider .listOfTeams .team .teamInfo p:first-child{
     font-size: 16px;
     font-weight: 600;
     color: var(--text-color);
 }
-.listOfTourns .competetion .tournInfo p:last-child,.listOfTeams .team .teamInfo p:last-child{
+.listOfTourns .competetion .tournInfo p:last-child,.TeamsSlider .listOfTeams .team .teamInfo p:last-child{
     font-size: 20px;
     font-weight: 600;
     color: var(--text-color);

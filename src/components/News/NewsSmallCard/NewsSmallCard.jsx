@@ -23,11 +23,11 @@ export default function NewsSmallCard({news}) {
         } else if (days === 1) {
           return 'yesterday';
         } else if (hours >= 1) {
-          return `about ${hours} hour${hours !== 1 ? 's' : ''} ago`;
+          return `${hours} hour${hours !== 1 ? 's' : ''} ago`;
         } else if (minutes >= 5) {
-          return `about ${minutes} minute${minutes !== 1 ? 's' : ''} ago`;
+          return `${minutes} minute${minutes !== 1 ? 's' : ''} ago`;
         } else {
-          return `about ${seconds} second${seconds !== 1 ? 's' : ''} ago`;
+          return `${seconds} second${seconds !== 1 ? 's' : ''} ago`;
         }
       }
       function timeAgo2(timestamp) {

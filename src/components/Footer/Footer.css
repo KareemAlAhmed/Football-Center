@@ -25,9 +25,10 @@
     font-weight: 600;
 }
 .footer .social .socialLogo{
-    width: fit-content;
+    width: 24px;
     background-color: var(--hover-color);
     border-radius: 100%;
+    height: 24px;
 }
 .footer .brand{
     position: absolute;

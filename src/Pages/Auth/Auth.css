@@ -28,6 +28,7 @@
     color: var(--text-color);
     outline: 2px solid var(--hover-color);
     background-color: transparent;
+    width: 270px;
   }
  .authenticationBlock .container .authenticationContent form div label{
   min-width: 110px;
@@ -35,6 +36,7 @@
  .authenticationBlock .container .authenticationContent h3{
     font-size: 41px;
     margin-bottom: 10px;
+    align-self: center;
  }
  .sbtBtn{
   background-color: transparent;
@@ -94,4 +96,7 @@
 .hadAccount span{
   text-decoration: underline;
   cursor: pointer;
+}
+.inputError{
+  color: #cc0000;
 }

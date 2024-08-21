@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react'
 import "./NavBar.css"
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 export default function NavBar() {
+  let currentUser=useSelector(state=>state.users.currentUser)
+  let userToken=useSelector(state=>state.users.userToken)
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
@@ -31,30 +34,8 @@ export default function NavBar() {
     let lastLi=list.querySelector("li:last-child")
     lastLi.style.width=`${firstLi.offsetWidth}px`
 
-  },[])
+  },[userToken])
 
-  const moveSlide=(e)=>{
-    
-    let slide=document.querySelector(".navBar .container .navList li:last-child")
-    const computedStyle = window.getComputedStyle(slide);
-    const currentLeft = computedStyle.getPropertyValue('left');
-    const wid = computedStyle.getPropertyValue('width');
-    const left=parseInt(currentLeft, 10);
-    const width=parseInt(wid, 10);
-
-
-    let currentElement=window.getComputedStyle(e.target.parentElement);
-    const eleLeft = currentElement.getPropertyValue('left');
-    console.log(eleLeft)
-
-    slide.style.left=`${left + width}px`
-
-    slide.style.width=`${e.target.parentElement.offsetWidth}px`
-    console.log(e.target.parentElement)
-    // slide.style.left=`${left + e.target.parentElement.offsetWidth}px`
-
-    // slide.style.transform=`translateX(${left + e.target.offsetWidth + 30}px)`
-  }
 
   function setLine(elm) {
     const navList = document.querySelector('.navList');
@@ -82,7 +63,7 @@ export default function NavBar() {
 
         <ul className="navList">
           <li><a href='#home' onClick={(e)=>{setLine(e)}}>Home</a></li>
-          <li><a href='#Matches' onClick={(e)=>{setLine(e)}}>Matches</a></li>
+          <li><a href='' onClick={(e)=>{e.preventDefault();setLine(e);navigate('/schedule/_/date/:date')}}>Schedule</a></li>
           <li><a href='#Fixtures' onClick={(e)=>{setLine(e)}}>Fixtures</a></li>
           <li><a href='#Leagues' onClick={(e)=>{setLine(e)}}>Leagues</a></li>
           <li><a href='#Clubs' onClick={(e)=>{setLine(e)}}>Clubs</a></li>
@@ -105,12 +86,20 @@ export default function NavBar() {
               </svg>
             </div>
           </div>
+          {userToken == null ? (
+            <div className="auth">
+              {/* <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" /> */}
+              <a href='/auth/signin' >Sign in</a>
+              <a href='/auth/register'>Join</a>
+            </div>
+          ):(
+            <div className='userProfilePic'>
+              <Link to="/profile">
+                <img src={currentUser.image_url} alt="" />
+              </Link>
+            </div>
+          )}
           
-          <div className="auth">
-            {/* <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" /> */}
-            <a href='/auth/signin' >Sign in</a>
-            <a href='/auth/register'>Join</a>
-          </div>
         </div>
 
       </div>      

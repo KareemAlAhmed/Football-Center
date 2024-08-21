@@ -1,0 +1,71 @@
+.date-timeline{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.wrapperList{
+    width: 90%;
+    overflow: hidden;
+}
+.date-timeline .date-list{
+    display: flex;
+    position: relative;
+    width: 100%;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+.date-timeline .date-list::-webkit-scrollbar {
+    display: none;
+  }
+.date-timeline .date-list li {
+    width: calc((100% - 60px) / 7);
+    display: block;
+    background-color: var(--social-back-color);
+    padding: 20px;
+    text-align: center;
+}
+.date-timeline .date-list li a{
+    display: block;
+    /* width: 200px; */
+}
+.date-timeline .date-list li a span{
+    display: block;
+    /* width: 200px; */
+}
+.allMatches table{
+    width: 100%;
+}
+.allMatches table thead td:first-of-type{
+    width: 65%;
+    text-align: center;
+}
+.allMatches table thead td:last-of-type{
+    width: 25%;
+
+}
+.allMatches table tbody tr .teamsInfo{
+    margin-top: 10px;
+}
+.allMatches table tbody tr td:first-of-type{
+    display: flex;
+    justify-content: center;
+}
+.allMatches table tbody tr td:first-of-type div{
+    display: flex;
+}
+.allMatches table tbody tr td:first-of-type .scores{
+    margin-right: 15px;
+    margin-left: 12px;
+}
+.allMatches table tbody tr td:first-of-type .team{
+    width: 50%;
+}
+.allMatches table tbody tr td:first-of-type .team:first-of-type{
+    justify-content: end;
+}
+.allMatches table tbody tr img{
+    width: 25px;
+}
+.allMatches table .Home,.allMatches table .Away{
+    gap: 5px;
+}
