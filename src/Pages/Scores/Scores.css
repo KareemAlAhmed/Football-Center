@@ -1,0 +1,89 @@
+.scores .allMatches h2{
+    padding: 10px 0;
+    border-bottom: 1px solid;
+}
+.scores .allMatches .matchScoresInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Scoreboard{
+    display: flex;
+    color: var(--text-color);
+    gap: 50px;
+}
+.Scoreboard .teamsInfo{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    gap: 5px;
+}
+.Scoreboard .teamsInfo .TeamsInfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Scoreboard .teamsInfo .TeamsInfo img{
+    width: 45px;
+}
+.Scoreboard .teamsInfo .TeamsInfo .teamNameAndRecord{
+    flex: 1;
+}
+.Scoreboard .teamsInfo .TeamsInfo .teamName{
+    font-size: 17px;
+    font-weight: 500;
+}
+.Scoreboard .teamsInfo .TeamsInfo .teamRecord{
+    font-size: 15px;
+    font-weight: 500;
+}
+.Scoreboard .teamsInfo .TeamsInfo .teamScore{
+    font-weight: 500;
+}
+.Scoreboard .matchLocation{
+    width: calc(100% / 4);
+    font-weight: 500;
+}
+.Scoreboard .matchPerformer{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    justify-content: space-between;
+}
+.Scoreboard .matchPerformer img{
+    width: 24px;
+}
+.Scoreboard .matchPerformer .TeamPerformer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Scoreboard .matchPerformer .TeamPerformer .teamNameAndLogo{
+    display: flex;
+    gap: 5px;
+}
+.Scoreboard .matchPerformer .TeamPerformer .scoredPlayerList{
+    display: flex;
+    gap: 10px;
+}
+
+.Scoreboard .matchPerformer .TeamPerformer .scoredPlayerList svg{
+    fill: var(--text-color);
+    width: 18px;
+}
+.Scoreboard .matchPerformer .TeamPerformer .scoredPlayerList ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Scoreboard .matchPerformer .TeamPerformer .optionsList{
+    display: flex;
+    gap: 10px;
+}
+.Scoreboard .matchPerformer .TeamPerformer .optionsList a{
+    color: var(--hover-color);
+    transition: all 0.3s ease;
+}
+.Scoreboard .matchPerformer .TeamPerformer .optionsList a:hover{
+    color: var(--text-color);
+}

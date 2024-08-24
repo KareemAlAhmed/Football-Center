@@ -8,6 +8,7 @@ import Auth from "./Pages/Auth/Auth";
 import UserFavorite from "./Pages/UserFavorite/UserFavorite";
 import UserFavoriteTeams from "./Pages/UserFavorite/UserFavoriteTeams";
 import SchedulePage from "./Pages/Schedule/SchedulePage";
+import Scores from "./Pages/Scores/Scores";
 
 
 export const router = createBrowserRouter([
@@ -44,5 +45,8 @@ export const router = createBrowserRouter([
   }, {
     path: "/schedule/_/date/:date",
     element: <SchedulePage />,
+  },{
+    path: "/scoreboard/_/date/:date",
+    element: <Scores />,
   },
 ]);

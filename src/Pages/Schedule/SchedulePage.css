@@ -1,39 +1,25 @@
-.date-timeline{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
+
 .wrapperList{
     width: 90%;
     overflow: hidden;
 }
-.date-timeline .date-list{
-    display: flex;
-    position: relative;
-    width: 100%;
-    gap: 10px;
-    transition: all 0.3s ease;
+.matchesBlock{
+    margin-top: 15px;
 }
-.date-timeline .date-list::-webkit-scrollbar {
-    display: none;
-  }
-.date-timeline .date-list li {
-    width: calc((100% - 60px) / 7);
-    display: block;
-    background-color: var(--social-back-color);
-    padding: 20px;
-    text-align: center;
+.matchesBlock h2{
+    font-size: 1.5rem;
+    color: var(--text-color);
 }
-.date-timeline .date-list li a{
-    display: block;
-    /* width: 200px; */
-}
-.date-timeline .date-list li a span{
-    display: block;
-    /* width: 200px; */
+.allMatches{
+    height: fit-content !important;
 }
 .allMatches table{
     width: 100%;
+    color: var(--text-color);
+}
+.allMatches table thead td{
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
 }
 .allMatches table thead td:first-of-type{
     width: 65%;
@@ -41,15 +27,18 @@
 }
 .allMatches table thead td:last-of-type{
     width: 25%;
-
 }
-.allMatches table tbody tr .teamsInfo{
-    margin-top: 10px;
+.allMatches table tbody tr:first-of-type td{
+    padding-top: 10px;
+}
+.allMatches table tbody tr td{
+    padding-bottom: 1em;
 }
 .allMatches table tbody tr td:first-of-type{
     display: flex;
     justify-content: center;
 }
+
 .allMatches table tbody tr td:first-of-type div{
     display: flex;
 }
@@ -68,4 +57,15 @@
 }
 .allMatches table .Home,.allMatches table .Away{
     gap: 5px;
+}
+.live{
+    color: red !important;
+}
+.hiddenTab{
+    display: none;
+}
+.loadingBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

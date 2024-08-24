@@ -6,6 +6,12 @@ export default function NavBar() {
   let currentUser=useSelector(state=>state.users.currentUser)
   let userToken=useSelector(state=>state.users.userToken)
   var prevScrollpos = window.pageYOffset;
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = (today.getMonth() + 1).toString().padStart(2, '0'); // Add leading 0 if necessary
+  const day = today.getDate().toString().padStart(2, '0');
+  
+  const formattedDate = `${year}${month}${day}`;
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     let nav=document.getElementById("navBar");
@@ -63,8 +69,8 @@ export default function NavBar() {
 
         <ul className="navList">
           <li><a href='#home' onClick={(e)=>{setLine(e)}}>Home</a></li>
-          <li><a href='' onClick={(e)=>{e.preventDefault();setLine(e);navigate('/schedule/_/date/:date')}}>Schedule</a></li>
-          <li><a href='#Fixtures' onClick={(e)=>{setLine(e)}}>Fixtures</a></li>
+          <li><a href='' onClick={(e)=>{e.preventDefault();setLine(e);navigate('/schedule/_/date/'+formattedDate)}}>Schedule</a></li>
+          <li><a href='' onClick={(e)=>{e.preventDefault();setLine(e);navigate('/scoreboard/_/date/'+formattedDate)}}>Scores</a></li>
           <li><a href='#Leagues' onClick={(e)=>{setLine(e)}}>Leagues</a></li>
           <li><a href='#Clubs' onClick={(e)=>{setLine(e)}}>Clubs</a></li>
           <li><a href='#News' onClick={(e)=>{setLine(e)}}>News</a></li>

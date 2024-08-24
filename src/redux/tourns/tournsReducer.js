@@ -1,5 +1,5 @@
 import { current } from "@reduxjs/toolkit";
-import { GET_ALL_TEAMS, GET_ALL_TEAMS_FAILED, GET_ALL_TEAMS_SUCCESS, GET_ALL_TOURNS, GET_ALL_TOURNS_BY_CAT, GET_ALL_TOURNS_BY_CAT_FAILED, GET_ALL_TOURNS_BY_CAT_SUCCESS, GET_ALL_TOURNS_FAILED, GET_ALL_TOURNS_SUCCESS, GET_DATE_MATCHES, GET_DATE_MATCHES_FAILED, GET_DATE_MATCHES_SUCCESS, GET_FAV_COMPET_TEAMS_SUCCESS, SET_FAV_COUNTRY, SET_FAV_COUNTRY_FAILED, SET_FAV_COUNTRY_SUCCESS } from "./tournsActionType";
+import { GET_ALL_TEAMS, GET_ALL_TEAMS_FAILED, GET_ALL_TEAMS_SUCCESS, GET_ALL_TOURNS, GET_ALL_TOURNS_BY_CAT, GET_ALL_TOURNS_BY_CAT_FAILED, GET_ALL_TOURNS_BY_CAT_SUCCESS, GET_ALL_TOURNS_FAILED, GET_ALL_TOURNS_SUCCESS, GET_DATE_MATCHES, GET_DATE_MATCHES_FAILED, GET_DATE_MATCHES_SUCCESS, GET_FAV_COMPET_TEAMS_SUCCESS, GET_MATCHES_SCORES, GET_MATCHES_SCORES_FAILED, GET_MATCHES_SCORES_SUCCESS, SET_FAV_COUNTRY, SET_FAV_COUNTRY_FAILED, SET_FAV_COUNTRY_SUCCESS } from "./tournsActionType";
 
 
 const initalState={
@@ -10,6 +10,7 @@ const initalState={
     currentError:"",
     allCompetetionByCat:sessionStorage.getItem("allCompetetionByCat") !=null ? JSON.parse(sessionStorage.getItem("allCompetetionByCat")) :[],
     selectedDateMatches:sessionStorage.getItem("selectedDateMatches") !=null ? JSON.parse(sessionStorage.getItem("selectedDateMatches")) :[],
+    selectedDateScores:sessionStorage.getItem("selectedDateScores") !=null ? JSON.parse(sessionStorage.getItem("selectedDateScores")) :[],
 
    
 }
@@ -125,7 +126,26 @@ const tournsReducer=(state=initalState,action)=>{
                 currentError:action.payload,
 
             }
-
+        case GET_MATCHES_SCORES:
+            return {
+                ...state,
+                loading:true,
+                currentUserError:""
+            }
+        case GET_MATCHES_SCORES_SUCCESS:
+            return {
+                ...state,
+                loading:false,
+                selectedDateScores:action.payload
+            }
+        case GET_MATCHES_SCORES_FAILED:
+            return {
+                ...state,
+                loading:false,
+                selectedDateScores:[],
+                currentError:action.payload,
+    
+                }    
         default: return state
     }
 }
