@@ -45,21 +45,26 @@
     position: relative;
 }
 .navList li{
-    display: inline-block;
-    padding: 0 15px;
+    display: inline-block; 
     font-size: 18px;
     font-weight: 600;
     vertical-align: middle;
     position: relative;
+    transition: all 0.3s linear;
+    cursor: pointer;
 }
 .navList li a{
     color: var(--text-color);
     transition: all 0.3s ease;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0 15px;
 }
-.navList li:hover a{
-    color: var(--hover-color);
+.navList li:hover{
+    background: var(--button-hover-color);
 }
-.navList li:last-child{
+.navList .Bottomline{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -156,4 +161,12 @@
     width: 50px;
     height: 100%;
     border-radius: 100%;
+}
+.dropM{
+    display: flex !important;
+    gap: 3px;
+}
+.dropM svg{
+    width: 15px;
+    fill: var(--text-color);
 }

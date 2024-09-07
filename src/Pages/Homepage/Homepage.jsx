@@ -16,7 +16,7 @@ export default function Homepage() {
     const [liverNews,setLiverNews]=useState([]);
     const getNews=async ()=>{
         try {
-            const res = await axios.get(`http://localhost:5000/api/getNews`);
+            const res = await axios.get(`http://localhost:5000/api/news/getNews`);
             setNews(res.data.result)
             setRealNews(res.data.REAL)
             setCityNews(res.data.CITY)
@@ -42,20 +42,8 @@ export default function Homepage() {
   return (
         <>
             <NavBar />
-           
-            {/* <GoogleLogin
-            onSuccess={credentialResponse => {
-                console.log(credentialResponse);
-                const credentialResponseDecoded=jwtDecode(credentialResponse.credential)
-                console.log(credentialResponseDecoded)
-            }}
-            onError={() => {
-                console.log('Login Failed');
-            }}
-            /> */}
-            
             <div className='home'>
-                <div className="seperatorBlock"></div>
+                {/* <div className="seperatorBlock"></div> */}
                 <div className="container">
                     <h3>Top News</h3>
                     <div className="listOfNews">

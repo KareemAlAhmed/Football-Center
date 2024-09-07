@@ -1,0 +1,50 @@
+.selectOpts{
+    display: flex;
+    gap: 10px;
+}
+
+.dropdown__select{
+    font-size: 19px;
+    background: transparent;
+    color: var(--text-color);
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+}
+.dropdown__select option{
+    background-color: var(--back-color);
+    cursor: pointer;
+}
+.dropdown__select option:hover{
+    background: var(--text-color) !important;
+    color: var(--back-color) !important;
+}
+.majorTransfers .wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.majorTransfers table{
+    color: var(--text-color);
+}
+.majorTransfers table thead th{
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.majorTransfers table tbody .clubInfo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+}
+.majorTransfers table tbody tr td{
+    padding-bottom: 10px;
+}
+.majorTransfers table tbody tr:first-of-type td{
+    padding-top: 10px;
+}
+.majorTransfers table tbody tr  img{
+    width: 32px;
+}
+

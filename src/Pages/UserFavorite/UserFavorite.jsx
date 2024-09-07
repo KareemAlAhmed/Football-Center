@@ -25,12 +25,7 @@ export default function UserFavorite() {
   }
 
   const getLeagueTeams=async(ele)=>{
-
-    // dispatch(GET_FAV_COUNT_TOURNS(ele.ID))
-    // dispatch(setFavCountrySuccuessed(ele))
-      dispatch(getLeagueTeamsInfo(ele))
-    // const result = await axios.get(baseUrl + "api/countries/"+ele.TEAM_ID+"/leagues");
-    
+    dispatch(getLeagueTeamsInfo(ele))
     navigate("/followings/competetions/"+ele.id+"/teams")
   }
   const setFavoriteTeam=(team)=>{

@@ -5,12 +5,15 @@ import { thunk } from "redux-thunk";
 
 import logger from 'redux-logger';
 import tournsReducer from "./tourns/tournsReducer.js";
-
+import newsReducer from "./news/newsReducer.js";
+import teamsReducer from "./team/teamsReducer.js";
 // import { composeWithDevTools } from '@redux-devtools/extension';
 
 const rootReducer=combineReducers({
     users:userReducer,
-    tourns:tournsReducer
+    tourns:tournsReducer,
+    news:newsReducer,
+    teams:teamsReducer,
 })
 
 const store=createStore(rootReducer, applyMiddleware(thunk,logger));

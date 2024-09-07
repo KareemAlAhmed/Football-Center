@@ -1,0 +1,132 @@
+.pageContent{
+    width: 95%;
+    margin: 15px auto;
+    display: flex;
+}
+.pageHeader{
+    height: fit-content !important;
+}
+.teamBlock .pageContent{
+    gap: 50px;
+}
+.teamBlock .teamSchedule{
+    width: 20%;
+}
+.teamBlock .teamSchedule .listOfMatches{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.listOfMatches .match{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--text-color);
+}
+.listOfMatches .match .matchInfo{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.listOfMatches .match .matchInfo .homeTeam,.listOfMatches .match .matchInfo .awayTeam{
+    display: flex;
+    gap: 20px;
+}
+.listOfMatches .match .leagueInfo{
+    display: flex;
+    justify-content: center;
+}
+.listOfMatches .match svg{
+    width: 10px;
+    fill: var(--text-color);
+}
+.listOfMatches .match .matchStatus{
+    display: flex;
+    gap: 15px;
+}
+.listOfMatches .match .matchTimeAndDate{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.matchInfo .homeTeamName,.match .awayTeamName{
+    font-weight: 600;
+}
+.losingScore{
+    color: var(--hover-color) !important;
+}
+.pageContent .teamNews{
+    flex: 1;
+}
+.pageContent .NewsSmallCard{
+    width: 100%;
+    height: fit-content;
+}
+.pageContent .NewsSmallCard .newsImg img{
+    width: 100%;
+}
+.pageContent .leagueStanding table{
+    color: var(--text-color);
+    margin-top: 10px;
+    width: 100%;
+}
+.pageContent .leagueStanding table thead th{
+    padding: 0 10px 5px;
+    text-align: left;
+}
+
+.pageContent .leagueStanding table thead th:first-of-type{
+   
+    padding-left: 0;
+}
+.pageContent .leagueStanding table tbody td{
+    padding: 0 10px 5px;
+}
+
+.pageContent .leagueStanding table tbody tr td:first-of-type{
+    text-align: left;
+    padding-left: 0;
+}
+.pageContent .leagueStanding table tbody td a{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.pageContent .leagueStanding .moreStandings,.pageContent .moreRanking{
+    color: var(--text-color);
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.pageContent .teamSats{
+    color: var(--text-color);
+    margin-top: 15px;
+}
+.pageContent .teamSats header{
+    border-bottom: 1px dotted var(--hover-color);
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.pageContent .teamSats .statList{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pageContent .teamSats .statList .statsInfo{
+    width: calc(100% / 2);
+    padding: 3px;
+    text-align: center;
+    color: var(--hover-color);
+}
+.pageContent .teamSats .statList .statsInfo p:nth-child(2){
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 29px;
+}
+.noData{
+    display: flex;
+    justify-content: center;
+}

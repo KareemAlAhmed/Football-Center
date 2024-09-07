@@ -1,0 +1,31 @@
+.teamSchedule .pageContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.teamSchedule .pageContent table{
+    width: 100%;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+.teamSchedule .pageContent table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+}
+.teamSchedule .pageContent table tr td{
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.teamSchedule .pageContent table tr .TeamsLogos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.teamSchedule .pageContent table tr img{
+    width: 25px;
+    height: 27px;
+    cursor: pointer;
+}
+.teamSchedule .pageContent table tr a{
+    color: var(--text-color);
+}

@@ -1,5 +1,5 @@
 import { current } from "@reduxjs/toolkit";
-import { GET_ALL_TEAMS, GET_ALL_TEAMS_FAILED, GET_ALL_TEAMS_SUCCESS, GET_ALL_TOURNS, GET_ALL_TOURNS_BY_CAT, GET_ALL_TOURNS_BY_CAT_FAILED, GET_ALL_TOURNS_BY_CAT_SUCCESS, GET_ALL_TOURNS_FAILED, GET_ALL_TOURNS_SUCCESS, GET_DATE_MATCHES, GET_DATE_MATCHES_FAILED, GET_DATE_MATCHES_SUCCESS, GET_FAV_COMPET_TEAMS_SUCCESS, GET_MATCHES_SCORES, GET_MATCHES_SCORES_FAILED, GET_MATCHES_SCORES_SUCCESS, SET_FAV_COUNTRY, SET_FAV_COUNTRY_FAILED, SET_FAV_COUNTRY_SUCCESS } from "./tournsActionType";
+import { GET_ALL_COMPET, GET_ALL_COMPET_FAILED, GET_ALL_COMPET_SUCCESS, GET_ALL_TEAMS, GET_ALL_TEAMS_FAILED, GET_ALL_TEAMS_SUCCESS, GET_ALL_TOURNS_BY_CAT, GET_ALL_TOURNS_BY_CAT_FAILED, GET_ALL_TOURNS_BY_CAT_SUCCESS, GET_COMPET_TEAMS, GET_COMPET_TEAMS_FAILED, GET_COMPET_TEAMS_SUCCESS, GET_DATE_MATCHES, GET_DATE_MATCHES_FAILED, GET_DATE_MATCHES_SUCCESS, GET_FAV_COMPET_TEAMS_SUCCESS, GET_MATCHES_SCORES, GET_MATCHES_SCORES_FAILED, GET_MATCHES_SCORES_SUCCESS, SET_FAV_COUNTRY, SET_FAV_COUNTRY_FAILED, SET_FAV_COUNTRY_SUCCESS } from "./tournsActionType";
 
 
 const initalState={
@@ -11,33 +11,15 @@ const initalState={
     allCompetetionByCat:sessionStorage.getItem("allCompetetionByCat") !=null ? JSON.parse(sessionStorage.getItem("allCompetetionByCat")) :[],
     selectedDateMatches:sessionStorage.getItem("selectedDateMatches") !=null ? JSON.parse(sessionStorage.getItem("selectedDateMatches")) :[],
     selectedDateScores:sessionStorage.getItem("selectedDateScores") !=null ? JSON.parse(sessionStorage.getItem("selectedDateScores")) :[],
-
+    selectedCompetTeams:sessionStorage.getItem("selectedCompetTeams") !=null ? JSON.parse(sessionStorage.getItem("selectedCompetTeams")) :[],
+    allCompets:sessionStorage.getItem("allCompets") !=null ? JSON.parse(sessionStorage.getItem("allCompets")) :[],
    
 }
 
 const tournsReducer=(state=initalState,action)=>{
     switch(action.type){
        
-        case GET_ALL_TOURNS:
-            return {
-                ...state,
-                loading:true,
-                currentUserError:""
-            }
-        case GET_ALL_TOURNS_SUCCESS:
-            return {
-                ...state,
-                loading:false,
-                allTourns:action.payload
-            }
-        case GET_ALL_TOURNS_FAILED:
-            return {
-                ...state,
-                loading:false,
-                allTourns:[],
-                currentError:action.payload,
-
-            }
+        
 
         case GET_ALL_TEAMS:
             return {
@@ -98,7 +80,25 @@ const tournsReducer=(state=initalState,action)=>{
                 loading:false,
                 allCompetetionByCat:[],
                 currentError:action.payload,
-
+            }
+        case GET_ALL_COMPET:
+            return {
+                ...state,
+                loading:true,
+                currentUserError:""
+            }
+        case GET_ALL_COMPET_SUCCESS:
+            return {
+                ...state,
+                loading:false,
+                allCompets:action.payload
+            }
+        case GET_ALL_COMPET_FAILED:
+            return {
+                ...state,
+                loading:false,
+                allCompets:[],
+                currentError:action.payload,
             }
         case GET_FAV_COMPET_TEAMS_SUCCESS:
             return{
@@ -144,7 +144,25 @@ const tournsReducer=(state=initalState,action)=>{
                 loading:false,
                 selectedDateScores:[],
                 currentError:action.payload,
-    
+                }    
+        case GET_COMPET_TEAMS:
+            return {
+                ...state,
+                loading:true,
+                currentUserError:""
+            }
+        case GET_COMPET_TEAMS_SUCCESS:
+            return {
+                ...state,
+                loading:false,
+                selectedCompetTeams:action.payload.teams
+            }
+        case GET_COMPET_TEAMS_FAILED:
+            return {
+                ...state,
+                loading:false,
+                selectedCompetTeams:[],
+                currentError:action.payload,
                 }    
         default: return state
     }

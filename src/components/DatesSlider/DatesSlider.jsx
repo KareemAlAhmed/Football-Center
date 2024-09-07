@@ -8,6 +8,7 @@ export default function DatesSlider({forComp}) {
     const dispatch=useDispatch()
     let loading=useSelector(state=>state.tourns.loading)
     let [currentDate,setCurrentDate]=useState("");
+
     const nextPhase = () => {
         let con=document.querySelector(".date-list")
         let nextBtn=document.querySelector(".nextPhase")
@@ -110,7 +111,14 @@ export default function DatesSlider({forComp}) {
             newDateButtonsFull.push(date);
           }
         }
-        const currentDateIndex = newDateButtonsFull.findIndex(date => date.getDate() === new Date().getDate()) + 1;
+        // const currentDateIndex = newDateButtonsFull.findIndex(date => date.getDate() === new Date().getDate()) + 1;
+        const currentDateIndex = newDateButtonsFull.findIndex(date => {
+          const currentDate = new Date();
+          return date.getDate() === currentDate.getDate() &&
+                 date.getMonth() === currentDate.getMonth() &&
+                 date.getFullYear() === currentDate.getFullYear();   
+        
+        }) + 1;
         let con=document.querySelector(".date-list")
         const today = new Date();
         const year1 = today.getFullYear();
@@ -123,9 +131,11 @@ export default function DatesSlider({forComp}) {
         }
         const formattedDate = `${year1}${month1}${day1}`;
         if(parseInt(currentDateIndex % 7) === 0){
+          console.log(currentDateIndex)
           con.style.transform = `translateX(-${((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt((currentDateIndex - 1) / 7)}px)`;
           setCurrentSlidedDate(parseInt((currentDateIndex - 1) / 7))
         }else{
+          console.log(((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt(currentDateIndex / 7))
           con.style.transform = `translateX(-${((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt(currentDateIndex / 7)}px)`;
           setCurrentSlidedDate(parseInt(currentDateIndex / 7))
         }
@@ -161,13 +171,29 @@ export default function DatesSlider({forComp}) {
         <div className="wrapperList">
           <ul className="date-list" id='date-list'>
               {dateBtns.map((date,index)=>{ 
-                  const currentDateIndex = dateBtns.findIndex(date => date.getDate() === new Date().getDate()) + 1;
+                  // const currentDateIndex = dateBtns.findIndex(date => date.getDate() === new Date().getDate()) + 1;
+                  const currentDateIndex = dateBtns.findIndex(date => {
+                    const currentDate = new Date();
+                    return date.getDate() === currentDate.getDate() &&
+                           date.getMonth() === currentDate.getMonth() &&
+                           date.getFullYear() === currentDate.getFullYear();   
+                  
+                  }) + 1;
                   const dateyear = date.getFullYear();
                   const datemonth = (date.getMonth() + 1).toString().padStart(2, '0'); // Add leading 0 if necessary
                   const dateday = date.getDate().toString().padStart(2, '0');
                   
                   const NewformattedDate = `${dateyear}${datemonth}${dateday}`;
 
+                // console.log(index + 1 === currentDateIndex && currentMonth === datemonth && currentYear === dateyear)
+                // console.log(currentYear,dateyear)
+                // console.log(currentMonth === datemonth)
+                // console.log(currentYear === dateyear)
+                // if(index + 1 === currentDateIndex){
+                //   console.log(date)
+                //   console.log(new Date().getDate())
+
+                // }
                   if(forComp === "Schedule"){
                     return <li key={index + 1} className={index + 1 === currentDateIndex && "activeLi"} onClick={(e)=>{e.stopPropagation();getDateMatches(e,NewformattedDate)}}>
                     <a  onClick={(e)=>{e.preventDefault();e.stopPropagation();getDateMatches(e,NewformattedDate)}}

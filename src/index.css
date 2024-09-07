@@ -39,6 +39,7 @@ a{
 h3 {
   font-size: 1.75rem;
   /* color: #484848; */
+  color: var(--text-color);
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
@@ -199,7 +200,17 @@ p {
   75%{-webkit-transform:rotate(180deg)}
   100%{-webkit-transform:rotate(360deg)}
 }
+h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text-color);
+}
 h2{
   font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+h4{
+  font-size: 22px;
   color: var(--text-color);
 }

@@ -12,7 +12,7 @@ import * as Yup from 'yup';
 import 'react-toastify/dist/ReactToastify.css';
 import { useFormik } from 'formik';
 import { useDispatch, useSelector } from 'react-redux';
-import { LOGINGIN_USER, logingInUser, REGISTERING_USER } from '../../redux/user/userActions';
+import { LOGINGIN_USER, REGISTERING_USER } from '../../redux/user/userActions';
 import { ToastContainer } from 'react-toastify';
 
 const SignupSchema = Yup.object({
@@ -38,7 +38,6 @@ export default function Auth() {
    
     const currentError=useSelector(state=>state.users.currentUserError);
     const {slug}=useParams();
-    const [mode,setMode]=useState(slug)
     const [userRegistering,setUserRegistering]=useState(slug === "register" ? true : false)
 
     const login = useGoogleLogin({

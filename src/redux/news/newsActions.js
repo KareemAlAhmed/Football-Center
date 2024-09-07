@@ -1,0 +1,73 @@
+
+
+import axios from "axios";
+import { baseUrl } from "../../utils/baseUrl";
+import { GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
+
+export function getTransferTopNews(){
+    return{
+        type:GET_TRANSFER_TOP_NEWS
+    }
+}
+export function getTransferTopNewsSuccuessed(data){
+    sessionStorage.setItem("transferTopNews",JSON.stringify(data))
+   
+    return{
+        type:GET_TRANSFER_TOP_NEWS_SUCCESS,
+        payload:data
+    }
+}
+export function getTransferTopNewsFailed(error){
+    return{
+        type:GET_TRANSFER_TOP_NEWS_FAILED,
+        payload:error
+    }
+}
+
+export function getMajorTransfers(){
+    return{
+        type:GET_MAJOR_TRANSFERS
+    }
+}
+export function getMajorTransfersSuccuessed(data){
+    sessionStorage.setItem("currentLeagueMajorTransfer",JSON.stringify(data))
+   
+    return{
+        type:GET_MAJOR_TRANSFERS_SUCCESS,
+        payload:data
+    }
+}
+export function getMajorTransfersFailed(error){
+    return{
+        type:GET_MAJOR_TRANSFERS_FAILED,
+        payload:error
+    }
+}
+
+export function GET_TRANSFERS_TOP_NEWS(){
+    return function(dispatch){
+        dispatch(getTransferTopNews());     
+        axios.get(baseUrl+`api/news/getTransferNews`)
+        .then(re=>{
+            console.log(re.data)
+            dispatch(getTransferTopNewsSuccuessed(re.data))
+        })
+        .catch(()=>{
+            dispatch(getTransferTopNewsFailed("Error While Getting The Data"))
+            
+        })
+    }
+}
+export function GET_MAJOR_TRANSFERS_DATA(leagueSlug='any',season='any'){
+    return function(dispatch){
+        dispatch(getMajorTransfers());     
+        axios.get(baseUrl+`api/news/getMajorTransfer/${leagueSlug}/season/${season}`)
+        .then(re=>{
+            dispatch(getMajorTransfersSuccuessed(re.data))
+        })
+        .catch(()=>{
+            dispatch(getMajorTransfersFailed("Error While Getting The Data"))
+            
+        })
+    }
+}
