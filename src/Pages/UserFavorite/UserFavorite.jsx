@@ -3,13 +3,14 @@ import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
 import "./UserFavorite.css"
 import { useDispatch, useSelector } from 'react-redux';
-import {  GET_TEAMS, GET_TOURNS_BY_CAT, getLeagueTeamsInfo } from '../../redux/tourns/tournsActions';
+import {  GET_TOURNS_BY_CAT, getLeagueTeamsInfo } from '../../redux/tourns/tournsActions';
 import { useNavigate } from 'react-router-dom';
+import { GET_TEAMS } from '../../redux/team/teamsActions';
 export default function UserFavorite() {
   const [teamsFiltered,setTeamsFiltered]=useState([])
   const [searchText,setSearchText]=useState("")
   const [isSearchMode,setSearchMode]=useState(false)
-  const allTeams=useSelector(state=>state.tourns.allTeams);
+  const allTeams=useSelector(state=>state.teams.allTeams);
   const allCompetetionByCat=useSelector(state=>state.tourns.allCompetetionByCat);
   const currentUser=useSelector(state=>state.users.currentUser);
   const dispatch=useDispatch();

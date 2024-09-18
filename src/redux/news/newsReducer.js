@@ -1,5 +1,5 @@
 import { current } from "@reduxjs/toolkit";
-import { GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
+import { GET_COMPET_MAJOR_TRANSFERS_SUCCESS, GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
 
 
 const initalState={
@@ -7,6 +7,7 @@ const initalState={
     newsError:"",
     transferTopNews:sessionStorage.getItem("transferTopNews") !=null ? JSON.parse(sessionStorage.getItem("transferTopNews")) :[],
     majorTransfers:sessionStorage.getItem("currentLeagueMajorTransfer") !=null ? JSON.parse(sessionStorage.getItem("currentLeagueMajorTransfer")) :[],
+    currentCompetTransfers:sessionStorage.getItem("currentCompetTransfers") !=null ? JSON.parse(sessionStorage.getItem("currentCompetTransfers")) :[],
 
 }
 
@@ -51,6 +52,12 @@ const newsReducer=(state=initalState,action)=>{
                 majorTransfers:[],
                 newsError:action.payload,
             }
+            case GET_COMPET_MAJOR_TRANSFERS_SUCCESS:
+                return {
+                    ...state,
+                    loading:false,
+                    currentCompetTransfers:action.payload
+                }
         default: return state
     }
 }

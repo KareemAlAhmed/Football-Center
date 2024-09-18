@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 import "./Scores.css"
 import DefaultLogo from "../../components/default.png"
 import { Link } from 'react-router-dom';
+import { getTeamImage } from '../../utils/baseUrl';
 export default function Scores() {
   let loading=useSelector(state=>state.tourns.loading)
   let scores=useSelector(state=>state.tourns.selectedDateScores)
@@ -38,11 +39,11 @@ export default function Scores() {
                                                 </div>
                                                 <div className="home TeamsInfo">
                                                     <div className="teamLogo">
-                                                      <img src={match.HomeTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.HomeTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" />
+                                                      <Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}><img src={match.HomeTeam.id != null ? getTeamImage(match.HomeTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" /></Link>
                                                     </div>
                                                     <div className="teamNameAndRecord">
                                                         <div className="teamName">
-                                                          {match.HomeTeam.name}
+                                                          <Link className='teamLink' to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}>{match.HomeTeam.name}</Link>
                                                         </div>
                                                         <div className="teamRecord">
                                                           {match.HomeTeam.record}
@@ -54,11 +55,11 @@ export default function Scores() {
                                                 </div>
                                                 <div className="away TeamsInfo">
                                                 <div className="teamLogo">
-                                                      <img src={match.AwayTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.AwayTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" />
+                                                    <Link to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}><img src={match.AwayTeam.id != null ? getTeamImage(match.AwayTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" /></Link>
                                                     </div>
                                                     <div className="teamNameAndRecord">
                                                         <div className="teamName">
-                                                          {match.AwayTeam.name}
+                                                          <Link className='teamLink' to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}>{match.AwayTeam.name}</Link>
                                                         </div>
                                                         <div className="teamRecord">
                                                           {match.AwayTeam.record}
@@ -91,9 +92,9 @@ export default function Scores() {
                                                   </div>
                                                   {match.status === "NOT STARTED" ? (
                                                     <ul className='optionsList'>
-                                                      <li><Link >Squads</Link></li>
-                                                      <li><Link >Stats</Link></li>
-                                                      <li><Link >Fixtures</Link></li>
+                                                      <li><Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}/squads`}>Squads</Link></li>
+                                                      <li><Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}/stats/scoring`}>Stats</Link></li>
+                                                      <li><Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}/fixture`}>Fixtures</Link></li>
                                                     </ul>
                                                   ) :(
                                                     <div className="scoredPlayerList">
@@ -129,9 +130,9 @@ export default function Scores() {
 
                                                   {match.status === "NOT STARTED" ? (
                                                     <ul className='optionsList'>
-                                                      <li><Link >Squads</Link></li>
-                                                      <li><Link >Stats</Link></li>
-                                                      <li><Link >Fixtures</Link></li>
+                                                      <li><Link to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}/squads`}>Squads</Link></li>
+                                                      <li><Link to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}/stats/scoring`}>Stats</Link></li>
+                                                      <li><Link to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}/fixture`}>Fixtures</Link></li>
                                                     </ul>
                                                   ) :(
                                                     <div className="scoredPlayerList">

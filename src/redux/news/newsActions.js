@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { baseUrl } from "../../utils/baseUrl";
-import { GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
+import { GET_COMPET_MAJOR_TRANSFERS, GET_COMPET_MAJOR_TRANSFERS_SUCCESS, GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
 
 export function getTransferTopNews(){
     return{
@@ -43,6 +43,15 @@ export function getMajorTransfersFailed(error){
         payload:error
     }
 }
+export function getCompetMajorTransfersSuccuessed(data,id){
+    data.id=id
+    sessionStorage.setItem("currentCompetTransfers",JSON.stringify(data))
+   
+    return{
+        type:GET_COMPET_MAJOR_TRANSFERS_SUCCESS,
+        payload:data
+    }
+}
 
 export function GET_TRANSFERS_TOP_NEWS(){
     return function(dispatch){
@@ -58,12 +67,12 @@ export function GET_TRANSFERS_TOP_NEWS(){
         })
     }
 }
-export function GET_MAJOR_TRANSFERS_DATA(leagueSlug='any',season='any'){
+export function GET_MAJOR_TRANSFERS_DATA(competSlug='any',season='any',forPage=null,competId=null){
     return function(dispatch){
         dispatch(getMajorTransfers());     
-        axios.get(baseUrl+`api/news/getMajorTransfer/${leagueSlug}/season/${season}`)
+        axios.get(baseUrl+`api/news/getMajorTransfer/${competSlug}/season/${season}`)
         .then(re=>{
-            dispatch(getMajorTransfersSuccuessed(re.data))
+            forPage == null ? dispatch(getMajorTransfersSuccuessed(re.data)) : dispatch(getCompetMajorTransfersSuccuessed(re.data,competId))
         })
         .catch(()=>{
             dispatch(getMajorTransfersFailed("Error While Getting The Data"))

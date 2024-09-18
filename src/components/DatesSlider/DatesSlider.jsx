@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { GET_DATE_MATCHES_INFO, GET_DATE_SCORES } from '../../redux/tourns/tournsActions';
+import { GET_COMPET_DATE_MATCHES_INFO, GET_COMPET_DATE_SCORES, GET_DATE_MATCHES_INFO, GET_DATE_SCORES } from '../../redux/tourns/tournsActions';
 import { useDispatch, useSelector } from 'react-redux';
 import "./DatesSlider.css"
-export default function DatesSlider({forComp}) {
+import { Link } from 'react-router-dom';
+export default function DatesSlider({forComp,competSlug=null}) {
     let [currentSlidedDate,setCurrentSlidedDate]=useState(1);
     let [dateBtns,setDateBtns]=useState([])
     const dispatch=useDispatch()
@@ -57,7 +58,19 @@ export default function DatesSlider({forComp}) {
         const formatted_date2 = selectedDateString.toLocaleDateString('en-US', options);
         document.querySelector(".selectedDateString").innerHTML=formatted_date2
     }
-
+    const getCompetDateScores=(e,date,selectedDateString)=>{
+      document.querySelector(".activeLi").classList.remove("activeLi")
+      e.target.closest('li').classList.add('activeLi')
+      dispatch(GET_COMPET_DATE_SCORES(date,competSlug))
+      const options = { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' };
+      const formatted_date2 = selectedDateString.toLocaleDateString('en-US', options);
+      document.querySelector(".selectedDateString").innerHTML=formatted_date2
+  }
+  const getCompetDateSchedules=(e,date,selectedDateString)=>{
+    document.querySelector(".activeLi").classList.remove("activeLi")
+    e.target.closest('li').classList.add('activeLi')
+    dispatch(GET_COMPET_DATE_MATCHES_INFO(date,competSlug))
+}
 
 
     useEffect(() => {
@@ -131,11 +144,9 @@ export default function DatesSlider({forComp}) {
         }
         const formattedDate = `${year1}${month1}${day1}`;
         if(parseInt(currentDateIndex % 7) === 0){
-          console.log(currentDateIndex)
           con.style.transform = `translateX(-${((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt((currentDateIndex - 1) / 7)}px)`;
           setCurrentSlidedDate(parseInt((currentDateIndex - 1) / 7))
         }else{
-          console.log(((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt(currentDateIndex / 7))
           con.style.transform = `translateX(-${((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt(currentDateIndex / 7)}px)`;
           setCurrentSlidedDate(parseInt(currentDateIndex / 7))
         }
@@ -145,6 +156,12 @@ export default function DatesSlider({forComp}) {
         }
         if(forComp === "Scores"){
           dispatch(GET_DATE_SCORES(formattedDate))
+        }
+        if(forComp === "CompetScores"){
+          dispatch(GET_COMPET_DATE_SCORES(formattedDate,competSlug))
+        }
+        if(forComp === "CompetSchedule"){
+          dispatch(GET_COMPET_DATE_MATCHES_INFO(formattedDate,competSlug))
         }
 
 
@@ -165,7 +182,12 @@ export default function DatesSlider({forComp}) {
     
   return (
     <div className="date-timeline">
-      <h3>Schedule</h3>
+   
+      {(forComp !== "CompetScores" && forComp !== "CompetSchedule") &&
+      (
+        <h3>Schedule</h3>
+      )
+      }
       <div className="scheduler">
         <button className='prevPhase' onClick={()=>prevPhase()}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg></button>
         <div className="wrapperList">
@@ -185,33 +207,39 @@ export default function DatesSlider({forComp}) {
                   
                   const NewformattedDate = `${dateyear}${datemonth}${dateday}`;
 
-                // console.log(index + 1 === currentDateIndex && currentMonth === datemonth && currentYear === dateyear)
-                // console.log(currentYear,dateyear)
-                // console.log(currentMonth === datemonth)
-                // console.log(currentYear === dateyear)
-                // if(index + 1 === currentDateIndex){
-                //   console.log(date)
-                //   console.log(new Date().getDate())
-
-                // }
                   if(forComp === "Schedule"){
                     return <li key={index + 1} className={index + 1 === currentDateIndex && "activeLi"} onClick={(e)=>{e.stopPropagation();getDateMatches(e,NewformattedDate)}}>
-                    <a  onClick={(e)=>{e.preventDefault();e.stopPropagation();getDateMatches(e,NewformattedDate)}}
+                    <Link onClick={(e)=>{e.preventDefault();e.stopPropagation();getDateMatches(e,NewformattedDate)}}
                     style={{width:`calc(((${document.querySelector(".date-list").offsetWidth}px - 60px) / 7) - 40px)`}}>
                       <time dateTime="${date.toISOString().slice(0, 10)}">{date.toLocaleString('en-US', { weekday: 'short' })} <span>{date.getDate()} {date.toLocaleString('en-US', { month: 'short' })}</span></time>
-                    </a>
+                    </Link>
                   </li>   
                   }
 
                   else if(forComp === "Scores"){
                     return <li key={index + 1} className={index + 1 === currentDateIndex && "activeLi"} onClick={(e)=>{e.stopPropagation();getDateScores(e,NewformattedDate,date)}}>
-                    <a  onClick={(e)=>{e.preventDefault();e.stopPropagation();getDateScores(e,NewformattedDate,date)}}
+                    <Link  onClick={(e)=>{e.preventDefault();e.stopPropagation();getDateScores(e,NewformattedDate,date)}}
                     style={{width:`calc(((${document.querySelector(".date-list").offsetWidth}px - 60px) / 7) - 40px)`}}>
                       <time dateTime="${date.toISOString().slice(0, 10)}">{date.toLocaleString('en-US', { weekday: 'short' })} <span>{date.getDate()} {date.toLocaleString('en-US', { month: 'short' })}</span></time>
-                    </a>
+                    </Link>
                   </li>  
                   }
-
+                  else if(forComp === "CompetScores"){
+                    return <li key={index + 1} className={index + 1 === currentDateIndex && "activeLi"} onClick={(e)=>{e.stopPropagation();getCompetDateScores(e,NewformattedDate,date)}}>
+                    <Link onClick={(e)=>{e.preventDefault();e.stopPropagation();getCompetDateScores(e,NewformattedDate,date)}}
+                    style={{width:`calc(((${document.querySelector(".date-list").offsetWidth}px - 60px) / 7) - 40px)`}}>
+                      <time dateTime="${date.toISOString().slice(0, 10)}">{date.toLocaleString('en-US', { weekday: 'short' })} <span>{date.getDate()} {date.toLocaleString('en-US', { month: 'short' })}</span></time>
+                    </Link>
+                  </li>  
+                  }
+                  else if(forComp === "CompetSchedule"){
+                    return <li key={index + 1} className={index + 1 === currentDateIndex && "activeLi"} onClick={(e)=>{e.stopPropagation();getCompetDateSchedules(e,NewformattedDate,date)}}>
+                    <Link onClick={(e)=>{e.preventDefault();e.stopPropagation();getCompetDateSchedules(e,NewformattedDate,date)}}
+                    style={{width:`calc(((${document.querySelector(".date-list").offsetWidth}px - 60px) / 7) - 40px)`}}>
+                      <time dateTime="${date.toISOString().slice(0, 10)}">{date.toLocaleString('en-US', { weekday: 'short' })} <span>{date.getDate()} {date.toLocaleString('en-US', { month: 'short' })}</span></time>
+                    </Link>
+                  </li>  
+                  }
 
 
 
@@ -221,7 +249,7 @@ export default function DatesSlider({forComp}) {
         </div>
         <button className='nextPhase' onClick={()=>nextPhase()}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></button>
       </div>
-      {forComp === "Scores" && (
+      {(forComp === "Scores" || forComp ==="CompetScores") && (
         <h3 className='selectedDateString'>{currentDate}</h3>
       )}
     </div>

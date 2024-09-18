@@ -13,7 +13,7 @@ export default function Clubs() {
 
   useEffect(()=>{
     sessionStorage.getItem("allCompets") == null && dispatch(GET_ALL_COMPETETIONS())
-    sessionStorage.getItem("selectedCompetTeams") == null && dispatch(GET_COMPETETION_TEAMS("English Premier League"))
+    sessionStorage.getItem("selectedCompetTeams") == null && dispatch(GET_COMPETETION_TEAMS("eng.1","teamsPage"))
     let titleBlock=document.querySelector(".titleBlock")
     let loadingHeight=window.innerHeight - 95 -titleBlock.offsetHeight - document.querySelector(".footer").offsetHeight -35
         if(document.querySelector(".loadingBlock")){
@@ -24,7 +24,7 @@ export default function Clubs() {
         }
   },[])
   const getCompetTeams=(name)=>{
-    dispatch(GET_COMPETETION_TEAMS(name))
+    dispatch(GET_COMPETETION_TEAMS(name,"teamsPage"))
   }
   return (
     <>  
@@ -37,9 +37,9 @@ export default function Clubs() {
                 <select name="league" id="league" onChange={(e)=>getCompetTeams(e.target.value)}>
                   {allCompets?.map((league,index)=>{
                     if(league.leagueName === "English Premier League"){
-                      return <option value={league.leagueName} selected key={index}>{league.leagueName}</option>
+                      return <option value={league.slug} selected key={index}>{league.leagueName}</option>
                     }else{                     
-                      return <option value={league.leagueName} key={index}>{league.leagueName}</option>
+                      return <option value={league.slug} key={index}>{league.leagueName}</option>
                     }
                   })}
                 </select>
@@ -61,11 +61,11 @@ export default function Clubs() {
                           </div>
                           <div className="teamInfo">
                               <div className="teamNameAndOpt">
-                                  <p>{team.name}</p>
+                                  <p className='teamLink'>{team.name}</p>
                                   <ul className='optionsList'>
-                                      <li><Link >Squads</Link></li>
-                                      <li><Link >Stats</Link></li>
-                                      <li><Link >Fixtures</Link></li>
+                                      <li><Link to={`/team/_/id/${team.id}/${team.slug}/squads`}>Squads</Link></li>
+                                      <li><Link to={`/team/_/id/${team.id}/${team.slug}/stats/scoring`}>Stats</Link></li>
+                                      <li><Link to={`/team/_/id/${team.id}/${team.slug}/fixture`}>Fixtures</Link></li>
                                   </ul>
                               </div>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>

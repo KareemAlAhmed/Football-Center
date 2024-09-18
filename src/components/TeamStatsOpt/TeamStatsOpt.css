@@ -1,0 +1,8 @@
+.teamStat .pageContent .Nav__Secondary__Menu{
+    margin-bottom: 10px;
+}
+.teamStat .pageContent .Nav__Secondary__Menu li{
+    width: calc(100% / 3);
+    text-align: center;
+    font-weight: 500;
+}

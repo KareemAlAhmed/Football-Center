@@ -10,11 +10,17 @@
 }
 .teamSchedule .pageContent table tr th{
     text-align: left;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 .teamSchedule .pageContent table tr td{
     padding-right: 15px;
     padding-bottom: 5px;
+}
+.teamSchedule .pageContent table tr td:nth-child(2){
+    text-align: right;
+}
+.teamSchedule .pageContent table tr th:nth-child(3){
+    text-align: center;
 }
 .teamSchedule .pageContent table tr .TeamsLogos{
     display: flex;

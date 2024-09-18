@@ -1,0 +1,37 @@
+.competStatDiscpline .pageContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.competStatDiscpline .pageContent table{
+    width: 100%;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+.competStatDiscpline .pageContent table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+}
+.competStatDiscpline .pageContent table tr td{
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.competStatDiscpline .pageContent table tr .TeamsLogos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.competStatDiscpline .pageContent table tr img{
+    width: 25px;
+    height: 27px;
+    cursor: pointer;
+}
+.competStatDiscpline .pageContent table tr a{
+    color: var(--text-color);
+}
+.competStatDiscpline .pageContent .listOfPlayers{
+    display: flex;
+}
+.competStatDiscpline .pageContent .listOfPlayers .Table__fixtures{
+    width: 100%;
+}

@@ -30,7 +30,8 @@ export default function CompetetionsPage() {
                                             </div>
                                             <div className="competetionInfo">
                                                 <div className="comptNameAndOpt">
-                                                    <p>{compt.leagueName}</p>
+                                                 <Link className='competLink' to={`/competetion/_/id/${compt.id}/${compt.slug}`}><p>{compt.leagueName}</p></Link>
+                                                    
                                                     <ul className='optionsList'>
                                                         <li><Link >Squads</Link></li>
                                                         <li><Link >Stats</Link></li>

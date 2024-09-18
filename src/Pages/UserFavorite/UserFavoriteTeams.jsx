@@ -14,8 +14,8 @@ export default function UserFavoriteTeams() {
   const [teamsFiltered,setTeamsFiltered]=useState([])
   const [searchText,setSearchText]=useState("")
   const [isSearchMode,setSearchMode]=useState(false)
-  const allTeams=useSelector(state=>state.tourns.allTeams);
-  const loading=useSelector(state=>state.tourns.loading)
+  const allTeams=useSelector(state=>state.teams.allTeams);
+  const loading=useSelector(state=>state.teams.loading)
 
   const dispatch=useDispatch();
   const navigate=useNavigate()
@@ -35,7 +35,6 @@ export default function UserFavoriteTeams() {
 
 
   const getSearchedTeams=(name)=>{
-    console.log(allTeams)
     name.length > 0 ? setSearchMode(true) : setSearchMode(false)
     setSearchText(name)
     console.log(name)

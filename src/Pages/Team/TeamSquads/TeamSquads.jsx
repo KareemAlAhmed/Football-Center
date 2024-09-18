@@ -6,7 +6,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import {GET_TEAM_INFO, GET_TEAM_RESULTS_DATA, GET_TEAM_SQUADS_DATA } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
-import { getImage } from '../../../utils/baseUrl';
+import { getTeamImage } from '../../../utils/baseUrl';
 
 export default function TeamSquads() {
     let [selectedLeague,setSelectedLeague]=useState("all")
@@ -58,15 +58,29 @@ export default function TeamSquads() {
                         <div className="selectOpts">
                             <select className='dropdown__select' onChange={(e)=>{dispatch(GET_TEAM_SQUADS_DATA(teamId,e.target.value,selectedSeason));setSelectedLeague(e.target.value)}} >
                                 {currentTeamSquads.leagues?.map((league,index)=>{
-                                    if(index === 1) {
-                                        return <option key={index} selected value={league.slug} >
-                                            {league.name}
-                                        </option>
+
+                                    if(selectedLeague === "all"){
+                                        if(index === 0) {
+                                            return <option key={index} selected value={league.slug} >
+                                                {league.name}
+                                            </option>
+                                        }else{
+                                            return <option key={index} value={league.slug} >
+                                                {league.name}
+                                            </option>
+                                        }
                                     }else{
-                                        return <option key={index} value={league.slug} >
-                                            {league.name}
-                                        </option>
+                                        if(selectedLeague === league.slug){
+                                            return <option key={index} selected value={league.slug} >
+                                                {league.name}
+                                            </option>
+                                        }else{
+                                            return <option key={index} value={league.slug} >
+                                                {league.name}
+                                            </option>
+                                        }
                                     }
+
                                 })}
                             </select>
                             <select className='dropdown__select' onChange={(e)=>{dispatch(GET_TEAM_SQUADS_DATA(teamId,selectedLeague,e.target.value));setSelectedSeason(e.target.value)}} >
@@ -146,7 +160,9 @@ export default function TeamSquads() {
                     </div>
                   </>
                 )}
+                <div class="glossary glossary--fullWidth glossary--fullWidth--desktopLG"><h3 class="glossary__title">Glossary</h3><ul class="glossary__list glossary__list--desktopLG"><li class="glossary__item"><span class="glossary__abbr">Name:</span>Name</li><li class="glossary__item"><span class="glossary__abbr">POS:</span>Position </li><li class="glossary__item"><span class="glossary__abbr">Age:</span>Current age of player</li><li class="glossary__item"><span class="glossary__abbr">HT:</span>Height</li><li class="glossary__item"><span class="glossary__abbr">WT:</span>Weight</li><li class="glossary__item"><span class="glossary__abbr">NAT:</span>Nationality</li><li class="glossary__item"><span class="glossary__abbr">APP:</span>Appearances</li><li class="glossary__item"><span class="glossary__abbr">SUB:</span>Substitute Appearances</li><li class="glossary__item"><span class="glossary__abbr">G:</span>Total Goals</li><li class="glossary__item"><span class="glossary__abbr">A:</span>Assists</li><li class="glossary__item"><span class="glossary__abbr">SH:</span>Shots</li><li class="glossary__item"><span class="glossary__abbr">ST:</span>Shots On Target</li><li class="glossary__item"><span class="glossary__abbr">FC:</span>Fouls Committed</li><li class="glossary__item"><span class="glossary__abbr">FA:</span>Fouls Suffered</li><li class="glossary__item"><span class="glossary__abbr">YC:</span>Yellow Cards</li><li class="glossary__item"><span class="glossary__abbr">RC:</span>Red Cards</li><li class="glossary__item"><span class="glossary__abbr">SV:</span>Saves</li><li class="glossary__item"><span class="glossary__abbr">GA:</span>Goals Against</li></ul></div>
                 </div>
+
             </div>
         </div>
         <Footer />

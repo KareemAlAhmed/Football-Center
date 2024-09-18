@@ -1,0 +1,28 @@
+.competTransfers .pageContent{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.competTransfers table{
+    color: var(--text-color);
+}
+.competTransfers table thead th{
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.competTransfers table tbody .clubInfo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+}
+.competTransfers table tbody tr td{
+    padding-bottom: 10px;
+}
+.competTransfers table tbody tr:first-of-type td{
+    padding-top: 10px;
+}
+.competTransfers table tbody tr  img{
+    width: 32px;
+}

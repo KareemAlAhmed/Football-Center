@@ -37,16 +37,7 @@ export default function NavBar() {
     list.style.height=`${navContainer.offsetHeight}px`
     list.style.lineHeight=`${navContainer.offsetHeight}px`
 
-    // let firstLi=list.querySelector("li:first-child")
-    // let lastLi=list.querySelector(".Bottomline")
-    // lastLi.style.width=`${firstLi.offsetWidth}px`
 
-    
-      //responsive menu toggle
-      // document.getElementById('menutoggle').addEventListener('click', () => {
-      //     const xsMenu = document.querySelector('.xs-menu');
-      //     xsMenu.classList.toggle('displaynone');
-      // });
   
       //add active class on menu
 
@@ -70,16 +61,6 @@ export default function NavBar() {
   },[userToken])
 
 
-  function setLine(elm) {
-    const navList = document.querySelector('.navList');
-    const lastLi = navList.querySelector('.Bottomline');
-    const containerX = navList.getBoundingClientRect().x;
-    const globalTargetX = elm.target.parentElement.getBoundingClientRect().x;
-    const targetX = globalTargetX - containerX;
-    const centerOfTarget = targetX + (elm.target.parentElement.offsetWidth / 2);
-    const centerOfLine = lastLi.offsetWidth / 2;
-    lastLi.style.transform = `translateX(${centerOfTarget - centerOfLine}px)`;
-  }
 
 
 
@@ -95,20 +76,20 @@ export default function NavBar() {
         </div>
 
         <ul className="navList">
-          <li><Link to='' onClick={(e)=>{sessionStorage.setItem('activeNav',"homeNav");navigate('/')}} className='homeNav'>Home</Link></li>
-          <li><Link to='' onClick={(e)=>{e.preventDefault();sessionStorage.setItem('activeNav',"ScheduleNav");navigate('/schedule/_/date/'+formattedDate)}} className='ScheduleNav'>Schedule</Link></li>
-          <li><Link to='' onClick={(e)=>{e.preventDefault();sessionStorage.setItem('activeNav',"ScoresNav");navigate('/scoreboard/_/date/'+formattedDate)}} className='ScoresNav'>Scores</Link></li>
-          <li><Link to='' onClick={(e)=>{e.preventDefault();sessionStorage.setItem('activeNav',"LeaguesNav");navigate('/competetions')}} className='LeaguesNav'>Leagues & Cups</Link></li>
-          <li><Link to='' onClick={(e)=>{e.preventDefault();sessionStorage.setItem('activeNav',"TeamsNav");navigate('/teams')}} className='TeamsNav'>Teams</Link></li>
+          <li><Link to='/' className='homeNav'>Home</Link></li>
+          <li><Link to={'/schedule/_/date/'+formattedDate} className='ScheduleNav'>Schedule</Link></li>
+          <li><Link to={'/scoreboard/_/date/'+formattedDate}  className='ScoresNav'>Scores</Link></li>
+          <li><Link to={'/competetions'} className='LeaguesNav'>Leagues & Cups</Link></li>
+          <li><Link to={'/teams'} className='TeamsNav'>Teams</Link></li>
           <li className='drop-down'> 
-            <Link to='' onClick={(e)=>{e.preventDefault();sessionStorage.setItem('activeNav',"TransfersNav");navigate('/transfer/news')}} className='TransfersNav dropM'>
+            <Link to={'/transfer/news'} className='TransfersNav dropM'>
             <span>Transfers</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
             </Link>
             <div className="mega-menu fadeIn animated">
                 <ul>
-                  <li><Link to='' onClick={(e)=>{e.preventDefault();sessionStorage.setItem('activeNav',"TransfersNav");navigate('/transfer/news')}}> Transfer News</Link></li>
-                  <li><Link to='' onClick={(e)=>{e.preventDefault();sessionStorage.setItem('activeNav',"TransfersNav");navigate('/transfer/majorTransfers')}}>Major Transfers</Link></li>
+                  <li><Link to='/transfer/news'> Transfer News</Link></li>
+                  <li><Link to='/transfer/majorTransfers'>Major Transfers</Link></li>
                 </ul>
             </div>
           </li>

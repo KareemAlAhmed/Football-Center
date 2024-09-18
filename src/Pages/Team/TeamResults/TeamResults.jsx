@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {GET_TEAM_INFO, GET_TEAM_RESULTS_DATA } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
 
-import { getImage } from '../../../utils/baseUrl';
+import { getTeamImage } from '../../../utils/baseUrl';
 export default function TeamResults() {
     let [selectedLeague,setSelectedLeague]=useState("all")
     let [selectedSeason,setSelectedSeason]=useState(`${new Date().getFullYear()}`)
@@ -104,8 +104,8 @@ export default function TeamResults() {
                                                 <thead>
                                                     <tr>
                                                         <th>DATE</th>
-                                                        <th>MATCH</th>
                                                         <th></th>
+                                                        <th>MATCH</th>
                                                         <th></th>
                                                         <th>TIME</th>
                                                         <th>COMPETETION</th>
@@ -118,25 +118,29 @@ export default function TeamResults() {
                                                                     <td>{match.date}</td>
                                                                     <td>
                                                                         <div className="homeTeam">
-                                                                           <Link onClick={(e)=>goToTeamPage(match.homeTeam.id,match.homeTeam.slug)}><span>{match.homeTeam.name}</span></Link>
+                                                                           <Link to={`/team/_/id/${match.homeTeam.id}/${match.homeTeam.slug}`}><span>{match.homeTeam.name}</span></Link>
                                                                         </div>
                                                                     </td>
                                                                     <td>
                                                                         <div className="TeamsLogos">
                                                                             <div className="homeTeamLogo" >
-                                                                                <img src={getImage(match.homeTeam.id)} alt="" onClick={()=>goToTeamPage(match.homeTeam.id,match.homeTeam.slug)} />
+                                                                                <Link to={`/team/_/id/${match.homeTeam.id}/${match.homeTeam.slug}`}>
+                                                                                    <img src={getTeamImage(match.homeTeam.id)} alt="" />
+                                                                                </Link>
                                                                             </div>
                                                                             <div className="matchScores">
                                                                                 <span>{match.score}</span>
                                                                             </div>
                                                                             <div className="awayTeamLogo">
-                                                                                <img src={getImage(match.awayTeam.id)} alt="" onClick={()=>goToTeamPage(match.awayTeam.id,match.awayTeam.slug)} />
+                                                                                <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`} >
+                                                                                    <img src={getTeamImage(match.awayTeam.id)} alt="" onClick={()=>goToTeamPage(match.awayTeam.id,match.awayTeam.slug)} />
+                                                                                </Link>
                                                                             </div>
                                                                         </div>
                                                                     </td>
                                                                     <td>
                                                                         <div className="homeTeam">
-                                                                            <Link onClick={(e)=>goToTeamPage(match.awayTeam.id,match.awayTeam.slug)}><span>{match.awayTeam.name}</span></Link>
+                                                                            <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`}><span>{match.awayTeam.name}</span></Link>
                                                                         </div>
                                                                     </td>
                                                                     <td>{match.time}</td>

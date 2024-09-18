@@ -10,6 +10,8 @@
     padding: 5px 10px;
     outline: none;
     cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid;
 }
 .dropdown__select option{
     background-color: var(--back-color);
@@ -46,5 +48,8 @@
 }
 .majorTransfers table tbody tr  img{
     width: 32px;
+}
+.majorTransfers .loadingBlock{
+    flex: 1;
 }
 

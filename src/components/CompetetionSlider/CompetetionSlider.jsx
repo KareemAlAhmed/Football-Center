@@ -1,88 +1,181 @@
 import React, { useEffect, useState } from 'react'
 import "./CompetetionSlider.css"
+import { getTeamImage } from '../../utils/baseUrl';
+import { Link } from 'react-router-dom';
 
 export default function CompetetionSlider({type}) {
     let [currentSlidedTourns,setCurrentSlidedTourns]=useState(1);
     let [currentSlidedTeams,setCurrentSlidedTeams]=useState(1);
+//   let tournaments=[
+//     {
+//         name:"Premier League",
+//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/9.png"
+//     },
+//     {
+//         name:"LaLiga",
+//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/10.png"
+//     },
+//     {
+//         name:"Bundesliga",
+//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/1.png"
+//     },
+//     {
+//         name:"UEFA Champions League",
+//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/5.png"
+//     },
+//     {
+//         name:"Seria A",
+//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/13.png"
+//     },
+//     {
+//         name:"Ligue 1",
+//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/23.png"
+//     },
+//     {
+//         name:"EFL Championship",
+//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/27.png"
+//     },
+//     {
+//         name:"Copa Del Rey",
+//         imgUrl:"https://image-service.onefootball.com/transform?w=32&h=32&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252FleagueColoredCompetition%252F128%252F18.png"
+//     },
+//     {
+//         name:"FA Cup",
+//         imgUrl:"https://image-service.onefootball.com/transform?w=32&h=32&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252FleagueColoredCompetition%252F128%252F17.png"
+//     },
+// ]
   let tournaments=[
     {
-        name:"Premier League",
-        imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/9.png"
-    },
-    {
-        name:"LaLiga",
-        imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/10.png"
-    },
-    {
-        name:"Bundesliga",
-        imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/1.png"
-    },
-    {
-        name:"UEFA Champions League",
-        imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/5.png"
-    },
-    {
-        name:"Seria A",
-        imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/13.png"
-    },
-    {
-        name:"Ligue 1",
-        imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/23.png"
-    },
-    {
-        name:"EFL Championship",
-        imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/27.png"
-    },
-    {
-        name:"Copa Del Rey",
-        imgUrl:"https://image-service.onefootball.com/transform?w=32&h=32&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252FleagueColoredCompetition%252F128%252F18.png"
-    },
-    {
-        name:"FA Cup",
-        imgUrl:"https://image-service.onefootball.com/transform?w=32&h=32&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252FleagueColoredCompetition%252F128%252F17.png"
-    },
+      id: 2,
+      leagueName: "UEFA Champions League",
+      leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/uefa.champions",
+      leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png",
+      slug: "uefa.champions"
+  },
+  {
+      id: 23,
+      leagueName: "English Premier League",
+      leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/eng.1",
+      leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
+      slug: "eng.1"
+  },
+  {
+      id: 15,
+      leagueName: "Spanish LALIGA",
+      leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/esp.1",
+      leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png",
+      slug: "esp.1"
+  },
+  {
+      id: 12,
+      leagueName: "Italian Serie A",
+      leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/ita.1",
+      leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png",
+      slug: "ita.1"
+  },
+  {
+      id: 10,
+      leagueName: "German Bundesliga",
+      leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/ger.1",
+      leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png",
+      slug: "ger.1"
+  },
+  {
+      id: 9,
+      leagueName: "French Ligue 1",
+      leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/fra.1",
+      leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/9.png",
+      slug: "fra.1"
+  },
+  {
+      id: 2310,
+      leagueName: "UEFA Europa League",
+      leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/uefa.europa",
+      leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png",
+      slug: "uefa.europa"
+  },
+  {
+      id: 40,
+      leagueName: "English FA Cup",
+      leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/eng.fa",
+      leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/40.png",
+      slug: "eng.fa"
+  },
+  {
+    id: 19,
+    leagueName: "MLS",
+    leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/usa.1",
+    leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/19.png&scale=crop&cquality=40&location=origin&w=80&h=80",
+    slug: "usa.1"
+},
+  {
+      id: 83,
+      leagueName: "Copa América",
+      leaguesTeamsLink: "https://www.espn.com/soccer/teams/_/league/conmebol.america",
+      leagueLogo: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/83.png",
+      slug: "conmebol.america"
+  }
 ]
+
 let teams=[
   {
-    name:"Barcelona",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/5.png"
+    id: 86,
+    name: "Real Madrid",
+    logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/86.png",
+    slug: "real-madrid"
   },
   {
-    name:"Real Madrid",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/26.png"
-  },
-  {
-    name:"Bayern Munich",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/6.png"
-  },
-  {
-    name:"Manchester United",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/21.png"
-  },
-  {
-    name:"Manchester City",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/209.png"
-  },
-  {
-    name:"Liverpool",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/18.png"
-  },
-  {
-    name:"PSG",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/263.png"
-  },
-  {
-    name:"Chelsea",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/9.png"
-  },
-  {
-    name:"Juventus",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/17.png"
-  },
-  {
-    name:"Arsenal",
-    imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/teams/56/2.png"
-  },
+    id: 83,
+    name: "Barcelona",
+    logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/83.png",
+    slug: "barcelona"
+  },{
+    id: 132,
+    name: "Bayern Munich",
+    logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/132.png",
+    slug: "bayern-munich"
+},{
+    id: 160,
+    name: "Paris Saint-Germain",
+    logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png",
+    slug: "paris-saint-germain"
+},{
+  id: 1068,
+  name: "Atlético Madrid",
+  logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1068.png",
+  slug: "atlético-madrid"
+},{
+  id: 382,
+  name: "Manchester City",
+  logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png",
+  slug: "manchester-city"
+},
+{
+  id: 360,
+  name: "Manchester United",
+  logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/360.png",
+  slug: "manchester-united"
+}, {
+  id: 364,
+  name: "Liverpool",
+  logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/364.png",
+  slug: "liverpool"
+}, {
+  id: 363,
+  name: "Chelsea",
+  logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png",
+  slug: "chelsea"
+}, {
+  id: 359,
+  name: "Arsenal",
+  logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png",
+  slug: "arsenal"
+},{
+  id: 111,
+  name: "Juventus",
+  logo: "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/111.png",
+  slug: "juventus"
+}
 ]
 let [totalTourns]=useState(tournaments.length);
 
@@ -97,18 +190,21 @@ const slideToTheRight=(type)=>{
         }
       (currentSlidedTourns + 1)  * 4 >= totalTourns ? forwardBtn.style.display="none" : forwardBtn.style.display="block"
         const listTourn = document.querySelector(".listOfTourns");
-        listTourn.style.transform = `translateX(-${100 * currentSlidedTourns }%)`;
+        // listTourn.style.transform = `translateX(-${100 * currentSlidedTourns }%)`;
+        listTourn.style.transform = `translateX(-${(((((document.querySelector(".listOfTeams").offsetWidth - 60) / 4)) * 4) + 80 ) * (currentSlidedTourns )}px)`;
+
         previousBtn.style.display="block"
     }else{
       let forwardBtn=document.querySelector(".TeamsSlider button:first-of-type")
       let previousBtn=document.querySelector(".TeamsSlider button:last-of-type")
 
       if (currentSlidedTeams < teams.length - 1) {  // Check for right boundary
-          setCurrentSlidedTeams(currentSlidedTeams + 1);
-        }
+        setCurrentSlidedTeams(currentSlidedTeams + 1);
+      }
       (currentSlidedTeams + 1)  * 4 >= teams.length ? forwardBtn.style.display="none" : forwardBtn.style.display="block"
         const listTourn = document.querySelector(".listOfTeams");
-        listTourn.style.transform = `translateX(-${100 * currentSlidedTeams }%)`;
+        listTourn.style.transform = `translateX(-${(((((document.querySelector(".listOfTeams").offsetWidth - 60) / 4)) * 4) + 80 ) *  (currentSlidedTeams)}px)`;
+        // listTourn.style.transform = `translateX(-${100 * currentSlidedTeams }%)`;
         previousBtn.style.display="block"
      }
     
@@ -123,7 +219,9 @@ const slideToTheLeft=(type)=>{
           setCurrentSlidedTourns(currentSlidedTourns - 1);
         }
         const listTourn = document.querySelector(".listOfTourns");
-        listTourn.style.transform = `translateX(-${100 * (currentSlidedTourns - 2) }%)`;
+        // listTourn.style.transform = `translateX(-${100 * (currentSlidedTourns - 2) }%)`;
+        listTourn.style.transform = `translateX(-${(((((document.querySelector(".listOfTeams").offsetWidth - 60) / 4)) * 4) + 80 ) * (currentSlidedTourns - 2)}px)`;
+
         forwardBtn.style.display="block"
         currentSlidedTourns - 1 === 1 ? previousBtn.style.display="none" : previousBtn.style.display="block"
     }else{
@@ -135,7 +233,9 @@ const slideToTheLeft=(type)=>{
         setCurrentSlidedTeams(currentSlidedTeams - 1);
         }
         const listTourn = document.querySelector(".listOfTeams");
-        listTourn.style.transform = `translateX(-${100 * (currentSlidedTeams - 2) }%)`;
+        // listTourn.style.transform = `translateX(-${100 * (currentSlidedTeams - 2) }%)`;
+        listTourn.style.transform = `translateX(-${(((((document.querySelector(".listOfTeams").offsetWidth - 60) / 4)) * 4) + 80 ) * (currentSlidedTeams - 2)}px)`;
+
         forwardBtn.style.display="block"
         currentSlidedTeams - 1 === 1 ? previousBtn.style.display="none" : previousBtn.style.display="block"
     }
@@ -174,11 +274,14 @@ useEffect(()=>{
               <div className="listOfTourns">
                   {tournaments.map(ele=>{
                     return <div className="competetion">
-                              <img src={ele.imgUrl} alt="" />
-                              <div className="tournInfo">
-                                <p>Competition</p>
-                                <p>{ele.name}</p>
-                              </div>
+                              <Link to={`/competetion/_/id/${ele.id}/${ele.slug}`}>
+                                <img src={ele.leagueLogo} alt="" />
+                                <div className="tournInfo">
+                                  <p>Competition</p>
+                                  <p>{ele.leagueName}</p>
+                                </div>
+                              </Link>
+                              
                             </div>
                   })}
               </div>
@@ -197,11 +300,13 @@ useEffect(()=>{
               <div className="listOfTeams">
                   {teams.map(ele=>{
                     return <div className="team">
-                              <img src={ele.imgUrl} alt="" />
-                              <div className="teamInfo">
-                                <p>Team</p>
-                                <p>{ele.name}</p>
-                              </div>
+                              <Link to={`/team/_/id/${ele.id}/${ele.slug}`}>
+                                <img src={getTeamImage(ele.id)} alt="" />
+                                <div className="teamInfo">
+                                  <p>Team</p>
+                                  <p>{ele.name}</p>
+                                </div>
+                              </Link>
                             </div>
                   })}
               </div>

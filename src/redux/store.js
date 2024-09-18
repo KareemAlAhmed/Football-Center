@@ -7,6 +7,7 @@ import logger from 'redux-logger';
 import tournsReducer from "./tourns/tournsReducer.js";
 import newsReducer from "./news/newsReducer.js";
 import teamsReducer from "./team/teamsReducer.js";
+import playerReducer from "./players/playersReducer.js";
 // import { composeWithDevTools } from '@redux-devtools/extension';
 
 const rootReducer=combineReducers({
@@ -14,6 +15,7 @@ const rootReducer=combineReducers({
     tourns:tournsReducer,
     news:newsReducer,
     teams:teamsReducer,
+    players:playerReducer
 })
 
 const store=createStore(rootReducer, applyMiddleware(thunk,logger));

@@ -2,7 +2,27 @@
 
 import axios from "axios";
 import { baseUrl } from "../../utils/baseUrl";
-import { GET_TEAM_DATA, GET_TEAM_DATA_FAILED, GET_TEAM_DATA_SUCCESS, GET_TEAM_FIXTURE, GET_TEAM_FIXTURE_FAILED, GET_TEAM_FIXTURE_SUCCESS, GET_TEAM_RESULTS, GET_TEAM_RESULTS_FAILED, GET_TEAM_RESULTS_SUCCESS, GET_TEAM_SQUADS, GET_TEAM_SQUADS_FAILED, GET_TEAM_SQUADS_SUCCESS, GET_TEAM_STATS_DISCPLINE, GET_TEAM_STATS_DISCPLINE_FAILED, GET_TEAM_STATS_DISCPLINE_SUCCESS, GET_TEAM_STATS_PERFORMANCE, GET_TEAM_STATS_PERFORMANCE_FAILED, GET_TEAM_STATS_PERFORMANCE_SUCCESS, GET_TEAM_STATS_SCORING, GET_TEAM_STATS_SCORING_FAILED, GET_TEAM_STATS_SCORING_SUCCESS, GET_TEAM_TRANSFERS, GET_TEAM_TRANSFERS_FAILED, GET_TEAM_TRANSFERS_SUCCESS } from "./teamsActionType";
+import { GET_ALL_TEAMS, GET_ALL_TEAMS_FAILED, GET_ALL_TEAMS_SUCCESS, GET_TEAM_DATA, GET_TEAM_DATA_FAILED, GET_TEAM_DATA_SUCCESS, GET_TEAM_FIXTURE, GET_TEAM_FIXTURE_FAILED, GET_TEAM_FIXTURE_SUCCESS, GET_TEAM_RESULTS, GET_TEAM_RESULTS_FAILED, GET_TEAM_RESULTS_SUCCESS, GET_TEAM_SQUADS, GET_TEAM_SQUADS_FAILED, GET_TEAM_SQUADS_SUCCESS, GET_TEAM_STATS_DISCPLINE, GET_TEAM_STATS_DISCPLINE_FAILED, GET_TEAM_STATS_DISCPLINE_SUCCESS, GET_TEAM_STATS_PERFORMANCE, GET_TEAM_STATS_PERFORMANCE_FAILED, GET_TEAM_STATS_PERFORMANCE_SUCCESS, GET_TEAM_STATS_SCORING, GET_TEAM_STATS_SCORING_FAILED, GET_TEAM_STATS_SCORING_SUCCESS, GET_TEAM_TRANSFERS, GET_TEAM_TRANSFERS_FAILED, GET_TEAM_TRANSFERS_SUCCESS } from "./teamsActionType";
+
+export function getTeams(){
+    return{
+        type:GET_ALL_TEAMS
+    }
+}
+export function getTeamsSuccuessed(data){
+    sessionStorage.setItem("allTeams",JSON.stringify(data))
+   
+    return{
+        type:GET_ALL_TEAMS_SUCCESS,
+        payload:{teams:data}
+    }
+}
+export function getTeamsFailed(error){
+    return{
+        type:GET_ALL_TEAMS_FAILED,
+        payload:error
+    }
+}
 
 export function getTeamData(){
     return{
@@ -160,6 +180,20 @@ export function getTeamTransfersFailed(error){
         payload:error
     }
 }
+export function GET_TEAMS(){
+    return function(dispatch){
+        dispatch(getTeams());     
+        axios.get(baseUrl+"api/tourns/getAllTeams")
+        .then(re=>{
+            dispatch(getTeamsSuccuessed(re.data))
+            console.log(re.data)
+        })
+        .catch(()=>{
+            dispatch(getTeamsFailed("Error While Getting The Data"))
+            
+        })
+    }
+}
 
 export function GET_TEAM_INFO(teamId){
     return function(dispatch){
@@ -169,8 +203,7 @@ export function GET_TEAM_INFO(teamId){
             dispatch(getTeamDataSuccuessed(re.data))
         })
         .catch(()=>{
-            dispatch(getTeamDataFailed("Error While Getting The Data"))
-            
+            dispatch(getTeamDataFailed("Error While Getting The Data"))          
         })
     }
 }
@@ -216,6 +249,7 @@ export function GET_TEAM_SQUADS_DATA(teamId,leagueSlug='any',seasonId='any'){
 export function GET_TEAM_STATS_SCORING_DATA(teamId,leagueSlug='any',seasonId='any'){
     return function(dispatch){
         dispatch(getTeamStatsScoring());     
+        console.log(leagueSlug,seasonId)
         axios.get(baseUrl+`api/teams/team/_/id/${teamId}/stats/scoring/league/${leagueSlug}/season/${seasonId}`)
         .then(re=>{
             dispatch(getTeamStatsScoringSuccuessed(re.data))
@@ -227,6 +261,7 @@ export function GET_TEAM_STATS_SCORING_DATA(teamId,leagueSlug='any',seasonId='an
 }
 export function GET_TEAM_STATS_DISCPLINE_DATA(teamId,leagueSlug='any',seasonId='any'){
     return function(dispatch){
+        console.log(leagueSlug,seasonId)
         dispatch(getTeamStatsDiscpline());     
         axios.get(baseUrl+`api/teams/team/_/id/${teamId}/stats/discpline/league/${leagueSlug}/season/${seasonId}`)
         .then(re=>{

@@ -6,7 +6,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { GET_TEAM_FIXTURES, GET_TEAM_INFO } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
-import { getImage } from '../../../utils/baseUrl';
+import { getTeamImage } from '../../../utils/baseUrl';
 export default function TeamFixture() {
     let [selectedLeague,setSelectedLeague]=useState("all")
     let { teamId } = useParams();
@@ -32,17 +32,6 @@ export default function TeamFixture() {
             document.querySelector(".wrapper").style.minHeight=`${loadingHeight}px`
             }
     },[])
-    const goToTeamPage=(id,teamSlug)=>{
-        if(teamId === id){
-            navigate(`/team/_/id/${id}/${teamSlug}`)
-            sessionStorage.setItem("currentTeamTag","homeSubTab")
-        }else{
-            dispatch(GET_TEAM_INFO(id))
-            navigate(`/team/_/id/${id}/${teamSlug}`)
-            sessionStorage.setItem("currentTeamTag","homeSubTab")
-        }
-
-    }
   return (
     <>
         <NavBar />
@@ -90,8 +79,8 @@ export default function TeamFixture() {
                                                 <thead>
                                                     <tr>
                                                         <th>DATE</th>
-                                                        <th>MATCH</th>
                                                         <th></th>
+                                                        <th>MATCH</th>
                                                         <th></th>
                                                         <th>TIME</th>
                                                         <th>COMPETETION</th>
@@ -104,25 +93,29 @@ export default function TeamFixture() {
                                                                     <td>{match.date}</td>
                                                                     <td>
                                                                         <div className="homeTeam">
-                                                                           <Link onClick={(e)=>goToTeamPage(match.homeTeam.id,match.homeTeam.slug)}><span>{match.homeTeam.name}</span></Link>
+                                                                           <Link to={`/team/_/id/${match.homeTeam.id}/${match.homeTeam.slug}`} ><span>{match.homeTeam.name}</span></Link>
                                                                         </div>
                                                                     </td>
                                                                     <td>
                                                                         <div className="TeamsLogos">
                                                                             <div className="homeTeamLogo" >
-                                                                                <img src={getImage(match.homeTeam.id)} alt="" onClick={()=>goToTeamPage(match.homeTeam.id,match.homeTeam.slug)} />
+                                                                                <Link to={`/team/_/id/${match.homeTeam.id}/${match.homeTeam.slug}`} >
+                                                                                    <img src={getTeamImage(match.homeTeam.id)} alt="" />
+                                                                                </Link>
                                                                             </div>
                                                                             <div className="matchScores">
                                                                                 v
                                                                             </div>
                                                                             <div className="awayTeamLogo">
-                                                                                <img src={getImage(match.awayTeam.id)} alt="" onClick={()=>goToTeamPage(match.awayTeam.id,match.awayTeam.slug)} />
+                                                                                <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`} >   
+                                                                                    <img src={getTeamImage(match.awayTeam.id)} alt="" />
+                                                                                </Link>
                                                                             </div>
                                                                         </div>
                                                                     </td>
                                                                     <td>
                                                                         <div className="homeTeam">
-                                                                            <Link onClick={(e)=>goToTeamPage(match.awayTeam.id,match.awayTeam.slug)}><span>{match.awayTeam.name}</span></Link>
+                                                                            <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`}><span>{match.awayTeam.name}</span></Link>
                                                                         </div>
                                                                     </td>
                                                                     <td>{match.time}</td>

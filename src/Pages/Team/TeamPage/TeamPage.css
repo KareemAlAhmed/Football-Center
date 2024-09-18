@@ -130,3 +130,9 @@
     display: flex;
     justify-content: center;
 }
+.teamBlock .NewsSmallCard .newsInfo{
+    justify-content: space-around;
+}
+.teamBlock .NewsSmallCard {
+    margin-bottom: 10px;
+}

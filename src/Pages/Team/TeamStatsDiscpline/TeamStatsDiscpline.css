@@ -1,0 +1,61 @@
+.teamStatDiscpline .pageContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.teamStatDiscpline .pageContent table{
+    width: 100%;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+.teamStatDiscpline .pageContent table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+}
+.teamStatDiscpline .pageContent table tr td{
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.teamStatDiscpline .pageContent table tr .TeamsLogos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.teamStatDiscpline .pageContent table tr img{
+    width: 25px;
+    height: 27px;
+    cursor: pointer;
+}
+.teamStatDiscpline .pageContent table tr a{
+    color: var(--text-color);
+}
+.teamStatDiscpline .pageContent .listOfPlayers{
+    display: flex;
+}
+.teamStatDiscpline .pageContent .listOfPlayers .Table__fixtures{
+    width: 100%;
+}
+
+.splitLine{
+    height: inherit;
+    width: 1px;
+    background-color: var(--text-color);
+}
+.glossary{
+    width: 95%;
+    margin: 15px auto;
+}
+.glossary__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.glossary__list .glossary__item{
+    width: calc(100% / 3);
+    color: var(--hover-color);
+    margin-top: 5px;
+}
+.glossary__list .glossary__item span{
+    color: var(--text-color);
+    font-weight: 500;
+    margin-right: 3px;
+}
