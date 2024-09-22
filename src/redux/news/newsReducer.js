@@ -1,5 +1,5 @@
 import { current } from "@reduxjs/toolkit";
-import { GET_COMPET_MAJOR_TRANSFERS_SUCCESS, GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
+import { GET_ARTICLE_CONTENT, GET_ARTICLE_CONTENT_FAILED, GET_ARTICLE_CONTENT_SUCCESS, GET_COMPET_MAJOR_TRANSFERS_SUCCESS, GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
 
 
 const initalState={
@@ -8,6 +8,7 @@ const initalState={
     transferTopNews:sessionStorage.getItem("transferTopNews") !=null ? JSON.parse(sessionStorage.getItem("transferTopNews")) :[],
     majorTransfers:sessionStorage.getItem("currentLeagueMajorTransfer") !=null ? JSON.parse(sessionStorage.getItem("currentLeagueMajorTransfer")) :[],
     currentCompetTransfers:sessionStorage.getItem("currentCompetTransfers") !=null ? JSON.parse(sessionStorage.getItem("currentCompetTransfers")) :[],
+    currentArticleData:sessionStorage.getItem("currentArticleData") !=null ? JSON.parse(sessionStorage.getItem("currentArticleData")) :{},
 
 }
 
@@ -52,12 +53,32 @@ const newsReducer=(state=initalState,action)=>{
                 majorTransfers:[],
                 newsError:action.payload,
             }
+        
             case GET_COMPET_MAJOR_TRANSFERS_SUCCESS:
                 return {
                     ...state,
                     loading:false,
                     currentCompetTransfers:action.payload
                 }
+        case GET_ARTICLE_CONTENT:
+            return {
+                ...state,
+                loading:true,
+                newsError:""
+            }
+        case GET_ARTICLE_CONTENT_SUCCESS:
+            return {
+                ...state,
+                loading:false,
+                currentArticleData:action.payload
+            }
+        case GET_ARTICLE_CONTENT_FAILED:
+            return {
+                ...state,
+                loading:false,
+                currentArticleData:{},
+                newsError:action.payload,
+            }
         default: return state
     }
 }

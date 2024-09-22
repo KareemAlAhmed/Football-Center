@@ -5,7 +5,7 @@ import Footer from '../../../components/Footer/Footer';
 import { useDispatch, useSelector } from 'react-redux';
 import { GET_MAJOR_TRANSFERS_DATA } from '../../../redux/news/newsActions';
 import { Link } from 'react-router-dom';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { getPlayerLink, getTeamImage } from '../../../utils/baseUrl';
 export default function MajorTransfers() {
   const dispatch=useDispatch()
   let transferList=useSelector(state=>state.news.majorTransfers.transfers)
@@ -141,7 +141,7 @@ export default function MajorTransfers() {
                     transferList.map(transfer=>{
                       return <tr>
                         <td>{transfer.date}</td>
-                        <td>{transfer.player.name}</td>
+                        <td><Link className='playerLink' to={getPlayerLink(transfer.player.id,transfer.player.slug)}>{transfer.player.name}</Link></td>
                         <td>
                           <div className="clubInfo">
                             <div className="clubLogo">

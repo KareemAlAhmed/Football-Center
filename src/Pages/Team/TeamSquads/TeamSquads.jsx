@@ -6,7 +6,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import {GET_TEAM_INFO, GET_TEAM_RESULTS_DATA, GET_TEAM_SQUADS_DATA } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { getPlayerLink, getTeamImage } from '../../../utils/baseUrl';
 
 export default function TeamSquads() {
     let [selectedLeague,setSelectedLeague]=useState("all")
@@ -128,7 +128,7 @@ export default function TeamSquads() {
                                                     {
                                                         squad.listOfPlayer.map((player,index3)=>{
                                                             return <tr key={index3}>
-                                                                    <td><Link>{player.name}</Link></td>                                                          
+                                                                    <td><Link className='playerLink' to={getPlayerLink(player.id,player.slug)}>{player.name}</Link></td>                                                          
                                                                     <td>{player.POS}</td>
                                                                     <td>{player.AGE}</td>
                                                                     <td>{player.HT}</td>

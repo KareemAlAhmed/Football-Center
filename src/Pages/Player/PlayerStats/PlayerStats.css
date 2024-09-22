@@ -1,0 +1,19 @@
+.currentPlayerStats .cardHeader{
+    margin-bottom: 15px;
+}
+.PageLayout__MainContainer section.currentPlayerStats .cardTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PageLayout__MainContainer section.currentPlayerStats .cardTitle p{
+    font-weight: 600;
+    font-size: 29px;
+}
+.PageLayout__MainContainer section.currentPlayerStats .cardTitle select{
+    font-size: 16px !important;
+}
+.PageLayout__MainContainer section.currentPlayerStats .cardTitle .filters{
+    display: flex;
+    gap: 10px;
+}

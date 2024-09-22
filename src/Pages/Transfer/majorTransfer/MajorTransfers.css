@@ -10,7 +10,7 @@
     padding: 5px 10px;
     outline: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid;
 }
 .dropdown__select option{

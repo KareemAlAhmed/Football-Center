@@ -1,0 +1,23 @@
+.PageLayout__MainContainer section.playerMatches .cardTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PageLayout__MainContainer section.playerMatches .cardTitle p{
+    font-weight: 600;
+    font-size: 29px;
+}
+.PageLayout__MainContainer section.playerMatches .cardTitle select{
+    font-size: 16px !important;
+}
+.PageLayout__MainContainer section.playerMatches .cardTitle .filters{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.noDataFound{
+    margin-top: 25px;
+    text-align: center;
+}

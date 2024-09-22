@@ -49,7 +49,6 @@ export default function TransferNews() {
                            <div className="trendingTransferNews">
                             <h1>Trending Transfers</h1>
                             <div className="trendingTransferNewsList">
-                              {console.log(transferTopNews.length)}
                               {
                                 
                                 'sideNews' in transferTopNews && (

@@ -17,9 +17,11 @@ export default function TeamPage() {
     let currentData=JSON.parse(sessionStorage.getItem("currentTeamData"))
     if(currentData != null){
         if(teamId !== currentData.id){
+          console.log(teamId)
             dispatch(GET_TEAM_INFO(teamId))
         }
     }else{
+        console.log(teamId)
         dispatch(GET_TEAM_INFO(teamId))
     }
 

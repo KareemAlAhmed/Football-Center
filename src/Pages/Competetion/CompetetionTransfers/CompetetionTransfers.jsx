@@ -7,7 +7,7 @@ import CompetetionIntro from '../../../components/CompetetionIntro/CompetetionIn
 import NavBar from '../../../components/NavBar/NavBar';
 import { GET_COMPETETION_STANDING_DATA } from '../../../redux/tourns/tournsActions';
 import { GET_TEAM_INFO } from '../../../redux/team/teamsActions';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { getPlayerLink, getTeamImage } from '../../../utils/baseUrl';
 import { GET_MAJOR_TRANSFERS_DATA } from "../../../redux/news/newsActions";
 export default function CompetetionTransfers() {
     let { competId } = useParams();
@@ -91,7 +91,7 @@ export default function CompetetionTransfers() {
                     currentCompetTransfers.transfers.map(transfer=>{
                       return <tr>
                         <td>{transfer.date}</td>
-                        <td>{transfer.player.name}</td>
+                        <td><Link className='playerLink' to={getPlayerLink(transfer.player.id,transfer.player.slug)}>{transfer.player.name}</Link></td>
                         <td>
                           <div className="clubInfo">
                             <div className="clubLogo">

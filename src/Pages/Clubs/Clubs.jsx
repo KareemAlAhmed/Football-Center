@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import { useDispatch, useSelector } from 'react-redux';
 import { GET_ALL_COMPETETIONS, GET_COMPETETION_TEAMS } from '../../redux/tourns/tournsActions';
 import { Link } from 'react-router-dom';
+import { getTeamLink } from '../../utils/baseUrl';
 export default function Clubs() {
   const dispatch=useDispatch();
   const allCompets=useSelector(state=>state.tourns.allCompets)
@@ -61,7 +62,7 @@ export default function Clubs() {
                           </div>
                           <div className="teamInfo">
                               <div className="teamNameAndOpt">
-                                  <p className='teamLink'>{team.name}</p>
+                                  <Link className='teamLink' to={getTeamLink(team.id,team.slug)}>{team.name}</Link>
                                   <ul className='optionsList'>
                                       <li><Link to={`/team/_/id/${team.id}/${team.slug}/squads`}>Squads</Link></li>
                                       <li><Link to={`/team/_/id/${team.id}/${team.slug}/stats/scoring`}>Stats</Link></li>

@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import NavBar from '../../../components/NavBar/NavBar';
 import CompetStatsOpt from '../../../components/CompetStatsOpt/CompetStatsOpt';
 import { GET_COMPET_STATS_SCORING_INFO } from '../../../redux/tourns/tournsActions';
+import { getPlayerLink } from '../../../utils/baseUrl';
 export default function CompetetionStatScoring() {
     let [selectedSeason,setSelectedSeason]=useState(`${new Date().getFullYear()}`)
     let { competId } = useParams();
@@ -93,7 +94,7 @@ export default function CompetetionStatScoring() {
                                                         currentCompetStatsScoring.TopScorers.map((player,index3)=>{
                                                             return <tr key={index3}>
                                                                     <td>{player.rank}</td>
-                                                                    <td><Link>{player.name}</Link></td>                                                          
+                                                                    <td><Link className='playerLink' to={getPlayerLink(player.id,player.slug)}>{player.name}</Link></td>                                                          
                                                                     <td><Link to={`/team/_/id/${player.team.id}/${player.team.slug}`}>{player.team.name}</Link></td>                                                          
                                                                     <td>{player.P}</td>
                                                                     <td>{player.G}</td>
@@ -123,7 +124,7 @@ export default function CompetetionStatScoring() {
                                                         currentCompetStatsScoring.TopAssists.map((player,index3)=>{
                                                             return <tr key={index3}>
                                                                     <td>{player.rank}</td>
-                                                                    <td><Link>{player.name}</Link></td>      
+                                                                    <td><Link className='playerLink' to={getPlayerLink(player.id,player.slug)}>{player.name}</Link></td>      
                                                                     <td><Link to={`/team/_/id/${player.team.id}/${player.team.slug}`}>{player.team.name}</Link></td>                                                          
                                                                     <td>{player.P}</td>
                                                                     <td>{player.A}</td>

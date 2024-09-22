@@ -202,7 +202,9 @@ export function GET_TEAM_INFO(teamId){
         .then(re=>{
             dispatch(getTeamDataSuccuessed(re.data))
         })
-        .catch(()=>{
+        .catch((err)=>{
+            console.log("eerr 1")
+            console.log(err)
             dispatch(getTeamDataFailed("Error While Getting The Data"))          
         })
     }

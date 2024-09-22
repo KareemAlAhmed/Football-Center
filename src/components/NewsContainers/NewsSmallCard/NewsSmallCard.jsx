@@ -1,5 +1,7 @@
 import React from 'react'
 import "./NewsSmallCard.css"
+import { Link } from 'react-router-dom';
+import { getArticleLink } from '../../../utils/baseUrl';
 export default function NewsSmallCard({news,forComp}) {
       const style={
         borderRadius:"100%"
@@ -30,22 +32,36 @@ export default function NewsSmallCard({news,forComp}) {
         
         <div className="newsContent">
           <div className="newsImg">
-
-            <img src={news?.articleImageUrl} alt="" />
+          {forComp === "TopNews"  ? (
+            <Link to={getArticleLink(news?.id,news?.slug,news?.type)}>
+              <img src={news?.articleImageUrl} alt="" /> 
+            </Link>
+          ) :(
+            <Link to={getArticleLink(news?.id,news?.slug,"story")}>
+              <img src={news?.articleImageUrl} alt="" /> 
+            </Link>
+          )}
+         
+           
         
           </div> 
           <div className="newsInfo" style={forComp === "TopNews" ? contHeihtTop : contHeihtTopTrending}>
 
-              <a href='/' className='newsTitle'>{news?.articleTitle}</a>
               {/* <p className='newsContent'>{news?.articleContent}</p> */}
-              {forComp === "TopNews" && (
-                <div className="channel">
-                  <div className="channelLogo">
-                      <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" style={style} />
-                  </div> 
-                  <p className='channelName'>{news?.author !== "" ?news?.author : "Source Not Found"}</p>
-                  <p className='channelName'>{news?.timeStamps}</p>
-                </div>
+              {forComp === "TopNews"  ? (
+                <>
+                  {/* <a href='/' className='newsTitle'>{news?.articleTitle}</a> */}
+                  <Link className='articleLink' to={getArticleLink(news?.id,news?.slug,news?.type)}>{news?.articleTitle}</Link>
+                  <div className="channel">
+                    <div className="channelLogo">
+                        <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" style={style} />
+                    </div> 
+                    <p className='channelName'>{news?.author !== "" ?news?.author : "Source Not Found"}</p>
+                    <p className='channelName'>{news?.timeStamps}</p>
+                  </div>
+                </>
+              ) : (
+                <Link className='articleLink' to={getArticleLink(news?.id,news?.slug,"story")}>{news?.articleTitle}</Link>
               )} 
             
             

@@ -31,6 +31,11 @@ import CompetetionStatScoring from "./Pages/Competetion/CompetetionStatScoring/C
 import CompetetionStatDiscpline from "./Pages/Competetion/CompetetionStatDiscpline/CompetetionStatDiscpline";
 import CompetetionStatPerformance from "./Pages/Competetion/CompetetionStatPerformance/CompetetionStatPerformance";
 import PlayerOverview from "./Pages/Player/PlayerOverview/PlayerOverview";
+import PlayerBio from "./Pages/Player/PlayerBio/PlayerBio";
+import PlayerMatches from "./Pages/Player/PlayerMatches/PlayerMatches";
+import PlayerStats from "./Pages/Player/PlayerStats/PlayerStats";
+import PlayerNews from "./Pages/Player/PlayerNews/PlayerNews";
+import ArticlePage from "./Pages/ArticlePage/ArticlePage";
 
 
 export const router = createBrowserRouter([
@@ -315,7 +320,50 @@ export const router = createBrowserRouter([
            sessionStorage.setItem("currentPlayerTag","overviewSubTab")
            return true;
         }
+      },
+      {
+        path: "_/id/:playerId/:playerSlug/bio",
+        element: <PlayerBio />,
+        loader:()=>{
+           sessionStorage.setItem("currentPlayerTag","bioSubTab")
+           return true;
+        }
+      },
+      {
+        path: "_/id/:playerId/:playerSlug/news",
+        element: <PlayerNews />,
+        loader:()=>{
+           sessionStorage.setItem("currentPlayerTag","newsSubTab")
+           return true;
+        }
+      },
+      {
+        path: "_/id/:playerId/:playerSlug/matches",
+        element: <PlayerMatches />,
+        loader:()=>{
+           sessionStorage.setItem("currentPlayerTag","matchesSubTab")
+           return true;
+        }
+      },
+      {
+        path: "_/id/:playerId/:playerSlug/stats",
+        element: <PlayerStats />,
+        loader:()=>{
+           sessionStorage.setItem("currentPlayerTag","statsSubTab")
+           return true;
+        }
       }
     ],
+  },{
+    path: "/article/:articleId/:articleSlug",
+    element: <ArticlePage />,
+    loader:()=>{
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      if(sessionStorage.getItem("activeNav") !== null){
+        sessionStorage.removeItem("activeNav")
+      }
+      return true;
+    }
   }
 ]);

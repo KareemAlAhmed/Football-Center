@@ -8,6 +8,7 @@ import NewsSmallCard from '../../../components/News/NewsSmallCard/NewsSmallCard'
 import CompetetionIntro from '../../../components/CompetetionIntro/CompetetionIntro';
 import { GET_COMPET_DATA } from '../../../redux/tourns/tournsActions';
 import { GET_TEAM_INFO } from '../../../redux/team/teamsActions';
+import { getArticleLink } from '../../../utils/baseUrl';
 export default function CompetetionHomePage() {
   let { competId } = useParams();
   let { competSlug } = useParams();
@@ -59,7 +60,9 @@ export default function CompetetionHomePage() {
                             {currentCompetData.allNews?.map((article,index)=>{
                                 return <article className="newsContainer">
                                         <div className="articleImage">
+                                          <Link to={getArticleLink(article.id,article.slug,article.type)}>                                       
                                             <img src={article.imageUrl} alt="" />
+                                          </Link>
                                         </div>
                                         <div className="text-container">
                                             <div className="article-meta-data">
@@ -67,7 +70,9 @@ export default function CompetetionHomePage() {
                                                 <div>-</div>
                                                 <div className="author">{article.author}</div>
                                             </div>
-                                            <h1 className="articleTitle">{article.title}</h1>
+                                            <Link to={getArticleLink(article.id,article.slug,article.type)}>  
+                                              <h1 className="articleTitle">{article.title}</h1>
+                                            </Link>
                                             <p className="articleQuickInfo">{article.quickContent}</p>
                                         </div>
                                 </article>

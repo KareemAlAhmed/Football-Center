@@ -214,6 +214,23 @@ h4{
   font-size: 22px;
   color: var(--text-color);
 }
-.teamLink,.competLink{
+.teamLink,.competLink,.playerLink,.articleLink{
   color: var(--text-color);
+  transition: all 0.3s ease;
+}
+.articleLink:hover{
+  color: var(--hover-color);
+}
+.scores .playerLink:hover,
+.Scoreboard .playerLink:hover{
+  text-decoration: underline;
+}
+.win{
+  color: #094;
+}
+.lose{
+  color: #d00;
+}
+.draw{
+  color: #6c6d6f;
 }

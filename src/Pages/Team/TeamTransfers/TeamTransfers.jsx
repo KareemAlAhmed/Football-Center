@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { GET_TEAM_TRANSFER_DATA } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
 import TeamStatsOpt from '../../../components/TeamStatsOpt/TeamStatsOpt';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { getPlayerLink, getTeamImage } from '../../../utils/baseUrl';
 
 export default function TeamTransfers() {
     let [selectedSeason,setSelectedSeason]=useState(`${new Date().getFullYear()}`)
@@ -92,7 +92,7 @@ export default function TeamTransfers() {
                                                         currentTeamTransfers.listOfIncomingPlayer.map((player,index3)=>{
                                                             return <tr key={index3}>
                                                                     <td>{player.date}</td>
-                                                                    <td><Link>{player.player.name}</Link></td>                                                          
+                                                                    <td><Link className='playerLink' to={getPlayerLink(player.player.id,player.player.slug)}>{player.player.name}</Link></td>                                                          
                                                                     <td>
                                                                         {
                                                                             player.fromTeam.id !== null ? (
@@ -141,7 +141,7 @@ export default function TeamTransfers() {
                                                         currentTeamTransfers.listOfOutgoingPlayer.map((player,index3)=>{
                                                             return <tr key={index3}>
                                                                     <td>{player.date}</td>
-                                                                    <td><Link>{player.player.name}</Link></td>                                                          
+                                                                    <td><Link className='playerLink' to={getPlayerLink(player.player.id,player.player.slug)}>{player.player.name}</Link></td>                                                          
                                                                     <td>
                                                                         {
                                                                             player.ToTeam.id !== null ? (

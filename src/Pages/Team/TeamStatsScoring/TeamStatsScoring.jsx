@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { GET_TEAM_STATS_SCORING_DATA } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
 import TeamStatsOpt from '../../../components/TeamStatsOpt/TeamStatsOpt';
+import { getPlayerLink } from '../../../utils/baseUrl';
 
 export default function TeamStatsScoring() {
     let [selectedLeague,setSelectedLeague]=useState("all")
@@ -119,7 +120,7 @@ export default function TeamStatsScoring() {
                                                         currentTeamStatsScoring.TopScorers.map((player,index3)=>{
                                                             return <tr key={index3}>
                                                                     <td>{player.rank}</td>
-                                                                    <td><Link>{player.name}</Link></td>                                                          
+                                                                    <td><Link className='playerLink' to={getPlayerLink(player.id,player.slug)}>{player.name}</Link></td>                                                          
                                                                     <td>{player.P}</td>
                                                                     <td>{player.G}</td>
                                                             </tr>
@@ -147,7 +148,7 @@ export default function TeamStatsScoring() {
                                                         currentTeamStatsScoring.TopAssists.map((player,index3)=>{
                                                             return <tr key={index3}>
                                                                     <td>{player.rank}</td>
-                                                                    <td><Link>{player.name}</Link></td>                                                          
+                                                                    <td><Link className='playerLink' to={getPlayerLink(player.id,player.slug)}>{player.name}</Link></td>                                                          
                                                                     <td>{player.P}</td>
                                                                     <td>{player.A}</td>
                                                             </tr>

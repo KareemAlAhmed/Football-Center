@@ -10,17 +10,17 @@ export default function PlayerIntro({player,playerSlug}) {
 
 
     useEffect(()=>{
-        let allLis=document.querySelectorAll(".competPageOpts .Nav__Secondary__Menu li")
+        let allLis=document.querySelectorAll(".playerPageOpts .Nav__Secondary__Menu li")
         for (const li of allLis) {
             li.addEventListener("mouseenter", function(event) {     
                 if(!li.classList.contains("activeli")){
-                    document.querySelector(".competPageOpts .activeli").style.boxShadow = "none";
+                    document.querySelector(".playerPageOpts .activeli").style.boxShadow = "none";
                 }
               // Add your custom logic to handle the click event as needed
             });
             li.addEventListener("mouseleave", function(event) {     
                 if(!li.classList.contains("activeli")){
-                    document.querySelector(".competPageOpts .activeli").style.boxShadow = "inset 0 -3px 0 var(--text-color)";
+                    document.querySelector(".playerPageOpts .activeli").style.boxShadow = "inset 0 -3px 0 var(--text-color)";
                 }
               // Add your custom logic to handle the click event as needed
             });
@@ -44,7 +44,7 @@ export default function PlayerIntro({player,playerSlug}) {
     <>
         <div className='playerHeaderInfo'>
             <div className="teamLogo">
-                <img src={getTeamImage(player.team.id)} alt="" />
+                <img src={getTeamImage(player.team?.id)} alt="" />
                 <div className="leftlayer"></div>
                 <div className="rightlayer"></div>
             </div>
@@ -58,14 +58,14 @@ export default function PlayerIntro({player,playerSlug}) {
                         <div className="playerTeamHeader">
                             <div className="playerTeamInfo">
                                 <div className="playerTeamLogo">
-                                    <img src={getTeamImage(player.team.id)} alt="" />
+                                    <img src={getTeamImage(player.team?.id)} alt="" />
                                 </div>
                                 <div className="playerTeamName">
                                     { 
                                         player.team?.id != null ? (
                                             <Link to={`/team/_/id/${player.team.id.id}/${player.team.slug}`}>{player.team.name}</Link>
                                         ) :(
-                                            <p>{player.team.name}</p>
+                                            <p>{player.team?.name}</p>
                                         )
                                     }
                                 </div>
@@ -84,10 +84,49 @@ export default function PlayerIntro({player,playerSlug}) {
 
                    </div>
                    <div className="playerBio">
+                        <ul className="bioInfo">
+                            <li>
+                                <span className='bioSection'>HT/WT</span>
+                                <span className='bioValue'>{player?.height},{player?.weight}</span>
+                            </li>
+                            <li>
+                                <span className='bioSection'>Birthdate</span>
+                                <span className='bioValue'>{player?.birthday}</span>
 
+                            </li>
+                            <li>
+                                <span className='bioSection'>Nationality</span>
+                                <span className='bioValue'>{player?.nationality}</span>
+
+                            </li>
+                        </ul>
                    </div>
                 </div>
-                
+                <div className="playerCurrentStats">
+                   <div className="statsWrapper">
+                    <div className="currentLeagueSeason">
+                            <p>{player.currentStats?.name}</p>
+                        </div>
+                        <ul className="stats">
+                            <li>
+                                <span className='statSection'>START (SUB)</span>
+                                <span className='statValue'>{player?.currentStats?.startAndSubs}</span>
+                            </li>
+                            <li>
+                                <span className='statSection'>G</span>
+                                <span className='statValue'>{player?.currentStats?.goals}</span>
+                            </li>
+                            <li>
+                                <span className='statSection'>A</span>
+                                <span className='statValue'>{player?.currentStats?.assists}</span>
+                            </li>
+                            <li>
+                                <span className='statSection'>SH</span>
+                                <span className='statValue'>{player?.currentStats?.shoots}</span>
+                            </li>
+                        </ul>
+                   </div>
+                </div>
             </div>
         </div>
 
@@ -96,17 +135,17 @@ export default function PlayerIntro({player,playerSlug}) {
                 <li className="overviewSubTab " onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}`)}}>
                 <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}`)}}>Overview</Link>
                 </li>
-                <li className="bioSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/scores`)}}>
-                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/scores`)}}>Bio</Link>
+                <li className="bioSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/bio`)}}>
+                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/bio`)}}>Bio</Link>
                 </li>
-                <li className="newsSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/table`)}}>
-                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/table`)}}>News</Link>
+                <li className="newsSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/news`)}}>
+                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/news`)}}>News</Link>
                 </li>
-                <li className="matchesSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/fixtures`)}}>
-                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/fixtures`)}}>Matches</Link>
+                <li className="matchesSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/matches`)}}>
+                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/matches`)}}>Matches</Link>
                 </li>
-                <li className="statsSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/teams`)}}>
-                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/teams`)}}>Stats</Link>
+                <li className="statsSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/stats`)}}>
+                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${player.id}/${playerSlug}/stats`)}}>Stats</Link>
                 </li>
             
             </ul>

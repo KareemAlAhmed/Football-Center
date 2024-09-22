@@ -7,7 +7,7 @@ import CompetetionIntro from '../../../components/CompetetionIntro/CompetetionIn
 import NavBar from '../../../components/NavBar/NavBar';
 import { GET_COMPETETION_STANDING_DATA } from '../../../redux/tourns/tournsActions';
 import { GET_TEAM_INFO } from '../../../redux/team/teamsActions';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { getTeamImage, getTeamLink } from '../../../utils/baseUrl';
 export default function CompetetionTable() {
     let { competId } = useParams();
     let { competSlug } = useParams();
@@ -102,7 +102,7 @@ export default function CompetetionTable() {
                                             <div className="teamLogo" onClick={()=>{dispatch(GET_TEAM_INFO(team.id));navigate(`/team/_/id/${team.id}/${team.slug}`)}}>
                                                 <img src={getTeamImage(team.id)} alt="" onClick={()=>{dispatch(GET_TEAM_INFO(team.id));navigate(`/team/_/id/${team.id}/${team.slug}`)}} />
                                             </div>
-                                            <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
+                                            <Link to={getTeamLink(team.id,team.slug)} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
                                         </td>
                                       <td>{team.GP}</td>
                                       <td>{team.W}</td>

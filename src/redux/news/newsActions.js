@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { baseUrl } from "../../utils/baseUrl";
-import { GET_COMPET_MAJOR_TRANSFERS, GET_COMPET_MAJOR_TRANSFERS_SUCCESS, GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
+import { GET_ARTICLE_CONTENT, GET_ARTICLE_CONTENT_FAILED, GET_ARTICLE_CONTENT_SUCCESS, GET_COMPET_MAJOR_TRANSFERS, GET_COMPET_MAJOR_TRANSFERS_SUCCESS, GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
 
 export function getTransferTopNews(){
     return{
@@ -30,8 +30,7 @@ export function getMajorTransfers(){
     }
 }
 export function getMajorTransfersSuccuessed(data){
-    sessionStorage.setItem("currentLeagueMajorTransfer",JSON.stringify(data))
-   
+    sessionStorage.setItem("currentLeagueMajorTransfer",JSON.stringify(data))  
     return{
         type:GET_MAJOR_TRANSFERS_SUCCESS,
         payload:data
@@ -45,11 +44,29 @@ export function getMajorTransfersFailed(error){
 }
 export function getCompetMajorTransfersSuccuessed(data,id){
     data.id=id
-    sessionStorage.setItem("currentCompetTransfers",JSON.stringify(data))
-   
+    sessionStorage.setItem("currentCompetTransfers",JSON.stringify(data))  
     return{
         type:GET_COMPET_MAJOR_TRANSFERS_SUCCESS,
         payload:data
+    }
+}
+
+export function getArticleContent(){
+    return{
+        type:GET_ARTICLE_CONTENT
+    }
+}
+export function getArticleContentSuccuessed(data){
+    sessionStorage.setItem("currentArticleData",JSON.stringify(data))  
+    return{
+        type:GET_ARTICLE_CONTENT_SUCCESS,
+        payload:data
+    }
+}
+export function getArticleContentFailed(error){
+    return{
+        type:GET_ARTICLE_CONTENT_FAILED,
+        payload:error
     }
 }
 
@@ -75,8 +92,19 @@ export function GET_MAJOR_TRANSFERS_DATA(competSlug='any',season='any',forPage=n
             forPage == null ? dispatch(getMajorTransfersSuccuessed(re.data)) : dispatch(getCompetMajorTransfersSuccuessed(re.data,competId))
         })
         .catch(()=>{
-            dispatch(getMajorTransfersFailed("Error While Getting The Data"))
-            
+            dispatch(getMajorTransfersFailed("Error While Getting The Data"))          
+        })
+    }
+}
+export function GET_ARTICLE_DATA(articleId,articleSlug){
+    return function(dispatch){
+        dispatch(getArticleContent());     
+        axios.get(baseUrl+`api/news/${articleId}/${articleSlug}/getArticleData`)
+        .then(re=>{
+           dispatch(getArticleContentSuccuessed(re.data))
+        })
+        .catch(()=>{
+            dispatch(getArticleContentFailed("Error While Getting The Data"))          
         })
     }
 }

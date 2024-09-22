@@ -1,0 +1,34 @@
+.Card .Wrapper .filters{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Card .Wrapper .listOfPlayers li{
+    display: flex;
+    color: var(--text-color);
+    margin: 10px 0;
+}
+.Card .Wrapper .playerNumber{
+    width: 40px;
+    position: relative;
+}
+.Card .Wrapper .playerNumber .shirtNumber{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+}
+
+.Card .Wrapper .playerName{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.playersloadingBlock{
+    display: flex;
+    justify-content: center;
+}
