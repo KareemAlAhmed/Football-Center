@@ -1,0 +1,18 @@
+section.gameInfo{
+    width: 100%;
+    padding: 0 12px;
+}
+section.gameInfo .cardTitle p {
+    font-size: 18px;
+}
+section.gameInfo .stadiumAndTime{
+    padding-bottom: 10px;
+    border-bottom: 1px dotted var(--hover-color);
+}
+section.gameInfo .gameCity{
+    padding-top: 10px;
+}
+section.gameInfo  .Wrapper p{
+    font-size: 14px;
+    color: var(--text-color);
+}

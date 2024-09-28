@@ -54,7 +54,8 @@ export default function NewsSmallCard({news,forComp}) {
                   <Link className='articleLink' to={getArticleLink(news?.id,news?.slug,news?.type)}>{news?.articleTitle}</Link>
                   <div className="channel">
                     <div className="channelLogo">
-                        <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" style={style} />
+                      
+                      <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" style={style} />
                     </div> 
                     <p className='channelName'>{news?.author !== "" ?news?.author : "Source Not Found"}</p>
                     <p className='channelName'>{news?.timeStamps}</p>

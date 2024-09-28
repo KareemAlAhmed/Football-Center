@@ -1,0 +1,74 @@
+section.teamTopPerformer{
+    width: 100%;
+    padding: 0 12px;
+    margin-bottom: 15px;
+}
+section.teamTopPerformer .Wrapper {
+    display: flex;
+    flex-direction: row;
+}
+section.teamTopPerformer .cardTitle p{
+    font-size: 18px;
+    border-style: solid;
+}
+
+section.teamTopPerformer .Wrapper .teamScorers{
+    display: flex;
+    flex-direction: column;
+    flex: 50% 0;
+    gap: 15px;
+}
+section.teamTopPerformer .Wrapper .teamScorers:first-of-type{
+    border-right: 1px solid var(--hover-color);
+}
+section.teamTopPerformer .Wrapper .teamScorers .teamNameAndLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+section.teamTopPerformer .Wrapper .teamScorers .teamLogo{
+    width: 28px;
+}
+section.teamTopPerformer .Wrapper .playerJersy{
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+section.teamTopPerformer .Wrapper .playerJersy .shirtNumber{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+}
+section.teamTopPerformer .Wrapper .scorersList {
+    display: flex;
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData{
+    padding: 0 8px;
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid var(--hover-color);
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData:last-child{
+    border: none;
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData .playerInfo{
+    text-align: center;
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData .playerInfo .playerName{
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData .playerInfo ul{
+    font-size: 11px;
+    color: var(--hover-color);
+}

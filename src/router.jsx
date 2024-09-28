@@ -36,6 +36,10 @@ import PlayerMatches from "./Pages/Player/PlayerMatches/PlayerMatches";
 import PlayerStats from "./Pages/Player/PlayerStats/PlayerStats";
 import PlayerNews from "./Pages/Player/PlayerNews/PlayerNews";
 import ArticlePage from "./Pages/ArticlePage/ArticlePage";
+import MainMatchSummaryPage from "./Pages/Match/MatchSummaryPage/MainMatchSummaryPage";
+import MainMatchStatisticsPage from "./Pages/Match/MatchStatisticsPage/MainMatchStatisticsPage";
+import MatchPreviewPage from "./Pages/Match/MatchPreviewPage/MatchPreviewPage";
+import MatchLineUpPage from "./Pages/Match/MatchLineUpPage/MatchLineUpPage";
 
 
 export const router = createBrowserRouter([
@@ -365,5 +369,53 @@ export const router = createBrowserRouter([
       }
       return true;
     }
-  }
+  },{
+    path: "/match/_/",
+    loader:()=>{
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      if(sessionStorage.getItem("activeNav") !== null){
+        sessionStorage.removeItem("activeNav")
+      }
+      return true;
+   },
+    children: [
+      {
+        path: ":gameId/:gameSlug",
+        element: <MainMatchSummaryPage />,
+        loader:()=>{
+           sessionStorage.setItem("currentGameTag","summarySubTab")
+           return true;
+        }
+      },{
+        path: ":gameId/:gameSlug/summary",
+        element: <MainMatchSummaryPage />,
+        loader:()=>{
+           sessionStorage.setItem("currentGameTag","summarySubTab")
+           return true;
+        }
+      },{
+        path: ":gameId/:gameSlug/MatchStats",
+        element: <MainMatchStatisticsPage />,
+        loader:()=>{
+           sessionStorage.setItem("currentGameTag","matchstatsSubTab")
+           return true;
+        }
+      },{
+        path: ":gameId/:gameSlug/preview",
+        element: <MatchPreviewPage />,
+        loader:()=>{
+           sessionStorage.setItem("currentGameTag","previewSubTab")
+           return true;
+        }
+      },{
+        path: ":gameId/:gameSlug/lineups",
+        element: <MatchLineUpPage />,
+        loader:()=>{
+           sessionStorage.setItem("currentGameTag","lineupsSubTab")
+           return true;
+        }
+      }
+    ],
+  },
 ]);

@@ -1,0 +1,17 @@
+.matchStats .mainContainer{
+    flex: 1;
+}
+.matchStats .gameStats{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.matchStats .gameStats .Wrapper .competitorsNames{
+    gap: 5%;
+}
+.matchStats .gameStats .Wrapper .competitorsNames a{
+    flex: 40% 1 !important;
+}
+.matchStats .gameStats .Wrapper .teamStat .homeTeamStats, .matchStats .gameStats .Wrapper .teamStat .awayTeamStats{
+    flex: 40% 1 !important;
+    padding: 12px 10px !important;
+}

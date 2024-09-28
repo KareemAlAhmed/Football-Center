@@ -15,7 +15,7 @@ export default function PlayerOverview() {
     let { playerSlug } = useParams();
     let loading=useSelector(state=>state.players.loading) 
 
- let currentPlayerInfo=useSelector(state=>state.players.currentPlayerInfo)    
+    let currentPlayerInfo=useSelector(state=>state.players.currentPlayerInfo)    
     let currentSwitchPlayers=useSelector(state=>state.players.currentSwitchPlayers) 
     let [selectedTeam,setSelectedTeam]=useState(currentPlayerInfo?.team?.id)
     let [selectedPosition,setSelectedPosition]=useState(`F`)

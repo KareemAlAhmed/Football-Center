@@ -1,0 +1,149 @@
+.gameHeaderInfo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.gameHeaderInfo .gameCompet{
+    text-align: center;
+}
+.gameHeaderInfo .gameCompet p {
+    font-size: 15px;
+    color: var(--hover-color);
+}
+.gameHeaderInfo .competitorsInfo{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 112px;
+}
+
+.gameHeaderInfo .competitorsInfo .homeTeamInfo,
+.gameHeaderInfo .competitorsInfo .awayTeamInfo{
+    display: flex;
+    flex: 40%;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container{
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 300px;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-left,
+.gameHeaderInfo .competitorsInfo .Logo-Container-left .TeamLogo{
+    left: 0;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-left .TeamLogo{
+    clip-path: polygon(0 100%, 0 0, 137px 0, 83px 100%);
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-left .TeamLogo img{
+    left: 10px;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-right,
+.gameHeaderInfo .competitorsInfo .Logo-Container-right .TeamLogo{
+    right: 0;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-right .TeamLogo{
+    clip-path: polygon(100% 100%, 100% 0, 11px 0, 65px 100%);
+
+}
+.Logo-Container-left .SkewedLine--1, .Logo-Container-left .SkewedLine--2{
+    bottom: 0;
+    content: "";
+    height: 230px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: skew(-26deg) translateY(-50%);
+    -ms-transform: skew(-26deg) translateY(-50%);
+    transform: skew(-26deg) translateY(-50%);
+    width: 8px;
+    z-index: 2;
+}
+
+
+.Logo-Container-left .SkewedLine--1{
+    left: 83px;
+}
+.Logo-Container-left .SkewedLine--2{
+    left: 93px;
+}
+
+
+
+.Logo-Container-right .SkewedLine--1, .Logo-Container-right .SkewedLine--2{
+    bottom: 0;
+    content: "";
+    height: 230px;
+    top: 0;
+    -webkit-transform: skew(26deg) translateY(-50%);
+    -ms-transform: skew(26deg) translateY(-50%);
+    transform: skew(26deg) translateY(-50%);
+    width: 8px;
+    position: absolute;
+}
+
+.Logo-Container-right .SkewedLine--1{
+    left: 209px;
+}
+.Logo-Container-right .SkewedLine--2{
+    left: 199px;
+}
+
+.gameHeaderInfo .competitorsInfo .Logo-Container-right .TeamLogo img{
+    right: 10px;
+}
+
+
+.gameHeaderInfo .competitorsInfo .Logo-Container .TeamLogo{
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 148px;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container .TeamLogo .logoWrapper{
+    position: relative;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container .TeamLogo img{
+    height: 80px;
+    width: 80px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo{
+    flex: 1 0 auto;
+    z-index: 1;
+    display: flex;
+}
+.gameHeaderInfo .competitorsInfo .homeTeamInfo .competitorInfo{
+    justify-content: flex-end;
+}
+.gameHeaderInfo .competitorsInfo .awayTeamInfo .competitorInfo{
+    justify-content: flex-start;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints span{
+    font-size: 15px;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo img{
+    width: 48px;
+}
+
+.gameHeaderInfo .competitorsInfo .matchDataAndTime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 10% 0;
+}
+.gameHeaderInfo .competitorsInfo span{
+    color: var(--hover-color);
+}
+.gameHeaderInfo .competitorsInfo .matchDate{
+    color: var(--text-color);
+}

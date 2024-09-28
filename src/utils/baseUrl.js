@@ -18,6 +18,34 @@ export function getArticleLink(articleId,articleSlug,articleType){
     if(articleType==="story"){
         return `/article/${articleId}/${articleSlug}`
     }else{
-        return ""
+        return `/match/_/${articleId}/${articleSlug}/summary`
     }
+}
+export function getGameLink(gameId,gameSlug){
+    return `/match/_/${gameId}/${gameSlug}/summary`
+}
+export function getLocalTime(oldTime){
+    let time=oldTime
+    let listOftime=time.split(":")
+    if(parseInt(listOftime[0]) <= 5){
+        let newTimeRep=listOftime[1].split(" ")
+        listOftime[1]=newTimeRep.join(" ")
+        let diff= 5 - parseInt(listOftime[0])
+        let newTime=12 - diff
+        listOftime[0]=newTime
+        time=listOftime.join(":")
+    }else{
+        let newTimeRep=listOftime[1].split(" ")
+        if(parseInt(listOftime[0]) !== 12){
+                if(newTimeRep[1] === "PM"){
+                    newTimeRep[1] ="AM"
+                }else{
+                    newTimeRep[1] ="PM"
+                }
+        }
+        listOftime[1]=newTimeRep.join(" ")
+        listOftime[0]=parseInt(listOftime[0]) - 5
+        time=listOftime.join(":")
+    }
+    return time
 }
