@@ -1,0 +1,174 @@
+section.gameTimeLine{
+    width: 100%;
+    padding: 0 12px;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow-x: auto;
+    padding: 0;
+    position: relative;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContentCompetitor{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    line-height: 23px;
+    padding-left: 8px;
+    padding-top: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContentCompetitor img{
+    width: 20px;
+    height: 20px;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContentCompetitor a{
+  margin-left: 5px;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContentCompetitor--away{
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    padding-bottom: 8px;
+    padding-top: 0;
+}
+
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent {
+    height: 88px;
+    min-width: 580px;
+    padding: 0 28px;
+    position: relative;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent .timelineContentMatch{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0 10px;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent .timelineContentMatchProgress{
+    background: #cbccce;
+    border-radius: 8px;
+    height: 16px;
+    left: 28px;
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressProgressBarWrapper{
+    padding-right: 28px;
+    -webkit-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    /* width: calc(100% + 61px); */
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressProgressBar{
+    background-color: #5bb447;
+    border-radius: 8px;
+    height: 16px;
+    position: relative;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressEvents{
+    height: 100%;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressEvents ul{
+    height: 100%;
+    list-style: none;
+}
+
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressEvents ul li {
+    bottom: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    white-space: nowrap;
+    font-weight: 700;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressEvents ul li.timelineContentMatchProgressEventsEvent--halftime {
+    z-index: 1;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressEvents ul li .timelineContentMatchProgressEventsEventTime {
+    background-color: #5bb447;
+    border-radius: 8px;
+    color: #fff;
+    display: inline-block;
+    font-size: 9px;
+    height: 16px;
+    left: 50%;
+    line-height: 16px;
+    margin-top: 0;
+    min-width: 17px;
+    pointer-events: none;
+    position: absolute;
+    right: auto;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+}
+.timelineContentMatchProgressEventsEvent--halftime .timelineContentMatchProgressEventsEventTime {
+    background-color: #fff !important;
+    color: #5bb447 !important;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressEvents .homeTeamEvents{
+    margin-top: -32px;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressEvents .awayTeamEvents{
+    margin-top: 7px;
+}
+section.gameTimeLine .Wrapper .timelineContentWrapper .timelineContent  .timelineContentMatchProgressEvents svg{
+    width: 22px !important;
+    height: 25px !important;
+}
+
+/* width */
+section.gameTimeLine ::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  /* Track */
+ section.gameTimeLine ::-webkit-scrollbar-track {
+    /* background-color: var(--social-back-color);  */
+    background-color: var(--button-hover-color); 
+    cursor: pointer;
+    border-radius: 50px;
+  }
+   
+  /* Handle */
+  section.gameTimeLine  ::-webkit-scrollbar-thumb {
+    background: var(--text-color); 
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  section.gameTimeLine  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--hover-color); 
+  }

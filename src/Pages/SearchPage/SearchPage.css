@@ -1,0 +1,55 @@
+.searchPage .SearchBlock{
+    background-color: #1a1a1a;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.searchPage .SearchBlock  svg{
+    width: 28px;
+    height: 28px;
+    fill: var(--text-color);
+    transition: all 0.3s ease;
+}
+.searchPage .SearchBlock  input{
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    outline: none;
+    transition: all 0.3s ease;
+}
+.searchPage .SearchBlock .activeInp{
+    max-width: 150px;
+}
+
+.searchPage .searchResults .noDataFound{
+    font-size: 25px;
+}
+.searchPage .filtersOptions{
+    margin-top: 15px;
+}
+.searchPage button.searchFilter {
+    padding: 10px 15px;
+    background-color: #1a1a1a;
+    color: var(--hover-color);
+    font-weight: 500;
+    margin-right: 10px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+.searchPage button.searchFilter:hover{
+    color: var(--text-color);
+}
+.searchPage .activeSearchFilter{
+    color: var(--text-color) !important;
+}
+.filteredList{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

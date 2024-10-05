@@ -5,8 +5,9 @@ import NavBar from '../../../components/NavBar/NavBar';
 import PlayerIntro from '../../../components/PlayerIntro/PlayerIntro';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { GET_PRE_MATCH_SUMMARY_DATA } from '../../../redux/matches/matchesAction';
+import { GET_MATCH_TEST_DATA, GET_PRE_MATCH_SUMMARY_DATA } from '../../../redux/matches/matchesAction';
 import PreMatchSummary from './PreMatchSummary/PreMatchSummary';
+import PostMatchSummary from './PostMatchSummary/PostMatchSummary';
 
 export default function MainMatchSummaryPage() {
     let { gameId } = useParams();
@@ -26,6 +27,14 @@ export default function MainMatchSummaryPage() {
       }else{
           dispatch(GET_PRE_MATCH_SUMMARY_DATA(gameId,gameSlug))
       }
+      // let currentData=JSON.parse(sessionStorage.getItem("currentMatchSummary"))
+      // if(currentData != null){
+      //     if(gameId !== currentData.id){
+      //         dispatch(GET_MATCH_TEST_DATA(gameId,gameSlug))
+      //     }
+      // }else{
+      //     dispatch(GET_MATCH_TEST_DATA(gameId,gameSlug))
+      // }
 
       let loadingHeight=window.innerHeight - 95 - document.querySelector(".footer").offsetHeight - 50
           if(document.querySelector(".loadingBlock")){
@@ -55,7 +64,10 @@ export default function MainMatchSummaryPage() {
             ):(
               currentMatchSummary?.status === "Not Started" ? (
                 <PreMatchSummary gameId={gameId} gameSlug={gameSlug} />
+              )  : (currentMatchSummary?.status === "Finished" || currentMatchSummary?.status === "Live") ? (
+                <PostMatchSummary gameId={gameId} gameSlug={gameSlug} />
               ) :null
+
             )}
         </div>
       </div>

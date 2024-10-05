@@ -15,6 +15,7 @@
     position: relative;
     align-items: center;
     height: 112px;
+    gap: 10px;
 }
 
 .gameHeaderInfo .competitorsInfo .homeTeamInfo,
@@ -46,6 +47,36 @@
 .gameHeaderInfo .competitorsInfo .Logo-Container-right .TeamLogo{
     clip-path: polygon(100% 100%, 100% 0, 11px 0, 65px 100%);
 
+}
+.gameHeaderInfo .performedPlayers{
+    display: flex;
+    padding: 8px 0;
+    gap: 10px;
+}
+.gameHeaderInfo .performedPlayers .seperatorList{
+    flex: 10% 0;
+}
+.gameHeaderInfo .performedPlayers .performedPlayersList{
+    flex: 45% 0;
+}
+.gameHeaderInfo .performedPlayers .performedPlayersList.homePlayers{
+    text-align: right;
+}
+.gameHeaderInfo .performedPlayers .performedPlayersList .scorredPlayers .scorredPlayersWrapper,
+.gameHeaderInfo .performedPlayers .performedPlayersList .redCardPlayers .redCardPlayerssWrapper{
+    display: inline-block;
+    padding: 0 5px;
+}
+.gameHeaderInfo .performedPlayers  ul li{
+    display: inline-block;
+    padding: 0 5px;
+    color: var(--text-color);
+}
+.gameHeaderInfo .performedPlayers .performedPlayersList .scorredPlayers .scorredPlayersWrapper .goalTime{  
+    margin-left: 5px;
+}
+.gameHeaderInfo .performedPlayers  svg{
+    display: inline-block;
 }
 .Logo-Container-left .SkewedLine--1, .Logo-Container-left .SkewedLine--2{
     bottom: 0;
@@ -115,6 +146,8 @@
     flex: 1 0 auto;
     z-index: 1;
     display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .gameHeaderInfo .competitorsInfo .homeTeamInfo .competitorInfo{
     justify-content: flex-end;
@@ -130,6 +163,17 @@
 .gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints span{
     font-size: 15px;
 }
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamScore{
+    font-size: 39px;
+    font-weight: 900;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamScore:first-child{
+    margin-right: 15px;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamScore:last-child{
+    margin-left: 15px;
+}
+
 .gameHeaderInfo .competitorsInfo .competitorInfo img{
     width: 48px;
 }
@@ -140,6 +184,21 @@
     align-items: center;
     justify-content: center;
     flex: 10% 0;
+    position: relative;
+}
+.gameHeaderInfo .competitorsInfo .matchDataAndTime .arrowIcon{
+    width: 20px;
+    fill: var(--text-color);
+    position: absolute;
+}
+.gameHeaderInfo .competitorsInfo .matchDataAndTime .rightArrow{
+    right: 0;
+}
+.gameHeaderInfo .competitorsInfo .matchDataAndTime .leftArrow{
+    left: 0;
+}
+.gameHeaderInfo .competitorsInfo .matchDataAndTime .finishedTime{
+    font-size: 20px;
 }
 .gameHeaderInfo .competitorsInfo span{
     color: var(--hover-color);
@@ -147,3 +206,33 @@
 .gameHeaderInfo .competitorsInfo .matchDate{
     color: var(--text-color);
 }
+.winnerScore{
+    color: var(--text-color) !important;
+}
+.matchLiveTime{
+    color: var(--red-color) !important;
+    font-size: 23px;
+    position: relative;
+}
+.matchLiveTime::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: var(--red-color);
+    width: 100%;
+    animation: pulse 2s infinite ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }

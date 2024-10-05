@@ -7,6 +7,7 @@ import "./MainMatchStatisticsPage.css"
 import React, { useEffect } from 'react'
 import { useParams } from "react-router-dom";
 import PreMatchStatistics from "./PreMatchStatistics/PreMatchStatistics";
+import PostMatchStatistics from "./PostMatchStatistics/PostMatchStatistics";
 
 export default function MainMatchStatisticsPage() {
     let { gameId } = useParams();
@@ -55,7 +56,9 @@ export default function MainMatchStatisticsPage() {
             ):(
                 currentMatchStats?.status === "Not Started" ? (
                 <PreMatchStatistics  gameId={gameId} gameSlug={gameSlug} />
-              ) :null
+              ) :  (
+                <PostMatchStatistics gameId={gameId} gameSlug={gameSlug} />
+              ) 
             )}
         </div>
       </div>

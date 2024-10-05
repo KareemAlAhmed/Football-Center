@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 import DefaultLogo from "../../components/default.png"
 import DatesSlider from '../../components/DatesSlider/DatesSlider';
 import { Link } from 'react-router-dom';
+import { getGameLink } from '../../utils/baseUrl';
 export default function SchedulePage() {
 
 
@@ -50,7 +51,7 @@ export default function SchedulePage() {
                                           </div>
                                           <div className='team'>
                                             <div className="scores">
-                                              <span>{match.scores}</span>
+                                              <Link to={getGameLink(match.id,match.slug)}><span>{match.scores}</span></Link>
                                             </div>
                                             <div className='Home'>
                                             <Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}><img src={match.HomeTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.HomeTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" /></Link>

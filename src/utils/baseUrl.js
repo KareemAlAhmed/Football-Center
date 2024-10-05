@@ -8,6 +8,9 @@ export function getTeamImage(id){
 export function getCompetImage(id){
     return `https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/${id}.png`
 }
+export function getCompetLink(competId,competSlug){
+    return `/competetion/_/id/${competId}/${competSlug}`
+}
 export function getPlayerLink(playerId,playerSlug){
     return `/player/_/id/${playerId}/${playerSlug}`
 }
@@ -22,7 +25,10 @@ export function getArticleLink(articleId,articleSlug,articleType){
     }
 }
 export function getGameLink(gameId,gameSlug){
-    return `/match/_/${gameId}/${gameSlug}/summary`
+    return `/match/_/${gameId}/${gameSlug}/summary`  
+}
+export function getDefaultLogo(){
+    return "https://a.espncdn.com/combiner/i?img=/i/headshots/nophoto.png&h=80&w=80&scale=crop" 
 }
 export function getLocalTime(oldTime){
     let time=oldTime

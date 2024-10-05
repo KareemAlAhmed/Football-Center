@@ -1,0 +1,56 @@
+section.gameCommentary{
+    width: 100%;
+    padding: 0 12px;
+    margin-top: 15px;
+}
+section.gameCommentary .Wrapper table .commentDetails{
+    display: flex;
+    color: var(--text-color);
+    padding-bottom: 10px;
+    align-items: center;
+}
+section.gameCommentary .Wrapper table .commentDetails .commentTime{
+    font-weight: 600;
+    width: 50px;
+    font-size: 15px;
+}
+section.gameCommentary .Wrapper table .commentDetails .commentEventLogo{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    padding-left: 8px;
+}      
+section.gameCommentary .Wrapper table .commentDetails .commentEventLogo svg{
+    margin-top: 10px;
+}
+section.gameCommentary .Wrapper table  tbody tr:first-child .commentDetails .commentContent{
+    padding-left: 14px;
+}
+section.gameCommentary .Wrapper table .commentDetails .commentContent{
+    padding-left: 8px;
+    white-space: normal;
+    width: 100%;
+}
+section.gameCommentary  .tabList{
+    display: flex;
+    justify-content: center;
+}
+section.gameCommentary  .tabList button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--hover-color);
+    font-weight: 600;
+    padding: 3px 18px;
+    border-radius: 50px;
+}
+section.gameCommentary .activeFilter{
+    background-color: var(--button-hover-color);
+}
+section.gameCommentary .activeFilter span{
+    color: var(--text-color);
+}

@@ -1,7 +1,7 @@
 
 
 import axios from "axios";
-import { LOGIN_USER, LOGIN_USER_FAILED, LOGIN_USER_SUCCESS, REGISTER_USER, REGISTER_USER_FAILED, REGISTER_USER_SUCCESS, SET_FAV_COMPT_TEAMS, SET_FAV_COMPT_TEAMS_FAILED, SET_FAV_COMPT_TEAMS_SUCCESS } from "./userActionType";
+import { GET_SEARCH_CONTENT, GET_SEARCH_CONTENT_FAILED, GET_SEARCH_CONTENT_SUCCESS, LOGIN_USER, LOGIN_USER_FAILED, LOGIN_USER_SUCCESS, REGISTER_USER, REGISTER_USER_FAILED, REGISTER_USER_SUCCESS, SET_FAV_COMPT_TEAMS, SET_FAV_COMPT_TEAMS_FAILED, SET_FAV_COMPT_TEAMS_SUCCESS } from "./userActionType";
 import { baseUrl } from "../../utils/baseUrl";
 import { Bounce, toast } from "react-toastify";
 
@@ -116,7 +116,26 @@ export function setFavCompAndTeamFailed(error){
         payload:error
     }
 }
+export function getSearchContent(){
+    return{
+        type:GET_SEARCH_CONTENT
+    }
+}
+export function getSearchContentSuccuessed(query,data){
+    sessionStorage.setItem("searchedQuery",query)
+    sessionStorage.setItem("dataFounded",JSON.stringify(data))
 
+    return{
+        type:GET_SEARCH_CONTENT_SUCCESS,
+        payload:{query,data}
+    }
+}
+export function getSearchContentFailed(error){
+    return{
+        type:GET_SEARCH_CONTENT_FAILED,
+        payload:error
+    }
+}
 export function REGISTERING_USER(data){
     return function(dispatch){
         dispatch(registeringUser());
@@ -154,12 +173,25 @@ export function SETTING_FAV_COMPT_TEAM(username,competetion,team){
         dispatch(setFavCompAndTeam());
         axios.put(baseUrl+"api/user/updataFollowingList",{username,competetion,team})
         .then(re=>{
-            dispatch(setFavCompAndTeamSuccuessed(competetion,team))
-           
+            dispatch(setFavCompAndTeamSuccuessed(competetion,team))         
         })
         .catch(err=>{
             console.log(err)
             dispatch(setFavCompAndTeamFailed(err.response.data.error))
+        })
+    }
+}
+export function GET_SEARCH_DATA(searchText){
+    return function(dispatch){
+        dispatch(getSearchContent());
+        axios.get(baseUrl+`api/search/_/q/${searchText}`)
+        .then(re=>{
+            dispatch(getSearchContentSuccuessed(searchText,re.data))
+        })
+        .catch(err=>{
+            console.log(err)
+            dispatch(getSearchContentFailed("Error while getting the data"))
+            
         })
     }
 }

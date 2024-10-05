@@ -1,1 +1,1353 @@
-{"status":"Not Started","competName":"2024-25 UEFA Europa League, League Phase","homeTeam":{"color1":"#ffff00","color2":"#ffff47","color3":"#ffff59","id":"436","slug":"fenerbahce","name":"Fenerbahce","record":"1-0-0, 3 PTS"},"awayTeam":{"color1":"#FCEE33","color2":"#fdf36c","color3":"#fdf47a","id":"5807","slug":"union-st-gilloise","name":"Union St.-Gilloise","record":"0-0-1, 0 PTS"},"date":"","navItems":[{"text":"Summary","slug":"summary"},{"text":"Commentary","slug":"commentary"},{"text":"Statistics","slug":"matchstats"},{"text":"Line-Ups","slug":"lineups"}],"lineUps":{"homeTeamLineUp":{"formation":"4-3-3","tacticalFormation":[{"name":"Livakovic","number":"40","jersyColor":"A5A6A7","position":"translate(182px, 210px)","isSubstitute":false},{"name":"Oosterwolde","number":"24","jersyColor":"#1d1e1f","position":"translate(42px, 125px)","isSubstitute":false},{"name":"Söyüncü","number":"4","jersyColor":"#1d1e1f","position":"translate(114px, 154px)","isSubstitute":false},{"name":"Rodrigo Becão","number":"50","jersyColor":"#1d1e1f","position":"translate(250px, 154px)","isSubstitute":false},{"name":"Müldür","number":"16","jersyColor":"#1d1e1f","position":"translate(320px, 125px)","isSubstitute":true},{"name":"Szymanski","number":"53","jersyColor":"#1d1e1f","position":"translate(85px, 72px)","isSubstitute":false},{"name":"Amrabat","number":"34","jersyColor":"#1d1e1f","position":"translate(182px, 54px)","isSubstitute":false},{"name":"Fred","number":"13","jersyColor":"#1d1e1f","position":"translate(276px, 72px)","isSubstitute":true},{"name":"Ünder","number":"20","jersyColor":"#1d1e1f","position":"translate(68px, 0px)","isSubstitute":true},{"name":"En-Nesyri","number":"19","jersyColor":"#1d1e1f","position":"translate(182px, -24px)","isSubstitute":true},{"name":"Kahveci","number":"17","jersyColor":"#1d1e1f","position":"translate(295px, 0px)","isSubstitute":true}],"players":{"onPitch":[{"number":"40","id":"187946","slug":"dominik-livakovic","name":"Dominik Livakovic","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":false},{"number":"4","id":"230757","slug":"caglar-soyuncu","name":"Caglar Söyüncü","scored":true,"nbGoal":1,"goalTime":[{"goalNum":1,"goalTime":"26"}],"hasYC":false,"hasRC":false,"isSubstitute":false},{"number":"50","id":"231291","slug":"rodrigo-becao","name":"Rodrigo Becão","scored":false,"hasYC":true,"yc":[{"ycNumb":1,"ycTime":"33"}],"hasRC":false,"isSubstitute":false},{"number":"24","id":"304866","slug":"jayden-oosterwolde","name":"Jayden Oosterwolde","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":false},{"number":"16","id":"266002","slug":"mert-muldur","name":"Mert Müldür","scored":false,"hasYC":true,"yc":[{"ycNumb":1,"ycTime":"55"}],"hasRC":false,"isSubstitute":true,"subedWith":{"number":"21","id":"217071","slug":"bright-osayi-samuel","name":"Bright Osayi-Samuel","scored":false,"hasYC":true,"yc":[{"ycNumb":1,"ycTime":"87"}],"hasRC":true,"rc":[{"rcNumb":1,"rcTime":"90"}],"time":"65"}},{"number":"34","id":"195226","slug":"sofyan-amrabat","name":"Sofyan Amrabat","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":false},{"number":"53","id":"243844","slug":"sebastian-szymanski","name":"Sebastian Szymanski","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":false},{"number":"13","id":"161559","slug":"fred","name":"Fred","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":true,"subedWith":{"number":"23","id":"136585","slug":"cenk-tosun","name":"Cenk Tosun","scored":false,"hasYC":false,"hasRC":false,"time":"86"}},{"number":"19","id":"242736","slug":"youssef-en-nesyri","name":"Youssef En-Nesyri","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":true,"subedWith":{"number":"9","id":"102337","slug":"edin-dzeko","name":"Edin Dzeko","scored":false,"hasYC":false,"hasRC":false,"time":"77"}},{"number":"20","id":"239706","slug":"cengiz-under","name":"Cengiz Ünder","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":true,"subedWith":{"number":"8","id":"261302","slug":"mert-yandas","name":"Mert Yandas","scored":false,"hasYC":false,"hasRC":false,"time":"77"}},{"number":"17","id":"211923","slug":"irfan-can-kahveci","name":"Irfan Can Kahveci","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":true,"subedWith":{"number":"10","id":"122575","slug":"dusan-tadic","name":"Dusan Tadic","scored":false,"hasYC":false,"hasRC":false,"time":"65"}}],"substitutes":[{"number":"97","id":"193281","slug":"allan-saint-maximin","name":"Allan Saint-Maximin"},{"number":"6","id":"180573","slug":"alexander-djiku","name":"Alexander Djiku"},{"number":"5","id":"305629","slug":"ismail-yuksek","name":"Ismail Yüksek"},{"number":"54","id":"303624","slug":"osman-cetin","name":"Osman Cetin"},{"number":"95","id":"373930","slug":"yusuf-akcicek","name":"Yusuf Akcicek"},{"number":"3","id":"322807","slug":"samet-akaydin","name":"Samet Akaydin"},{"number":"84","id":"379332","slug":"omer-camci","name":"Ömer Camci"}]}},"awayTeamLineUp":{"formation":"3-5-2","tacticalFormation":[{"name":"Moris","number":"49","jersyColor":"A5A6A7","position":"translate(182px, 210px)","isSubstitute":false},{"name":"Machida","number":"28","jersyColor":"#5a5c5d","position":"translate(110px, 154px)","isSubstitute":false},{"name":"Burgess","number":"16","jersyColor":"#5a5c5d","position":"translate(182px, 154px)","isSubstitute":true},{"name":"Mac Allister","number":"5","jersyColor":"#5a5c5d","position":"translate(254px, 154px)","isSubstitute":false},{"name":"Niang","number":"22","jersyColor":"#5a5c5d","position":"translate(60px, 52px)","isSubstitute":false},{"name":"Sadiki","number":"27","jersyColor":"#5a5c5d","position":"translate(114px, 90px)","isSubstitute":true},{"name":"Vanhoutte","number":"24","jersyColor":"#5a5c5d","position":"translate(182px, 90px)","isSubstitute":false},{"name":"Rasmussen","number":"4","jersyColor":"#5a5c5d","position":"translate(250px, 90px)","isSubstitute":true},{"name":"Castro-Montes","number":"21","jersyColor":"#5a5c5d","position":"translate(304px, 52px)","isSubstitute":false},{"name":"Rodríguez","number":"13","jersyColor":"#5a5c5d","position":"translate(140px, -24px)","isSubstitute":true},{"name":"Ivanovic","number":"9","jersyColor":"#5a5c5d","position":"translate(224px, -24px)","isSubstitute":false}],"players":{"onPitch":[{"number":"49","id":"140195","slug":"anthony-moris","name":"Anthony Moris","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":false},{"number":"16","id":"181403","slug":"christian-burgess","name":"Christian Burgess","scored":true,"nbGoal":1,"goalTime":[{"goalNum":1,"goalTime":"82"}],"hasYC":false,"hasRC":false,"isSubstitute":true,"subedWith":{"number":"26","id":"241066","slug":"ross-sykes","name":"Ross Sykes","scored":true,"nbGoal":1,"goalTime":[{"goalNum":1,"goalTime":"90+3"}],"hasYC":false,"hasRC":false,"time":"86"}},{"number":"28","id":"238025","slug":"koki-machida","name":"Koki Machida","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":false},{"number":"5","id":"234337","slug":"kevin-mac-allister","name":"Kevin Mac Allister","scored":false,"hasYC":false,"hasRC":true,"rc":[{"rcNumb":1,"rcTime":"73"}],"isSubstitute":false},{"number":"27","id":"340240","slug":"noah-sadiki","name":"Noah Sadiki","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":true,"subedWith":{"number":"6","id":"385284","slug":"kamiel-van-de-perre","name":"Kamiel Van De Perre","scored":false,"hasYC":false,"hasRC":false,"time":"86"}},{"number":"4","id":"173141","slug":"mathias-rasmussen","name":"Mathias Rasmussen","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":true,"subedWith":{"number":"23","id":"178056","slug":"sofiane-boufal","name":"Sofiane Boufal","scored":false,"hasYC":true,"yc":[{"ycNumb":1,"ycTime":"80"}],"hasRC":false,"time":"70"}},{"number":"24","id":"276260","slug":"charles-vanhoutte","name":"Charles Vanhoutte","scored":false,"hasYC":true,"yc":[{"ycNumb":1,"ycTime":"90+6"}],"hasRC":false,"isSubstitute":false},{"number":"22","id":"256687","slug":"ousseynou-niang","name":"Ousseynou Niang","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":false},{"number":"21","id":"236136","slug":"alessio-castro-montes","name":"Alessio Castro-Montes","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":false},{"number":"13","id":"281316","slug":"kevin-rodriguez","name":"Kevin Rodríguez","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":true,"subedWith":{"number":"25","id":"332648","slug":"anan-khalaili","name":"Anan Khalaili","scored":false,"hasYC":false,"hasRC":false,"time":"61"}},{"number":"9","id":"364180","slug":"franjo-ivanovic","name":"Franjo Ivanovic","scored":false,"hasYC":false,"hasRC":false,"isSubstitute":false}],"substitutes":[{"number":"10","id":"290809","slug":"anouar-ait-el-hadj","name":"Anouar Ait El Hadj"},{"number":"1","id":"316278","slug":"vic-chambaere","name":"Vic Chambaere"},{"number":"48","id":"310140","slug":"fedde-leysen","name":"Fedde Leysen"},{"number":"33","id":"334101","slug":"soulaimane-berradi","name":"Soulaimane Berradi"},{"number":"14","id":"268971","slug":"joachim-imbrechts","name":"Joachim Imbrechts"}]}}},"locationInfo":{"stadium":"Ulker Stadyumu","timeAndDate":"7:45 PM, September 26, 2024","city":"Istanbul, Turkey "},"time":"7:45 PM","currentCompet":{"name":"UEFA Europa League Standings","clubsList":[{"name":"Ajax Amsterdam","id":"139","slug":"ajax-amsterdam","GP":"1","W":"1","D":"0","L":"0","GD":"+4","P":"3"},{"name":"FCSB","id":"484","slug":"fcsb","GP":"1","W":"1","D":"0","L":"0","GD":"+3","P":"3"},{"name":"Lazio","id":"112","slug":"lazio","GP":"1","W":"1","D":"0","L":"0","GD":"+3","P":"3"},{"name":"Tottenham Hotspur","id":"367","slug":"tottenham-hotspur","GP":"1","W":"1","D":"0","L":"0","GD":"+3","P":"3"},{"name":"Galatasaray","id":"432","slug":"galatasaray","GP":"1","W":"1","D":"0","L":"0","GD":"+2","P":"3"},{"name":"Rangers","id":"257","slug":"rangers","GP":"1","W":"1","D":"0","L":"0","GD":"+2","P":"3"},{"name":"Slavia Prague","id":"494","slug":"slavia-prague","GP":"1","W":"1","D":"0","L":"0","GD":"+2","P":"3"},{"name":"Lyon","id":"167","slug":"lyon","GP":"1","W":"1","D":"0","L":"0","GD":"+2","P":"3"},{"name":"AZ Alkmaar","id":"140","slug":"az-alkmaar","GP":"1","W":"1","D":"0","L":"0","GD":"+1","P":"3"},{"name":"Bodo/Glimt","id":"2980","slug":"bodoglimt","GP":"1","W":"1","D":"0","L":"0","GD":"+1","P":"3"},{"name":"Fenerbahce","id":"436","slug":"fenerbahce","GP":"1","W":"1","D":"0","L":"0","GD":"+1","P":"3"},{"name":"Anderlecht","id":"441","slug":"anderlecht","GP":"1","W":"1","D":"0","L":"0","GD":"+1","P":"3"},{"name":"Braga","id":"2994","slug":"braga","GP":"1","W":"1","D":"0","L":"0","GD":"+1","P":"3"},{"name":"Viktoria Plzen","id":"11706","slug":"viktoria-plzen","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"Eintracht Frankfurt","id":"125","slug":"eintracht-frankfurt","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"Athletic Club","id":"93","slug":"athletic-club","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"FC Twente","id":"152","slug":"fc-twente","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"Real Sociedad","id":"89","slug":"real-sociedad","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"TSG Hoffenheim","id":"7911","slug":"tsg-hoffenheim","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"FC Midtjylland","id":"572","slug":"fc-midtjylland","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"Manchester United","id":"360","slug":"manchester-united","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"Nice","id":"2502","slug":"nice","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"AS Roma","id":"104","slug":"as-roma","GP":"1","W":"0","D":"1","L":"0","GD":"0","P":"1"},{"name":"IF Elfsborg","id":"529","slug":"if-elfsborg","GP":"1","W":"0","D":"0","L":"1","GD":"-1","P":"0"},{"name":"FC Porto","id":"437","slug":"fc-porto","GP":"1","W":"0","D":"0","L":"1","GD":"-1","P":"0"},{"name":"Ferencvaros","id":"622","slug":"ferencvaros","GP":"1","W":"0","D":"0","L":"1","GD":"-1","P":"0"},{"name":"Maccabi Tel-Aviv","id":"524","slug":"maccabi-tel-aviv","GP":"1","W":"0","D":"0","L":"1","GD":"-1","P":"0"},{"name":"Union St.-Gilloise","id":"5807","slug":"union-st-gilloise","GP":"1","W":"0","D":"0","L":"1","GD":"-1","P":"0"},{"name":"PAOK Salonika","id":"605","slug":"paok-salonika","GP":"1","W":"0","D":"0","L":"1","GD":"-2","P":"0"},{"name":"Ludogorets Razgrad","id":"13018","slug":"ludogorets-razgrad","GP":"1","W":"0","D":"0","L":"1","GD":"-2","P":"0"},{"name":"Malmö FF","id":"2720","slug":"malmo-ff","GP":"1","W":"0","D":"0","L":"1","GD":"-2","P":"0"},{"name":"Olympiacos","id":"435","slug":"olympiacos","GP":"1","W":"0","D":"0","L":"1","GD":"-2","P":"0"},{"name":"Rigas Futbola Skola","id":"12030","slug":"rigas-futbola-skola","GP":"1","W":"0","D":"0","L":"1","GD":"-3","P":"0"},{"name":"Dynamo Kyiv","id":"440","slug":"dynamo-kyiv","GP":"1","W":"0","D":"0","L":"1","GD":"-3","P":"0"},{"name":"FK Qarabag","id":"10414","slug":"fk-qarabag","GP":"1","W":"0","D":"0","L":"1","GD":"-3","P":"0"},{"name":"Besiktas","id":"1895","slug":"besiktas","GP":"1","W":"0","D":"0","L":"1","GD":"-4","P":"0"}]}}
+{
+    "status": "Live",
+    "competName": "2024-25 UEFA Champions League, League Phase",
+    "homeTeam": {
+        "color1": "#C60000",
+        "color2": "#d13333",
+        "color3": "#dd6666",
+        "id": "9812",
+        "slug": "girona",
+        "name": "Girona",
+        "record": "0-0-1, 0 PTS",
+        "score": "1",
+        "events": {
+            "goals": [
+                {
+                    "playerName": "David López",
+                    "goalTime": "- 19'"
+                }
+            ],
+            "redCards": []
+        },
+        "shortName": "GIR"
+    },
+    "awayTeam": {
+        "color1": "#ef2f24",
+        "color2": "#f25950",
+        "color3": "#f5827c",
+        "id": "142",
+        "slug": "feyenoord-rotterdam",
+        "name": "Feyenoord Rotterdam",
+        "record": "0-0-1, 0 PTS",
+        "score": "2",
+        "events": {
+            "goals": [
+                {
+                    "playerName": "Yangel Herrera",
+                    "goalTime": "- 23' OG"
+                },
+                {
+                    "playerName": "Antoni Milambo",
+                    "goalTime": "- 33'"
+                }
+            ],
+            "redCards": []
+        },
+        "shortName": "FEY"
+    },
+    "date": "",
+    "navItems": [
+        {
+            "text": "Gamecast",
+            "slug": "summary"
+        },
+        {
+            "text": "Statistics",
+            "slug": "matchstats"
+        },
+        {
+            "text": "Commentary",
+            "slug": "commentary"
+        },
+        {
+            "text": "Line-Ups",
+            "slug": "lineups"
+        }
+    ],
+    "locationInfo": {
+        "stadium": "Municipal de Montilivi",
+        "timeAndDate": "7:45 PM, October 2, 2024",
+        "city": "Girona, Spain "
+    },
+    "time": "7:45 PM",
+    "gameStory": {},
+    "timeLine": [
+        {
+            "time": "KO",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "Start Time"
+                    }
+                ]
+            },
+            "style": {
+                "left": "0%"
+            }
+        },
+        {
+            "time": "4",
+            "events": {
+                "homeTeam": [
+                    {
+                        "type": "Yellow Card"
+                    }
+                ],
+                "awayTeam": []
+            },
+            "style": {
+                "left": "3%"
+            }
+        },
+        {
+            "time": "14",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "Yellow Card"
+                    }
+                ]
+            },
+            "style": {
+                "left": "15%"
+            }
+        },
+        {
+            "time": "19",
+            "events": {
+                "homeTeam": [
+                    {
+                        "type": "Goal"
+                    }
+                ],
+                "awayTeam": []
+            },
+            "style": {
+                "left": "20%"
+            }
+        },
+        {
+            "time": "23",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "Goal"
+                    }
+                ]
+            },
+            "style": {
+                "left": "25%"
+            }
+        },
+        {
+            "time": "29",
+            "events": {
+                "homeTeam": [
+                    {
+                        "type": "Subs"
+                    }
+                ],
+                "awayTeam": []
+            },
+            "style": {
+                "left": "31%"
+            }
+        },
+        {
+            "time": "33",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "Goal"
+                    }
+                ]
+            },
+            "style": {
+                "left": "36%"
+            }
+        },
+        {
+            "time": "35",
+            "events": {
+                "homeTeam": [
+                    {
+                        "type": "Yellow Card"
+                    }
+                ],
+                "awayTeam": []
+            },
+            "style": {
+                "left": "38%"
+            }
+        },
+        {
+            "time": "36",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "Missed Penalty"
+                    }
+                ]
+            },
+            "style": {
+                "left": "39%"
+            }
+        },
+        {
+            "time": "45",
+            "events": {
+                "homeTeam": [
+                    {
+                        "type": "Yellow Card"
+                    }
+                ],
+                "awayTeam": []
+            },
+            "style": {
+                "left": "49%"
+            }
+        },
+        {
+            "time": "HT",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "Half Time"
+                    }
+                ]
+            },
+            "style": {
+                "left": "53%"
+            }
+        },
+        {
+            "time": "49",
+            "events": {
+                "homeTeam": [
+                    {
+                        "type": "Yellow Card"
+                    }
+                ],
+                "awayTeam": []
+            },
+            "style": {
+                "left": "57%"
+            }
+        },
+        {
+            "time": "60",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "Yellow Card"
+                    }
+                ]
+            },
+            "style": {
+                "left": "70%"
+            }
+        },
+        {
+            "time": "61",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "Subs"
+                    }
+                ]
+            },
+            "style": {
+                "left": "71%"
+            }
+        },
+        {
+            "time": "64",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "Yellow Card"
+                    }
+                ]
+            },
+            "style": {
+                "left": "74%"
+            }
+        },
+        {
+            "time": "FT",
+            "events": {
+                "homeTeam": [],
+                "awayTeam": [
+                    {
+                        "type": "End Time"
+                    }
+                ]
+            },
+            "style": {
+                "left": "78%"
+            }
+        }
+    ],
+    "timeLineLength": "80.88888888888889% + 0px + 28px",
+    "matchTime": 72,
+    "gameCommentary": [
+        {
+            "time": "71'",
+            "type": "keyEvent",
+            "content": "Foul by Antoni Milambo (Feyenoord).",
+            "event": "Foul"
+        },
+        {
+            "time": "71'",
+            "type": "keyEvent",
+            "content": "Bryan Gil (Girona) wins a free kick in the defensive half.",
+            "event": "Foul"
+        },
+        {
+            "time": "69'",
+            "type": "keyEvent",
+            "content": "Attempt saved. Bojan Miovski (Girona) header from the centre of the box is saved in the centre of the goal. Assisted by Bryan Gil with a cross.",
+            "event": "Keeper Save"
+        }
+    ],
+    "teamStats": [
+        {
+            "name": "POSSESSION",
+            "homeTeamStat": "65.1%",
+            "awayTeamStat": "34.9%"
+        },
+        {
+            "name": "Shots on Goal",
+            "homeTeamStat": "5",
+            "awayTeamStat": "2"
+        },
+        {
+            "name": "Shot Attempts",
+            "homeTeamStat": "10",
+            "awayTeamStat": "5"
+        },
+        {
+            "name": "Yellow Cards",
+            "homeTeamStat": "4",
+            "awayTeamStat": "3"
+        },
+        {
+            "name": "Corner Kicks",
+            "homeTeamStat": "7",
+            "awayTeamStat": "0"
+        },
+        {
+            "name": "Saves",
+            "homeTeamStat": "1",
+            "awayTeamStat": "3"
+        }
+    ],
+    "currentCompet": {
+        "name": "UEFA Champions League Standings",
+        "clubsList": [
+            {
+                "name": "Borussia Dortmund",
+                "id": "124",
+                "slug": "borussia-dortmund",
+                "GP": "2",
+                "W": "2",
+                "D": "0",
+                "L": "0",
+                "GD": "+9",
+                "P": "6"
+            },
+            {
+                "name": "Brest",
+                "id": "6997",
+                "slug": "brest",
+                "GP": "2",
+                "W": "2",
+                "D": "0",
+                "L": "0",
+                "GD": "+5",
+                "P": "6"
+            },
+            {
+                "name": "Bayer Leverkusen",
+                "id": "131",
+                "slug": "bayer-leverkusen",
+                "GP": "2",
+                "W": "2",
+                "D": "0",
+                "L": "0",
+                "GD": "+5",
+                "P": "6"
+            },
+            {
+                "name": "Manchester City",
+                "id": "382",
+                "slug": "manchester-city",
+                "GP": "2",
+                "W": "1",
+                "D": "1",
+                "L": "0",
+                "GD": "+4",
+                "P": "4"
+            },
+            {
+                "name": "Internazionale",
+                "id": "110",
+                "slug": "internazionale",
+                "GP": "2",
+                "W": "1",
+                "D": "1",
+                "L": "0",
+                "GD": "+4",
+                "P": "4"
+            },
+            {
+                "name": "Sparta Prague",
+                "id": "433",
+                "slug": "sparta-prague",
+                "GP": "2",
+                "W": "1",
+                "D": "1",
+                "L": "0",
+                "GD": "+3",
+                "P": "4"
+            },
+            {
+                "name": "Sporting CP",
+                "id": "2250",
+                "slug": "sporting-cp",
+                "GP": "2",
+                "W": "1",
+                "D": "1",
+                "L": "0",
+                "GD": "+2",
+                "P": "4"
+            },
+            {
+                "name": "Arsenal",
+                "id": "359",
+                "slug": "arsenal",
+                "GP": "2",
+                "W": "1",
+                "D": "1",
+                "L": "0",
+                "GD": "+2",
+                "P": "4"
+            },
+            {
+                "name": "Bayern Munich",
+                "id": "132",
+                "slug": "bayern-munich",
+                "GP": "1",
+                "W": "1",
+                "D": "0",
+                "L": "0",
+                "GD": "+7",
+                "P": "3"
+            },
+            {
+                "name": "Barcelona",
+                "id": "83",
+                "slug": "barcelona",
+                "GP": "2",
+                "W": "1",
+                "D": "0",
+                "L": "1",
+                "GD": "+4",
+                "P": "3"
+            },
+            {
+                "name": "Aston Villa",
+                "id": "362",
+                "slug": "aston-villa",
+                "GP": "1",
+                "W": "1",
+                "D": "0",
+                "L": "0",
+                "GD": "+3",
+                "P": "3"
+            },
+            {
+                "name": "Liverpool",
+                "id": "364",
+                "slug": "liverpool",
+                "GP": "1",
+                "W": "1",
+                "D": "0",
+                "L": "0",
+                "GD": "+2",
+                "P": "3"
+            },
+            {
+                "name": "Juventus",
+                "id": "111",
+                "slug": "juventus",
+                "GP": "1",
+                "W": "1",
+                "D": "0",
+                "L": "0",
+                "GD": "+2",
+                "P": "3"
+            },
+            {
+                "name": "Real Madrid",
+                "id": "86",
+                "slug": "real-madrid",
+                "GP": "1",
+                "W": "1",
+                "D": "0",
+                "L": "0",
+                "GD": "+2",
+                "P": "3"
+            },
+            {
+                "name": "Benfica",
+                "id": "1929",
+                "slug": "benfica",
+                "GP": "1",
+                "W": "1",
+                "D": "0",
+                "L": "0",
+                "GD": "+1",
+                "P": "3"
+            },
+            {
+                "name": "Atlético Madrid",
+                "id": "1068",
+                "slug": "atletico-madrid",
+                "GP": "1",
+                "W": "1",
+                "D": "0",
+                "L": "0",
+                "GD": "+1",
+                "P": "3"
+            },
+            {
+                "name": "AS Monaco",
+                "id": "174",
+                "slug": "as-monaco",
+                "GP": "1",
+                "W": "1",
+                "D": "0",
+                "L": "0",
+                "GD": "+1",
+                "P": "3"
+            },
+            {
+                "name": "Paris Saint-Germain",
+                "id": "160",
+                "slug": "paris-saint-germain",
+                "GP": "2",
+                "W": "1",
+                "D": "0",
+                "L": "1",
+                "GD": "-1",
+                "P": "3"
+            },
+            {
+                "name": "Celtic",
+                "id": "256",
+                "slug": "celtic",
+                "GP": "2",
+                "W": "1",
+                "D": "0",
+                "L": "1",
+                "GD": "-2",
+                "P": "3"
+            },
+            {
+                "name": "Atalanta",
+                "id": "105",
+                "slug": "atalanta",
+                "GP": "1",
+                "W": "0",
+                "D": "1",
+                "L": "0",
+                "GD": "0",
+                "P": "1"
+            },
+            {
+                "name": "Bologna",
+                "id": "107",
+                "slug": "bologna",
+                "GP": "1",
+                "W": "0",
+                "D": "1",
+                "L": "0",
+                "GD": "0",
+                "P": "1"
+            },
+            {
+                "name": "Shakhtar Donetsk",
+                "id": "493",
+                "slug": "shakhtar-donetsk",
+                "GP": "1",
+                "W": "0",
+                "D": "1",
+                "L": "0",
+                "GD": "0",
+                "P": "1"
+            },
+            {
+                "name": "PSV Eindhoven",
+                "id": "148",
+                "slug": "psv-eindhoven",
+                "GP": "2",
+                "W": "0",
+                "D": "1",
+                "L": "1",
+                "GD": "-2",
+                "P": "1"
+            },
+            {
+                "name": "VfB Stuttgart",
+                "id": "134",
+                "slug": "vfb-stuttgart",
+                "GP": "2",
+                "W": "0",
+                "D": "1",
+                "L": "1",
+                "GD": "-2",
+                "P": "1"
+            },
+            {
+                "name": "RB Leipzig",
+                "id": "11420",
+                "slug": "rb-leipzig",
+                "GP": "1",
+                "W": "0",
+                "D": "0",
+                "L": "1",
+                "GD": "-1",
+                "P": "0"
+            },
+            {
+                "name": "SK Sturm Graz",
+                "id": "3746",
+                "slug": "sk-sturm-graz",
+                "GP": "1",
+                "W": "0",
+                "D": "0",
+                "L": "1",
+                "GD": "-1",
+                "P": "0"
+            },
+            {
+                "name": "Girona",
+                "id": "9812",
+                "slug": "girona",
+                "GP": "1",
+                "W": "0",
+                "D": "0",
+                "L": "1",
+                "GD": "-1",
+                "P": "0"
+            },
+            {
+                "name": "Lille",
+                "id": "166",
+                "slug": "lille",
+                "GP": "1",
+                "W": "0",
+                "D": "0",
+                "L": "1",
+                "GD": "-2",
+                "P": "0"
+            },
+            {
+                "name": "AC Milan",
+                "id": "103",
+                "slug": "ac-milan",
+                "GP": "2",
+                "W": "0",
+                "D": "0",
+                "L": "2",
+                "GD": "-3",
+                "P": "0"
+            },
+            {
+                "name": "Club Brugge",
+                "id": "570",
+                "slug": "club-brugge",
+                "GP": "1",
+                "W": "0",
+                "D": "0",
+                "L": "1",
+                "GD": "-3",
+                "P": "0"
+            },
+            {
+                "name": "Feyenoord Rotterdam",
+                "id": "142",
+                "slug": "feyenoord-rotterdam",
+                "GP": "1",
+                "W": "0",
+                "D": "0",
+                "L": "1",
+                "GD": "-4",
+                "P": "0"
+            },
+            {
+                "name": "Red Star Belgrade",
+                "id": "2290",
+                "slug": "red-star-belgrade",
+                "GP": "2",
+                "W": "0",
+                "D": "0",
+                "L": "2",
+                "GD": "-5",
+                "P": "0"
+            },
+            {
+                "name": "Dinamo Zagreb",
+                "id": "597",
+                "slug": "dinamo-zagreb",
+                "GP": "1",
+                "W": "0",
+                "D": "0",
+                "L": "1",
+                "GD": "-7",
+                "P": "0"
+            },
+            {
+                "name": "RB Salzburg",
+                "id": "2790",
+                "slug": "rb-salzburg",
+                "GP": "2",
+                "W": "0",
+                "D": "0",
+                "L": "2",
+                "GD": "-7",
+                "P": "0"
+            },
+            {
+                "name": "Slovan Bratislava",
+                "id": "521",
+                "slug": "slovan-bratislava",
+                "GP": "2",
+                "W": "0",
+                "D": "0",
+                "L": "2",
+                "GD": "-8",
+                "P": "0"
+            },
+            {
+                "name": "Young Boys",
+                "id": "2722",
+                "slug": "young-boys",
+                "GP": "2",
+                "W": "0",
+                "D": "0",
+                "L": "2",
+                "GD": "-8",
+                "P": "0"
+            }
+        ]
+    },
+    "lineUps": {
+        "lineUps": {
+            "homeTeamLineUp": {
+                "formation": "4-2-3-1",
+                "tacticalFormation": [
+                    {
+                        "name": "Gazzaniga",
+                        "number": "13",
+                        "jersyColor": "A5A6A7",
+                        "position": "translate(182px, 210px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Gutiérrez",
+                        "number": "3",
+                        "jersyColor": "#c60000",
+                        "position": "translate(42px, 125px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Krejcí",
+                        "number": "18",
+                        "jersyColor": "#c60000",
+                        "position": "translate(114px, 154px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "López",
+                        "number": "5",
+                        "jersyColor": "#c60000",
+                        "position": "translate(250px, 154px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Martínez",
+                        "number": "4",
+                        "jersyColor": "#c60000",
+                        "position": "translate(320px, 125px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Herrera",
+                        "number": "21",
+                        "jersyColor": "#c60000",
+                        "position": "translate(120px, 90px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Martín",
+                        "number": "23",
+                        "jersyColor": "#c60000",
+                        "position": "translate(244px, 90px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Gil",
+                        "number": "20",
+                        "jersyColor": "#c60000",
+                        "position": "translate(65px, 32px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "van de Beek",
+                        "number": "6",
+                        "jersyColor": "#c60000",
+                        "position": "translate(182px, 32px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Tsygankov",
+                        "number": "8",
+                        "jersyColor": "#c60000",
+                        "position": "translate(295px, 32px)",
+                        "isSubstitute": true
+                    },
+                    {
+                        "name": "Miovski",
+                        "number": "19",
+                        "jersyColor": "#c60000",
+                        "position": "translate(182px, -24px)",
+                        "isSubstitute": false
+                    }
+                ],
+                "players": {
+                    "onPitch": [
+                        {
+                            "number": "13",
+                            "id": "164469",
+                            "slug": "paulo-gazzaniga",
+                            "name": "Paulo Gazzaniga",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "18",
+                            "id": "151714",
+                            "slug": "ladislav-krejci",
+                            "name": "Ladislav Krejcí",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "5",
+                            "id": "160740",
+                            "slug": "david-lopez",
+                            "name": "David López",
+                            "scored": true,
+                            "nbGoal": 1,
+                            "goalTime": [
+                                {
+                                    "goalNum": 1,
+                                    "goalTime": "19"
+                                }
+                            ],
+                            "hasYC": true,
+                            "yc": [
+                                {
+                                    "ycNumb": 1,
+                                    "ycTime": "45"
+                                }
+                            ],
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "3",
+                            "id": "290044",
+                            "slug": "miguel-gutierrez",
+                            "name": "Miguel Gutiérrez",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "4",
+                            "id": "308728",
+                            "slug": "arnau-martinez",
+                            "name": "Arnau Martínez",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "6",
+                            "id": "215717",
+                            "slug": "donny-van-de-beek",
+                            "name": "Donny van de Beek",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "21",
+                            "id": "236185",
+                            "slug": "yangel-herrera",
+                            "name": "Yangel Herrera",
+                            "scored": true,
+                            "nbGoal": 1,
+                            "goalTime": [
+                                {
+                                    "goalNum": 1,
+                                    "goalTime": "23"
+                                }
+                            ],
+                            "hasYC": true,
+                            "yc": [
+                                {
+                                    "ycNumb": 1,
+                                    "ycTime": "4"
+                                }
+                            ],
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "23",
+                            "id": "330545",
+                            "slug": "ivan-martin",
+                            "name": "Iván Martín",
+                            "scored": false,
+                            "hasYC": true,
+                            "yc": [
+                                {
+                                    "ycNumb": 1,
+                                    "ycTime": "35"
+                                }
+                            ],
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "19",
+                            "id": "326077",
+                            "slug": "bojan-miovski",
+                            "name": "Bojan Miovski",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "20",
+                            "id": "284429",
+                            "slug": "bryan-gil",
+                            "name": "Bryan Gil",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "8",
+                            "id": "212231",
+                            "slug": "viktor-tsygankov",
+                            "name": "Viktor Tsygankov",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": true,
+                            "subedWith": {
+                                "number": "11",
+                                "id": "231618",
+                                "slug": "arnaut-danjuma",
+                                "name": "Arnaut Danjuma",
+                                "scored": false,
+                                "hasYC": true,
+                                "yc": [
+                                    {
+                                        "ycNumb": 1,
+                                        "ycTime": "49"
+                                    }
+                                ],
+                                "hasRC": false,
+                                "time": "29"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "number": "16",
+                            "id": "297825",
+                            "slug": "alejandro-frances",
+                            "name": "Alejandro Francés"
+                        },
+                        {
+                            "number": "15",
+                            "id": "135922",
+                            "slug": "juanpe",
+                            "name": "Juanpe"
+                        },
+                        {
+                            "number": "22",
+                            "id": "285048",
+                            "slug": "jhon-solis",
+                            "name": "Jhon Solís"
+                        },
+                        {
+                            "number": "9",
+                            "id": "261613",
+                            "slug": "abel-ruiz",
+                            "name": "Abel Ruiz"
+                        },
+                        {
+                            "number": "25",
+                            "id": "203061",
+                            "slug": "pau-lopez",
+                            "name": "Pau López"
+                        },
+                        {
+                            "number": "7",
+                            "id": "113737",
+                            "slug": "cristhian-stuani",
+                            "name": "Cristhian Stuani"
+                        },
+                        {
+                            "number": "24",
+                            "id": "152166",
+                            "slug": "portu",
+                            "name": "Portu"
+                        },
+                        {
+                            "number": "10",
+                            "id": "311056",
+                            "slug": "yaser-asprilla",
+                            "name": "Yáser Asprilla"
+                        }
+                    ]
+                }
+            },
+            "awayTeamLineUp": {
+                "formation": "4-3-3",
+                "tacticalFormation": [
+                    {
+                        "name": "Wellenreuther",
+                        "number": "22",
+                        "jersyColor": "A5A6A7",
+                        "position": "translate(182px, 210px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Bueno",
+                        "number": "16",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(42px, 125px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Hancko",
+                        "number": "33",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(114px, 154px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Beelen",
+                        "number": "3",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(250px, 154px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Lotomba",
+                        "number": "30",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(320px, 125px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Timber",
+                        "number": "8",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(85px, 72px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "In-Beom",
+                        "number": "4",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(182px, 54px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Milambo",
+                        "number": "27",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(276px, 72px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Igor Paixão",
+                        "number": "14",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(68px, 0px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Ueda",
+                        "number": "9",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(182px, -24px)",
+                        "isSubstitute": false
+                    },
+                    {
+                        "name": "Osman",
+                        "number": "38",
+                        "jersyColor": "#ef2f24",
+                        "position": "translate(295px, 0px)",
+                        "isSubstitute": true
+                    }
+                ],
+                "players": {
+                    "onPitch": [
+                        {
+                            "number": "22",
+                            "id": "182424",
+                            "slug": "timon-wellenreuther",
+                            "name": "Timon Wellenreuther",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "33",
+                            "id": "257786",
+                            "slug": "david-hancko",
+                            "name": "Dávid Hancko",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "3",
+                            "id": "324952",
+                            "slug": "thomas-beelen",
+                            "name": "Thomas Beelen",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "16",
+                            "id": "189777",
+                            "slug": "hugo-bueno",
+                            "name": "Hugo Bueno",
+                            "scored": false,
+                            "hasYC": true,
+                            "yc": [
+                                {
+                                    "ycNumb": 1,
+                                    "ycTime": "60"
+                                }
+                            ],
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "30",
+                            "id": "238878",
+                            "slug": "jordan-lotomba",
+                            "name": "Jordan Lotomba",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "4",
+                            "id": "280061",
+                            "slug": "hwang-in-beom",
+                            "name": "Hwang In-Beom",
+                            "scored": false,
+                            "hasYC": true,
+                            "yc": [
+                                {
+                                    "ycNumb": 1,
+                                    "ycTime": "64"
+                                }
+                            ],
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "8",
+                            "id": "282230",
+                            "slug": "quinten-timber",
+                            "name": "Quinten Timber",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "27",
+                            "id": "321081",
+                            "slug": "antoni-milambo",
+                            "name": "Antoni Milambo",
+                            "scored": true,
+                            "nbGoal": 1,
+                            "goalTime": [
+                                {
+                                    "goalNum": 1,
+                                    "goalTime": "33"
+                                }
+                            ],
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "9",
+                            "id": "274277",
+                            "slug": "ayase-ueda",
+                            "name": "Ayase Ueda",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "14",
+                            "id": "289114",
+                            "slug": "igor-paixao",
+                            "name": "Igor Paixão",
+                            "scored": false,
+                            "hasYC": false,
+                            "hasRC": false,
+                            "isSubstitute": false
+                        },
+                        {
+                            "number": "38",
+                            "id": "359400",
+                            "slug": "ibrahim-osman",
+                            "name": "Ibrahim Osman",
+                            "scored": false,
+                            "hasYC": true,
+                            "yc": [
+                                {
+                                    "ycNumb": 1,
+                                    "ycTime": "14"
+                                }
+                            ],
+                            "hasRC": false,
+                            "isSubstitute": true,
+                            "subedWith": {
+                                "number": "6",
+                                "id": "290517",
+                                "slug": "ramiz-zerrouki",
+                                "name": "Ramiz Zerrouki",
+                                "scored": false,
+                                "hasYC": false,
+                                "hasRC": false,
+                                "time": "61"
+                            }
+                        }
+                    ],
+                    "substitutes": [
+                        {
+                            "number": "18",
+                            "id": "149904",
+                            "slug": "gernot-trauner",
+                            "name": "Gernot Trauner"
+                        },
+                        {
+                            "number": "41",
+                            "id": "345509",
+                            "slug": "mannou-berger",
+                            "name": "Mannou Berger"
+                        },
+                        {
+                            "number": "1",
+                            "id": "205653",
+                            "slug": "justin-bijlow",
+                            "name": "Justin Bijlow"
+                        },
+                        {
+                            "number": "20",
+                            "id": "362926",
+                            "slug": "jeyland-mitchell",
+                            "name": "Jeyland Mitchell"
+                        },
+                        {
+                            "number": "15",
+                            "id": "367499",
+                            "slug": "facundo-gonzalez",
+                            "name": "Facundo González"
+                        },
+                        {
+                            "number": "34",
+                            "id": "385714",
+                            "slug": "chris-nadje",
+                            "name": "Chris Nadje"
+                        },
+                        {
+                            "number": "5",
+                            "id": "240911",
+                            "slug": "gijs-smal",
+                            "name": "Gijs Smal"
+                        },
+                        {
+                            "number": "24",
+                            "id": "365021",
+                            "slug": "gjivai-zechiel",
+                            "name": "Gjivai Zechiël"
+                        },
+                        {
+                            "number": "23",
+                            "id": "341711",
+                            "slug": "anis-hadj-moussa",
+                            "name": "Anis Hadj Moussa"
+                        },
+                        {
+                            "number": "19",
+                            "id": "262566",
+                            "slug": "julian-carranza",
+                            "name": "Julián Carranza"
+                        },
+                        {
+                            "number": "17",
+                            "id": "228334",
+                            "slug": "luka-ivanusec",
+                            "name": "Luka Ivanusec"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "isLinupsAvai": true
+}

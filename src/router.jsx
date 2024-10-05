@@ -40,6 +40,9 @@ import MainMatchSummaryPage from "./Pages/Match/MatchSummaryPage/MainMatchSummar
 import MainMatchStatisticsPage from "./Pages/Match/MatchStatisticsPage/MainMatchStatisticsPage";
 import MatchPreviewPage from "./Pages/Match/MatchPreviewPage/MatchPreviewPage";
 import MatchLineUpPage from "./Pages/Match/MatchLineUpPage/MatchLineUpPage";
+import MatchReportPage from "./Pages/Match/MatchReportPage/MatchReportPage";
+import MatchCommentaryPage from "./Pages/Match/MatchCommentaryPage/MatchCommentaryPage";
+import SearchPage from "./Pages/SearchPage/SearchPage";
 
 
 export const router = createBrowserRouter([
@@ -415,7 +418,37 @@ export const router = createBrowserRouter([
            sessionStorage.setItem("currentGameTag","lineupsSubTab")
            return true;
         }
+      },{
+        path: ":gameId/:gameSlug/report",
+        element: <MatchReportPage />,
+        loader:()=>{
+           sessionStorage.setItem("currentGameTag","reportSubTab")
+           return true;
+        }
+      },{
+        path: ":gameId/:gameSlug/commentary",
+        element: <MatchCommentaryPage />,
+        loader:()=>{
+           sessionStorage.setItem("currentGameTag","commentarySubTab")
+           return true;
+        }
       }
     ],
-  },
+  },{
+    path: "/search/_/q/:searchText/",
+    element: <SearchPage />,
+    loader:()=>{
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      if(sessionStorage.getItem("activeNav") !== null){
+        sessionStorage.removeItem("activeNav")
+      }
+      return true;
+    },children:[
+      {
+        path: "type/:searchType",
+        element: <SearchPage />,
+      }
+    ]
+  }
 ]);

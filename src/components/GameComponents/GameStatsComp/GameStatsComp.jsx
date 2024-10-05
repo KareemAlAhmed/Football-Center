@@ -2,7 +2,8 @@ import React from 'react'
 import "./GameStatsComp.css"
 import { Link } from 'react-router-dom';
 import { getTeamImage, getTeamLink } from '../../../utils/baseUrl';
-export default function GameStatsComp({stats}) {
+import PieChartComp from "../../PieChartComp/PieChartComp.jsx";
+export default function GameStatsComp({stats,type}) {
     let HomeStatsColor;
     let AwayStatsColor;
     if(stats){
@@ -34,6 +35,22 @@ export default function GameStatsComp({stats}) {
             width:width
         }
     }
+    const getSegments=(teamStat)=>{
+        const homeAngle=teamStat.homeTeamStat.slice(0,teamStat.homeTeamStat.length - 1)
+        const awayAngle=teamStat.awayTeamStat.slice(0,teamStat.awayTeamStat.length - 1)
+
+        const HomebackColor=stats.homeTeam.color1 === "#ffffff" ? "var(--text-color)" : stats.homeTeam.color1;
+
+        const AwaybackColor=stats.awayTeam.color1 === "#ffffff" ? "var(--text-color)" : stats.awayTeam.color1;
+       
+        const segments = [
+            // { startAngle: 0, endAngle: 113.4, percentage: 20, color: "red" }, // 31.4%
+            // { startAngle: 113.4, endAngle: 360, percentage: 80, color: "blue" }, // 68.6%
+            { startAngle: 0, endAngle: 113.4, percentage: parseFloat(homeAngle), color: HomebackColor }, // 31.4%
+            { startAngle: 118.4, endAngle: 360, percentage: parseFloat(awayAngle), color: AwaybackColor }, // 68.6%
+        ];
+        return segments
+    }
   return (
     <section className='Card gameStats'>
         <header className="cardHeader">
@@ -52,43 +69,106 @@ export default function GameStatsComp({stats}) {
                     <span>{stats?.awayTeam?.shortName}</span>
                 </Link>
             </div>
-            {stats?.teamStats?.map((teamStat,index)=>{
-                return  <div className="teamStat">
-                            <div className="homeTeamStats">
-                                <span className='statNumber'>{teamStat.homeTeamStat}</span>
-                                <div className="progressBarContainer">
-                                    <div className="standerBar">
-                                        <div className="blockLine"></div>
-                                        <div className="blockLine"></div>
-                                        <div className="blockLine"></div>
-                                        <div className="blockLine"></div>
-                                        <div className="blockLine"></div>
+            {type === "PreMatch" ? (
+                stats?.teamStats?.map((teamStat,index)=>{
+                    return  <div className="teamStat">
+                                <div className="homeTeamStats">
+                                    <span className='statNumber'>{teamStat.homeTeamStat}</span>
+                                    <div className="progressBarContainer">
+                                        <div className="standerBar">
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                        </div>
+                                        <div className="progressBar">
+                                            <div className="progressLine" style={getStatsProgress("homeTeam",teamStat.homeTeamStat,teamStat.awayTeamStat)}></div>
+                                        </div>
                                     </div>
-                                    <div className="progressBar">
-                                        <div className="progressLine" style={getStatsProgress("homeTeam",teamStat.homeTeamStat,teamStat.awayTeamStat)}></div>
+                                </div>
+                                <div className="statsName">
+                                    <span className='statSlug'>{teamStat.name}</span>                        
+                                </div>
+                                <div className="homeTeamStats">
+                                    <span className='statNumber'>{teamStat.awayTeamStat}</span>
+                                    <div className="progressBarContainer">
+                                        <div className="standerBar">
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                        </div>
+                                        <div className="progressBar">
+                                            <div className="progressLine" style={getStatsProgress("awayTeam",teamStat.awayTeamStat,teamStat.homeTeamStat)}></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="statsName">
-                                <span className='statSlug'>{teamStat.name}</span>                        
-                            </div>
-                            <div className="homeTeamStats">
-                                <span className='statNumber'>{teamStat.awayTeamStat}</span>
-                                <div className="progressBarContainer">
-                                    <div className="standerBar">
-                                        <div className="blockLine"></div>
-                                        <div className="blockLine"></div>
-                                        <div className="blockLine"></div>
-                                        <div className="blockLine"></div>
-                                        <div className="blockLine"></div>
+                })
+            ):(
+                stats?.teamStats?.map((teamStat,index)=>{
+                    if(teamStat.name.toLowerCase() !== "possession" ){
+                        return  <div className="teamStat">
+                                <div className="homeTeamStats">
+                                    <span className='statNumber'>{teamStat.homeTeamStat}</span>
+                                    <div className="progressBarContainer">
+                                        <div className="standerBar">
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                        </div>
+                                        <div className="progressBar">
+                                            <div className="progressLine" style={getStatsProgress("homeTeam",teamStat.homeTeamStat,teamStat.awayTeamStat)}></div>
+                                        </div>
                                     </div>
-                                    <div className="progressBar">
-                                        <div className="progressLine" style={getStatsProgress("awayTeam",teamStat.awayTeamStat,teamStat.homeTeamStat)}></div>
+                                </div>
+                                <div className="statsName">
+                                    <span className='statSlug'>{teamStat.name}</span>                        
+                                </div>
+                                <div className="homeTeamStats">
+                                    <span className='statNumber'>{teamStat.awayTeamStat}</span>
+                                    <div className="progressBarContainer">
+                                        <div className="standerBar">
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                            <div className="blockLine"></div>
+                                        </div>
+                                        <div className="progressBar">
+                                            <div className="progressLine" style={getStatsProgress("awayTeam",teamStat.awayTeamStat,teamStat.homeTeamStat)}></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-            })}
+                    }else{
+                        return <div className='possesionStats'>
+                                    <div className="statsName">
+                                        <span>Possession</span>
+                                    </div>
+                                    <div className="statsValue">
+                                        <div className="statsNumber">
+                                            <span>{teamStat.homeTeamStat}</span>
+                                        </div>
+                                        <div className="chartWrapper">
+                                            <PieChartComp segments={getSegments(teamStat)} />
+                                            <div className="teamLogos">
+                                                <img src={getTeamImage(stats?.homeTeam?.id)} alt="" />
+                                                <img src={getTeamImage(stats?.awayTeam?.id)} alt="" />
+                                            </div>
+                                        </div>
+                                        <div className="statsNumber">
+                                            <span>{teamStat.awayTeamStat}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                    }
+                })
+            )}
         </div>  
 
     </section>

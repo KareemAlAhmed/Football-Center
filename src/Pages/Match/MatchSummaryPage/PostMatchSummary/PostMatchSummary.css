@@ -1,0 +1,17 @@
+.pageContent .mainContainer{
+    flex: 1;
+} 
+section.gameStats{
+    width: 100%;
+    
+}
+section.gameStats .competitorsNames{
+    border-bottom: 1px dotted var(--text-color);
+    padding-bottom: 8px;
+}
+section.gameStats .teamStat .statsName{
+    width: 150px !important;
+    max-width: 150px;
+    font-weight: 500;
+    font-size: 13px !important;
+}

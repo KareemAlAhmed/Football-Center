@@ -88,11 +88,33 @@
     fill: var(--text-color);
     transition: all 0.3s ease;
 }
-.options .moreOpt .settings,.options .moreOpt .search{
+.options .moreOpt .settings{
     background-color: #1a1a1a;
     padding: 10px;
     border-radius: 100%;
     cursor: pointer;
+}
+.options .moreOpt .search{
+    background-color: #1a1a1a;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    border-radius: 15px;
+}
+
+.options .moreOpt .search input{
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    outline: none;
+    max-width: 0;
+    transition: all 0.3s ease;
+}
+.options .moreOpt .search  .activeInp{
+    max-width: 150px;
 }
 .options .moreOpt .settings:hover svg,.options .moreOpt .search:hover svg{
     fill: var(--hover-color);
@@ -103,7 +125,11 @@
     align-items: center;
     margin: auto 0;
 }
-.navBar .auth a{
+.navBar .auth img{
+    width: 48px;
+    border-radius: 100%;
+}
+/* .navBar .auth a{
     background-color: var(--text-color);
     font-size: 18px;
     font-weight: 500;
@@ -147,7 +173,7 @@
 }
 .navBar .auth a:first-child::after{
     background-color: transparent;
-}
+} */
 .line{
     height: 48px;
     width: 2px;

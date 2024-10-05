@@ -30,7 +30,7 @@ section.gameStats .Wrapper .teamStat .homeTeamStats,
 section.gameStats .Wrapper .teamStat .awayTeamStats{
     flex: 40% 0;
     /* padding: 5px; */
-    border: 1px dotted var(--hover-color);
+    border: 1px dotted var(--text-color);
     width: 96px;
     padding: 12px 5px;
 }
@@ -49,11 +49,11 @@ section.gameStats .Wrapper .teamStat .statsName{
     align-items: center;
     font-size: 11px;
     text-align: center;
-    border-top: 1px dotted var(--hover-color);
-    border-bottom: 1px dotted var(--hover-color);
+    border-top: 1px dotted var(--text-color);
+    border-bottom: 1px dotted var(--text-color);
     padding: 5px;
     width: 60px;
-    color: var(--hover-color);
+    color: var(--text-color);
 }
 
 section.gameStats .Wrapper .teamStat .progressBarContainer{
@@ -103,4 +103,48 @@ section.gameStats .Wrapper .teamStat .progressBarContainer .progressBar .progres
     transition: width .5s ease-in-out;
     height: 10px;
 }
+section.gameStats .Wrapper .possesionStats{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    gap: 10px;
+}
+section.gameStats .Wrapper .possesionStats .statsName{
+    font-weight: 500;
+    font-size: 13px;    
+    text-align: center;
+    color: var(--hover-color);
+}
+section.gameStats .Wrapper .possesionStats .statsValue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.gameStats .Wrapper .possesionStats .statsValue .statsNumber{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text-color);
+}
 
+section.gameStats .Wrapper .possesionStats .chartWrapper {
+    position: relative;
+    margin-right: 8px; 
+    margin-left: 8px; 
+}
+section.gameStats .Wrapper .possesionStats .chartWrapper svg{
+    width: 145px;
+}
+section.gameStats .Wrapper .possesionStats .chartWrapper .teamLogos{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+    gap: 5px;
+}
+section.gameStats .Wrapper .possesionStats .chartWrapper .teamLogos img{
+    width: 35px;
+}

@@ -149,12 +149,14 @@ export default function Scores() {
                                                       {
                                                         match.AwayTeam.playersScored.length === 0 && match.AwayTeam.score === "0" && (<p>No Goals...</p>)
                                                       }
-                                                  </div>
+                                                    </div>
                                                   )}
                                                 </div>
-
-
                                               </div>
+                                              <div className="matchLinks">
+                                                  <Link className='matchLink'>Summary</Link>
+                                                  <Link className='matchLink'> Statistics</Link>
+                                                </div>
                                           </div>
                                 })}
                               

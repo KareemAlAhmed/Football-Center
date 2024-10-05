@@ -36,7 +36,7 @@ export default function PreMatchStatistics({gameId,gameSlug}) {
             {
               currentMatchStats?.teamStats && (
                 currentMatchStats?.teamStats?.length > 0 && (
-                    <GameStatsComp stats={currentMatchStats} />
+                    <GameStatsComp stats={currentMatchStats} type="PreMatch" />
                 )
               )
             }

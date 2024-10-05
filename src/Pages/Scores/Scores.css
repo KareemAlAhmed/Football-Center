@@ -87,3 +87,37 @@
 .Scoreboard .matchPerformer .TeamPerformer .optionsList a:hover{
     color: var(--text-color);
 }
+
+.matchLink{
+    font-size: 13px;
+    height: 35px;
+    padding: 0 12px;
+    text-transform: capitalize;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1;
+    max-width: 414px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    white-space: nowrap;
+    margin-right: 4px !important;
+    margin-bottom: 12px !important;
+    width: 110px;
+    outline: 0;
+    background-color: initial;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+}

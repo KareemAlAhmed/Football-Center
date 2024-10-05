@@ -1,11 +1,29 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./NavBar.css"
 import { Link, useNavigate } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import "./dropDownMenu.css"
+import { GET_SEARCH_DATA } from '../../redux/user/userActions';
 export default function NavBar() {
+  const [searchText,setSearchText]=useState("")
   let currentUser=useSelector(state=>state.users.currentUser)
   let userToken=useSelector(state=>state.users.userToken)
+  const navigate=useNavigate();
+  const dispatch=useDispatch();
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch(); // Call your desired function on Enter key press
+    }
+  };
+
+  const handleSearch = () => {
+    
+    dispatch(GET_SEARCH_DATA(searchText))
+    document.querySelector(".options .moreOpt .search input").classList.toggle("activeInp")
+    setSearchText("")
+    navigate("/search/_/q/"+searchText)
+    // Add your search function logic here
+  };
   var prevScrollpos = window.pageYOffset;
   const today = new Date();
   const year = today.getFullYear();
@@ -30,7 +48,7 @@ export default function NavBar() {
     }
     prevScrollpos = currentScrollPos;
   }
-  const navigate=useNavigate();
+
   useEffect(()=>{
     let navContainer=document.querySelector(".navBar .container")
     let list=navContainer.querySelector(".navList")
@@ -100,8 +118,13 @@ export default function NavBar() {
 
         <div className="options">
           <div className="moreOpt">
-            <div className="search">
-              <svg className="Header_headerNavLinkIcon__90yzK"  viewBox="0 0 24 24"><path  fill-rule="evenodd" d="M16.6342 17.6949C15.1119 18.9773 13.1462 19.75 11 19.75c-4.8325 0-8.75-3.9175-8.75-8.75S6.1675 2.25 11 2.25s8.75 3.9175 8.75 8.75c0 2.1463-.7727 4.112-2.0552 5.6343l3.8354 3.8354a.75.75 0 0 1-1.0606 1.0607l-3.8354-3.8355ZM3.75 11c0-4.004 3.246-7.25 7.25-7.25 4.0041 0 7.25 3.246 7.25 7.25 0 1.9605-.7782 3.7393-2.0425 5.0443a.7492.7492 0 0 0-.1633.1633C14.7392 17.4719 12.9605 18.25 11 18.25c-4.004 0-7.25-3.2459-7.25-7.25Z" clip-rule="evenodd"></path></svg>
+            <div className="search" >
+              <div className="searchLogo" onClick={()=>{document.querySelector(".options .moreOpt .search input").classList.toggle("activeInp");document.querySelector(".options .moreOpt .search input").focus()}}>
+                <svg className="Header_headerNavLinkIcon__90yzK"  viewBox="0 0 24 24"><path  fill-rule="evenodd" d="M16.6342 17.6949C15.1119 18.9773 13.1462 19.75 11 19.75c-4.8325 0-8.75-3.9175-8.75-8.75S6.1675 2.25 11 2.25s8.75 3.9175 8.75 8.75c0 2.1463-.7727 4.112-2.0552 5.6343l3.8354 3.8354a.75.75 0 0 1-1.0606 1.0607l-3.8354-3.8355ZM3.75 11c0-4.004 3.246-7.25 7.25-7.25 4.0041 0 7.25 3.246 7.25 7.25 0 1.9605-.7782 3.7393-2.0425 5.0443a.7492.7492 0 0 0-.1633.1633C14.7392 17.4719 12.9605 18.25 11 18.25c-4.004 0-7.25-3.2459-7.25-7.25Z" clip-rule="evenodd"></path></svg>
+              </div>
+              <div className="searchContent">
+                <input type="text" value={searchText} onChange={(e)=>setSearchText(e.target.value)} onKeyDown={handleKeyDown} />
+              </div>
             </div>
             <div className="line"></div>
             <div className="settings">
@@ -113,9 +136,11 @@ export default function NavBar() {
           </div>
           {userToken == null ? (
             <div className="auth">
-              {/* <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" /> */}
-              <a href='/auth/signin' >Sign in</a>
-              <a href='/auth/register'>Join</a>
+              {/* <a href='/auth/signin' >Sign in</a>
+              <a href='/auth/register'>Join</a> */}
+              <Link to={'/auth/signin'}>
+                <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" />
+              </Link>
             </div>
           ):(
             <div className='userProfilePic'>
