@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
@@ -33,21 +34,34 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>FootBall Center</title>
+    <script>
+      // Assuming user session is stored in sessionStorage
+      let user = JSON.parse(sessionStorage.getItem("current-user"));
+
+      // Function to apply the correct theme class based on user preference
+      function applyTheme() {
+        console.log(user.theme === "light");
+        if (user.theme === "light") {
+          document.body.classList.add("light-theme");
+        } else {
+          document.body.classList.remove("light-theme");
+        }
+      }
+
+      // Call the function when the page loads
+      document.addEventListener("DOMContentLoaded", function () {
+        if (user) {
+          applyTheme();
+        } else {
+          console.warn("No user found in sessionStorage. Theme not applied.");
+        }
+      });
+    </script>
   </head>
 
   <body onLoad="window.scroll(1, 1)">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 
 </html>

@@ -74,3 +74,16 @@ section.searchedCompets .Wrapper ul.competList li:hover a{
 section.searchedCompets .Wrapper ul.competList li:hover a .competName{
     color: var(--hover-color);
 }
+@media (max-width: 991px) {
+    section.searchedCompets .Wrapper ul.competList{
+        flex-wrap: wrap;
+    }
+    section.searchedCompets .Wrapper ul.competList li{
+        width: calc((100% -  20px) / 2) ;
+    }
+}
+@media (max-width: 490px) {
+    section.searchedCompets .Wrapper ul.competList li{
+        width: 100% ;
+    }
+}

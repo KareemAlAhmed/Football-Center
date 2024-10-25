@@ -6,7 +6,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import PlayerIntro from '../../../components/PlayerIntro/PlayerIntro';
 import NavBar from '../../../components/NavBar/NavBar';
 import { GET_PLAYER_BIO_DATA } from '../../../redux/players/playersAction';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getTeamImage } from '../../../utils/baseUrl';
+import { ToastContainer } from 'react-toastify';
 export default function PlayerBio() {
     let { playerId } = useParams();
     let { playerSlug } = useParams();
@@ -45,9 +46,9 @@ export default function PlayerBio() {
                 <div className="wrapper">
                     {loading ? (
                        <div className="loadingBlock">
-                       <span class="ouro ouro3">
-                         <span class="left"><span class="anim"></span></span>
-                         <span class="right"><span class="anim"></span></span>
+                       <span className="ouro ouro3">
+                         <span className="left"><span className="anim"></span></span>
+                         <span className="right"><span className="anim"></span></span>
                        </span>
                      </div>
                     ):(
@@ -104,7 +105,7 @@ export default function PlayerBio() {
                                         return <li key={index}>
                                             <Link to={`/team/_/id/${team.id}/${team.slug}`}>
                                                 <div className="teamLogo">
-                                                    <img src={getTeamImage(team.id)} alt="" />
+                                                    <img src={getTeamImage(team.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                                 </div>
                                                 <div className="teamInfo">
                                                     <span className='teamName'>{team.name}</span>
@@ -119,7 +120,7 @@ export default function PlayerBio() {
                             </section>
                                           
                           </div>
-                          <div className="PageLayout__RightAside">
+                          <div className="PageLayout__RightAside hideRightside">
                             <section className="latestNews">
                               <header className="cardHeader">
                                 <div className="cardTitle">
@@ -153,6 +154,7 @@ export default function PlayerBio() {
               </div>
             </div>
             <Footer />
+            <ToastContainer />
         </>
   )
 }

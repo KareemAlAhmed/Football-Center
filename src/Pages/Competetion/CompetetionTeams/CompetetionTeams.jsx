@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { GET_COMPET_DATA, GET_COMPET_DATE_SCORES, GET_COMPETETION_TEAMS } from '../../../redux/tourns/tournsActions';
 import { GET_TEAM_INFO } from '../../../redux/team/teamsActions';
 import DatesSlider from '../../../components/DatesSlider/DatesSlider';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getTeamImage } from '../../../utils/baseUrl';
 import DefaultLogo from "../../../components/default.png"
 export default function CompetetionTeams() {
     let { competId } = useParams();
@@ -50,9 +50,9 @@ export default function CompetetionTeams() {
                   {loading ? 
                       (
                         <div className="loadingBlock">
-                          <span class="ouro ouro3">
-                            <span class="left"><span class="anim"></span></span>
-                            <span class="right"><span class="anim"></span></span>
+                          <span className="ouro ouro3">
+                            <span className="left"><span className="anim"></span></span>
+                            <span className="right"><span className="anim"></span></span>
                           </span>
                         </div>
                       ):(
@@ -61,7 +61,7 @@ export default function CompetetionTeams() {
                           return <div className="team" key={index} >
                           <div className="teamImg">
                           <Link to={`/team/_/id/${team.id}/${team.slug}`}>
-                            <img src={team.id != null ? getTeamImage(team.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} alt="" />
+                            <img src={team.id != null ? getTeamImage(team.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
                           </Link>
                           </div>
                           <div className="teamInfo">

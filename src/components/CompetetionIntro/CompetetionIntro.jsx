@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import "./CompetetionIntro.css"
 import { Link, useNavigate } from 'react-router-dom';
-import { getCompetImage } from '../../utils/baseUrl';
+import { getCompetImage, getDefaultTeamOrCompetLogo } from '../../utils/baseUrl';
 import { useDispatch } from 'react-redux';
 export default function CompetetionIntro({competId,competSlug,competName}) {
     const navigate=useNavigate()
@@ -48,7 +48,7 @@ export default function CompetetionIntro({competId,competSlug,competName}) {
     <div className="competPageOpts">
         <div className='comptNameAndLogo'>
             <div className="comptLogo">
-                <img src={getCompetImage(competId)} alt="" />
+                <img src={getCompetImage(competId)} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" />
             </div>
             <div className="comptName">
                 <span>{competName}</span>
@@ -65,7 +65,8 @@ export default function CompetetionIntro({competId,competSlug,competName}) {
               <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/competetion/_/id/${competId}/${competSlug}/table`)}}>Table</Link>
             </li>
             <li className="fixturesSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/competetion/_/id/${competId}/${competSlug}/fixtures`)}}>
-              <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/competetion/_/id/${competId}/${competSlug}/fixtures`)}}>Fixtures & Results</Link>
+              <Link className='Nav__AnchorTag ' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/competetion/_/id/${competId}/${competSlug}/fixtures`)}}>Fixtures & Results</Link>
+              <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/competetion/_/id/${competId}/${competSlug}/fixtures`)}}>Fix & Res</Link>
             </li>
             <li className="teamsSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/competetion/_/id/${competId}/${competSlug}/teams`)}}>
               <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/competetion/_/id/${competId}/${competSlug}/teams`)}}>Teams</Link>

@@ -24,4 +24,27 @@
 }
 .NewsMediumCard .newsImage img{
     width: 100%;
+    height: 200px;
+}
+@media (max-width: 991px) {
+    .NewsMediumCard{
+        width: 100%;
+    }
+    .NewsMediumCard .newsInfo{
+        padding-right: 5%;
+    }
+}
+@media (max-width: 600px) {
+    .NewsMediumCard{
+        flex-direction: column;
+    }
+    .NewsMediumCard .newsImage{
+        width: 100%;
+    }
+    .NewsMediumCard .newsInfo{
+        width: 100%;
+        padding: 10px;
+        border-left: 1px solid var(--button-hover-color);
+    }
+
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./PlayerMatchesComp.css"
-import { getTeamImage } from '../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getTeamImage } from '../../utils/baseUrl';
 import { Link } from 'react-router-dom';
 export default function PlayerMatchesComp({competetionMatches}) {
   return (
@@ -32,7 +32,7 @@ export default function PlayerMatchesComp({competetionMatches}) {
                 <td className='teamColumn'>
                     <div className="homeOrAway">{match.homeOrAway}</div>
                     <div className="teamLogo">
-                    <img src={getTeamImage(match.awayTeam.id)} alt="" />
+                    <img src={getTeamImage(match.awayTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                     </div>
                     <div className="teamName">
                     <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`}><span>{match.awayTeam.name}</span></Link>

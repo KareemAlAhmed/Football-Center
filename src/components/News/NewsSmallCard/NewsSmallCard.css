@@ -1,13 +1,4 @@
-.NewsSmallCard{
-    width: calc((100% - 3* 2.5rem) / 4);
-    height: 336px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.NewsSmallCard .newsImage{
-    width: 100%;
-}
+
 .NewsSmallCard .newsImage img{
     width: 100%;
     height: 193px;

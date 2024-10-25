@@ -45,3 +45,25 @@
     height: 15px;
     fill: var(--text-color);
 }
+
+
+@media (max-width: 1350px) {
+    .competetionsList .competetionInfo .comptNameAndOpt a p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1200px) {
+    .competetionsList .competetion{
+        width: calc((100% - 20px) / 2);
+    }
+}
+@media (max-width: 992px) {
+    .competetionsList .competetionInfo .comptNameAndOpt a p{
+        font-size: 15px;
+    }
+  }
+@media (max-width: 629px) {
+    .competetionsList .competetion{
+        width: 100%;
+    }
+}

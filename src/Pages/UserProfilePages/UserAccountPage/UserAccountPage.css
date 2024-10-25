@@ -1,0 +1,30 @@
+section.userAccount{
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+section.userAccount h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+section.userAccount .acountActions{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+}
+section.userAccount .acountActions button{
+    border-radius: 10px;
+    height: 40px;
+    line-height: 1.25em;
+    font-weight: 500;
+    text-align: center;
+}
+section.userAccount .acountActions button:first-of-type{
+    background-color: var(--button-hover-color);
+    color: var(--text-color);
+}
+section.userAccount .acountActions button:last-of-type{
+    color: var(--red-color);
+    background-color: var(--button-hover-color);
+}

@@ -1,49 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import "./CompetetionSlider.css"
-import { getTeamImage } from '../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getTeamImage } from '../../utils/baseUrl';
 import { Link } from 'react-router-dom';
 
 export default function CompetetionSlider({type}) {
     let [currentSlidedTourns,setCurrentSlidedTourns]=useState(1);
     let [currentSlidedTeams,setCurrentSlidedTeams]=useState(1);
-//   let tournaments=[
-//     {
-//         name:"Premier League",
-//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/9.png"
-//     },
-//     {
-//         name:"LaLiga",
-//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/10.png"
-//     },
-//     {
-//         name:"Bundesliga",
-//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/1.png"
-//     },
-//     {
-//         name:"UEFA Champions League",
-//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/5.png"
-//     },
-//     {
-//         name:"Seria A",
-//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/13.png"
-//     },
-//     {
-//         name:"Ligue 1",
-//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/23.png"
-//     },
-//     {
-//         name:"EFL Championship",
-//         imgUrl:"https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/icons/leagueColoredCompetition/128/27.png"
-//     },
-//     {
-//         name:"Copa Del Rey",
-//         imgUrl:"https://image-service.onefootball.com/transform?w=32&h=32&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252FleagueColoredCompetition%252F128%252F18.png"
-//     },
-//     {
-//         name:"FA Cup",
-//         imgUrl:"https://image-service.onefootball.com/transform?w=32&h=32&dpr=2&image=https%253A%252F%252Fimages.onefootball.com%252Ficons%252FleagueColoredCompetition%252F128%252F17.png"
-//     },
-// ]
   let tournaments=[
     {
       id: 2,
@@ -233,7 +195,6 @@ const slideToTheLeft=(type)=>{
         setCurrentSlidedTeams(currentSlidedTeams - 1);
         }
         const listTourn = document.querySelector(".listOfTeams");
-        // listTourn.style.transform = `translateX(-${100 * (currentSlidedTeams - 2) }%)`;
         listTourn.style.transform = `translateX(-${(((((document.querySelector(".listOfTeams").offsetWidth - 60) / 4)) * 4) + 80 ) * (currentSlidedTeams - 2)}px)`;
 
         forwardBtn.style.display="block"
@@ -272,10 +233,10 @@ useEffect(()=>{
             <h3>POPULAR COMPETITIONS</h3>
             <div className="wrapper">
               <div className="listOfTourns">
-                  {tournaments.map(ele=>{
-                    return <div className="competetion">
+                  {tournaments.map((ele,index)=>{
+                    return <div className="competetion" key={index}>
                               <Link to={`/competetion/_/id/${ele.id}/${ele.slug}`}>
-                                <img src={ele.leagueLogo} alt="" />
+                                <img src={ele.leagueLogo} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                 <div className="tournInfo">
                                   <p>Competition</p>
                                   <p>{ele.leagueName}</p>
@@ -298,10 +259,10 @@ useEffect(()=>{
             <h3>POPULAR TEAMS</h3>
             <div className="wrapper">
               <div className="listOfTeams">
-                  {teams.map(ele=>{
-                    return <div className="team">
+                  {teams.map((ele,index)=>{
+                    return <div className="team" key={index}>
                               <Link to={`/team/_/id/${ele.id}/${ele.slug}`}>
-                                <img src={getTeamImage(ele.id)} alt="" />
+                                <img src={getTeamImage(ele.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                 <div className="teamInfo">
                                   <p>Team</p>
                                   <p>{ele.name}</p>

@@ -32,7 +32,9 @@
     font-size: 16px;
     color: var(--hover-color);
 }
-
+.competBlock .pageContent .competStanding{
+    width: 30%;
+}
 .competBlock .pageContent .competStanding table{
     color: var(--text-color);
     margin-top: 10px;
@@ -65,4 +67,28 @@
     text-align: center;
     width: 100%;
     display: block;
+}
+@media (max-width: 991px) {
+    .competBlock .pageContent .competStanding{
+        display: none ;
+    }
+    .competBlock .pageContent .listOfnews{
+        width: 100%;
+    }
+}
+@media (max-width: 550px) {
+    .competBlock .pageContent .listOfnews .newsContainer h1{
+        font-size: 22px;
+    }
+    .competBlock .pageContent .listOfnews .newsContainer p{
+        font-size: 15px
+    }
+}
+@media (max-width: 450px) {
+    .competBlock .pageContent .listOfnews .newsContainer h1{
+        font-size: 20px;
+    }
+    .competBlock .pageContent .listOfnews .newsContainer p{
+        font-size: 14px
+    }
 }

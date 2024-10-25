@@ -1,0 +1,153 @@
+section.followingListsWrapper{
+    border-right: 1px solid var(--hover-color);
+}
+section.followingListsWrapper .cardTitle{
+    padding-top: 15px;
+    border: 0;
+    padding-right: 10px;
+}
+section.followingListsWrapper .cardTitle p{
+    font-size: 17px;
+}
+section.followingListsWrapper .userFavorites{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    margin-top: 1.5em;
+    align-items: start;
+    justify-items: center;
+}
+section.followingListsWrapper .userFavorites .userFavoriteTeam,
+section.followingListsWrapper .userFavorites .userFavoriteNationalTeam{
+    position: relative;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+section.followingListsWrapper  .favLogo{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.followingListsWrapper li  .favLogo{
+    right: 25px;
+}
+section.followingListsWrapper .removeLogo{
+    cursor: pointer;
+}
+.listOfFollowed{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2em;
+    padding: 0;
+    list-style: none;
+    grid-row-gap: 2em;
+    row-gap: 2em;
+    grid-column-gap: .3215em;
+    column-gap: .3215em;
+}
+.listOfFollowed  li > a,
+.userFavorites  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listOfFollowed  .FollowedContent,
+.userFavorites .FollowedContent{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    place-items: center;
+    width: 6.875em;
+}
+
+.listOfFollowed  .FollowedContent .followedLogo,
+.userFavorites  .FollowedContent .followedLogo{
+    --size: 5em;
+    display: grid;
+    place-content: center;
+    width: var(--size);
+    height: var(--size);
+    border: 1px solid var(--hover-color);
+    border-radius: 100%;
+}
+.FollowedContent .followedLogo img{
+    width: 48px;
+    height: 48px;
+}
+.listOfFollowed  .FollowedContent .followedSubtitle,
+.userFavorites  .FollowedContent .followedSubtitle{
+    font-size: .875rem;
+    font-weight: 500;
+    color:var(--hover-color);
+    text-align: center;
+}
+.verticalLineSeperator{
+    width: 1px;
+    height: 100%;
+    background-color: var(--hover-color);
+}
+
+.slutSubtitle{
+    font-size: .875rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--hover-color);
+}
+.activeSlut{
+    position: relative;
+}
+.activeSlut .followedLogo{
+    border-color: var(--text-color) !important;
+}
+.activeSlut .followedSubtitle,
+.activeSlut .slutSubtitle{
+    color: var(--text-color) !important;
+}
+.playersLogo{
+    border-radius: 50px !important;
+}
+.hideSvg{
+    display: none !important;
+}
+@media (max-width: 1200px) {
+    .listOfFollowed .FollowedContent, .userFavorites .FollowedContent{
+        width: 5.875em;
+    }
+}
+@media (max-width: 991px) {
+    .listOfFollowed{
+        grid-template-columns: 1fr 1fr;
+    }
+    section.followingListsWrapper .cardTitle p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 680px) {
+    section.followingListsWrapper{
+        border-right: 0;
+        border-bottom: 1px solid var(--hover-color);
+    }
+    section.userFollowing .Wrapper .followingLists{
+        flex-direction: column;
+    }
+    .listOfFollowed{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .listOfFollowed .FollowedContent, .userFavorites .FollowedContent{
+        width: 6.875em;
+    }
+}
+@media (max-width: 400px) {
+    .listOfFollowed .FollowedContent, .userFavorites .FollowedContent{
+        width: 5.875em;
+    }
+}
+
+
+

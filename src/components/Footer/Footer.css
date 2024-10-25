@@ -30,10 +30,35 @@
     border-radius: 100%;
     height: 24px;
 }
+.footer h3{
+    margin-bottom: 5px;
+}
 .footer .brand{
     position: absolute;
     bottom: -55px;
     right: 0;
     color: var(--text-color);
     font-size: 17px;
+}
+@media (max-width: 991px) {
+    .footer .socialList{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .footer .social{
+        width: calc((100% - 50px) / 3)
+    }
+    .footer .social p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .footer .social{
+        width: calc((100% - 25px) / 2)
+    }
+}
+@media (max-width: 490px) {
+    .footer .social{
+        width: 100%
+    }
 }

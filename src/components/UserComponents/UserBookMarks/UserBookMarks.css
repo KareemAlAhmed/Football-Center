@@ -1,0 +1,70 @@
+section.userBookmarks{
+    width: 100%;
+    margin-top: 10px;
+}
+section.userBookmarks .Wrapper .bookmarksLists{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleLogo{
+    height: 190px;
+}
+section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleLogo img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleTitle a{
+    color: var(--text-color);
+    font-weight: 700;
+    line-height: 1.4em;
+}
+.noBookMarks{
+    text-align: center;
+}
+section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleMetaData{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleMetaData .authorInfo{
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 500;
+    gap: 5px;
+}
+section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleMetaData img{
+    border-radius: 50px;
+    width: 24px;
+    height: 24px;
+}
+section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleContent {
+    margin-top: 5px;
+}
+section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleContent .articleTitle{
+    margin-bottom: 25px;
+}
+@media (max-width: 1200px) {
+    section.userBookmarks .Wrapper .bookmarksLists{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 991px) {
+    section.userBookmarks .Wrapper .bookmarksLists{
+        grid-template-columns: 1fr 1fr;
+    }
+    section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleMetaData .authorInfo{
+        font-size: 14px;
+    }
+}
+@media (max-width: 650px) {
+    section.userBookmarks .Wrapper .bookmarksLists{
+        grid-template-columns: 1fr;
+    }
+    section.userBookmarks .Wrapper .bookmarksLists .bookmarkedArticle .articleLogo{
+        height: 250px;
+    }
+}

@@ -25,3 +25,15 @@
 .newsTitle:hover{
     color: var(--hover-color) !important;
 }
+@media (max-width: 600px) {
+    .listOfNews{
+        width: 100%;
+        gap: 25px;
+    }
+    .home .container{
+        margin-top: 20px;
+    }
+    .home .container:first-of-type{
+        margin-top: 0;
+    }
+}

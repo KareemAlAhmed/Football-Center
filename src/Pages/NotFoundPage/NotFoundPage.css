@@ -1,0 +1,30 @@
+.notFoundPage .wrapper{
+    display: flex;
+    align-items: center;
+}
+.notFoundPage .pageContent{
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.notFoundPage .pageContent h1{
+    font-size: 40px;
+    padding: 10px 10px 15px;
+    border-bottom: 1px solid var(--hover-color)
+}
+.notFoundPage .pageContent button{
+    background-color: var(--social-back-color);
+    color: var(--text-color);
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+@media (max-width: 360px) {
+    .notFoundPage .pageContent h1{
+        font-size: 38px;
+    }
+}

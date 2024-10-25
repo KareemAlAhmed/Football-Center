@@ -34,7 +34,8 @@ export default function TeamStatsOpt({teamId,teamSlug}) {
          
     },[])
   return (
-    <ul className="Nav__Secondary__Menu">
+    <div className="statsOptsWrapper">
+      <ul className="Nav__Secondary__Menu">
         <li className="scoringStatTab " onClick={(e)=>{e.stopPropagation();navigate(`/team/_/id/${teamId}/${teamSlug}/stats/scoring`)}}>
             <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();navigate(`/team/_/id/${teamId}/${teamSlug}/stats/scoring`)}} >Scoring</Link>
         </li>
@@ -44,6 +45,7 @@ export default function TeamStatsOpt({teamId,teamSlug}) {
         <li className="performanceStatTab" onClick={(e)=>{e.stopPropagation();navigate(`/team/_/id/${teamId}/${teamSlug}/stats/performance`)}}>
             <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/team/_/id/${teamId}/${teamSlug}/stats/performance`)}}>Performance</Link>
         </li>
-    </ul>
+      </ul>
+    </div>
   )
 }

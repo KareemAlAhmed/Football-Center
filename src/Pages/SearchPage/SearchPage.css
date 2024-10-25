@@ -1,5 +1,5 @@
 .searchPage .SearchBlock{
-    background-color: #1a1a1a;
+    background-color: var(--button-hover-color);
     padding: 10px;
     cursor: pointer;
     display: flex;
@@ -35,7 +35,7 @@
 }
 .searchPage button.searchFilter {
     padding: 10px 15px;
-    background-color: #1a1a1a;
+    background-color: var(--button-hover-color);
     color: var(--hover-color);
     font-weight: 500;
     margin-right: 10px;
@@ -52,4 +52,12 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+    section.searchedPlayers .Wrapper ul.playerList{
+        flex-wrap: wrap;
+    }
+    section.searchedPlayers .Wrapper ul.playerList li{
+        width: calc((100% -  20px) / 2) ;
+    }
 }

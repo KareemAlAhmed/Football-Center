@@ -1,0 +1,20 @@
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.userInfo .userLogo img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+}
+.userInfo .userDetails div{
+    color: var(--hover-color);
+    font-weight: 600;
+    font-size: 17px;
+}
+.userInfo .userDetails h2{
+    font-size: 24px;
+}

@@ -39,3 +39,21 @@
     color:var(--hover-color);
     margin-top: 5px;
 }
+
+
+@media (max-width: 680px) {
+    .PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li img{
+        height: 250px;
+    }
+    .PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li a{
+        font-size: 23px;
+    }
+}
+@media (max-width: 450px) {
+    .PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li img{
+        height: 200px;
+    }
+    .PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li a{
+        font-size: 20px;
+    }
+}

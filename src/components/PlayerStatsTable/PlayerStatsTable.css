@@ -43,7 +43,7 @@
     margin-right: 3px;
 }
 .positionStatsTable table tr td.teamStat img{
-    transform: translateY(4px);
+    transform: translateY(2px);
 }
 .positionStatsTable table tr .teamColumn{
     display: inline-flex;
@@ -62,4 +62,42 @@
 } 
 .positionStatsTable table tr a{
     color: var(--text-color);
+    vertical-align: text-bottom;
 }
+@media (max-width: 600px) {
+    .positionStatsTable table tr td{
+        padding-right: 5px;
+        font-size: 13px;
+    }
+    .positionStatsTable table tr th{
+        padding-right: 5px;
+    }
+  }
+@media (max-width: 480px) {
+    .positionStatsTable table tr th:nth-child(6),
+    .positionStatsTable table tr th:nth-child(7){
+        display: none;
+    }
+    .positionStatsTable table tr td:nth-child(6),
+    .positionStatsTable table tr td:nth-child(7){
+        display: none;
+    }
+    .PageLayout__MainContainer section.currentPlayerStats .cardTitle .filters{
+        flex-direction: column;
+    }
+  }
+@media (max-width: 430px) {
+    .positionStatsTable table tr th:nth-child(4),
+    .positionStatsTable table tr th:nth-child(5){
+        display: none;
+    }
+    .positionStatsTable table tr td:nth-child(4),
+    .positionStatsTable table tr td:nth-child(5){
+        display: none;
+    }
+  }
+  @media (max-width: 400px) {
+    .positionStatsTable table tr td.teamStat .teamLogo{
+        margin-right: 0;
+    }
+  }

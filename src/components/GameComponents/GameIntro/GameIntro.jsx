@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./GameIntro.css"
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from "react-redux";
-import { getTeamImage, getTeamLink } from "../../../utils/baseUrl";
+import { generateShortName, getDefaultTeamOrCompetLogo, getTeamImage, getTeamLink } from "../../../utils/baseUrl";
 import GoalIcon from "../../Icons/GoalIcon/GoalIcon";
 import RedCardSvg from "../../Icons/RedCardSvg/RedCardSvg";
 
@@ -79,22 +79,29 @@ export default function GameIntro({game,gameId,gameSlug}) {
                     
                     <div className="Logo-Container Logo-Container-left">
                         <div className="TeamLogo " style={HomebackColor1}>
-                            <img  src={getTeamImage(game?.homeTeam?.id)} alt="" />
+                            <img  src={getTeamImage(game?.homeTeam?.id)} alt=""  onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
                         </div>
                         <div className="SkewedLine SkewedLine--1" style={HomebackColor2}></div>
                         <div className="SkewedLine SkewedLine--2" style={HomebackColor3}></div>
                     </div>
                     <div className="competitorInfo">
-                        <div className="teamNameAndPoints">
-                            <Link className="teamLink" to={getTeamLink(game?.homeTeam?.id,game?.homeTeam?.slug)}>{game?.homeTeam?.name}</Link>
-                            <span>{game?.homeTeam?.record}</span>
-                        </div>
-                        <div className="competitorLogo">
-                            <img src={getTeamImage(game?.homeTeam?.id)} alt="" />
+
+                        <div className="teamInfoWrapper">
+                            <div className="teamInfos homeTeamInfo">
+                                <div className="teamNameAndPoints">
+                                    <Link className="teamLink" to={getTeamLink(game?.homeTeam?.id,game?.homeTeam?.slug)}>{game?.homeTeam?.name}</Link>
+                                    <Link className="teamLink" to={getTeamLink(game?.homeTeam?.id,game?.homeTeam?.slug)}>{generateShortName(game?.homeTeam?.name)}</Link>
+                                    <span>{game?.homeTeam?.record.split(",")[0]}<span className="teamPoints">{game?.homeTeam?.record.length > 0 && (", " +game?.homeTeam?.record.split(",")[1])}</span></span>
+                                </div>
+                                <div className="competitorLogo">
+                                    <img src={getTeamImage(game?.homeTeam?.id)} alt=""  onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
+                                </div>
+                            </div>
                         </div>
                         {game?.status === "Finished" && (
                             <div className="teamScore">
                                 <span className={game?.homeTeam?.score > game?.awayTeam?.score && "winnerScore"}>{game?.homeTeam?.score}</span>
+                                <span className={game?.homeTeam?.score > game?.awayTeam?.score && "winnerScore"}>{generateShortName(game?.homeTeam?.name)}</span>
                             </div>
                         )}
                     </div>
@@ -115,7 +122,7 @@ export default function GameIntro({game,gameId,gameSlug}) {
                     </>
                 ) : game?.status === "Live" ? (
                     <>
-                        <span className="matchLiveTime">{game?.matchTime ? game.matchTime : currentMatchSummary.matchTime}'</span>
+                        <span className="matchLiveTime">{game?.matchTime ? Math.ceil(parseFloat(game.matchTime)) :  Math.ceil(parseFloat(currentMatchSummary.matchTime))}'</span>
                     </>
                 ) : (
                     <>
@@ -132,21 +139,29 @@ export default function GameIntro({game,gameId,gameSlug}) {
                         {game?.status === "Finished" && (
                             <div className="teamScore">
                                 <span className={game?.awayTeam?.score > game?.homeTeam?.score && "winnerScore"}>{game?.awayTeam?.score}</span>
+                                <span className={game?.awayTeam?.score > game?.homeTeam?.score && "winnerScore"}>{generateShortName(game?.awayTeam?.name)}</span>
                             </div>
                         )}
-                        <div className="competitorLogo">
-                            <img src={getTeamImage(game?.awayTeam?.id)} alt="" />
+
+                        <div className="teamInfoWrapper">
+                            <div className="teamInfos awayTeamInfo">
+                                <div className="competitorLogo">
+                                    <img src={getTeamImage(game?.awayTeam?.id)} alt=""   onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
+                                </div>
+                                <div className="teamNameAndPoints">
+                                    <Link className="teamLink" to={getTeamLink(game?.awayTeam?.id,game?.awayTeam?.slug)}>{game?.awayTeam?.name}</Link>
+                                    <Link className="teamLink" to={getTeamLink(game?.homeTeam?.id,game?.homeTeam?.slug)}>{generateShortName(game?.awayTeam?.name)}</Link>
+                                    <span>{game?.awayTeam?.record.split(",")[0]}<span className="teamPoints">{game?.awayTeam?.record.length > 0 && (", " +game?.awayTeam?.record.split(",")[1])}</span></span>
+                                </div>
+                            </div>
                         </div>
-                        <div className="teamNameAndPoints">
-                            <Link className="teamLink" to={getTeamLink(game?.awayTeam?.id,game?.awayTeam?.slug)}>{game?.awayTeam?.name}</Link>
-                            <span>{game?.awayTeam?.record}</span>
-                        </div>
+                        
                         
                     </div>
 
                     <div className="Logo-Container Logo-Container-right">
                         <div className="TeamLogo " style={AwaybackColor1}>
-                            <img src={getTeamImage(game?.awayTeam?.id)} alt="" />
+                            <img src={getTeamImage(game?.awayTeam?.id)} alt=""  onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                         </div>
                         <div className="SkewedLine SkewedLine--1" style={AwaybackColor2}></div>
                         <div className="SkewedLine SkewedLine--2" style={AwaybackColor3}></div>
@@ -227,38 +242,15 @@ export default function GameIntro({game,gameId,gameSlug}) {
 
         <div className="gamePageOpts">
             <ul className="Nav__Secondary__Menu">
-
                 {
                     game?.navItems?.map((ele,index)=>{
                         if(ele.text !== "Videos"){
                             return <li key={index} className={ele.slug+"SubTab" } onClick={(e)=>{e.stopPropagation();navigate(`/match/_/${gameId}/${gameSlug}/${ele.slug}`)}}>
                             <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/match/_/${gameId}/${gameSlug}/${ele.slug}`)}}>{ele.text}</Link>
                         </li>
-                        }
-                        
-                    })
-                    
+                        }                     
+                    })                  
                 }
-
-
-
-
-                {/* <li className="overviewSubTab summarySubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}`)}}>
-                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}`)}}>Overview</Link>
-                </li>
-                <li className="bioSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}/bio`)}}>
-                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}/bio`)}}>Bio</Link>
-                </li>
-                <li className="newsSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}/news`)}}>
-                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}/news`)}}>News</Link>
-                </li>
-                <li className="matchesSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}/matches`)}}>
-                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}/matches`)}}>Matches</Link>
-                </li>
-                <li className="statsSubTab" onClick={(e)=>{e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}/stats`)}}>
-                <Link className='Nav__AnchorTag' onClick={(e)=>{e.preventDefault();e.stopPropagation();navigate(`/player/_/id/${gameId}/${gameSlug}/stats`)}}>Stats</Link>
-                </li> */}
-            
             </ul>
         </div>
         <div className="fallDown"></div>

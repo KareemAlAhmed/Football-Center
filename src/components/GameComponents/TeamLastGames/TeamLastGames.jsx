@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { getGameLink, getTeamImage, getTeamLink } from "../../../utils/baseUrl";
+import { getDefaultTeamOrCompetLogo, getGameLink, getTeamImage, getTeamLink } from "../../../utils/baseUrl";
 import "./TeamLastGames.css"
 import React from 'react'
 
@@ -9,7 +9,7 @@ export default function TeamLastGames({team,matches}) {
             <header className="cardHeader">
                 <div className="cardTitle">
                     <div className="TeamLogo">
-                        <img src={getTeamImage(team?.id)} alt="" />
+                        <img src={getTeamImage(team?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                     </div>
                     <p>Form</p>
                 </div>   
@@ -31,13 +31,13 @@ export default function TeamLastGames({team,matches}) {
                                                 <Link to={getTeamLink(match.homeTeam.id,match.homeTeam.slug)}>{match.homeTeam.name}</Link>
                                             </td>
                                             <td className="teamLogo">
-                                                <img src={getTeamImage(match.homeTeam.id)} alt="" />    
+                                                <img src={getTeamImage(match.homeTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />    
                                             </td>
                                             <td className="matchScores">
                                                 <Link to={getGameLink(match.id,match.slug)}>{match.score}</Link>
                                             </td>
                                             <td className="teamLogo">
-                                                <img src={getTeamImage(match.awayTeam.id)} alt="" />
+                                                <img src={getTeamImage(match.awayTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                             </td>
                                             <td className="teamName">                               
                                                 <Link to={getTeamLink(match.awayTeam.id,match.awayTeam.slug)}>{match.awayTeam.name}</Link>

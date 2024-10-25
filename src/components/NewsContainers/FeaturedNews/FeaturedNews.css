@@ -23,33 +23,7 @@
     width: 100%;
     max-height: 470px;
 }
-.featuredNews .newsInfo{
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    /* margin: auto; */
-    gap: 15px;
-    justify-content: center;
-    padding-left: 20px;
-    border: 1px solid var(--button-hover-color);
-    border-left: 0;
-}
-.featuredNews .newsInfo .newsTitle{
-    font-size: 23px;
-    font-weight: 700;
-    color: var(--text-color);
-    line-height: 1.2;
-    transition: all 0.3s ease;
-}
-.featuredNews .newsInfo .newsContent{
-    font-size: 17px;
-    font-weight: 500;
-    color: var(--text-color);
-}
-.featuredNews .newsInfo .newsContent a{
-    color: var(--text-color);
-    text-decoration: underline;
-}
+
 .channel{
     display: flex;
     gap: 15px;
@@ -60,4 +34,26 @@
 .channelName{
     font-size: 14px;
     color: var(--text-color);
+}
+
+@media (max-width: 991px) {
+    .featuredNews .newsContent{
+        flex-direction: column;
+    }
+    .transferNews .featuredNews .newsImg{
+        width: 100%;
+    }
+    .transferNews .featuredNews .newsImg img{
+        height: 300px;
+    }
+    .transferNews .featuredNews .newsInfo{
+        width: 100%;
+        padding: 10px;
+        border-left: 1px solid var(--button-hover-color);
+    }
+}
+@media (max-width: 400px) {
+    .transferNews .featuredNews .newsImg img{
+        height: 230px;
+    }
 }

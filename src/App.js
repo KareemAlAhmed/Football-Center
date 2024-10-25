@@ -7,10 +7,7 @@ function App() {
   
   return (
     <div className="App">
-        {/* https://looka.com/s/192368739 */}
-          {/* <NavBar /> */}
-          <Homepage />
-
+      <Homepage />
     </div>
   );
 }

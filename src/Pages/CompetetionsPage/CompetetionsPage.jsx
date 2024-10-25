@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import { useDispatch, useSelector } from 'react-redux';
 import { GET_TOURNS_BY_CAT } from '../../redux/tourns/tournsActions';
 import { Link } from 'react-router-dom';
+import { getDefaultTeamOrCompetLogo } from '../../utils/baseUrl';
 export default function CompetetionsPage() {
   const allCompetetionByCat=useSelector(state=>state.tourns.allCompetetionByCat);
   const dispatch=useDispatch();
@@ -26,11 +27,11 @@ export default function CompetetionsPage() {
                                         {league.leagues.map((compt,ind)=>{
                                             return <div className="competetion" key={ind}>
                                             <div className="competetionImg">
-                                              <img src={compt.id != null ? compt.leagueLogo : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} alt="" />
+                                              <img src={compt.id != null ? compt.leagueLogo : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
                                             </div>
                                             <div className="competetionInfo">
                                                 <div className="comptNameAndOpt">
-                                                 <Link className='competLink' to={`/competetion/_/id/${compt.id}/${compt.slug}`}><p>{compt.leagueName}</p></Link>
+                                                 <Link className='competLink' to={`/competetion/_/id/${compt.id}/${compt.slug}`}><p>{compt.leagueName.length > 31 ? compt.leagueName.slice(0,28)+"..." : compt.leagueName}</p></Link>
                                                     
                                                     <ul className='optionsList'>
                                                         <li><Link >Squads</Link></li>

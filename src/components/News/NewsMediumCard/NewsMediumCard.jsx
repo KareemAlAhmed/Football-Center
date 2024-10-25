@@ -1,5 +1,7 @@
 import React from 'react'
 import "./NewsMediumCard.css"
+import { Link } from 'react-router-dom';
+import { getArticleLink, getDefaultArticleLogo } from '../../../utils/baseUrl';
 export default function NewsMediumCard({news}) {
     function timeAgo(timestamp) {
         const currentTime = new Date().getTime();
@@ -70,7 +72,9 @@ export default function NewsMediumCard({news}) {
             {news?.title ? (
             <img src={news?.newsImg} alt="" />
           ) :(
-            <img src={news?.LINKS[0].IMAGE_VARIANT_URL} alt="" />
+            <Link to={getArticleLink(news?.id,news?.slug,"story")}>
+              <img src={news?.imgUrl === "No Img" ? getDefaultArticleLogo() : news?.imgUrl} alt="" />
+            </Link>
           )
         }
         </div>
@@ -88,13 +92,13 @@ export default function NewsMediumCard({news}) {
             </>
           ) : (
             <>
-              <p  className='newsTitle'>{news?.TITLE} <br /> <a href={news?.LINK} className='originalPSmall'>Original Post...</a></p>
-              <div className="channel">
+            <Link to={getArticleLink(news?.id,news?.slug,"story")}  className='newsTitle'>{news?.articleTitle.length >121 ? news?.articleTitle.slice(0,119) + "..." : news?.articleTitle}</Link>
+            <div className="channel">
                   <div className="channelLogo">
                       <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" style={style} />
                   </div>
-                  <p className='channelName'>{news?.PROVIDER_NAME}</p>
-                  <p className='channelName'>{news?.PUBLISHED ? timeAgo2(news?.PUBLISHED ) : null}</p>
+                  <p className='channelName'>{news?.author}</p>
+                  <p className='channelName'>{news?.timeStamps}</p>
               </div>
             </>
           )}

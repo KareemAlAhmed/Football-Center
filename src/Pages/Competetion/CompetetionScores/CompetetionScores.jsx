@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { GET_COMPET_DATA, GET_COMPET_DATE_SCORES } from '../../../redux/tourns/tournsActions';
 import { GET_TEAM_INFO } from '../../../redux/team/teamsActions';
 import DatesSlider from '../../../components/DatesSlider/DatesSlider';
-import { getPlayerLink, getTeamImage } from '../../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getPlayerLink, getTeamImage } from '../../../utils/baseUrl';
 import DefaultLogo from "../../../components/default.png"
 
 export default function CompetetionScores() {
@@ -42,9 +42,9 @@ export default function CompetetionScores() {
                 {loading ? 
                     (
                       <div className="loadingBlock">
-                        <span class="ouro ouro3">
-                          <span class="left"><span class="anim"></span></span>
-                          <span class="right"><span class="anim"></span></span>
+                        <span className="ouro ouro3">
+                          <span className="left"><span className="anim"></span></span>
+                          <span className="right"><span className="anim"></span></span>
                         </span>
                       </div>
                     ):(
@@ -56,13 +56,13 @@ export default function CompetetionScores() {
                                   return <div className='matchScoresInfo' key={ind}>
                                        
                                                <div className="Scoreboard" >
-                                                      <div className="teamsInfo">
+                                                      <div  className={match.status ==="LIVE" ? "liveMatch teamsInfo" :  match.status ==="FT" ? "finishedTime teamsInfo" : "notStarted teamsInfo"}>
                                                         <div className="matchStatus">
                                                           <span className={match.status ==="LIVE" && "live"}>{match.status}</span>
                                                         </div>
                                                         <div className="home TeamsInfo">
                                                             <div className="teamLogo">
-                                                              <Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}><img src={match.HomeTeam.id != null ? getTeamImage(match.HomeTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" /></Link>
+                                                              <Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}><img src={match.HomeTeam.id != null ? getTeamImage(match.HomeTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" /></Link>
                                                             </div>
                                                             <div className="teamNameAndRecord">
                                                                 <div className="teamName">
@@ -78,7 +78,7 @@ export default function CompetetionScores() {
                                                         </div>
                                                         <div className="away TeamsInfo">
                                                         <div className="teamLogo">
-                                                            <Link to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}><img src={match.AwayTeam.id != null ? getTeamImage(match.AwayTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" /></Link>
+                                                            <Link to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}><img src={match.AwayTeam.id != null ? getTeamImage(match.AwayTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" /></Link>
                                                             </div>
                                                             <div className="teamNameAndRecord">
                                                                 <div className="teamName">
@@ -107,7 +107,7 @@ export default function CompetetionScores() {
                                                         <div className="Home TeamPerformer">
                                                           <div className="teamNameAndLogo">
                                                               <div className="teamLogo">
-                                                                <img src={match.HomeTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.HomeTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" />
+                                                                <img src={match.HomeTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.HomeTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" />
                                                               </div>
                                                               <div className="teamName">
                                                                 <span>{match.HomeTeam.name}</span>
@@ -144,7 +144,7 @@ export default function CompetetionScores() {
                                                         <div className="Away TeamPerformer">
                                                           <div className="teamNameAndLogo">
                                                               <div className="teamLogo">
-                                                                <img src={match.AwayTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.AwayTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" />
+                                                                <img src={match.AwayTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.AwayTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" />
                                                               </div>
                                                               <div className="teamName">
                                                                 <span>{match.AwayTeam.name}</span>

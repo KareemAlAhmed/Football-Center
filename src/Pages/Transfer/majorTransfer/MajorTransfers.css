@@ -49,7 +49,51 @@
 .majorTransfers table tbody tr  img{
     width: 32px;
 }
+.majorTransfers table tbody tr td .playerAndTeams{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.majorTransfers table tbody tr td .playerAndTeams .transferTeams{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.majorTransfers table tbody tr td .playerAndTeams .transferTeams .clubInfo{
+    flex: 40%;
+}
+.majorTransfers table tbody tr td .playerAndTeams .transferTeams svg{
+    flex: 20%;
+}
 .majorTransfers .loadingBlock{
     flex: 1;
 }
-
+.showMobile{
+    display: none;
+}
+@media (max-width: 768px) {
+    .hideMobile{
+        display: none;
+    }
+    .showMobile{
+        display: block;
+    }
+    .majorTransfers table thead tr th:first-of-type{
+        padding-right: 5px;
+    }
+    .majorTransfers table tbody tr:first-of-type td{
+        padding-right: 5px;
+    }
+    .majorTransfers table tbody tr td{
+        vertical-align: top;
+    }
+    .majorTransfers .dropdown__select{
+        font-size: 17px;
+    }
+}
+@media (max-width: 450px) {
+    .majorTransfers table tbody tr td{
+        font-size: 15px;
+    }
+}

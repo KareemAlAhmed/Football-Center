@@ -8,7 +8,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { GET_TEAM_TRANSFER_DATA } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
 import TeamStatsOpt from '../../../components/TeamStatsOpt/TeamStatsOpt';
-import { getPlayerLink, getTeamImage } from '../../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getPlayerLink, getTeamImage } from '../../../utils/baseUrl';
+import { ToastContainer } from 'react-toastify';
 
 export default function TeamTransfers() {
     let [selectedSeason,setSelectedSeason]=useState(`${new Date().getFullYear()}`)
@@ -45,9 +46,9 @@ export default function TeamTransfers() {
                 <div className="wrapper">
                     {loading ? (
                     <div className="loadingBlock">
-                    <span class="ouro ouro3">
-                        <span class="left"><span class="anim"></span></span>
-                        <span class="right"><span class="anim"></span></span>
+                    <span className="ouro ouro3">
+                        <span className="left"><span className="anim"></span></span>
+                        <span className="right"><span className="anim"></span></span>
                     </span>
                     </div>
                     ):(
@@ -99,7 +100,7 @@ export default function TeamTransfers() {
                                                                                     <div className="teamWrapper">
                                                                                         <div className="teamLogo">
                                                                                             <Link to={`/team/_/id/${player.fromTeam.id}/${player.fromTeam.slug}`}>
-                                                                                                <img src={getTeamImage(player.fromTeam.id)} alt="" />
+                                                                                                <img src={getTeamImage(player.fromTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                                                                             </Link>
                                                                                         </div>
                                                                                         <div className="teamName">
@@ -148,7 +149,7 @@ export default function TeamTransfers() {
                                                                                     <div className="teamWrapper">
                                                                                         <div className="teamLogo">
                                                                                             <Link to={`/team/_/id/${player.ToTeam.id}/${player.ToTeam.slug}`}>
-                                                                                                <img src={getTeamImage(player.ToTeam.id)} alt="" />
+                                                                                                <img src={getTeamImage(player.ToTeam.id)} alt=""  onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
                                                                                             </Link>
                                                                                         </div>
                                                                                         <div className="teamName">
@@ -186,6 +187,7 @@ export default function TeamTransfers() {
             </div>
         </div>
         <Footer />
+        <ToastContainer />
     </>
   )
 }

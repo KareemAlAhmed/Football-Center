@@ -65,3 +65,19 @@ section.gameTeamLastMatches  .Wrapper table tr th:nth-child(1){
 section.gameTeamLastMatches  .Wrapper table tr a{
     color: var(--text-color);
 }
+@media (max-width: 680px) {
+
+    .matchStats .mainContainer{
+        width: 100%;
+    }
+    .matchStats section.gameTeamLastMatches{
+        max-width: 585px;
+    }
+    .matchStats section.gameTeamLastMatches .Wrapper{
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .matchStats section.gameTeamLastMatches .Wrapper table {
+        min-width: 585px;
+    }
+}

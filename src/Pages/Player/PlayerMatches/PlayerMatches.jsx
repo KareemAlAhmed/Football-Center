@@ -8,6 +8,7 @@ import { Link, useParams } from "react-router-dom";
 import { GET_PLAYER_FILTERED_MATCHES_DATA, GET_PLAYER_MATCHES_DATA } from "../../../redux/players/playersAction";
 import { getTeamImage } from "../../../utils/baseUrl";
 import PlayerMatchesComp from "../../../components/PlayerMatchesComp/PlayerMatchesComp";
+import { ToastContainer } from "react-toastify";
 
 export default function PlayerMatches() {
     let { playerId } = useParams();
@@ -20,18 +21,30 @@ export default function PlayerMatches() {
     
     let season=0;
     let team=currentPlayerInfo?.team?.id;
-    let compet=currentPlayerInfo?.currentLeague?.slug;
+    // let compet=currentPlayerInfo?.currentLeague?.slug;
+    let compet;
     if(currentPlayerMatches?.allSeasons){
         season= currentPlayerMatches?.allSeasons[0]?.slug
     }
     if(currentPlayerMatchesFiltered?.currentCompetMatches?.length > 0){
+        console.log(currentPlayerMatchesFiltered)
         team=currentPlayerMatchesFiltered.teamId
         compet=currentPlayerMatchesFiltered.competSlug
         season=currentPlayerMatchesFiltered.year
+        if(compet === "any"){
+            let currentStage=currentPlayerMatchesFiltered.currentCompetMatches[0].competStage
+            let currentCompet=currentPlayerMatchesFiltered.allCompets.filter(ele=>currentStage.includes(ele.name))
+            if(currentCompet.length > 0){
+
+                compet=currentCompet[0].slug
+            }
+            currentPlayerMatchesFiltered.competSlug=compet
+        }
     }
     let [selectedTeam,setSelectedTeam]=useState(team)
     let [selectedSeason,setSelectedSeason]=useState(season)
     let [selectedCompet,setSelectedCompet]=useState(compet)
+
 
    
     let dispatch=useDispatch()
@@ -65,9 +78,9 @@ export default function PlayerMatches() {
                 <div className="wrapper">
                     {loading ? (
                        <div className="loadingBlock">
-                       <span class="ouro ouro3">
-                         <span class="left"><span class="anim"></span></span>
-                         <span class="right"><span class="anim"></span></span>
+                       <span className="ouro ouro3">
+                         <span className="left"><span className="anim"></span></span>
+                         <span className="right"><span className="anim"></span></span>
                        </span>
                      </div>
                     ):(
@@ -81,9 +94,9 @@ export default function PlayerMatches() {
                             {currentPlayerMatchesFiltered?.currentCompetMatches?.length > 0 ? (
                                  filterLoading ?(
                                     <div className="loadingBlock">
-                                        <span class="ouro ouro3">
-                                            <span class="left"><span class="anim"></span></span>
-                                            <span class="right"><span class="anim"></span></span>
+                                        <span className="ouro ouro3">
+                                            <span className="left"><span className="anim"></span></span>
+                                            <span className="right"><span className="anim"></span></span>
                                         </span>
                                     </div>
                                 ) : (
@@ -237,7 +250,7 @@ export default function PlayerMatches() {
                             )}
                                        
                             </div>
-                          <div className="PageLayout__RightAside">
+                          <div className="PageLayout__RightAside hideRightside">
                             <section className="latestNews">
                               <header className="cardHeader">
                                 <div className="cardTitle">
@@ -274,6 +287,7 @@ export default function PlayerMatches() {
               </div>
             </div>
             <Footer />
+            <ToastContainer />
         </>
   )
 }

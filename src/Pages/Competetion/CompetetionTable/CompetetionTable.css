@@ -30,6 +30,12 @@
     align-items: center;
     gap: 5px;
 }
+.pageContent .competStanding table tbody tr td:first-of-type a:last-child{
+    display: none;
+}
+.pageContent .competStanding table tbody tr td:first-of-type .teamLogo{
+    min-width: 30px;
+}
 .pageContent .competStanding table tbody tr td:first-of-type img{
     width: 30px;
     cursor: pointer;
@@ -53,4 +59,38 @@
 }
 .competTable .glossary{
     width: 100%;
+}
+@media (max-width: 650px) {
+    .pageContent .competStanding table tbody tr td:first-of-type a:first-of-type{
+        display: none;
+    }
+    .pageContent .competStanding table tbody tr td:first-of-type a:last-of-type{
+        display: block;
+    }
+}
+@media (max-width: 500px) {
+    .pageContent .competStanding table thead th{
+        padding-bottom: 10px;
+        padding-right: 0;
+        padding-left: 5px;
+    }
+    .pageContent .competStanding table tbody td{
+        padding-bottom: 5px;
+        padding-right: 0;
+        padding-left: 5px;
+    }
+}
+@media (max-width: 550px) {
+    .glossary__list{
+        gap: 10px;
+    }
+    .glossary__list .glossary__item{
+        width: calc((100% - 10px) / 2);
+    }
+}
+@media (max-width: 400px) {
+    .pageContent .competStanding table thead th:first-child,
+    .pageContent .competStanding table tbody td:first-child{
+        padding-right: 0;
+    }
 }

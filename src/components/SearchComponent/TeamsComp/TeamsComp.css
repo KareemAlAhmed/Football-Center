@@ -78,3 +78,16 @@ section.searchedTeams .Wrapper ul.teamList li:hover a{
 section.searchedTeams .Wrapper ul.teamList li:hover a .teamName{
     color: var(--hover-color);
 }
+@media (max-width: 991px) {
+    section.searchedTeams .Wrapper ul.teamList{
+        flex-wrap: wrap;
+    }
+    section.searchedTeams .Wrapper ul.teamList li{
+        width: calc((100% -  20px) / 2) ;
+    }
+}
+@media (max-width: 490px) {
+    section.searchedTeams .Wrapper ul.teamList li{
+        width: 100% ;
+    }
+}

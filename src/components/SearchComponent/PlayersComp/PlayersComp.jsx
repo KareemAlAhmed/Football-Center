@@ -25,7 +25,7 @@ export default function PlayersComp({players,comType,word}) {
                       return <li key={index}>
                         <Link to={getPlayerLink(player.id,player.slug)}>
                           <div className="playerLogo">
-                            <img src={getDefaultLogo()} alt="" />
+                            <img src={getDefaultLogo()} alt=""  />
                           </div>
                           <div className="playerInfo">
                             <div className="playerName">{player.name}</div>

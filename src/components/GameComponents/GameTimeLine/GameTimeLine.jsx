@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { getTeamImage, getTeamLink } from "../../../utils/baseUrl";
+import { getDefaultTeamOrCompetLogo, getTeamImage, getTeamLink } from "../../../utils/baseUrl";
 import "./GameTimeLine.css"
 import React from 'react'
 import YellowCardSvg from "../../Icons/YellowCardSvg/YellowCardSvg";
@@ -134,6 +134,16 @@ export default function GameTimeLine({homeTeam,awayTeam,timeLine,game}) {
             return {
                 marginTop:`-${margin}`
             }
+        }else{
+            if(length > 0){
+                return {
+                    marginTop:`14px`
+                }
+            }else{
+                return {
+                    marginTop:`7px`
+                }
+            }
         }
       
     }
@@ -148,11 +158,11 @@ export default function GameTimeLine({homeTeam,awayTeam,timeLine,game}) {
         <div className="Wrapper">
             <div className="timelineContentWrapper">
                 <div className="timelineContentCompetitor">
-                    <img src={getTeamImage(homeTeam?.id)} alt="" />
+                    <img src={getTeamImage(homeTeam?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
                     <Link className="teamLink" to={getTeamLink(homeTeam?.id,homeTeam?.slug)}>{homeTeam?.name}</Link>
                 </div>
                 <div className="timelineContentCompetitor timelineContentCompetitor--away">
-                    <img src={getTeamImage(awayTeam?.id)} alt="" />
+                    <img src={getTeamImage(awayTeam?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
                     <Link className="teamLink" to={getTeamLink(awayTeam?.id,awayTeam?.slug)}>{awayTeam?.name}</Link>
                 </div>
                 <div className="timelineContent">
@@ -173,7 +183,7 @@ export default function GameTimeLine({homeTeam,awayTeam,timeLine,game}) {
                                                 <div className="timelineContentMatchProgressEvents">
                                                     {
                                                         matchEvent?.events?.homeTeam.length > 0 && (
-                                                            <div className="homeTeamEvents"style={getSvgMargin(matchEvent?.events?.homeTeam.length,"homeTeam")}>
+                                                            <div className="homeTeamEvents" style={getSvgMargin(matchEvent?.events?.homeTeam.length,"homeTeam")}>
                                                                 {
                                                                     matchEvent?.events?.homeTeam.map((event,index)=>{
 
@@ -214,7 +224,7 @@ export default function GameTimeLine({homeTeam,awayTeam,timeLine,game}) {
                                                     }
                                                     {
                                                         matchEvent?.events?.awayTeam.length > 0 && (
-                                                            <div className="awayTeamEvents">
+                                                            <div className="awayTeamEvents" style={getSvgMargin(matchEvent?.events?.homeTeam.length,"awayTeam")}>
                                                                 {
                                                                     matchEvent?.events?.awayTeam.map((event,index)=>{
                                                                         if(event.type==="Goal"){

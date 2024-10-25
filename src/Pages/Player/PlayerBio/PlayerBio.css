@@ -11,7 +11,7 @@
 .playerBlock  section.playerBio ul li{
     display: flex;
     gap: 15px;
-    width: calc((100% - 30px) / 3);
+    width: calc((100% - 20px) / 3);
 }
 .playerBlock  section.playerBio ul li .bioSection{
     color: var(--hover-color);
@@ -29,7 +29,7 @@
     flex-wrap: wrap;
 }
 .playerBlock  section.playerHistory ul li{
-    width: calc((100% - 30px) / 3);
+    width: calc((100% - 20px) / 3);
 }
 .playerBlock  section.playerHistory ul li a{
     display: flex;
@@ -52,3 +52,19 @@
 .playerBlock  section.playerHistory ul li .bioValue{
     color: var(--text-color);
 }
+@media (max-width: 620px) {
+    .playerBlock section.playerBio ul li{
+        width: calc((100% - 10px) / 2);
+    }
+    .playerBlock  section.playerHistory ul li{
+        width: calc((100% - 10px) / 2);
+    }
+  }
+@media (max-width: 400px) {
+    .playerBlock section.playerBio ul li{
+        width: 100%;
+    }
+    .playerBlock  section.playerHistory ul li{
+        width: 100%;
+    }
+  }

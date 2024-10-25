@@ -43,6 +43,14 @@ import MatchLineUpPage from "./Pages/Match/MatchLineUpPage/MatchLineUpPage";
 import MatchReportPage from "./Pages/Match/MatchReportPage/MatchReportPage";
 import MatchCommentaryPage from "./Pages/Match/MatchCommentaryPage/MatchCommentaryPage";
 import SearchPage from "./Pages/SearchPage/SearchPage";
+import UserFollowingPage from "./Pages/UserProfilePages/UserFollowingPage/UserFollowingPage";
+import UserFavNationalTeams from "./Pages/UserFavorite/UserFavNationalTeams/UserFavNationalTeams";
+import UserFollowingPlayers from "./Pages/UserFavorite/UserFollowingPlayers/UserFollowingPlayers";
+import UserBookmarkPage from "./Pages/UserProfilePages/UserBookmarkPage/UserBookmarkPage";
+import UserBookmarkedArticlePage from "./Pages/UserProfilePages/UserBookmarkedArticlePage/UserBookmarkedArticlePage";
+import UserAccountPage from "./Pages/UserProfilePages/UserAccountPage/UserAccountPage";
+import UserSettingPage from "./Pages/UserProfilePages/UserSettingPage/UserSettingPage";
+import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
 
 
 export const router = createBrowserRouter([
@@ -78,7 +86,7 @@ export const router = createBrowserRouter([
       ],
   },
   {
-    path: "/followings/competetions/",
+    path: "/followings/",
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
@@ -90,13 +98,54 @@ export const router = createBrowserRouter([
     children: [
 
         {
-          path: "",
+          path: "competetions",
           element: <UserFavorite />,
         },
         {
-          path: ":comptId/teams",
+          path: "competetions/specificCompet",
+          element: <UserFavorite />,
+        },
+        {
+          path: "competetions/:comptId/teams",
           element: <UserFavoriteTeams />,
         },
+        {
+          path: "nationalTeams",
+          element: <UserFavNationalTeams />,
+        },
+        {
+          path: "FavTeams",
+          element: <UserFavNationalTeams />,
+        },
+        {
+          path: "players",
+          element: <UserFollowingPlayers />,
+        },
+      ],
+  },{
+    path: "/favorite/",
+    loader:()=>{
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      if(sessionStorage.getItem("activeNav") !== null){
+        sessionStorage.removeItem("activeNav")
+      }
+      return true;
+   },
+    children: [
+
+        {
+          path: "competetions",
+          element: <UserFavorite />,
+        },
+        {
+          path: "competetions/:comptId/teams",
+          element: <UserFavoriteTeams />,
+        },
+        {
+          path: "nationalTeams",
+          element: <UserFavNationalTeams />,
+        }
       ],
   }, {
     path: "/schedule/_/date/:date",
@@ -435,7 +484,7 @@ export const router = createBrowserRouter([
       }
     ],
   },{
-    path: "/search/_/q/:searchText/",
+    path: "/search/",
     element: <SearchPage />,
     loader:()=>{
       document.body.scrollTop = 0;
@@ -446,9 +495,76 @@ export const router = createBrowserRouter([
       return true;
     },children:[
       {
-        path: "type/:searchType",
+        path: "",
+        element: <SearchPage />,
+      },
+      {
+        path: "_/q/:searchText",
+        element: <SearchPage />,
+      },
+      {
+        path: "_/q/:searchText/type/:searchType",
         element: <SearchPage />,
       }
     ]
-  }
+  },{
+    path: "/profile/", 
+    loader:()=>{
+      if(sessionStorage.getItem("current-user") == null){
+        window.location.replace("/auth")
+      }
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      if(sessionStorage.getItem("activeNav") !== null){
+        sessionStorage.removeItem("activeNav")
+      }
+      return true;
+    },children:[
+      {
+        path: "",
+        element: <UserFollowingPage />,
+        loader:()=>{
+          sessionStorage.setItem("currentUserPageTag","followingSubTab")
+          return true;
+       }
+      },
+      {
+        path: "following",
+        element: <UserFollowingPage />,
+        loader:()=>{
+          sessionStorage.setItem("currentUserPageTag","followingSubTab")
+          return true;
+       }
+      },
+      {
+        path: "bookmarks",
+        element: <UserBookmarkPage />,
+        loader:()=>{
+          sessionStorage.setItem("currentUserPageTag","bookMarksSubTab")
+          return true;
+       }
+      },
+      {
+        path: "bookmarks/article/:articleId",
+        element: <UserBookmarkedArticlePage />,
+      },{
+        path: "account",
+        element: <UserAccountPage />,
+        loader:()=>{
+          sessionStorage.setItem("currentUserPageTag","accountSubTab")
+          return true;
+       }
+      },{
+        path: "setting",
+        element: <UserSettingPage />,
+        loader:()=>{
+          sessionStorage.setItem("currentUserPageTag","settingSubTab")
+          return true;
+       }
+      },
+    ]
+  },{
+    path: "/*",
+    element: <NotFoundPage />
+  },
 ]);

@@ -7,9 +7,10 @@ import Footer from '../../../components/Footer/Footer';
 import NavBar from '../../../components/NavBar/NavBar';
 import PlayerIntro from '../../../components/PlayerIntro/PlayerIntro';
 import { GET_TEAM_RESULTS_DATA } from '../../../redux/team/teamsActions';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { generateShortName, getDefaultTeamOrCompetLogo, getTeamImage } from '../../../utils/baseUrl';
 import SwitchPlayersComp from '../../../components/SwitchPlayersComp/SwitchPlayersComp';
 import PlayerStatsHomePageComp from '../../../components/PlayerStatsHomePageComp/PlayerStatsHomePageComp';
+import { ToastContainer } from 'react-toastify';
 export default function PlayerOverview() {
     let { playerId } = useParams();
     let { playerSlug } = useParams();
@@ -54,9 +55,9 @@ export default function PlayerOverview() {
         <div className="wrapper">
             {loading ? (
                <div className="loadingBlock">
-               <span class="ouro ouro3">
-                 <span class="left"><span class="anim"></span></span>
-                 <span class="right"><span class="anim"></span></span>
+               <span className="ouro ouro3">
+                 <span className="left"><span className="anim"></span></span>
+                 <span className="right"><span className="anim"></span></span>
                </span>
              </div>
             ):(
@@ -65,7 +66,7 @@ export default function PlayerOverview() {
                   <PlayerIntro player={currentPlayerInfo} playerSlug={playerSlug}  />
                 </div>
                 <div className="pageContent">
-                  <div className="PageLayout__LeftAside">
+                  <div className="PageLayout__LeftAside hideLeftSide">
                       <SwitchPlayersComp />
                       <section className="Card quickLinks">
                         <header className="cardHeader">
@@ -77,25 +78,25 @@ export default function PlayerOverview() {
                           <ul>
                             <li>
                               <Link to={`/team/_/id/${currentPlayerInfo?.team?.id}/${currentPlayerInfo?.team?.slug}/fixture`}> 
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                  <path strokelinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
                                 </svg>
                                 <span>Schedule</span>
                               </Link>
                             </li>
                             <li>
                               <Link to={`/team/_/id/${currentPlayerInfo?.team?.id}/${currentPlayerInfo?.team?.slug}/squads`}> 
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.242 5.992h12m-12 6.003H20.24m-12 5.999h12M4.117 7.495v-3.75H2.99m1.125 3.75H2.99m1.125 0H5.24m-1.92 2.577a1.125 1.125 0 1 1 1.591 1.59l-1.83 1.83h2.16M2.99 15.745h1.125a1.125 1.125 0 0 1 0 2.25H3.74m0-.002h.375a1.125 1.125 0 0 1 0 2.25H2.99" />
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                  <path strokelinecap="round" strokeLinejoin="round" d="M8.242 5.992h12m-12 6.003H20.24m-12 5.999h12M4.117 7.495v-3.75H2.99m1.125 3.75H2.99m1.125 0H5.24m-1.92 2.577a1.125 1.125 0 1 1 1.591 1.59l-1.83 1.83h2.16M2.99 15.745h1.125a1.125 1.125 0 0 1 0 2.25H3.74m0-.002h.375a1.125 1.125 0 0 1 0 2.25H2.99" />
                                 </svg>
                                 <span>Squad</span>
                               </Link>
                             </li>
                             <li>
                               <Link to={`/team/_/id/${currentPlayerInfo?.team?.id}/${currentPlayerInfo?.team?.slug}/stats/scoring`}> 
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                  <path strokelinecap="round" strokeLinejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
+                                  <path strokelinecap="round" strokeLinejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
                                 </svg>
 
                                 <span>Stats</span>
@@ -122,8 +123,8 @@ export default function PlayerOverview() {
                             </li>  
                           <li>
                               <Link to={`/competetion/_/id/${currentPlayerInfo?.currentLeague?.id}/${currentPlayerInfo?.currentLeague?.slug}/fixtures`}> 
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                  <path strokelinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
                                 </svg>
                                 <span>Schedule</span>
                               </Link>
@@ -131,8 +132,8 @@ export default function PlayerOverview() {
                            
                             <li>
                               <Link to={`/competetion/_/id/${currentPlayerInfo?.currentLeague?.id}/${currentPlayerInfo?.currentLeague?.slug}/table`}> 
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.242 5.992h12m-12 6.003H20.24m-12 5.999h12M4.117 7.495v-3.75H2.99m1.125 3.75H2.99m1.125 0H5.24m-1.92 2.577a1.125 1.125 0 1 1 1.591 1.59l-1.83 1.83h2.16M2.99 15.745h1.125a1.125 1.125 0 0 1 0 2.25H3.74m0-.002h.375a1.125 1.125 0 0 1 0 2.25H2.99" />
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                                  <path strokelinecap="round" strokeLinejoin="round" d="M8.242 5.992h12m-12 6.003H20.24m-12 5.999h12M4.117 7.495v-3.75H2.99m1.125 3.75H2.99m1.125 0H5.24m-1.92 2.577a1.125 1.125 0 1 1 1.591 1.59l-1.83 1.83h2.16M2.99 15.745h1.125a1.125 1.125 0 0 1 0 2.25H3.74m0-.002h.375a1.125 1.125 0 0 1 0 2.25H2.99" />
                                 </svg>
                                 <span>Table</span>
                               </Link>
@@ -157,8 +158,9 @@ export default function PlayerOverview() {
                           <Link className="gameInfo">
                               <div className="homeTeam">
                                 <p className="teamName">{currentPlayerInfo?.team?.nextGame?.homeTeam.name}</p>
+                                <p className="teamName shortName">{generateShortName(currentPlayerInfo?.team?.nextGame?.homeTeam.name) }</p>
                                 <div className="teamLogo">
-                                  <img src={getTeamImage(currentPlayerInfo?.team?.nextGame?.homeTeam.id)} alt="" />
+                                  <img src={getTeamImage(currentPlayerInfo?.team?.nextGame?.homeTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                 </div>
                               </div>
 
@@ -169,9 +171,10 @@ export default function PlayerOverview() {
 
                               <div className="awayTeam">
                                 <div className="teamLogo">
-                                  <img src={getTeamImage(currentPlayerInfo?.team?.nextGame?.awayTeam.id)} alt="" />
+                                  <img src={getTeamImage(currentPlayerInfo?.team?.nextGame?.awayTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                 </div>
                                 <p className="teamName">{currentPlayerInfo?.team?.nextGame?.awayTeam.name}</p>
+                                <p className="teamName shortName">{generateShortName(currentPlayerInfo?.team?.nextGame?.awayTeam.name)}</p>
                               </div>
                           </Link>
                         </div>
@@ -211,23 +214,23 @@ export default function PlayerOverview() {
                               return <tr key={index}>
                               <td className='teamColumn'>
                                 <div className="teamLogo">
-                                  <img src={getTeamImage(match.homeTeam.id)} alt="" />
+                                  <img src={getTeamImage(match.homeTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                 </div>
                                 <div className="teamName">
                                   <Link to={`/team/_/id/${match.homeTeam.id}/${match.homeTeam.slug}`}><span>{match.homeTeam.name}</span></Link>
                                 </div>
                               </td>
-                              <td><span>{match.date}</span></td>
+                              <td><span className='date'>{match.date}</span></td>
                               <td className='teamColumn'>
                                 <div className="homeOrAway">{match.homeOrAway}</div>
                                 <div className="teamLogo">
-                                  <img src={getTeamImage(match.awayTeam.id)} alt="" />
+                                  <img src={getTeamImage(match.awayTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                 </div>
                                 <div className="teamName">
                                   <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`}><span>{match.awayTeam.name}</span></Link>
                                 </div>
                               </td>
-                              <td>{match.compet}</td>
+                              <td className='hideStat'>{match.compet.length > 14 ? match.compet.slice(0,11) + "..." : match.compet}</td>
                               <td className='results'>
                                 
                                 <span className={ match.status === "W" ? " status win" : match.status === "L" ? " status lose" : " status draw"}>{match.status}</span>
@@ -240,9 +243,9 @@ export default function PlayerOverview() {
                               <td>{match.currentPlayer.ST}</td>
                               <td>{match.currentPlayer.FC}</td>
                               <td>{match.currentPlayer.FA}</td>
-                              <td>{match.currentPlayer.OF}</td>
-                              <td>{match.currentPlayer.YC}</td>
-                              <td>{match.currentPlayer.RC}</td>
+                              <td className='hideStat'>{match.currentPlayer.OF}</td>
+                              <td className='hideStat'>{match.currentPlayer.YC}</td>
+                              <td className='hideStat'>{match.currentPlayer.RC}</td>
                             </tr>
                             })}
                           </tbody>
@@ -250,7 +253,7 @@ export default function PlayerOverview() {
                       </div>
                     </section>
                   </div>
-                  <div className="PageLayout__RightAside">
+                  <div className="PageLayout__RightAside hideRightside">
                     <section className="latestNews">
                       <header className="cardHeader">
                         <div className="cardTitle">
@@ -284,6 +287,7 @@ export default function PlayerOverview() {
       </div>
     </div>
     <Footer />
+    <ToastContainer />
 </>
   )
 }

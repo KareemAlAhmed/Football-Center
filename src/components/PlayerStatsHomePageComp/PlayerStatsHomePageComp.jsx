@@ -37,38 +37,42 @@ export default function PlayerStatsHomePageComp({playerId}) {
                      <Link>see all</Link>
                    </div>   
                  </header>
-                 <div className="Wrapper">
-                     <div className="statsfilters">
-                       <select className='dropdown__select' onChange={(e)=>{dispatch(GET_PLAYER_CURRENT_TEAMS_STATS_INFO(playerId,e.target.value));setSelectedStatsTeam(e.target.value)}} >
-                           {currentPlayerInfo.allTeams?.map((team,index)=>{
-                               if(selectedStatsTeam === team.id){
-                                   return <option key={index} selected value={team.id} >
-                                       {team.name}
-                                   </option>
-                               }else{
-                                   return <option key={index} value={team.id} >
-                                       {team.name}
-                                   </option>
-                               }
-                           })}
-                       </select>
-                       {currentTeamsStats.allCompetions?.length > 0 && (
-                           <select className='dropdown__select' onChange={(e)=>{dispatch(GET_PLAYER_CURRENT_TEAMS_STATS_INFO(playerId,selectedStatsTeam,e.target.value));setSelectedCompet(e.target.value)}} >
-                           {currentTeamsStats.allCompetions?.map((compet,index)=>{
-                              if(selectedCompet === compet.slug){
-                                  return <option key={index} selected value={compet.slug} >
-                                      {compet.name}
-                                  </option>
-                              }else{
-                                  return <option key={index} value={compet.slug} >
-                                      {compet.name}
-                                  </option>
-                              }
-                          })}
-                          </select>
-                       )}
-     
-                     </div>
+                 <div className="Wrapper">                         
+                        <div className="statsfilters">
+                            {currentPlayerInfo.allTeams?.length > 0  && (
+                                <select className='dropdown__select' onChange={(e)=>{dispatch(GET_PLAYER_CURRENT_TEAMS_STATS_INFO(playerId,e.target.value));setSelectedStatsTeam(e.target.value)}} >
+                                    {currentPlayerInfo.allTeams?.map((team,index)=>{
+                                        if(selectedStatsTeam === team.id){
+                                            return <option key={index} selected value={team.id} >
+                                                {team.name}
+                                            </option>
+                                        }else{
+                                            return <option key={index} value={team.id} >
+                                                {team.name}
+                                            </option>
+                                        }
+                                    })}
+                                </select>
+                            )}
+                            {currentTeamsStats.allCompetions?.length > 0 && (
+                                <select className='dropdown__select' onChange={(e)=>{dispatch(GET_PLAYER_CURRENT_TEAMS_STATS_INFO(playerId,selectedStatsTeam,e.target.value));setSelectedCompet(e.target.value)}} >
+                                {currentTeamsStats.allCompetions?.map((compet,index)=>{
+                                if(selectedCompet === compet.slug){
+                                    return <option key={index} selected value={compet.slug} >
+                                        {compet.name}
+                                    </option>
+                                }else{
+                                    return <option key={index} value={compet.slug} >
+                                        {compet.name}
+                                    </option>
+                                }
+                            })}
+                            </select>
+                            )}                      
+                        </div>
+                    
+                        
+                    
                      <div className="allStats">
                            <table>
                              <thead>
@@ -116,47 +120,54 @@ export default function PlayerStatsHomePageComp({playerId}) {
               </div>   
             </header>
             <div className="Wrapper">
-                <div className="statsfilters">
-                  <select className='dropdown__select' onChange={(e)=>{dispatch(GET_PLAYER_CURRENT_TEAMS_STATS_INFO(playerId,e.target.value));setSelectedStatsTeam(e.target.selectedOptions[0])}} >
-                      {currentPlayerInfo.allTeams?.map((team,index)=>{
-                          if(selectedStatsTeam === team.id){
-                              return <option key={index} selected value={team.id} >
-                                  {team.name}
-                              </option>
-                          }else{
-                              return <option key={index} value={team.id} >
-                                  {team.name}
-                              </option>
-                          }
-                      })}
-                  </select>
-                  {currentPlayerInfo.allCompetions?.length > 0 && (
-                      <select className='dropdown__select' onChange={(e)=>{setCompetSlug(e.target.selectedOptions[0])}} >
-                      {currentPlayerInfo.allCompetions?.map((compet,index)=>{
-                         if(selectedCompet === compet.id){
-                             return <option key={index} selected value={compet.id} >
-                                 {compet.name}
-                             </option>
-                         }else{
-                             return <option key={index} value={compet.id} >
-                                 {compet.name}
-                             </option>
-                         }
-                     })}
-                     </select>
-                  )}
-
-                </div>
+                    {(currentPlayerInfo.allTeams?.length > 0 || currentPlayerInfo.allCompetions?.length > 0) && (
+                         <div className="statsfilters">
+                    
+                         {currentPlayerInfo.allTeams?.length > 0 && (
+                                 <select className='dropdown__select' onChange={(e)=>{dispatch(GET_PLAYER_CURRENT_TEAMS_STATS_INFO(playerId,e.target.value));setSelectedStatsTeam(e.target.selectedOptions[0])}} >
+                                 {currentPlayerInfo.allTeams?.map((team,index)=>{
+                                     if(selectedStatsTeam === team.id){
+                                         return <option key={index} selected value={team.id} >
+                                             {team.name}
+                                         </option>
+                                     }else{
+                                         return <option key={index} value={team.id} >
+                                             {team.name}
+                                         </option>
+                                     }
+                                 })}
+                             </select>
+                             )}
+                           
+                           {currentPlayerInfo.allCompetions?.length > 0 && (
+                               <select className='dropdown__select' onChange={(e)=>{setCompetSlug(e.target.selectedOptions[0])}} >
+                               {currentPlayerInfo.allCompetions?.map((compet,index)=>{
+                                  if(selectedCompet === compet.id){
+                                      return <option key={index} selected value={compet.id} >
+                                          {compet.name}
+                                      </option>
+                                  }else{
+                                      return <option key={index} value={compet.id} >
+                                          {compet.name}
+                                      </option>
+                                  }
+                              })}
+                              </select>
+                           )}
+                         </div>
+                    )}
+               
                 <div className="allStats">
-                      <table>
+                    {currentPlayerInfo?.stats?.allInfo.length > 0 ? (
+                        <table>
                         <thead>
                           <tr>
                             <th>Stats</th>
                             <th>STRT</th>
                             <th>FC</th>
                             <th>FA</th>
-                            <th>YC</th>
-                            <th>RC</th>
+                            <th className="hideStat">YC</th>
+                            <th className="hideStat">RC</th>
                             <th>G</th>
                             <th>A</th>
                             <th>SH</th>
@@ -167,12 +178,12 @@ export default function PlayerStatsHomePageComp({playerId}) {
                         <tbody>
                             {currentPlayerInfo?.stats?.allInfo.map((stats,index)=>{
                                 return <tr key={index}>
-                                  <td>{stats.leagueSeason}</td>
+                                  <td>{stats.leagueSeason ? stats.leagueSeason : stats.name}</td>
                                   <td>{stats.STRT}</td>
                                   <td>{stats.FC}</td>
                                   <td>{stats.FA}</td>
-                                  <td>{stats.YC}</td>
-                                  <td>{stats.RC}</td>
+                                  <td className="hideStat">{stats.YC}</td>
+                                  <td className="hideStat">{stats.RC}</td>
                                   <td>{stats.G}</td>
                                   <td>{stats.A}</td>
                                   <td>{stats.SH}</td>
@@ -182,6 +193,10 @@ export default function PlayerStatsHomePageComp({playerId}) {
                             })}
                         </tbody>
                       </table>
+                    ):(
+                        <p className="noSumStats">No Summarize Stats Yet!</p>
+                    )}
+                      
                 </div>
             </div>
         </section>

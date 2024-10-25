@@ -71,7 +71,11 @@ export default function DatesSlider({forComp,competSlug=null}) {
     e.target.closest('li').classList.add('activeLi')
     dispatch(GET_COMPET_DATE_MATCHES_INFO(date,competSlug))
 }
-
+const increase=()=>{
+  if(document.querySelector(".wrapperList")){
+    document.querySelector(".wrapperList").scrollLeft += 120;
+  }
+}
 
     useEffect(() => {
         const newDateButtonsFull = [];     
@@ -143,14 +147,24 @@ export default function DatesSlider({forComp,competSlug=null}) {
           setCurrentDate(formatted_date2)
         }
         const formattedDate = `${year1}${month1}${day1}`;
-        if(parseInt(currentDateIndex % 7) === 0){
-          con.style.transform = `translateX(-${((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt((currentDateIndex - 1) / 7)}px)`;
-          setCurrentSlidedDate(parseInt((currentDateIndex - 1) / 7))
+        let body=document.body
+        con.scrollRight += 78;
+        console.log(body.offsetWidth < 1199)
+        if(body.offsetWidth < 1199){
+            
+        
+          console.log(document.querySelector(".wrapperList"))
+          document.querySelector(".wrapperList").scrollLeft += 120;
+       
         }else{
-          con.style.transform = `translateX(-${((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt(currentDateIndex / 7)}px)`;
-          setCurrentSlidedDate(parseInt(currentDateIndex / 7))
+          if(parseInt(currentDateIndex % 7) === 0){
+            con.style.transform = `translateX(-${((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt((currentDateIndex - 1) / 7)}px)`;
+            setCurrentSlidedDate(parseInt((currentDateIndex - 1) / 7))
+          }else{
+            con.style.transform = `translateX(-${((((document.querySelector(".date-list").offsetWidth - 60) / 7) * 7) + 70 ) *  parseInt(currentDateIndex / 7)}px)`;
+            setCurrentSlidedDate(parseInt(currentDateIndex / 7))
+          }
         }
-
         if(forComp === "Schedule"){
           dispatch(GET_DATE_MATCHES_INFO(formattedDate))
         }
@@ -185,7 +199,7 @@ export default function DatesSlider({forComp,competSlug=null}) {
    
       {(forComp !== "CompetScores" && forComp !== "CompetSchedule") &&
       (
-        <h3>Schedule</h3>
+        <h3 onClick={()=>increase()}>Schedule</h3>
       )
       }
       <div className="scheduler">

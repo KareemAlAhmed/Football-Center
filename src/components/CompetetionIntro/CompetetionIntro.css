@@ -32,3 +32,37 @@
 .competPageOpts .Nav__Secondary__Menu li{
     padding: 0 10px 11px;
 }
+.competPageOpts .Nav__Secondary__Menu li.fixturesSubTab a:last-child{
+    display: none;
+}
+@media (max-width: 991px) {
+    .competPageOpts .comptNameAndLogo{
+        min-width: 40px;
+    }
+    .competPageOpts img{
+        width: 40px;
+        height: 40px;
+    }
+    .competPageOpts .Nav__Secondary__Menu{
+        display: inline-flex ;
+        overflow: scroll;
+    }
+    .competPageOpts .Nav__Secondary__Menu li.fixturesSubTab a{
+        width: 80px;
+    }
+    .competPageOpts .Nav__Secondary__Menu li a{
+        height: 100%;
+        display: block;
+    }
+    .competPageOpts .Nav__Secondary__Menu li.fixturesSubTab a:first-child{
+        display: none;
+    }
+    .competPageOpts .Nav__Secondary__Menu li.fixturesSubTab a:last-child{
+        display: block;
+    }
+    .competPageOpts .comptNameAndLogo .comptName{
+        display: none;
+    }
+
+
+}

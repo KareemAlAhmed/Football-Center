@@ -28,8 +28,6 @@ export default function SearchPage() {
       }
     };
 
-
-    
     const handleSearch = () => {
       dispatch(GET_SEARCH_DATA(queryText))
       navigate("/search/_/q/"+queryText)
@@ -37,13 +35,16 @@ export default function SearchPage() {
     };
     useEffect(()=>{
       let currentData=JSON.parse(sessionStorage.getItem("currentCompetData"))
-      if(currentData != null){
+      if(searchText !==""){
+        if(currentData != null){
           if(searchText !== searchedQuery){
               dispatch(GET_SEARCH_DATA(searchText))
           }
       }else{
           dispatch(GET_SEARCH_DATA(searchText))
       }
+      }
+
       
       let loadingHeight=window.innerHeight - 95 - document.querySelector(".footer").offsetHeight  - document.querySelector(".SearchBlock").offsetHeight 
           if(document.querySelector(".loadingBlock")){
@@ -68,7 +69,7 @@ export default function SearchPage() {
                 
                       <div className="SearchBlock">
                         <div className="searchLogo" onClick={()=>document.querySelector(".options .moreOpt .search input").classList.toggle("activeInp")}>
-                            <svg className="Header_headerNavLinkIcon__90yzK"  viewBox="0 0 24 24"><path  fill-rule="evenodd" d="M16.6342 17.6949C15.1119 18.9773 13.1462 19.75 11 19.75c-4.8325 0-8.75-3.9175-8.75-8.75S6.1675 2.25 11 2.25s8.75 3.9175 8.75 8.75c0 2.1463-.7727 4.112-2.0552 5.6343l3.8354 3.8354a.75.75 0 0 1-1.0606 1.0607l-3.8354-3.8355ZM3.75 11c0-4.004 3.246-7.25 7.25-7.25 4.0041 0 7.25 3.246 7.25 7.25 0 1.9605-.7782 3.7393-2.0425 5.0443a.7492.7492 0 0 0-.1633.1633C14.7392 17.4719 12.9605 18.25 11 18.25c-4.004 0-7.25-3.2459-7.25-7.25Z" clip-rule="evenodd"></path></svg>
+                            <svg className="Header_headerNavLinkIcon__90yzK"  viewBox="0 0 24 24"><path  fillRule="evenodd" d="M16.6342 17.6949C15.1119 18.9773 13.1462 19.75 11 19.75c-4.8325 0-8.75-3.9175-8.75-8.75S6.1675 2.25 11 2.25s8.75 3.9175 8.75 8.75c0 2.1463-.7727 4.112-2.0552 5.6343l3.8354 3.8354a.75.75 0 0 1-1.0606 1.0607l-3.8354-3.8355ZM3.75 11c0-4.004 3.246-7.25 7.25-7.25 4.0041 0 7.25 3.246 7.25 7.25 0 1.9605-.7782 3.7393-2.0425 5.0443a.7492.7492 0 0 0-.1633.1633C14.7392 17.4719 12.9605 18.25 11 18.25c-4.004 0-7.25-3.2459-7.25-7.25Z" clipRule="evenodd"></path></svg>
                         </div>
                         <div className="searchContent">
                             <input type="text" value={queryText} onChange={(e)=>setQueryText(e.target.value)} onKeyDown={handleKeyDown} />
@@ -76,9 +77,9 @@ export default function SearchPage() {
                       </div>
                   {loading ? (
                      <div className="loadingBlock">
-                     <span class="ouro ouro3">
-                       <span class="left"><span class="anim"></span></span>
-                       <span class="right"><span class="anim"></span></span>
+                     <span className="ouro ouro3">
+                       <span className="left"><span className="anim"></span></span>
+                       <span className="right"><span className="anim"></span></span>
                      </span>
                    </div>
                   ) :(

@@ -18,6 +18,7 @@ export function getPreMatchSummarySuccuessed(data){
     }
 }
 export function getPreMatchSummaryFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_PRE_MATCH_SUMMARY_FAILED,
         payload:error
@@ -37,6 +38,7 @@ export function getMatchStatsSuccuessed(data){
     }
 }
 export function getMatchStatsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_MATCH_STATS_FAILED,
         payload:error
@@ -56,6 +58,7 @@ export function getMatchPreviewSuccuessed(data){
     }
 }
 export function getMatchPreviewFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_MATCH_PREVIEW_FAILED,
         payload:error
@@ -75,6 +78,7 @@ export function getMatchLineUpSuccuessed(data){
     }
 }
 export function getMatchLineUpFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_MATCH_LINEUP_FAILED,
         payload:error
@@ -94,6 +98,7 @@ export function getMatchReportSuccuessed(data){
     }
 }
 export function getMatchReportFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_MATCH_REPORT_FAILED,
         payload:error
@@ -113,6 +118,7 @@ export function getMatchCommentarySuccuessed(data){
     }
 }
 export function getMatchCommentaryFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_MATCH_COMMENTARY_FAILED,
         payload:error
@@ -132,6 +138,7 @@ export function getMatchTestSuccuessed(data){
     }
 }
 export function getMatchTestFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_MATCH_TEST_FAILED,
         payload:error
@@ -145,7 +152,6 @@ export function GET_PRE_MATCH_SUMMARY_DATA(matchId,matchSlug){
            dispatch(getPreMatchSummarySuccuessed(re.data))
         })
         .catch((err)=>{
-            console.log(err)
             dispatch(getPreMatchSummaryFailed("Error While Getting The Data"))          
         })
     }
@@ -158,7 +164,7 @@ export function GET_MATCH_STATS_DATA(matchId,matchSlug){
            dispatch(getMatchStatsSuccuessed(re.data))
         })
         .catch((err)=>{
-            console.log(err)
+
             dispatch(getMatchStatsFailed("Error While Getting The Data"))          
         })
     }
@@ -171,7 +177,7 @@ export function GET_MATCH_PREVIEW_DATA(matchId,matchSlug){
            dispatch(getMatchPreviewSuccuessed(re.data))
         })
         .catch((err)=>{
-            console.log(err)
+
             dispatch(getMatchPreviewFailed("Error While Getting The Data"))          
         })
     }
@@ -188,7 +194,7 @@ export function GET_MATCH_LINEUP_DATA(matchId,matchSlug,type=null){
            dispatch(getMatchLineUpSuccuessed(re.data))
         })
         .catch((err)=>{
-            console.log(err)
+
             dispatch(getMatchLineUpFailed("Error While Getting The Data"))          
         })
     }
@@ -201,7 +207,7 @@ export function GET_MATCH_REPORT_DATA(matchId,matchSlug){
            dispatch(getMatchReportSuccuessed(re.data))
         })
         .catch((err)=>{
-            console.log(err)
+
             dispatch(getMatchReportFailed("Error While Getting The Data"))          
         })
     }
@@ -214,7 +220,7 @@ export function GET_MATCH_COMMENTARY_DATA(matchId,matchSlug){
            dispatch(getMatchCommentarySuccuessed(re.data))
         })
         .catch((err)=>{
-            console.log(err)
+
             dispatch(getMatchCommentaryFailed("Error While Getting The Data"))          
         })
     }
@@ -227,7 +233,7 @@ export function GET_MATCH_TEST_DATA(matchId,matchSlug){
            dispatch(getMatchTestSuccuessed(re.data))
         })
         .catch((err)=>{
-            console.log(err)
+
             dispatch(getMatchTestFailed("Error While Getting The Data"))          
         })
     }

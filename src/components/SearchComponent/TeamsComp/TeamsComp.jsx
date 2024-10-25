@@ -1,7 +1,7 @@
 import React from 'react'
 import "./TeamsComp.css"
 import { Link } from 'react-router-dom';
-import { getTeamImage, getTeamLink } from '../../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getTeamImage, getTeamLink } from '../../../utils/baseUrl';
 export default function TeamsComp({teams,comType,word}) {
     return (
         <section className="Card searchedTeams">
@@ -25,7 +25,7 @@ export default function TeamsComp({teams,comType,word}) {
                             return <li key={index}>
                               <Link to={getTeamLink(team.id,team.slug)}>
                                 <div className="teamLogo">
-                                  <img src={getTeamImage(team.id)} alt="" />
+                                  <img src={getTeamImage(team.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
                                 </div>
                                 <div className="teamInfo">
                                   <div className="teamName">{team.name}</div>
@@ -40,7 +40,7 @@ export default function TeamsComp({teams,comType,word}) {
                             return <li key={index}>
                             <Link to={getTeamLink(team.id,team.slug)}>
                               <div className="teamLogo">
-                                <img src={getTeamImage(team.id)} alt="" />
+                                <img src={getTeamImage(team.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                               </div>
                               <div className="teamInfo">
                                 <div className="teamName">{team.name}</div>
@@ -60,7 +60,7 @@ export default function TeamsComp({teams,comType,word}) {
                             return <li key={index}>
                             <Link to={getTeamLink(team.id,team.slug)}>
                               <div className="teamLogo">
-                                <img src={getTeamImage(team.id)} alt="" />
+                                <img src={getTeamImage(team.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                               </div>
                               <div className="teamInfo">
                                 <div className="teamName">{team.name}</div>

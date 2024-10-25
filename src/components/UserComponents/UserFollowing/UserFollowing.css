@@ -1,0 +1,44 @@
+section.userFollowing{
+    width: 100%;
+    gap: 0;
+}
+section.userFollowing > header{
+    border-bottom: 1px solid var(--hover-color);
+}
+section.userFollowing .cardTitle {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border: none;
+}
+section.userFollowing .cardTitle p{
+    font-size: 20px;
+    font-weight: 600;
+}
+section.userFollowing .Wrapper .followingLists{
+    display: flex;
+}
+section.userFollowing .Wrapper .followingLists .followingListsWrapper{
+    width: calc(100% / 3);
+    flex: calc(100% / 3);
+}
+section.userFollowing .Wrapper .followingLists .followingListsWrapper:not(:nth-child(1)) .cardTitle{
+    padding-left: 25px;
+}
+section.userFollowing .Wrapper .followingLists .followingListsWrapper:nth-child(3){
+    border: none;
+}
+@media (max-width: 680px) {
+    
+    section.userFollowing .Wrapper .followingLists .followingListsWrapper{
+        width: 100%;
+        flex: 1;
+        padding-bottom: 15px;
+    }
+    section.userFollowing .Wrapper .followingLists .followingListsWrapper:not(:nth-child(1)) .cardTitle{
+        padding-left: 0px;
+    }
+    section.followingListsWrapper .cardTitle{
+        padding-right: 0;
+    }
+}

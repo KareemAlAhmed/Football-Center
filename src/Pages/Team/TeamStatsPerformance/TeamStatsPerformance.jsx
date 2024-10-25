@@ -7,7 +7,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import {GET_TEAM_STATS_PERFORMANCE_DATA} from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
 import TeamStatsOpt from '../../../components/TeamStatsOpt/TeamStatsOpt';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { generateShortName, getDefaultTeamOrCompetLogo, getTeamImage } from '../../../utils/baseUrl';
+import { ToastContainer } from 'react-toastify';
 
 export default function TeamStatsPerformance() {
     let [selectedLeague,setSelectedLeague]=useState("all")
@@ -46,9 +47,9 @@ export default function TeamStatsPerformance() {
                 <div className="wrapper">
                     {loading ? (
                     <div className="loadingBlock">
-                    <span class="ouro ouro3">
-                        <span class="left"><span class="anim"></span></span>
-                        <span class="right"><span class="anim"></span></span>
+                    <span className="ouro ouro3">
+                        <span className="left"><span className="anim"></span></span>
+                        <span className="right"><span className="anim"></span></span>
                     </span>
                     </div>
                     ):(
@@ -125,12 +126,13 @@ export default function TeamStatsPerformance() {
                                                                         <div className="homeTeamBlock">
                                                                             <div className="homeTeamName">
                                                                                 <Link to={`/team/_/id/${match.homeTeam.id}/${match.homeTeam.slug}`}> 
-                                                                                    <span>{match.homeTeam.name}</span>
+                                                                                    <span className='hide-mobile'>{match.homeTeam.name}</span>
+                                                                                    <span className='show-mobile'>{generateShortName(match.homeTeam.name)}</span>
                                                                                 </Link>
                                                                             </div>
                                                                             <div className="teamLogo">
                                                                                 <Link to={`/team/_/id/${match.homeTeam.id}/${match.homeTeam.slug}`}> 
-                                                                                    <img src={getTeamImage(match.homeTeam.id)} alt="" />
+                                                                                    <img src={getTeamImage(match.homeTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                                                                 </Link>
                                                                             </div>
                                                                         </div>
@@ -141,12 +143,13 @@ export default function TeamStatsPerformance() {
                                                                         <div className="awayTeamBlock">
                                                                             <div className="teamLogo">
                                                                                 <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`}> 
-                                                                                    <img src={getTeamImage(match.awayTeam.id)} alt="" />
+                                                                                    <img src={getTeamImage(match.awayTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                                                                 </Link>
                                                                             </div>
                                                                             <div className="awayTeamName">
                                                                                 <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`}> 
-                                                                                    <span>{match.awayTeam.name}</span>
+                                                                                    <span className='hide-mobile'>{match.awayTeam.name}</span>
+                                                                                    <span className='show-mobile'>{generateShortName(match.awayTeam.name)}</span>
                                                                                 </Link>
                                                                             </div>
                                                                         </div>
@@ -211,12 +214,13 @@ export default function TeamStatsPerformance() {
                                                                              <div className="homeTeamBlock">
                                                                             <div className="homeTeamName">
                                                                                 <Link to={`/team/_/id/${match.match.homeTeam?.id}/${match.match.homeTeam?.slug}`}> 
-                                                                                    <span>{match.match.homeTeam?.name}</span>
+                                                                                    <span className='hide-mobile'>{match.match.homeTeam?.name}</span>
+                                                                                    <span className='show-mobile'>{generateShortName(match.match.homeTeam?.name)}</span>
                                                                                 </Link>
                                                                             </div>
                                                                             <div className="teamLogo">
                                                                                 <Link to={`/team/_/id/${match.match.homeTeam?.id}/${match.match.homeTeam?.slug}`}> 
-                                                                                    <img src={getTeamImage(match.match.homeTeam?.id)} alt="" />
+                                                                                    <img src={getTeamImage(match.match.homeTeam?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                                                                 </Link>
                                                                             </div>
                                                                         </div>
@@ -227,12 +231,13 @@ export default function TeamStatsPerformance() {
                                                                         <div className="awayTeamBlock">
                                                                             <div className="teamLogo">
                                                                                 <Link to={`/team/_/id/${match.match.awayTeam?.id}/${match.match.awayTeam?.slug}`}> 
-                                                                                    <img src={getTeamImage(match.match.awayTeam?.id)} alt="" />
+                                                                                    <img src={getTeamImage(match.match.awayTeam?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                                                                 </Link>
                                                                             </div>
                                                                             <div className="awayTeamName">
                                                                                 <Link to={`/team/_/id/${match.match.awayTeam?.id}/${match.match.awayTeam?.slug}`}>
-                                                                                    <span>{match.match.awayTeam?.name}</span>
+                                                                                    <span className='hide-mobile'>{match.match.awayTeam?.name}</span>
+                                                                                    <span className='show-mobile'>{generateShortName(match.match.awayTeam?.name)}</span>
                                                                                 </Link>
                                                                             </div>
                                                                         </div>
@@ -266,6 +271,7 @@ export default function TeamStatsPerformance() {
             </div>
         </div>
         <Footer />
+        <ToastContainer />
     </>
   )
 }

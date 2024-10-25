@@ -28,6 +28,8 @@
 }
 .teamSquad .pageContent table tr a{
     color: var(--text-color);
+    width: 100%;
+    display: block;
 }
 
 .teamBlock .teamSchedule .listOfPlayers{
@@ -71,3 +73,37 @@
     flex-direction: column;
     text-align: center;
 }
+@media (max-width: 991px) {
+    .teamSquad .pageContent table tr td{
+        padding-right: 10px;
+    }
+    .teamSquad .pageContent table tr th:nth-child(14),
+    .teamSquad .pageContent table tr th:nth-child(15){
+        display: none;
+    }
+    .teamSquad .pageContent table tr td:nth-child(14),
+    .teamSquad .pageContent table tr td:nth-child(15){
+        display: none;
+    }
+  }
+@media (max-width: 768px) {
+    .teamSquad .pageContent table tr td,
+    .teamSquad .pageContent table tr th{
+        padding-right: 10px;
+    }
+    .teamSquad .pageContent table tr th:nth-child(12),
+    .teamSquad .pageContent table tr th:nth-child(13){
+        display: none;
+    }
+    .teamSquad .pageContent table tr td:nth-child(12),
+    .teamSquad .pageContent table tr td:nth-child(13){
+        display: none;
+    }
+    .teamSquad .pageContent .listOfPlayers .Table__fixtures{
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .teamSquad .pageContent .listOfPlayers .Table__fixtures .Table_Data{
+        min-width: 685px;
+    }
+  }

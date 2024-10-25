@@ -72,6 +72,15 @@
     padding: 10px 0px 15px;
     border-bottom: 1px solid var(--hover-color);
     margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.articlePage .wrapper .mainContainer article .articleContainer .articleMetaData .bookmarkLogo,
+.articlePage .wrapper .mainContainer article .articleContainer .articleMetaData .bookmarkedLogo{
+    cursor: pointer;
 }
 .articlePage .wrapper .mainContainer article .articleContainer .articleMetaData ul li{
     display: inline-block;
@@ -97,4 +106,12 @@
 }
 .articlePage .loadingBlock{
     width: 100%;
+}
+@media (max-width: 991px) {
+    .articlePage .wrapper .sideBarNews{
+        display: none ;
+    }
+    .articlePage .wrapper .mainContainer article .articleContainer .articletitle h1{
+        font-size: 29px;
+    }
 }

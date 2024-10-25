@@ -15,7 +15,10 @@ export default function NavBar() {
       handleSearch(); // Call your desired function on Enter key press
     }
   };
-
+  const stopScroll=()=>{
+    let body=document.querySelector("body")
+    body.classList.toggle("stopScroll")
+  }
   const handleSearch = () => {
     
     dispatch(GET_SEARCH_DATA(searchText))
@@ -48,35 +51,69 @@ export default function NavBar() {
     }
     prevScrollpos = currentScrollPos;
   }
-
-  useEffect(()=>{
-    let navContainer=document.querySelector(".navBar .container")
-    let list=navContainer.querySelector(".navList")
-    list.style.height=`${navContainer.offsetHeight}px`
-    list.style.lineHeight=`${navContainer.offsetHeight}px`
-
-
+  useEffect(() => {
+    let body=document.body
+    const navContainer = document.querySelector(".navBar .container");
+    const list = navContainer.querySelector(".navList");
   
-      //add active class on menu
-
-      //drop down menu
-      document.querySelectorAll('.drop-down').forEach(dropdown => {
-          dropdown.addEventListener('mouseover', () => {
-              document.querySelector('.mega-menu').classList.add('display-on');
-          });
-          dropdown.addEventListener('mouseleave', () => {
-              document.querySelector('.mega-menu').classList.remove('display-on');
-          });
-     if(sessionStorage.getItem("activeNav") != null){
-      const liaElements = document.querySelectorAll('.navList li.active');
-
-      liaElements.forEach(li => {
-        li.classList.remove('active');
+    // Set height and lineHeight for the navList
+    list.style.height = `${navContainer.offsetHeight}px`;
+    list.style.lineHeight = `${navContainer.offsetHeight}px`;
+  
+    // Function to update the menuItem size
+    const menuItem = document.querySelector(".menuItem");
+    const updateMenuItemSize = () => {
+  
+      if (menuItem) {
+        menuItem.style.width = `${document.body.offsetWidth + 100}px`;
+        menuItem.style.height = `${document.body.offsetHeight}px`;
+        menuItem.style.left = `-${document.body.offsetWidth}px`;
+      }
+    };
+    
+    // Initial size update
+    updateMenuItemSize();
+  
+    // Add resize event listener to update menuItem size dynamically
+    let menuItemLis=menuItem.querySelectorAll("li")
+    console.log()
+    menuItemLis.forEach(ele=>{
+      ele.addEventListener('click', ()=>{
+        if(body.classList.contains("stopScroll")){
+          body.classList.remove("stopScroll")
+        }
+      })
+    })
+    window.addEventListener('resize', updateMenuItemSize);
+  
+    // Handle dropdown mouseover/mouseleave events
+    document.querySelectorAll('.drop-down').forEach(dropdown => {
+      dropdown.addEventListener('mouseover', () => {
+        document.querySelector('.mega-menu').classList.add('display-on');
       });
-      document.querySelector(`.${sessionStorage.getItem("activeNav")}`).classList.add("active")
-     }
-  });
-  },[userToken])
+      dropdown.addEventListener('mouseleave', () => {
+        document.querySelector('.mega-menu').classList.remove('display-on');
+      });
+    });
+  
+    // Restore active nav item from sessionStorage
+    if (sessionStorage.getItem("activeNav") != null) {
+      const activeElements = document.querySelectorAll('.navList li.active');
+      activeElements.forEach(li => li.classList.remove('active'));
+  
+      const activeNav = sessionStorage.getItem("activeNav");
+      const activeItem = document.querySelector(`.${activeNav}`);
+  
+      if (activeItem) {
+        activeItem.classList.add("active");
+      }
+    }
+  
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', updateMenuItemSize);
+    };
+  }, [userToken]);
 
 
 
@@ -93,7 +130,7 @@ export default function NavBar() {
             <h1>FootBall <span>Center</span></h1>
         </div>
 
-        <ul className="navList">
+        <ul className="navList hideNavComp">
           <li><Link to='/' className='homeNav'>Home</Link></li>
           <li><Link to={'/schedule/_/date/'+formattedDate} className='ScheduleNav'>Schedule</Link></li>
           <li><Link to={'/scoreboard/_/date/'+formattedDate}  className='ScoresNav'>Scores</Link></li>
@@ -111,16 +148,15 @@ export default function NavBar() {
                 </ul>
             </div>
           </li>
-          {/* <li className='Bottomline'></li> */}
         </ul>
 
         
 
-        <div className="options">
+        <div className="options hideNavComp">
           <div className="moreOpt">
             <div className="search" >
               <div className="searchLogo" onClick={()=>{document.querySelector(".options .moreOpt .search input").classList.toggle("activeInp");document.querySelector(".options .moreOpt .search input").focus()}}>
-                <svg className="Header_headerNavLinkIcon__90yzK"  viewBox="0 0 24 24"><path  fill-rule="evenodd" d="M16.6342 17.6949C15.1119 18.9773 13.1462 19.75 11 19.75c-4.8325 0-8.75-3.9175-8.75-8.75S6.1675 2.25 11 2.25s8.75 3.9175 8.75 8.75c0 2.1463-.7727 4.112-2.0552 5.6343l3.8354 3.8354a.75.75 0 0 1-1.0606 1.0607l-3.8354-3.8355ZM3.75 11c0-4.004 3.246-7.25 7.25-7.25 4.0041 0 7.25 3.246 7.25 7.25 0 1.9605-.7782 3.7393-2.0425 5.0443a.7492.7492 0 0 0-.1633.1633C14.7392 17.4719 12.9605 18.25 11 18.25c-4.004 0-7.25-3.2459-7.25-7.25Z" clip-rule="evenodd"></path></svg>
+                <svg className="Header_headerNavLinkIcon__90yzK"  viewBox="0 0 24 24"><path  fillRule="evenodd" d="M16.6342 17.6949C15.1119 18.9773 13.1462 19.75 11 19.75c-4.8325 0-8.75-3.9175-8.75-8.75S6.1675 2.25 11 2.25s8.75 3.9175 8.75 8.75c0 2.1463-.7727 4.112-2.0552 5.6343l3.8354 3.8354a.75.75 0 0 1-1.0606 1.0607l-3.8354-3.8355ZM3.75 11c0-4.004 3.246-7.25 7.25-7.25 4.0041 0 7.25 3.246 7.25 7.25 0 1.9605-.7782 3.7393-2.0425 5.0443a.7492.7492 0 0 0-.1633.1633C14.7392 17.4719 12.9605 18.25 11 18.25c-4.004 0-7.25-3.2459-7.25-7.25Z" clipRule="evenodd"></path></svg>
               </div>
               <div className="searchContent">
                 <input type="text" value={searchText} onChange={(e)=>setSearchText(e.target.value)} onKeyDown={handleKeyDown} />
@@ -136,21 +172,104 @@ export default function NavBar() {
           </div>
           {userToken == null ? (
             <div className="auth">
-              {/* <a href='/auth/signin' >Sign in</a>
-              <a href='/auth/register'>Join</a> */}
               <Link to={'/auth/signin'}>
-                <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" />
+                <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt=""  />
               </Link>
             </div>
           ):(
             <div className='userProfilePic'>
               <Link to="/profile">
-                <img src={currentUser.image_url} alt="" />
+                <img src={currentUser.image_url} alt=""  onError={(e) => { e.target.src = "http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg"; }}/>
               </Link>
             </div>
           )}
           
         </div>
+
+
+        <nav className="menu--right-nav mobileVisible" role="navigation">
+          <div className="menuToggle">
+            <input type="checkbox" id="hamburg" onChange={stopScroll}/>
+            <span className="hamburg"></span>
+            <span className="hamburg"></span>
+            <span className="hamburg"></span>
+            <ul className="menuItem">
+              <li>
+                <Link to='/' className='homeNav'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='#0F8C8C'><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to={'/schedule/_/date/'+formattedDate} className='ScheduleNav'>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                  </svg>
+                Schedule
+                </Link>
+              </li>
+              <li>
+                <Link to={'/scoreboard/_/date/'+formattedDate}  className='ScoresNav'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill='#0F8C8C'><path d="M435.4 361.4l-89.7-6c-5.2-.3-10.3 1.1-14.5 4.2s-7.2 7.4-8.4 12.5l-22 87.2c-14.4 3.2-29.4 4.8-44.8 4.8s-30.3-1.7-44.8-4.8l-22-87.2c-1.3-5-4.3-9.4-8.4-12.5s-9.3-4.5-14.5-4.2l-89.7 6C61.7 335.9 51.9 307 49 276.2L125 228.3c4.4-2.8 7.6-7 9.2-11.9s1.4-10.2-.5-15L100.4 118c19.9-22.4 44.6-40.5 72.4-52.7l69.1 57.6c4 3.3 9 5.1 14.1 5.1s10.2-1.8 14.1-5.1l69.1-57.6c27.8 12.2 52.5 30.3 72.4 52.7l-33.4 83.4c-1.9 4.8-2.1 10.1-.5 15s4.9 9.1 9.2 11.9L463 276.2c-3 30.8-12.7 59.7-27.6 85.2zM256 48l.9 0-1.8 0 .9 0zM56.7 196.2c.9-3 1.9-6.1 2.9-9.1l-2.9 9.1zM132 423l3.8 2.7c-1.3-.9-2.5-1.8-3.8-2.7zm248.1-.1c-1.3 1-2.6 2-4 2.9l4-2.9zm75.2-226.7l-3-9.2c1.1 3 2.1 6.1 3 9.2zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm14.1-325.7c-8.4-6.1-19.8-6.1-28.2 0L194 221c-8.4 6.1-11.9 16.9-8.7 26.8l18.3 56.3c3.2 9.9 12.4 16.6 22.8 16.6l59.2 0c10.4 0 19.6-6.7 22.8-16.6l18.3-56.3c3.2-9.9-.3-20.7-8.7-26.8l-47.9-34.8z"/></svg>
+                  Scores
+                </Link>
+              </li>
+              <li>
+                <Link to={'/competetions'} className='LeaguesNav'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"  fill='#0F8C8C'><path d="M400 0L176 0c-26.5 0-48.1 21.8-47.1 48.2c.2 5.3 .4 10.6 .7 15.8L24 64C10.7 64 0 74.7 0 88c0 92.6 33.5 157 78.5 200.7c44.3 43.1 98.3 64.8 138.1 75.8c23.4 6.5 39.4 26 39.4 45.6c0 20.9-17 37.9-37.9 37.9L192 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l192 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-26.1 0C337 448 320 431 320 410.1c0-19.6 15.9-39.2 39.4-45.6c39.9-11 93.9-32.7 138.2-75.8C542.5 245 576 180.6 576 88c0-13.3-10.7-24-24-24L446.4 64c.3-5.2 .5-10.4 .7-15.8C448.1 21.8 426.5 0 400 0zM48.9 112l84.4 0c9.1 90.1 29.2 150.3 51.9 190.6c-24.9-11-50.8-26.5-73.2-48.3c-32-31.1-58-76-63-142.3zM464.1 254.3c-22.4 21.8-48.3 37.3-73.2 48.3c22.7-40.3 42.8-100.5 51.9-190.6l84.4 0c-5.1 66.3-31.1 111.2-63 142.3z"/></svg>
+                  Leagues & Cups
+                </Link>
+              </li>
+              <li>
+                <Link to={'/teams'} className='TeamsNav'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" fill='#0F8C8C'><path d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3l0-84.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5l0 21.5c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-26.8C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112l32 0c24 0 46.2 7.5 64.4 20.3zM448 416l0-21.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176l32 0c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2l0 26.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3l0-84.7c-10 11.3-16 26.1-16 42.3zm144-42.3l0 84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2l0 42.8c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-42.8c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112l32 0c61.9 0 112 50.1 112 112z"/></svg>
+                  Teams
+                </Link>
+              </li>
+              <li>
+                <Link to='/transfer/news'> 
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"  fill='#0F8C8C'><path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM112 256l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+                  Transfer News
+                </Link>
+              </li>
+              <li>
+                <Link to='/transfer/majorTransfers'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill='#0F8C8C'><path d="M438.6 150.6c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.7 96 32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l306.7 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l96-96zm-333.3 352c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 416 416 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96z"/></svg>
+                  Major Transfers
+                </Link>
+              </li>       
+              <li>
+                <Link to="/search">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#0F8C8C" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>
+                  Search
+                </Link>
+              </li>
+            
+              {userToken == null ? (
+                <li >
+                  <Link to={'/auth/signin'}>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill='#0F8C8C' viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
+                    Register 
+                  </Link>
+                </li>
+                ):(
+                  <li className='userProfilePic'>
+                    <Link to="/profile">
+                      <img src={currentUser?.image_url} alt=""  onError={(e) => { e.target.src = "http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg"; }}/>
+                      <span>{currentUser?.name}</span>
+                    </Link>
+                  </li>
+                )
+              }
+            </ul>
+          </div>
+        </nav>
+
+
+
+
 
       </div>      
     </div>

@@ -44,9 +44,9 @@ export default function CompetetionStatScoring() {
                 <div className="wrapper">
                     {loading ? (
                     <div className="loadingBlock">
-                    <span class="ouro ouro3">
-                        <span class="left"><span class="anim"></span></span>
-                        <span class="right"><span class="anim"></span></span>
+                    <span className="ouro ouro3">
+                        <span className="left"><span className="anim"></span></span>
+                        <span className="right"><span className="anim"></span></span>
                     </span>
                     </div>
                     ):(
@@ -145,15 +145,15 @@ export default function CompetetionStatScoring() {
                     </div>
                   </>
                 )}
-                    <div class="glossary">
-                        <h3 class="glossary__title">Glossary</h3>
-                        <ul class="glossary__list glossary__list--desktopLG">
-                            <li class="glossary__item"><span class="glossary__abbr">RK:</span>Ranking</li>
-                            <li class="glossary__item"><span class="glossary__abbr">NAME:</span>Athlete name</li>
-                            <li class="glossary__item"><span class="glossary__abbr">TEAM:</span>Athlete Team Name</li>
-                            <li class="glossary__item"><span class="glossary__abbr">P:</span>Games played</li>
-                            <li class="glossary__item"><span class="glossary__abbr">G:</span>Goals scored</li>
-                            <li class="glossary__item"><span class="glossary__abbr">A:</span>Assists</li>
+                    <div className="glossary">
+                        <h3 className="glossary__title">Glossary</h3>
+                        <ul className="glossary__list glossary__list--desktopLG">
+                            <li className="glossary__item"><span className="glossary__abbr">RK:</span>Ranking</li>
+                            <li className="glossary__item"><span className="glossary__abbr">NAME:</span>Athlete name</li>
+                            <li className="glossary__item"><span className="glossary__abbr">TEAM:</span>Athlete Team Name</li>
+                            <li className="glossary__item"><span className="glossary__abbr">P:</span>Games played</li>
+                            <li className="glossary__item"><span className="glossary__abbr">G:</span>Goals scored</li>
+                            <li className="glossary__item"><span className="glossary__abbr">A:</span>Assists</li>
                         </ul>
                     </div>
                 </div>

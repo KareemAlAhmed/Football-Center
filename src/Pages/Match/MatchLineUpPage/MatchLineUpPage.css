@@ -1,0 +1,30 @@
+@media (max-width: 1350px) {
+
+    .matchLineUpPage .pageContent .rightSideContainer{
+        display: none;
+    }
+
+}
+@media (max-width: 991px) {
+
+    .matchLineUpPage .pageContent .LineUp_bothTeams{
+        display: none;
+    }
+    .matchLineUpPage .pageContent .extraComp{
+        display: block;
+    }
+    .matchLineUpPage .pageContent section.sideBarLineup .Wrapper .TacticalFormation ul.TacticalFormation__Field{
+        transform: scale(.7) !important;
+    }
+    .matchLineUpPage .pageContent section.sideBarLineup .Wrapper .allTeamPlayers{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media (max-width: 575px) {
+
+    .matchLineUpPage .pageContent section.sideBarLineup .Wrapper .allTeamPlayers{
+        flex-direction: column;
+    }
+}

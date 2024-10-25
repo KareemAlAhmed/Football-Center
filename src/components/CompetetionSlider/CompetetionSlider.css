@@ -62,3 +62,16 @@
     height: 100%;
     align-items: center;
 }
+@media (max-width: 1199px) {
+    .CompetetionSlider .wrapper ,
+    .TeamsSlider .wrapper{
+        overflow: scroll;
+    }
+    .listOfTourns .competetion,.TeamsSlider .listOfTeams .team{
+        flex: none;
+        width: 350px;
+    }
+    .CompetetionSlider button,.TeamsSlider button{
+        display: none;
+    }
+  }

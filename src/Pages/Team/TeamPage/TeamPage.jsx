@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { GET_TEAM_INFO } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
 import NewsSmallCard from '../../../components/NewsContainers/NewsSmallCard/NewsSmallCard';
+import { ToastContainer } from 'react-toastify';
 export default function TeamPage() {
   let { teamId } = useParams();
   let { teamSlug } = useParams();
@@ -44,9 +45,9 @@ export default function TeamPage() {
             <div className="wrapper">
                 {loading ? (
                    <div className="loadingBlock">
-                   <span class="ouro ouro3">
-                     <span class="left"><span class="anim"></span></span>
-                     <span class="right"><span class="anim"></span></span>
+                   <span className="ouro ouro3">
+                     <span className="left"><span className="anim"></span></span>
+                     <span className="right"><span className="anim"></span></span>
                    </span>
                  </div>
                 ):(
@@ -170,6 +171,7 @@ export default function TeamPage() {
           </div>
         </div>
         <Footer />
+        <ToastContainer />
     </>
   )
 }

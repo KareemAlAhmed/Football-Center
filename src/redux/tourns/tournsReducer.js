@@ -5,9 +5,9 @@ import { GET_ALL_COMPET, GET_ALL_COMPET_FAILED, GET_ALL_COMPET_SUCCESS, GET_ALL_
 const initalState={
     loading:false,
     allTourns:sessionStorage.getItem("allTourns") !=null ? JSON.parse(sessionStorage.getItem("allTourns")) :[],
-    currentFavCompetetion:sessionStorage.getItem("favCompetetions") !=null ? JSON.parse(sessionStorage.getItem("favCompetetions")) :[],
+    currentFavCompetetion:sessionStorage.getItem("followedCompetetions") !=null ? JSON.parse(sessionStorage.getItem("followedCompetetions")) :[],
     currentError:"",
-    allCompetetionByCat:sessionStorage.getItem("allCompetetionByCat") !=null ? JSON.parse(sessionStorage.getItem("allCompetetionByCat")) :[],
+    allCompetetionByCat:(sessionStorage.getItem("allCompetetionByCat") !=null || sessionStorage.getItem("allCompetetionByCat") !=null ) ? JSON.parse(sessionStorage.getItem("allCompetetionByCat")) :[],
     selectedDateMatches:sessionStorage.getItem("selectedDateMatches") !=null ? JSON.parse(sessionStorage.getItem("selectedDateMatches")) :[],
     selectedDateScores:sessionStorage.getItem("selectedDateScores") !=null ? JSON.parse(sessionStorage.getItem("selectedDateScores")) :[],
     selectedCompetTeams:sessionStorage.getItem("selectedCompetTeams") !=null ? JSON.parse(sessionStorage.getItem("selectedCompetTeams")) :[],
@@ -59,7 +59,8 @@ const tournsReducer=(state=initalState,action)=>{
             return {
                 ...state,
                 loading:false,
-                allCompetetionByCat:action.payload.teams
+                allCompetetionByCat:action.payload.competsByCat,
+                allCompets:action.payload.allCompets
             }
         case GET_ALL_TOURNS_BY_CAT_FAILED:
             return {

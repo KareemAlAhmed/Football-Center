@@ -38,3 +38,22 @@
     color: var(--text-color);
     text-decoration: underline;
 }
+
+@media (max-width: 991px) {
+    .NewsSmallCard{
+        width: calc((100% - 1* 2.5rem) / 2);
+    }
+}
+@media (max-width: 600px) {
+    .NewsSmallCard{
+        width: 100%;
+        height: 300px;
+
+    }
+    .NewsSmallCard .newsInfo{
+        height: 25% !important;
+    }
+    .transferNews .NewsSmallCard .newsInfo{
+        gap: 5px;
+    }
+}

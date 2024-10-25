@@ -7,7 +7,7 @@ import CompetetionIntro from '../../../components/CompetetionIntro/CompetetionIn
 import NavBar from '../../../components/NavBar/NavBar';
 import { GET_COMPETETION_STANDING_DATA } from '../../../redux/tourns/tournsActions';
 import { GET_TEAM_INFO } from '../../../redux/team/teamsActions';
-import { getTeamImage, getTeamLink } from '../../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getTeamImage, getTeamLink } from '../../../utils/baseUrl';
 export default function CompetetionTable() {
     let { competId } = useParams();
     let { competSlug } = useParams();
@@ -52,9 +52,9 @@ export default function CompetetionTable() {
               <div className="wrapper">
                   {loading ? (
                      <div className="loadingBlock">
-                     <span class="ouro ouro3">
-                       <span class="left"><span class="anim"></span></span>
-                       <span class="right"><span class="anim"></span></span>
+                     <span className="ouro ouro3">
+                       <span className="left"><span className="anim"></span></span>
+                       <span className="right"><span className="anim"></span></span>
                      </span>
                    </div>
                   ):(
@@ -100,9 +100,10 @@ export default function CompetetionTable() {
                                   return <tr key={ind2}>
                                         <td className='teamInfo'>
                                             <div className="teamLogo" onClick={()=>{dispatch(GET_TEAM_INFO(team.id));navigate(`/team/_/id/${team.id}/${team.slug}`)}}>
-                                                <img src={getTeamImage(team.id)} alt="" onClick={()=>{dispatch(GET_TEAM_INFO(team.id));navigate(`/team/_/id/${team.id}/${team.slug}`)}} />
+                                                <img src={getTeamImage(team.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} onClick={()=>{dispatch(GET_TEAM_INFO(team.id));navigate(`/team/_/id/${team.id}/${team.slug}`)}} />
                                             </div>
                                             <Link to={getTeamLink(team.id,team.slug)} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
+                                            <Link to={getTeamLink(team.id,team.slug)} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.shortName}</Link>
                                         </td>
                                       <td>{team.GP}</td>
                                       <td>{team.W}</td>
@@ -117,17 +118,17 @@ export default function CompetetionTable() {
                               </tbody>
                             </table>
                           </div>
-                          <div class="glossary">
-                            <h3 class="glossary__title">Glossary</h3>
-                            <ul class="glossary__list">
-                              <li class="glossary__item"><span class="glossary__abbr">GP:</span>Games Played</li>
-                              <li class="glossary__item"><span class="glossary__abbr">W:</span>Wins</li>
-                              <li class="glossary__item"><span class="glossary__abbr">D:</span>Draws</li>
-                              <li class="glossary__item"><span class="glossary__abbr">L:</span>Losses</li>
-                              <li class="glossary__item"><span class="glossary__abbr">F:</span>Goals For</li>
-                              <li class="glossary__item"><span class="glossary__abbr">A:</span>Goals Against</li>
-                              <li class="glossary__item"><span class="glossary__abbr">GD:</span>Goal Difference</li>
-                              <li li class="glossary__item"><span class="glossary__abbr">P:</span>Points</li>
+                          <div className="glossary">
+                            <h3 className="glossary__title">Glossary</h3>
+                            <ul className="glossary__list">
+                              <li className="glossary__item"><span className="glossary__abbr">GP:</span>Games Played</li>
+                              <li className="glossary__item"><span className="glossary__abbr">W:</span>Wins</li>
+                              <li className="glossary__item"><span className="glossary__abbr">D:</span>Draws</li>
+                              <li className="glossary__item"><span className="glossary__abbr">L:</span>Losses</li>
+                              <li className="glossary__item"><span className="glossary__abbr">F:</span>Goals For</li>
+                              <li className="glossary__item"><span className="glossary__abbr">A:</span>Goals Against</li>
+                              <li className="glossary__item"><span className="glossary__abbr">GD:</span>Goal Difference</li>
+                              <li li className="glossary__item"><span className="glossary__abbr">P:</span>Points</li>
                             </ul>
                           </div>
                       </div>

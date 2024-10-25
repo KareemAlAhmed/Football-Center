@@ -7,6 +7,7 @@ import { GET_PLAYER_STATS_DATA, GET_PLAYER_STATS_FILTERED_DATA } from "../../../
 import NavBar from "../../../components/NavBar/NavBar";
 import PlayerIntro from "../../../components/PlayerIntro/PlayerIntro";
 import PlayerStatsTable from "../../../components/PlayerStatsTable/PlayerStatsTable";
+import { ToastContainer } from "react-toastify";
 
 export default function PlayerStats() {
     let { playerId } = useParams();
@@ -63,9 +64,9 @@ export default function PlayerStats() {
                 <div className="wrapper">
                     {loading ? (
                        <div className="loadingBlock">
-                       <span class="ouro ouro3">
-                         <span class="left"><span class="anim"></span></span>
-                         <span class="right"><span class="anim"></span></span>
+                       <span className="ouro ouro3">
+                         <span className="left"><span className="anim"></span></span>
+                         <span className="right"><span className="anim"></span></span>
                        </span>
                      </div>
                     ):(
@@ -79,9 +80,9 @@ export default function PlayerStats() {
                             {currentPlayerStatsFiltered.everySeasonStats.length > 0 ? (
                                     filterLoading ?(
                                         <div className="loadingBlock">
-                                            <span class="ouro ouro3">
-                                                <span class="left"><span class="anim"></span></span>
-                                                <span class="right"><span class="anim"></span></span>
+                                            <span className="ouro ouro3">
+                                                <span className="left"><span className="anim"></span></span>
+                                                <span className="right"><span className="anim"></span></span>
                                             </span>
                                         </div>
                                     ) : (
@@ -107,23 +108,29 @@ export default function PlayerStats() {
                                                     )}
                                                     
                                                 </select>
-                                                <select className='dropdown__select' onChange={(e)=>{dispatch(GET_PLAYER_STATS_FILTERED_DATA(playerId,selectedTeam,e.target.value));sessionStorage.setItem("selectedCompet",e.target.value);setSelectedCompet(e.target.value)}} >
+                                              
                                                     
                                                     {currentPlayerStatsFiltered?.allCompets && (
-                                                        currentPlayerStatsFiltered?.allCompets.map((compet,index)=>{
-                                                            if(selectedCompet === compet.slug){
-                                                                return <option key={index} selected value={compet.slug} >
-                                                                    {compet.name}
-                                                                </option>
-                                                            }else{
-                                                                return <option key={index} value={compet.slug} >
-                                                                    {compet.name}
-                                                                </option>
-                                                            }
-                                                        })
+                                                        currentPlayerStatsFiltered?.allCompets.length > 0 && (
+                                                            <select className='dropdown__select' onChange={(e)=>{dispatch(GET_PLAYER_STATS_FILTERED_DATA(playerId,selectedTeam,e.target.value));sessionStorage.setItem("selectedCompet",e.target.value);setSelectedCompet(e.target.value)}} >
+                                                                {
+                                                                    currentPlayerStatsFiltered?.allCompets.map((compet,index)=>{
+                                                                        if(selectedCompet === compet.slug){
+                                                                            return <option key={index} selected value={compet.slug} >
+                                                                                {compet.name}
+                                                                            </option>
+                                                                        }else{
+                                                                            return <option key={index} value={compet.slug} >
+                                                                                {compet.name}
+                                                                            </option>
+                                                                        }
+                                                                    })
+                                                                }
+                                                              </select>
+                                                        )
                                                     )}
                                                    
-                                                </select>
+                                              
                                             </div>
                                         </div>   
                                     </header>
@@ -208,7 +215,7 @@ export default function PlayerStats() {
                             )}
                                   
                             </div>
-                          <div className="PageLayout__RightAside">
+                          <div className="PageLayout__RightAside hideRightside">
                             <section className="latestNews">
                               <header className="cardHeader">
                                 <div className="cardTitle">
@@ -246,6 +253,7 @@ export default function PlayerStats() {
               </div>
             </div>
             <Footer />
+            <ToastContainer />
         </>
   )
 }

@@ -39,6 +39,7 @@ export function getCompetsSuccuessed(data){
     }
 }
 export function getCompetsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_ALL_COMPET_FAILED,
         payload:error
@@ -59,6 +60,7 @@ export function setFavCountrySuccuessed(data){
     }
 }
 export function setFavCountryFailed(error){
+    window.location.replace("/notFound")
     return{
         type:SET_FAV_COUNTRY_FAILED,
         payload:error
@@ -78,6 +80,7 @@ export function getDateMatchesSuccuessed(data){
     }
 }
 export function getDateMatchesFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_DATE_MATCHES_FAILED,
         payload:error
@@ -96,6 +99,7 @@ export function getCompetDateMatchesSuccuessed(data){
     }
 }
 export function getCompetDateMatchesFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_COMPET_DATE_MATCHES_FAILED,
         payload:error
@@ -108,14 +112,17 @@ export function getTournsByCat(){
     }
 }
 export function getTournsByCatSuccuessed(data){
-    // sessionStorage.setItem("favCountryTourns",JSON.stringify(data))
-   
+    sessionStorage.setItem("allCompetetionByCat",JSON.stringify(data.competetionsByCat))
+    sessionStorage.setItem("allCompets",JSON.stringify(data.competetions))
+
+
     return{
         type:GET_ALL_TOURNS_BY_CAT_SUCCESS,
-        payload:{teams:data}
+        payload:{competsByCat:data.competetionsByCat,allCompets:data.competetions}
     }
 }
 export function getTournsByCatsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_ALL_TOURNS_BY_CAT_FAILED,
         payload:error
@@ -123,7 +130,7 @@ export function getTournsByCatsFailed(error){
 }
 
 export function getLeagueTeamsInfo(data){
-    sessionStorage.setItem("favCompetetions",JSON.stringify(data))
+    sessionStorage.setItem("followedCompetetions",JSON.stringify(data))
    
     return{
         type:GET_FAV_COMPET_TEAMS_SUCCESS,
@@ -145,6 +152,7 @@ export function getMatchesScoresSuccuessed(data){
     }
 }
 export function getMatchesScoresFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_MATCHES_SCORES_FAILED,
         payload:error
@@ -164,6 +172,7 @@ export function getCompetMatchesScoresSuccuessed(data){
     }
 }
 export function getCompetMatchesScoresFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_COMPET_MATCHES_SCORES_FAILED,
         payload:error
@@ -191,6 +200,7 @@ export function getSpecificCompetTeamsSuccuessed(data){
     }
 }
 export function getCompetTeamsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_COMPET_TEAMS_FAILED,
         payload:error
@@ -210,6 +220,7 @@ export function getCompetInfoSuccuessed(data){
     }
 }
 export function getCompetInfoFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_COMPET_INFO_FAILED,
         payload:error
@@ -230,6 +241,7 @@ export function getCompetStandingSuccuessed(data,competId){
     }
 }
 export function getCompetStandingFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_COMPET_STANDING_FAILED,
         payload:error
@@ -249,6 +261,7 @@ export function getCompetTransfersSuccuessed(data){
     }
 }
 export function getCompetTransfersFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_COMPET_TRANSFER_FAILED,
         payload:error
@@ -270,6 +283,7 @@ export function getCompetStatsScoringSuccuessed(data,competId){
     }
 }
 export function getCompetStatsScoringFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_COMPET_STATS_SCORING_FAILED,
         payload:error
@@ -291,6 +305,7 @@ export function getCompetStatsDiscplineSuccuessed(data,competId){
     }
 }
 export function getCompetStatsDiscplineFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_COMPET_STATS_DISCPLINE_FAILED,
         payload:error
@@ -311,6 +326,7 @@ export function getCompetStatsPerformanceSuccuessed(data,competId){
     }
 }
 export function getCompetStatsPerformanceFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_COMPET_STATS_PERFORMANCE_FAILED,
         payload:error

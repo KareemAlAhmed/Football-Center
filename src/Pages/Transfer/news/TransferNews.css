@@ -8,3 +8,11 @@
     flex-wrap: wrap;
     gap: 2.5rem;
 }
+@media (max-width: 600px) {
+    .transferNews .topTransferNews,.transferNews .trendingTransferNewsList{
+        gap: 25px;
+    }
+    .transferNews .topTransferNews .NewsSmallCard, .transferNews .trendingTransferNewsList .NewsSmallCard{
+        height: 315px;
+    }
+}

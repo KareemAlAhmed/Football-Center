@@ -28,6 +28,7 @@
 }
 .Scoreboard .teamsInfo .TeamsInfo .teamNameAndRecord{
     flex: 1;
+    align-items: center;
 }
 .Scoreboard .teamsInfo .TeamsInfo .teamName{
     font-size: 17px;
@@ -36,6 +37,7 @@
 .Scoreboard .teamsInfo .TeamsInfo .teamRecord{
     font-size: 15px;
     font-weight: 500;
+    min-width: 52px;
 }
 .Scoreboard .teamsInfo .TeamsInfo .teamScore{
     font-weight: 500;
@@ -120,4 +122,37 @@
     background-color: initial;
     border: 1px solid var(--text-color);
     color: var(--text-color);
+}
+
+@media (max-width: 760px) {
+    .Scoreboard{
+        justify-content: space-between;
+    }
+    .Scoreboard .teamsInfo{
+        flex: 1;
+    }
+    .Scoreboard .teamsInfo .TeamsInfo .teamNameAndRecord{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Scoreboard .matchLocation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .Scoreboard .matchPerformer{
+        display: none;
+    }
+    .Scoreboard .matchLinks{
+        display: none;
+    }
+  }
+@media (max-width: 500px) {
+    .scores .shortName{
+        display: block;
+    }
+    .Scoreboard .teamsInfo .TeamsInfo .teamNameAndRecord .teamName a:first-of-type{
+        display: none;
+    }
 }

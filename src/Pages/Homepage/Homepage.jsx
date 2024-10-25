@@ -7,93 +7,99 @@ import NewsSmallCard from '../../components/News/NewsSmallCard/NewsSmallCard';
 import NewsMediumCard from '../../components/News/NewsMediumCard/NewsMediumCard';
 import CompetetionSlider from '../../components/CompetetionSlider/CompetetionSlider';
 import Footer from '../../components/Footer/Footer';
+import { useDispatch, useSelector } from 'react-redux';
+import { GET_HOMEPAGE_NEWS_DATA } from '../../redux/news/newsActions';
 
 export default function Homepage() {
 
-    const [news,setNews]=useState([]);
-    const [realNews,setRealNews]=useState([]);
-    const [cityNews,setCityNews]=useState([]);
-    const [liverNews,setLiverNews]=useState([]);
-    const getNews=async ()=>{
-        try {
-            const res = await axios.get(`http://localhost:5000/api/news/getNews`);
-            setNews(res.data.result)
-            setRealNews(res.data.REAL)
-            setCityNews(res.data.CITY)
-            setLiverNews(res.data.LIVER)
-            sessionStorage.setItem("listOfNews",JSON.stringify(res.data))
-        } catch (error) {
-            // Handle errors
-        }
-    }
-   
+    const laLigaNews=useSelector(state=>state.news.laLigaNews)
+    const premierLeagueNews=useSelector(state=>state.news.premierLeagueNews)
+    const bundesLigaNews=useSelector(state=>state.news.bundesLigaNews)
+    const serieaNews=useSelector(state=>state.news.serieaNews)
+    const loading=useSelector(state=>state.news.loading)
+    const dispatch=useDispatch()
+  
     useEffect(()=>{
-        if(sessionStorage.getItem("listOfNews") != null){
-            setNews(JSON.parse(sessionStorage.getItem("listOfNews")).result)
-            setRealNews(JSON.parse(sessionStorage.getItem("listOfNews")).REAL)
-            setCityNews(JSON.parse(sessionStorage.getItem("listOfNews")).CITY)
-            setLiverNews(JSON.parse(sessionStorage.getItem("listOfNews")).LIVER)
-        }else{
-            getNews()
-            
+        let allNews=JSON.parse(sessionStorage.getItem("listOfNews"))
+        if(allNews == null){
+            dispatch(GET_HOMEPAGE_NEWS_DATA())
+        }
+
+        let loadingHeight=window.innerHeight - 95  - document.querySelector(".footer").offsetHeight -50
+
+        if(document.querySelector(".loadingBlock")){
+          document.querySelector(".loadingBlock").style.height=`${loadingHeight}px`
+        }
+        if(document.querySelector(".allTeams")){
+          document.querySelector(".allTeams").style.minHeight=`${loadingHeight}px`
         }
     },[])
-   
   return (
         <>
             <NavBar />
             <div className='home'>
-                {/* <div className="seperatorBlock"></div> */}
-                <div className="container">
-                    <h3>Top News</h3>
-                    <div className="listOfNews">
-                        <FeaturedNews news={news[0]} />
-                        {news?.slice(1,news?.length - 2).map((ele,index)=>{
-                            return <NewsSmallCard key={index} news={ele} />;
-                        })}
-                        {news?.slice(news?.length - 2).map((ele,index)=>{
-                            return <NewsMediumCard key={index} news={ele} />;
-                        })}
+                {loading ?
+                    (
+                    <div className="loadingBlock">
+                        <span className="ouro ouro3">
+                        <span className="left"><span className="anim"></span></span>
+                        <span className="right"><span className="anim"></span></span>
+                        </span>
                     </div>
-                </div>
-                <div className="container">
-                    <h3>Real Madrid News</h3>
-                    <div className="listOfNews">
-                        <FeaturedNews news={realNews[0]} />
-                        {realNews?.slice(1,5).map((ele,index)=>{
-                            return <NewsSmallCard key={index} news={ele} />;
-                        })}
-                        {realNews?.slice(5,7).map((ele,index)=>{
-                            return <NewsMediumCard key={index} news={ele} />;
-                        })}
-                    </div>
-                </div>
-                <CompetetionSlider type="tourns" />
-                <CompetetionSlider type="teams" />
-                <div className="container">
-                    <h3>Man City News</h3>
-                    <div className="listOfNews">
-                        <FeaturedNews news={cityNews[0]} />
-                        {cityNews?.slice(1,5).map((ele,index)=>{
-                            return <NewsSmallCard key={index} news={ele} />;
-                        })}
-                        {cityNews?.slice(5,7).map((ele,index)=>{
-                            return <NewsMediumCard key={index} news={ele} />;
-                        })}
-                    </div>
-                </div>
-                <div className="container">
-                    <h3>Liverpool News</h3>
-                    <div className="listOfNews">
-                        <FeaturedNews news={liverNews[0]} />
-                        {liverNews?.slice(1,5).map((ele,index)=>{
-                            return <NewsSmallCard key={index} news={ele} />;
-                        })}
-                        {liverNews?.slice(5,7).map((ele,index)=>{
-                            return <NewsMediumCard key={index} news={ele} />;
-                        })}
-                    </div>
-                </div>
+                    ):(
+                        <>
+                            <div className="container">
+                            <h3>LaLiga News</h3>
+                            <div className="listOfNews">
+                                <FeaturedNews news={laLigaNews[0]} />
+                                {laLigaNews?.slice(1,9).map((ele,index)=>{
+                                    return <NewsSmallCard key={index} news={ele} />;
+                                })}
+                                {laLigaNews?.slice(9,11).map((ele,index)=>{
+                                    return <NewsMediumCard key={index} news={ele} />;
+                                })}
+                            </div>
+                            </div>
+                            <div className="container">
+                                <h3>Premier League News</h3>
+                                <div className="listOfNews">
+                                    <FeaturedNews news={premierLeagueNews[0]} />
+                                    {premierLeagueNews?.slice(1,9).map((ele,index)=>{
+                                        return <NewsSmallCard key={index} news={ele} />;
+                                    })}
+                                    {premierLeagueNews?.slice(9,11).map((ele,index)=>{
+                                        return <NewsMediumCard key={index} news={ele} />;
+                                    })}
+                                </div>
+                            </div>
+                            <CompetetionSlider type="tourns" />
+                            <CompetetionSlider type="teams" />
+                            <div className="container">
+                                <h3>BundesLiga News</h3>
+                                <div className="listOfNews">
+                                    <FeaturedNews news={bundesLigaNews[0]} />
+                                    {bundesLigaNews?.slice(1,9).map((ele,index)=>{
+                                        return <NewsSmallCard key={index} news={ele} />;
+                                    })}
+                                    {bundesLigaNews?.slice(9,11).map((ele,index)=>{
+                                        return <NewsMediumCard key={index} news={ele} />;
+                                    })}
+                                </div>
+                            </div>
+                            <div className="container">
+                                <h3>Serie A News</h3>
+                                <div className="listOfNews">
+                                    <FeaturedNews news={serieaNews[0]} />
+                                    {serieaNews?.slice(1,9).map((ele,index)=>{
+                                        return <NewsSmallCard key={index} news={ele} />;
+                                    })}
+                                    {serieaNews?.slice(9,11).map((ele,index)=>{
+                                        return <NewsMediumCard key={index} news={ele} />;
+                                    })}
+                                </div>
+                            </div>
+                        </>
+                    )}  
                 <Footer />
             </div>
         </>

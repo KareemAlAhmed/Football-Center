@@ -3,9 +3,10 @@ import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer';
 import "./UserFavoriteTeams.css"
 import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
-import { SETTING_FAV_COMPT_TEAM } from '../../redux/user/userActions';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { SETTING_FAV_COMPT_TEAM, UPDATE_FOLLOWING_TEAMS_LIST } from '../../redux/user/userActions';
 import { ToastContainer } from 'react-toastify';
+import { getDefaultTeamOrCompetLogo } from '../../utils/baseUrl';
 export default function UserFavoriteTeams() {
 
   const favCompt=useSelector(state=>state.tourns.currentFavCompetetion)
@@ -18,7 +19,9 @@ export default function UserFavoriteTeams() {
   const loading=useSelector(state=>state.teams.loading)
 
   const dispatch=useDispatch();
-  const navigate=useNavigate()
+  const location = useLocation();
+  let actionT=location.pathname.trim().split("/")[1]
+  const [actionType,setActionType]=useState(actionT)
   const getFavComptTeams=()=>{
     if(favCompt){
       let allTeams=JSON.parse(sessionStorage.getItem("allTeams"))
@@ -47,10 +50,17 @@ export default function UserFavoriteTeams() {
     }
   }
   const setFavTeamsAndCompetetions=(team,competetions)=>{
-    
-    dispatch(SETTING_FAV_COMPT_TEAM(currentUser.name,competetions,team))
+    if(actionType==="followings"){
+      dispatch(UPDATE_FOLLOWING_TEAMS_LIST(currentUser.name,competetions,team))
+    }else if(actionType==="favorite"){
+      dispatch(SETTING_FAV_COMPT_TEAM(currentUser.name,competetions,team))
+    }
   }
   useEffect(()=>{
+    let loadingHeight=window.innerHeight - 95 - document.querySelector(".footer").offsetHeight - 50
+    if(document.querySelector(".userFavoriteContainer")){
+      document.querySelector(".userFavoriteContainer").style.minHeight=`${loadingHeight}px`
+    }
     if(document.querySelector(".listOfCompetetions")){
       document.querySelector(".listOfCompetetions").style.width=`${document.querySelector(".searchBlock").offsetWidth}px`
     }
@@ -80,7 +90,7 @@ export default function UserFavoriteTeams() {
             <h3 className='searchTitle'>{favCompt.leagueName}</h3>
             <p className='searchSubtitle'>Select your competition:</p>
             <div className="searchBlock" id='searchBlock'>
-                <svg class="Header_headerNavLinkIcon__90yzK"  viewBox="0 0 24 24"><path  fill-rule="evenodd" d="M16.6342 17.6949C15.1119 18.9773 13.1462 19.75 11 19.75c-4.8325 0-8.75-3.9175-8.75-8.75S6.1675 2.25 11 2.25s8.75 3.9175 8.75 8.75c0 2.1463-.7727 4.112-2.0552 5.6343l3.8354 3.8354a.75.75 0 0 1-1.0606 1.0607l-3.8354-3.8355ZM3.75 11c0-4.004 3.246-7.25 7.25-7.25 4.0041 0 7.25 3.246 7.25 7.25 0 1.9605-.7782 3.7393-2.0425 5.0443a.7492.7492 0 0 0-.1633.1633C14.7392 17.4719 12.9605 18.25 11 18.25c-4.004 0-7.25-3.2459-7.25-7.25Z" clip-rule="evenodd"></path></svg>
+                <svg className="Header_headerNavLinkIcon__90yzK"  viewBox="0 0 24 24"><path  fillRule="evenodd" d="M16.6342 17.6949C15.1119 18.9773 13.1462 19.75 11 19.75c-4.8325 0-8.75-3.9175-8.75-8.75S6.1675 2.25 11 2.25s8.75 3.9175 8.75 8.75c0 2.1463-.7727 4.112-2.0552 5.6343l3.8354 3.8354a.75.75 0 0 1-1.0606 1.0607l-3.8354-3.8355ZM3.75 11c0-4.004 3.246-7.25 7.25-7.25 4.0041 0 7.25 3.246 7.25 7.25 0 1.9605-.7782 3.7393-2.0425 5.0443a.7492.7492 0 0 0-.1633.1633C14.7392 17.4719 12.9605 18.25 11 18.25c-4.004 0-7.25-3.2459-7.25-7.25Z" clipRule="evenodd"></path></svg>
                 <input type="text" placeholder='Search for teams' className='searchInp' value={searchText} onChange={(e)=>getSearchedTeams(e.target.value)}/>
             </div>
             <div className="listOfTeams">
@@ -90,7 +100,7 @@ export default function UserFavoriteTeams() {
                     teamsFiltered.map((ele,index) =>{
                       return <div className="team" key={index} onClick={()=>setFavTeamsAndCompetetions(ele,ele.leagues)}>
                           <div className="teamImg">
-                            <img src={ele.logo} alt="" />
+                            <img src={ele.logo} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                           </div>
                           <div className="teamInfo">
                             <p>{ele.name}</p>
@@ -106,9 +116,9 @@ export default function UserFavoriteTeams() {
             ) : (
                 teamsFiltered.length > 0 ? (
                     teamsFiltered.map((ele,index) =>{
-                      return <div className="team" key={index} onClick={()=>setFavTeamsAndCompetetions(ele,favCompt)}>
+                      return <div className="team" key={index} onClick={()=>setFavTeamsAndCompetetions(ele,ele.leagues)}>
                           <div className="teamImg">
-                            <img src={ele.logo} alt="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin" />
+                            <img src={ele.logo} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                           </div>
                           <div className="teamInfo">
                             <p>{ele.name}</p>

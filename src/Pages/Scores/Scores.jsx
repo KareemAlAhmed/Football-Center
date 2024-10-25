@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 import "./Scores.css"
 import DefaultLogo from "../../components/default.png"
 import { Link } from 'react-router-dom';
-import { getPlayerLink, getTeamImage } from '../../utils/baseUrl';
+import { generateShortName, getDefaultTeamOrCompetLogo, getGameLink, getGameStaticsLink, getPlayerLink, getTeamImage } from '../../utils/baseUrl';
 export default function Scores() {
   let loading=useSelector(state=>state.tourns.loading)
   let scores=useSelector(state=>state.tourns.selectedDateScores)
@@ -19,9 +19,9 @@ export default function Scores() {
                 {loading ? 
                     (
                       <div className="loadingBlock">
-                        <span class="ouro ouro3">
-                          <span class="left"><span class="anim"></span></span>
-                          <span class="right"><span class="anim"></span></span>
+                        <span className="ouro ouro3">
+                          <span className="left"><span className="anim"></span></span>
+                          <span className="right"><span className="anim"></span></span>
                         </span>
                       </div>
                     ):(
@@ -33,17 +33,18 @@ export default function Scores() {
                                 </div>
                                 {ele.allMatches.map((match,index)=>{
                                     return <div className="Scoreboard" key={index}>
-                                              <div className="teamsInfo">
+                                              <div className={match.status ==="LIVE" ? "liveMatch teamsInfo" :  match.status ==="FT" ? "finishedTime teamsInfo" : "notStarted teamsInfo"}> 
                                                 <div className="matchStatus">
-                                                  <span className={match.status ==="LIVE" && "live"}>{match.status}</span>
+                                                  <span className={match.status ==="LIVE" ? "live" :  match.status ==="FT" ? "finishedTime" : "notStarted"}>{match.status}</span>
                                                 </div>
                                                 <div className="home TeamsInfo">
                                                     <div className="teamLogo">
-                                                      <Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}><img src={match.HomeTeam.id != null ? getTeamImage(match.HomeTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" /></Link>
+                                                      <Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}><img src={match.HomeTeam.id != null ? getTeamImage(match.HomeTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" /></Link>
                                                     </div>
                                                     <div className="teamNameAndRecord">
                                                         <div className="teamName">
                                                           <Link className='teamLink' to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}>{match.HomeTeam.name}</Link>
+                                                          <Link className='teamLink shortName' to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}>{generateShortName(match.HomeTeam.name)}</Link>
                                                         </div>
                                                         <div className="teamRecord">
                                                           {match.HomeTeam.record}
@@ -55,11 +56,12 @@ export default function Scores() {
                                                 </div>
                                                 <div className="away TeamsInfo">
                                                 <div className="teamLogo">
-                                                    <Link to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}><img src={match.AwayTeam.id != null ? getTeamImage(match.AwayTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" /></Link>
+                                                    <Link to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}><img src={match.AwayTeam.id != null ? getTeamImage(match.AwayTeam.id) : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" /></Link>
                                                     </div>
                                                     <div className="teamNameAndRecord">
                                                         <div className="teamName">
                                                           <Link className='teamLink' to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}>{match.AwayTeam.name}</Link>
+                                                          <Link className='teamLink shortName' to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}>{generateShortName(match.AwayTeam.name)}</Link>
                                                         </div>
                                                         <div className="teamRecord">
                                                           {match.AwayTeam.record}
@@ -84,7 +86,7 @@ export default function Scores() {
                                                 <div className="Home TeamPerformer">
                                                   <div className="teamNameAndLogo">
                                                       <div className="teamLogo">
-                                                        <img src={match.HomeTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.HomeTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" />
+                                                        <img src={match.HomeTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.HomeTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" />
                                                       </div>
                                                       <div className="teamName">
                                                         <span>{match.HomeTeam.name}</span>
@@ -121,7 +123,7 @@ export default function Scores() {
                                                 <div className="Away TeamPerformer">
                                                   <div className="teamNameAndLogo">
                                                       <div className="teamLogo">
-                                                        <img src={match.AwayTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.AwayTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" />
+                                                        <img src={match.AwayTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.AwayTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" />
                                                       </div>
                                                       <div className="teamName">
                                                         <span>{match.AwayTeam.name}</span>
@@ -154,8 +156,8 @@ export default function Scores() {
                                                 </div>
                                               </div>
                                               <div className="matchLinks">
-                                                  <Link className='matchLink'>Summary</Link>
-                                                  <Link className='matchLink'> Statistics</Link>
+                                                  <Link className='matchLink' to={getGameLink(match?.id,match?.slug)}>Summary</Link>
+                                                  <Link className='matchLink' to={getGameStaticsLink(match?.id,match?.slug)}> Statistics</Link>
                                                 </div>
                                           </div>
                                 })}

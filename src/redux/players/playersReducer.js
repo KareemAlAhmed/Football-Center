@@ -1,11 +1,12 @@
 import { current } from "@reduxjs/toolkit";
-import { GET_PLAYER_BIO, GET_PLAYER_BIO_FAILED, GET_PLAYER_BIO_SUCCESS, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED_FAILED, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED_SUCCESS, GET_PLAYER_MATCHES, GET_PLAYER_MATCHES_FAILED, GET_PLAYER_MATCHES_FILTERED, GET_PLAYER_MATCHES_FILTERED_FAILED, GET_PLAYER_MATCHES_FILTERED_SUCCESS, GET_PLAYER_MATCHES_SUCCESS, GET_PLAYER_OVERVIEW_INFO, GET_PLAYER_OVERVIEW_INFO_FAILED, GET_PLAYER_OVERVIEW_INFO_SUCCESS, GET_PLAYER_STATS, GET_PLAYER_STATS_FAILED, GET_PLAYER_STATS_FILTERED, GET_PLAYER_STATS_FILTERED_FAILED, GET_PLAYER_STATS_FILTERED_SUCCESS, GET_PLAYER_STATS_SUCCESS, GET_TEAM_PLAYERS, GET_TEAM_PLAYERS_FAILED, GET_TEAM_PLAYERS_SUCCESS } from "./playersActionType";
+import { GET_ALL_PLAYERS, GET_ALL_PLAYERS_FAILED, GET_ALL_PLAYERS_SUCCESS, GET_PLAYER_BIO, GET_PLAYER_BIO_FAILED, GET_PLAYER_BIO_SUCCESS, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED_FAILED, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED_SUCCESS, GET_PLAYER_MATCHES, GET_PLAYER_MATCHES_FAILED, GET_PLAYER_MATCHES_FILTERED, GET_PLAYER_MATCHES_FILTERED_FAILED, GET_PLAYER_MATCHES_FILTERED_SUCCESS, GET_PLAYER_MATCHES_SUCCESS, GET_PLAYER_OVERVIEW_INFO, GET_PLAYER_OVERVIEW_INFO_FAILED, GET_PLAYER_OVERVIEW_INFO_SUCCESS, GET_PLAYER_STATS, GET_PLAYER_STATS_FAILED, GET_PLAYER_STATS_FILTERED, GET_PLAYER_STATS_FILTERED_FAILED, GET_PLAYER_STATS_FILTERED_SUCCESS, GET_PLAYER_STATS_SUCCESS, GET_TEAM_PLAYERS, GET_TEAM_PLAYERS_FAILED, GET_TEAM_PLAYERS_SUCCESS } from "./playersActionType";
 
 
 const initalState={
     loading:false,
     playersLoading:false,
     filterLoading:false,
+    allPlayers:sessionStorage.getItem("allPlayers") !=null ? JSON.parse(sessionStorage.getItem("allPlayers")) :[],
     currentPlayerInfo:sessionStorage.getItem("currentPlayerInfo") !=null ? JSON.parse(sessionStorage.getItem("currentPlayerInfo")) :{},
     currentPlayerBio:sessionStorage.getItem("currentPlayerBio") !=null ? JSON.parse(sessionStorage.getItem("currentPlayerBio")) :{},
     currentPlayerMatches:sessionStorage.getItem("currentPlayerMatches") !=null ? JSON.parse(sessionStorage.getItem("currentPlayerMatches")) :{},
@@ -218,6 +219,25 @@ const playerReducer=(state=initalState,action)=>{
                         ...state,
                         filterLoading:false,
                         currentPlayerCurrentTeamsStatsFiltered:{everySeasonStats:[]},
+                        currentError:action.payload,
+                    }   
+                case GET_ALL_PLAYERS:
+                    return {
+                        ...state,
+                        loading:true,
+                        currentUserError:""
+                    }
+                case GET_ALL_PLAYERS_SUCCESS:
+                    return {
+                        ...state,
+                        loading:false,
+                        allPlayers:action.payload
+                    }
+                case GET_ALL_PLAYERS_FAILED:
+                    return {
+                        ...state,
+                        loading:false,
+                        allPlayers:[],
                         currentError:action.payload,
                     }   
             default: return state

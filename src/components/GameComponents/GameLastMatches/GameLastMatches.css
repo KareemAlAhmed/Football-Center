@@ -57,3 +57,17 @@ section.gameLastTimes  .Wrapper table tr th:nth-child(1){
 section.gameLastTimes  .Wrapper table tr a{
     color: var(--text-color);
 }
+
+@media (max-width: 1350px) {
+    .overviewMatchPage section.gameLastTimes{
+        padding:  0;
+    }
+}
+@media (max-width: 991px) {
+    .overviewMatchPage section.gameLastTimes .Wrapper{
+        overflow-x: scroll;
+    }
+    .overviewMatchPage section.gameLastTimes .Wrapper  table{
+        min-width: 585px;
+    }
+}

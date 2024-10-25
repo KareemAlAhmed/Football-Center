@@ -1,6 +1,8 @@
 import React from 'react'
 import "./FeaturedNews.css"
 import moment from 'moment';
+import { Link } from 'react-router-dom';
+import { getArticleLink, getDefaultArticleLogo } from '../../../utils/baseUrl';
 export default function FeaturedNews({news}) {
     function timeAgo(timestamp) {
         const currentTime = new Date().getTime();
@@ -73,7 +75,10 @@ export default function FeaturedNews({news}) {
           {news?.title ? (
             <img src={news?.newsImg} alt="" />
           ) :(
-            <img src={news?.LINKS[0].IMAGE_VARIANT_URL} alt="" />
+            // <img src={news?.LINKS[0].IMAGE_VARIANT_URL} alt="" />
+            <Link to={getArticleLink(news?.id,news?.slug,"story")}>
+              <img src={news?.imgUrl === "No Img" ? getDefaultArticleLogo() : news?.imgUrl} alt="" />
+            </Link>
           )}
             
         </div>
@@ -93,14 +98,13 @@ export default function FeaturedNews({news}) {
               
             ) : (
               <>
-                <a href='/' className='newsTitle'>{news?.TITLE}</a>
-                <p className='newsContent'><a href={news?.LINK}>Original Post....</a></p>
+                <Link to={getArticleLink(news?.id,news?.slug,"story")} className='newsTitle'>{news?.articleTitle}</Link>
                 <div className="channel">
                     <div className="channelLogo">
                         <img src="http://res.cloudinary.com/dgo3fuaxg/image/upload/v1721929948/bhucqryzr7yrlr3lzuh2.jpg" alt="" style={style} />
                     </div>
-                    <p className='channelName'>{news?.PROVIDER_NAME}</p>
-                    <p className='channelName'>{news?.PUBLISHED ? timeAgo2(news?.PUBLISHED) : null}</p>
+                    <p className='channelName'>{news?.author}</p>
+                    <p className='channelName'>{news?.timeStamps}</p>
                 </div>
               </>
             )}

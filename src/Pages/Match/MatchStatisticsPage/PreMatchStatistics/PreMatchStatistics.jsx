@@ -7,7 +7,7 @@ import GameInfo from "../../../../components/GameComponents/GameInfo/GameInfo";
 import { Link } from "react-router-dom";
 import { GET_TEAM_INFO } from "../../../../redux/team/teamsActions";
 import GameLastMatches from "../../../../components/GameComponents/GameLastMatches/GameLastMatches";
-import { getGameLink, getTeamImage, getTeamLink } from "../../../../utils/baseUrl";
+import { generateShortName, getGameLink, getTeamImage, getTeamLink } from "../../../../utils/baseUrl";
 import TeamLastGames from "../../../../components/GameComponents/TeamLastGames/TeamLastGames";
 
 export default function PreMatchStatistics({gameId,gameSlug}) {
@@ -48,7 +48,8 @@ export default function PreMatchStatistics({gameId,gameSlug}) {
               )
             }
           </div>
-          <div className="rightSideContainer">
+          {currentMatchStats.currentCompet?.clubsList && (
+            <div className="rightSideContainer">
             <GameInfo info={currentMatchStats} />
             <div className="competStanding">
               <h4 className="leagueName">{currentMatchStats.currentCompet?.name}</h4>
@@ -67,7 +68,10 @@ export default function PreMatchStatistics({gameId,gameSlug}) {
                   <tbody>
                     {currentMatchStats.currentCompet?.clubsList.map((team,ind2)=>{
                       return <tr key={ind2}>
-                          <td><Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link></td>
+                          <td>
+                            <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
+                            <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{generateShortName(team.name)}</Link>
+                            </td>
                           <td>{team.GP}</td>
                           <td>{team.W}</td>
                           <td>{team.D}</td>
@@ -81,6 +85,8 @@ export default function PreMatchStatistics({gameId,gameSlug}) {
                 <Link to="" className='moreStandings'>Standings</Link>
               </div>
           </div>
+          )}
+          
       </div>
     </>
     )

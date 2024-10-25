@@ -8,6 +8,7 @@ import GameInfo from "../../../components/GameComponents/GameInfo/GameInfo";
 import GameIntro from "../../../components/GameComponents/GameIntro/GameIntro";
 import { useDispatch, useSelector } from "react-redux";
 import { GET_MATCH_PREVIEW_DATA } from "../../../redux/matches/matchesAction";
+import { generateShortName } from "../../../utils/baseUrl";
 
 export default function MatchPreviewPage() {
     let { gameId } = useParams();
@@ -48,9 +49,9 @@ export default function MatchPreviewPage() {
                 <div className="wrapper">
                     {loading ? (
                     <div className="loadingBlock">
-                    <span class="ouro ouro3">
-                        <span class="left"><span class="anim"></span></span>
-                        <span class="right"><span class="anim"></span></span>
+                    <span className="ouro ouro3">
+                        <span className="left"><span className="anim"></span></span>
+                        <span className="right"><span className="anim"></span></span>
                     </span>
                     </div>
                     ):(
@@ -97,39 +98,45 @@ export default function MatchPreviewPage() {
                                         }
                                     </div>
                                 </div>
-                                <div className="rightSideContainer">
-                                  <GameInfo info={currentMatchPreview} />
-                                  <div className="competStanding">
-                                    <h4 className="leagueName">{currentMatchPreview?.currentCompet?.name}</h4>
-                                      <table>
-                                        <thead>
-                                          <tr>
-                                            <th>TEAM</th>
-                                            <th>GP</th>
-                                            <th>W</th>
-                                            <th>D</th>
-                                            <th>L</th>
-                                            <th>GD</th>
-                                            <th>P</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          {currentMatchPreview.currentCompet?.clubsList.map((team,ind2)=>{
-                                            return <tr key={ind2}>
-                                                <td><Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link></td>
-                                                <td>{team.GP}</td>
-                                                <td>{team.W}</td>
-                                                <td>{team.D}</td>
-                                                <td>{team.L}</td>
-                                                <td>{team.GD}</td>
-                                                <td>{team.P}</td>
+                                {currentMatchPreview.currentCompet?.clubsList && (
+                                    <div className="rightSideContainer">
+                                    <GameInfo info={currentMatchPreview} />
+                                    <div className="competStanding">
+                                      <h4 className="leagueName">{currentMatchPreview?.currentCompet?.name}</h4>
+                                        <table>
+                                          <thead>
+                                            <tr>
+                                              <th>TEAM</th>
+                                              <th>GP</th>
+                                              <th>W</th>
+                                              <th>D</th>
+                                              <th>L</th>
+                                              <th>GD</th>
+                                              <th>P</th>
                                             </tr>
-                                          })}
-                                        </tbody>
-                                      </table>
-                                      <Link to="" className='moreStandings'>Standings</Link>
-                                    </div>
-                                </div>
+                                          </thead>
+                                          <tbody>
+                                            {currentMatchPreview.currentCompet?.clubsList.map((team,ind2)=>{
+                                              return <tr key={ind2}>
+                                                    <td>
+                                                        <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
+                                                        <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{generateShortName(team.name)}</Link>
+                                                    </td>
+                                                  <td>{team.GP}</td>
+                                                  <td>{team.W}</td>
+                                                  <td>{team.D}</td>
+                                                  <td>{team.L}</td>
+                                                  <td>{team.GD}</td>
+                                                  <td>{team.P}</td>
+                                              </tr>
+                                            })}
+                                          </tbody>
+                                        </table>
+                                        <Link to="" className='moreStandings'>Standings</Link>
+                                      </div>
+                                  </div>
+                                )}
+                                
                             </div>
                           </>
                     ) :null

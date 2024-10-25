@@ -7,12 +7,16 @@ import NavBar from "../../components/NavBar/NavBar";
 import { useDispatch, useSelector } from "react-redux";
 import { GET_ARTICLE_DATA } from "../../redux/news/newsActions";
 import { getArticleLink } from "../../utils/baseUrl";
+import BookmarkLogo from "../../components/Icons/BookmarkLogo/BookmarkLogo";
+import BookmarkedLogo from "../../components/Icons/BookmarkedLogo/BookmarkedLogo";
+import { ADD_TO_USER_BOOKMARK_LIST, REMOVE_FROM_USER_BOOKMARK_LIST } from "../../redux/user/userActions";
+import { ToastContainer } from "react-toastify";
 
 export default function ArticlePage() {
     let { articleId } = useParams();
     let { articleSlug } = useParams();
     const dispatch=useDispatch();
-  
+    let currentUser=useSelector(state=>state.users.currentUser)
     let loading=useSelector(state=>state.news.loading)
     let currentArticleData=useSelector(state=>state.news.currentArticleData)
 
@@ -40,6 +44,29 @@ const getArticleData=(id,slug)=>{
         dispatch(GET_ARTICLE_DATA(id,slug))
     }
 }
+const saveArticleInBookMarks=()=>{
+    dispatch(ADD_TO_USER_BOOKMARK_LIST(currentUser?.name,currentArticleData))
+}
+const removeArticleFromBookMarks=()=>{
+    dispatch(REMOVE_FROM_USER_BOOKMARK_LIST(currentUser?.name,currentArticleData.articleId))
+}
+const getBookmarkLogo=()=>{
+    if(sessionStorage.getItem("current-user") != null){
+        if(currentUser?.bookMarks.some(ele => ele.articleId === currentArticleData?.articleId)){
+            return <div className="bookmarkLogo"  onClick={()=>removeArticleFromBookMarks()}>
+                <BookmarkedLogo />
+            </div>
+        }else{
+            return <div className="bookmarkLogo" onClick={()=>saveArticleInBookMarks()}>
+                    <BookmarkLogo />
+                </div>
+        }
+    }else{
+        return  <div className="bookmarkLogo">
+                    <BookmarkLogo />
+                </div>
+    }
+}
   return (
     <>  
         <NavBar />
@@ -50,9 +77,9 @@ const getArticleData=(id,slug)=>{
                     {loading ?
                             (
                             <div className="loadingBlock">
-                                <span class="ouro ouro3">
-                                <span class="left"><span class="anim"></span></span>
-                                <span class="right"><span class="anim"></span></span>
+                                <span className="ouro ouro3">
+                                <span className="left"><span className="anim"></span></span>
+                                <span className="right"><span className="anim"></span></span>
                                 </span>
                             </div>
                             ):(
@@ -69,13 +96,13 @@ const getArticleData=(id,slug)=>{
                                                                     {article.title}
                                                                 </Link>
                                                             </div>
-                                                            <div className="article-meta-data">
+                                                            <div className="article-meta-data">                                                            
                                                                 <span className="timestamps">
                                                                     {article.timestamp}
                                                                 </span>
                                                                 <span className="author">
                                                                     {article.author}
-                                                                </span>
+                                                                </span>                                                         
                                                             </div>
                                                         </div>
                                                     
@@ -90,49 +117,40 @@ const getArticleData=(id,slug)=>{
                                                     <h1>{currentArticleData?.mainArticleNews?.articleTitle}</h1>
                                                 </div>
                                                 <div className="articleMetaData">
-                                                    <ul className="authors">
-                                                        {currentArticleData?.mainArticleNews?.metaData?.authors?.map((author,index)=>{
-                                                            return <li key={index}>{author} {index !== currentArticleData?.mainArticleNews?.metaData?.authors.length - 1 && "And"}</li>
+                                                    <div className="metaDataContent">
+                                                        <ul className="authors">
+                                                            {currentArticleData?.mainArticleNews?.metaData?.authors?.map((author,index)=>{
+                                                                return <li key={index}>{author} {index !== currentArticleData?.mainArticleNews?.metaData?.authors.length - 1 && "And"}</li>
+                                                            })}
+                                                        </ul>
+                                                        <div className="timeStamps">
+                                                            <span>{currentArticleData?.mainArticleNews?.metaData?.timeStamps}</span>
+                                                        </div>
+                                                    </div>
+                                                     {getBookmarkLogo()}   
+                                                    
+                                                </div>
+                                                <div className="articleContent">                                                                               {
+                                            currentArticleData?.mainArticleNews?.allContent?.map((elem,index)=>{
+                                                if(elem.tagName=== "p"){
+                                                    return  <p key={index}>{elem.text}</p>
+                                                }else if(elem.tagName=== "h1"){
+                                                    return  <h1 key={index}>{elem.text}</h1>
+                                                }else if(elem.tagName=== "h2"){
+                                                    return  <h2 key={index}>{elem.text}</h2>
+                                                }else if(elem.tagName=== "h3"){
+                                                    return  <h3 key={index}>{elem.text}</h3>
+                                                }else if(elem.tagName=== "ul"){
+                                                    return <ul key={index}>
+                                                        {elem.textArray.map((text,index2)=>{
+                                                            return <li key={index2}>{text}</li>
                                                         })}
                                                     </ul>
-                                                    <div className="timeStamps">
-                                                        <span>{currentArticleData?.mainArticleNews?.metaData?.timeStamps}</span>
-                                                    </div>
-                                                </div>
-                                                <div className="articleContent">
-                                                    {currentArticleData?.mainArticleNews?.imgesUrl.length > 0 ? (
-                                                        currentArticleData?.mainArticleNews?.allContent.length > 3 ? (
-                                                            <>
-                                                                {currentArticleData?.mainArticleNews?.allContent?.slice(0,3).map((text,index)=>{
-                                                                    return  <p key={index}>{text}</p>
-                                                                    })
-                                                                }
-                                                                <div className="inline-photo">
-                                                                    <img src={currentArticleData?.mainArticleNews?.imgesUrl[0]} alt="" />
-                                                                </div>
-                                                                {currentArticleData?.mainArticleNews?.allContent?.slice(3).map((text,index)=>{
-                                                                    return  <p key={index}>{text}</p>
-                                                                    })
-                                                                }
-                                                            </>
-                                                            
-                                                        ) : (
-                                                            <>
-                                                                <div className="inline-photo">
-                                                                    <img src={currentArticleData?.mainArticleNews?.imgesUrl[0]} alt="" />
-                                                                </div>
-                                                                {
-                                                                    currentArticleData?.mainArticleNews?.allContent?.map((text,index)=>{
-                                                                      return  <p key={index}>{text}</p>
-                                                                    })
-                                                                }
-                                                            </>
-                                                        )
-                                                    ) :(
-                                                        currentArticleData?.mainArticleNews?.allContent?.map((text,index)=>{
-                                                            return  <p key={index}>{text}</p>
-                                                        })
-                                                    )}
+                                                }else if(elem.tagName=== "img"){
+                                                    return  <img key={index} src={elem.src} alt="" />
+                                                }
+                                            })
+                                        }
                                                 </div>
                                             </div>
                                         </article>
@@ -147,6 +165,7 @@ const getArticleData=(id,slug)=>{
             </div>
         </div>
         <Footer />
+        <ToastContainer />
     </>
   )
 }

@@ -5,7 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import { useDispatch, useSelector } from 'react-redux';
 import { GET_ALL_COMPETETIONS, GET_COMPETETION_TEAMS } from '../../redux/tourns/tournsActions';
 import { Link } from 'react-router-dom';
-import { getTeamLink } from '../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getTeamLink } from '../../utils/baseUrl';
 export default function Clubs() {
   const dispatch=useDispatch();
   const allCompets=useSelector(state=>state.tourns.allCompets)
@@ -48,9 +48,9 @@ export default function Clubs() {
               {loading ? 
                     (
                       <div className="loadingBlock">
-                        <span class="ouro ouro3">
-                          <span class="left"><span class="anim"></span></span>
-                          <span class="right"><span class="anim"></span></span>
+                        <span className="ouro ouro3">
+                          <span className="left"><span className="anim"></span></span>
+                          <span className="right"><span className="anim"></span></span>
                         </span>
                       </div>
                     ):(
@@ -58,7 +58,7 @@ export default function Clubs() {
                         {teams?.map((team,index)=>{
                           return <div className="team" key={index} >
                           <div className="teamImg">
-                            <img src={team.id != null ? team.logo : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} alt="" />
+                            <img src={team.id != null ? team.logo : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                           </div>
                           <div className="teamInfo">
                               <div className="teamNameAndOpt">

@@ -2,7 +2,28 @@
 
 import axios from "axios";
 import { baseUrl } from "../../utils/baseUrl";
-import { GET_ARTICLE_CONTENT, GET_ARTICLE_CONTENT_FAILED, GET_ARTICLE_CONTENT_SUCCESS, GET_COMPET_MAJOR_TRANSFERS, GET_COMPET_MAJOR_TRANSFERS_SUCCESS, GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
+import { GET_ARTICLE_CONTENT, GET_ARTICLE_CONTENT_FAILED, GET_ARTICLE_CONTENT_SUCCESS, GET_COMPET_MAJOR_TRANSFERS, GET_COMPET_MAJOR_TRANSFERS_SUCCESS, GET_HOMEPAGE_NEWS, GET_HOMEPAGE_NEWS_FAILED, GET_HOMEPAGE_NEWS_SUCCESS, GET_MAJOR_TRANSFERS, GET_MAJOR_TRANSFERS_FAILED, GET_MAJOR_TRANSFERS_SUCCESS, GET_TRANSFER_TOP_NEWS, GET_TRANSFER_TOP_NEWS_FAILED, GET_TRANSFER_TOP_NEWS_SUCCESS } from "./newsActionType";
+
+export function getHomePageNews(){
+    return{
+        type:GET_HOMEPAGE_NEWS
+    }
+}
+export function getHomePageNewsSuccuessed(data){
+    sessionStorage.setItem("listOfNews",JSON.stringify(data))
+   
+    return{
+        type:GET_HOMEPAGE_NEWS_SUCCESS,
+        payload:data
+    }
+}
+export function getHomePageNewsFailed(error){
+    window.location.replace("/notFound")
+    return{
+        type:GET_HOMEPAGE_NEWS_FAILED,
+        payload:error
+    }
+}
 
 export function getTransferTopNews(){
     return{
@@ -18,6 +39,7 @@ export function getTransferTopNewsSuccuessed(data){
     }
 }
 export function getTransferTopNewsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TRANSFER_TOP_NEWS_FAILED,
         payload:error
@@ -37,6 +59,7 @@ export function getMajorTransfersSuccuessed(data){
     }
 }
 export function getMajorTransfersFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_MAJOR_TRANSFERS_FAILED,
         payload:error
@@ -64,12 +87,26 @@ export function getArticleContentSuccuessed(data){
     }
 }
 export function getArticleContentFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_ARTICLE_CONTENT_FAILED,
         payload:error
     }
 }
 
+export function GET_HOMEPAGE_NEWS_DATA(){
+    return function(dispatch){
+        dispatch(getHomePageNews());     
+        axios.get(baseUrl+`api/news/getNews`)
+        .then(re=>{
+            dispatch(getHomePageNewsSuccuessed(re.data))
+        })
+        .catch(()=>{
+            dispatch(getHomePageNewsFailed("Error While Getting The Data"))
+            
+        })
+    }
+}
 export function GET_TRANSFERS_TOP_NEWS(){
     return function(dispatch){
         dispatch(getTransferTopNews());     
@@ -103,7 +140,8 @@ export function GET_ARTICLE_DATA(articleId,articleSlug){
         .then(re=>{
            dispatch(getArticleContentSuccuessed(re.data))
         })
-        .catch(()=>{
+        .catch((error)=>{
+            console.log(error)
             dispatch(getArticleContentFailed("Error While Getting The Data"))          
         })
     }

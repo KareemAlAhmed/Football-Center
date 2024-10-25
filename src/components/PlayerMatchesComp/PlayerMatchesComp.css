@@ -28,6 +28,7 @@
     padding-bottom: 5px;
     text-align: left;
     font-size: 14px;
+    vertical-align: baseline;
 }
 .matchesBlock table tr .teamColumn{
     display: inline-flex;
@@ -47,3 +48,41 @@
 .matchesBlock table tr a{
     color: var(--text-color);
 }
+
+
+
+@media (max-width: 629px) {
+    .matchesBlock table tr{
+        position: relative;
+    }
+    .matchesBlock table tr::after{
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: var(--hover-color);
+    }
+    .matchesBlock table tr:last-child::after{
+        width: 0;
+    }
+}
+@media (max-width: 410px) {
+    .matchesBlock table tr td{
+        padding-right: 5px;
+        font-size: 13px;
+    }
+    .matchesBlock table tr th{
+        padding-right: 5px;
+    }
+    .positionStatsTable table tr a{
+        font-size: 12px;
+    }
+    .playerBlock .matchesBlock .tableTitle p{
+        font-size: 19px;
+    }
+  }
+
+
+ 

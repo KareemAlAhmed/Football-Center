@@ -2,12 +2,22 @@ import React, { useEffect } from 'react'
 import "./PlayerIntro.css"
 import { Link, useNavigate } from 'react-router-dom';
 import { getCompetImage, getTeamImage } from '../../utils/baseUrl';
-import { useDispatch } from 'react-redux';
+import { useDispatch ,useSelector} from 'react-redux';
+import { REMOVE_FOLLOWED_PLAYER, UPDATE_FOLLOWING_PLAYERS_LIST_BUTTON } from '../../redux/user/userActions';
+import { Bounce, toast } from 'react-toastify';
 export default function PlayerIntro({player,playerSlug}) {
     const navigate=useNavigate()
     const dispatch=useDispatch()
-
-
+    let currentUser=useSelector(state=>state.users.currentUser)
+    let userToken=useSelector(state=>state.users.userToken)
+    let userPlayers=currentUser ? currentUser.followedPlayers : null
+    let isTeamFollowed=false;
+    if(userPlayers != null){
+        let players=userPlayers?.filter(ele=>ele.id === player?.id)
+        if(players.length > 0){
+          isTeamFollowed=true
+        }
+      }
 
     useEffect(()=>{
         let allLis=document.querySelectorAll(".playerPageOpts .Nav__Secondary__Menu li")
@@ -36,9 +46,41 @@ export default function PlayerIntro({player,playerSlug}) {
 
 
 
-    },[])
-
-
+    },[currentUser])
+    const followPlayer=()=>{
+        if(userToken != null){
+          dispatch(UPDATE_FOLLOWING_PLAYERS_LIST_BUTTON(currentUser.name,player?.id))  
+        }else{
+          toast.error("SignUp First!", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            transition: Bounce
+        });
+        }
+      }
+      const unfollowPlayer=(relationType)=>{
+        if(userToken != null){
+            dispatch(REMOVE_FOLLOWED_PLAYER(currentUser.name,player?.firstName + " " + player?.lastName))     
+        }else{
+          toast.error("SignUp First!", {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            transition: Bounce
+        });
+        }
+      }
 
   return (
     <>
@@ -79,11 +121,14 @@ export default function PlayerIntro({player,playerSlug}) {
                                 <span>{player?.position}</span>
                             </div>
                         </div>
-
-                        <button className='followBtn'>Follow</button>
+                        {isTeamFollowed ? (
+                            <button className='followBtn followedBtn' onClick={()=>unfollowPlayer()}>UnFollow</button>
+                        ):(
+                            <button className='followBtn' onClick={()=>followPlayer()}>Follow</button>
+                        )}
 
                    </div>
-                   <div className="playerBio">
+                   <div className="playerBio hidePlayerBio">
                         <ul className="bioInfo">
                             <li>
                                 <span className='bioSection'>HT/WT</span>
@@ -102,7 +147,7 @@ export default function PlayerIntro({player,playerSlug}) {
                         </ul>
                    </div>
                 </div>
-                <div className="playerCurrentStats">
+                <div className="playerCurrentStats hideLeftSide">
                    <div className="statsWrapper">
                     <div className="currentLeagueSeason">
                             <p>{player.currentStats?.name}</p>

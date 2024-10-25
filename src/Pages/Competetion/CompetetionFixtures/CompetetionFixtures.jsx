@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { GET_COMPET_DATA, GET_COMPET_DATE_SCORES } from '../../../redux/tourns/tournsActions';
 import { GET_TEAM_INFO } from '../../../redux/team/teamsActions';
 import DatesSlider from '../../../components/DatesSlider/DatesSlider';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { generateShortName, getDefaultTeamOrCompetLogo, getGameLink, getTeamImage } from '../../../utils/baseUrl';
 import DefaultLogo from "../../../components/default.png"
 export default function CompetetionFixtures() {
     let { competId } = useParams();
@@ -41,9 +41,9 @@ export default function CompetetionFixtures() {
                   {loading ? 
                       (
                         <div className="loadingBlock">
-                          <span class="ouro ouro3">
-                            <span class="left"><span class="anim"></span></span>
-                            <span class="right"><span class="anim"></span></span>
+                          <span className="ouro ouro3">
+                            <span className="left"><span className="anim"></span></span>
+                            <span className="right"><span className="anim"></span></span>
                           </span>
                         </div>
                       ):(
@@ -57,25 +57,31 @@ export default function CompetetionFixtures() {
                                     {ele.matches.length > 0 ? (
                                         <table>
                                       <thead>
-                                        <td>MATCH</td>
-                                        <td>TIME</td>
-                                        <td>LOCATION</td>
+                                        <th>MATCH</th>
+                                        <th>TIME</th>
+                                        <th>LOCATION</th>
                                       </thead>
                                       <tbody>
                                         {ele.matches.map((match,mt)=>{
                                           return <tr key={mt}>
                                               <td className='teamsInfo'>
                                                 <div className='team Away'>
-                                                  <Link className='teamLink' to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}><p>{match.AwayTeam.TeamName}</p></Link>
-                                                  <Link to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}><img src={match.AwayTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.AwayTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" /></Link>
+                                                  <Link className='teamLink' to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}>
+                                                    <p>{match.AwayTeam.TeamName}</p>
+                                                    <p>{generateShortName(match.AwayTeam.TeamName)}</p>
+                                                  </Link>
+                                                  <Link className="imgWrapper" to={`/team/_/id/${match.AwayTeam.id}/${match.AwayTeam.slug}`}><img src={match.AwayTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.AwayTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" /></Link>
                                                 </div>
                                                 <div className='team'>
                                                   <div className="scores">
-                                                    <span>{match.scores}</span>
+                                                    <Link className="competLink" to={getGameLink(match?.id,match?.slug)}><span>{match.scores}</span></Link>
                                                   </div>
                                                   <div className='Home'>
-                                                  <Link to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}><img src={match.HomeTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.HomeTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onerror={`this.src = ${DefaultLogo}`} alt="" /></Link>
-                                                  <Link className='teamLink' to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}><p>{match.HomeTeam.TeamName}</p></Link>
+                                                  <Link className="imgWrapper" to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}><img src={match.HomeTeam.id != null ? `https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/${match.HomeTeam.id}.png` : "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=80&h=80&scale=crop&cquality=40&location=origin"} onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} alt="" /></Link>
+                                                  <Link className='teamLink' to={`/team/_/id/${match.HomeTeam.id}/${match.HomeTeam.slug}`}>
+                                                    <p>{match.HomeTeam.TeamName}</p>
+                                                    <p>{generateShortName(match.HomeTeam.TeamName)}</p>
+                                                  </Link>
                                                   </div>
                                                 </div>
                                               </td>

@@ -1,0 +1,7 @@
+.userFavoriteContainer .listOfPlayers .playerInfo .playerDetails{
+    display: flex;
+    flex-direction: column;
+}
+.userFavoriteContainer .listOfPlayers .playerInfo .playerDetails span{
+    font-size: 13px;
+}

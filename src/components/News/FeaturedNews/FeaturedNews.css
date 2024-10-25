@@ -48,3 +48,19 @@
     font-size: 14px;
     color: var(--text-color);
 }
+@media (max-width: 991px) {
+    .featuredNews{
+        flex-direction: column;
+    }
+    .featuredNews .newsImg{
+        width: 100%;
+    }
+    .featuredNews .newsImg img{
+        height: 200px;
+    }
+    .featuredNews .newsInfo{
+        width: 100%;
+        padding: 10px;
+        border-left: 1px solid var(--button-hover-color);
+    }
+}

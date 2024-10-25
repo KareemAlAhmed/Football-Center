@@ -27,8 +27,20 @@ export function getArticleLink(articleId,articleSlug,articleType){
 export function getGameLink(gameId,gameSlug){
     return `/match/_/${gameId}/${gameSlug}/summary`  
 }
+export function getGameStaticsLink(gameId,gameSlug){
+    return `/match/_/${gameId}/${gameSlug}/MatchStats`  
+}
 export function getDefaultLogo(){
-    return "https://a.espncdn.com/combiner/i?img=/i/headshots/nophoto.png&h=80&w=80&scale=crop" 
+    return "https://a.espncdn.com/combiner/i?img=/i/headshots/nophoto.png" 
+}
+export function getDefaultTeamOrCompetLogo(){
+    return "https://secure.espncdn.com/combiner/i?img=/i/teamlogos/default-team-logo-500.png" 
+}
+export function getEmptySlutLogo(){
+    return "https://image-service.onefootball.com/transform?w=96&dpr=2&image=https://images.onefootball.com/cw/icons/my-interests-empty-dark.svg" 
+}
+export function getDefaultArticleLogo(){
+    return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLeRqpPmb4YgGGOxG092HSuL_AT39ubcWwnEVB3pPDcL7HwApHitVOYQZJ1ifsJ2XytPM&usqp=CAU" 
 }
 export function getLocalTime(oldTime){
     let time=oldTime
@@ -54,4 +66,30 @@ export function getLocalTime(oldTime){
         time=listOftime.join(":")
     }
     return time
+}
+
+export function generateShortName(teamName) {
+    // Split the team name into words
+    console.log(teamName)
+    if(teamName){
+        const words = teamName.split(' ');
+
+        let shortName = '';
+    
+        if (words.length === 2) {
+            // For two-word names, take the first letter of the first word and the first two letters of the second word
+            shortName = words[0].charAt(0).toUpperCase() + words[1].substring(0, 2).toUpperCase();
+        } else if (words.length >= 3) {
+            // For three or more words, take the first letter of each of the first three words
+            shortName = words.slice(0, 3).map(word => word.charAt(0).toUpperCase()).join('');
+        } else {
+            // For single-word names, take the first three letters
+            shortName = words[0].substring(0, 3).toUpperCase();
+        }
+    
+        return shortName;
+    }else{
+        return teamName
+    }
+
 }

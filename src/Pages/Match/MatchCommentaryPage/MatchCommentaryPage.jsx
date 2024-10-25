@@ -11,6 +11,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Footer from '../../../components/Footer/Footer';
 import NavBar from '../../../components/NavBar/NavBar';
 import { GET_MATCH_COMMENTARY_DATA } from '../../../redux/matches/matchesAction';
+import { generateShortName } from '../../../utils/baseUrl';
 export default function MatchCommentaryPage() {
     let { gameId } = useParams();
     let { gameSlug } = useParams();
@@ -41,14 +42,14 @@ export default function MatchCommentaryPage() {
       return (
         <>
             <NavBar />
-            <div className="gameBlock matchReport">
+            <div className="gameBlock matchCommentary">
                 <div className="container">
                     <div className="wrapper">
                         {loading ? (
                         <div className="loadingBlock">
-                        <span class="ouro ouro3">
-                            <span class="left"><span class="anim"></span></span>
-                            <span class="right"><span class="anim"></span></span>
+                        <span className="ouro ouro3">
+                            <span className="left"><span className="anim"></span></span>
+                            <span className="right"><span className="anim"></span></span>
                         </span>
                         </div>
                         ):(
@@ -59,7 +60,7 @@ export default function MatchCommentaryPage() {
                                     </div>
                                 <div className="pageContent">
                                     <div className="leftSideContainer">                           
-                                        <SideBarLineUp homeTeam={currentMatchCommentary?.homeTeam} awayTeam={currentMatchCommentary?.awayTeam} lineUps={currentMatchCommentary?.lineUps?.lineUps} />                                                                        
+                                        <SideBarLineUp homeTeam={currentMatchCommentary?.homeTeam} awayTeam={currentMatchCommentary?.awayTeam} lineUps={currentMatchCommentary?.lineUps} />                                                                        
                                         <GameInfo info={currentMatchCommentary} />
                                     </div>
                                   
@@ -78,11 +79,14 @@ export default function MatchCommentaryPage() {
                                           )
                                         )
                                       }
-                                        {/* <GameTimeLine   homeTeam={currentMatchCommentary?.homeTeam} awayTeam={currentMatchCommentary?.awayTeam} timeLine={currentMatchCommentary?.timeLine} /> */}
+                            
                                         <GameCommentary gameComm={currentMatchCommentary?.gameCommentary} keyEvents={currentMatchCommentary?.keyEvents} type="mainPage"/>
-
+                                        <div className="extraComp">
+                                          <GameInfo info={currentMatchCommentary} />
+                                        </div>
                                     </div>
-                                    <div className="rightSideContainer">
+                                    {currentMatchCommentary.currentCompet?.clubsList && (
+                                      <div className="rightSideContainer">
                                       <div className="competStanding">
                                         <h4 className="leagueName">{currentMatchCommentary.currentCompet?.name}</h4>
                                           <table>
@@ -98,9 +102,12 @@ export default function MatchCommentaryPage() {
                                               </tr>
                                             </thead>
                                             <tbody>
-                                              {currentMatchCommentary.currentCompet?.clubsList.map((team,ind2)=>{
+                                              {currentMatchCommentary.currentCompet?.clubsList?.map((team,ind2)=>{
                                                 return <tr key={ind2}>
-                                                    <td><Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link></td>
+                                                    <td>
+                                                      <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
+                                                      <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{generateShortName(team.name)}</Link>
+                                                    </td>
                                                     <td>{team.GP}</td>
                                                     <td>{team.W}</td>
                                                     <td>{team.D}</td>
@@ -114,6 +121,8 @@ export default function MatchCommentaryPage() {
                                           <Link to="" className='moreStandings'>Standings</Link>
                                         </div>
                                     </div>
+                                    )}
+                                    
                                 </div>
                               </>
                         ) :null

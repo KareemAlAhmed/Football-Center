@@ -42,3 +42,22 @@
 .competStatsScoring .pageContent .listOfPlayers .Table__fixtures:last-of-type{
     margin-left: 15px;
 }
+@media (max-width: 680px) {
+    .competStatsScoring .pageContent .listOfPlayers{
+        flex-direction: column;
+    }
+    .competStatsScoring .pageContent .listOfPlayers .Table__fixtures{
+        width: 100%;
+    }
+    .competStatsScoring .pageContent .listOfPlayers .Table__fixtures:last-of-type{
+        margin: 0;
+    }
+}
+@media (max-width: 450px) {
+    .competStatsScoring .pageContent table tr td{
+        padding-right: 5px;
+    }
+    .competStatsScoring .pageContent table tr a{
+        font-size: 15px;
+    }
+}

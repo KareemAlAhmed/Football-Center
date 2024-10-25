@@ -22,10 +22,12 @@
     display: flex;
     flex: 1;
     justify-content: space-between;
+    padding-left: 3px;
 }
 .playerHeaderInfo .playerTeamInfo{
     display: flex;
     gap: 5px;
+    align-items: center;
 }
 .playerHeaderInfo  .playerNameAndTeam{
     display: flex;
@@ -38,6 +40,7 @@
     display: flex;
     gap: 7px;
     color: var(--hover-color);
+    margin-bottom: 5px;
 }
 .playerHeaderInfo .playerTeamLogo img{
     width: 23px;
@@ -162,3 +165,26 @@
 .playerQuickInfoAndStats .playerTeamHeader a{
     color: var(--hover-color);
 }
+
+@media (max-width: 991px) {
+    .hideLeftSide{
+        display: none !important;
+    }
+    .playerHeaderInfo .playerBio{
+        margin: 0;
+    }
+    .playerPageOpts .Nav__Secondary__Menu{
+        display: inline-flex ;
+        overflow: scroll;
+    }
+}
+@media (max-width: 510px) {
+    .hidePlayerBio {
+        display: none;
+    }
+  }
+@media (max-width: 400px) {
+    .playerHeaderInfo .Nav__Secondary__Menu li a {
+        font-size: 15px;
+    }
+  }

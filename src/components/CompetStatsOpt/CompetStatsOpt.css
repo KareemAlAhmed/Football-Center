@@ -1,5 +1,6 @@
 .competStat .pageContent .Nav__Secondary__Menu{
     margin-bottom: 10px;
+    overflow: scroll;
 }
 .competStat .pageContent .Nav__Secondary__Menu li{
     width: calc(100% / 3);

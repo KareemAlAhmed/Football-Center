@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./CompetsComp.css"
 import React from 'react'
-import { getCompetImage, getCompetLink } from "../../../utils/baseUrl";
+import { getCompetImage, getCompetLink, getDefaultTeamOrCompetLogo } from "../../../utils/baseUrl";
 
 export default function CompetsComp({compets,comType,word}) {
     return (
@@ -27,7 +27,7 @@ export default function CompetsComp({compets,comType,word}) {
                             return <li key={index}>
                               <Link to={getCompetLink(compet.id,compet.slug)}>
                                 <div className="competLogo">
-                                  <img src={getCompetImage(compet.id)} alt="" />
+                                  <img src={getCompetImage(compet.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                 </div>
                                 <div className="competInfo">
                                   <div className="competName">{compet.leagueName}</div>
@@ -41,7 +41,7 @@ export default function CompetsComp({compets,comType,word}) {
                             return <li key={index}>
                             <Link to={getCompetLink(compet.id,compet.slug)}>
                               <div className="competLogo">
-                                <img src={getCompetImage(compet.id)} alt="" />
+                                <img src={getCompetImage(compet.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                               </div>
                               <div className="competInfo">
                                 <div className="competName">{compet.leagueName}</div>
@@ -60,7 +60,7 @@ export default function CompetsComp({compets,comType,word}) {
                           return <li key={index}>
                           <Link to={getCompetLink(compet.id,compet.slug)}>
                             <div className="competLogo">
-                              <img src={getCompetImage(compet.id)} alt="" />
+                              <img src={getCompetImage(compet.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                             </div>
                             <div className="competInfo">
                               <div className="competName">{compet.leagueName}</div>

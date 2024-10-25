@@ -33,7 +33,7 @@ export default function NewsSmallCard({news,forComp}) {
         <div className="newsContent">
           <div className="newsImg">
           {forComp === "TopNews"  ? (
-            <Link to={getArticleLink(news?.id,news?.slug,news?.type)}>
+            <Link to={getArticleLink(news?.id,news?.slug,"story")}>
               <img src={news?.articleImageUrl} alt="" /> 
             </Link>
           ) :(
@@ -51,7 +51,7 @@ export default function NewsSmallCard({news,forComp}) {
               {forComp === "TopNews"  ? (
                 <>
                   {/* <a href='/' className='newsTitle'>{news?.articleTitle}</a> */}
-                  <Link className='articleLink' to={getArticleLink(news?.id,news?.slug,news?.type)}>{news?.articleTitle}</Link>
+                  <Link className='articleLink' to={getArticleLink(news?.id,news?.slug,"story")}>{news?.articleTitle}</Link>
                   <div className="channel">
                     <div className="channelLogo">
                       

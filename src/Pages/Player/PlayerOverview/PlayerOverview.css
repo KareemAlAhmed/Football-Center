@@ -99,6 +99,7 @@
 }
 .PageLayout__MainContainer .Gamestrip a .dateAndTime .time{
     color: var(--hover-color);
+    font-size: 15px;
 }
 
 .PageLayout__MainContainer .playerStats .statsfilters{
@@ -162,6 +163,7 @@
 .PageLayout__MainContainer .playerStats table tr td:nth-child(2){
     border-left: 1px solid var(--hover-color);
 }
+
 .PageLayout__MainContainer .playerStats table tr a{
     color: var(--text-color);
 }
@@ -189,18 +191,25 @@
     padding-bottom: 5px;
     text-align: left;
     font-size: 14px;
+    vertical-align: baseline;
 }
 .PageLayout__MainContainer .lastMatches table tr .teamColumn{
     display: inline-flex;
     gap: 5px;
     align-items: center;
 }
+.PageLayout__MainContainer .lastMatches table tr .teamColumn:first-of-type{
+    align-items: baseline;
+}
 .PageLayout__MainContainer .lastMatches table tr .teamLogo{
     width: 20px;
+    height: 100%;
+    align-self: flex-end;
 }
-.PageLayout__MainContainer .lastMatches table tr .results{
-    display: flex;
-    gap: 5px;
+.PageLayout__MainContainer .lastMatches table tr .results span.score{
+    /* display: flex;
+    gap: 5px; */
+    margin-left: 5px;
 }
 
 .PageLayout__MainContainer .lastMatches table tr th:nth-child(1){
@@ -209,7 +218,10 @@
 .PageLayout__MainContainer .lastMatches table tr a{
     color: var(--text-color);
 }
-
+.PageLayout__MainContainer .lastMatches table tr td span.date{
+    display: block;
+    width: 100%;
+}
 
 .PageLayout__MainContainer .lastMatches .cardTitle{
     display: flex;
@@ -225,7 +237,10 @@
 }
 
 
-
+.PageLayout__MainContainer .Gamestrip a .dateAndTime .date{
+    font-size: 15px;
+    display: block;
+}
 
 
 
@@ -264,5 +279,139 @@
     color:var(--hover-color);
     margin-top: 5px;
 }
+@media (max-width: 991px) {
+    .hideLeftSide{
+        display: none !important;
+    }
+    .playerHeaderInfo .playerBio{
+        margin: 0;
+    }
+}
 
+@media (max-width: 1199px) {
+    .hideRightside{
+        display: none;
+    }
+    .playerBlock .pageContent {
+        gap: 40px !important;
+    }
+}
 
+@media only screen and (min-width: 1200px) {
+    .PageLayout__RightAside .latestNews {
+        width: 270px;
+    }
+}
+@media (min-width: 1350px) {
+    .PageLayout__RightAside .latestNews{
+        width: 300px;
+    }
+  }
+
+@media only screen and (max-width: 1520px) {
+    .PageLayout__MainContainer{
+        width: calc(100% - 60px - 210px - 300px);
+    }
+    .playerHeaderInfo .playerQuickInfoAndStats{
+        gap: 0px !important;
+    }
+    .playerHeaderInfo .playerBio ul li{
+        font-size: 15px;
+    }
+    .playerHeaderInfo .playerBio{
+        margin: 0 45px;
+    }
+    .playerBlock .pageContent{
+        gap:20px;
+    }
+    .PageLayout__MainContainer .Gamestrip a .teamName{
+        font-size: 16px;
+    }
+    .PageLayout__MainContainer .lastMatches table tr th{
+        padding-right: 5px;
+    }
+    .PageLayout__MainContainer .lastMatches table tr td{
+        padding-right: 5px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 680px) {
+
+    .playerHeaderInfo .teamLogo {
+        display: none;
+    }
+    .PageLayout__MainContainer .playerStats table tr th:nth-child(5),
+    .PageLayout__MainContainer .playerStats table tr th:nth-child(6),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(4),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(13),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(14),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(15){
+        display: none;
+    }
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(5),
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(6),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(4),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(13),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(14),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(15){
+        display: none;
+    }
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(1){
+        font-size: 15px;
+    }
+  }
+@media (max-width: 510px) {
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(6),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(6){
+        display: none;
+    }
+    .PageLayout__MainContainer .Gamestrip a .homeTeam p:first-of-type,
+    .PageLayout__MainContainer .Gamestrip a .awayTeam p:first-of-type{
+       display: none;
+    }
+    .PageLayout__MainContainer .Gamestrip a .homeTeam p:last-of-type,
+    .PageLayout__MainContainer .Gamestrip a .awayTeam p:last-of-type{
+       display: block;
+    }
+  }
+@media (max-width: 450px) {
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(11),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(12),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(11),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(12){
+        display: none;
+    }
+
+    .PageLayout__MainContainer .Gamestrip a{
+        gap: 5px;
+    }
+}
+@media (max-width: 410px) {
+    .PageLayout__MainContainer .Gamestrip a .dateAndTime .date,
+    .PageLayout__MainContainer .Gamestrip a .dateAndTime .time{
+        font-size: 13px;
+    }
+    .PageLayout__MainContainer .Gamestrip a .teamName{
+        font-size: 14px;
+    }
+    .PageLayout__MainContainer .Gamestrip a img{
+        width: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .PageLayout__MainContainer .playerStats table tr th:nth-child(3),
+    .PageLayout__MainContainer .playerStats table tr th:nth-child(4),
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(3),
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(4){
+        display: none;
+    }
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(9),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(10),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(9),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(10){
+        display: none;
+    }
+    .PageLayout__MainContainer .playerStats .statsfilters{
+        flex-direction: column;
+    }
+}

@@ -8,6 +8,7 @@ import GameStatsComp from "../../../../components/GameComponents/GameStatsComp/G
 import TeamLastGames from "../../../../components/GameComponents/TeamLastGames/TeamLastGames";
 import GameIntro from "../../../../components/GameComponents/GameIntro/GameIntro";
 import { useDispatch, useSelector } from "react-redux";
+import { generateShortName } from "../../../../utils/baseUrl";
 
 export default function PostMatchStatistics({gameId,gameSlug}) {
     let currentMatchStats=useSelector(state=>state.matches.currentMatchStats)    
@@ -47,39 +48,45 @@ export default function PostMatchStatistics({gameId,gameSlug}) {
               )
             }
           </div>
-          <div className="rightSideContainer">
-            <GameInfo info={currentMatchStats} />
-            <div className="competStanding">
-              <h4 className="leagueName">{currentMatchStats.currentCompet?.name}</h4>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>TEAM</th>
-                      <th>GP</th>
-                      <th>W</th>
-                      <th>D</th>
-                      <th>L</th>
-                      <th>GD</th>
-                      <th>P</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {currentMatchStats.currentCompet?.clubsList.map((team,ind2)=>{
-                      return <tr key={ind2}>
-                          <td><Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link></td>
-                          <td>{team.GP}</td>
-                          <td>{team.W}</td>
-                          <td>{team.D}</td>
-                          <td>{team.L}</td>
-                          <td>{team.GD}</td>
-                          <td>{team.P}</td>
+          {currentMatchStats.currentCompet?.clubsList && (
+            <div className="rightSideContainer">
+              <GameInfo info={currentMatchStats} />
+              <div className="competStanding">
+                <h4 className="leagueName">{currentMatchStats.currentCompet?.name}</h4>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>TEAM</th>
+                        <th>GP</th>
+                        <th>W</th>
+                        <th>D</th>
+                        <th>L</th>
+                        <th>GD</th>
+                        <th>P</th>
                       </tr>
-                    })}
-                  </tbody>
-                </table>
-                <Link to="" className='moreStandings'>Standings</Link>
-              </div>
-          </div>
+                    </thead>
+                    <tbody>
+                      {currentMatchStats.currentCompet?.clubsList?.map((team,ind2)=>{
+                        return <tr key={ind2}>
+                            <td>
+                              <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
+                              <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{generateShortName(team.name)}</Link>
+                              </td>
+                            <td>{team.GP}</td>
+                            <td>{team.W}</td>
+                            <td>{team.D}</td>
+                            <td>{team.L}</td>
+                            <td>{team.GD}</td>
+                            <td>{team.P}</td>
+                        </tr>
+                      })}
+                    </tbody>
+                  </table>
+                  <Link to="" className='moreStandings'>Standings</Link>
+                </div>
+            </div>
+          )}
+
       </div>
     </>
     )

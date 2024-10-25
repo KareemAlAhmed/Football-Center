@@ -65,3 +65,20 @@
     font-weight: 500;
     margin-right: 3px;
 }
+@media (max-width: 680px) {
+    .teamStatsScoring .pageContent .listOfPlayers {
+        flex-direction: column;
+    }
+    .teamStatsScoring .pageContent .listOfPlayers .Table__fixtures{
+        width: 100%;
+    }
+    .teamStatsScoring .pageContent .listOfPlayers .Table__fixtures:first-of-type{
+        margin-right: 0;
+    }
+    .teamStatsScoring .pageContent .listOfPlayers .Table__fixtures:last-of-type{
+        margin-left: 0;
+    }
+}
+@media (max-width: 500px) {
+
+}

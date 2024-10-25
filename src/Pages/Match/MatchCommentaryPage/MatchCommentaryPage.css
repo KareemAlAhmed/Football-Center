@@ -1,0 +1,53 @@
+@media (max-width: 1520px) {
+    .matchCommentary .pageContent .leftSideContainer{
+        margin-right: 0;
+    }
+    .matchCommentary .pageContent .rightSideContainer{
+        margin-left: 0
+    }
+    .matchCommentary .pageContent{
+        width: 100%;
+    }
+}
+.extraComp{
+    display: none;
+}
+@media (max-width: 1350px) {
+
+    .matchCommentary .pageContent .mainContainer{
+        width: calc(100% - 600px);
+    }
+    .matchCommentary .pageContent .mainContainer section.gameInfo,
+    .matchCommentary .pageContent .mainContainer .gamePreviewQuickInfo{
+        padding: 12px 0;
+    }
+
+}
+@media (max-width: 1200px) {
+
+    .matchCommentary .pageContent .leftSideContainer{
+        display: none;
+    }
+    .matchCommentary .pageContent .extraComp{
+        display: block;
+    }
+}
+@media (max-width: 991px) {
+
+    .matchCommentary .pageContent .rightSideContainer{
+        display: none;
+    }
+
+}
+@media (max-width: 490px) {
+
+    .matchCommentary section.gameCommentary .Wrapper table .commentDetails .commentContent{
+        font-size: 15px;
+    }
+    .matchCommentary section.gameCommentary .activeFilter span{
+        font-size: 15px;
+    }
+    .matchCommentary section.gameCommentary .activeFilter{
+        padding: 8px 18px;
+    }
+}

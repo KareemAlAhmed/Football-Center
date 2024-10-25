@@ -1,7 +1,7 @@
 import React from 'react'
 import "./GameStatsComp.css"
 import { Link } from 'react-router-dom';
-import { getTeamImage, getTeamLink } from '../../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getGameStaticsLink, getTeamImage, getTeamLink } from '../../../utils/baseUrl';
 import PieChartComp from "../../PieChartComp/PieChartComp.jsx";
 export default function GameStatsComp({stats,type}) {
     let HomeStatsColor;
@@ -22,7 +22,6 @@ export default function GameStatsComp({stats,type}) {
             backColor=stats.awayTeam.color1 === "#ffffff" ? "var(--text-color)" : stats.awayTeam.color1;
         }
         let width;
-        console.log(currentTeamStats,oppStatsValue , currentTeamStats > oppStatsValue)
         if(parseInt(currentTeamStats) > parseInt(oppStatsValue) || parseInt(currentTeamStats) === parseInt(oppStatsValue)){
             width="100%";
         }else{
@@ -51,8 +50,8 @@ export default function GameStatsComp({stats,type}) {
         ];
         return segments
     }
-  return (
-    <section className='Card gameStats'>
+    stats?.teamStats?.length > 0 ? (
+        <section className='Card gameStats'>
         <header className="cardHeader">
             <div className="cardTitle">
                 <p>Team Stats</p>
@@ -61,11 +60,11 @@ export default function GameStatsComp({stats,type}) {
         <div className="Wrapper">
             <div className="competitorsNames">
                 <Link className='teamLink' to={getTeamLink(stats?.homeTeam?.id,stats?.homeTeam?.slug)}>
-                    <img src={getTeamImage(stats?.homeTeam?.id)} alt="" />
+                    <img src={getTeamImage(stats?.homeTeam?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                     <span>{stats?.homeTeam?.shortName}</span>
                 </Link>
                 <Link className='teamLink' to={getTeamLink(stats?.awayTeam?.id,stats?.awayTeam?.slug)}>
-                    <img src={getTeamImage(stats?.awayTeam?.id)} alt="" />
+                    <img src={getTeamImage(stats?.awayTeam?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                     <span>{stats?.awayTeam?.shortName}</span>
                 </Link>
             </div>
@@ -105,6 +104,7 @@ export default function GameStatsComp({stats,type}) {
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                 })
             ):(
@@ -157,8 +157,8 @@ export default function GameStatsComp({stats,type}) {
                                         <div className="chartWrapper">
                                             <PieChartComp segments={getSegments(teamStat)} />
                                             <div className="teamLogos">
-                                                <img src={getTeamImage(stats?.homeTeam?.id)} alt="" />
-                                                <img src={getTeamImage(stats?.awayTeam?.id)} alt="" />
+                                                <img src={getTeamImage(stats?.homeTeam?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
+                                                <img src={getTeamImage(stats?.awayTeam?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                             </div>
                                         </div>
                                         <div className="statsNumber">
@@ -169,8 +169,14 @@ export default function GameStatsComp({stats,type}) {
                     }
                 })
             )}
+            <Link className='fullPageLink' to={getGameStaticsLink(stats?.id,stats?.slug)}>Full Team Stats</Link>
         </div>  
 
     </section>
-  )
+        
+    ): (
+        <></>
+    )
+    
+  
 }

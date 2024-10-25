@@ -21,6 +21,9 @@
     justify-content: center;
     gap: 15px;
 }
+.teamTransfers .Table__fixtures table .teamWrapper .teamLogo{
+    min-width: 25px;
+}
 .teamTransfers .pageContent table tr img{
     width: 25px;
     height: 27px;
@@ -45,4 +48,18 @@
 .teamTransfers .Table__fixtures table .teamWrapper{
     display: flex;
     gap: 10px;
+}
+@media (max-width: 991px) {
+    .teamTransfers .pageContent .listOfPlayers{
+        flex-direction: column;
+    }
+    .teamTransfers .pageContent .listOfPlayers .Table__fixtures{
+        width: 100%;
+    }
+    .teamTransfers .pageContent .listOfPlayers .Table__fixtures:first-of-type{
+        margin-right: 0;
+    }
+    .teamTransfers .pageContent .listOfPlayers .Table__fixtures:last-of-type{
+        margin-left: 0;
+    }
 }

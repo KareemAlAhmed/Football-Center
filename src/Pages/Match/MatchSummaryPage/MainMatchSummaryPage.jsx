@@ -51,14 +51,14 @@ export default function MainMatchSummaryPage() {
     return (
     <>
     <NavBar />
-    <div className="gameBlock">
+    <div className="gameBlock overviewMatchPage">
       <div className="container">
         <div className="wrapper">
             {loading ? (
                <div className="loadingBlock">
-               <span class="ouro ouro3">
-                 <span class="left"><span class="anim"></span></span>
-                 <span class="right"><span class="anim"></span></span>
+               <span className="ouro ouro3">
+                 <span className="left"><span className="anim"></span></span>
+                 <span className="right"><span className="anim"></span></span>
                </span>
              </div>
             ):(

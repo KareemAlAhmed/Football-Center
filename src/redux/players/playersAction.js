@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { baseUrl } from "../../utils/baseUrl";
-import { GET_PLAYER_BIO, GET_PLAYER_BIO_FAILED, GET_PLAYER_BIO_SUCCESS, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED_FAILED, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED_SUCCESS, GET_PLAYER_MATCHES, GET_PLAYER_MATCHES_FAILED, GET_PLAYER_MATCHES_FILTERED, GET_PLAYER_MATCHES_FILTERED_FAILED, GET_PLAYER_MATCHES_FILTERED_SUCCESS, GET_PLAYER_MATCHES_SUCCESS, GET_PLAYER_OVERVIEW_INFO, GET_PLAYER_OVERVIEW_INFO_FAILED, GET_PLAYER_OVERVIEW_INFO_SUCCESS, GET_PLAYER_STATS, GET_PLAYER_STATS_FAILED, GET_PLAYER_STATS_FILTERED, GET_PLAYER_STATS_FILTERED_FAILED, GET_PLAYER_STATS_FILTERED_SUCCESS, GET_PLAYER_STATS_SUCCESS, GET_TEAM_PLAYERS, GET_TEAM_PLAYERS_FAILED, GET_TEAM_PLAYERS_SUCCESS } from "./playersActionType";
+import { GET_ALL_PLAYERS, GET_ALL_PLAYERS_FAILED, GET_ALL_PLAYERS_SUCCESS, GET_PLAYER_BIO, GET_PLAYER_BIO_FAILED, GET_PLAYER_BIO_SUCCESS, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED_FAILED, GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED_SUCCESS, GET_PLAYER_MATCHES, GET_PLAYER_MATCHES_FAILED, GET_PLAYER_MATCHES_FILTERED, GET_PLAYER_MATCHES_FILTERED_FAILED, GET_PLAYER_MATCHES_FILTERED_SUCCESS, GET_PLAYER_MATCHES_SUCCESS, GET_PLAYER_OVERVIEW_INFO, GET_PLAYER_OVERVIEW_INFO_FAILED, GET_PLAYER_OVERVIEW_INFO_SUCCESS, GET_PLAYER_STATS, GET_PLAYER_STATS_FAILED, GET_PLAYER_STATS_FILTERED, GET_PLAYER_STATS_FILTERED_FAILED, GET_PLAYER_STATS_FILTERED_SUCCESS, GET_PLAYER_STATS_SUCCESS, GET_TEAM_PLAYERS, GET_TEAM_PLAYERS_FAILED, GET_TEAM_PLAYERS_SUCCESS } from "./playersActionType";
 
 export function getPlayerOveriewInfo(){
     return{
@@ -19,6 +19,7 @@ export function getPlayerOveriewInfoSuccuessed(data){
     }
 }
 export function getPlayerOveriewInfoFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_PLAYER_OVERVIEW_INFO_FAILED,
         payload:error
@@ -38,6 +39,7 @@ export function getPlayerCurrentTeamsStatsSuccuessed(data,competSlug,teamId){
     }
 }
 export function getPlayerCurrentTeamsStatsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_PLAYER_CURRENT_TEAMS_STATS_FILTERED_FAILED,
         payload:error
@@ -57,6 +59,7 @@ export function getTeamPlayersSuccuessed(data){
     }
 }
 export function getTeamPlayersFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TEAM_PLAYERS_FAILED,
         payload:error
@@ -76,6 +79,7 @@ export function getPlayerBioSuccuessed(data){
     }
 }
 export function getPlayerBioFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_PLAYER_BIO_FAILED,
         payload:error
@@ -98,6 +102,7 @@ export function getPlayerMatchesSuccuessed(data,teamId,competSlug,year){
     }
 }
 export function getPlayerMatchesFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_PLAYER_MATCHES_FAILED,
         payload:error
@@ -119,6 +124,7 @@ export function getPlayerStatsSuccuessed(data,teamId,competSlug){
     }
 }
 export function getPlayerStatsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_PLAYER_STATS_FAILED,
         payload:error
@@ -139,6 +145,7 @@ export function getPlayerStatsFilteredSuccuessed(data,teamId,competSlug){
     }
 }
 export function getPlayerStatsFilteredFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_PLAYER_STATS_FILTERED_FAILED,
         payload:error
@@ -160,8 +167,28 @@ export function getPlayerFilteredMatchesSuccuessed(data,teamId,competSlug,year){
     }
 }
 export function getPlayerFilteredMatchesFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_PLAYER_MATCHES_FILTERED_FAILED,
+        payload:error
+    }
+}
+export function getAllPlayers(){
+    return{
+        type:GET_ALL_PLAYERS
+    }
+}
+export function getAllPlayersSuccuessed(data){
+    sessionStorage.setItem("allPlayers",JSON.stringify(data))
+    return{
+        type:GET_ALL_PLAYERS_SUCCESS,
+        payload:data
+    }
+}
+export function getAllPlayersFailed(error){
+    window.location.replace("/notFound")
+    return{
+        type:GET_ALL_PLAYERS_FAILED,
         payload:error
     }
 }
@@ -250,7 +277,6 @@ export function GET_PLAYER_STATS_FILTERED_DATA(playerId,teamId="any",competSlug=
     }
 }
 export function GET_PLAYER_CURRENT_TEAMS_STATS_INFO(playerId,teamId="any",competSlug="any",type="none"){
-    console.log(playerId,teamId,competSlug)
     return function(dispatch){
         dispatch(getPlayerCurrentTeamsStats());     
         axios.get(baseUrl+`api/player/_/id/${playerId}/currentTeamsStats/team/${teamId}/compet/${competSlug}/type/${type}`)
@@ -259,6 +285,18 @@ export function GET_PLAYER_CURRENT_TEAMS_STATS_INFO(playerId,teamId="any",compet
         })
         .catch((err)=>{
             dispatch(getPlayerCurrentTeamsStatsFailed("Error While Getting The Data"))          
+        })
+    }
+}
+export function GET_ALL_PLAYERS_DATA(){
+    return function(dispatch){
+        dispatch(getAllPlayers());     
+        axios.get(baseUrl+`api/player/getAllPlayers`)
+        .then(re=>{
+            dispatch(getAllPlayersSuccuessed(re.data))
+        })
+        .catch((err)=>{
+            dispatch(getAllPlayersFailed("Error While Getting The Data"))          
         })
     }
 }

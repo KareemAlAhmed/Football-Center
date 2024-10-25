@@ -9,6 +9,7 @@ import { GET_TEAM_STATS_SCORING_DATA } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
 import TeamStatsOpt from '../../../components/TeamStatsOpt/TeamStatsOpt';
 import { getPlayerLink } from '../../../utils/baseUrl';
+import { ToastContainer } from 'react-toastify';
 
 export default function TeamStatsScoring() {
     let [selectedLeague,setSelectedLeague]=useState("all")
@@ -46,9 +47,9 @@ export default function TeamStatsScoring() {
                 <div className="wrapper">
                     {loading ? (
                     <div className="loadingBlock">
-                    <span class="ouro ouro3">
-                        <span class="left"><span class="anim"></span></span>
-                        <span class="right"><span class="anim"></span></span>
+                    <span className="ouro ouro3">
+                        <span className="left"><span className="anim"></span></span>
+                        <span className="right"><span className="anim"></span></span>
                     </span>
                     </div>
                     ):(
@@ -168,20 +169,21 @@ export default function TeamStatsScoring() {
                     </div>
                   </>
                 )}
-                    <div class="glossary">
-                        <h3 class="glossary__title">Glossary</h3>
-                        <ul class="glossary__list glossary__list--desktopLG">
-                            <li class="glossary__item"><span class="glossary__abbr">RK:</span>Ranking</li>
-                            <li class="glossary__item"><span class="glossary__abbr">NAME:</span>Athlete name</li>
-                            <li class="glossary__item"><span class="glossary__abbr">P:</span>Games played</li>
-                            <li class="glossary__item"><span class="glossary__abbr">G:</span>Goals scored</li>
-                            <li class="glossary__item"><span class="glossary__abbr">A:</span>Assists</li>
+                    <div className="glossary">
+                        <h3 className="glossary__title">Glossary</h3>
+                        <ul className="glossary__list glossary__list--desktopLG">
+                            <li className="glossary__item"><span className="glossary__abbr">RK:</span>Ranking</li>
+                            <li className="glossary__item"><span className="glossary__abbr">NAME:</span>Athlete name</li>
+                            <li className="glossary__item"><span className="glossary__abbr">P:</span>Games played</li>
+                            <li className="glossary__item"><span className="glossary__abbr">G:</span>Goals scored</li>
+                            <li className="glossary__item"><span className="glossary__abbr">A:</span>Assists</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         <Footer />
+        <ToastContainer />
     </>
   )
 }

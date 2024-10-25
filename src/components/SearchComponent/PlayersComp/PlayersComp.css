@@ -42,6 +42,7 @@ section.searchedPlayers .Wrapper ul.playerList li:first-child{
     margin-left: 0;
 }
 section.searchedPlayers .Wrapper ul.playerList li a{
+    height: 100%;
     display: flex;
     padding: 12px;
     gap: 8px;
@@ -76,4 +77,17 @@ section.searchedPlayers .Wrapper ul.playerList li:hover a{
 }
 section.searchedPlayers .Wrapper ul.playerList li:hover a .playerName{
     color: var(--hover-color);
+}
+@media (max-width: 991px) {
+    section.searchedPlayers .Wrapper ul.playerList{
+        flex-wrap: wrap;
+    }
+    section.searchedPlayers .Wrapper ul.playerList li{
+        width: calc((100% -  20px) / 2) ;
+    }
+}
+@media (max-width: 490px) {
+    section.searchedPlayers .Wrapper ul.playerList li{
+        width: 100% ;
+    }
 }

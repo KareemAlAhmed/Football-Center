@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { baseUrl } from "../../utils/baseUrl";
-import { GET_ALL_TEAMS, GET_ALL_TEAMS_FAILED, GET_ALL_TEAMS_SUCCESS, GET_TEAM_DATA, GET_TEAM_DATA_FAILED, GET_TEAM_DATA_SUCCESS, GET_TEAM_FIXTURE, GET_TEAM_FIXTURE_FAILED, GET_TEAM_FIXTURE_SUCCESS, GET_TEAM_RESULTS, GET_TEAM_RESULTS_FAILED, GET_TEAM_RESULTS_SUCCESS, GET_TEAM_SQUADS, GET_TEAM_SQUADS_FAILED, GET_TEAM_SQUADS_SUCCESS, GET_TEAM_STATS_DISCPLINE, GET_TEAM_STATS_DISCPLINE_FAILED, GET_TEAM_STATS_DISCPLINE_SUCCESS, GET_TEAM_STATS_PERFORMANCE, GET_TEAM_STATS_PERFORMANCE_FAILED, GET_TEAM_STATS_PERFORMANCE_SUCCESS, GET_TEAM_STATS_SCORING, GET_TEAM_STATS_SCORING_FAILED, GET_TEAM_STATS_SCORING_SUCCESS, GET_TEAM_TRANSFERS, GET_TEAM_TRANSFERS_FAILED, GET_TEAM_TRANSFERS_SUCCESS } from "./teamsActionType";
+import { GET_ALL_TEAMS, GET_ALL_TEAMS_FAILED, GET_ALL_TEAMS_SUCCESS, GET_NATIONAL_TEAM, GET_NATIONAL_TEAM_FAILED, GET_NATIONAL_TEAM_SUCCESS, GET_TEAM_DATA, GET_TEAM_DATA_FAILED, GET_TEAM_DATA_SUCCESS, GET_TEAM_FIXTURE, GET_TEAM_FIXTURE_FAILED, GET_TEAM_FIXTURE_SUCCESS, GET_TEAM_RESULTS, GET_TEAM_RESULTS_FAILED, GET_TEAM_RESULTS_SUCCESS, GET_TEAM_SQUADS, GET_TEAM_SQUADS_FAILED, GET_TEAM_SQUADS_SUCCESS, GET_TEAM_STATS_DISCPLINE, GET_TEAM_STATS_DISCPLINE_FAILED, GET_TEAM_STATS_DISCPLINE_SUCCESS, GET_TEAM_STATS_PERFORMANCE, GET_TEAM_STATS_PERFORMANCE_FAILED, GET_TEAM_STATS_PERFORMANCE_SUCCESS, GET_TEAM_STATS_SCORING, GET_TEAM_STATS_SCORING_FAILED, GET_TEAM_STATS_SCORING_SUCCESS, GET_TEAM_TRANSFERS, GET_TEAM_TRANSFERS_FAILED, GET_TEAM_TRANSFERS_SUCCESS, SET_FAV_NATIONAL_TEAM, SET_FAV_NATIONAL_TEAM_FAILED } from "./teamsActionType";
 
 export function getTeams(){
     return{
@@ -18,6 +18,7 @@ export function getTeamsSuccuessed(data){
     }
 }
 export function getTeamsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_ALL_TEAMS_FAILED,
         payload:error
@@ -38,6 +39,7 @@ export function getTeamDataSuccuessed(data){
     }
 }
 export function getTeamDataFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TEAM_DATA_FAILED,
         payload:error
@@ -58,6 +60,7 @@ export function getTeamFixtureSuccuessed(data){
     }
 }
 export function getTeamFixtureFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TEAM_FIXTURE_FAILED,
         payload:error
@@ -79,6 +82,7 @@ export function getTeamResultsSuccuessed(data){
     }
 }
 export function getTeamResultsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TEAM_RESULTS_FAILED,
         payload:error
@@ -99,6 +103,7 @@ export function getTeamSquadsSuccuessed(data){
     }
 }
 export function getTeamSquadsFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TEAM_SQUADS_FAILED,
         payload:error
@@ -118,6 +123,7 @@ export function getTeamStatsScoringSuccuessed(data){
     }
 }
 export function getTeamStatsScoringFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TEAM_STATS_SCORING_FAILED,
         payload:error
@@ -137,6 +143,7 @@ export function getTeamStatsDiscplineSuccuessed(data){
     }
 }
 export function getTeamStatsDiscplineFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TEAM_STATS_DISCPLINE_FAILED,
         payload:error
@@ -156,6 +163,7 @@ export function getTeamStatsPerformanceSuccuessed(data){
     }
 }
 export function getTeamStatsPerformanceFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TEAM_STATS_PERFORMANCE_FAILED,
         payload:error
@@ -175,11 +183,33 @@ export function getTeamTransfersSuccuessed(data){
     }
 }
 export function getTeamTransfersFailed(error){
+    window.location.replace("/notFound")
     return{
         type:GET_TEAM_TRANSFERS_FAILED,
         payload:error
     }
 }
+export function getNationalTeams(){
+    return{
+        type:GET_NATIONAL_TEAM
+    }
+}
+export function getNationalTeamsSuccuessed(data){
+    sessionStorage.setItem("allNationalTeams",JSON.stringify(data))
+   
+    return{
+        type:GET_NATIONAL_TEAM_SUCCESS,
+        payload:data
+    }
+}
+export function getNationalTeamsFailed(error){
+    window.location.replace("/notFound")
+    return{
+        type:GET_NATIONAL_TEAM_FAILED,
+        payload:error
+    }
+}
+
 export function GET_TEAMS(){
     return function(dispatch){
         dispatch(getTeams());     
@@ -295,6 +325,19 @@ export function GET_TEAM_TRANSFER_DATA(teamId,seasonId='any'){
         })
         .catch(()=>{
             dispatch(getTeamTransfersFailed("Error While Getting The Data"))         
+        })
+    }
+}
+export function GET_NATIONAL_TEAMS_DATA(){
+    return function(dispatch){
+        dispatch(getNationalTeams());     
+        axios.get(baseUrl+`api/teams/getNationalTeams`)
+        .then(re=>{
+            dispatch(getNationalTeamsSuccuessed(re.data))
+        })
+        .catch((err)=>{
+            console.log(err)
+            dispatch(getNationalTeamsFailed("Error While Getting The Data"))         
         })
     }
 }

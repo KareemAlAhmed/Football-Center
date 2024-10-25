@@ -36,3 +36,24 @@
 .matchPreview  .mainContainer .articleBody h3{
     margin-bottom: 5px;
 }
+@media (max-width: 1350px) {
+    .matchPreview .pageContent .mainContainer{
+        max-width: 60%;
+    }
+}
+@media (max-width: 990px) {
+    .matchPreview .pageContent .rightSideContainer{
+        display: none;
+    }
+    .matchPreview .pageContent .mainContainer{
+        max-width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .matchPreview .pageContent .mainContainer h1{
+        font-size: 27px;
+    }
+    .matchPreview .mainContainer .articleBody p{
+        font-size: 16px;
+    }
+}

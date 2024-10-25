@@ -148,3 +148,9 @@ section.gameStats .Wrapper .possesionStats .chartWrapper .teamLogos{
 section.gameStats .Wrapper .possesionStats .chartWrapper .teamLogos img{
     width: 35px;
 }
+section.gameStats .Wrapper .fullPageLink{
+    color: var(--text-color);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+}

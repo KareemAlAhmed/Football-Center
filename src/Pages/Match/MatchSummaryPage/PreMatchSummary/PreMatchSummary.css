@@ -61,3 +61,47 @@
 .gameBlock .cardHeader{
     height: fit-content !important;
 }
+.overviewMatchPage .pageContent .mainContainer :first-child {
+    padding-top: 0 !important;
+}
+@media (max-width: 1520px) {
+    .overviewMatchPage .pageContent .leftSideContainer{
+        margin-right: 0;
+    }
+    .overviewMatchPage .pageContent .rightSideContainer{
+        margin-left: 0
+    }
+    .overviewMatchPage .pageContent{
+        width: 100%;
+    }
+}
+.extraComp{
+    display: none;
+}
+@media (max-width: 1350px) {
+
+    .overviewMatchPage .pageContent .mainContainer{
+        width: calc(100% - 600px);
+    }
+    .overviewMatchPage .pageContent .mainContainer section.gameInfo,
+    .overviewMatchPage .pageContent .mainContainer .gamePreviewQuickInfo{
+        padding: 12px 0;
+    }
+
+}
+@media (max-width: 1200px) {
+
+    .overviewMatchPage .pageContent .leftSideContainer{
+        display: none;
+    }
+    .overviewMatchPage .pageContent .extraComp{
+        display: block;
+    }
+}
+@media (max-width: 991px) {
+
+    .overviewMatchPage .pageContent .rightSideContainer{
+        display: none;
+    }
+
+}

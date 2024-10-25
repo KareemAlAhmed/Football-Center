@@ -17,3 +17,15 @@
     display: flex;
     gap: 10px;
 }
+
+
+
+@media (max-width: 600px) {
+    .currentPlayerStats .cardHeader{
+        height: fit-content;
+    }
+    .PageLayout__MainContainer section.currentPlayerStats .cardTitle{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  }

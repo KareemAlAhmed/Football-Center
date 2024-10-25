@@ -1,5 +1,5 @@
 import { current } from "@reduxjs/toolkit";
-import { GET_TEAM_DATA, GET_TEAM_DATA_FAILED, GET_TEAM_DATA_SUCCESS, GET_TEAM_FIXTURE, GET_TEAM_FIXTURE_FAILED, GET_TEAM_FIXTURE_SUCCESS, GET_TEAM_RESULTS, GET_TEAM_RESULTS_FAILED, GET_TEAM_RESULTS_SUCCESS, GET_TEAM_SQUADS, GET_TEAM_SQUADS_FAILED, GET_TEAM_SQUADS_SUCCESS, GET_TEAM_STATS_DISCPLINE, GET_TEAM_STATS_DISCPLINE_FAILED, GET_TEAM_STATS_DISCPLINE_SUCCESS, GET_TEAM_STATS_PERFORMANCE, GET_TEAM_STATS_PERFORMANCE_FAILED, GET_TEAM_STATS_PERFORMANCE_SUCCESS, GET_TEAM_STATS_SCORING, GET_TEAM_STATS_SCORING_FAILED, GET_TEAM_STATS_SCORING_SUCCESS, GET_TEAM_TRANSFERS, GET_TEAM_TRANSFERS_FAILED, GET_TEAM_TRANSFERS_SUCCESS } from "./teamsActionType";
+import { GET_NATIONAL_TEAM, GET_NATIONAL_TEAM_FAILED, GET_NATIONAL_TEAM_SUCCESS, GET_TEAM_DATA, GET_TEAM_DATA_FAILED, GET_TEAM_DATA_SUCCESS, GET_TEAM_FIXTURE, GET_TEAM_FIXTURE_FAILED, GET_TEAM_FIXTURE_SUCCESS, GET_TEAM_RESULTS, GET_TEAM_RESULTS_FAILED, GET_TEAM_RESULTS_SUCCESS, GET_TEAM_SQUADS, GET_TEAM_SQUADS_FAILED, GET_TEAM_SQUADS_SUCCESS, GET_TEAM_STATS_DISCPLINE, GET_TEAM_STATS_DISCPLINE_FAILED, GET_TEAM_STATS_DISCPLINE_SUCCESS, GET_TEAM_STATS_PERFORMANCE, GET_TEAM_STATS_PERFORMANCE_FAILED, GET_TEAM_STATS_PERFORMANCE_SUCCESS, GET_TEAM_STATS_SCORING, GET_TEAM_STATS_SCORING_FAILED, GET_TEAM_STATS_SCORING_SUCCESS, GET_TEAM_TRANSFERS, GET_TEAM_TRANSFERS_FAILED, GET_TEAM_TRANSFERS_SUCCESS } from "./teamsActionType";
 
 
 const initalState={
@@ -13,6 +13,7 @@ const initalState={
     currentTeamStatsDiscpline:sessionStorage.getItem("currentTeamStatsDiscpline") !=null ? JSON.parse(sessionStorage.getItem("currentTeamStatsDiscpline")) :{},
     currentTeamStatsPerformance:sessionStorage.getItem("currentTeamStatsPerformance") !=null ? JSON.parse(sessionStorage.getItem("currentTeamStatsPerformance")) :{},
     currentTeamTransfers:sessionStorage.getItem("currentTeamTransfers") !=null ? JSON.parse(sessionStorage.getItem("currentTeamTransfers")) :{},
+    allNationalTeams:sessionStorage.getItem("allNationalTeams") !=null ? JSON.parse(sessionStorage.getItem("allNationalTeams")) :[],
     currentError:"",
 
    
@@ -173,6 +174,25 @@ const teamsReducer=(state=initalState,action)=>{
                 ...state,
                 loading:false,
                 currentTeamTransfers:{},
+                currentError:action.payload,
+            }
+        case GET_NATIONAL_TEAM:
+            return {
+                ...state,
+                loading:true,
+                currentUserError:""
+            }
+        case GET_NATIONAL_TEAM_SUCCESS:
+            return {
+                ...state,
+                loading:false,
+                allNationalTeams:action.payload
+            }
+        case GET_NATIONAL_TEAM_FAILED:
+            return {
+                ...state,
+                loading:false,
+                allNationalTeams:[],
                 currentError:action.payload,
             }
         

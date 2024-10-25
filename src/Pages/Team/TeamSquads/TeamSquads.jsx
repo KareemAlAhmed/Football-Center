@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {GET_TEAM_INFO, GET_TEAM_RESULTS_DATA, GET_TEAM_SQUADS_DATA } from '../../../redux/team/teamsActions';
 import TeamIntroduct from '../../../components/TeamIntroduct/TeamIntroduct';
 import { getPlayerLink, getTeamImage } from '../../../utils/baseUrl';
+import { ToastContainer } from 'react-toastify';
 
 export default function TeamSquads() {
     let [selectedLeague,setSelectedLeague]=useState("all")
@@ -42,9 +43,9 @@ export default function TeamSquads() {
                 <div className="wrapper">
                     {loading ? (
                     <div className="loadingBlock">
-                    <span class="ouro ouro3">
-                        <span class="left"><span class="anim"></span></span>
-                        <span class="right"><span class="anim"></span></span>
+                    <span className="ouro ouro3">
+                        <span className="left"><span className="anim"></span></span>
+                        <span className="right"><span className="anim"></span></span>
                     </span>
                     </div>
                     ):(
@@ -160,12 +161,13 @@ export default function TeamSquads() {
                     </div>
                   </>
                 )}
-                <div class="glossary glossary--fullWidth glossary--fullWidth--desktopLG"><h3 class="glossary__title">Glossary</h3><ul class="glossary__list glossary__list--desktopLG"><li class="glossary__item"><span class="glossary__abbr">Name:</span>Name</li><li class="glossary__item"><span class="glossary__abbr">POS:</span>Position </li><li class="glossary__item"><span class="glossary__abbr">Age:</span>Current age of player</li><li class="glossary__item"><span class="glossary__abbr">HT:</span>Height</li><li class="glossary__item"><span class="glossary__abbr">WT:</span>Weight</li><li class="glossary__item"><span class="glossary__abbr">NAT:</span>Nationality</li><li class="glossary__item"><span class="glossary__abbr">APP:</span>Appearances</li><li class="glossary__item"><span class="glossary__abbr">SUB:</span>Substitute Appearances</li><li class="glossary__item"><span class="glossary__abbr">G:</span>Total Goals</li><li class="glossary__item"><span class="glossary__abbr">A:</span>Assists</li><li class="glossary__item"><span class="glossary__abbr">SH:</span>Shots</li><li class="glossary__item"><span class="glossary__abbr">ST:</span>Shots On Target</li><li class="glossary__item"><span class="glossary__abbr">FC:</span>Fouls Committed</li><li class="glossary__item"><span class="glossary__abbr">FA:</span>Fouls Suffered</li><li class="glossary__item"><span class="glossary__abbr">YC:</span>Yellow Cards</li><li class="glossary__item"><span class="glossary__abbr">RC:</span>Red Cards</li><li class="glossary__item"><span class="glossary__abbr">SV:</span>Saves</li><li class="glossary__item"><span class="glossary__abbr">GA:</span>Goals Against</li></ul></div>
+                <div className="glossary glossary--fullWidth glossary--fullWidth--desktopLG"><h3 className="glossary__title">Glossary</h3><ul className="glossary__list glossary__list--desktopLG"><li className="glossary__item"><span className="glossary__abbr">Name:</span>Name</li><li className="glossary__item"><span className="glossary__abbr">POS:</span>Position </li><li className="glossary__item"><span className="glossary__abbr">Age:</span>Current age of player</li><li className="glossary__item"><span className="glossary__abbr">HT:</span>Height</li><li className="glossary__item"><span className="glossary__abbr">WT:</span>Weight</li><li className="glossary__item"><span className="glossary__abbr">NAT:</span>Nationality</li><li className="glossary__item"><span className="glossary__abbr">APP:</span>Appearances</li><li className="glossary__item"><span className="glossary__abbr">SUB:</span>Substitute Appearances</li><li className="glossary__item"><span className="glossary__abbr">G:</span>Total Goals</li><li className="glossary__item"><span className="glossary__abbr">A:</span>Assists</li><li className="glossary__item"><span className="glossary__abbr">SH:</span>Shots</li><li className="glossary__item"><span className="glossary__abbr">ST:</span>Shots On Target</li><li className="glossary__item"><span className="glossary__abbr">FC:</span>Fouls Committed</li><li className="glossary__item"><span className="glossary__abbr">FA:</span>Fouls Suffered</li><li className="glossary__item"><span className="glossary__abbr">YC:</span>Yellow Cards</li><li className="glossary__item"><span className="glossary__abbr">RC:</span>Red Cards</li><li className="glossary__item"><span className="glossary__abbr">SV:</span>Saves</li><li className="glossary__item"><span className="glossary__abbr">GA:</span>Goals Against</li></ul></div>
                 </div>
 
             </div>
         </div>
         <Footer />
+        <ToastContainer />
     </>
   )
 }

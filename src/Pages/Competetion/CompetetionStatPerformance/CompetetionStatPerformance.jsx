@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import NavBar from '../../../components/NavBar/NavBar';
 import CompetStatsOpt from '../../../components/CompetStatsOpt/CompetStatsOpt';
 import { GET_COMPET_STATS_PERFORMANCE_INFO } from '../../../redux/tourns/tournsActions';
-import { getTeamImage } from '../../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getTeamImage } from '../../../utils/baseUrl';
 export default function CompetetionStatPerformance() {
     let [selectedSeason,setSelectedSeason]=useState(`${new Date().getFullYear()}`)
     let { competId } = useParams();
@@ -44,9 +44,9 @@ export default function CompetetionStatPerformance() {
                 <div className="wrapper">
                     {loading ? (
                     <div className="loadingBlock">
-                    <span class="ouro ouro3">
-                        <span class="left"><span class="anim"></span></span>
-                        <span class="right"><span class="anim"></span></span>
+                    <span className="ouro ouro3">
+                        <span className="left"><span className="anim"></span></span>
+                        <span className="right"><span className="anim"></span></span>
                     </span>
                     </div>
                     ):(
@@ -75,7 +75,7 @@ export default function CompetetionStatPerformance() {
 
                         {currentCompetStatsPerformance.listOfMatchPerformance?.length > 0 ? (
                             <div className="listOfStats">           
-                                <div className="Table__fixtures" >
+                                <div className="matchPerTable" >
                                         <div className="Table_Title"><h3>Match Performance</h3></div>
                                         <div className="Table_Data">
                                             <table>
@@ -97,12 +97,13 @@ export default function CompetetionStatPerformance() {
                                                                         <div className="homeTeamBlock">
                                                                             <div className="homeTeamName">
                                                                                 <Link to={`/team/_/id/${match.homeTeam.id}/${match.homeTeam.slug}`}>
-                                                                                    <span>{match.homeTeam.name}</span>
+                                                                                    <span className='hide-mobile'>{match.homeTeam.name}</span>
+                                                                                    <span className='show-mobile'>{match.homeTeam.shortName}</span>
                                                                                 </Link>
                                                                             </div>
                                                                             <div className="teamLogo">
                                                                                 <Link to={`/team/_/id/${match.homeTeam.id}/${match.homeTeam.slug}`}>
-                                                                                    <img src={getTeamImage(match.homeTeam.id)} alt="" />
+                                                                                    <img src={getTeamImage(match.homeTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                                                                 </Link>
                                                                             </div>
                                                                         </div>
@@ -113,12 +114,13 @@ export default function CompetetionStatPerformance() {
                                                                         <div className="awayTeamBlock">
                                                                             <div className="teamLogo">
                                                                                 <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`}>
-                                                                                    <img src={getTeamImage(match.awayTeam.id)} alt="" />
+                                                                                    <img src={getTeamImage(match.awayTeam.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                                                                 </Link>
                                                                             </div>
                                                                             <div className="awayTeamName">
                                                                                 <Link to={`/team/_/id/${match.awayTeam.id}/${match.awayTeam.slug}`}>
-                                                                                    <span>{match.awayTeam.name}</span>
+                                                                                    <span className='hide-mobile'>{match.awayTeam.name}</span>
+                                                                                    <span className='show-mobile'>{match.awayTeam.shortName}</span>
                                                                                 </Link>
                                                                             </div>
                                                                         </div>
@@ -134,13 +136,14 @@ export default function CompetetionStatPerformance() {
                                 
                                         
                             </div>
-                            <div className="Table__fixtures" >
+                            <div className="streaksTable" >
                                         <div className="Table_Title"><h3>Streaks</h3></div>
                                         <div className="Table_Data">
                                             <table>
                                                 <thead>
                                                     <tr>
                                                         <th>CATEGORY</th>
+                                                        <th>TEAM</th>
                                                         <th>GAMES</th>
                                                     </tr>
                                                 </thead>
@@ -149,6 +152,7 @@ export default function CompetetionStatPerformance() {
                                                         currentCompetStatsPerformance.listOfStreaks?.map((match,index3)=>{
                                                             return <tr key={index3}>
                                                                     <td>{match.name}</td>
+                                                                    <td>{match.teamName}</td>
                                                                     <td>{match.number}</td>                                                          
                                                             </tr>
                                                         })
@@ -159,7 +163,7 @@ export default function CompetetionStatPerformance() {
                                 
                                         
                             </div>
-                            <div className="Table__fixtures" >
+                            <div className="attendTable" >
                                         <div className="Table_Title"><h3>Attendance</h3></div>
                                         <div className="Table_Data">
                                             <table>
@@ -183,12 +187,13 @@ export default function CompetetionStatPerformance() {
                                                                              <div className="homeTeamBlock">
                                                                             <div className="homeTeamName">
                                                                             <Link to={`/team/_/id/${match.match.homeTeam?.id}/${match.match.homeTeam?.slug}`}>
-                                                                                <span>{match.match.homeTeam?.name}</span>
+                                                                                <span className='hide-mobile'>{match.match.homeTeam?.name}</span>
+                                                                                <span className='show-mobile'>{match.match.homeTeam?.shortName}</span>
                                                                             </Link>
                                                                             </div>
                                                                             <div className="teamLogo">
                                                                                 <Link to={`/team/_/id/${match.match.homeTeam?.id}/${match.match.homeTeam?.slug}`}>
-                                                                                    <img src={getTeamImage(match.match.homeTeam?.id)} alt="" />
+                                                                                    <img src={getTeamImage(match.match.homeTeam?.id)} alt="" onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }} />
                                                                                 </Link>
                                                                             </div>
                                                                         </div>
@@ -199,12 +204,14 @@ export default function CompetetionStatPerformance() {
                                                                         <div className="awayTeamBlock">
                                                                             <div className="teamLogo">
                                                                                 <Link to={`/team/_/id/${match.match.awayTeam?.id}/${match.match.awayTeam?.slug}`}>
-                                                                                    <img src={getTeamImage(match.match.awayTeam?.id)} alt="" />
+                                                                                    <img src={getTeamImage(match.match.awayTeam?.id)} alt=""  onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
                                                                                 </Link>
                                                                             </div>
                                                                             <div className="awayTeamName">
                                                                                 <Link to={`/team/_/id/${match.match.awayTeam?.id}/${match.match.awayTeam?.slug}`}>
-                                                                                    <span>{match.match.awayTeam?.name}</span>
+        
+                                                                                    <span className='hide-mobile'>{match.match.awayTeam?.name}</span>
+                                                                                    <span className='show-mobile'>{match.match.awayTeam?.shortName}</span>
                                                                                 </Link>
                                                                             </div>
                                                                         </div>

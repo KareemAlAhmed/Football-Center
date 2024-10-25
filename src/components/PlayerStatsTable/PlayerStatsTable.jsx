@@ -1,6 +1,6 @@
 import React from 'react'
 import "./PlayerStatsTable.css"
-import { getTeamImage } from '../../utils/baseUrl';
+import { getDefaultTeamOrCompetLogo, getTeamImage } from '../../utils/baseUrl';
 import { Link } from 'react-router-dom';
 export default function PlayerStatsTable({stats}) {
   return (
@@ -31,7 +31,7 @@ export default function PlayerStatsTable({stats}) {
                       <td>{stats.name}</td>
                       <td className='teamStat'>
                             <div className="teamLogo">
-                                <img src={getTeamImage(stats.team.id)} alt="" />
+                                <img src={getTeamImage(stats.team.id)} alt=""  onError={(e) => { e.target.src = getDefaultTeamOrCompetLogo(); }}/>
                             </div>
                             <Link className="teamName">
                                 <span>{stats.team.name}</span>

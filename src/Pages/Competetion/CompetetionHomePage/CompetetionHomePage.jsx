@@ -44,9 +44,9 @@ export default function CompetetionHomePage() {
             <div className="wrapper">
                 {loading ? (
                    <div className="loadingBlock">
-                   <span class="ouro ouro3">
-                     <span class="left"><span class="anim"></span></span>
-                     <span class="right"><span class="anim"></span></span>
+                   <span className="ouro ouro3">
+                     <span className="left"><span className="anim"></span></span>
+                     <span className="right"><span className="anim"></span></span>
                    </span>
                  </div>
                 ):(
@@ -78,37 +78,39 @@ export default function CompetetionHomePage() {
                                 </article>
                             })}
                         </div>
-
-                        <div className="competStanding">
-                        <h4 className="leagueName">{currentCompetData.standing?.name}</h4>
-                          <table>
-                            <thead>
-                              <tr>
-                                <th>TEAM</th>
-                                <th>GP</th>
-                                <th>W</th>
-                                <th>D</th>
-                                <th>L</th>
-                                <th>GD</th>
-                                <th>P</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {currentCompetData.standing?.clubsList.map((team,ind2)=>{
-                                return <tr key={ind2}>
-                                    <td><Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link></td>
-                                    <td>{team.GP}</td>
-                                    <td>{team.W}</td>
-                                    <td>{team.D}</td>
-                                    <td>{team.L}</td>
-                                    <td>{team.GD}</td>
-                                    <td>{team.P}</td>
+                        {currentCompetData.standing?.clubsList && (
+                          <div className="competStanding">
+                          <h4 className="leagueName">{currentCompetData.standing?.name}</h4>
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th>TEAM</th>
+                                  <th>GP</th>
+                                  <th>W</th>
+                                  <th>D</th>
+                                  <th>L</th>
+                                  <th>GD</th>
+                                  <th>P</th>
                                 </tr>
-                              })}
-                            </tbody>
-                          </table>
-                          <Link to="" className='moreStandings'>Standings</Link>
-                        </div>
+                              </thead>
+                              <tbody>
+                                {currentCompetData.standing?.clubsList?.map((team,ind2)=>{
+                                  return <tr key={ind2}>
+                                      <td><Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link></td>
+                                      <td>{team.GP}</td>
+                                      <td>{team.W}</td>
+                                      <td>{team.D}</td>
+                                      <td>{team.L}</td>
+                                      <td>{team.GD}</td>
+                                      <td>{team.P}</td>
+                                  </tr>
+                                })}
+                              </tbody>
+                            </table>
+                            <Link to="" className='moreStandings'>Standings</Link>
+                          </div>
+                        )}
+                        
 
                     </div>
                   </>

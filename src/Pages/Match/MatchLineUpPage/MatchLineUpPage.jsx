@@ -9,6 +9,9 @@ import GameInfo from "../../../components/GameComponents/GameInfo/GameInfo";
 import GameIntro from "../../../components/GameComponents/GameIntro/GameIntro";
 import { GET_TEAM_INFO } from "../../../redux/team/teamsActions";
 import GameLineUp from "../../../components/GameComponents/GameLineUp/GameLineUp";
+import { generateShortName } from "../../../utils/baseUrl";
+import SideBarLineUp from "../../../components/GameComponents/SideBarLineUp/SideBarLineUp";
+import GameStatsComp from "../../../components/GameComponents/GameStatsComp/GameStatsComp";
 
 export default function MatchLineUpPage() {
     let { gameId } = useParams();
@@ -44,14 +47,14 @@ export default function MatchLineUpPage() {
     return (
     <>
     <NavBar />
-    <div className="gameBlock matchStats">
+    <div className="gameBlock matchLineUpPage">
       <div className="container">
         <div className="wrapper">
             {loading ? (
                <div className="loadingBlock">
-               <span class="ouro ouro3">
-                 <span class="left"><span class="anim"></span></span>
-                 <span class="right"><span class="anim"></span></span>
+               <span className="ouro ouro3">
+                 <span className="left"><span className="anim"></span></span>
+                 <span className="right"><span className="anim"></span></span>
                </span>
              </div>
             ):(
@@ -63,40 +66,56 @@ export default function MatchLineUpPage() {
             
                     <div className="mainContainer">
                        <GameLineUp homeTeam={currentMatchLineUp?.homeTeam} awayTeam={currentMatchLineUp?.awayTeam} lineUp={currentMatchLineUp} />
+                       <div className="extraComp">
+                        {
+                          currentMatchLineUp?.isLinupsAvai ? (
+                            <SideBarLineUp homeTeam={currentMatchLineUp?.homeTeam} awayTeam={currentMatchLineUp?.awayTeam} lineUps={currentMatchLineUp?.lineUps} />
+                          ) :(
+                            <GameStatsComp stats={currentMatchLineUp} />
+                          )
+                        }
+                        <GameInfo info={currentMatchLineUp} />
+                      </div>
                     </div>
-                    <div className="rightSideContainer">
-                      <GameInfo info={currentMatchLineUp} />
-                      <div className="competStanding">
-                        <h4 className="leagueName">{currentMatchLineUp?.currentCompet?.name}</h4>
-                          <table>
-                            <thead>
-                              <tr>
-                                <th>TEAM</th>
-                                <th>GP</th>
-                                <th>W</th>
-                                <th>D</th>
-                                <th>L</th>
-                                <th>GD</th>
-                                <th>P</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {currentMatchLineUp.currentCompet?.clubsList.map((team,ind2)=>{
-                                return <tr key={ind2}>
-                                    <td><Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link></td>
-                                    <td>{team.GP}</td>
-                                    <td>{team.W}</td>
-                                    <td>{team.D}</td>
-                                    <td>{team.L}</td>
-                                    <td>{team.GD}</td>
-                                    <td>{team.P}</td>
+                    {currentMatchLineUp.currentCompet?.clubsList && (
+                        <div className="rightSideContainer">
+                        <GameInfo info={currentMatchLineUp} />
+                        <div className="competStanding">
+                          <h4 className="leagueName">{currentMatchLineUp?.currentCompet?.name}</h4>
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th>TEAM</th>
+                                  <th>GP</th>
+                                  <th>W</th>
+                                  <th>D</th>
+                                  <th>L</th>
+                                  <th>GD</th>
+                                  <th>P</th>
                                 </tr>
-                              })}
-                            </tbody>
-                          </table>
-                          <Link to="" className='moreStandings'>Standings</Link>
-                        </div>
-                    </div>
+                              </thead>
+                              <tbody>
+                                {currentMatchLineUp.currentCompet?.clubsList?.map((team,ind2)=>{
+                                  return <tr key={ind2}>
+                                      <td>
+                                        <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
+                                        <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{generateShortName(team.name)}</Link>
+                                      </td>
+                                      <td>{team.GP}</td>
+                                      <td>{team.W}</td>
+                                      <td>{team.D}</td>
+                                      <td>{team.L}</td>
+                                      <td>{team.GD}</td>
+                                      <td>{team.P}</td>
+                                  </tr>
+                                })}
+                              </tbody>
+                            </table>
+                            <Link to="" className='moreStandings'>Standings</Link>
+                          </div>
+                      </div>
+                    )}
+                    
                 </div>
               </>
             )}

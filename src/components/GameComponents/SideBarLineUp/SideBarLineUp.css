@@ -145,3 +145,10 @@ section.sideBarLineup .Wrapper .onSubstitutesPlayers table thead th:first-of-typ
 section.sideBarLineup .Wrapper .onPitchPlayersList{
     margin-bottom: 10px;
 }
+@media (max-width: 1200px) {
+
+    .overviewMatchPage .pageContent .mainContainer section.sideBarLineup .Wrapper .allTeamPlayers{
+        display: flex;
+        justify-content: space-between;
+    }
+}

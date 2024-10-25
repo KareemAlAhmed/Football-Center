@@ -1,5 +1,7 @@
 import React from 'react'
 import "./FeaturedNews.css"
+import { Link } from 'react-router-dom';
+import { getArticleLink } from '../../../utils/baseUrl';
 
 export default function FeaturedNews({news}) {
     
@@ -21,13 +23,12 @@ export default function FeaturedNews({news}) {
         </div>
         <div className="newsContent">
           <div className="newsImg">
-
-            <img src={news?.articleImageUrl} alt="" />
-        
+            <Link to={getArticleLink(news?.id,news?.slug,"story")}>
+              <img src={news?.articleImageUrl} alt="" />
+            </Link>
           </div>
           <div className="newsInfo">
-
-              <a href='/' className='newsTitle'>{news?.articleTitle}</a>
+              <Link to={getArticleLink(news?.id,news?.slug,"story")} className='newsTitle'>{news?.articleTitle}</Link>
               <p className='newsContent'>{news?.articleContent}</p>
               <div className="channel">
                   <div className="channelLogo">
