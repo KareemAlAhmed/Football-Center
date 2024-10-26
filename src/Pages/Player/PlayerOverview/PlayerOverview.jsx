@@ -7,7 +7,7 @@ import Footer from '../../../components/Footer/Footer';
 import NavBar from '../../../components/NavBar/NavBar';
 import PlayerIntro from '../../../components/PlayerIntro/PlayerIntro';
 import { GET_TEAM_RESULTS_DATA } from '../../../redux/team/teamsActions';
-import { generateShortName, getDefaultTeamOrCompetLogo, getTeamImage } from '../../../utils/baseUrl';
+import { generateShortName, getDefaultTeamOrCompetLogo, getGameLink, getTeamImage } from '../../../utils/baseUrl';
 import SwitchPlayersComp from '../../../components/SwitchPlayersComp/SwitchPlayersComp';
 import PlayerStatsHomePageComp from '../../../components/PlayerStatsHomePageComp/PlayerStatsHomePageComp';
 import { ToastContainer } from 'react-toastify';
@@ -155,7 +155,7 @@ export default function PlayerOverview() {
                           <div className="gameCompetetion">
                             <span>{currentPlayerInfo?.team?.nextGame?.competetion}</span>
                           </div>
-                          <Link className="gameInfo">
+                          <Link className="gameInfo" to={getGameLink(currentPlayerInfo?.team?.nextGame?.gameId,currentPlayerInfo?.team?.nextGame?.gameSlug)}>
                               <div className="homeTeam">
                                 <p className="teamName">{currentPlayerInfo?.team?.nextGame?.homeTeam.name}</p>
                                 <p className="teamName shortName">{generateShortName(currentPlayerInfo?.team?.nextGame?.homeTeam.name) }</p>

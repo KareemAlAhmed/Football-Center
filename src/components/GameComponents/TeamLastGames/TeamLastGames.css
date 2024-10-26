@@ -5,7 +5,7 @@ section.gameTeamLastMatches{
     padding: 0 12px;
 }
 section.gameTeamLastMatches .cardTitle{
-    border-style: solid;
+    /* border-style: solid; */
 }
 section.gameTeamLastMatches  .cardTitle .TeamLogo{
     width: 20px;

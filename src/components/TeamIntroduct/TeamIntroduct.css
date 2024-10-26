@@ -25,6 +25,7 @@
     font-weight: 600;
     border-radius: 14px;
     transition: all 0.3s ease;
+    font-size: 15px;
 }
 .pageHeader .teamInfo button:hover{
     color: var(--hover-color) !important;

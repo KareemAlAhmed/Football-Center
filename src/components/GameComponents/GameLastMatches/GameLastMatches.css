@@ -5,7 +5,7 @@ section.gameLastTimes{
     padding: 0 12px;
 }
 section.gameLastTimes .cardTitle{
-    border-style: solid;
+    /* border-style: solid; */
 }
 section.gameLastTimes .cardTitle p{
     font-size: 18px;

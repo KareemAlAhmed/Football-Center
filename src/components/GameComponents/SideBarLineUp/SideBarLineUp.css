@@ -23,6 +23,7 @@ section.sideBarLineup .Wrapper button .tabs__list__item__logo img{
     background-color: var(--button-hover-color);
 }
 .activeLineUp span{
+    font-size: 15px;
     color: var(--text-color);
 }
 

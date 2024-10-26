@@ -18,7 +18,7 @@ export default function Clubs() {
     let titleBlock=document.querySelector(".titleBlock")
     let loadingHeight=window.innerHeight - 95 -titleBlock.offsetHeight - document.querySelector(".footer").offsetHeight -35
         if(document.querySelector(".loadingBlock")){
-          document.querySelector(".loadingBlock").style.height=`${loadingHeight}px`
+          document.querySelector(".loadingBlock").style.minHeight=`${loadingHeight}px`
         }
         if(document.querySelector(".allTeams")){
           document.querySelector(".allTeams").style.minHeight=`${loadingHeight}px`
