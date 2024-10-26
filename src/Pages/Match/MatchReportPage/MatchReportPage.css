@@ -36,3 +36,16 @@
 .matchReport  .mainContainer .articleBody h3{
     margin-bottom: 5px;
 }
+@media (max-width: 1350px) {
+    .matchPreview .pageContent .mainContainer{
+        max-width: 60%;
+    }
+}
+@media (max-width: 990px) {
+    .matchReport .pageContent .rightSideContainer{
+        display: none;
+    }
+    .matchReport .pageContent .mainContainer{
+        max-width: 100%;
+    }
+}

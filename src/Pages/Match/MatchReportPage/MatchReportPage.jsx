@@ -8,6 +8,7 @@ import GameIntro from '../../../components/GameComponents/GameIntro/GameIntro';
 import NavBar from '../../../components/NavBar/NavBar';
 import { GET_MATCH_REPORT_DATA } from '../../../redux/matches/matchesAction';
 import { useDispatch, useSelector } from 'react-redux';
+import { generateShortName } from '../../../utils/baseUrl';
 export default function MatchReportPage() {
     let { gameId } = useParams();
     let { gameSlug } = useParams();
@@ -116,7 +117,10 @@ export default function MatchReportPage() {
                                            <tbody>
                                              {currentMatchReport.currentCompet?.clubsList?.map((team,ind2)=>{
                                                return <tr key={ind2}>
-                                                   <td><Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link></td>
+                                                   <td>
+                                                    <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
+                                                    <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{generateShortName(team.name)}</Link>
+                                                    </td>
                                                    <td>{team.GP}</td>
                                                    <td>{team.W}</td>
                                                    <td>{team.D}</td>

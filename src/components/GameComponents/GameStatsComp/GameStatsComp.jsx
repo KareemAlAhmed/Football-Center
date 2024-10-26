@@ -8,18 +8,18 @@ export default function GameStatsComp({stats,type}) {
     let AwayStatsColor;
     if(stats){
         HomeStatsColor={
-            backgroundColor:stats.homeTeam.color1 === "#ffffff" ? "var(--text-color)" : stats.homeTeam.color1
+            backgroundColor:stats?.homeTeam?.color1 === "#ffffff" ? "var(--text-color)" : stats?.homeTeam?.color1
         }
         AwayStatsColor={
-            backgroundColor:stats.awayTeam.color1 === "#ffffff" ? "var(--text-color)" : stats.awayTeam.color1
+            backgroundColor:stats?.awayTeam?.color1 === "#ffffff" ? "var(--text-color)" : stats?.awayTeam?.color1
         }
     }
     const getStatsProgress=(teamType,currentTeamStats,oppStatsValue)=>{
         let backColor;
         if(teamType==="homeTeam"){
-            backColor=stats.homeTeam.color1 === "#ffffff" ? "var(--text-color)" : stats.homeTeam.color1;
+            backColor=stats?.homeTeam?.color1 === "#ffffff" ? "var(--text-color)" : stats?.homeTeam?.color1;
         }else{
-            backColor=stats.awayTeam.color1 === "#ffffff" ? "var(--text-color)" : stats.awayTeam.color1;
+            backColor=stats?.awayTeam?.color1 === "#ffffff" ? "var(--text-color)" : stats?.awayTeam?.color1;
         }
         let width;
         if(parseInt(currentTeamStats) > parseInt(oppStatsValue) || parseInt(currentTeamStats) === parseInt(oppStatsValue)){
