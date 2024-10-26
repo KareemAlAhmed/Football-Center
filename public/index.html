@@ -40,7 +40,6 @@
 
       // Function to apply the correct theme class based on user preference
       function applyTheme() {
-        console.log(user.theme === "light");
         if (user.theme === "light") {
           document.body.classList.add("light-theme");
         } else {
@@ -59,7 +58,7 @@
     </script>
   </head>
 
-  <body onLoad="window.scroll(1, 1)">
+  <body onLoad="window.scroll(1, 1);">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>

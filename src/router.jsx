@@ -60,7 +60,14 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
-      sessionStorage.setItem("activeNav","homeNav")
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
+      sessionStorage.setItem("activeNav","homeNav");
+        // Reset navbar height
+      
       return true;
    }
   },
@@ -69,6 +76,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }
@@ -90,6 +102,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }
@@ -127,6 +144,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }
@@ -153,6 +175,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       sessionStorage.setItem("activeNav","ScheduleNav")
       return true;
    },
@@ -162,6 +189,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       sessionStorage.setItem("activeNav","ScoresNav")
       return true;
    },
@@ -171,6 +203,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       sessionStorage.setItem("activeNav","LeaguesNav")
       return true;
    },
@@ -180,6 +217,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       sessionStorage.setItem("activeNav","TeamsNav")
       return true;
    },
@@ -188,6 +230,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       sessionStorage.setItem("activeNav","TransfersNav")
       return true;
    },
@@ -210,6 +257,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }
@@ -284,6 +336,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }
@@ -363,6 +420,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }
@@ -416,6 +478,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }
@@ -426,6 +493,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }
@@ -489,6 +561,11 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }
@@ -515,6 +592,11 @@ export const router = createBrowserRouter([
       }
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+       const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
       if(sessionStorage.getItem("activeNav") !== null){
         sessionStorage.removeItem("activeNav")
       }

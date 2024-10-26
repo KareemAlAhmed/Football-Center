@@ -9,6 +9,7 @@ import CompetetionSlider from '../../components/CompetetionSlider/CompetetionSli
 import Footer from '../../components/Footer/Footer';
 import { useDispatch, useSelector } from 'react-redux';
 import { GET_HOMEPAGE_NEWS_DATA } from '../../redux/news/newsActions';
+import { toast, ToastContainer, Zoom } from 'react-toastify';
 
 export default function Homepage() {
 
@@ -20,15 +21,32 @@ export default function Homepage() {
     const dispatch=useDispatch()
   
     useEffect(()=>{
+        if(sessionStorage.getItem("appsInfos") == null){
+            toast.info('Hosting Server Has 50s Delay for FrontEnd And BackEnd', {
+                position: "top-center",
+                autoClose: 7000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+                transition: Zoom,
+            });
+            sessionStorage.setItem("appsInfos","Info Displayed")
+        }
         let allNews=JSON.parse(sessionStorage.getItem("listOfNews"))
         if(allNews == null){
             dispatch(GET_HOMEPAGE_NEWS_DATA())
         }
 
         let loadingHeight=window.innerHeight - 95  - document.querySelector(".footer").offsetHeight -50
-
-        if(document.querySelector(".loadingBlock")){
-          document.querySelector(".loadingBlock").style.height=`${loadingHeight}px`
+        let homeHeight=window.innerHeight - 95
+        if(document.querySelector(".home")){
+            document.querySelector(".home").style.height=`${homeHeight}px`
+          }
+        if(document.querySelector(".mainContainerWrapper")){
+          document.querySelector(".mainContainerWrapper").style.minHeight=`${homeHeight - document.querySelector(".footer").offsetHeight  - 50}px`
         }
         if(document.querySelector(".allTeams")){
           document.querySelector(".allTeams").style.minHeight=`${loadingHeight}px`
@@ -38,6 +56,7 @@ export default function Homepage() {
         <>
             <NavBar />
             <div className='home'>
+                <div  className="mainContainerWrapper" >
                 {loading ?
                     (
                     <div className="loadingBlock">
@@ -100,7 +119,10 @@ export default function Homepage() {
                             </div>
                         </>
                     )}  
-                <Footer />
+                </div>
+                
+                <Footer /> 
+                <ToastContainer position="top-center" autoClose={7000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="dark" />
             </div>
         </>
   )

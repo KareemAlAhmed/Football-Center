@@ -3,7 +3,15 @@
     display: flex;
     flex-direction: column;
 }
-
+.home  .mainContainerWrapper{
+    position: relative;
+}
+.home  .mainContainerWrapper .loadingBlock{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+}
 .home .container h3{
     color: var(--text-color);
     margin-bottom: 1rem;
@@ -25,6 +33,7 @@
 .newsTitle:hover{
     color: var(--hover-color) !important;
 }
+
 @media (max-width: 600px) {
     .listOfNews{
         width: 100%;

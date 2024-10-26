@@ -8,7 +8,7 @@ import NewsSmallCard from '../../../components/News/NewsSmallCard/NewsSmallCard'
 import CompetetionIntro from '../../../components/CompetetionIntro/CompetetionIntro';
 import { GET_COMPET_DATA } from '../../../redux/tourns/tournsActions';
 import { GET_TEAM_INFO } from '../../../redux/team/teamsActions';
-import { getArticleLink } from '../../../utils/baseUrl';
+import { generateShortName, getArticleLink } from '../../../utils/baseUrl';
 export default function CompetetionHomePage() {
   let { competId } = useParams();
   let { competSlug } = useParams();
@@ -96,7 +96,10 @@ export default function CompetetionHomePage() {
                               <tbody>
                                 {currentCompetData.standing?.clubsList?.map((team,ind2)=>{
                                   return <tr key={ind2}>
-                                      <td><Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link></td>
+                                      <td>
+                                        <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{team.name}</Link>
+                                        <Link to={`/team/_/id/${team.id}/${team.slug}`} onClick={()=>dispatch(GET_TEAM_INFO(team.id))}>{generateShortName(team.name)}</Link>
+                                      </td>
                                       <td>{team.GP}</td>
                                       <td>{team.W}</td>
                                       <td>{team.D}</td>

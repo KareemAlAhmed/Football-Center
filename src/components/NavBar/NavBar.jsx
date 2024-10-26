@@ -34,56 +34,29 @@ export default function NavBar() {
   const day = today.getDate().toString().padStart(2, '0');
   
   const formattedDate = `${year}${month}${day}`;
-  window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-    let nav=document.getElementById("navBar");
-    if(currentScrollPos < 92){
-      if(nav.classList.contains("navToBottom")){
-        nav.classList.remove("navToBottom")
-      }
-    }
-    if (prevScrollpos > currentScrollPos) {
-      nav.style.top = "0";
-    } else {
-      nav.style.top = `-${nav.offsetHeight +2}px`;
-      nav.classList.add("navToBottom")
-      
-    }
-    prevScrollpos = currentScrollPos;
-  }
+
   useEffect(() => {
-    let body=document.body
     const navContainer = document.querySelector(".navBar .container");
     const list = navContainer.querySelector(".navList");
   
-    // Set height and lineHeight for the navList
+    // Set initial height and lineHeight for the navList
     list.style.height = `${navContainer.offsetHeight}px`;
     list.style.lineHeight = `${navContainer.offsetHeight}px`;
   
-    // Function to update the menuItem size
+    // Function to update the menuItem size dynamically
     const menuItem = document.querySelector(".menuItem");
     const updateMenuItemSize = () => {
-  
       if (menuItem) {
         menuItem.style.width = `${document.body.offsetWidth + 100}px`;
         menuItem.style.height = `${document.body.offsetHeight}px`;
         menuItem.style.left = `-${document.body.offsetWidth}px`;
       }
     };
-    
+  
     // Initial size update
     updateMenuItemSize();
   
     // Add resize event listener to update menuItem size dynamically
-    let menuItemLis=menuItem.querySelectorAll("li")
-    console.log()
-    menuItemLis.forEach(ele=>{
-      ele.addEventListener('click', ()=>{
-        if(body.classList.contains("stopScroll")){
-          body.classList.remove("stopScroll")
-        }
-      })
-    })
     window.addEventListener('resize', updateMenuItemSize);
   
     // Handle dropdown mouseover/mouseleave events
@@ -103,20 +76,54 @@ export default function NavBar() {
   
       const activeNav = sessionStorage.getItem("activeNav");
       const activeItem = document.querySelector(`.${activeNav}`);
-  
       if (activeItem) {
         activeItem.classList.add("active");
       }
     }
   
-    // Clean up the event listener on component unmount
+    // Navbar scroll functionality
+    let prevScrollpos = window.pageYOffset;
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const nav = document.getElementById("navBar");
+  
+      if (currentScrollPos < 92) {
+        nav.classList.remove("navToBottom");
+      }
+      if (prevScrollpos > currentScrollPos) {
+        nav.style.top = "0";
+      } else {
+        nav.style.top = `-${nav.offsetHeight + 2}px`;
+        nav.classList.add("navToBottom");
+      }
+      prevScrollpos = currentScrollPos;
+    };
+  
+    // Add scroll event listener
+    window.addEventListener("scroll", handleScroll);
+  
+    // Reset navbar on component mount to ensure it’s visible
+    const nav = document.getElementById("navBar");
+    if (nav) {
+      nav.style.top = "0";
+      nav.classList.remove("navToBottom");
+    }
+  
+    // Clean up all event listeners on component unmount
     return () => {
-      window.removeEventListener('resize', updateMenuItemSize);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", updateMenuItemSize);
     };
   }, [userToken]);
 
 
-
+  const goToAccountSetting=()=>{
+    if(userToken == null){
+      navigate("/auth/signin")
+    }else{
+      navigate("/profile/setting")
+    }
+  }
 
 
 
@@ -163,7 +170,7 @@ export default function NavBar() {
               </div>
             </div>
             <div className="line"></div>
-            <div className="settings">
+            <div className="settings" onClick={()=>goToAccountSetting()}>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-gear" viewBox="0 0 16 16">
                 <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
                 <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
