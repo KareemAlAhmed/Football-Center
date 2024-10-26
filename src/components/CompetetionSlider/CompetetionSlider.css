@@ -46,6 +46,7 @@
 }
 .CompetetionSlider button,.TeamsSlider button{
     position: absolute;
+    background-color: transparent;
 }
 .CompetetionSlider button:last-of-type,.TeamsSlider button:last-of-type{
     display: none;

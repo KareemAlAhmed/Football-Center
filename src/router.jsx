@@ -60,14 +60,17 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
       nav.classList.remove("navToBottom");
     }
       sessionStorage.setItem("activeNav","homeNav");
-        // Reset navbar height
-      
+
+    
       return true;
    }
   },
@@ -76,6 +79,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -102,6 +108,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -144,6 +153,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -175,6 +187,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -189,6 +204,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -203,6 +221,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -217,6 +238,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -230,6 +254,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -257,6 +284,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -336,6 +366,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -420,6 +453,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -478,6 +514,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -493,6 +532,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -561,6 +603,9 @@ export const router = createBrowserRouter([
     loader:()=>{
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -592,6 +637,9 @@ export const router = createBrowserRouter([
       }
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
+      if(document.body.classList.contains("stopScroll")){
+        document.body.classList.remove("stopScroll")
+      }
        const nav = document.getElementById("navBar");
     if (nav) {
       nav.style.top = "0";
@@ -645,6 +693,9 @@ export const router = createBrowserRouter([
        }
       },
     ]
+  },{
+    path: "/notFound",
+    element: <NotFoundPage />
   },{
     path: "/*",
     element: <NotFoundPage />
