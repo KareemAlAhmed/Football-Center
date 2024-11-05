@@ -1,0 +1,6 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/KareemAlAhmed/football-center-server
+[submodule "ui"]
+	path = ui
+	url = https://github.com/KareemAlAhmed/Football-Center-FrontEnd
