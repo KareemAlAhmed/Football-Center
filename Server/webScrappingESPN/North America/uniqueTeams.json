@@ -1,0 +1,2905 @@
+[
+    {
+        "id": 2057,
+        "name": "Alajuelense",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Costa Rican Primera Division",
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            2298,
+            2245,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2057.png"
+    },
+    {
+        "id": 227,
+        "name": "América",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2298,
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/227.png"
+    },
+    {
+        "id": 18006,
+        "name": "Cavalier SC",
+        "leagues": [
+            "Concacaf Champions Cup"
+        ],
+        "leagueIds": [
+            2298
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18006.png"
+    },
+    {
+        "id": 22161,
+        "name": "Cavalry FC",
+        "leagues": [
+            "Concacaf Champions Cup"
+        ],
+        "leagueIds": [
+            2298
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22161.png"
+    },
+    {
+        "id": 183,
+        "name": "Columbus Crew",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/183.png"
+    },
+    {
+        "id": 7257,
+        "name": "Comunicaciones",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2298,
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7257.png"
+    },
+    {
+        "id": 18267,
+        "name": "FC Cincinnati",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18267.png"
+    },
+    {
+        "id": 20026,
+        "name": "Forge FC",
+        "leagues": [
+            "Concacaf Champions Cup"
+        ],
+        "leagueIds": [
+            2298
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20026.png"
+    },
+    {
+        "id": 219,
+        "name": "Guadalajara",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2298,
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/219.png"
+    },
+    {
+        "id": 862,
+        "name": "Herediano",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2298,
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/862.png"
+    },
+    {
+        "id": 6077,
+        "name": "Houston Dynamo FC",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6077.png"
+    },
+    {
+        "id": 19352,
+        "name": "Independiente de la Chorrera",
+        "leagues": [
+            "Concacaf Champions Cup"
+        ],
+        "leagueIds": [
+            2298
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19352.png"
+    },
+    {
+        "id": 20232,
+        "name": "Inter Miami CF",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20232.png"
+    },
+    {
+        "id": 22162,
+        "name": "Moca FC",
+        "leagues": [
+            "Concacaf Champions Cup"
+        ],
+        "leagueIds": [
+            2298
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22162.png"
+    },
+    {
+        "id": 220,
+        "name": "Monterrey",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2298,
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/220.png"
+    },
+    {
+        "id": 18986,
+        "name": "Nashville SC",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18986.png"
+    },
+    {
+        "id": 189,
+        "name": "New England Revolution",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/189.png"
+    },
+    {
+        "id": 12011,
+        "name": "Orlando City SC",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12011.png"
+    },
+    {
+        "id": 234,
+        "name": "Pachuca",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2298,
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/234.png"
+    },
+    {
+        "id": 10739,
+        "name": "Philadelphia Union",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10739.png"
+    },
+    {
+        "id": 9945,
+        "name": "Real Estelí",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            2298,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9945.png"
+    },
+    {
+        "id": 20018,
+        "name": "Robinhood",
+        "leagues": [
+            "Concacaf Champions Cup"
+        ],
+        "leagueIds": [
+            2298
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20018.png"
+    },
+    {
+        "id": 858,
+        "name": "Saprissa",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2298,
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/858.png"
+    },
+    {
+        "id": 21812,
+        "name": "St. Louis CITY SC",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21812.png"
+    },
+    {
+        "id": 232,
+        "name": "Tigres UANL",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Mexican Liga BBVA MX",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            22,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/232.png"
+    },
+    {
+        "id": 223,
+        "name": "Toluca",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2298,
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/223.png"
+    },
+    {
+        "id": 9727,
+        "name": "Vancouver Whitecaps",
+        "leagues": [
+            "Concacaf Champions Cup",
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            2298,
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9727.png"
+    },
+    {
+        "id": 216,
+        "name": "Atlas",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/216.png"
+    },
+    {
+        "id": 15720,
+        "name": "Atlético de San Luis",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15720.png"
+    },
+    {
+        "id": 218,
+        "name": "Cruz Azul",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/218.png"
+    },
+    {
+        "id": 17851,
+        "name": "FC Juarez",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17851.png"
+    },
+    {
+        "id": 228,
+        "name": "León",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/228.png"
+    },
+    {
+        "id": 20702,
+        "name": "Mazatlán FC",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            22,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20702.png"
+    },
+    {
+        "id": 229,
+        "name": "Necaxa",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/229.png"
+    },
+    {
+        "id": 231,
+        "name": "Puebla",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/231.png"
+    },
+    {
+        "id": 233,
+        "name": "Pumas UNAM",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/233.png"
+    },
+    {
+        "id": 222,
+        "name": "Querétaro",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/222.png"
+    },
+    {
+        "id": 225,
+        "name": "Santos",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/225.png"
+    },
+    {
+        "id": 10125,
+        "name": "Tijuana",
+        "leagues": [
+            "Mexican Liga BBVA MX",
+            "Leagues Cup",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            22,
+            null,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10125.png"
+    },
+    {
+        "id": 18418,
+        "name": "Atlanta United FC",
+        "leagues": [
+            "MLS",
+            "Leagues Cup",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            19,
+            null,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18418.png"
+    },
+    {
+        "id": 20906,
+        "name": "Austin FC",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20906.png"
+    },
+    {
+        "id": 9720,
+        "name": "CF Montréal",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9720.png"
+    },
+    {
+        "id": 21300,
+        "name": "Charlotte FC",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21300.png"
+    },
+    {
+        "id": 182,
+        "name": "Chicago Fire FC",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/182.png"
+    },
+    {
+        "id": 184,
+        "name": "Colorado Rapids",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/184.png"
+    },
+    {
+        "id": 193,
+        "name": "D.C. United",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/193.png"
+    },
+    {
+        "id": 185,
+        "name": "FC Dallas",
+        "leagues": [
+            "MLS",
+            "Leagues Cup",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            19,
+            null,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/185.png"
+    },
+    {
+        "id": 187,
+        "name": "LA Galaxy",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/187.png"
+    },
+    {
+        "id": 18966,
+        "name": "LAFC",
+        "leagues": [
+            "MLS",
+            "Leagues Cup",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            19,
+            null,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18966.png"
+    },
+    {
+        "id": 17362,
+        "name": "Minnesota United FC",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17362.png"
+    },
+    {
+        "id": 17606,
+        "name": "New York City FC",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17606.png"
+    },
+    {
+        "id": 190,
+        "name": "New York Red Bulls",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/190.png"
+    },
+    {
+        "id": 9723,
+        "name": "Portland Timbers",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9723.png"
+    },
+    {
+        "id": 4771,
+        "name": "Real Salt Lake",
+        "leagues": [
+            "MLS",
+            "Leagues Cup",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            19,
+            null,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4771.png"
+    },
+    {
+        "id": 191,
+        "name": "San Jose Earthquakes",
+        "leagues": [
+            "MLS",
+            "Leagues Cup",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            19,
+            null,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/191.png"
+    },
+    {
+        "id": 9726,
+        "name": "Seattle Sounders FC",
+        "leagues": [
+            "MLS",
+            "Leagues Cup",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            19,
+            null,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9726.png"
+    },
+    {
+        "id": 186,
+        "name": "Sporting Kansas City",
+        "leagues": [
+            "MLS",
+            "Leagues Cup",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            19,
+            null,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/186.png"
+    },
+    {
+        "id": 7318,
+        "name": "Toronto FC",
+        "leagues": [
+            "MLS",
+            "Leagues Cup"
+        ],
+        "leagueIds": [
+            19,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7318.png"
+    },
+    {
+        "id": 17233,
+        "name": "Alebrijes de Oaxaca",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17233.png"
+    },
+    {
+        "id": 226,
+        "name": "Atlante",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/226.png"
+    },
+    {
+        "id": 221,
+        "name": "Atlético Morelia",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/221.png"
+    },
+    {
+        "id": 21533,
+        "name": "CA La Paz",
+        "leagues": [
+            "Mexican Liga de Expansión MX"
+        ],
+        "leagueIds": [
+            2306
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21533.png"
+    },
+    {
+        "id": 20724,
+        "name": "Cancún FC",
+        "leagues": [
+            "Mexican Liga de Expansión MX"
+        ],
+        "leagueIds": [
+            2306
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20724.png"
+    },
+    {
+        "id": 11667,
+        "name": "Celaya",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11667.png"
+    },
+    {
+        "id": 8931,
+        "name": "Correcaminos",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8931.png"
+    },
+    {
+        "id": 3432,
+        "name": "Dorados de Sinaloa",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3432.png"
+    },
+    {
+        "id": 17514,
+        "name": "Mineros de Zacatecas",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17514.png"
+    },
+    {
+        "id": 10131,
+        "name": "Tampico Madero",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10131.png"
+    },
+    {
+        "id": 20720,
+        "name": "Tapatío",
+        "leagues": [
+            "Mexican Liga de Expansión MX"
+        ],
+        "leagueIds": [
+            2306
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20720.png"
+    },
+    {
+        "id": 20721,
+        "name": "Tepatitlán FC",
+        "leagues": [
+            "Mexican Liga de Expansión MX"
+        ],
+        "leagueIds": [
+            2306
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20721.png"
+    },
+    {
+        "id": 20722,
+        "name": "Tlaxcala FC",
+        "leagues": [
+            "Mexican Liga de Expansión MX"
+        ],
+        "leagueIds": [
+            2306
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20722.png"
+    },
+    {
+        "id": 10129,
+        "name": "U. de G.",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10129.png"
+    },
+    {
+        "id": 10124,
+        "name": "Venados FC",
+        "leagues": [
+            "Mexican Liga de Expansión MX",
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2306,
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10124.png"
+    },
+    {
+        "id": 21353,
+        "name": "Central Valley Fuego FC",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21353.png"
+    },
+    {
+        "id": 17826,
+        "name": "Charlotte Independence",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17826.png"
+    },
+    {
+        "id": 20000,
+        "name": "Chattanooga Red Wolves",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20000.png"
+    },
+    {
+        "id": 19995,
+        "name": "Forward Madison FC",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19995.png"
+    },
+    {
+        "id": 19964,
+        "name": "Greenville Triumph",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19964.png"
+    },
+    {
+        "id": 21822,
+        "name": "Lexington",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21822.png"
+    },
+    {
+        "id": 21354,
+        "name": "Northern Colorado Hailstorm FC",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21354.png"
+    },
+    {
+        "id": 21821,
+        "name": "One Knoxville",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21821.png"
+    },
+    {
+        "id": 17545,
+        "name": "Richmond Kickers",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17545.png"
+    },
+    {
+        "id": 19181,
+        "name": "South Georgia Tormenta FC",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19181.png"
+    },
+    {
+        "id": 22130,
+        "name": "Spokane Velocity FC",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22130.png"
+    },
+    {
+        "id": 20684,
+        "name": "Union Omaha",
+        "leagues": [
+            "USL League One",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2452,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20684.png"
+    },
+    {
+        "id": 21422,
+        "name": "Angel City FC Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21422.png"
+    },
+    {
+        "id": 22187,
+        "name": "Bay FC Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22187.png"
+    },
+    {
+        "id": 15360,
+        "name": "Chicago Red Stars Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15360.png"
+    },
+    {
+        "id": 17346,
+        "name": "Houston Dash Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17346.png"
+    },
+    {
+        "id": 20907,
+        "name": "Kansas City Current Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20907.png"
+    },
+    {
+        "id": 15364,
+        "name": "NJ/NY Gotham FC Women",
+        "leagues": [
+            "NWSL",
+            "NWSL Challenge Cup"
+        ],
+        "leagueIds": [
+            2323,
+            2445
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15364.png"
+    },
+    {
+        "id": 15366,
+        "name": "North Carolina Courage Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15366.png"
+    },
+    {
+        "id": 18206,
+        "name": "Orlando Pride Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18206.png"
+    },
+    {
+        "id": 15362,
+        "name": "Portland Thorns FC Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15362.png"
+    },
+    {
+        "id": 20905,
+        "name": "Racing Louisville FC Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20905.png"
+    },
+    {
+        "id": 21423,
+        "name": "San Diego Wave FC Women",
+        "leagues": [
+            "NWSL",
+            "NWSL Challenge Cup"
+        ],
+        "leagueIds": [
+            2323,
+            2445
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21423.png"
+    },
+    {
+        "id": 15363,
+        "name": "Seattle Reign FC Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15363.png"
+    },
+    {
+        "id": 19141,
+        "name": "Utah Royals Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19141.png"
+    },
+    {
+        "id": 15365,
+        "name": "Washington Spirit Women",
+        "leagues": [
+            "NWSL"
+        ],
+        "leagueIds": [
+            2323
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15365.png"
+    },
+    {
+        "id": 19405,
+        "name": "Birmingham Legion FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19405.png"
+    },
+    {
+        "id": 9729,
+        "name": "Charleston Battery",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9729.png"
+    },
+    {
+        "id": 17830,
+        "name": "Colorado Springs Switchbacks FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17830.png"
+    },
+    {
+        "id": 19179,
+        "name": "Detroit City FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19179.png"
+    },
+    {
+        "id": 19407,
+        "name": "El Paso Locomotive FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19407.png"
+    },
+    {
+        "id": 18446,
+        "name": "FC Tulsa",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18446.png"
+    },
+    {
+        "id": 19411,
+        "name": "Hartford Athletic",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19411.png"
+    },
+    {
+        "id": 17360,
+        "name": "Indy Eleven",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17360.png"
+    },
+    {
+        "id": 18987,
+        "name": "Las Vegas Lights FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18987.png"
+    },
+    {
+        "id": 19410,
+        "name": "Loudoun United FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19410.png"
+    },
+    {
+        "id": 17832,
+        "name": "Louisville City FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17832.png"
+    },
+    {
+        "id": 19409,
+        "name": "Memphis 901 FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19409.png"
+    },
+    {
+        "id": 18159,
+        "name": "Miami FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18159.png"
+    },
+    {
+        "id": 21370,
+        "name": "Monterey Bay",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21370.png"
+    },
+    {
+        "id": 19408,
+        "name": "New Mexico United",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19408.png"
+    },
+    {
+        "id": 9725,
+        "name": "North Carolina FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9725.png"
+    },
+    {
+        "id": 20687,
+        "name": "Oakland Roots",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20687.png"
+    },
+    {
+        "id": 18455,
+        "name": "Orange County SC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18455.png"
+    },
+    {
+        "id": 17850,
+        "name": "Phoenix Rising FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17850.png"
+    },
+    {
+        "id": 17827,
+        "name": "Pittsburgh Riverhounds",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17827.png"
+    },
+    {
+        "id": 22164,
+        "name": "Rhode Island FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22164.png"
+    },
+    {
+        "id": 17828,
+        "name": "Sacramento Republic FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17828.png"
+    },
+    {
+        "id": 18265,
+        "name": "San Antonio FC",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18265.png"
+    },
+    {
+        "id": 17361,
+        "name": "Tampa Bay Rowdies",
+        "leagues": [
+            "USL Championship",
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            2292,
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17361.png"
+    },
+    {
+        "id": 20982,
+        "name": "AD Guanacasteca",
+        "leagues": [
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20982.png"
+    },
+    {
+        "id": 7239,
+        "name": "Cartagines",
+        "leagues": [
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7239.png"
+    },
+    {
+        "id": 9361,
+        "name": "Municipal Liberia",
+        "leagues": [
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9361.png"
+    },
+    {
+        "id": 7234,
+        "name": "Perez Zeledon",
+        "leagues": [
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7234.png"
+    },
+    {
+        "id": 7237,
+        "name": "Puntarenas",
+        "leagues": [
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7237.png"
+    },
+    {
+        "id": 859,
+        "name": "San Carlos",
+        "leagues": [
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/859.png"
+    },
+    {
+        "id": 22296,
+        "name": "Santa Ana F.C.",
+        "leagues": [
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22296.png"
+    },
+    {
+        "id": 913,
+        "name": "Santos",
+        "leagues": [
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/913.png"
+    },
+    {
+        "id": 20705,
+        "name": "Sporting San José",
+        "leagues": [
+            "Costa Rican Primera Division"
+        ],
+        "leagueIds": [
+            2245
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20705.png"
+    },
+    {
+        "id": 20727,
+        "name": "Achuapa",
+        "leagues": [
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20727.png"
+    },
+    {
+        "id": 7253,
+        "name": "Antigua",
+        "leagues": [
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7253.png"
+    },
+    {
+        "id": 7254,
+        "name": "Coban Imperial",
+        "leagues": [
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7254.png"
+    },
+    {
+        "id": 20036,
+        "name": "Deportivo Mixco",
+        "leagues": [
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20036.png"
+    },
+    {
+        "id": 17516,
+        "name": "Guastatoya",
+        "leagues": [
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17516.png"
+    },
+    {
+        "id": 7870,
+        "name": "Malacateco",
+        "leagues": [
+            "Guatemalan Liga Nacional",
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            2248,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7870.png"
+    },
+    {
+        "id": 7252,
+        "name": "Marquense",
+        "leagues": [
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7252.png"
+    },
+    {
+        "id": 7258,
+        "name": "Municipal",
+        "leagues": [
+            "Guatemalan Liga Nacional",
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            2248,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7258.png"
+    },
+    {
+        "id": 7259,
+        "name": "Xelaju",
+        "leagues": [
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7259.png"
+    },
+    {
+        "id": 9806,
+        "name": "Xinabajul",
+        "leagues": [
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9806.png"
+    },
+    {
+        "id": 7261,
+        "name": "Zacapa",
+        "leagues": [
+            "Guatemalan Liga Nacional"
+        ],
+        "leagueIds": [
+            2248
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7261.png"
+    },
+    {
+        "id": null,
+        "name": "Air Force Falcons",
+        "leagues": [
+            "NCAA Men's Soccer"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png"
+    },
+    {
+        "id": null,
+        "name": "Air Force Falcons Women",
+        "leagues": [
+            "NCAA Women's Soccer"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png"
+    },
+    {
+        "id": 2753,
+        "name": "Canada Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2753.png"
+    },
+    {
+        "id": 2894,
+        "name": "Costa Rica Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2894.png"
+    },
+    {
+        "id": 2891,
+        "name": "Haiti Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2891.png"
+    },
+    {
+        "id": 2893,
+        "name": "Jamaica Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2893.png"
+    },
+    {
+        "id": 2812,
+        "name": "Mexico Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2812.png"
+    },
+    {
+        "id": 2895,
+        "name": "Panama Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2895.png"
+    },
+    {
+        "id": 2892,
+        "name": "Trinidad and Tobago Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2892.png"
+    },
+    {
+        "id": 2765,
+        "name": "United States Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2765.png"
+    },
+    {
+        "id": 13830,
+        "name": "C.D.Real Sociedad",
+        "leagues": [
+            "Honduran Liga Nacional"
+        ],
+        "leagueIds": [
+            2247
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13830.png"
+    },
+    {
+        "id": 7242,
+        "name": "CD Motagua",
+        "leagues": [
+            "Honduran Liga Nacional",
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            2247,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7242.png"
+    },
+    {
+        "id": 21968,
+        "name": "Club Deportivo Génesis",
+        "leagues": [
+            "Honduran Liga Nacional"
+        ],
+        "leagueIds": [
+            2247
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21968.png"
+    },
+    {
+        "id": 17939,
+        "name": "Juticalpa",
+        "leagues": [
+            "Honduran Liga Nacional"
+        ],
+        "leagueIds": [
+            2247
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17939.png"
+    },
+    {
+        "id": 7249,
+        "name": "Marathon",
+        "leagues": [
+            "Honduran Liga Nacional"
+        ],
+        "leagueIds": [
+            2247
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7249.png"
+    },
+    {
+        "id": 21583,
+        "name": "Olancho",
+        "leagues": [
+            "Honduran Liga Nacional"
+        ],
+        "leagueIds": [
+            2247
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21583.png"
+    },
+    {
+        "id": 884,
+        "name": "Olimpia",
+        "leagues": [
+            "Honduran Liga Nacional",
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            2247,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/884.png"
+    },
+    {
+        "id": 7245,
+        "name": "Real Espana",
+        "leagues": [
+            "Honduran Liga Nacional",
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            2247,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7245.png"
+    },
+    {
+        "id": 18809,
+        "name": "UPNFM",
+        "leagues": [
+            "Honduran Liga Nacional"
+        ],
+        "leagueIds": [
+            2247
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18809.png"
+    },
+    {
+        "id": 7885,
+        "name": "Victoria",
+        "leagues": [
+            "Honduran Liga Nacional"
+        ],
+        "leagueIds": [
+            2247
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7885.png"
+    },
+    {
+        "id": 22216,
+        "name": "AS Frenzi",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22216.png"
+    },
+    {
+        "id": 22220,
+        "name": "Apotheos FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22220.png"
+    },
+    {
+        "id": 22228,
+        "name": "Arizona Monsoon FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22228.png"
+    },
+    {
+        "id": 22219,
+        "name": "Asheville City SC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22219.png"
+    },
+    {
+        "id": 22214,
+        "name": "Austin FC II",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22214.png"
+    },
+    {
+        "id": 18691,
+        "name": "Azteca FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18691.png"
+    },
+    {
+        "id": 22225,
+        "name": "Ballard FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22225.png"
+    },
+    {
+        "id": 18271,
+        "name": "Brave SC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18271.png"
+    },
+    {
+        "id": 21418,
+        "name": "Brockton FC United",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21418.png"
+    },
+    {
+        "id": 21862,
+        "name": "Capo FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21862.png"
+    },
+    {
+        "id": 22226,
+        "name": "Carolina Core FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22226.png"
+    },
+    {
+        "id": 18268,
+        "name": "Chattanooga FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18268.png"
+    },
+    {
+        "id": 22218,
+        "name": "Chicago City SC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22218.png"
+    },
+    {
+        "id": 22217,
+        "name": "Chicago Fire FC II",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22217.png"
+    },
+    {
+        "id": 21858,
+        "name": "Chicago House AC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21858.png"
+    },
+    {
+        "id": 18719,
+        "name": "Christos FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18719.png"
+    },
+    {
+        "id": 21853,
+        "name": "Club de Lyon",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21853.png"
+    },
+    {
+        "id": 22229,
+        "name": "Colorado Rapids 2",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22229.png"
+    },
+    {
+        "id": 22234,
+        "name": "Crown Legacy FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22234.png"
+    },
+    {
+        "id": 18264,
+        "name": "Des Moines Menace",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18264.png"
+    },
+    {
+        "id": 19172,
+        "name": "Duluth FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19172.png"
+    },
+    {
+        "id": 18716,
+        "name": "El Farolito",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18716.png"
+    },
+    {
+        "id": 22213,
+        "name": "FC America CFL Spurs",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22213.png"
+    },
+    {
+        "id": 22224,
+        "name": "FC Folsom",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22224.png"
+    },
+    {
+        "id": 18699,
+        "name": "FC Motown",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18699.png"
+    },
+    {
+        "id": 22215,
+        "name": "Foro SC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22215.png"
+    },
+    {
+        "id": 22221,
+        "name": "Georgia Lions FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22221.png"
+    },
+    {
+        "id": 22222,
+        "name": "Hudson Valley Hammers",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22222.png"
+    },
+    {
+        "id": 22230,
+        "name": "Irvine Zeta FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22230.png"
+    },
+    {
+        "id": 22236,
+        "name": "Irvine Zeta FC 2",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22236.png"
+    },
+    {
+        "id": 20689,
+        "name": "LA Force",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20689.png"
+    },
+    {
+        "id": 22227,
+        "name": "Lubbock Matadors",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22227.png"
+    },
+    {
+        "id": 21448,
+        "name": "Maryland Bobcats FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21448.png"
+    },
+    {
+        "id": 22231,
+        "name": "MesoAmerica FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22231.png"
+    },
+    {
+        "id": 18704,
+        "name": "Miami United FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18704.png"
+    },
+    {
+        "id": 20688,
+        "name": "Michigan Stars",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20688.png"
+    },
+    {
+        "id": 22223,
+        "name": "Minnesota United FC 2",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22223.png"
+    },
+    {
+        "id": 22237,
+        "name": "New York City FC II",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22237.png"
+    },
+    {
+        "id": 18450,
+        "name": "New York Red Bulls II",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18450.png"
+    },
+    {
+        "id": 21416,
+        "name": "Northern Virginia FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21416.png"
+    },
+    {
+        "id": 18451,
+        "name": "Portland Timbers2",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18451.png"
+    },
+    {
+        "id": 22232,
+        "name": "Redlands FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22232.png"
+    },
+    {
+        "id": 18720,
+        "name": "SC United Bantams",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18720.png"
+    },
+    {
+        "id": 21869,
+        "name": "Savannah Clovers",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21869.png"
+    },
+    {
+        "id": 22235,
+        "name": "South Carolina United Heat",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22235.png"
+    },
+    {
+        "id": 22233,
+        "name": "Steel City FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22233.png"
+    },
+    {
+        "id": 18688,
+        "name": "Tulsa Athletic",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18688.png"
+    },
+    {
+        "id": 18449,
+        "name": "Ventura County FC",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18449.png"
+    },
+    {
+        "id": 20678,
+        "name": "Vereinigung Erzgebirge",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20678.png"
+    },
+    {
+        "id": 22212,
+        "name": "Vermont Green",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22212.png"
+    },
+    {
+        "id": 19999,
+        "name": "West Chester",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19999.png"
+    },
+    {
+        "id": 18706,
+        "name": "Western Mass Pioneers",
+        "leagues": [
+            "U.S. Open Cup"
+        ],
+        "leagueIds": [
+            69
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18706.png"
+    },
+    {
+        "id": 7226,
+        "name": "Aguila",
+        "leagues": [
+            "Salvadoran Primera Division",
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            2244,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7226.png"
+    },
+    {
+        "id": 7225,
+        "name": "Alianza FC",
+        "leagues": [
+            "Salvadoran Primera Division"
+        ],
+        "leagueIds": [
+            2244
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7225.png"
+    },
+    {
+        "id": 15719,
+        "name": "CD Dragon",
+        "leagues": [
+            "Salvadoran Primera Division"
+        ],
+        "leagueIds": [
+            2244
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15719.png"
+    },
+    {
+        "id": 7229,
+        "name": "CD FAS",
+        "leagues": [
+            "Salvadoran Primera Division"
+        ],
+        "leagueIds": [
+            2244
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7229.png"
+    },
+    {
+        "id": 22330,
+        "name": "Cacahuatique",
+        "leagues": [
+            "Salvadoran Primera Division"
+        ],
+        "leagueIds": [
+            2244
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22330.png"
+    },
+    {
+        "id": 21987,
+        "name": "Fuerte San Francisco",
+        "leagues": [
+            "Salvadoran Primera Division"
+        ],
+        "leagueIds": [
+            2244
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21987.png"
+    },
+    {
+        "id": 7232,
+        "name": "Luis Angel Firpo",
+        "leagues": [
+            "Salvadoran Primera Division"
+        ],
+        "leagueIds": [
+            2244
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7232.png"
+    },
+    {
+        "id": 7224,
+        "name": "Metapan",
+        "leagues": [
+            "Salvadoran Primera Division"
+        ],
+        "leagueIds": [
+            2244
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7224.png"
+    },
+    {
+        "id": 7231,
+        "name": "Municipal Limeño",
+        "leagues": [
+            "Salvadoran Primera Division"
+        ],
+        "leagueIds": [
+            2244
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7231.png"
+    },
+    {
+        "id": 20074,
+        "name": "Once Deportivo",
+        "leagues": [
+            "Salvadoran Primera Division"
+        ],
+        "leagueIds": [
+            2244
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20074.png"
+    },
+    {
+        "id": 21092,
+        "name": "Platense Zacatecoluca",
+        "leagues": [
+            "Salvadoran Primera Division",
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            2244,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21092.png"
+    },
+    {
+        "id": 17513,
+        "name": "Atlético Zacatepec",
+        "leagues": [
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17513.png"
+    },
+    {
+        "id": 11060,
+        "name": "Cafetaleros de Chiapas",
+        "leagues": [
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11060.png"
+    },
+    {
+        "id": 17853,
+        "name": "Cimarrones de Sonora",
+        "leagues": [
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17853.png"
+    },
+    {
+        "id": 8814,
+        "name": "Lobos BUAP",
+        "leagues": [
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8814.png"
+    },
+    {
+        "id": 18286,
+        "name": "UAEM Potros",
+        "leagues": [
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18286.png"
+    },
+    {
+        "id": 2569,
+        "name": "Veracruz",
+        "leagues": [
+            "Mexican Copa MX"
+        ],
+        "leagueIds": [
+            2321
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2569.png"
+    },
+    {
+        "id": 21521,
+        "name": "Pacific FC",
+        "leagues": [
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21521.png"
+    },
+    {
+        "id": 21522,
+        "name": "Sporting San Miguelito",
+        "leagues": [
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21522.png"
+    },
+    {
+        "id": 21523,
+        "name": "Vega Real",
+        "leagues": [
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21523.png"
+    },
+    {
+        "id": 9943,
+        "name": "Verdes FC",
+        "leagues": [
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9943.png"
+    },
+    {
+        "id": 8670,
+        "name": "Waterhouse",
+        "leagues": [
+            "Concacaf League"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8670.png"
+    }
+]

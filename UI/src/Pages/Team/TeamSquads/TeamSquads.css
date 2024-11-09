@@ -1,0 +1,109 @@
+.teamSquad .pageContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.teamSquad .pageContent table{
+    width: 100%;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+.teamSquad .pageContent table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+}
+.teamSquad .pageContent table tr td{
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.teamSquad .pageContent table tr .TeamsLogos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.teamSquad .pageContent table tr img{
+    width: 25px;
+    height: 27px;
+    cursor: pointer;
+}
+.teamSquad .pageContent table tr a{
+    color: var(--text-color);
+    width: 100%;
+    display: block;
+}
+
+.teamBlock .teamSchedule .listOfPlayers{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.listOfPlayers .match{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--text-color);
+}
+.listOfPlayers .match .matchInfo{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.listOfPlayers .match .matchInfo .homeTeam,.listOfPlayers .match .matchInfo .awayTeam{
+    display: flex;
+    gap: 20px;
+}
+.listOfPlayers .match .leagueInfo{
+    display: flex;
+    justify-content: center;
+}
+.listOfPlayers .match svg{
+    width: 10px;
+    fill: var(--text-color);
+}
+.listOfPlayers .match .matchStatus{
+    display: flex;
+    gap: 15px;
+}
+.listOfPlayers .match .matchTimeAndDate{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@media (max-width: 991px) {
+    .teamSquad .pageContent table tr td{
+        padding-right: 10px;
+    }
+    .teamSquad .pageContent table tr th:nth-child(14),
+    .teamSquad .pageContent table tr th:nth-child(15){
+        display: none;
+    }
+    .teamSquad .pageContent table tr td:nth-child(14),
+    .teamSquad .pageContent table tr td:nth-child(15){
+        display: none;
+    }
+  }
+@media (max-width: 768px) {
+    .teamSquad .pageContent table tr td,
+    .teamSquad .pageContent table tr th{
+        padding-right: 10px;
+    }
+    .teamSquad .pageContent table tr th:nth-child(12),
+    .teamSquad .pageContent table tr th:nth-child(13){
+        display: none;
+    }
+    .teamSquad .pageContent table tr td:nth-child(12),
+    .teamSquad .pageContent table tr td:nth-child(13){
+        display: none;
+    }
+    .teamSquad .pageContent .listOfPlayers .Table__fixtures{
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .teamSquad .pageContent .listOfPlayers .Table__fixtures .Table_Data{
+        min-width: 685px;
+    }
+  }

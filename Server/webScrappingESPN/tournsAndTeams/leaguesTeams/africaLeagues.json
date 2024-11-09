@@ -1,0 +1,2830 @@
+[
+    {
+        "leagueName": "CAF Champions League",
+        "teams": [
+            {
+                "id": 7084,
+                "name": "Mamelodi Sundowns",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "CAF Champions League",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    2391,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7084.png"
+            },
+            {
+                "id": 19217,
+                "name": "ASEC Mimosas",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19217.png"
+            },
+            {
+                "id": 10207,
+                "name": "Al Ahly",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10207.png"
+            },
+            {
+                "id": 18832,
+                "name": "Al Hilal Omdurman",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18832.png"
+            },
+            {
+                "id": 20853,
+                "name": "CR Belouizdad",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20853.png"
+            },
+            {
+                "id": 8377,
+                "name": "Esperance Sportive de Tunis",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8377.png"
+            },
+            {
+                "id": 2346,
+                "name": "Etoile Sahel",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2346.png"
+            },
+            {
+                "id": 20219,
+                "name": "FC Nouadhibou",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20219.png"
+            },
+            {
+                "id": 21363,
+                "name": "Jwaneng Galaxy",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21363.png"
+            },
+            {
+                "id": 18601,
+                "name": "Medeama",
+                "leagues": [
+                    "CAF Champions League",
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    2391,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18601.png"
+            },
+            {
+                "id": 19436,
+                "name": "Petro de Luanda",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19436.png"
+            },
+            {
+                "id": 20220,
+                "name": "Pyramids FC",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20220.png"
+            },
+            {
+                "id": 19414,
+                "name": "Simba SC",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19414.png"
+            },
+            {
+                "id": 10674,
+                "name": "TP Mazembe",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10674.png"
+            },
+            {
+                "id": 8625,
+                "name": "Wydad Casablanca",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8625.png"
+            },
+            {
+                "id": 19223,
+                "name": "Young Africans",
+                "leagues": [
+                    "CAF Champions League"
+                ],
+                "leagueIds": [
+                    2391
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19223.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "South African Premier Division",
+        "teams": [
+            {
+                "id": 7079,
+                "name": "Amazulu",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7079.png"
+            },
+            {
+                "id": 7100,
+                "name": "Cape Town City",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7100.png"
+            },
+            {
+                "id": 11913,
+                "name": "Chippa United",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11913.png"
+            },
+            {
+                "id": 7077,
+                "name": "Golden Arrows",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7077.png"
+            },
+            {
+                "id": 7081,
+                "name": "Kaizer Chiefs",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7081.png"
+            },
+            {
+                "id": 7084,
+                "name": "Mamelodi Sundowns",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "CAF Champions League",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    2391,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7084.png"
+            },
+            {
+                "id": 7085,
+                "name": "Orlando Pirates",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7085.png"
+            },
+            {
+                "id": 7099,
+                "name": "Polokwane City",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7099.png"
+            },
+            {
+                "id": 18615,
+                "name": "Stellenbosch",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18615.png"
+            },
+            {
+                "id": 7080,
+                "name": "SuperSport United",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "CAF Confederation Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7080.png"
+            },
+            {
+                "id": 18611,
+                "name": "Magesi FC",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18611.png"
+            },
+            {
+                "id": 13317,
+                "name": "Marumo Gallants",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13317.png"
+            },
+            {
+                "id": 18825,
+                "name": "Richards Bay",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18825.png"
+            },
+            {
+                "id": 18616,
+                "name": "Royal AM",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18616.png"
+            },
+            {
+                "id": 20814,
+                "name": "Sekhukhune United",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "CAF Confederation Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20814.png"
+            },
+            {
+                "id": 19298,
+                "name": "TS Galaxy",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19298.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "South African Nedbank Cup",
+        "teams": [
+            {
+                "id": 7079,
+                "name": "Amazulu",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7079.png"
+            },
+            {
+                "id": 18359,
+                "name": "Baroka FC",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18359.png"
+            },
+            {
+                "id": 7072,
+                "name": "Black Leopards",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7072.png"
+            },
+            {
+                "id": 7100,
+                "name": "Cape Town City",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7100.png"
+            },
+            {
+                "id": 11913,
+                "name": "Chippa United",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11913.png"
+            },
+            {
+                "id": 7077,
+                "name": "Golden Arrows",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7077.png"
+            },
+            {
+                "id": 18360,
+                "name": "Highlands Park",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18360.png"
+            },
+            {
+                "id": 7081,
+                "name": "Kaizer Chiefs",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7081.png"
+            },
+            {
+                "id": 7084,
+                "name": "Mamelodi Sundowns",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "CAF Champions League",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    2391,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7084.png"
+            },
+            {
+                "id": 7082,
+                "name": "Maritzburg United",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7082.png"
+            },
+            {
+                "id": 7085,
+                "name": "Orlando Pirates",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7085.png"
+            },
+            {
+                "id": 7099,
+                "name": "Polokwane City",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7099.png"
+            },
+            {
+                "id": 18615,
+                "name": "Stellenbosch",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18615.png"
+            },
+            {
+                "id": 7080,
+                "name": "SuperSport United",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "CAF Confederation Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7080.png"
+            },
+            {
+                "id": 7075,
+                "name": "Cape Town Spurs FC",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7075.png"
+            },
+            {
+                "id": 21651,
+                "name": "Casric Stars",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21651.png"
+            },
+            {
+                "id": 22211,
+                "name": "Crystal Lake",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22211.png"
+            },
+            {
+                "id": 22203,
+                "name": "D'General FC",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22203.png"
+            },
+            {
+                "id": 22201,
+                "name": "FC Ravens",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22201.png"
+            },
+            {
+                "id": 20657,
+                "name": "Hungry Lions",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20657.png"
+            },
+            {
+                "id": 20069,
+                "name": "JDR Stars",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20069.png"
+            },
+            {
+                "id": 21650,
+                "name": "MM Platinum",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21650.png"
+            },
+            {
+                "id": 22204,
+                "name": "Madridtas FC",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22204.png"
+            },
+            {
+                "id": 18611,
+                "name": "Magesi FC",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18611.png"
+            },
+            {
+                "id": 13317,
+                "name": "Marumo Gallants",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13317.png"
+            },
+            {
+                "id": 21990,
+                "name": "Milford FC",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21990.png"
+            },
+            {
+                "id": 7073,
+                "name": "Moroka Swallows",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7073.png"
+            },
+            {
+                "id": 19421,
+                "name": "NC Pro's",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19421.png"
+            },
+            {
+                "id": 19000,
+                "name": "Orbit College",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19000.png"
+            },
+            {
+                "id": 22200,
+                "name": "Paarl United",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22200.png"
+            },
+            {
+                "id": 21094,
+                "name": "Platinum City Rovers",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21094.png"
+            },
+            {
+                "id": 20816,
+                "name": "Pretoria Callies",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20816.png"
+            },
+            {
+                "id": 7096,
+                "name": "Pretoria University",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7096.png"
+            },
+            {
+                "id": 18825,
+                "name": "Richards Bay",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18825.png"
+            },
+            {
+                "id": 18616,
+                "name": "Royal AM",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18616.png"
+            },
+            {
+                "id": 20814,
+                "name": "Sekhukhune United",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "CAF Confederation Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20814.png"
+            },
+            {
+                "id": 22202,
+                "name": "Spain FC",
+                "leagues": [
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22202.png"
+            },
+            {
+                "id": 19298,
+                "name": "TS Galaxy",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19298.png"
+            },
+            {
+                "id": 21989,
+                "name": "Upington City",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21989.png"
+            },
+            {
+                "id": 21095,
+                "name": "Venda Football Acadamy",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21095.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "Nigerian Professional League",
+        "teams": [
+            {
+                "id": 17792,
+                "name": "Abia Warriors",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17792.png"
+            },
+            {
+                "id": 17793,
+                "name": "Akwa United",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17793.png"
+            },
+            {
+                "id": 17794,
+                "name": "Bayelsa United",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17794.png"
+            },
+            {
+                "id": 19426,
+                "name": "Bendel Insurance FC",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19426.png"
+            },
+            {
+                "id": 21818,
+                "name": "Doma United",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21818.png"
+            },
+            {
+                "id": 17797,
+                "name": "Enugu Rangers",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17797.png"
+            },
+            {
+                "id": 2227,
+                "name": "Enyimba",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2227.png"
+            },
+            {
+                "id": 18422,
+                "name": "Gombe United",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18422.png"
+            },
+            {
+                "id": 17801,
+                "name": "Heartland",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17801.png"
+            },
+            {
+                "id": 17802,
+                "name": "Kano Pillars",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17802.png"
+            },
+            {
+                "id": 18420,
+                "name": "Katsina United",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18420.png"
+            },
+            {
+                "id": 17803,
+                "name": "Kwara United",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17803.png"
+            },
+            {
+                "id": 17804,
+                "name": "Lobi Stars",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17804.png"
+            },
+            {
+                "id": 18184,
+                "name": "Niger Tornadoes",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18184.png"
+            },
+            {
+                "id": 18181,
+                "name": "Plateau United",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18181.png"
+            },
+            {
+                "id": 18421,
+                "name": "Remo Stars",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18421.png"
+            },
+            {
+                "id": 17795,
+                "name": "Rivers United FC",
+                "leagues": [
+                    "Nigerian Professional League",
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17795.png"
+            },
+            {
+                "id": 17807,
+                "name": "Shooting Stars SC",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17807.png"
+            },
+            {
+                "id": 22008,
+                "name": "Sporting Lagos",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22008.png"
+            },
+            {
+                "id": 17808,
+                "name": "Sunshine Stars",
+                "leagues": [
+                    "Nigerian Professional League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17808.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "Kenyan Premier League",
+        "teams": [
+            {
+                "id": 18639,
+                "name": "AFC Leopards",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18639.png"
+            },
+            {
+                "id": 18641,
+                "name": "Bandari Mtwara",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18641.png"
+            },
+            {
+                "id": 20761,
+                "name": "Bidco United",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20761.png"
+            },
+            {
+                "id": 8004,
+                "name": "Gor Mahia",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8004.png"
+            },
+            {
+                "id": 8305,
+                "name": "KCB",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8305.png"
+            },
+            {
+                "id": 18643,
+                "name": "Kakamega Homeboyz",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18643.png"
+            },
+            {
+                "id": 18644,
+                "name": "Kariobangi Sharks",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18644.png"
+            },
+            {
+                "id": 22345,
+                "name": "Mara Sugar",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22345.png"
+            },
+            {
+                "id": 8043,
+                "name": "Mathare United",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8043.png"
+            },
+            {
+                "id": 21972,
+                "name": "Murang'a Seal FC",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21972.png"
+            },
+            {
+                "id": 20762,
+                "name": "Nairobi City Stars",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20762.png"
+            },
+            {
+                "id": 21549,
+                "name": "Police",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21549.png"
+            },
+            {
+                "id": 18648,
+                "name": "Posta Rangers",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18648.png"
+            },
+            {
+                "id": 21971,
+                "name": "Shabana",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21971.png"
+            },
+            {
+                "id": 18646,
+                "name": "Sofapaka",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18646.png"
+            },
+            {
+                "id": 21131,
+                "name": "Talanta",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21131.png"
+            },
+            {
+                "id": 8534,
+                "name": "Tusker",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8534.png"
+            },
+            {
+                "id": 8045,
+                "name": "Ulinzi Stars",
+                "leagues": [
+                    "Kenyan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8045.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "Zambian Super League",
+        "teams": [
+            {
+                "id": 22274,
+                "name": "Atletico Lusaka FC",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22274.png"
+            },
+            {
+                "id": 8051,
+                "name": "Forest Rangers",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8051.png"
+            },
+            {
+                "id": 8053,
+                "name": "Green Buffaloes",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8053.png"
+            },
+            {
+                "id": 18672,
+                "name": "Green Eagles",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18672.png"
+            },
+            {
+                "id": 20766,
+                "name": "Indeni",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20766.png"
+            },
+            {
+                "id": 8055,
+                "name": "Kabwe Warriors",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8055.png"
+            },
+            {
+                "id": 18668,
+                "name": "Lumwana Radiants",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18668.png"
+            },
+            {
+                "id": 19475,
+                "name": "Maestro United Zambia",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19475.png"
+            },
+            {
+                "id": 18665,
+                "name": "Mufulira Wanderers",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18665.png"
+            },
+            {
+                "id": 21973,
+                "name": "Mutondo Stars FC",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21973.png"
+            },
+            {
+                "id": 18670,
+                "name": "NAPSA Stars",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18670.png"
+            },
+            {
+                "id": 8050,
+                "name": "Nchanga Rangers",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8050.png"
+            },
+            {
+                "id": 18669,
+                "name": "Nkana",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18669.png"
+            },
+            {
+                "id": 18671,
+                "name": "Nkwazi",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18671.png"
+            },
+            {
+                "id": 8054,
+                "name": "Power Dynamos",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8054.png"
+            },
+            {
+                "id": 8062,
+                "name": "Red Arrows",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8062.png"
+            },
+            {
+                "id": 8061,
+                "name": "Zanaco",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8061.png"
+            },
+            {
+                "id": 8063,
+                "name": "Zesco United",
+                "leagues": [
+                    "Zambian Super League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8063.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "CAF Confederation Cup",
+        "teams": [
+            {
+                "id": 17795,
+                "name": "Rivers United FC",
+                "leagues": [
+                    "Nigerian Professional League",
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17795.png"
+            },
+            {
+                "id": 7080,
+                "name": "SuperSport United",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "CAF Confederation Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7080.png"
+            },
+            {
+                "id": 20814,
+                "name": "Sekhukhune United",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "CAF Confederation Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20814.png"
+            },
+            {
+                "id": 22076,
+                "name": "Abu Salim SC",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22076.png"
+            },
+            {
+                "id": 22078,
+                "name": "Académica do Lobito",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22078.png"
+            },
+            {
+                "id": 22075,
+                "name": "Académie SOAR",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22075.png"
+            },
+            {
+                "id": 22074,
+                "name": "Al Hilal Benghazi",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22074.png"
+            },
+            {
+                "id": 18816,
+                "name": "Club Africain",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18816.png"
+            },
+            {
+                "id": 21804,
+                "name": "Diables Noirs",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21804.png"
+            },
+            {
+                "id": 18990,
+                "name": "Dreams F.C.",
+                "leagues": [
+                    "CAF Confederation Cup",
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18990.png"
+            },
+            {
+                "id": 21807,
+                "name": "Future FC",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21807.png"
+            },
+            {
+                "id": 19221,
+                "name": "RSB Berkane",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19221.png"
+            },
+            {
+                "id": 21362,
+                "name": "Sagrada Esperança",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21362.png"
+            },
+            {
+                "id": 22077,
+                "name": "Stade Malien",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22077.png"
+            },
+            {
+                "id": 7517,
+                "name": "USM Alger",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7517.png"
+            },
+            {
+                "id": 8392,
+                "name": "Zamalek",
+                "leagues": [
+                    "CAF Confederation Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8392.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "South African First Division",
+        "teams": [
+            {
+                "id": 18359,
+                "name": "Baroka FC",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18359.png"
+            },
+            {
+                "id": 7072,
+                "name": "Black Leopards",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7072.png"
+            },
+            {
+                "id": 7075,
+                "name": "Cape Town Spurs FC",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7075.png"
+            },
+            {
+                "id": 21651,
+                "name": "Casric Stars",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21651.png"
+            },
+            {
+                "id": 20657,
+                "name": "Hungry Lions",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20657.png"
+            },
+            {
+                "id": 20069,
+                "name": "JDR Stars",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20069.png"
+            },
+            {
+                "id": 21990,
+                "name": "Milford FC",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21990.png"
+            },
+            {
+                "id": 19000,
+                "name": "Orbit College",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19000.png"
+            },
+            {
+                "id": 20816,
+                "name": "Pretoria Callies",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20816.png"
+            },
+            {
+                "id": 7096,
+                "name": "Pretoria University",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7096.png"
+            },
+            {
+                "id": 21989,
+                "name": "Upington City",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21989.png"
+            },
+            {
+                "id": 21095,
+                "name": "Venda Football Acadamy",
+                "leagues": [
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21095.png"
+            },
+            {
+                "id": 22348,
+                "name": "Durban City",
+                "leagues": [
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22348.png"
+            },
+            {
+                "id": 22347,
+                "name": "Highbury",
+                "leagues": [
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22347.png"
+            },
+            {
+                "id": 22350,
+                "name": "Kruger United",
+                "leagues": [
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22350.png"
+            },
+            {
+                "id": 22349,
+                "name": "Leruma United",
+                "leagues": [
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22349.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "South African Telkom Knockout Cup",
+        "teams": [
+            {
+                "id": 7079,
+                "name": "Amazulu",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7079.png"
+            },
+            {
+                "id": 18359,
+                "name": "Baroka FC",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18359.png"
+            },
+            {
+                "id": 7083,
+                "name": "Bidvest Wits",
+                "leagues": [
+                    "South African Telkom Knockout Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7083.png"
+            },
+            {
+                "id": 7072,
+                "name": "Black Leopards",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African First Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7072.png"
+            },
+            {
+                "id": 7071,
+                "name": "Bloemfontein Celtic",
+                "leagues": [
+                    "South African Telkom Knockout Cup"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7071.png"
+            },
+            {
+                "id": 7100,
+                "name": "Cape Town City",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7100.png"
+            },
+            {
+                "id": 11913,
+                "name": "Chippa United",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11913.png"
+            },
+            {
+                "id": 7077,
+                "name": "Golden Arrows",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7077.png"
+            },
+            {
+                "id": 18360,
+                "name": "Highlands Park",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18360.png"
+            },
+            {
+                "id": 7081,
+                "name": "Kaizer Chiefs",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7081.png"
+            },
+            {
+                "id": 7084,
+                "name": "Mamelodi Sundowns",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "CAF Champions League",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    2391,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7084.png"
+            },
+            {
+                "id": 7082,
+                "name": "Maritzburg United",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7082.png"
+            },
+            {
+                "id": 7085,
+                "name": "Orlando Pirates",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7085.png"
+            },
+            {
+                "id": 7099,
+                "name": "Polokwane City",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7099.png"
+            },
+            {
+                "id": 18615,
+                "name": "Stellenbosch",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18615.png"
+            },
+            {
+                "id": 7080,
+                "name": "SuperSport United",
+                "leagues": [
+                    "South African Telkom Knockout Cup",
+                    "South African Nedbank Cup",
+                    "CAF Confederation Cup",
+                    "South African Premier Division"
+                ],
+                "leagueIds": [
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7080.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "Ghanaian Premier League",
+        "teams": [
+            {
+                "id": 18990,
+                "name": "Dreams F.C.",
+                "leagues": [
+                    "CAF Confederation Cup",
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18990.png"
+            },
+            {
+                "id": 18601,
+                "name": "Medeama",
+                "leagues": [
+                    "CAF Champions League",
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    2391,
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18601.png"
+            },
+            {
+                "id": 21168,
+                "name": "Accra Lions",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21168.png"
+            },
+            {
+                "id": 18603,
+                "name": "Aduana Stars",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18603.png"
+            },
+            {
+                "id": 18606,
+                "name": "Asante Kotoko",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18606.png"
+            },
+            {
+                "id": 18602,
+                "name": "Bechem United",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18602.png"
+            },
+            {
+                "id": 18604,
+                "name": "Berekum Chelsea",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18604.png"
+            },
+            {
+                "id": 21167,
+                "name": "Bibiani Gold Stars",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21167.png"
+            },
+            {
+                "id": 21983,
+                "name": "Bofoakwe Tano",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21983.png"
+            },
+            {
+                "id": 18605,
+                "name": "Great Olympics",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18605.png"
+            },
+            {
+                "id": 21166,
+                "name": "Heart of Lions",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21166.png"
+            },
+            {
+                "id": 18597,
+                "name": "Hearts of Oak",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18597.png"
+            },
+            {
+                "id": 18992,
+                "name": "Karela",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18992.png"
+            },
+            {
+                "id": 18609,
+                "name": "Legon Cities",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18609.png"
+            },
+            {
+                "id": 21984,
+                "name": "Nations",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21984.png"
+            },
+            {
+                "id": 21646,
+                "name": "Nsoatreman",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21646.png"
+            },
+            {
+                "id": 21169,
+                "name": "RTU",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21169.png"
+            },
+            {
+                "id": 21647,
+                "name": "Samartex",
+                "leagues": [
+                    "Ghanaian Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21647.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "Ugandan Premier League",
+        "teams": [
+            {
+                "id": 21170,
+                "name": "Arua Hill SC",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21170.png"
+            },
+            {
+                "id": 18618,
+                "name": "Bright Stars",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18618.png"
+            },
+            {
+                "id": 18621,
+                "name": "Bul FC",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18621.png"
+            },
+            {
+                "id": 18623,
+                "name": "Busoga United",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18623.png"
+            },
+            {
+                "id": 8715,
+                "name": "Express",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8715.png"
+            },
+            {
+                "id": 21171,
+                "name": "Gaddafi",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21171.png"
+            },
+            {
+                "id": 18625,
+                "name": "KCCA",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18625.png"
+            },
+            {
+                "id": 20839,
+                "name": "Kitara",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20839.png"
+            },
+            {
+                "id": 8717,
+                "name": "Maroons FC",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8717.png"
+            },
+            {
+                "id": 18841,
+                "name": "Mbarara",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18841.png"
+            },
+            {
+                "id": 21988,
+                "name": "NEC FC",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21988.png"
+            },
+            {
+                "id": 8714,
+                "name": "SC Villa",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8714.png"
+            },
+            {
+                "id": 18843,
+                "name": "UPDF",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18843.png"
+            },
+            {
+                "id": 18630,
+                "name": "URA",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18630.png"
+            },
+            {
+                "id": 18628,
+                "name": "Vipers",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18628.png"
+            },
+            {
+                "id": 20118,
+                "name": "Wakiso Giants",
+                "leagues": [
+                    "Ugandan Premier League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20118.png"
+            }
+        ]
+    },
+    {
+        "leagueName": "Zimbabwean Premier Soccer League",
+        "teams": [
+            {
+                "id": 22208,
+                "name": "Arenel Movers",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22208.png"
+            },
+            {
+                "id": 22238,
+                "name": "Bikita Minerals",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22238.png"
+            },
+            {
+                "id": 19147,
+                "name": "Bulawayo Chiefs",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19147.png"
+            },
+            {
+                "id": 8266,
+                "name": "CAPS United",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8266.png"
+            },
+            {
+                "id": 22209,
+                "name": "Chegutu Pirates",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22209.png"
+            },
+            {
+                "id": 18654,
+                "name": "Chicken Inn",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18654.png"
+            },
+            {
+                "id": 19140,
+                "name": "Dynamos",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19140.png"
+            },
+            {
+                "id": 21871,
+                "name": "Green Fuel",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21871.png"
+            },
+            {
+                "id": 19150,
+                "name": "Herentals",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19150.png"
+            },
+            {
+                "id": 8265,
+                "name": "Highlanders",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8265.png"
+            },
+            {
+                "id": 8304,
+                "name": "Hwange",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8304.png"
+            },
+            {
+                "id": 18655,
+                "name": "Kariba",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18655.png"
+            },
+            {
+                "id": 19978,
+                "name": "Manica Diamonds F.C.",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19978.png"
+            },
+            {
+                "id": 18652,
+                "name": "Ngezi Platinum",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18652.png"
+            },
+            {
+                "id": 19136,
+                "name": "Platinum",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19136.png"
+            },
+            {
+                "id": 21873,
+                "name": "Simba Bhora",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21873.png"
+            },
+            {
+                "id": 19979,
+                "name": "TelOne F.C.",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19979.png"
+            },
+            {
+                "id": 18660,
+                "name": "Yadah",
+                "leagues": [
+                    "Zimbabwean Premier Soccer League"
+                ],
+                "leagueIds": [
+                    null
+                ],
+                "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18660.png"
+            }
+        ]
+    }
+]

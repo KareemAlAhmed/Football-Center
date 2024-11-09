@@ -1,0 +1,572 @@
+[
+    {
+        "date": "Aug 12",
+        "player": {
+            "id": "67327",
+            "slug": "leonardo-ulloa",
+            "name": "Leonardo Ulloa"
+        },
+        "fromClub": {
+            "name": "Leicester City",
+            "id": "375",
+            "slug": "leicester-city"
+        },
+        "toClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "90718",
+            "slug": "keisuke-honda",
+            "name": "Keisuke Honda"
+        },
+        "fromClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "toClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 1",
+        "player": {
+            "id": "127572",
+            "slug": "timothee-kolodziejczak",
+            "name": "Timothée Kolodziejczak"
+        },
+        "fromClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "toClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "181709",
+            "slug": "luis-advincula",
+            "name": "Luis Advíncula"
+        },
+        "fromClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "toClub": {
+            "name": "Rayo Vallecano",
+            "id": "101",
+            "slug": "rayo-vallecano"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "173630",
+            "slug": "doria",
+            "name": "Dória"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "Santos",
+            "id": "225",
+            "slug": "santos"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 16",
+        "player": {
+            "id": "163063",
+            "slug": "eduardo-herrera",
+            "name": "Eduardo Herrera"
+        },
+        "fromClub": {
+            "name": "Rangers",
+            "id": "257",
+            "slug": "rangers"
+        },
+        "toClub": {
+            "name": "Santos",
+            "id": "225",
+            "slug": "santos"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "164231",
+            "slug": "damian-musto",
+            "name": "Damián Musto"
+        },
+        "fromClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "toClub": {
+            "name": "Huesca",
+            "id": "5413",
+            "slug": "huesca"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 11",
+        "player": {
+            "id": "161562",
+            "slug": "ricardo-alvarez",
+            "name": "Ricardo Alvarez"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "158640",
+            "slug": "raul-ruidiaz",
+            "name": "Raúl Ruidíaz"
+        },
+        "fromClub": {
+            "name": "Atlético Morelia",
+            "id": "221",
+            "slug": "atletico-morelia"
+        },
+        "toClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "159904",
+            "slug": "oswaldo-alanis",
+            "name": "Oswaldo Alanís"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Getafe",
+            "id": "2922",
+            "slug": "getafe"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "164331",
+            "slug": "nestor-araujo",
+            "name": "Néstor Araujo"
+        },
+        "fromClub": {
+            "name": "Santos",
+            "id": "225",
+            "slug": "santos"
+        },
+        "toClub": {
+            "name": "Celta Vigo",
+            "id": "85",
+            "slug": "celta-vigo"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "138333",
+            "slug": "guido-pizarro",
+            "name": "Guido Pizarro"
+        },
+        "fromClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "toClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "184299",
+            "slug": "carlos-salcedo",
+            "name": "Carlos Salcedo"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 15",
+        "player": {
+            "id": "164331",
+            "slug": "nestor-araujo",
+            "name": "Néstor Araujo"
+        },
+        "fromClub": {
+            "name": "Santos",
+            "id": "225",
+            "slug": "santos"
+        },
+        "toClub": {
+            "name": "Celta Vigo",
+            "id": "85",
+            "slug": "celta-vigo"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 7",
+        "player": {
+            "id": "138333",
+            "slug": "guido-pizarro",
+            "name": "Guido Pizarro"
+        },
+        "fromClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "toClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 4",
+        "player": {
+            "id": "156359",
+            "slug": "nicolas-castillo",
+            "name": "Nicolás Castillo"
+        },
+        "fromClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "toClub": {
+            "name": "Benfica",
+            "id": "1929",
+            "slug": "benfica"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 4",
+        "player": {
+            "id": "127218",
+            "slug": "luis-fuentes",
+            "name": "Luis Fuentes"
+        },
+        "fromClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "toClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "status": "Swap"
+    },
+    {
+        "date": "Jun 4",
+        "player": {
+            "id": "80359",
+            "slug": "carlos-gonzalez",
+            "name": "Carlos González"
+        },
+        "fromClub": {
+            "name": "Necaxa",
+            "id": "229",
+            "slug": "necaxa"
+        },
+        "toClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "status": "Fee"
+    },
+    {
+        "date": "Jun 4",
+        "player": {
+            "id": "136357",
+            "slug": "juan-iturbe",
+            "name": "Juan Iturbe"
+        },
+        "fromClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "toClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "status": "Fee"
+    },
+    {
+        "date": "Jun 4",
+        "player": {
+            "id": "200353",
+            "slug": "victor-malcorra",
+            "name": "Víctor Malcorra"
+        },
+        "fromClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "toClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "status": "Swap"
+    },
+    {
+        "date": "Jun 4",
+        "player": {
+            "id": "153727",
+            "slug": "erick-torres",
+            "name": "Erick Torres"
+        },
+        "fromClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "toClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "status": "Swap"
+    },
+    {
+        "date": "May 29",
+        "player": {
+            "id": "132098",
+            "slug": "jesus-gallardo",
+            "name": "Jesús Gallardo"
+        },
+        "fromClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "toClub": {
+            "name": "Monterrey",
+            "id": "220",
+            "slug": "monterrey"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "116102",
+            "slug": "matias-aguirregaray",
+            "name": "Matías Aguirregaray"
+        },
+        "fromClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "toClub": {
+            "name": "Las Palmas",
+            "id": "98",
+            "slug": "las-palmas"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "153727",
+            "slug": "erick-torres",
+            "name": "Erick Torres"
+        },
+        "fromClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "toClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "146416",
+            "slug": "efrain-juarez",
+            "name": "Efraín Juárez"
+        },
+        "fromClub": {
+            "name": "Monterrey",
+            "id": "220",
+            "slug": "monterrey"
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "143641",
+            "slug": "alejandro-arribas",
+            "name": "Alejandro Arribas"
+        },
+        "fromClub": {
+            "name": "Deportivo La Coruña",
+            "id": "90",
+            "slug": "deportivo-la-coruna"
+        },
+        "toClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "195715",
+            "slug": "walter-montoya",
+            "name": "Walter Montoya"
+        },
+        "fromClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "toClub": {
+            "name": "Cruz Azul",
+            "id": "218",
+            "slug": "cruz-azul"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "147436",
+            "slug": "manuel-iturra",
+            "name": "Manuel Iturra"
+        },
+        "fromClub": {
+            "name": "Necaxa",
+            "id": "229",
+            "slug": "necaxa"
+        },
+        "toClub": {
+            "name": "Málaga",
+            "id": "99",
+            "slug": "malaga"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "87153",
+            "slug": "gabriel-penalba",
+            "name": "Gabriel Peñalba"
+        },
+        "fromClub": {
+            "name": "Cruz Azul",
+            "id": "218",
+            "slug": "cruz-azul"
+        },
+        "toClub": {
+            "name": "Las Palmas",
+            "id": "98",
+            "slug": "las-palmas"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "187337",
+            "slug": "emanuel-cecchini",
+            "name": "Emanuel Cecchini"
+        },
+        "fromClub": {
+            "name": "Málaga",
+            "id": "99",
+            "slug": "malaga"
+        },
+        "toClub": {
+            "name": "León",
+            "id": "228",
+            "slug": "leon"
+        },
+        "status": "Loan"
+    }
+]

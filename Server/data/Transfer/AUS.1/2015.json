@@ -1,0 +1,268 @@
+[
+    {
+        "date": "Sep 24",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Milos Trifunovic"
+        },
+        "fromClub": {
+            "name": "Radnicki Nis",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Newcastle Jets",
+            "id": "5323",
+            "slug": "newcastle-jets"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "8067",
+            "slug": "thomas-sorensen",
+            "name": "Thomas Sorensen"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "106114",
+            "slug": "dimas-delgado",
+            "name": "Dimas Delgado"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "198774",
+            "slug": "harry-ascroft",
+            "name": "Harry Ascroft"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Central Coast Mariners",
+            "id": "5325",
+            "slug": "central-coast-mariners"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "36842",
+            "slug": "federico-piovaccari",
+            "name": "Federico Piovaccari"
+        },
+        "fromClub": {
+            "name": "Sampdoria",
+            "id": "2734",
+            "slug": "sampdoria"
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "8953",
+            "slug": "aaron-hughes",
+            "name": "Aaron Hughes"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "160314",
+            "slug": "andreu",
+            "name": "Andreu"
+        },
+        "fromClub": {
+            "name": "Racing Santander",
+            "id": "87",
+            "slug": "racing-santander"
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "142663",
+            "slug": "mark-milligan",
+            "name": "Mark Milligan"
+        },
+        "fromClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "toClub": {
+            "name": "Baniyas FC",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "163176",
+            "slug": "kerem-bulut",
+            "name": "Kerem Bulut"
+        },
+        "fromClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "toClub": {
+            "name": "Iraklis Thessaloniki",
+            "id": null,
+            "slug": null
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "79877",
+            "slug": "marc-janko",
+            "name": "Marc Janko"
+        },
+        "fromClub": {
+            "name": "Sydney FC",
+            "id": "5327",
+            "slug": "sydney-fc"
+        },
+        "toClub": {
+            "name": "FC Basel",
+            "id": "989",
+            "slug": "fc-basel"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Travis Cooper"
+        },
+        "fromClub": {
+            "name": "VVV-Venlo",
+            "id": "3731",
+            "slug": "vvv-venlo"
+        },
+        "toClub": {
+            "name": "Newcastle Jets",
+            "id": "5323",
+            "slug": "newcastle-jets"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Lee Ki-je"
+        },
+        "fromClub": {
+            "name": "Shimizu S-Pulse",
+            "id": "7104",
+            "slug": "shimizu-s-pulse"
+        },
+        "toClub": {
+            "name": "Newcastle Jets",
+            "id": "5323",
+            "slug": "newcastle-jets"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 30",
+        "player": {
+            "id": "123635",
+            "slug": "daniel-mullen",
+            "name": "Daniel Mullen"
+        },
+        "fromClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "toClub": {
+            "name": "Newcastle Jets",
+            "id": "5323",
+            "slug": "newcastle-jets"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 29",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Andrija Kaluderovic"
+        },
+        "fromClub": {
+            "name": "FC Thun",
+            "id": "3024",
+            "slug": "fc-thun"
+        },
+        "toClub": {
+            "name": "Brisbane Roar",
+            "id": "5326",
+            "slug": "brisbane-roar"
+        },
+        "status": "Free"
+    }
+]

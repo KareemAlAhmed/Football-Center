@@ -1,0 +1,287 @@
+[
+    {
+        "date": "Dec 22",
+        "player": {
+            "id": "285203",
+            "slug": "marino-hinestroza",
+            "name": "Marino Hinestroza"
+        },
+        "fromClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "toClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Sep 8",
+        "player": {
+            "id": "260173",
+            "slug": "efrain-alvarez",
+            "name": "Efrain Álvarez"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Sep 1",
+        "player": {
+            "id": "117977",
+            "slug": "jesus-corona",
+            "name": "Jesús Corona"
+        },
+        "fromClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "toClub": {
+            "name": "Monterrey",
+            "id": "220",
+            "slug": "monterrey"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 28",
+        "player": {
+            "id": "324044",
+            "slug": "fernando-alvarez",
+            "name": "Fernando Alvarez"
+        },
+        "fromClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "186385",
+            "slug": "cristian-arango",
+            "name": "Cristian Arango"
+        },
+        "fromClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "287497",
+            "slug": "juan-manuel-sanabria",
+            "name": "Juan Manuel Sanabria"
+        },
+        "fromClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "toClub": {
+            "name": "Atlético de San Luis",
+            "id": "15720",
+            "slug": "atletico-de-san-luis"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 10",
+        "player": {
+            "id": "48484",
+            "slug": "luis-amarilla",
+            "name": "Luis Amarilla"
+        },
+        "fromClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "toClub": {
+            "name": "Mazatlán FC",
+            "id": "20702",
+            "slug": "mazatlan-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 15",
+        "player": {
+            "id": "310213",
+            "slug": "daniel-aceves",
+            "name": "Daniel Aceves"
+        },
+        "fromClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 8",
+        "player": {
+            "id": "233976",
+            "slug": "miguel-tapias",
+            "name": "Miguel Tapias"
+        },
+        "fromClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 3",
+        "player": {
+            "id": "308481",
+            "slug": "jaziel-orozco",
+            "name": "Jaziel Orozco"
+        },
+        "fromClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "toClub": {
+            "name": "Santos",
+            "id": "225",
+            "slug": "santos"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "186385",
+            "slug": "cristian-arango",
+            "name": "Cristian Arango"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 27",
+        "player": {
+            "id": "308522",
+            "slug": "emerson-rodriguez",
+            "name": "Emerson Rodríguez"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "Santos",
+            "id": "225",
+            "slug": "santos"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "257062",
+            "slug": "ake-arnaud-loba",
+            "name": "Aké Arnaud Loba"
+        },
+        "fromClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "toClub": {
+            "name": "Mazatlán FC",
+            "id": "20702",
+            "slug": "mazatlan-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "224323",
+            "slug": "cesar-montes",
+            "name": "César Montes"
+        },
+        "fromClub": {
+            "name": "Monterrey",
+            "id": "220",
+            "slug": "monterrey"
+        },
+        "toClub": {
+            "name": "Espanyol",
+            "id": "88",
+            "slug": "espanyol"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "351302",
+            "slug": "daniel-rios",
+            "name": "Daniel Ríos"
+        },
+        "fromClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "toClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "status": "Undisclosed"
+    }
+]

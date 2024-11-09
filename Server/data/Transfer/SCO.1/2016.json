@@ -1,0 +1,553 @@
+[
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "73649",
+            "slug": "charlie-mulgrew",
+            "name": "Charlie Mulgrew"
+        },
+        "fromClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "toClub": {
+            "name": "Blackburn Rovers",
+            "id": "365",
+            "slug": "blackburn-rovers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "167119",
+            "slug": "larnell-cole",
+            "name": "Larnell Cole"
+        },
+        "fromClub": {
+            "name": "Fulham",
+            "id": "370",
+            "slug": "fulham"
+        },
+        "toClub": {
+            "name": "Inverness Caledonian Thistle",
+            "id": "253",
+            "slug": "inverness-caledonian-thistle"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "210140",
+            "slug": "saidy-janko",
+            "name": "Saidy Janko"
+        },
+        "fromClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "toClub": {
+            "name": "Barnsley",
+            "id": "397",
+            "slug": "barnsley"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "194450",
+            "slug": "james-maddison",
+            "name": "James Maddison"
+        },
+        "fromClub": {
+            "name": "Norwich City",
+            "id": "381",
+            "slug": "norwich-city"
+        },
+        "toClub": {
+            "name": "Aberdeen",
+            "id": "263",
+            "slug": "aberdeen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "141429",
+            "slug": "cristian-gamboa",
+            "name": "Cristian Gamboa"
+        },
+        "fromClub": {
+            "name": "West Bromwich Albion",
+            "id": "383",
+            "slug": "west-bromwich-albion"
+        },
+        "toClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "129284",
+            "slug": "stefan-johansen",
+            "name": "Stefan Johansen"
+        },
+        "fromClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "toClub": {
+            "name": "Fulham",
+            "id": "370",
+            "slug": "fulham"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 20",
+        "player": {
+            "id": "94708",
+            "slug": "joe-garner",
+            "name": "Joe Garner"
+        },
+        "fromClub": {
+            "name": "Preston North End",
+            "id": "394",
+            "slug": "preston-north-end"
+        },
+        "toClub": {
+            "name": "Rangers",
+            "id": "257",
+            "slug": "rangers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 13",
+        "player": {
+            "id": "16413",
+            "slug": "dorus-de-vries",
+            "name": "Dorus de Vries"
+        },
+        "fromClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "toClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 12",
+        "player": {
+            "id": "149777",
+            "slug": "greg-stewart",
+            "name": "Greg Stewart"
+        },
+        "fromClub": {
+            "name": "Dundee",
+            "id": "261",
+            "slug": "dundee"
+        },
+        "toClub": {
+            "name": "Birmingham City",
+            "id": "392",
+            "slug": "birmingham-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 12",
+        "player": {
+            "id": "218232",
+            "slug": "george-green",
+            "name": "George Green"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Kilmarnock",
+            "id": "260",
+            "slug": "kilmarnock"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 10",
+        "player": {
+            "id": "181639",
+            "slug": "darnell-fisher",
+            "name": "Darnell Fisher"
+        },
+        "fromClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "toClub": {
+            "name": "Rotherham United",
+            "id": "402",
+            "slug": "rotherham-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 7",
+        "player": {
+            "id": "46565",
+            "slug": "scott-sinclair",
+            "name": "Scott Sinclair"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "150988",
+            "slug": "scott-allan",
+            "name": "Scott Allan"
+        },
+        "fromClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "toClub": {
+            "name": "Rotherham United",
+            "id": "402",
+            "slug": "rotherham-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 28",
+        "player": {
+            "id": "97873",
+            "slug": "chris-konopka",
+            "name": "Chris Konopka"
+        },
+        "fromClub": {
+            "name": "Ross County",
+            "id": "251",
+            "slug": "ross-county"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "191363",
+            "slug": "joseph-dodoo",
+            "name": "Joseph Dodoo"
+        },
+        "fromClub": {
+            "name": "Leicester City",
+            "id": "375",
+            "slug": "leicester-city"
+        },
+        "toClub": {
+            "name": "Rangers",
+            "id": "257",
+            "slug": "rangers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 16",
+        "player": {
+            "id": "205981",
+            "slug": "remi-matthews",
+            "name": "Remi Matthews"
+        },
+        "fromClub": {
+            "name": "Norwich City",
+            "id": "381",
+            "slug": "norwich-city"
+        },
+        "toClub": {
+            "name": "Hamilton Academical",
+            "id": "409",
+            "slug": "hamilton-academical"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 14",
+        "player": {
+            "id": "181516",
+            "slug": "wes-burns",
+            "name": "Wes Burns"
+        },
+        "fromClub": {
+            "name": "Bristol City",
+            "id": "333",
+            "slug": "bristol-city"
+        },
+        "toClub": {
+            "name": "Aberdeen",
+            "id": "263",
+            "slug": "aberdeen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "186166",
+            "slug": "jordan-mcghee",
+            "name": "Jordan McGhee"
+        },
+        "fromClub": {
+            "name": "Heart of Midlothian",
+            "id": "262",
+            "slug": "heart-of-midlothian"
+        },
+        "toClub": {
+            "name": "Middlesbrough",
+            "id": "369",
+            "slug": "middlesbrough"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "196576",
+            "slug": "moussa-dembele",
+            "name": "Moussa Dembélé"
+        },
+        "fromClub": {
+            "name": "Fulham",
+            "id": "370",
+            "slug": "fulham"
+        },
+        "toClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "6516",
+            "slug": "matt-gilks",
+            "name": "Matt Gilks"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Rangers",
+            "id": "257",
+            "slug": "rangers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "141329",
+            "slug": "jayden-stockley",
+            "name": "Jayden Stockley"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Aberdeen",
+            "id": "263",
+            "slug": "aberdeen"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "207353",
+            "slug": "florent-bojaj",
+            "name": "Florent Bojaj"
+        },
+        "fromClub": {
+            "name": "Huddersfield Town",
+            "id": "335",
+            "slug": "huddersfield-town"
+        },
+        "toClub": {
+            "name": "Kilmarnock",
+            "id": "260",
+            "slug": "kilmarnock"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "207609",
+            "slug": "william-boyle",
+            "name": "William Boyle"
+        },
+        "fromClub": {
+            "name": "Huddersfield Town",
+            "id": "335",
+            "slug": "huddersfield-town"
+        },
+        "toClub": {
+            "name": "Kilmarnock",
+            "id": "260",
+            "slug": "kilmarnock"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "223570",
+            "slug": "jonathan-burn",
+            "name": "Jonathan Burn"
+        },
+        "fromClub": {
+            "name": "Middlesbrough",
+            "id": "369",
+            "slug": "middlesbrough"
+        },
+        "toClub": {
+            "name": "Kilmarnock",
+            "id": "260",
+            "slug": "kilmarnock"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "192655",
+            "slug": "oliver-davies",
+            "name": "Oliver Davies"
+        },
+        "fromClub": {
+            "name": "Swansea City",
+            "id": "318",
+            "slug": "swansea-city"
+        },
+        "toClub": {
+            "name": "Kilmarnock",
+            "id": "260",
+            "slug": "kilmarnock"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "198155",
+            "slug": "mark-waddington",
+            "name": "Mark Waddington"
+        },
+        "fromClub": {
+            "name": "Stoke City",
+            "id": "336",
+            "slug": "stoke-city"
+        },
+        "toClub": {
+            "name": "Kilmarnock",
+            "id": "260",
+            "slug": "kilmarnock"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "105009",
+            "slug": "simon-church",
+            "name": "Simon Church"
+        },
+        "fromClub": {
+            "name": "Milton Keynes Dons",
+            "id": "390",
+            "slug": "milton-keynes-dons"
+        },
+        "toClub": {
+            "name": "Aberdeen",
+            "id": "263",
+            "slug": "aberdeen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "134703",
+            "slug": "lee-hodson",
+            "name": "Lee Hodson"
+        },
+        "fromClub": {
+            "name": "Milton Keynes Dons",
+            "id": "390",
+            "slug": "milton-keynes-dons"
+        },
+        "toClub": {
+            "name": "Aberdeen",
+            "id": "263",
+            "slug": "aberdeen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "194118",
+            "slug": "patrick-roberts",
+            "name": "Patrick Roberts"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "status": "Loan"
+    }
+]

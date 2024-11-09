@@ -1,0 +1,73 @@
+section.gameLastTimes{
+    width: 100%;
+    gap: 0;
+    margin-bottom: 15px;
+    padding: 0 12px;
+}
+section.gameLastTimes .cardTitle{
+    /* border-style: solid; */
+}
+section.gameLastTimes .cardTitle p{
+    font-size: 18px;
+}
+section.gameLastTimes  .Wrapper table{
+    width: 100%;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+section.gameLastTimes  .Wrapper table tr{
+    height: 36px;
+}
+section.gameLastTimes  .Wrapper table tr th{
+    text-align: left;
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid;
+    padding-right: 10px;
+    font-size: 14px;
+}
+section.gameLastTimes  .Wrapper table tr td{
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+section.gameLastTimes  .Wrapper table tr .teamColumn{
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+}
+section.gameLastTimes  .Wrapper table tr .teamLogo{
+    width: 20px;
+    display: inline-block;
+    transform: translateY(4px);
+    margin-right: 2px;
+    padding: 0;
+}
+section.gameLastTimes  .Wrapper table tr .matchScores{
+    padding-right: 0;
+}
+section.gameLastTimes  .Wrapper table tr .results .status{
+    margin-right: 5px;
+}
+
+section.gameLastTimes  .Wrapper table tr th:nth-child(1){
+    text-align: left;
+} 
+section.gameLastTimes  .Wrapper table tr a{
+    color: var(--text-color);
+}
+
+@media (max-width: 1350px) {
+    .overviewMatchPage section.gameLastTimes{
+        padding:  0;
+    }
+}
+@media (max-width: 991px) {
+    .overviewMatchPage section.gameLastTimes .Wrapper{
+        overflow-x: scroll;
+    }
+    .overviewMatchPage section.gameLastTimes .Wrapper  table{
+        min-width: 585px;
+    }
+}

@@ -1,0 +1,18 @@
+.listOfTransferNews{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.transferNews .topTransferNews,.transferNews .trendingTransferNewsList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+@media (max-width: 600px) {
+    .transferNews .topTransferNews,.transferNews .trendingTransferNewsList{
+        gap: 25px;
+    }
+    .transferNews .topTransferNews .NewsSmallCard, .transferNews .trendingTransferNewsList .NewsSmallCard{
+        height: 315px;
+    }
+}

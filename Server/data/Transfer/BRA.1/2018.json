@@ -1,0 +1,249 @@
+[
+    {
+        "date": "Aug 21",
+        "player": {
+            "id": "198515",
+            "slug": "fernando-bob",
+            "name": "Fernando Bob"
+        },
+        "fromClub": {
+            "name": "Internacional",
+            "id": "1936",
+            "slug": "internacional"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 12",
+        "player": {
+            "id": "40270",
+            "slug": "paolo-guerrero",
+            "name": "Paolo Guerrero"
+        },
+        "fromClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "toClub": {
+            "name": "Internacional",
+            "id": "1936",
+            "slug": "internacional"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 10",
+        "player": {
+            "id": "86086",
+            "slug": "alexander-baumjohann",
+            "name": "Alexander Baumjohann"
+        },
+        "fromClub": {
+            "name": "Vitória",
+            "id": "3457",
+            "slug": "vitoria"
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 24",
+        "player": {
+            "id": "255639",
+            "slug": "nathan",
+            "name": "Nathan"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Atlético-MG",
+            "id": "7632",
+            "slug": "atletico-mg"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 16",
+        "player": {
+            "id": "180446",
+            "slug": "bruno-nazario",
+            "name": "Bruno Nazario"
+        },
+        "fromClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "toClub": {
+            "name": "Athletico-PR",
+            "id": "3458",
+            "slug": "athletico-pr"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 14",
+        "player": {
+            "id": "199101",
+            "slug": "fabian-balbuena",
+            "name": "Fabián Balbuena"
+        },
+        "fromClub": {
+            "name": "Corinthians",
+            "id": "874",
+            "slug": "corinthians"
+        },
+        "toClub": {
+            "name": "West Ham United",
+            "id": "371",
+            "slug": "west-ham-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "252107",
+            "slug": "vinicius-junior",
+            "name": "Vinícius Júnior"
+        },
+        "fromClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "toClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "216254",
+            "slug": "arthur",
+            "name": "Arthur"
+        },
+        "fromClub": {
+            "name": "Grêmio",
+            "id": "6273",
+            "slug": "gremio"
+        },
+        "toClub": {
+            "name": "Barcelona",
+            "id": "83",
+            "slug": "barcelona"
+        },
+        "status": "€ 31M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "258271",
+            "slug": "paulinho",
+            "name": "Paulinho"
+        },
+        "fromClub": {
+            "name": "Vasco da Gama",
+            "id": "3454",
+            "slug": "vasco-da-gama"
+        },
+        "toClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "142490",
+            "slug": "jonathas",
+            "name": "Jonathas"
+        },
+        "fromClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "toClub": {
+            "name": "Corinthians",
+            "id": "874",
+            "slug": "corinthians"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "182522",
+            "slug": "gabriel-barbosa",
+            "name": "Gabriel Barbosa"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Santos",
+            "id": "2674",
+            "slug": "santos"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "196901",
+            "slug": "yerry-mina",
+            "name": "Yerry Mina"
+        },
+        "fromClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "toClub": {
+            "name": "Barcelona",
+            "id": "83",
+            "slug": "barcelona"
+        },
+        "status": "€ 11.8M"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "207269",
+            "slug": "guilherme-arana",
+            "name": "Guilherme Arana"
+        },
+        "fromClub": {
+            "name": "Corinthians",
+            "id": "874",
+            "slug": "corinthians"
+        },
+        "toClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "status": "Undisclosed"
+    }
+]

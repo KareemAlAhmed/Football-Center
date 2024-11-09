@@ -1,0 +1,93 @@
+section.searchedPlayers{
+    width: 100%;
+    margin-top: 15px;
+    gap: 15px;
+}
+section.searchedPlayers .cardTitle{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 0;
+}
+section.searchedPlayers .cardTitle p{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 20px
+}
+section.searchedPlayers .cardTitle a{
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    
+}
+section.searchedPlayers .cardTitle a:hover{
+    color: var(--hover-color);
+}
+section.searchedPlayers .cardHeader{
+    height: fit-content;
+}
+
+section.searchedPlayers .Wrapper ul.playerList{
+    display: flex;
+    gap: 20px;
+}
+
+section.searchedPlayers .Wrapper ul.playerList li{
+    display: inline-block;
+    width: calc((100% - (3 * 20px)) / 4);;
+}
+section.searchedPlayers .Wrapper ul.playerList li:first-child{
+    margin-left: 0;
+}
+section.searchedPlayers .Wrapper ul.playerList li a{
+    height: 100%;
+    display: flex;
+    padding: 12px;
+    gap: 8px;
+    border: 1px solid var(--text-color);   
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+section.searchedPlayers .Wrapper ul.playerList li a img{
+    width: 40px;
+    height: 100%;
+    border-radius: 100%;
+}
+
+section.searchedPlayers .Wrapper ul.playerList li a .playerName{
+    /* font-size: 12px; */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: var(--text-color);
+    padding: 0;
+    transition: all 0.4s ease;
+}
+section.searchedPlayers .Wrapper ul.playerList li a .playerTeam,
+section.searchedPlayers .Wrapper ul.playerList li a .teamLeague{
+    /* font-size: 11px; */
+    font-size: 13px;
+    line-height: 13px;
+    color: var(--hover-color);
+}
+section.searchedPlayers .Wrapper ul.playerList li:hover a{
+    border-color: var(--hover-color);
+}
+section.searchedPlayers .Wrapper ul.playerList li:hover a .playerName{
+    color: var(--hover-color);
+}
+@media (max-width: 991px) {
+    section.searchedPlayers .Wrapper ul.playerList{
+        flex-wrap: wrap;
+    }
+    section.searchedPlayers .Wrapper ul.playerList li{
+        width: calc((100% -  20px) / 2) ;
+    }
+}
+@media (max-width: 490px) {
+    section.searchedPlayers .Wrapper ul.playerList li{
+        width: 100% ;
+    }
+}

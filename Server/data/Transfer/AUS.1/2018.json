@@ -1,0 +1,876 @@
+[
+    {
+        "date": "Oct 4",
+        "player": {
+            "id": "194876",
+            "slug": "rashid-mahazi",
+            "name": "Rashid Mahazi"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Sep 19",
+        "player": {
+            "id": "71578",
+            "slug": "ross-mccormack",
+            "name": "Ross McCormack"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Central Coast Mariners",
+            "id": "5325",
+            "slug": "central-coast-mariners"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Sep 18",
+        "player": {
+            "id": "167567",
+            "slug": "curtis-good",
+            "name": "Curtis Good"
+        },
+        "fromClub": {
+            "name": "Newcastle United",
+            "id": "361",
+            "slug": "newcastle-united"
+        },
+        "toClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Sep 14",
+        "player": {
+            "id": "192153",
+            "slug": "mitch-austin",
+            "name": "Mitch Austin"
+        },
+        "fromClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "toClub": {
+            "name": "Newcastle Jets",
+            "id": "5323",
+            "slug": "newcastle-jets"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Sep 14",
+        "player": {
+            "id": "107452",
+            "slug": "ritchie-de-laet",
+            "name": "Ritchie de Laet"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 23",
+        "player": {
+            "id": "110066",
+            "slug": "siem-de-jong",
+            "name": "Siem de Jong"
+        },
+        "fromClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "toClub": {
+            "name": "Sydney FC",
+            "id": "5327",
+            "slug": "sydney-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 17",
+        "player": {
+            "id": "42474",
+            "slug": "adam-le-fondre",
+            "name": "Adam Le Fondre"
+        },
+        "fromClub": {
+            "name": "Bolton Wanderers",
+            "id": "358",
+            "slug": "bolton-wanderers"
+        },
+        "toClub": {
+            "name": "Sydney FC",
+            "id": "5327",
+            "slug": "sydney-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 10",
+        "player": {
+            "id": "86086",
+            "slug": "alexander-baumjohann",
+            "name": "Alexander Baumjohann"
+        },
+        "fromClub": {
+            "name": "Vitória",
+            "id": "3457",
+            "slug": "vitoria"
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 9",
+        "player": {
+            "id": "225510",
+            "slug": "daniel-arzani",
+            "name": "Daniel Arzani"
+        },
+        "fromClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "toClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "90718",
+            "slug": "keisuke-honda",
+            "name": "Keisuke Honda"
+        },
+        "fromClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "toClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 31",
+        "player": {
+            "id": "182552",
+            "slug": "scott-galloway",
+            "name": "Scott Galloway"
+        },
+        "fromClub": {
+            "name": "Wellington Phoenix FC",
+            "id": "8352",
+            "slug": "wellington-phoenix-fc"
+        },
+        "toClub": {
+            "name": "Adelaide United",
+            "id": "5321",
+            "slug": "adelaide-united"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "184413",
+            "slug": "danny-de-silva",
+            "name": "Danny De Silva"
+        },
+        "fromClub": {
+            "name": "Central Coast Mariners",
+            "id": "5325",
+            "slug": "central-coast-mariners"
+        },
+        "toClub": {
+            "name": "Sydney FC",
+            "id": "5327",
+            "slug": "sydney-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "177961",
+            "slug": "michal-kopczynski",
+            "name": "Michal Kopczynski"
+        },
+        "fromClub": {
+            "name": "Legia Warsaw",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Wellington Phoenix FC",
+            "id": "8352",
+            "slug": "wellington-phoenix-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 24",
+        "player": {
+            "id": "137196",
+            "slug": "patrick-ziegler",
+            "name": "Patrick Ziegler"
+        },
+        "fromClub": {
+            "name": "FC Kaiserslautern",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "200417",
+            "slug": "david-williams",
+            "name": "David Williams"
+        },
+        "fromClub": {
+            "name": "Szombathelyi Haladas",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Wellington Phoenix FC",
+            "id": "8352",
+            "slug": "wellington-phoenix-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "107533",
+            "slug": "mitch-nichols",
+            "name": "Mitch Nichols"
+        },
+        "fromClub": {
+            "name": "Persela",
+            "id": "8031",
+            "slug": "persela"
+        },
+        "toClub": {
+            "name": "Wellington Phoenix FC",
+            "id": "8352",
+            "slug": "wellington-phoenix-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "181256",
+            "slug": "nicholas-ansell",
+            "name": "Nicholas Ansell"
+        },
+        "fromClub": {
+            "name": "Tondela",
+            "id": "12706",
+            "slug": "tondela"
+        },
+        "toClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "73074",
+            "slug": "juande",
+            "name": "Juande"
+        },
+        "fromClub": {
+            "name": "Spezia",
+            "id": "4056",
+            "slug": "spezia"
+        },
+        "toClub": {
+            "name": "Perth Glory",
+            "id": "5322",
+            "slug": "perth-glory"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "131098",
+            "slug": "georg-niedermeier",
+            "name": "Georg Niedermeier"
+        },
+        "fromClub": {
+            "name": "SC Freiburg",
+            "id": "126",
+            "slug": "sc-freiburg"
+        },
+        "toClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 18",
+        "player": {
+            "id": "168388",
+            "slug": "filip-kurto",
+            "name": "Filip Kurto"
+        },
+        "fromClub": {
+            "name": "Roda JC Kerkrade",
+            "id": "149",
+            "slug": "roda-jc-kerkrade"
+        },
+        "toClub": {
+            "name": "Wellington Phoenix FC",
+            "id": "8352",
+            "slug": "wellington-phoenix-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "104223",
+            "slug": "rhys-williams",
+            "name": "Rhys Williams"
+        },
+        "fromClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "toClub": {
+            "name": "Al-Qadsiah FC",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "133321",
+            "slug": "fabio-ferreira",
+            "name": "Fábio Ferreira"
+        },
+        "fromClub": {
+            "name": "Sydney FC",
+            "id": "5327",
+            "slug": "sydney-fc"
+        },
+        "toClub": {
+            "name": "Perth Glory",
+            "id": "5322",
+            "slug": "perth-glory"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "17812",
+            "slug": "steven-taylor",
+            "name": "Steven Taylor"
+        },
+        "fromClub": {
+            "name": "Peterborough United",
+            "id": "342",
+            "slug": "peterborough-united"
+        },
+        "toClub": {
+            "name": "Wellington Phoenix FC",
+            "id": "8352",
+            "slug": "wellington-phoenix-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jun 29",
+        "player": {
+            "id": "84803",
+            "slug": "besart-berisha",
+            "name": "Besart Berisha"
+        },
+        "fromClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "toClub": {
+            "name": "Sanfrecce Hiroshima",
+            "id": "7114",
+            "slug": "sanfrecce-hiroshima"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 19",
+        "player": {
+            "id": "107536",
+            "slug": "brendon-santalab",
+            "name": "Brendon Santalab"
+        },
+        "fromClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "toClub": {
+            "name": "Perth Glory",
+            "id": "5322",
+            "slug": "perth-glory"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jun 18",
+        "player": {
+            "id": "154809",
+            "slug": "michael-ohalloran",
+            "name": "Michael O'Halloran"
+        },
+        "fromClub": {
+            "name": "Rangers",
+            "id": "257",
+            "slug": "rangers"
+        },
+        "toClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 8",
+        "player": {
+            "id": "239920",
+            "slug": "christian-theoharous",
+            "name": "Christian Theoharous"
+        },
+        "fromClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "toClub": {
+            "name": "Borussia Monchengladbach",
+            "id": "268",
+            "slug": "borussia-monchengladbach"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 4",
+        "player": {
+            "id": "159503",
+            "slug": "stefan-mauk",
+            "name": "Stefan Mauk"
+        },
+        "fromClub": {
+            "name": "NEC Nijmegen",
+            "id": "147",
+            "slug": "nec-nijmegen"
+        },
+        "toClub": {
+            "name": "Brisbane Roar",
+            "id": "5326",
+            "slug": "brisbane-roar"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "May 26",
+        "player": {
+            "id": "170754",
+            "slug": "craig-goodwin",
+            "name": "Craig Goodwin"
+        },
+        "fromClub": {
+            "name": "Sparta Rotterdam",
+            "id": "151",
+            "slug": "sparta-rotterdam"
+        },
+        "toClub": {
+            "name": "Adelaide United",
+            "id": "5321",
+            "slug": "adelaide-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 23",
+        "player": {
+            "id": "41843",
+            "slug": "johan-absalonsen",
+            "name": "Johan Absalonsen"
+        },
+        "fromClub": {
+            "name": "Adelaide United",
+            "id": "5321",
+            "slug": "adelaide-united"
+        },
+        "toClub": {
+            "name": "Sønderjyske Fodbold",
+            "id": "8118",
+            "slug": "sønderjyske-fodbold"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 14",
+        "player": {
+            "id": "35391",
+            "slug": "michael-jakobsen",
+            "name": "Michael Jakobsen"
+        },
+        "fromClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "toClub": {
+            "name": "Adelaide United",
+            "id": "5321",
+            "slug": "adelaide-united"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "May 3",
+        "player": {
+            "id": "145015",
+            "slug": "nick-fitzgerald",
+            "name": "Nick Fitzgerald"
+        },
+        "fromClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "May 3",
+        "player": {
+            "id": "207254",
+            "slug": "bruce-kamau",
+            "name": "Bruce Kamau"
+        },
+        "fromClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "May 3",
+        "player": {
+            "id": "222683",
+            "slug": "ruon-tongyik",
+            "name": "Ruon Tongyik"
+        },
+        "fromClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Mar 4",
+        "player": {
+            "id": "179396",
+            "slug": "andrew-nabbout",
+            "name": "Andrew Nabbout"
+        },
+        "fromClub": {
+            "name": "Newcastle Jets",
+            "id": "5323",
+            "slug": "newcastle-jets"
+        },
+        "toClub": {
+            "name": "Urawa Red Diamonds",
+            "id": "3385",
+            "slug": "urawa-red-diamonds"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 7",
+        "player": {
+            "id": "129541",
+            "slug": "dzengis-cavusevic",
+            "name": "Dzengis Cavusevic"
+        },
+        "fromClub": {
+            "name": "FC Zürich",
+            "id": "3019",
+            "slug": "fc-zurich"
+        },
+        "toClub": {
+            "name": "Adelaide United",
+            "id": "5321",
+            "slug": "adelaide-united"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "201685",
+            "slug": "fabio-ferreira",
+            "name": "Fábio Ferreira"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Sydney FC",
+            "id": "5327",
+            "slug": "sydney-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "207255",
+            "slug": "ben-warland",
+            "name": "Ben Warland"
+        },
+        "fromClub": {
+            "name": "Adelaide United",
+            "id": "5321",
+            "slug": "adelaide-united"
+        },
+        "toClub": {
+            "name": "Sydney FC",
+            "id": "5327",
+            "slug": "sydney-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "215380",
+            "slug": "christopher-ikonomidis",
+            "name": "Christopher Ikonomidis"
+        },
+        "fromClub": {
+            "name": "Lazio",
+            "id": "112",
+            "slug": "lazio"
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "194746",
+            "slug": "monty-patterson",
+            "name": "Monty Patterson"
+        },
+        "fromClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "toClub": {
+            "name": "Wellington Phoenix FC",
+            "id": "8352",
+            "slug": "wellington-phoenix-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "142663",
+            "slug": "mark-milligan",
+            "name": "Mark Milligan"
+        },
+        "fromClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "toClub": {
+            "name": "Al Ahli",
+            "id": null,
+            "slug": null
+        },
+        "status": "$ 1M"
+    },
+    {
+        "date": "Jan 17",
+        "player": {
+            "id": "205597",
+            "slug": "peter-skapetis",
+            "name": "Peter Skapetis"
+        },
+        "fromClub": {
+            "name": "Brisbane Roar",
+            "id": "5326",
+            "slug": "brisbane-roar"
+        },
+        "toClub": {
+            "name": "Central Coast Mariners",
+            "id": "5325",
+            "slug": "central-coast-mariners"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 16",
+        "player": {
+            "id": "182465",
+            "slug": "robert-cornthwaite",
+            "name": "Robert Cornthwaite"
+        },
+        "fromClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "toClub": {
+            "name": "Perak",
+            "id": "8831",
+            "slug": "perak"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "200365",
+            "slug": "marcelo-carrusca",
+            "name": "Marcelo Carrusca"
+        },
+        "fromClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "toClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 3",
+        "player": {
+            "id": "150685",
+            "slug": "terry-antonis",
+            "name": "Terry Antonis"
+        },
+        "fromClub": {
+            "name": "VVV-Venlo",
+            "id": "3731",
+            "slug": "vvv-venlo"
+        },
+        "toClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 3",
+        "player": {
+            "id": "107441",
+            "slug": "dino-djulbic",
+            "name": "Dino Djulbic"
+        },
+        "fromClub": {
+            "name": "KL Felda United",
+            "id": "17737",
+            "slug": "kl-felda-united"
+        },
+        "toClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "status": "Free"
+    }
+]

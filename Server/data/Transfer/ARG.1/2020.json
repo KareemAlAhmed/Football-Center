@@ -1,0 +1,287 @@
+[
+    {
+        "date": "Dec 17",
+        "player": {
+            "id": "235873",
+            "slug": "claudio-bravo",
+            "name": "Claudio Bravo"
+        },
+        "fromClub": {
+            "name": "Banfield",
+            "id": "235",
+            "slug": "banfield"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Sep 22",
+        "player": {
+            "id": "199651",
+            "slug": "marcelino-moreno",
+            "name": "Marcelino Moreno"
+        },
+        "fromClub": {
+            "name": "Lanús",
+            "id": "12",
+            "slug": "lanus"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Sep 2",
+        "player": {
+            "id": "279454",
+            "slug": "alvaro-barreal",
+            "name": "Álvaro Barreal"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Sep 1",
+        "player": {
+            "id": "233326",
+            "slug": "emanuel-reynoso",
+            "name": "Emanuel Reynoso"
+        },
+        "fromClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 24",
+        "player": {
+            "id": "144509",
+            "slug": "gaston-gimenez",
+            "name": "Gastón Giménez"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 19",
+        "player": {
+            "id": "276055",
+            "slug": "ignacio-aliseda",
+            "name": "Ignacio Aliseda"
+        },
+        "fromClub": {
+            "name": "Defensa y Justicia",
+            "id": "8950",
+            "slug": "defensa-y-justicia"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 12",
+        "player": {
+            "id": "185800",
+            "slug": "yamil-asad",
+            "name": "Yamil Asad"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 12",
+        "player": {
+            "id": "208406",
+            "slug": "manuel-castro",
+            "name": "Manuel Castro"
+        },
+        "fromClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 10",
+        "player": {
+            "id": "95413",
+            "slug": "ignacio-piatti",
+            "name": "Ignacio Piatti"
+        },
+        "fromClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "toClub": {
+            "name": "San Lorenzo",
+            "id": "18",
+            "slug": "san-lorenzo"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 5",
+        "player": {
+            "id": "206682",
+            "slug": "yeimar-gomez",
+            "name": "Yeimar Gómez"
+        },
+        "fromClub": {
+            "name": "Unión (Santa Fe)",
+            "id": "20",
+            "slug": "union-santa-fe"
+        },
+        "toClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "249729",
+            "slug": "stefan-cleveland",
+            "name": "Stefan Cleveland"
+        },
+        "fromClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "toClub": {
+            "name": "Unión (Santa Fe)",
+            "id": "20",
+            "slug": "union-santa-fe"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 30",
+        "player": {
+            "id": "189952",
+            "slug": "jorge-figal",
+            "name": "Jorge Figal"
+        },
+        "fromClub": {
+            "name": "Independiente",
+            "id": "11",
+            "slug": "independiente"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 30",
+        "player": {
+            "id": "129426",
+            "slug": "marcos-rojo",
+            "name": "Marcos Rojo"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "48484",
+            "slug": "luis-amarilla",
+            "name": "Luis Amarilla"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "228393",
+            "slug": "exequiel-palacios",
+            "name": "Exequiel Palacios"
+        },
+        "fromClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "toClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "status": "Undisclosed"
+    }
+]

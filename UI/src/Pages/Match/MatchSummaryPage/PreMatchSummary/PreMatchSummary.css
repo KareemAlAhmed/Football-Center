@@ -1,0 +1,107 @@
+.gameBlock .pageContent .leftSideContainer,
+.gameBlock .pageContent .rightSideContainer{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.gameBlock .pageContent .leftSideContainer{
+    margin-right: 20px;
+}
+.gameBlock .pageContent .rightSideContainer{
+    margin-left: 20px;
+}
+.gameBlock .pageContent .rightSideContainer .competStanding{
+    width: 300px;
+    padding: 0 12px;
+}
+
+.gameBlock .pageContent .rightSideContainer .competStanding .leagueName{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}    
+.gameBlock .pageContent .rightSideContainer .competStanding table tbody tr td{
+    /* font-size: 13px; */
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0px 5px 10px;
+}
+.gameBlock .pageContent .rightSideContainer .competStanding table thead tr th{
+    padding: 0px 5px 10px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 19px;
+}   
+.gameBlock .pageContent .mainContainer .gamePreviewQuickInfo{
+    padding: 12px;
+}
+.gameBlock .pageContent .mainContainer .gamePreviewQuickInfo:hover .gamePreviewLink{
+    color: var(--hover-color);
+}
+.gameBlock .pageContent .mainContainer .gamePreviewQuickInfo .gamePreviewLink{
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+.gameBlock .pageContent .mainContainer .gamePreviewQuickInfo .gamePreviewContent,
+.gameBlock .pageContent .mainContainer .gamePreviewQuickInfo .gamePreviewMetaDeta{
+    color: var(--hover-color);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.gameBlock .pageContent .mainContainer .gamePreviewQuickInfo .gamePreviewMetaDeta{
+    margin-top: 5px;
+}
+.gameBlock .cardHeader{
+    height: fit-content !important;
+}
+.overviewMatchPage .pageContent .mainContainer :first-child {
+    padding-top: 0 !important;
+}
+@media (max-width: 1520px) {
+    .overviewMatchPage .pageContent .leftSideContainer{
+        margin-right: 0;
+    }
+    .overviewMatchPage .pageContent .rightSideContainer{
+        margin-left: 0
+    }
+    .overviewMatchPage .pageContent{
+        width: 100%;
+    }
+}
+.extraComp{
+    display: none;
+}
+@media (max-width: 1350px) {
+
+    .overviewMatchPage .pageContent .mainContainer{
+        width: calc(100% - 600px);
+    }
+    .overviewMatchPage .pageContent .mainContainer section.gameInfo,
+    .overviewMatchPage .pageContent .mainContainer .gamePreviewQuickInfo{
+        padding: 12px 0;
+    }
+
+}
+@media (max-width: 1200px) {
+
+    .overviewMatchPage .pageContent .leftSideContainer{
+        display: none;
+    }
+    .overviewMatchPage .pageContent .extraComp{
+        display: block;
+    }
+}
+@media (max-width: 991px) {
+
+    .overviewMatchPage .pageContent .rightSideContainer{
+        display: none;
+    }
+
+}

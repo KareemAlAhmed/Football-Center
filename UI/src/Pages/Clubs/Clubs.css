@@ -1,0 +1,87 @@
+.titleBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.titleBlock select{
+    background: transparent;
+    color: var(--text-color);
+}
+.titleBlock select:hover{
+    outline: none;
+}
+.titleBlock select option{
+    background-color: var(--back-color);
+}
+.titleBlock select option:hover{
+    background: var(--text-color) !important;
+    color: var(--back-color) !important;
+}
+.allTeams{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 25px;
+}
+.allTeams .team{
+    height: 64px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    width: calc((100% - 10px) / 2);
+    background-color: var(--button-hover-color);
+}
+.allTeams .team img{
+    width: 35px;
+    height: 35px;
+}
+.allTeams .teamInfo{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+}
+.allTeams .teamInfo .teamNameAndOpt ul{
+    display: flex;
+    gap: 10px;
+}
+
+.allTeams .teamInfo .teamNameAndOpt ul a{
+    color: var(--hover-color);
+    transition: all 0.3s ease;
+}
+.allTeams .teamInfo .teamNameAndOpt ul a:hover{
+    color: var(--text-color);
+}
+.allTeams .team svg{
+    width: 15px;
+    height: 15px;
+    fill: var(--text-color);
+}
+@media (max-width: 991px) {
+    .mobileVisible {
+        display: block !important;
+    }
+    .teams .allTeams{
+        max-width: 100%;
+    }
+}
+@media (max-width: 660px) {
+    .allTeams .team{
+        width: 100%;
+    }
+}
+@media (max-width: 550px) {
+    .teams .titleBlock{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .teams .titleBlock select{
+        height: 35px;
+    }
+}

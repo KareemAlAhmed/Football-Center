@@ -1,0 +1,69 @@
+.competetionsList{
+    display: flex;
+    column-gap: 20px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+.competetionsList .competetion {
+    height: 64px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    width: calc((100% - 40px) / 3);
+    background-color: var(--button-hover-color);
+}
+.comptCateg{
+    margin: 10px 0;
+}
+.competetionsList  .competetion img{
+    width: 35px;
+    height: 35px;
+}
+.competetionsList .competetionInfo{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+}
+.competetionsList .competetionInfo .comptNameAndOpt ul{
+    display: flex;
+    gap: 10px;
+}
+
+.competetionsList .competetionInfo .comptNameAndOpt ul a{
+    color: var(--hover-color);
+    transition: all 0.3s ease;
+}
+.competetionsList .competetionInfo .comptNameAndOpt ul a:hover{
+    color: var(--text-color);
+}
+.competetionsList .competetion svg{
+    width: 15px;
+    height: 15px;
+    fill: var(--text-color);
+}
+
+
+@media (max-width: 1350px) {
+    .competetionsList .competetionInfo .comptNameAndOpt a p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1200px) {
+    .competetionsList .competetion{
+        width: calc((100% - 20px) / 2);
+    }
+}
+@media (max-width: 992px) {
+    .competetionsList .competetionInfo .comptNameAndOpt a p{
+        font-size: 15px;
+    }
+  }
+@media (max-width: 629px) {
+    .competetionsList .competetion{
+        width: 100%;
+    }
+}

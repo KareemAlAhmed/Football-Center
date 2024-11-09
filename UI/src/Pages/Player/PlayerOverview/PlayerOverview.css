@@ -1,0 +1,426 @@
+.playerBlock .pageContent{
+    gap: 40px;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 210px;
+}
+.cardHeader{
+    height: 44px;
+}
+.cardTitle{
+    color: var(--text-color);
+    padding-bottom: 10px;
+    border-bottom: 1px dotted;
+}
+.cardTitle p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.Card .Wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Card .Wrapper .dropdown__select{
+    font-size: 15px;
+    height: 30px;;
+}
+
+
+.Card footer{
+    text-align: center;
+    padding: 5px 16px 0 0;
+    border-top: 1px dotted var(--text-color);
+}
+.Card footer a{
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+
+
+.quickLinks{
+    margin: 20px 0 10px;
+}
+
+.quickLinks ul li a{
+    display: flex;
+    gap: 5px;
+    color: var(--text-color);
+}
+.quickLinks ul li a svg{
+    width: 24px;
+    height: 24px;
+}
+.quickLinks ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.scoresSvg{
+    width: 24px;
+    fill: var(--text-color);
+    height: 30px !important;
+}
+
+.PageLayout__MainContainer{
+    flex: 1;
+}
+
+.PageLayout__MainContainer .Gamestrip{
+    display: flex;
+    flex-direction: column;
+}
+.PageLayout__MainContainer .Gamestrip .gameCompetetion{
+    text-align: center;
+    color: var(--text-color);
+    padding: 5px 0;
+}
+.PageLayout__MainContainer .Gamestrip a{
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 20px;
+}
+.PageLayout__MainContainer .Gamestrip a img{
+    width: 48px;
+}
+.PageLayout__MainContainer .Gamestrip a .homeTeam,
+.PageLayout__MainContainer .Gamestrip a .awayTeam{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.PageLayout__MainContainer .Gamestrip a .dateAndTime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.PageLayout__MainContainer .Gamestrip a .dateAndTime .time{
+    color: var(--hover-color);
+    font-size: 15px;
+}
+
+.PageLayout__MainContainer .playerStats .statsfilters{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 15px;
+}
+.PageLayout__MainContainer .playerStats .cardTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.PageLayout__MainContainer .playerStats .cardTitle a{
+    color: var(--text-color);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.PageLayout__MainContainer .playerStats .cardTitle a:hover{
+    color: var(--hover-color);
+}
+.PageLayout__MainContainer .playerStats .dropdown__select{
+    font-size: 15px;
+    height: 30px;
+}
+.PageLayout__MainContainer .playerStats .tableTitle {
+    border-top: 1px solid var(--hover-color);
+}
+.PageLayout__MainContainer .playerStats .tableTitle p{
+    color: var(--text-color);
+    font-weight: bold !important;
+    padding: 5px 0;
+    font-size: 16px;
+}
+.PageLayout__MainContainer .playerStats table{
+    width: 100%;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+.PageLayout__MainContainer .playerStats table tr th{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    border-bottom: 1px solid var(--hover-color);
+    border-top: 1px solid var(--hover-color);
+
+}
+.PageLayout__MainContainer .playerStats table tr td{
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+.PageLayout__MainContainer .playerStats table tr td:nth-child(1){
+    text-align: left;
+}
+.PageLayout__MainContainer .playerStats table tr th:nth-child(1){
+    text-align: left;
+    border: 1px solid var(--hover-color);
+    border-left: 0;
+} 
+.PageLayout__MainContainer .playerStats table tr td:nth-child(2){
+    border-left: 1px solid var(--hover-color);
+}
+
+.PageLayout__MainContainer .playerStats table tr a{
+    color: var(--text-color);
+}
+
+
+.PageLayout__MainContainer .lastMatches table{
+    width: 100%;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+.PageLayout__MainContainer .lastMatches table tr{
+    height: 36px;
+}
+.PageLayout__MainContainer .lastMatches table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    /* border-bottom: 1px solid var(--hover-color);
+    border-top: 1px solid var(--hover-color); */
+
+}
+.PageLayout__MainContainer .lastMatches table tr td{
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+.PageLayout__MainContainer .lastMatches table tr .teamColumn{
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+}
+.PageLayout__MainContainer .lastMatches table tr .teamColumn:first-of-type{
+    align-items: baseline;
+}
+.PageLayout__MainContainer .lastMatches table tr .teamLogo{
+    width: 20px;
+    height: 100%;
+    align-self: flex-end;
+}
+.PageLayout__MainContainer .lastMatches table tr .results span.score{
+    /* display: flex;
+    gap: 5px; */
+    margin-left: 5px;
+}
+
+.PageLayout__MainContainer .lastMatches table tr th:nth-child(1){
+    text-align: left;
+} 
+.PageLayout__MainContainer .lastMatches table tr a{
+    color: var(--text-color);
+}
+.PageLayout__MainContainer .lastMatches table tr td span.date{
+    display: block;
+    width: 100%;
+}
+
+.PageLayout__MainContainer .lastMatches .cardTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.PageLayout__MainContainer .lastMatches .cardTitle a{
+    color: var(--text-color);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.PageLayout__MainContainer .lastMatches .cardTitle a:hover{
+    color: var(--hover-color);
+}
+
+
+.PageLayout__MainContainer .Gamestrip a .dateAndTime .date{
+    font-size: 15px;
+    display: block;
+}
+
+
+
+
+
+.PageLayout__RightAside .latestNews{
+    width: 350px;
+}
+.PageLayout__RightAside .latestNews .Wrapper .listOfPlayerNews li .articleInfo{
+    font-size: 12px;
+    width: 65%;
+}
+.PageLayout__RightAside .latestNews .Wrapper .listOfPlayerNews li{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    margin-top: 15px;
+}
+.PageLayout__RightAside .latestNews .Wrapper .listOfPlayerNews li a{
+    color: var(--text-color);
+    word-wrap: break-word;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.PageLayout__RightAside .latestNews .Wrapper .listOfPlayerNews li a:hover{
+    color: var(--hover-color);
+}
+.PageLayout__RightAside .latestNews .Wrapper .listOfPlayerNews li img{
+    width: 150px;
+    height: 85px;
+}
+
+.PageLayout__RightAside .latestNews .Wrapper .listOfPlayerNews li .articleInfo .articleMetaData{
+    display: flex;
+    gap: 5px;
+    color:var(--hover-color);
+    margin-top: 5px;
+}
+@media (max-width: 991px) {
+    .hideLeftSide{
+        display: none !important;
+    }
+    .playerHeaderInfo .playerBio{
+        margin: 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    .hideRightside{
+        display: none;
+    }
+    .playerBlock .pageContent {
+        gap: 40px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .PageLayout__RightAside .latestNews {
+        width: 270px;
+    }
+}
+@media (min-width: 1350px) {
+    .PageLayout__RightAside .latestNews{
+        width: 300px;
+    }
+  }
+
+@media only screen and (max-width: 1520px) {
+    .PageLayout__MainContainer{
+        width: calc(100% - 60px - 210px - 300px);
+    }
+    .playerHeaderInfo .playerQuickInfoAndStats{
+        gap: 0px !important;
+    }
+    .playerHeaderInfo .playerBio ul li{
+        font-size: 15px;
+    }
+    .playerHeaderInfo .playerBio{
+        margin: 0 45px;
+    }
+    .playerBlock .pageContent{
+        gap:20px;
+    }
+    .PageLayout__MainContainer .Gamestrip a .teamName{
+        font-size: 16px;
+    }
+    .PageLayout__MainContainer .lastMatches table tr th{
+        padding-right: 5px;
+    }
+    .PageLayout__MainContainer .lastMatches table tr td{
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .PageLayout__MainContainer .playerStats table tr th,
+    .PageLayout__MainContainer .playerStats table tr td{
+        padding-right: 10px;
+    }
+}
+@media (max-width: 680px) {
+
+    .playerHeaderInfo .teamLogo {
+        display: none;
+    }
+    .PageLayout__MainContainer .playerStats table tr th:nth-child(5),
+    .PageLayout__MainContainer .playerStats table tr th:nth-child(6),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(4),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(13),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(14),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(15){
+        display: none;
+    }
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(5),
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(6),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(4),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(13),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(14),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(15){
+        display: none;
+    }
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(1){
+        font-size: 15px;
+    }
+  }
+@media (max-width: 510px) {
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(6),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(6){
+        display: none;
+    }
+    .PageLayout__MainContainer .Gamestrip a .homeTeam p:first-of-type,
+    .PageLayout__MainContainer .Gamestrip a .awayTeam p:first-of-type{
+       display: none;
+    }
+    .PageLayout__MainContainer .Gamestrip a .homeTeam p:last-of-type,
+    .PageLayout__MainContainer .Gamestrip a .awayTeam p:last-of-type{
+       display: block;
+    }
+  }
+@media (max-width: 450px) {
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(11),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(12),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(11),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(12){
+        display: none;
+    }
+
+    .PageLayout__MainContainer .Gamestrip a{
+        gap: 5px;
+    }
+}
+@media (max-width: 410px) {
+    .PageLayout__MainContainer .Gamestrip a .dateAndTime .date,
+    .PageLayout__MainContainer .Gamestrip a .dateAndTime .time{
+        font-size: 13px;
+    }
+    .PageLayout__MainContainer .Gamestrip a .teamName{
+        font-size: 14px;
+    }
+    .PageLayout__MainContainer .Gamestrip a img{
+        width: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .PageLayout__MainContainer .playerStats table tr th:nth-child(3),
+    .PageLayout__MainContainer .playerStats table tr th:nth-child(4),
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(3),
+    .PageLayout__MainContainer .playerStats table tr td:nth-child(4){
+        display: none;
+    }
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(9),
+    .PageLayout__MainContainer .lastMatches table tr th:nth-child(10),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(9),
+    .PageLayout__MainContainer .lastMatches table tr td:nth-child(10){
+        display: none;
+    }
+    .PageLayout__MainContainer .playerStats .statsfilters{
+        flex-direction: column;
+    }
+}

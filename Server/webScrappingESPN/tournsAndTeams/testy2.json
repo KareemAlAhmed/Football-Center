@@ -1,0 +1,6754 @@
+[
+    {
+        "id": 18444,
+        "name": "Austria Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18444.png",
+        "slug": "austria-women"
+    },
+    {
+        "id": 18736,
+        "name": "Belgium Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            2381,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18736.png",
+        "slug": "belgium-women"
+    },
+    {
+        "id": 2896,
+        "name": "Denmark Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2896.png",
+        "slug": "denmark-women"
+    },
+    {
+        "id": 5159,
+        "name": "England Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5159.png",
+        "slug": "england-women"
+    },
+    {
+        "id": 7536,
+        "name": "Finland Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "Women's International Friendly",
+            "Pinatar Cup"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            70,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7536.png",
+        "slug": "finland-women"
+    },
+    {
+        "id": 2755,
+        "name": "France Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2755.png",
+        "slug": "france-women"
+    },
+    {
+        "id": 2756,
+        "name": "Germany Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60,
+            70,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2756.png",
+        "slug": "germany-women"
+    },
+    {
+        "id": 3683,
+        "name": "Iceland Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3683.png",
+        "slug": "iceland-women"
+    },
+    {
+        "id": 2792,
+        "name": "Italy Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2792.png",
+        "slug": "italy-women"
+    },
+    {
+        "id": 7151,
+        "name": "Netherlands Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7151.png",
+        "slug": "netherlands-women"
+    },
+    {
+        "id": 20865,
+        "name": "Northern Ireland Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            2381,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20865.png",
+        "slug": "northern-ireland-women"
+    },
+    {
+        "id": 2762,
+        "name": "Norway Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2762.png",
+        "slug": "norway-women"
+    },
+    {
+        "id": 9531,
+        "name": "Portugal Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9531.png",
+        "slug": "portugal-women"
+    },
+    {
+        "id": 17640,
+        "name": "Spain Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17640.png",
+        "slug": "spain-women"
+    },
+    {
+        "id": 2764,
+        "name": "Sweden Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2764.png",
+        "slug": "sweden-women"
+    },
+    {
+        "id": 17641,
+        "name": "Switzerland Women",
+        "leagues": [
+            "UEFA Women's European Championship",
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            2381,
+            null,
+            60,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17641.png",
+        "slug": "switzerland-women"
+    },
+    {
+        "id": 21030,
+        "name": "Albania Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21030.png",
+        "slug": "albania-women"
+    },
+    {
+        "id": 21478,
+        "name": "Armenia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21478.png",
+        "slug": "armenia-women"
+    },
+    {
+        "id": 20972,
+        "name": "Azerbaijan Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20972.png",
+        "slug": "azerbaijan-women"
+    },
+    {
+        "id": 20909,
+        "name": "Belarus Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20909.png",
+        "slug": "belarus-women"
+    },
+    {
+        "id": 20920,
+        "name": "Bosnia and Herzegovina Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20920.png",
+        "slug": "bosnia-and-herzegovina-women"
+    },
+    {
+        "id": 20974,
+        "name": "Bulgaria Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20974.png",
+        "slug": "bulgaria-women"
+    },
+    {
+        "id": 18889,
+        "name": "Croatia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18889.png",
+        "slug": "croatia-women"
+    },
+    {
+        "id": 21481,
+        "name": "Cyprus Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21481.png",
+        "slug": "cyprus-women"
+    },
+    {
+        "id": 6517,
+        "name": "Czechia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6517.png",
+        "slug": "czechia-women"
+    },
+    {
+        "id": 20698,
+        "name": "Estonia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20698.png",
+        "slug": "estonia-women"
+    },
+    {
+        "id": 21395,
+        "name": "Faroe Islands Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21395.png",
+        "slug": "faroe-islands-women"
+    },
+    {
+        "id": 20971,
+        "name": "Georgia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20971.png",
+        "slug": "georgia-women"
+    },
+    {
+        "id": 2976,
+        "name": "Greece Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2976.png",
+        "slug": "greece-women"
+    },
+    {
+        "id": 20919,
+        "name": "Hungary Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20919.png",
+        "slug": "hungary-women"
+    },
+    {
+        "id": 21486,
+        "name": "Israel Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21486.png",
+        "slug": "israel-women"
+    },
+    {
+        "id": 21485,
+        "name": "Kazakhstan Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21485.png",
+        "slug": "kazakhstan-women"
+    },
+    {
+        "id": 21479,
+        "name": "Kosovo Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21479.png",
+        "slug": "kosovo-women"
+    },
+    {
+        "id": 19156,
+        "name": "Latvia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19156.png",
+        "slug": "latvia-women"
+    },
+    {
+        "id": 21483,
+        "name": "Lithuania Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21483.png",
+        "slug": "lithuania-women"
+    },
+    {
+        "id": 20967,
+        "name": "Luxembourg Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20967.png",
+        "slug": "luxembourg-women"
+    },
+    {
+        "id": 20864,
+        "name": "Malta Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20864.png",
+        "slug": "malta-women"
+    },
+    {
+        "id": 21482,
+        "name": "Moldova Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21482.png",
+        "slug": "moldova-women"
+    },
+    {
+        "id": 21480,
+        "name": "Montenegro Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21480.png",
+        "slug": "montenegro-women"
+    },
+    {
+        "id": 21484,
+        "name": "North Macedonia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21484.png",
+        "slug": "north-macedonia-women"
+    },
+    {
+        "id": 19345,
+        "name": "Poland Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19345.png",
+        "slug": "poland-women"
+    },
+    {
+        "id": 4178,
+        "name": "Republic of Ireland Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "FIFA Women's World Cup",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            null,
+            60,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4178.png",
+        "slug": "republic-of-ireland-women"
+    },
+    {
+        "id": 18395,
+        "name": "Romania Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18395.png",
+        "slug": "romania-women"
+    },
+    {
+        "id": 2763,
+        "name": "Russia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2763.png",
+        "slug": "russia-women"
+    },
+    {
+        "id": 12633,
+        "name": "Scotland Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "Pinatar Cup"
+        ],
+        "leagueIds": [
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12633.png",
+        "slug": "scotland-women"
+    },
+    {
+        "id": 20884,
+        "name": "Serbia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20884.png",
+        "slug": "serbia-women"
+    },
+    {
+        "id": 20883,
+        "name": "Slovakia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20883.png",
+        "slug": "slovakia-women"
+    },
+    {
+        "id": 20921,
+        "name": "Slovenia Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "Pinatar Cup"
+        ],
+        "leagueIds": [
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20921.png",
+        "slug": "slovenia-women"
+    },
+    {
+        "id": 20973,
+        "name": "Turkey Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20973.png",
+        "slug": "turkey-women"
+    },
+    {
+        "id": 20886,
+        "name": "Ukraine Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20886.png",
+        "slug": "ukraine-women"
+    },
+    {
+        "id": 12634,
+        "name": "Wales Women",
+        "leagues": [
+            "FIFA Women's World Cup Qualifying - UEFA",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12634.png",
+        "slug": "wales-women"
+    },
+    {
+        "id": 8942,
+        "name": "Anguilla",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8942.png",
+        "slug": "anguilla"
+    },
+    {
+        "id": 2638,
+        "name": "Antigua and Barbuda",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2638.png",
+        "slug": "antigua-and-barbuda"
+    },
+    {
+        "id": 2642,
+        "name": "Aruba",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2642.png",
+        "slug": "aruba"
+    },
+    {
+        "id": 2640,
+        "name": "Bahamas",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2640.png",
+        "slug": "bahamas"
+    },
+    {
+        "id": 2637,
+        "name": "Barbados",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2637.png",
+        "slug": "barbados"
+    },
+    {
+        "id": 2641,
+        "name": "Belize",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2641.png",
+        "slug": "belize"
+    },
+    {
+        "id": 2643,
+        "name": "Bermuda",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2643.png",
+        "slug": "bermuda"
+    },
+    {
+        "id": 2644,
+        "name": "British Virgin Islands",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2644.png",
+        "slug": "british-virgin-islands"
+    },
+    {
+        "id": 2646,
+        "name": "Cayman Islands",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2646.png",
+        "slug": "cayman-islands"
+    },
+    {
+        "id": 214,
+        "name": "Costa Rica",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "FIFA World Cup",
+            "Copa América",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            4,
+            83,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/214.png",
+        "slug": "costa-rica"
+    },
+    {
+        "id": 2647,
+        "name": "Cuba",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2647.png",
+        "slug": "cuba"
+    },
+    {
+        "id": 11678,
+        "name": "Curacao",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11678.png",
+        "slug": "curacao"
+    },
+    {
+        "id": 13582,
+        "name": "Dominica",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13582.png",
+        "slug": "dominica"
+    },
+    {
+        "id": 2649,
+        "name": "Dominican Republic",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2649.png",
+        "slug": "dominican-republic"
+    },
+    {
+        "id": 2650,
+        "name": "El Salvador",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2650.png",
+        "slug": "el-salvador"
+    },
+    {
+        "id": 2651,
+        "name": "Grenada",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2651.png",
+        "slug": "grenada"
+    },
+    {
+        "id": 2652,
+        "name": "Guatemala",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2652.png",
+        "slug": "guatemala"
+    },
+    {
+        "id": 2653,
+        "name": "Guyana",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2653.png",
+        "slug": "guyana"
+    },
+    {
+        "id": 2654,
+        "name": "Haiti",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2654.png",
+        "slug": "haiti"
+    },
+    {
+        "id": 215,
+        "name": "Honduras",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/215.png",
+        "slug": "honduras"
+    },
+    {
+        "id": 1038,
+        "name": "Jamaica",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Copa América",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            83,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1038.png",
+        "slug": "jamaica"
+    },
+    {
+        "id": 2655,
+        "name": "Montserrat",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2655.png",
+        "slug": "montserrat"
+    },
+    {
+        "id": 2658,
+        "name": "Nicaragua",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2658.png",
+        "slug": "nicaragua"
+    },
+    {
+        "id": 2659,
+        "name": "Panama",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Copa América",
+            "Concacaf Gold Cup"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            83,
+            59
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2659.png",
+        "slug": "panama"
+    },
+    {
+        "id": 11766,
+        "name": "Puerto Rico",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11766.png",
+        "slug": "puerto-rico"
+    },
+    {
+        "id": 2662,
+        "name": "St. Kitts and Nevis",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2662.png",
+        "slug": "st.-kitts-and-nevis"
+    },
+    {
+        "id": 2661,
+        "name": "St. Lucia",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2661.png",
+        "slug": "st.-lucia"
+    },
+    {
+        "id": 13584,
+        "name": "St. Vincent and the Grenadines",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13584.png",
+        "slug": "st.-vincent-and-the-grenadines"
+    },
+    {
+        "id": 2664,
+        "name": "Suriname",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2664.png",
+        "slug": "suriname"
+    },
+    {
+        "id": 2627,
+        "name": "Trinidad and Tobago",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "International Friendly",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            53,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2627.png",
+        "slug": "trinidad-and-tobago"
+    },
+    {
+        "id": 2665,
+        "name": "Turks and Caicos Islands",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2665.png",
+        "slug": "turks-and-caicos-islands"
+    },
+    {
+        "id": 2645,
+        "name": "US Virgin Islands",
+        "leagues": [
+            "FIFA World Cup Qualifying - Concacaf",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            64,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2645.png",
+        "slug": "us-virgin-islands"
+    },
+    {
+        "id": 202,
+        "name": "Argentina",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "FIFA World Cup",
+            "Copa América"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            4,
+            83
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/202.png",
+        "slug": "argentina"
+    },
+    {
+        "id": 204,
+        "name": "Bolivia",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "Copa América"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            83
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/204.png",
+        "slug": "bolivia"
+    },
+    {
+        "id": 205,
+        "name": "Brazil",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "FIFA World Cup",
+            "Copa América"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            4,
+            83
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/205.png",
+        "slug": "brazil"
+    },
+    {
+        "id": 207,
+        "name": "Chile",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "Copa América",
+            "FIFA Confederations Cup"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            83,
+            57
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/207.png",
+        "slug": "chile"
+    },
+    {
+        "id": 208,
+        "name": "Colombia",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "Copa América"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            83
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/208.png",
+        "slug": "colombia"
+    },
+    {
+        "id": 209,
+        "name": "Ecuador",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "FIFA World Cup",
+            "Copa América"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            4,
+            83
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/209.png",
+        "slug": "ecuador"
+    },
+    {
+        "id": 210,
+        "name": "Paraguay",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "Copa América"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            83
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/210.png",
+        "slug": "paraguay"
+    },
+    {
+        "id": 211,
+        "name": "Peru",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "Copa América"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            83
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/211.png",
+        "slug": "peru"
+    },
+    {
+        "id": 212,
+        "name": "Uruguay",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "FIFA World Cup",
+            "Copa América"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            4,
+            83
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/212.png",
+        "slug": "uruguay"
+    },
+    {
+        "id": 213,
+        "name": "Venezuela",
+        "leagues": [
+            "FIFA World Cup Qualifying - CONMEBOL",
+            "International Friendly",
+            "Copa América"
+        ],
+        "leagueIds": [
+            65,
+            53,
+            83
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/213.png",
+        "slug": "venezuela"
+    },
+    {
+        "id": 585,
+        "name": "Albania",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/585.png",
+        "slug": "albania"
+    },
+    {
+        "id": 624,
+        "name": "Algeria",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/624.png",
+        "slug": "algeria"
+    },
+    {
+        "id": 587,
+        "name": "Andorra",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/587.png",
+        "slug": "andorra"
+    },
+    {
+        "id": 653,
+        "name": "Angola",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/653.png",
+        "slug": "angola"
+    },
+    {
+        "id": 579,
+        "name": "Armenia",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/579.png",
+        "slug": "armenia"
+    },
+    {
+        "id": 628,
+        "name": "Australia",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC",
+            "FIFA Confederations Cup"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            2243,
+            62,
+            57
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/628.png",
+        "slug": "australia"
+    },
+    {
+        "id": 474,
+        "name": "Austria",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/474.png",
+        "slug": "austria"
+    },
+    {
+        "id": 581,
+        "name": "Azerbaijan",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/581.png",
+        "slug": "azerbaijan"
+    },
+    {
+        "id": 4381,
+        "name": "Bahrain",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4381.png",
+        "slug": "bahrain"
+    },
+    {
+        "id": 5783,
+        "name": "Bangladesh",
+        "leagues": [
+            "International Friendly",
+            "SAFF Championship"
+        ],
+        "leagueIds": [
+            53,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5783.png",
+        "slug": "bangladesh"
+    },
+    {
+        "id": 583,
+        "name": "Belarus",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/583.png",
+        "slug": "belarus"
+    },
+    {
+        "id": 459,
+        "name": "Belgium",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/459.png",
+        "slug": "belgium"
+    },
+    {
+        "id": 2844,
+        "name": "Benin",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2844.png",
+        "slug": "benin"
+    },
+    {
+        "id": 5784,
+        "name": "Bhutan",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - AFC",
+            "SAFF Championship"
+        ],
+        "leagueIds": [
+            53,
+            62,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5784.png",
+        "slug": "bhutan"
+    },
+    {
+        "id": 19314,
+        "name": "Bonaire",
+        "leagues": [
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19314.png",
+        "slug": "bonaire"
+    },
+    {
+        "id": 452,
+        "name": "Bosnia and Herzegovina",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/452.png",
+        "slug": "bosnia-and-herzegovina"
+    },
+    {
+        "id": 4245,
+        "name": "Botswana",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4245.png",
+        "slug": "botswana"
+    },
+    {
+        "id": 10525,
+        "name": "Brunei Darussalam",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - AFC",
+            "AFC Asian Cup Qualifiers"
+        ],
+        "leagueIds": [
+            53,
+            62,
+            2246
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10525.png",
+        "slug": "brunei-darussalam"
+    },
+    {
+        "id": 462,
+        "name": "Bulgaria",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/462.png",
+        "slug": "bulgaria"
+    },
+    {
+        "id": 2845,
+        "name": "Burkina Faso",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2845.png",
+        "slug": "burkina-faso"
+    },
+    {
+        "id": 5779,
+        "name": "Burundi",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5779.png",
+        "slug": "burundi"
+    },
+    {
+        "id": 5518,
+        "name": "Cambodia",
+        "leagues": [
+            "International Friendly",
+            "AFF Cup",
+            "FIFA World Cup Qualifying - AFC",
+            "AFC Asian Cup Qualifiers"
+        ],
+        "leagueIds": [
+            53,
+            2261,
+            62,
+            2246
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5518.png",
+        "slug": "cambodia"
+    },
+    {
+        "id": 656,
+        "name": "Cameroon",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "FIFA Confederations Cup"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            null,
+            76,
+            63,
+            null,
+            57
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/656.png",
+        "slug": "cameroon"
+    },
+    {
+        "id": 206,
+        "name": "Canada",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "Concacaf Nations League Qualifying",
+            "Copa América",
+            "Concacaf Gold Cup"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            null,
+            83,
+            59
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/206.png",
+        "slug": "canada"
+    },
+    {
+        "id": 2597,
+        "name": "Cape Verde Islands",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2597.png",
+        "slug": "cape-verde-islands"
+    },
+    {
+        "id": 10528,
+        "name": "Central African Republic",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10528.png",
+        "slug": "central-african-republic"
+    },
+    {
+        "id": 658,
+        "name": "China",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/658.png",
+        "slug": "china"
+    },
+    {
+        "id": 8601,
+        "name": "Comoros Islands",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8601.png",
+        "slug": "comoros-islands"
+    },
+    {
+        "id": 4276,
+        "name": "Congo",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4276.png",
+        "slug": "congo"
+    },
+    {
+        "id": 2850,
+        "name": "Congo DR",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2850.png",
+        "slug": "congo-dr"
+    },
+    {
+        "id": 477,
+        "name": "Croatia",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/477.png",
+        "slug": "croatia"
+    },
+    {
+        "id": 445,
+        "name": "Cyprus",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/445.png",
+        "slug": "cyprus"
+    },
+    {
+        "id": 450,
+        "name": "Czechia",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/450.png",
+        "slug": "czechia"
+    },
+    {
+        "id": 479,
+        "name": "Denmark",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/479.png",
+        "slug": "denmark"
+    },
+    {
+        "id": 5775,
+        "name": "Djibouti",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5775.png",
+        "slug": "djibouti"
+    },
+    {
+        "id": 2620,
+        "name": "Egypt",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2620.png",
+        "slug": "egypt"
+    },
+    {
+        "id": 448,
+        "name": "England",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/448.png",
+        "slug": "england"
+    },
+    {
+        "id": 8938,
+        "name": "Equatorial Guinea",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8938.png",
+        "slug": "equatorial-guinea"
+    },
+    {
+        "id": 444,
+        "name": "Estonia",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/444.png",
+        "slug": "estonia"
+    },
+    {
+        "id": 5777,
+        "name": "Ethiopia",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5777.png",
+        "slug": "ethiopia"
+    },
+    {
+        "id": 447,
+        "name": "Faroe Islands",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/447.png",
+        "slug": "faroe-islands"
+    },
+    {
+        "id": 4862,
+        "name": "Fiji",
+        "leagues": [
+            "International Friendly"
+        ],
+        "leagueIds": [
+            53
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4862.png",
+        "slug": "fiji"
+    },
+    {
+        "id": 458,
+        "name": "Finland",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/458.png",
+        "slug": "finland"
+    },
+    {
+        "id": 478,
+        "name": "France",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/478.png",
+        "slug": "france"
+    },
+    {
+        "id": 10532,
+        "name": "French Guiana",
+        "leagues": [
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10532.png",
+        "slug": "french-guiana"
+    },
+    {
+        "id": 4231,
+        "name": "Gabon",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4231.png",
+        "slug": "gabon"
+    },
+    {
+        "id": 7368,
+        "name": "Gambia",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7368.png",
+        "slug": "gambia"
+    },
+    {
+        "id": 584,
+        "name": "Georgia",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/584.png",
+        "slug": "georgia"
+    },
+    {
+        "id": 481,
+        "name": "Germany",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "FIFA Confederations Cup",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            57,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/481.png",
+        "slug": "germany"
+    },
+    {
+        "id": 4469,
+        "name": "Ghana",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            null,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4469.png",
+        "slug": "ghana"
+    },
+    {
+        "id": 16721,
+        "name": "Gibraltar",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/16721.png",
+        "slug": "gibraltar"
+    },
+    {
+        "id": 455,
+        "name": "Greece",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/455.png",
+        "slug": "greece"
+    },
+    {
+        "id": 10529,
+        "name": "Guam",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10529.png",
+        "slug": "guam"
+    },
+    {
+        "id": 2847,
+        "name": "Guinea",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2847.png",
+        "slug": "guinea"
+    },
+    {
+        "id": 8602,
+        "name": "Guinea-Bissau",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8602.png",
+        "slug": "guinea-bissau"
+    },
+    {
+        "id": 1928,
+        "name": "Hong Kong",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup"
+        ],
+        "leagueIds": [
+            53,
+            2243
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1928.png",
+        "slug": "hong-kong"
+    },
+    {
+        "id": 480,
+        "name": "Hungary",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/480.png",
+        "slug": "hungary"
+    },
+    {
+        "id": 470,
+        "name": "Iceland",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/470.png",
+        "slug": "iceland"
+    },
+    {
+        "id": 4895,
+        "name": "Indonesia",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "AFF Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            2261,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4895.png",
+        "slug": "indonesia"
+    },
+    {
+        "id": 469,
+        "name": "Iran",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/469.png",
+        "slug": "iran"
+    },
+    {
+        "id": 4375,
+        "name": "Iraq",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4375.png",
+        "slug": "iraq"
+    },
+    {
+        "id": 461,
+        "name": "Israel",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/461.png",
+        "slug": "israel"
+    },
+    {
+        "id": 162,
+        "name": "Italy",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/162.png",
+        "slug": "italy"
+    },
+    {
+        "id": 4789,
+        "name": "Ivory Coast",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4789.png",
+        "slug": "ivory-coast"
+    },
+    {
+        "id": 627,
+        "name": "Japan",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/627.png",
+        "slug": "japan"
+    },
+    {
+        "id": 2917,
+        "name": "Jordan",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2917.png",
+        "slug": "jordan"
+    },
+    {
+        "id": 2619,
+        "name": "Kazakhstan",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2619.png",
+        "slug": "kazakhstan"
+    },
+    {
+        "id": 2848,
+        "name": "Kenya",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2848.png",
+        "slug": "kenya"
+    },
+    {
+        "id": 18272,
+        "name": "Kosovo",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18272.png",
+        "slug": "kosovo"
+    },
+    {
+        "id": 841,
+        "name": "Kuwait",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - AFC",
+            "SAFF Championship"
+        ],
+        "leagueIds": [
+            53,
+            62,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/841.png",
+        "slug": "kuwait"
+    },
+    {
+        "id": 6724,
+        "name": "Kyrgyz Republic",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6724.png",
+        "slug": "kyrgyz-republic"
+    },
+    {
+        "id": 456,
+        "name": "Latvia",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/456.png",
+        "slug": "latvia"
+    },
+    {
+        "id": 4388,
+        "name": "Lebanon",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "SAFF Championship"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4388.png",
+        "slug": "lebanon"
+    },
+    {
+        "id": 6640,
+        "name": "Lesotho",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6640.png",
+        "slug": "lesotho"
+    },
+    {
+        "id": 2621,
+        "name": "Libya",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2621.png",
+        "slug": "libya"
+    },
+    {
+        "id": 589,
+        "name": "Liechtenstein",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/589.png",
+        "slug": "liechtenstein"
+    },
+    {
+        "id": 582,
+        "name": "Luxembourg",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/582.png",
+        "slug": "luxembourg"
+    },
+    {
+        "id": 5533,
+        "name": "Madagascar",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5533.png",
+        "slug": "madagascar"
+    },
+    {
+        "id": 4325,
+        "name": "Malawi",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4325.png",
+        "slug": "malawi"
+    },
+    {
+        "id": 2405,
+        "name": "Malaysia",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "AFF Cup"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            2261
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2405.png",
+        "slug": "malaysia"
+    },
+    {
+        "id": 2849,
+        "name": "Mali",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2849.png",
+        "slug": "mali"
+    },
+    {
+        "id": 453,
+        "name": "Malta",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/453.png",
+        "slug": "malta"
+    },
+    {
+        "id": 2728,
+        "name": "Martinique",
+        "leagues": [
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2728.png",
+        "slug": "martinique"
+    },
+    {
+        "id": 8940,
+        "name": "Mauritania",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8940.png",
+        "slug": "mauritania"
+    },
+    {
+        "id": 203,
+        "name": "Mexico",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "Copa América",
+            "FIFA Confederations Cup",
+            "Concacaf Gold Cup"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            83,
+            57,
+            59
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/203.png",
+        "slug": "mexico"
+    },
+    {
+        "id": 483,
+        "name": "Moldova",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/483.png",
+        "slug": "moldova"
+    },
+    {
+        "id": 8663,
+        "name": "Mongolia",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - AFC",
+            "AFC Asian Cup Qualifiers"
+        ],
+        "leagueIds": [
+            53,
+            62,
+            2246
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8663.png",
+        "slug": "mongolia"
+    },
+    {
+        "id": 6775,
+        "name": "Montenegro",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6775.png",
+        "slug": "montenegro"
+    },
+    {
+        "id": 2869,
+        "name": "Morocco",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            null,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2869.png",
+        "slug": "morocco"
+    },
+    {
+        "id": 8939,
+        "name": "Mozambique",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8939.png",
+        "slug": "mozambique"
+    },
+    {
+        "id": 6725,
+        "name": "Namibia",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6725.png",
+        "slug": "namibia"
+    },
+    {
+        "id": 449,
+        "name": "Netherlands",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/449.png",
+        "slug": "netherlands"
+    },
+    {
+        "id": 2666,
+        "name": "New Zealand",
+        "leagues": [
+            "International Friendly",
+            "FIFA Confederations Cup"
+        ],
+        "leagueIds": [
+            53,
+            57
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2666.png",
+        "slug": "new-zealand"
+    },
+    {
+        "id": 8937,
+        "name": "Niger",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8937.png",
+        "slug": "niger"
+    },
+    {
+        "id": 657,
+        "name": "Nigeria",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/657.png",
+        "slug": "nigeria"
+    },
+    {
+        "id": 463,
+        "name": "North Macedonia",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/463.png",
+        "slug": "north-macedonia"
+    },
+    {
+        "id": 586,
+        "name": "Northern Ireland",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/586.png",
+        "slug": "northern-ireland"
+    },
+    {
+        "id": 14948,
+        "name": "Northern Mariana Islands",
+        "leagues": [
+            "International Friendly"
+        ],
+        "leagueIds": [
+            53
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/14948.png",
+        "slug": "northern-mariana-islands"
+    },
+    {
+        "id": 464,
+        "name": "Norway",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/464.png",
+        "slug": "norway"
+    },
+    {
+        "id": 2841,
+        "name": "Oman",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2841.png",
+        "slug": "oman"
+    },
+    {
+        "id": 6167,
+        "name": "Palestine",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6167.png",
+        "slug": "palestine"
+    },
+    {
+        "id": 4885,
+        "name": "Papua New Guinea",
+        "leagues": [
+            "International Friendly"
+        ],
+        "leagueIds": [
+            53
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4885.png",
+        "slug": "papua-new-guinea"
+    },
+    {
+        "id": 471,
+        "name": "Poland",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/471.png",
+        "slug": "poland"
+    },
+    {
+        "id": 482,
+        "name": "Portugal",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA Confederations Cup",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            57,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/482.png",
+        "slug": "portugal"
+    },
+    {
+        "id": 4398,
+        "name": "Qatar",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC",
+            "Concacaf Gold Cup"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            2243,
+            62,
+            59
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4398.png",
+        "slug": "qatar"
+    },
+    {
+        "id": 476,
+        "name": "Republic of Ireland",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/476.png",
+        "slug": "republic-of-ireland"
+    },
+    {
+        "id": 473,
+        "name": "Romania",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/473.png",
+        "slug": "romania"
+    },
+    {
+        "id": 454,
+        "name": "Russia",
+        "leagues": [
+            "International Friendly",
+            "FIFA Confederations Cup",
+            "FIFA World Cup Qualifying - UEFA"
+        ],
+        "leagueIds": [
+            53,
+            57,
+            67
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/454.png",
+        "slug": "russia"
+    },
+    {
+        "id": 2851,
+        "name": "Rwanda",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2851.png",
+        "slug": "rwanda"
+    },
+    {
+        "id": 588,
+        "name": "San Marino",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/588.png",
+        "slug": "san-marino"
+    },
+    {
+        "id": 655,
+        "name": "Saudi Arabia",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/655.png",
+        "slug": "saudi-arabia"
+    },
+    {
+        "id": 580,
+        "name": "Scotland",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/580.png",
+        "slug": "scotland"
+    },
+    {
+        "id": 654,
+        "name": "Senegal",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "African Nations Championship",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            null,
+            76,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/654.png",
+        "slug": "senegal"
+    },
+    {
+        "id": 6757,
+        "name": "Serbia",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6757.png",
+        "slug": "serbia"
+    },
+    {
+        "id": 8600,
+        "name": "Sierra Leone",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8600.png",
+        "slug": "sierra-leone"
+    },
+    {
+        "id": 18243,
+        "name": "Sint Maarten",
+        "leagues": [
+            "International Friendly",
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18243.png",
+        "slug": "sint-maarten"
+    },
+    {
+        "id": 468,
+        "name": "Slovakia",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/468.png",
+        "slug": "slovakia"
+    },
+    {
+        "id": 472,
+        "name": "Slovenia",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/472.png",
+        "slug": "slovenia"
+    },
+    {
+        "id": 4861,
+        "name": "Solomon Islands",
+        "leagues": [
+            "International Friendly"
+        ],
+        "leagueIds": [
+            53
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4861.png",
+        "slug": "solomon-islands"
+    },
+    {
+        "id": 467,
+        "name": "South Africa",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/467.png",
+        "slug": "south-africa"
+    },
+    {
+        "id": 451,
+        "name": "South Korea",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/451.png",
+        "slug": "south-korea"
+    },
+    {
+        "id": 164,
+        "name": "Spain",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/164.png",
+        "slug": "spain"
+    },
+    {
+        "id": 5782,
+        "name": "Sri Lanka",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - AFC",
+            "AFC Asian Cup Qualifiers"
+        ],
+        "leagueIds": [
+            53,
+            62,
+            2246
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5782.png",
+        "slug": "sri-lanka"
+    },
+    {
+        "id": 4319,
+        "name": "Sudan",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4319.png",
+        "slug": "sudan"
+    },
+    {
+        "id": 466,
+        "name": "Sweden",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/466.png",
+        "slug": "sweden"
+    },
+    {
+        "id": 475,
+        "name": "Switzerland",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/475.png",
+        "slug": "switzerland"
+    },
+    {
+        "id": 4380,
+        "name": "Syria",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup"
+        ],
+        "leagueIds": [
+            53,
+            2243
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4380.png",
+        "slug": "syria"
+    },
+    {
+        "id": 6723,
+        "name": "Tajikistan",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup"
+        ],
+        "leagueIds": [
+            53,
+            2243
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6723.png",
+        "slug": "tajikistan"
+    },
+    {
+        "id": 5778,
+        "name": "Tanzania",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5778.png",
+        "slug": "tanzania"
+    },
+    {
+        "id": 4396,
+        "name": "Thailand",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "AFF Cup"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            2261
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4396.png",
+        "slug": "thailand"
+    },
+    {
+        "id": 4356,
+        "name": "Togo",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4356.png",
+        "slug": "togo"
+    },
+    {
+        "id": 659,
+        "name": "Tunisia",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/659.png",
+        "slug": "tunisia"
+    },
+    {
+        "id": 465,
+        "name": "Turkey",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/465.png",
+        "slug": "turkey"
+    },
+    {
+        "id": 7507,
+        "name": "Turkmenistan",
+        "leagues": [
+            "International Friendly"
+        ],
+        "leagueIds": [
+            53
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7507.png",
+        "slug": "turkmenistan"
+    },
+    {
+        "id": 4211,
+        "name": "Uganda",
+        "leagues": [
+            "International Friendly",
+            "African Nations Championship",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            null,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4211.png",
+        "slug": "uganda"
+    },
+    {
+        "id": 457,
+        "name": "Ukraine",
+        "leagues": [
+            "International Friendly",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA European Championship",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            56,
+            67,
+            74,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/457.png",
+        "slug": "ukraine"
+    },
+    {
+        "id": 4397,
+        "name": "United Arab Emirates",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4397.png",
+        "slug": "united-arab-emirates"
+    },
+    {
+        "id": 660,
+        "name": "United States",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "Copa América",
+            "Concacaf Gold Cup"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            83,
+            59
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/660.png",
+        "slug": "united-states"
+    },
+    {
+        "id": 2570,
+        "name": "Uzbekistan",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2570.png",
+        "slug": "uzbekistan"
+    },
+    {
+        "id": 4864,
+        "name": "Vanuatu",
+        "leagues": [
+            "International Friendly"
+        ],
+        "leagueIds": [
+            53
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4864.png",
+        "slug": "vanuatu"
+    },
+    {
+        "id": 7349,
+        "name": "Vietnam",
+        "leagues": [
+            "International Friendly",
+            "AFC Asian Cup",
+            "AFF Cup"
+        ],
+        "leagueIds": [
+            53,
+            2243,
+            2261
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7349.png",
+        "slug": "vietnam"
+    },
+    {
+        "id": 578,
+        "name": "Wales",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup",
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            53,
+            4,
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/578.png",
+        "slug": "wales"
+    },
+    {
+        "id": 4277,
+        "name": "Zambia",
+        "leagues": [
+            "International Friendly",
+            "Africa Cup of Nations",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            76,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4277.png",
+        "slug": "zambia"
+    },
+    {
+        "id": 4214,
+        "name": "Zimbabwe",
+        "leagues": [
+            "International Friendly",
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            53,
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4214.png",
+        "slug": "zimbabwe"
+    },
+    {
+        "id": 4385,
+        "name": "India",
+        "leagues": [
+            "AFC Asian Cup",
+            "SAFF Championship"
+        ],
+        "leagueIds": [
+            2243,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4385.png",
+        "slug": "india"
+    },
+    {
+        "id": 2752,
+        "name": "Brazil Women",
+        "leagues": [
+            "SheBelieves Cup",
+            "Concacaf W Gold Cup",
+            "FIFA Women's World Cup",
+            "Copa América Femenina",
+            "Women's International Friendly",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            null,
+            null,
+            60,
+            null,
+            70,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2752.png",
+        "slug": "brazil-women"
+    },
+    {
+        "id": 2753,
+        "name": "Canada Women",
+        "leagues": [
+            "SheBelieves Cup",
+            "Concacaf W Gold Cup",
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Concacaf W Championship",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            null,
+            null,
+            60,
+            70,
+            18969,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2753.png",
+        "slug": "canada-women"
+    },
+    {
+        "id": 2758,
+        "name": "Japan Women",
+        "leagues": [
+            "SheBelieves Cup",
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            null,
+            60,
+            70,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2758.png",
+        "slug": "japan-women"
+    },
+    {
+        "id": 2765,
+        "name": "United States Women",
+        "leagues": [
+            "SheBelieves Cup",
+            "Concacaf W Gold Cup",
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Concacaf W Championship",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            null,
+            null,
+            60,
+            70,
+            18969,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2765.png",
+        "slug": "united-states-women"
+    },
+    {
+        "id": 2750,
+        "name": "Argentina",
+        "leagues": [
+            "Concacaf W Gold Cup",
+            "FIFA Women's World Cup",
+            "Copa América Femenina",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            null,
+            60,
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2750.png",
+        "slug": "argentina"
+    },
+    {
+        "id": 11337,
+        "name": "Colombia",
+        "leagues": [
+            "Concacaf W Gold Cup",
+            "FIFA Women's World Cup",
+            "Copa América Femenina",
+            "Women's International Friendly",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            null,
+            60,
+            null,
+            70,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11337.png",
+        "slug": "colombia"
+    },
+    {
+        "id": 2894,
+        "name": "Costa Rica",
+        "leagues": [
+            "Concacaf W Gold Cup",
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            null,
+            60,
+            70,
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2894.png",
+        "slug": "costa-rica"
+    },
+    {
+        "id": 21181,
+        "name": "Dominican Republic",
+        "leagues": [
+            "Concacaf W Gold Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21181.png",
+        "slug": "dominican-republic"
+    },
+    {
+        "id": 21476,
+        "name": "El Salvador",
+        "leagues": [
+            "Concacaf W Gold Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21476.png",
+        "slug": "el-salvador"
+    },
+    {
+        "id": 2812,
+        "name": "Mexico",
+        "leagues": [
+            "Concacaf W Gold Cup",
+            "Women's International Friendly",
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            null,
+            70,
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2812.png",
+        "slug": "mexico"
+    },
+    {
+        "id": 2895,
+        "name": "Panama",
+        "leagues": [
+            "Concacaf W Gold Cup",
+            "FIFA Women's World Cup",
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            null,
+            60,
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2895.png",
+        "slug": "panama"
+    },
+    {
+        "id": 20210,
+        "name": "Paraguay",
+        "leagues": [
+            "Concacaf W Gold Cup",
+            "Copa América Femenina",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            null,
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20210.png",
+        "slug": "paraguay"
+    },
+    {
+        "id": 22210,
+        "name": "Puerto Rico",
+        "leagues": [
+            "Concacaf W Gold Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22210.png",
+        "slug": "puerto-rico"
+    },
+    {
+        "id": 8412,
+        "name": "Argentina U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8412.png",
+        "slug": "argentina-u17"
+    },
+    {
+        "id": 5377,
+        "name": "Brazil U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5377.png",
+        "slug": "brazil-u17"
+    },
+    {
+        "id": 22033,
+        "name": "Burkina Faso U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22033.png",
+        "slug": "burkina-faso-u17"
+    },
+    {
+        "id": 8454,
+        "name": "Canada U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8454.png",
+        "slug": "canada-u17"
+    },
+    {
+        "id": 17973,
+        "name": "Ecuador U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17973.png",
+        "slug": "ecuador-u17"
+    },
+    {
+        "id": 5054,
+        "name": "England U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5054.png",
+        "slug": "england-u17"
+    },
+    {
+        "id": 8415,
+        "name": "France U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8415.png",
+        "slug": "france-u17"
+    },
+    {
+        "id": 6650,
+        "name": "Germany U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6650.png",
+        "slug": "germany-u17"
+    },
+    {
+        "id": 22031,
+        "name": "Indonesia U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22031.png",
+        "slug": "indonesia-u17"
+    },
+    {
+        "id": 16307,
+        "name": "Iran U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/16307.png",
+        "slug": "iran-u17"
+    },
+    {
+        "id": 8420,
+        "name": "Japan U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8420.png",
+        "slug": "japan-u17"
+    },
+    {
+        "id": 17974,
+        "name": "Mali U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17974.png",
+        "slug": "mali-u17"
+    },
+    {
+        "id": 5379,
+        "name": "Mexico U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5379.png",
+        "slug": "mexico-u17"
+    },
+    {
+        "id": 16295,
+        "name": "Morocco U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/16295.png",
+        "slug": "morocco-u17"
+    },
+    {
+        "id": 18765,
+        "name": "New Caledonia U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18765.png",
+        "slug": "new-caledonia-u17"
+    },
+    {
+        "id": 8422,
+        "name": "New Zealand U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8422.png",
+        "slug": "new-zealand-u17"
+    },
+    {
+        "id": 11399,
+        "name": "Panama U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11399.png",
+        "slug": "panama-u17"
+    },
+    {
+        "id": 22032,
+        "name": "Poland U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22032.png",
+        "slug": "poland-u17"
+    },
+    {
+        "id": 20064,
+        "name": "Senegal U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20064.png",
+        "slug": "senegal-u17"
+    },
+    {
+        "id": 8414,
+        "name": "South Korea U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8414.png",
+        "slug": "south-korea-u17"
+    },
+    {
+        "id": 18767,
+        "name": "Spain U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18767.png",
+        "slug": "spain-u17"
+    },
+    {
+        "id": 17975,
+        "name": "United States U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17975.png",
+        "slug": "united-states-u17"
+    },
+    {
+        "id": 16301,
+        "name": "Uzbekistan U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/16301.png",
+        "slug": "uzbekistan-u17"
+    },
+    {
+        "id": 16306,
+        "name": "Venezuela U17",
+        "leagues": [
+            "FIFA Under-17 World Cup"
+        ],
+        "leagueIds": [
+            2288
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/16306.png",
+        "slug": "venezuela-u17"
+    },
+    {
+        "id": 20925,
+        "name": "Albania U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20925.png",
+        "slug": "albania-u21"
+    },
+    {
+        "id": 20922,
+        "name": "Andorra U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20922.png",
+        "slug": "andorra-u21"
+    },
+    {
+        "id": 20937,
+        "name": "Armenia U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20937.png",
+        "slug": "armenia-u21"
+    },
+    {
+        "id": 19350,
+        "name": "Austria U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19350.png",
+        "slug": "austria-u21"
+    },
+    {
+        "id": 20936,
+        "name": "Azerbaijan U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20936.png",
+        "slug": "azerbaijan-u21"
+    },
+    {
+        "id": 4209,
+        "name": "Belarus U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4209.png",
+        "slug": "belarus-u21"
+    },
+    {
+        "id": 11669,
+        "name": "Belgium U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11669.png",
+        "slug": "belgium-u21"
+    },
+    {
+        "id": 20945,
+        "name": "Bosnia and Herzegovina U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20945.png",
+        "slug": "bosnia-and-herzegovina-u21"
+    },
+    {
+        "id": 20928,
+        "name": "Bulgaria U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20928.png",
+        "slug": "bulgaria-u21"
+    },
+    {
+        "id": 19348,
+        "name": "Croatia U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19348.png",
+        "slug": "croatia-u21"
+    },
+    {
+        "id": 20927,
+        "name": "Cyprus U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20927.png",
+        "slug": "cyprus-u21"
+    },
+    {
+        "id": 4939,
+        "name": "Czechia U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4939.png",
+        "slug": "czechia-u21"
+    },
+    {
+        "id": 4366,
+        "name": "Denmark U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4366.png",
+        "slug": "denmark-u21"
+    },
+    {
+        "id": 4150,
+        "name": "England U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4150.png",
+        "slug": "england-u21"
+    },
+    {
+        "id": 20934,
+        "name": "Estonia U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20934.png",
+        "slug": "estonia-u21"
+    },
+    {
+        "id": 20944,
+        "name": "Faroe Islands U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20944.png",
+        "slug": "faroe-islands-u21"
+    },
+    {
+        "id": 20933,
+        "name": "Finland U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20933.png",
+        "slug": "finland-u21"
+    },
+    {
+        "id": 11676,
+        "name": "France U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11676.png",
+        "slug": "france-u21"
+    },
+    {
+        "id": 20956,
+        "name": "Georgia U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20956.png",
+        "slug": "georgia-u21"
+    },
+    {
+        "id": 4379,
+        "name": "Germany U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4379.png",
+        "slug": "germany-u21"
+    },
+    {
+        "id": 20924,
+        "name": "Gibraltar U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20924.png",
+        "slug": "gibraltar-u21"
+    },
+    {
+        "id": 20929,
+        "name": "Greece U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20929.png",
+        "slug": "greece-u21"
+    },
+    {
+        "id": 20843,
+        "name": "Hungary U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20843.png",
+        "slug": "hungary-u21"
+    },
+    {
+        "id": 4282,
+        "name": "Iceland U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4282.png",
+        "slug": "iceland-u21"
+    },
+    {
+        "id": 14290,
+        "name": "Israel U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/14290.png",
+        "slug": "israel-u21"
+    },
+    {
+        "id": 10343,
+        "name": "Italy U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship",
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            null,
+            2284,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10343.png",
+        "slug": "italy-u21"
+    },
+    {
+        "id": 20930,
+        "name": "Kazakhstan U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20930.png",
+        "slug": "kazakhstan-u21"
+    },
+    {
+        "id": 20926,
+        "name": "Kosovo U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20926.png",
+        "slug": "kosovo-u21"
+    },
+    {
+        "id": 20938,
+        "name": "Latvia U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20938.png",
+        "slug": "latvia-u21"
+    },
+    {
+        "id": 20940,
+        "name": "Lithuania U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20940.png",
+        "slug": "lithuania-u21"
+    },
+    {
+        "id": 20932,
+        "name": "Luxembourg U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20932.png",
+        "slug": "luxembourg-u21"
+    },
+    {
+        "id": 20939,
+        "name": "Malta U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20939.png",
+        "slug": "malta-u21"
+    },
+    {
+        "id": 20935,
+        "name": "Moldova U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20935.png",
+        "slug": "moldova-u21"
+    },
+    {
+        "id": 20931,
+        "name": "Montenegro U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20931.png",
+        "slug": "montenegro-u21"
+    },
+    {
+        "id": 11627,
+        "name": "Netherlands U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11627.png",
+        "slug": "netherlands-u21"
+    },
+    {
+        "id": 18413,
+        "name": "North Macedonia U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18413.png",
+        "slug": "north-macedonia-u21"
+    },
+    {
+        "id": 20941,
+        "name": "Northern Ireland U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20941.png",
+        "slug": "northern-ireland-u21"
+    },
+    {
+        "id": 14253,
+        "name": "Norway U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/14253.png",
+        "slug": "norway-u21"
+    },
+    {
+        "id": 18414,
+        "name": "Poland U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18414.png",
+        "slug": "poland-u21"
+    },
+    {
+        "id": 11692,
+        "name": "Portugal U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11692.png",
+        "slug": "portugal-u21"
+    },
+    {
+        "id": 20003,
+        "name": "Republic of Ireland U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20003.png",
+        "slug": "republic-of-ireland-u21"
+    },
+    {
+        "id": 19349,
+        "name": "Romania U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19349.png",
+        "slug": "romania-u21"
+    },
+    {
+        "id": 20943,
+        "name": "San Marino U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20943.png",
+        "slug": "san-marino-u21"
+    },
+    {
+        "id": 19213,
+        "name": "Scotland U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19213.png",
+        "slug": "scotland-u21"
+    },
+    {
+        "id": 7751,
+        "name": "Serbia U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7751.png",
+        "slug": "serbia-u21"
+    },
+    {
+        "id": 20844,
+        "name": "Slovenia U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20844.png",
+        "slug": "slovenia-u21"
+    },
+    {
+        "id": 4371,
+        "name": "Spain U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4371.png",
+        "slug": "spain-u21"
+    },
+    {
+        "id": 4365,
+        "name": "Sweden U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4365.png",
+        "slug": "sweden-u21"
+    },
+    {
+        "id": 4257,
+        "name": "Switzerland U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4257.png",
+        "slug": "switzerland-u21"
+    },
+    {
+        "id": 19208,
+        "name": "Turkey U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19208.png",
+        "slug": "turkey-u21"
+    },
+    {
+        "id": 4207,
+        "name": "Ukraine U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying",
+            "UEFA European Under-21 Championship"
+        ],
+        "leagueIds": [
+            null,
+            2284
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4207.png",
+        "slug": "ukraine-u21"
+    },
+    {
+        "id": 20923,
+        "name": "Wales U21",
+        "leagues": [
+            "UEFA European Under-21 Championship Qualifying"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20923.png",
+        "slug": "wales-u21"
+    },
+    {
+        "id": 7657,
+        "name": "Guadeloupe",
+        "leagues": [
+            "Concacaf Nations League Qualifying",
+            "Concacaf Gold Cup",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            null,
+            59,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7657.png",
+        "slug": "guadeloupe"
+    },
+    {
+        "id": 10596,
+        "name": "St. Martin",
+        "leagues": [
+            "Concacaf Nations League Qualifying",
+            "Concacaf Nations League"
+        ],
+        "leagueIds": [
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10596.png",
+        "slug": "st.-martin"
+    },
+    {
+        "id": 10207,
+        "name": "Al Ahly",
+        "leagues": [
+            "FIFA Club World Cup"
+        ],
+        "leagueIds": [
+            1932
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10207.png",
+        "slug": "al-ahly"
+    },
+    {
+        "id": 2276,
+        "name": "Al Ittihad",
+        "leagues": [
+            "FIFA Club World Cup"
+        ],
+        "leagueIds": [
+            1932
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2276.png",
+        "slug": "al-ittihad"
+    },
+    {
+        "id": 7279,
+        "name": "Auckland City",
+        "leagues": [
+            "FIFA Club World Cup"
+        ],
+        "leagueIds": [
+            1932
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7279.png",
+        "slug": "auckland-city"
+    },
+    {
+        "id": 3445,
+        "name": "Fluminense",
+        "leagues": [
+            "FIFA Club World Cup"
+        ],
+        "leagueIds": [
+            1932
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3445.png",
+        "slug": "fluminense"
+    },
+    {
+        "id": 228,
+        "name": "León",
+        "leagues": [
+            "FIFA Club World Cup"
+        ],
+        "leagueIds": [
+            1932
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/228.png",
+        "slug": "león"
+    },
+    {
+        "id": 382,
+        "name": "Manchester City",
+        "leagues": [
+            "FIFA Club World Cup"
+        ],
+        "leagueIds": [
+            1932
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png",
+        "slug": "manchester-city"
+    },
+    {
+        "id": 3385,
+        "name": "Urawa Red Diamonds",
+        "leagues": [
+            "FIFA Club World Cup"
+        ],
+        "leagueIds": [
+            1932
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3385.png",
+        "slug": "urawa-red-diamonds"
+    },
+    {
+        "id": 8941,
+        "name": "Chad",
+        "leagues": [
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8941.png",
+        "slug": "chad"
+    },
+    {
+        "id": 5774,
+        "name": "Eritrea",
+        "leagues": [
+            "FIFA World Cup Qualifying - CAF"
+        ],
+        "leagueIds": [
+            63
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5774.png",
+        "slug": "eritrea"
+    },
+    {
+        "id": 6686,
+        "name": "Eswatini",
+        "leagues": [
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6686.png",
+        "slug": "eswatini"
+    },
+    {
+        "id": 4205,
+        "name": "Liberia",
+        "leagues": [
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying",
+            "WAFU Cup of Nations"
+        ],
+        "leagueIds": [
+            63,
+            null,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4205.png",
+        "slug": "liberia"
+    },
+    {
+        "id": 5534,
+        "name": "Mauritius",
+        "leagues": [
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5534.png",
+        "slug": "mauritius"
+    },
+    {
+        "id": 11808,
+        "name": "Sao Tome and Principe",
+        "leagues": [
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11808.png",
+        "slug": "sao-tome-and-principe"
+    },
+    {
+        "id": 6726,
+        "name": "Seychelles",
+        "leagues": [
+            "FIFA World Cup Qualifying - CAF"
+        ],
+        "leagueIds": [
+            63
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6726.png",
+        "slug": "seychelles"
+    },
+    {
+        "id": 5776,
+        "name": "Somalia",
+        "leagues": [
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5776.png",
+        "slug": "somalia"
+    },
+    {
+        "id": 14075,
+        "name": "South Sudan",
+        "leagues": [
+            "FIFA World Cup Qualifying - CAF",
+            "Africa Cup of Nations Qualifying"
+        ],
+        "leagueIds": [
+            63,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/14075.png",
+        "slug": "south-sudan"
+    },
+    {
+        "id": 460,
+        "name": "Lithuania",
+        "leagues": [
+            "UEFA European Championship Qualifying",
+            "FIFA World Cup Qualifying - UEFA",
+            "UEFA Nations League"
+        ],
+        "leagueIds": [
+            56,
+            67,
+            2395
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/460.png",
+        "slug": "lithuania"
+    },
+    {
+        "id": 7348,
+        "name": "Laos",
+        "leagues": [
+            "AFF Cup",
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            2261,
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7348.png",
+        "slug": "laos"
+    },
+    {
+        "id": 6770,
+        "name": "Myanmar",
+        "leagues": [
+            "AFF Cup"
+        ],
+        "leagueIds": [
+            2261
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6770.png",
+        "slug": "myanmar"
+    },
+    {
+        "id": 7347,
+        "name": "Philippines",
+        "leagues": [
+            "AFF Cup"
+        ],
+        "leagueIds": [
+            2261
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7347.png",
+        "slug": "philippines"
+    },
+    {
+        "id": 4384,
+        "name": "Singapore",
+        "leagues": [
+            "AFF Cup"
+        ],
+        "leagueIds": [
+            2261
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4384.png",
+        "slug": "singapore"
+    },
+    {
+        "id": 4886,
+        "name": "American Samoa",
+        "leagues": [
+            "FIFA World Cup Qualifying - OFC"
+        ],
+        "leagueIds": [
+            66
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4886.png",
+        "slug": "american-samoa"
+    },
+    {
+        "id": 4884,
+        "name": "Cook Islands",
+        "leagues": [
+            "FIFA World Cup Qualifying - OFC"
+        ],
+        "leagueIds": [
+            66
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4884.png",
+        "slug": "cook-islands"
+    },
+    {
+        "id": 4887,
+        "name": "Samoa",
+        "leagues": [
+            "FIFA World Cup Qualifying - OFC"
+        ],
+        "leagueIds": [
+            66
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4887.png",
+        "slug": "samoa"
+    },
+    {
+        "id": 4883,
+        "name": "Tonga",
+        "leagues": [
+            "FIFA World Cup Qualifying - OFC"
+        ],
+        "leagueIds": [
+            66
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4883.png",
+        "slug": "tonga"
+    },
+    {
+        "id": 22257,
+        "name": "Denmark U19",
+        "leagues": [
+            "UEFA European Under-19 Championship"
+        ],
+        "leagueIds": [
+            2297
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22257.png",
+        "slug": "denmark-u19"
+    },
+    {
+        "id": 6930,
+        "name": "France U19",
+        "leagues": [
+            "UEFA European Under-19 Championship"
+        ],
+        "leagueIds": [
+            2297
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6930.png",
+        "slug": "france-u19"
+    },
+    {
+        "id": 9780,
+        "name": "Italy U19",
+        "leagues": [
+            "UEFA European Under-19 Championship"
+        ],
+        "leagueIds": [
+            2297
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9780.png",
+        "slug": "italy-u19"
+    },
+    {
+        "id": 22256,
+        "name": "Northern Ireland U19",
+        "leagues": [
+            "UEFA European Under-19 Championship"
+        ],
+        "leagueIds": [
+            2297
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22256.png",
+        "slug": "northern-ireland-u19"
+    },
+    {
+        "id": 19232,
+        "name": "Norway U19",
+        "leagues": [
+            "UEFA European Under-19 Championship"
+        ],
+        "leagueIds": [
+            2297
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19232.png",
+        "slug": "norway-u19"
+    },
+    {
+        "id": 9779,
+        "name": "Spain U19",
+        "leagues": [
+            "UEFA European Under-19 Championship"
+        ],
+        "leagueIds": [
+            2297
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9779.png",
+        "slug": "spain-u19"
+    },
+    {
+        "id": 6170,
+        "name": "Turkey U19",
+        "leagues": [
+            "UEFA European Under-19 Championship"
+        ],
+        "leagueIds": [
+            2297
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6170.png",
+        "slug": "turkey-u19"
+    },
+    {
+        "id": 6946,
+        "name": "Ukraine U19",
+        "leagues": [
+            "UEFA European Under-19 Championship"
+        ],
+        "leagueIds": [
+            2297
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6946.png",
+        "slug": "ukraine-u19"
+    },
+    {
+        "id": 2751,
+        "name": "Australia Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            60,
+            70,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2751.png",
+        "slug": "australia-women"
+    },
+    {
+        "id": 2754,
+        "name": "China Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            60,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2754.png",
+        "slug": "china-women"
+    },
+    {
+        "id": 2891,
+        "name": "Haiti Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            60,
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2891.png",
+        "slug": "haiti-women"
+    },
+    {
+        "id": 2893,
+        "name": "Jamaica Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            60,
+            70,
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2893.png",
+        "slug": "jamaica-women"
+    },
+    {
+        "id": 18221,
+        "name": "Morocco Women",
+        "leagues": [
+            "FIFA Women's World Cup"
+        ],
+        "leagueIds": [
+            60
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18221.png",
+        "slug": "morocco-women"
+    },
+    {
+        "id": 4153,
+        "name": "New Zealand Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            60,
+            70,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4153.png",
+        "slug": "new-zealand-women"
+    },
+    {
+        "id": 2761,
+        "name": "Nigeria Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            60,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2761.png",
+        "slug": "nigeria-women"
+    },
+    {
+        "id": 21546,
+        "name": "Philippines Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Pinatar Cup"
+        ],
+        "leagueIds": [
+            60,
+            70,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21546.png",
+        "slug": "philippines-women"
+    },
+    {
+        "id": 13313,
+        "name": "South Africa Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            60,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13313.png",
+        "slug": "south-africa-women"
+    },
+    {
+        "id": 17639,
+        "name": "South Korea Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            60,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17639.png",
+        "slug": "south-korea-women"
+    },
+    {
+        "id": 17815,
+        "name": "Vietnam Women",
+        "leagues": [
+            "FIFA Women's World Cup"
+        ],
+        "leagueIds": [
+            60
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17815.png",
+        "slug": "vietnam-women"
+    },
+    {
+        "id": 20795,
+        "name": "Zambia Women",
+        "leagues": [
+            "FIFA Women's World Cup",
+            "Women's International Friendly",
+            "Women's Olympic Soccer Tournament"
+        ],
+        "leagueIds": [
+            60,
+            70,
+            84
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20795.png",
+        "slug": "zambia-women"
+    },
+    {
+        "id": 2840,
+        "name": "Argentina U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2840.png",
+        "slug": "argentina-u20"
+    },
+    {
+        "id": 2918,
+        "name": "Brazil U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2918.png",
+        "slug": "brazil-u20"
+    },
+    {
+        "id": 5209,
+        "name": "Colombia U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5209.png",
+        "slug": "colombia-u20"
+    },
+    {
+        "id": 21919,
+        "name": "Dominican Republic U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21919.png",
+        "slug": "dominican-republic-u20"
+    },
+    {
+        "id": 7341,
+        "name": "Ecuador U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7341.png",
+        "slug": "ecuador-u20"
+    },
+    {
+        "id": 8450,
+        "name": "England U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8450.png",
+        "slug": "england-u20"
+    },
+    {
+        "id": 17764,
+        "name": "Fiji U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17764.png",
+        "slug": "fiji-u20"
+    },
+    {
+        "id": 12062,
+        "name": "France U20",
+        "leagues": [
+            "FIFA Under-20 World Cup",
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            2285,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12062.png",
+        "slug": "france-u20"
+    },
+    {
+        "id": 21920,
+        "name": "Gambia U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21920.png",
+        "slug": "gambia-u20"
+    },
+    {
+        "id": 21916,
+        "name": "Guatemala U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21916.png",
+        "slug": "guatemala-u20"
+    },
+    {
+        "id": 10608,
+        "name": "Honduras U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10608.png",
+        "slug": "honduras-u20"
+    },
+    {
+        "id": 15110,
+        "name": "Iraq U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/15110.png",
+        "slug": "iraq-u20"
+    },
+    {
+        "id": 21918,
+        "name": "Israel U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21918.png",
+        "slug": "israel-u20"
+    },
+    {
+        "id": 5210,
+        "name": "Italy U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5210.png",
+        "slug": "italy-u20"
+    },
+    {
+        "id": 5171,
+        "name": "Japan U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5171.png",
+        "slug": "japan-u20"
+    },
+    {
+        "id": 7790,
+        "name": "New Zealand U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7790.png",
+        "slug": "new-zealand-u20"
+    },
+    {
+        "id": 5212,
+        "name": "Nigeria U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5212.png",
+        "slug": "nigeria-u20"
+    },
+    {
+        "id": 17765,
+        "name": "Senegal U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17765.png",
+        "slug": "senegal-u20"
+    },
+    {
+        "id": 21917,
+        "name": "Slovakia U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21917.png",
+        "slug": "slovakia-u20"
+    },
+    {
+        "id": 2836,
+        "name": "South Korea U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2836.png",
+        "slug": "south-korea-u20"
+    },
+    {
+        "id": 21921,
+        "name": "Tunisia U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21921.png",
+        "slug": "tunisia-u20"
+    },
+    {
+        "id": 2833,
+        "name": "United States U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2833.png",
+        "slug": "united-states-u20"
+    },
+    {
+        "id": 7345,
+        "name": "Uruguay U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7345.png",
+        "slug": "uruguay-u20"
+    },
+    {
+        "id": 10617,
+        "name": "Uzbekistan U20",
+        "leagues": [
+            "FIFA Under-20 World Cup"
+        ],
+        "leagueIds": [
+            2285
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10617.png",
+        "slug": "uzbekistan-u20"
+    },
+    {
+        "id": 6722,
+        "name": "Macau",
+        "leagues": [
+            "FIFA World Cup Qualifying - AFC",
+            "AFC Asian Cup Qualifiers"
+        ],
+        "leagueIds": [
+            62,
+            2246
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6722.png",
+        "slug": "macau"
+    },
+    {
+        "id": 4390,
+        "name": "Maldives",
+        "leagues": [
+            "FIFA World Cup Qualifying - AFC",
+            "SAFF Championship"
+        ],
+        "leagueIds": [
+            62,
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4390.png",
+        "slug": "maldives"
+    },
+    {
+        "id": 4860,
+        "name": "North Korea",
+        "leagues": [
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4860.png",
+        "slug": "north-korea"
+    },
+    {
+        "id": 8664,
+        "name": "Timor-Leste",
+        "leagues": [
+            "FIFA World Cup Qualifying - AFC"
+        ],
+        "leagueIds": [
+            62
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8664.png",
+        "slug": "timor-leste"
+    },
+    {
+        "id": 22268,
+        "name": "Indonesia U20",
+        "leagues": [
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22268.png",
+        "slug": "indonesia-u20"
+    },
+    {
+        "id": 2837,
+        "name": "Ivory Coast U20",
+        "leagues": [
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2837.png",
+        "slug": "ivory-coast-u20"
+    },
+    {
+        "id": 9252,
+        "name": "Japan U19",
+        "leagues": [
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9252.png",
+        "slug": "japan-u19"
+    },
+    {
+        "id": 2888,
+        "name": "Mexico U23",
+        "leagues": [
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2888.png",
+        "slug": "mexico-u23"
+    },
+    {
+        "id": 2874,
+        "name": "Panama U23",
+        "leagues": [
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2874.png",
+        "slug": "panama-u23"
+    },
+    {
+        "id": 20950,
+        "name": "Saudi Arabia U23",
+        "leagues": [
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20950.png",
+        "slug": "saudi-arabia-u23"
+    },
+    {
+        "id": 19212,
+        "name": "South Korea U21",
+        "leagues": [
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19212.png",
+        "slug": "south-korea-u21"
+    },
+    {
+        "id": 22240,
+        "name": "Ukraine U23",
+        "leagues": [
+            "Maurice Revello Tournament"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22240.png",
+        "slug": "ukraine-u23"
+    },
+    {
+        "id": 18772,
+        "name": "Bolivia Women",
+        "leagues": [
+            "Copa América Femenina"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18772.png",
+        "slug": "bolivia-women"
+    },
+    {
+        "id": 18848,
+        "name": "Chile Women",
+        "leagues": [
+            "Copa América Femenina",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18848.png",
+        "slug": "chile-women"
+    },
+    {
+        "id": 17637,
+        "name": "Ecuador Women",
+        "leagues": [
+            "Copa América Femenina"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17637.png",
+        "slug": "ecuador-women"
+    },
+    {
+        "id": 21130,
+        "name": "Peru Women",
+        "leagues": [
+            "Copa América Femenina",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21130.png",
+        "slug": "peru-women"
+    },
+    {
+        "id": 19960,
+        "name": "Uruguay Women",
+        "leagues": [
+            "Copa América Femenina",
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            null,
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19960.png",
+        "slug": "uruguay-women"
+    },
+    {
+        "id": 20914,
+        "name": "Venezuela Women",
+        "leagues": [
+            "Copa América Femenina"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20914.png",
+        "slug": "venezuela-women"
+    },
+    {
+        "id": 2757,
+        "name": "Ghana Women",
+        "leagues": [
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2757.png",
+        "slug": "ghana-women"
+    },
+    {
+        "id": 20965,
+        "name": "Guatemala Women",
+        "leagues": [
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20965.png",
+        "slug": "guatemala-women"
+    },
+    {
+        "id": 17642,
+        "name": "Thailand Women",
+        "leagues": [
+            "Women's International Friendly"
+        ],
+        "leagueIds": [
+            70
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17642.png",
+        "slug": "thailand-women"
+    },
+    {
+        "id": 21561,
+        "name": "Brazil U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21561.png",
+        "slug": "brazil-u17-women"
+    },
+    {
+        "id": 21573,
+        "name": "Colombia U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21573.png",
+        "slug": "colombia-u17-women"
+    },
+    {
+        "id": 22304,
+        "name": "Dominican Republic U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22304.png",
+        "slug": "dominican-republic-u17-women"
+    },
+    {
+        "id": 22305,
+        "name": "Ecuador U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22305.png",
+        "slug": "ecuador-u17-women"
+    },
+    {
+        "id": 22308,
+        "name": "England U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22308.png",
+        "slug": "england-u17-women"
+    },
+    {
+        "id": 21570,
+        "name": "Japan U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21570.png",
+        "slug": "japan-u17-women"
+    },
+    {
+        "id": 22307,
+        "name": "Kenya U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22307.png",
+        "slug": "kenya-u17-women"
+    },
+    {
+        "id": 21568,
+        "name": "Mexico U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21568.png",
+        "slug": "mexico-u17-women"
+    },
+    {
+        "id": 21559,
+        "name": "New Zealand U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21559.png",
+        "slug": "new-zealand-u17-women"
+    },
+    {
+        "id": 21563,
+        "name": "Nigeria U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21563.png",
+        "slug": "nigeria-u17-women"
+    },
+    {
+        "id": 22303,
+        "name": "North Korea U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22303.png",
+        "slug": "north-korea-u17-women"
+    },
+    {
+        "id": 22309,
+        "name": "Poland U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22309.png",
+        "slug": "poland-u17-women"
+    },
+    {
+        "id": 22302,
+        "name": "South Korea U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22302.png",
+        "slug": "south-korea-u17-women"
+    },
+    {
+        "id": 21572,
+        "name": "Spain U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21572.png",
+        "slug": "spain-u17-women"
+    },
+    {
+        "id": 21565,
+        "name": "United States U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21565.png",
+        "slug": "united-states-u17-women"
+    },
+    {
+        "id": 22306,
+        "name": "Zambia U17 Women",
+        "leagues": [
+            "FIFA Under-17 Women's World Cup"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22306.png",
+        "slug": "zambia-u17-women"
+    },
+    {
+        "id": 2892,
+        "name": "Trinidad and Tobago",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2892.png",
+        "slug": "trinidad-and-tobago"
+    },
+    {
+        "id": 5785,
+        "name": "Nepal",
+        "leagues": [
+            "SAFF Championship"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5785.png",
+        "slug": "nepal"
+    },
+    {
+        "id": 5781,
+        "name": "Pakistan",
+        "leagues": [
+            "SAFF Championship"
+        ],
+        "leagueIds": [
+            null
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5781.png",
+        "slug": "pakistan"
+    },
+    {
+        "id": 22312,
+        "name": "East Timor",
+        "leagues": [
+            "AFC Asian Cup Qualifiers"
+        ],
+        "leagueIds": [
+            2246
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22312.png",
+        "slug": "east-timor"
+    },
+    {
+        "id": 2753,
+        "name": "Canada Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2753.png",
+        "slug": "canada-women"
+    },
+    {
+        "id": 2894,
+        "name": "Costa Rica Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2894.png",
+        "slug": "costa-rica-women"
+    },
+    {
+        "id": 2891,
+        "name": "Haiti Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2891.png",
+        "slug": "haiti-women"
+    },
+    {
+        "id": 2893,
+        "name": "Jamaica Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2893.png",
+        "slug": "jamaica-women"
+    },
+    {
+        "id": 2812,
+        "name": "Mexico Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2812.png",
+        "slug": "mexico-women"
+    },
+    {
+        "id": 2895,
+        "name": "Panama Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2895.png",
+        "slug": "panama-women"
+    },
+    {
+        "id": 2892,
+        "name": "Trinidad and Tobago Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2892.png",
+        "slug": "trinidad-and-tobago-women"
+    },
+    {
+        "id": 2765,
+        "name": "United States Women",
+        "leagues": [
+            "Concacaf W Championship"
+        ],
+        "leagueIds": [
+            18969
+        ],
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2765.png",
+        "slug": "united-states-women"
+    }
+]

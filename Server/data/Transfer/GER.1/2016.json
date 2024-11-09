@@ -1,0 +1,3593 @@
+[
+    {
+        "date": "Oct 18",
+        "player": {
+            "id": "136698",
+            "slug": "maximilian-beister",
+            "name": "Maximilian Beister"
+        },
+        "fromClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "toClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "159146",
+            "slug": "kaan-ayhan",
+            "name": "Kaan Ayhan"
+        },
+        "fromClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "toClub": {
+            "name": "Fortuna Düsseldorf",
+            "id": "9707",
+            "slug": "fortuna-dusseldorf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "196557",
+            "slug": "jannik-bandowski",
+            "name": "Jannik Bandowski"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "VfL Bochum",
+            "id": "121",
+            "slug": "vfl-bochum"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "178980",
+            "slug": "serge-gnabry",
+            "name": "Serge Gnabry"
+        },
+        "fromClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "151693",
+            "slug": "martin-hinteregger",
+            "name": "Martin Hinteregger"
+        },
+        "fromClub": {
+            "name": "RB Salzburg",
+            "id": "2790",
+            "slug": "rb-salzburg"
+        },
+        "toClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "186575",
+            "slug": "douglas-santos",
+            "name": "Douglas Santos"
+        },
+        "fromClub": {
+            "name": "Atlético-MG",
+            "id": "7632",
+            "slug": "atletico-mg"
+        },
+        "toClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "191942",
+            "slug": "marcel-tisserand",
+            "name": "Marcel Tisserand"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "FC Ingolstadt 04",
+            "id": "6367",
+            "slug": "fc-ingolstadt-04"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "196480",
+            "slug": "philipp-zulechner",
+            "name": "Philipp Zulechner"
+        },
+        "fromClub": {
+            "name": "SC Freiburg",
+            "id": "126",
+            "slug": "sc-freiburg"
+        },
+        "toClub": {
+            "name": "SK Sturm Graz",
+            "id": "3746",
+            "slug": "sk-sturm-graz"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "202100",
+            "slug": "albian-ajeti",
+            "name": "Albian Ajeti"
+        },
+        "fromClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "toClub": {
+            "name": "St. Gallen",
+            "id": "557",
+            "slug": "st-gallen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "157188",
+            "slug": "massimo-bruno",
+            "name": "Massimo Bruno"
+        },
+        "fromClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "toClub": {
+            "name": "Anderlecht",
+            "id": "441",
+            "slug": "anderlecht"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "232327",
+            "slug": "leon-guwara",
+            "name": "Leon Guwara"
+        },
+        "fromClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "toClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "186392",
+            "slug": "sebastian-kerk",
+            "name": "Sebastian Kerk"
+        },
+        "fromClub": {
+            "name": "SC Freiburg",
+            "id": "126",
+            "slug": "sc-freiburg"
+        },
+        "toClub": {
+            "name": "Kaiserslautern",
+            "id": "130",
+            "slug": "kaiserslautern"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "147474",
+            "slug": "atinc-nukan",
+            "name": "Atinç Nukan"
+        },
+        "fromClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "toClub": {
+            "name": "Besiktas",
+            "id": "1895",
+            "slug": "besiktas"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "112544",
+            "slug": "kyriakos-papadopoulos",
+            "name": "Kyriakos Papadopoulos"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "194090",
+            "slug": "andre-ramalho",
+            "name": "André Ramalho"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "160195",
+            "slug": "francisco-rodriguez",
+            "name": "Francisco Rodríguez"
+        },
+        "fromClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "toClub": {
+            "name": "FC Luzern",
+            "id": "7640",
+            "slug": "fc-luzern"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "206779",
+            "slug": "shani-tarashaj",
+            "name": "Shani Tarashaj"
+        },
+        "fromClub": {
+            "name": "Everton",
+            "id": "368",
+            "slug": "everton"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "144752",
+            "slug": "philipp-wollscheid",
+            "name": "Philipp Wollscheid"
+        },
+        "fromClub": {
+            "name": "Stoke City",
+            "id": "336",
+            "slug": "stoke-city"
+        },
+        "toClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "148188",
+            "slug": "yevhen-konoplyanka",
+            "name": "Yevhen Konoplyanka"
+        },
+        "fromClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "108576",
+            "slug": "tim-matavz",
+            "name": "Tim Matavz"
+        },
+        "fromClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "toClub": {
+            "name": "1. FC Nürnberg",
+            "id": "269",
+            "slug": "1-fc-nurnberg"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "197629",
+            "slug": "ryu-seung-woo",
+            "name": "Ryu Seung-Woo"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "Ferencvaros",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "189573",
+            "slug": "roman-bezjak",
+            "name": "Roman Bezjak"
+        },
+        "fromClub": {
+            "name": "HNK Rijeka",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "110149",
+            "slug": "pierre-bengtsson",
+            "name": "Pierre Bengtsson"
+        },
+        "fromClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "toClub": {
+            "name": "Bastia",
+            "id": "173",
+            "slug": "bastia"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "220807",
+            "slug": "in-hyeok-park",
+            "name": "In-Hyeok Park"
+        },
+        "fromClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "toClub": {
+            "name": "FC Koper",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "218980",
+            "slug": "bernardo",
+            "name": "Bernardo"
+        },
+        "fromClub": {
+            "name": "RB Salzburg",
+            "id": "2790",
+            "slug": "rb-salzburg"
+        },
+        "toClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "212478",
+            "slug": "oliver-burke",
+            "name": "Oliver Burke"
+        },
+        "fromClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "toClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "141442",
+            "slug": "luc-castaignos",
+            "name": "Luc Castaignos"
+        },
+        "fromClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "toClub": {
+            "name": "Sporting CP",
+            "id": "2250",
+            "slug": "sporting-cp"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "125249",
+            "slug": "bas-dost",
+            "name": "Bas Dost"
+        },
+        "fromClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "toClub": {
+            "name": "Sporting CP",
+            "id": "2250",
+            "slug": "sporting-cp"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "125287",
+            "slug": "tarik-elyounoussi",
+            "name": "Tarik Elyounoussi"
+        },
+        "fromClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "toClub": {
+            "name": "Olympiacos",
+            "id": "435",
+            "slug": "olympiacos"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "107466",
+            "slug": "alexander-esswein",
+            "name": "Alexander Esswein"
+        },
+        "fromClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "toClub": {
+            "name": "Hertha Berlin",
+            "id": "129",
+            "slug": "hertha-berlin"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "153290",
+            "slug": "jonathan-schmid",
+            "name": "Jonathan Schmid"
+        },
+        "fromClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "toClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "144280",
+            "slug": "benjamin-stambouli",
+            "name": "Benjamin Stambouli"
+        },
+        "fromClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "136590",
+            "slug": "mensur-mujdza",
+            "name": "Mensur Mujdza"
+        },
+        "fromClub": {
+            "name": "SC Freiburg",
+            "id": "126",
+            "slug": "sc-freiburg"
+        },
+        "toClub": {
+            "name": "Kaiserslautern",
+            "id": "130",
+            "slug": "kaiserslautern"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 25",
+        "player": {
+            "id": "188058",
+            "slug": "levin-oztunali",
+            "name": "Levin Öztunali"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 25",
+        "player": {
+            "id": "179187",
+            "slug": "nabil-bentaleb",
+            "name": "Nabil Bentaleb"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 24",
+        "player": {
+            "id": "84736",
+            "slug": "ivo-ilicevic",
+            "name": "Ivo Ilicevic"
+        },
+        "fromClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "toClub": {
+            "name": "Anzhi Makhachkala",
+            "id": "593",
+            "slug": "anzhi-makhachkala"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 23",
+        "player": {
+            "id": "205913",
+            "slug": "robert-bauer",
+            "name": "Robert Bauer"
+        },
+        "fromClub": {
+            "name": "FC Ingolstadt 04",
+            "id": "6367",
+            "slug": "fc-ingolstadt-04"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 23",
+        "player": {
+            "id": "142977",
+            "slug": "aleksandar-dragovic",
+            "name": "Aleksandar Dragovic"
+        },
+        "fromClub": {
+            "name": "Dynamo Kiev",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 22",
+        "player": {
+            "id": "130165",
+            "slug": "dante",
+            "name": "Dante"
+        },
+        "fromClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "toClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 21",
+        "player": {
+            "id": "86098",
+            "slug": "anis-ben-hatira",
+            "name": "Änis Ben-Hatira"
+        },
+        "fromClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "toClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 17",
+        "player": {
+            "id": "42015",
+            "slug": "mario-gomez",
+            "name": "Mario Gómez"
+        },
+        "fromClub": {
+            "name": "Fiorentina",
+            "id": "109",
+            "slug": "fiorentina"
+        },
+        "toClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 17",
+        "player": {
+            "id": "158998",
+            "slug": "alexander-milosevic",
+            "name": "Alexander Milosevic"
+        },
+        "fromClub": {
+            "name": "Besiktas",
+            "id": "1895",
+            "slug": "besiktas"
+        },
+        "toClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 16",
+        "player": {
+            "id": "115306",
+            "slug": "sven-schipplock",
+            "name": "Sven Schipplock"
+        },
+        "fromClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "toClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 14",
+        "player": {
+            "id": "150032",
+            "slug": "michael-hector",
+            "name": "Michael Hector"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 13",
+        "player": {
+            "id": "221830",
+            "slug": "laszlo-kleinheisler",
+            "name": "László Kleinheisler"
+        },
+        "fromClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "toClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 12",
+        "player": {
+            "id": "151119",
+            "slug": "moritz-leitner",
+            "name": "Moritz Leitner"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "Lazio",
+            "id": "112",
+            "slug": "lazio"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 12",
+        "player": {
+            "id": "113020",
+            "slug": "zoltan-stieber",
+            "name": "Zoltan Stieber"
+        },
+        "fromClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "toClub": {
+            "name": "Kaiserslautern",
+            "id": "130",
+            "slug": "kaiserslautern"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 9",
+        "player": {
+            "id": "148494",
+            "slug": "denys-oliynyk",
+            "name": "Denys Oliynyk"
+        },
+        "fromClub": {
+            "name": "Vitesse",
+            "id": "154",
+            "slug": "vitesse"
+        },
+        "toClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 8",
+        "player": {
+            "id": "151303",
+            "slug": "tolga-cigerci",
+            "name": "Tolga Cigerci"
+        },
+        "fromClub": {
+            "name": "Hertha Berlin",
+            "id": "129",
+            "slug": "hertha-berlin"
+        },
+        "toClub": {
+            "name": "Galatasaray",
+            "id": "432",
+            "slug": "galatasaray"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 8",
+        "player": {
+            "id": "212334",
+            "slug": "florent-hadergjonaj",
+            "name": "Florent Hadergjonaj"
+        },
+        "fromClub": {
+            "name": "Young Boys",
+            "id": "2722",
+            "slug": "young-boys"
+        },
+        "toClub": {
+            "name": "FC Ingolstadt 04",
+            "id": "6367",
+            "slug": "fc-ingolstadt-04"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "176676",
+            "slug": "rafal-gikiewicz",
+            "name": "Rafal Gikiewicz"
+        },
+        "fromClub": {
+            "name": "TSV Eintracht Braunschweig",
+            "id": "3067",
+            "slug": "tsv-eintracht-braunschweig"
+        },
+        "toClub": {
+            "name": "SC Freiburg",
+            "id": "126",
+            "slug": "sc-freiburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "223437",
+            "slug": "allan",
+            "name": "Allan"
+        },
+        "fromClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "toClub": {
+            "name": "Hertha Berlin",
+            "id": "129",
+            "slug": "hertha-berlin"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "134613",
+            "slug": "lamine-sane",
+            "name": "Lamine Sané"
+        },
+        "fromClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "153420",
+            "slug": "omer-damari",
+            "name": "Omer Damari"
+        },
+        "fromClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "toClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "169753",
+            "slug": "anthony-jung",
+            "name": "Anthony Jung"
+        },
+        "fromClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "toClub": {
+            "name": "FC Ingolstadt 04",
+            "id": "6367",
+            "slug": "fc-ingolstadt-04"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "125758",
+            "slug": "coke",
+            "name": "Coke"
+        },
+        "fromClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "169539",
+            "slug": "alejandro-galvez",
+            "name": "Alejandro Gálvez"
+        },
+        "fromClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "toClub": {
+            "name": "Eibar",
+            "id": "3752",
+            "slug": "eibar"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "89476",
+            "slug": "tobias-werner",
+            "name": "Tobias Werner"
+        },
+        "fromClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "toClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": "110846",
+            "slug": "max-kruse",
+            "name": "Max Kruse"
+        },
+        "fromClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": "202641",
+            "slug": "leroy-sane",
+            "name": "Leroy Sané"
+        },
+        "fromClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "toClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": "174508",
+            "slug": "abdul-rahman-baba",
+            "name": "Abdul Rahman Baba"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 1",
+        "player": {
+            "id": "102200",
+            "slug": "jakub-blaszczykowski",
+            "name": "Jakub Blaszczykowski"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 1",
+        "player": {
+            "id": "161699",
+            "slug": "slobodan-rajkovic",
+            "name": "Slobodan Rajkovic"
+        },
+        "fromClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "toClub": {
+            "name": "Palermo",
+            "id": "2923",
+            "slug": "palermo"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 30",
+        "player": {
+            "id": "102204",
+            "slug": "stefan-aigner",
+            "name": "Stefan Aigner"
+        },
+        "fromClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "toClub": {
+            "name": "TSV 1860 Munich",
+            "id": "135",
+            "slug": "tsv-1860-munich"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "207181",
+            "slug": "ivan-lucic",
+            "name": "Ivan Lucic"
+        },
+        "fromClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "toClub": {
+            "name": "Bristol City",
+            "id": "333",
+            "slug": "bristol-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "124896",
+            "slug": "artem-fedetskiy",
+            "name": "Artem Fedetskiy"
+        },
+        "fromClub": {
+            "name": "Dnipro Dnipropetrovsk",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "154690",
+            "slug": "hajime-hosogai",
+            "name": "Hajime Hosogai"
+        },
+        "fromClub": {
+            "name": "Hertha Berlin",
+            "id": "129",
+            "slug": "hertha-berlin"
+        },
+        "toClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "174496",
+            "slug": "filip-kostic",
+            "name": "Filip Kostic"
+        },
+        "fromClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "toClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "188368",
+            "slug": "gullermo-varela",
+            "name": "Gullermo Varela"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 22",
+        "player": {
+            "id": "136580",
+            "slug": "andre-schurrle",
+            "name": "André Schürrle"
+        },
+        "fromClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "toClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 22",
+        "player": {
+            "id": "219276",
+            "slug": "zack-steffen",
+            "name": "Zack Steffen"
+        },
+        "fromClub": {
+            "name": "SC Freiburg",
+            "id": "126",
+            "slug": "sc-freiburg"
+        },
+        "toClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 21",
+        "player": {
+            "id": "179195",
+            "slug": "alen-halilovic",
+            "name": "Alen Halilovic"
+        },
+        "fromClub": {
+            "name": "Barcelona",
+            "id": "83",
+            "slug": "barcelona"
+        },
+        "toClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "status": "€ 5M"
+    },
+    {
+        "date": "Jul 21",
+        "player": {
+            "id": "143020",
+            "slug": "mario-gotze",
+            "name": "Mario Götze"
+        },
+        "fromClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "toClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "206072",
+            "slug": "ondrej-duda",
+            "name": "Ondrej Duda"
+        },
+        "fromClub": {
+            "name": "Legia Warsaw",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Hertha Berlin",
+            "id": "129",
+            "slug": "hertha-berlin"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "186381",
+            "slug": "serhou-guirassy",
+            "name": "Serhou Guirassy"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "FC Cologne",
+            "id": "122",
+            "slug": "fc-cologne"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "37085",
+            "slug": "ragnar-klavan",
+            "name": "Ragnar Klavan"
+        },
+        "fromClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "toClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "114897",
+            "slug": "gojko-kacar",
+            "name": "Gojko Kacar"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 16",
+        "player": {
+            "id": "152859",
+            "slug": "jonas-lossl",
+            "name": "Jonas Lössl"
+        },
+        "fromClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "toClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "69150",
+            "slug": "roy-beerens",
+            "name": "Roy Beerens"
+        },
+        "fromClub": {
+            "name": "Hertha Berlin",
+            "id": "129",
+            "slug": "hertha-berlin"
+        },
+        "toClub": {
+            "name": "Reading",
+            "id": "338",
+            "slug": "reading"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "150373",
+            "slug": "hong-jeong-ho",
+            "name": "Hong Jeong-Ho"
+        },
+        "fromClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "toClub": {
+            "name": "Jiangsu Suning FC",
+            "id": "18201",
+            "slug": "jiangsu-suning-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "102402",
+            "slug": "medhi-benatia",
+            "name": "Medhi Benatia"
+        },
+        "fromClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "188053",
+            "slug": "kerem-demirbay",
+            "name": "Kerem Demirbay"
+        },
+        "fromClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "toClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "186151",
+            "slug": "jean-philippe-gbamin",
+            "name": "Jean-Philippe Gbamin"
+        },
+        "fromClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "toClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "209592",
+            "slug": "jesus-vallejo",
+            "name": "Jesús Vallejo"
+        },
+        "fromClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 11",
+        "player": {
+            "id": "159543",
+            "slug": "pierre-emile-højbjerg",
+            "name": "Pierre-Emile Højbjerg"
+        },
+        "fromClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "toClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "35887",
+            "slug": "niklas-moisander",
+            "name": "Niklas Moisander"
+        },
+        "fromClub": {
+            "name": "Sampdoria",
+            "id": "2734",
+            "slug": "sampdoria"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 8",
+        "player": {
+            "id": "122955",
+            "slug": "fallou-diagne",
+            "name": "Fallou Diagne"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 8",
+        "player": {
+            "id": "214012",
+            "slug": "jon-gorenc-stankovic",
+            "name": "Jon Gorenc Stankovic"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "Huddersfield Town",
+            "id": "335",
+            "slug": "huddersfield-town"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 6",
+        "player": {
+            "id": "174966",
+            "slug": "omar-mascarell",
+            "name": "Omar Mascarell"
+        },
+        "fromClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 6",
+        "player": {
+            "id": "147625",
+            "slug": "henrikh-mkhitaryan",
+            "name": "Henrikh Mkhitaryan"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 6",
+        "player": {
+            "id": "122282",
+            "slug": "roman-neustadter",
+            "name": "Roman Neustädter"
+        },
+        "fromClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "toClub": {
+            "name": "Fenerbahce",
+            "id": "436",
+            "slug": "fenerbahce"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "145953",
+            "slug": "anthony-ujah",
+            "name": "Anthony Ujah"
+        },
+        "fromClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "toClub": {
+            "name": "Liaoning Whowin",
+            "id": "979",
+            "slug": "liaoning-whowin"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "163794",
+            "slug": "ante-rebic",
+            "name": "Ante Rebic"
+        },
+        "fromClub": {
+            "name": "Fiorentina",
+            "id": "109",
+            "slug": "fiorentina"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "227217",
+            "slug": "renato-sanches",
+            "name": "Renato Sanches"
+        },
+        "fromClub": {
+            "name": "Benfica",
+            "id": "1929",
+            "slug": "benfica"
+        },
+        "toClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "status": "€ 35M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "169438",
+            "slug": "antonio-rudiger",
+            "name": "Antonio Rüdiger"
+        },
+        "fromClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "toClub": {
+            "name": "AS Roma",
+            "id": "104",
+            "slug": "as-roma"
+        },
+        "status": "€ 9M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "115123",
+            "slug": "julian-baumgartlinger",
+            "name": "Julian Baumgartlinger"
+        },
+        "fromClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "toClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "228321",
+            "slug": "josip-brekalo",
+            "name": "Josip Brekalo"
+        },
+        "fromClub": {
+            "name": "Dinamo Zagreb",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "140073",
+            "slug": "jeffrey-bruma",
+            "name": "Jeffrey Bruma"
+        },
+        "fromClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "toClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "229744",
+            "slug": "ousmane-dembele",
+            "name": "Ousmane Dembélé"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "202099",
+            "slug": "breel-embolo",
+            "name": "Breel Embolo"
+        },
+        "fromClub": {
+            "name": "FC Basel",
+            "id": "989",
+            "slug": "fc-basel"
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "176228",
+            "slug": "raphael-guerreiro",
+            "name": "Raphaël Guerreiro"
+        },
+        "fromClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "toClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "130113",
+            "slug": "josuha-guilavogui",
+            "name": "Josuha Guilavogui"
+        },
+        "fromClub": {
+            "name": "Athletic Club",
+            "id": "93",
+            "slug": "athletic-club"
+        },
+        "toClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "131424",
+            "slug": "ilkay-gundogan",
+            "name": "Ilkay Gündogan"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "172984",
+            "slug": "christopher-jullien",
+            "name": "Christopher Jullien"
+        },
+        "fromClub": {
+            "name": "SC Freiburg",
+            "id": "126",
+            "slug": "sc-freiburg"
+        },
+        "toClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "165764",
+            "slug": "loris-karius",
+            "name": "Loris Karius"
+        },
+        "fromClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "toClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "123122",
+            "slug": "hiroshi-kiyotake",
+            "name": "Hiroshi Kiyotake"
+        },
+        "fromClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "toClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "139520",
+            "slug": "andrej-kramaric",
+            "name": "Andrej Kramaric"
+        },
+        "fromClub": {
+            "name": "Leicester City",
+            "id": "375",
+            "slug": "leicester-city"
+        },
+        "toClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "231279",
+            "slug": "emre-mor",
+            "name": "Emre Mor"
+        },
+        "fromClub": {
+            "name": "FC Nordsjælland",
+            "id": "3101",
+            "slug": "fc-nordsjælland"
+        },
+        "toClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "103491",
+            "slug": "sandro-wagner",
+            "name": "Sandro Wagner"
+        },
+        "fromClub": {
+            "name": "SV Darmstadt 98",
+            "id": "3812",
+            "slug": "sv-darmstadt-98"
+        },
+        "toClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "149981",
+            "slug": "granit-xhaka",
+            "name": "Granit Xhaka"
+        },
+        "fromClub": {
+            "name": "Borussia Monchengladbach",
+            "id": "268",
+            "slug": "borussia-monchengladbach"
+        },
+        "toClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "121007",
+            "slug": "ron-robert-zieler",
+            "name": "Ron-Robert Zieler"
+        },
+        "fromClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "toClub": {
+            "name": "Leicester City",
+            "id": "375",
+            "slug": "leicester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "69391",
+            "slug": "naldo",
+            "name": "Naldo"
+        },
+        "fromClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "131468",
+            "slug": "daniel-didavi",
+            "name": "Daniel Didavi"
+        },
+        "fromClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "toClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "225554",
+            "slug": "mamadou-doucoure",
+            "name": "Mamadou Doucouré"
+        },
+        "fromClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "toClub": {
+            "name": "Borussia Monchengladbach",
+            "id": "268",
+            "slug": "borussia-monchengladbach"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "134659",
+            "slug": "joel-matip",
+            "name": "Joël Matip"
+        },
+        "fromClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "toClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "102643",
+            "slug": "havard-nordtveit",
+            "name": "Håvard Nordtveit"
+        },
+        "fromClub": {
+            "name": "Borussia Monchengladbach",
+            "id": "268",
+            "slug": "borussia-monchengladbach"
+        },
+        "toClub": {
+            "name": "West Ham United",
+            "id": "371",
+            "slug": "west-ham-united"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "181399",
+            "slug": "mateo-pavlovic",
+            "name": "Mateo Pavlović"
+        },
+        "fromClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "146960",
+            "slug": "thanos-petsos",
+            "name": "Thanos Petsos"
+        },
+        "fromClub": {
+            "name": "Rapid Vienna",
+            "id": "519",
+            "slug": "rapid-vienna"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "157692",
+            "slug": "hiroki-sakai",
+            "name": "Hiroki Sakai"
+        },
+        "fromClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "170228",
+            "slug": "tobias-strobl",
+            "name": "Tobias Strobl"
+        },
+        "fromClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "toClub": {
+            "name": "Borussia Monchengladbach",
+            "id": "268",
+            "slug": "borussia-monchengladbach"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "151159",
+            "slug": "elias-kachunga",
+            "name": "Elias Kachunga"
+        },
+        "fromClub": {
+            "name": "FC Ingolstadt 04",
+            "id": "6367",
+            "slug": "fc-ingolstadt-04"
+        },
+        "toClub": {
+            "name": "Huddersfield Town",
+            "id": "335",
+            "slug": "huddersfield-town"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jun 20",
+        "player": {
+            "id": "121528",
+            "slug": "ramazan-ozcan",
+            "name": "Ramazan Özcan"
+        },
+        "fromClub": {
+            "name": "FC Ingolstadt 04",
+            "id": "6367",
+            "slug": "fc-ingolstadt-04"
+        },
+        "toClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 14",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Bakery Jatta"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jun 8",
+        "player": {
+            "id": "160055",
+            "slug": "christoph-kramer",
+            "name": "Christoph Kramer"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "Borussia Monchengladbach",
+            "id": "268",
+            "slug": "borussia-monchengladbach"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 6",
+        "player": {
+            "id": "122926",
+            "slug": "sebastian-rode",
+            "name": "Sebastian Rode"
+        },
+        "fromClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "toClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 23",
+        "player": {
+            "id": "84627",
+            "slug": "mats-hummels",
+            "name": "Mats Hummels"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 20",
+        "player": {
+            "id": "149558",
+            "slug": "kevin-volland",
+            "name": "Kevin Volland"
+        },
+        "fromClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "toClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 16",
+        "player": {
+            "id": "155529",
+            "slug": "bobby-wood",
+            "name": "Bobby Wood"
+        },
+        "fromClub": {
+            "name": "1. FC Union Berlin",
+            "id": "598",
+            "slug": "1-fc-union-berlin"
+        },
+        "toClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 15",
+        "player": {
+            "id": "220474",
+            "slug": "haji-wright",
+            "name": "Haji Wright"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "197342",
+            "slug": "milos-veljkovic",
+            "name": "Milos Veljkovic"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "177870",
+            "slug": "federico-barba",
+            "name": "Federico Barba"
+        },
+        "fromClub": {
+            "name": "Empoli",
+            "id": "2574",
+            "slug": "empoli"
+        },
+        "toClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "136698",
+            "slug": "maximilian-beister",
+            "name": "Maximilian Beister"
+        },
+        "fromClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "toClub": {
+            "name": "TSV 1860 Munich",
+            "id": "135",
+            "slug": "tsv-1860-munich"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "144859",
+            "slug": "josip-drmic",
+            "name": "Josip Drmic"
+        },
+        "fromClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "toClub": {
+            "name": "Borussia Monchengladbach",
+            "id": "268",
+            "slug": "borussia-monchengladbach"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "108576",
+            "slug": "tim-matavz",
+            "name": "Tim Matavz"
+        },
+        "fromClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "toClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "84754",
+            "slug": "serdar-tasci",
+            "name": "Serdar Tasci"
+        },
+        "fromClub": {
+            "name": "Spartak Moscow",
+            "id": "1941",
+            "slug": "spartak-moscow"
+        },
+        "toClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 29",
+        "player": {
+            "id": "201683",
+            "slug": "bruno-henrique",
+            "name": "Bruno Henrique"
+        },
+        "fromClub": {
+            "name": "Goiás",
+            "id": "3395",
+            "slug": "goias"
+        },
+        "toClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "228428",
+            "slug": "alper-ademoglu",
+            "name": "Alper Ademoglu"
+        },
+        "fromClub": {
+            "name": "Anderlecht",
+            "id": "441",
+            "slug": "anderlecht"
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "84678",
+            "slug": "gerhard-tremmel",
+            "name": "Gerhard Tremmel"
+        },
+        "fromClub": {
+            "name": "Swansea City",
+            "id": "318",
+            "slug": "swansea-city"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "208318",
+            "slug": "maurice-hirsch",
+            "name": "Maurice Hirsch"
+        },
+        "fromClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "toClub": {
+            "name": "SpVgg Greuther Furth",
+            "id": "3070",
+            "slug": "spvgg-greuther-furth"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "184863",
+            "slug": "todor-nedelev",
+            "name": "Todor Nedelev"
+        },
+        "fromClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "toClub": {
+            "name": "Botev Plovdiv",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "160195",
+            "slug": "francisco-rodriguez",
+            "name": "Francisco Rodríguez"
+        },
+        "fromClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "toClub": {
+            "name": "Arminia Bielefeld",
+            "id": "2506",
+            "slug": "arminia-bielefeld"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "143517",
+            "slug": "giulio-donati",
+            "name": "Giulio Donati"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "147339",
+            "slug": "gonzalo-jara",
+            "name": "Gonzalo Jara"
+        },
+        "fromClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "toClub": {
+            "name": "Universidad de Chile",
+            "id": "4139",
+            "slug": "universidad-de-chile"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "159135",
+            "slug": "odisseas-vlachodimos",
+            "name": "Odisseas Vlachodimos"
+        },
+        "fromClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "toClub": {
+            "name": "Panathinaikos",
+            "id": "443",
+            "slug": "panathinaikos"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "159143",
+            "slug": "levent-aycicek",
+            "name": "Levent Aycicek"
+        },
+        "fromClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "toClub": {
+            "name": "TSV 1860 Munich",
+            "id": "135",
+            "slug": "tsv-1860-munich"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 23",
+        "player": {
+            "id": "199963",
+            "slug": "carlos-gruezo",
+            "name": "Carlos Gruezo"
+        },
+        "fromClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 22",
+        "player": {
+            "id": "111536",
+            "slug": "assani-lukimya-mulongoti",
+            "name": "Assani Lukimya-Mulongoti"
+        },
+        "fromClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "toClub": {
+            "name": "Liaoning Whowin F.C.",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 22",
+        "player": {
+            "id": "174214",
+            "slug": "filip-malbasic",
+            "name": "Filip Malbasic"
+        },
+        "fromClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "toClub": {
+            "name": "Vojvodina",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "144607",
+            "slug": "papy-djilobodji",
+            "name": "Papy Djilobodji"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "205809",
+            "slug": "joel-gerezgiher",
+            "name": "Joel Gerezgiher"
+        },
+        "fromClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "toClub": {
+            "name": "FSV Frankfurt",
+            "id": "6608",
+            "slug": "fsv-frankfurt"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Laszlo Kleinheisler "
+        },
+        "fromClub": {
+            "name": "Videoton FC",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "139520",
+            "slug": "andrej-kramaric",
+            "name": "Andrej Kramaric"
+        },
+        "fromClub": {
+            "name": "Leicester City",
+            "id": "375",
+            "slug": "leicester-city"
+        },
+        "toClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "173355",
+            "slug": "bard-finne",
+            "name": "Bard Finne"
+        },
+        "fromClub": {
+            "name": "FC Cologne",
+            "id": "122",
+            "slug": "fc-cologne"
+        },
+        "toClub": {
+            "name": "1. FC Heidenheim 1846",
+            "id": "6418",
+            "slug": "1-fc-heidenheim-1846"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "149853",
+            "slug": "timm-klose",
+            "name": "Timm Klose"
+        },
+        "fromClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "toClub": {
+            "name": "Norwich City",
+            "id": "381",
+            "slug": "norwich-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "155983",
+            "slug": "dario-lezcano",
+            "name": "Darío Lezcano"
+        },
+        "fromClub": {
+            "name": "FC Luzern",
+            "id": "7640",
+            "slug": "fc-luzern"
+        },
+        "toClub": {
+            "name": "FC Ingolstadt 04",
+            "id": "6367",
+            "slug": "fc-ingolstadt-04"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "184765",
+            "slug": "marius-gersbeck",
+            "name": "Marius Gersbeck"
+        },
+        "fromClub": {
+            "name": "Hertha Berlin",
+            "id": "129",
+            "slug": "hertha-berlin"
+        },
+        "toClub": {
+            "name": "Chemnitzer FC",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "174519",
+            "slug": "thomas-pledl",
+            "name": "Thomas Pledl"
+        },
+        "fromClub": {
+            "name": "FC Ingolstadt 04",
+            "id": "6367",
+            "slug": "fc-ingolstadt-04"
+        },
+        "toClub": {
+            "name": "SV Sandhausen",
+            "id": "6392",
+            "slug": "sv-sandhausen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "113020",
+            "slug": "zoltan-stieber",
+            "name": "Zoltan Stieber"
+        },
+        "fromClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "toClub": {
+            "name": "1. FC Nürnberg",
+            "id": "269",
+            "slug": "1-fc-nurnberg"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 16",
+        "player": {
+            "id": "29027",
+            "slug": "hugo-almeida",
+            "name": "Hugo Almeida"
+        },
+        "fromClub": {
+            "name": "Anzhi Makhachkala",
+            "id": "593",
+            "slug": "anzhi-makhachkala"
+        },
+        "toClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 15",
+        "player": {
+            "id": "168514",
+            "slug": "marcelo-diaz",
+            "name": "Marcelo Díaz"
+        },
+        "fromClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "toClub": {
+            "name": "Celta Vigo",
+            "id": "85",
+            "slug": "celta-vigo"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "130123",
+            "slug": "ciro-immobile",
+            "name": "Ciro Immobile"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "Torino",
+            "id": "239",
+            "slug": "torino"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "202100",
+            "slug": "albian-ajeti",
+            "name": "Albian Ajeti"
+        },
+        "fromClub": {
+            "name": "FC Basel",
+            "id": "989",
+            "slug": "fc-basel"
+        },
+        "toClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "140624",
+            "slug": "jeffrey-gouweleeuw",
+            "name": "Jeffrey Gouweleeuw"
+        },
+        "fromClub": {
+            "name": "AZ Alkmaar",
+            "id": "140",
+            "slug": "az-alkmaar"
+        },
+        "toClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "177701",
+            "slug": "ronny-marcos",
+            "name": "Ronny Marcos"
+        },
+        "fromClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "toClub": {
+            "name": "SpVgg Greuther Furth",
+            "id": "3070",
+            "slug": "spvgg-greuther-furth"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "207623",
+            "slug": "marius-wolf",
+            "name": "Marius Wolf"
+        },
+        "fromClub": {
+            "name": "TSV 1860 Munich",
+            "id": "135",
+            "slug": "tsv-1860-munich"
+        },
+        "toClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "77705",
+            "slug": "felipe-santana",
+            "name": "Felipe Santana"
+        },
+        "fromClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "toClub": {
+            "name": "Kuban Krasnodar",
+            "id": "7425",
+            "slug": "kuban-krasnodar"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "151693",
+            "slug": "martin-hinteregger",
+            "name": "Martin Hinteregger"
+        },
+        "fromClub": {
+            "name": "RB Salzburg",
+            "id": "2790",
+            "slug": "rb-salzburg"
+        },
+        "toClub": {
+            "name": "Borussia Monchengladbach",
+            "id": "268",
+            "slug": "borussia-monchengladbach"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 9",
+        "player": {
+            "id": "207177",
+            "slug": "gianluca-gaudino",
+            "name": "Gianluca Gaudino"
+        },
+        "fromClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "toClub": {
+            "name": "St. Gallen",
+            "id": "557",
+            "slug": "st-gallen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 7",
+        "player": {
+            "id": "128861",
+            "slug": "jan-kirchhoff",
+            "name": "Jan Kirchhoff"
+        },
+        "fromClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "toClub": {
+            "name": "Sunderland",
+            "id": "366",
+            "slug": "sunderland"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 7",
+        "player": {
+            "id": "210791",
+            "slug": "sinan-kurt",
+            "name": "Sinan Kurt"
+        },
+        "fromClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "toClub": {
+            "name": "Hertha Berlin",
+            "id": "129",
+            "slug": "hertha-berlin"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 7",
+        "player": {
+            "id": "84945",
+            "slug": "mevlut-erdinc",
+            "name": "Mevlut Erdinç"
+        },
+        "fromClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "toClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "122362",
+            "slug": "kevin-grosskreutz",
+            "name": "Kevin Grosskreutz"
+        },
+        "fromClub": {
+            "name": "Galatasaray",
+            "id": "432",
+            "slug": "galatasaray"
+        },
+        "toClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "136689",
+            "slug": "younes-belhanda",
+            "name": "Younès Belhanda"
+        },
+        "fromClub": {
+            "name": "Dynamo Kiev",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "166257",
+            "slug": "filip-mladenovic",
+            "name": "Filip Mladenovic"
+        },
+        "fromClub": {
+            "name": "BATE Borisov",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "FC Cologne",
+            "id": "122",
+            "slug": "fc-cologne"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "66880",
+            "slug": "kevin-prince-boateng",
+            "name": "Kevin-Prince Boateng"
+        },
+        "fromClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "toClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "224309",
+            "slug": "karim-onisiwo",
+            "name": "Karim Onisiwo"
+        },
+        "fromClub": {
+            "name": "SV Mattersburg",
+            "id": "3745",
+            "slug": "sv-mattersburg"
+        },
+        "toClub": {
+            "name": "Mainz",
+            "id": "2950",
+            "slug": "mainz"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "113123",
+            "slug": "artem-kravets",
+            "name": "Artem Kravets"
+        },
+        "fromClub": {
+            "name": "Dynamo Kiev",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "129491",
+            "slug": "adam-szalai",
+            "name": "Ádám Szalai"
+        },
+        "fromClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "toClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 3",
+        "player": {
+            "id": "159146",
+            "slug": "kaan-ayhan",
+            "name": "Kaan Ayhan"
+        },
+        "fromClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "205911",
+            "slug": "sebastian-ernst",
+            "name": "Sebastian Ernst"
+        },
+        "fromClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "toClub": {
+            "name": "Magdeburg",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "120884",
+            "slug": "marco-fabian",
+            "name": "Marco Fabián"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "186078",
+            "slug": "iver-fossum",
+            "name": "Iver Fossum"
+        },
+        "fromClub": {
+            "name": "Stromsgodset",
+            "id": "9811",
+            "slug": "stromsgodset"
+        },
+        "toClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "174617",
+            "slug": "jonas-hofmann",
+            "name": "Jonas Hofmann"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "Borussia Monchengladbach",
+            "id": "268",
+            "slug": "borussia-monchengladbach"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "85190",
+            "slug": "szabolcs-huszti",
+            "name": "Szabolcs Huszti"
+        },
+        "fromClub": {
+            "name": "Changchun Yatai",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "152858",
+            "slug": "vaclav-kadlec",
+            "name": "Václav Kadlec"
+        },
+        "fromClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "toClub": {
+            "name": "FC Midtjylland",
+            "id": "572",
+            "slug": "fc-midtjylland"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "197630",
+            "slug": "kazuki-nagasawa",
+            "name": "Kazuki Nagasawa"
+        },
+        "fromClub": {
+            "name": "FC Cologne",
+            "id": "122",
+            "slug": "fc-cologne"
+        },
+        "toClub": {
+            "name": "Urawa Red Diamonds",
+            "id": "3385",
+            "slug": "urawa-red-diamonds"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "154409",
+            "slug": "hotaru-yamaguchi",
+            "name": "Hotaru Yamaguchi"
+        },
+        "fromClub": {
+            "name": "Cerezo Osaka",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "69737",
+            "slug": "pedro-geromel",
+            "name": "Pedro Geromel"
+        },
+        "fromClub": {
+            "name": "FC Cologne",
+            "id": "122",
+            "slug": "fc-cologne"
+        },
+        "toClub": {
+            "name": "Grêmio",
+            "id": "6273",
+            "slug": "gremio"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "102316",
+            "slug": "sascha-molders",
+            "name": "Sascha Mölders"
+        },
+        "fromClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "toClub": {
+            "name": "TSV 1860 Munich",
+            "id": "135",
+            "slug": "tsv-1860-munich"
+        },
+        "status": "Loan"
+    }
+]

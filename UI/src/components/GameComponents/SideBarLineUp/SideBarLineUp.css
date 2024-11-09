@@ -1,0 +1,155 @@
+section.sideBarLineup{
+    width: 100%;
+    padding: 0 12px;
+}
+section.sideBarLineup .Wrapper .tabList{
+    display: flex;
+    justify-content: center;
+}
+section.sideBarLineup .Wrapper .tabList button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--hover-color);
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 50px;
+}
+section.sideBarLineup .Wrapper button .tabs__list__item__logo img{
+    width: 25px;
+}
+.activeLineUp{
+    background-color: var(--button-hover-color);
+}
+.activeLineUp span{
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+section.sideBarLineup .Wrapper .TacticalFormation{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 12px;
+    width: 100%;
+}
+section.sideBarLineup .Wrapper .TacticalFormation ul.TacticalFormation__Field{
+    margin-bottom: -90px;
+    margin-top: 6px;
+    -webkit-transform: scale(.63);
+    -ms-transform: scale(.63);
+    transform: scale(.63);
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    background: url(https://a.espncdn.com/redesign/assets/img/formations/ukcom-soccer-field-001.svg) 0 0 no-repeat;
+    display: block;
+    height: 278px;
+    list-style: none;
+    width: 421px;
+    position: relative;
+}
+section.sideBarLineup .Wrapper .TacticalFormation ul.TacticalFormation__Field li{
+    height: 55px;
+    padding-left: 8px;
+    position: absolute;
+    width: 55px;
+}
+section.sideBarLineup .Wrapper .TacticalFormation ul.TacticalFormation__Field li span.playerName{
+    bottom: 6px;
+    color: #fff;
+    font-size: 13px;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    text-overflow: ellipsis;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+section.sideBarLineup .Wrapper .playerJersy{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+section.sideBarLineup .Wrapper .playerJersy .shirtNumber{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    font-size: 11px;
+    font-weight: 700;
+}
+section.sideBarLineup .Wrapper .playerJersy svg{
+    display: block;
+    height: 80%;
+    margin: 10% auto;
+    overflow: hidden;
+}
+
+section.sideBarLineup .Wrapper  table {
+    width: 100%;
+    color: var(--text-color);
+}
+section.sideBarLineup .Wrapper  table thead th{
+    text-align: left;
+}
+section.sideBarLineup .Wrapper  table thead th span:last-of-type{
+    margin-left: 8px;
+}
+section.sideBarLineup .Wrapper  table tbody td{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    gap: 5px;
+}
+section.sideBarLineup .Wrapper  table tbody td .mainPlayer,
+section.sideBarLineup .Wrapper  table tbody td .subedPlayer{
+    display: flex;
+    gap: 15px;
+}
+section.sideBarLineup .Wrapper  table tbody td .subedPlayer{
+    margin-left: 25px;
+    gap: 10px;
+}
+section.sideBarLineup .Wrapper  table tbody td .subedPlayer svg{
+    width: 25px;
+    fill: var(--text-color);
+}
+
+section.sideBarLineup .Wrapper  table tbody td span{
+    min-width: 20px;
+}
+section.sideBarLineup .Wrapper  .playerName{
+    padding: 0;
+}
+section.sideBarLineup .Wrapper .onSubstitutesPlayers table thead th:first-of-type{
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 19px;
+}
+section.sideBarLineup .Wrapper .onPitchPlayersList{
+    margin-bottom: 10px;
+}
+@media (max-width: 1200px) {
+
+    .overviewMatchPage .pageContent .mainContainer section.sideBarLineup .Wrapper .allTeamPlayers{
+        display: flex;
+        justify-content: space-between;
+    }
+}

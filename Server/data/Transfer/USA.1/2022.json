@@ -1,0 +1,6196 @@
+[
+    {
+        "date": "Dec 29",
+        "player": {
+            "id": "148320",
+            "slug": "heber",
+            "name": "Héber"
+        },
+        "fromClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "toClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Dec 21",
+        "player": {
+            "id": "172457",
+            "slug": "marco-angulo",
+            "name": "Marco Angulo"
+        },
+        "fromClub": {
+            "name": "Independiente del Valle",
+            "id": "17086",
+            "slug": "independiente-del-valle"
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Dec 21",
+        "player": {
+            "id": "256210",
+            "slug": "aaron-herrera",
+            "name": "Aaron Herrera"
+        },
+        "fromClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Dec 19",
+        "player": {
+            "id": "171628",
+            "slug": "matt-hedges",
+            "name": "Matt Hedges"
+        },
+        "fromClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Dec 13",
+        "player": {
+            "id": "231066",
+            "slug": "george-campbell",
+            "name": "George Campbell"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Dec 8",
+        "player": {
+            "id": "281523",
+            "slug": "kevin-cabral",
+            "name": "Kevin Cabral"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Dec 6",
+        "player": {
+            "id": "259199",
+            "slug": "andres-perea",
+            "name": "Andrés Perea"
+        },
+        "fromClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "toClub": {
+            "name": "Philadelphia Union",
+            "id": "10739",
+            "slug": "philadelphia-union"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Dec 1",
+        "player": {
+            "id": "70624",
+            "slug": "maxi-moralez",
+            "name": "Maxi Morález"
+        },
+        "fromClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "toClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Sep 6",
+        "player": {
+            "id": "305060",
+            "slug": "chinonso-offor",
+            "name": "Chinonso Offor"
+        },
+        "fromClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "toClub": {
+            "name": "Zulte-Waregem",
+            "id": "4691",
+            "slug": "zulte-waregem"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Sep 2",
+        "player": {
+            "id": "156342",
+            "slug": "miguel-trauco",
+            "name": "Miguel Trauco"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "288982",
+            "slug": "moses-nyeman",
+            "name": "Moses Nyeman"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "SK Beveren",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "280804",
+            "slug": "szabolcs-schon",
+            "name": "Szabolcs Schon"
+        },
+        "fromClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "toClub": {
+            "name": "Fehervar",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "132709",
+            "slug": "cristian-tello",
+            "name": "Cristian Tello"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 25",
+        "player": {
+            "id": "240553",
+            "slug": "mamadou-fall",
+            "name": "Mamadou Fall"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Villarreal",
+            "id": "102",
+            "slug": "villarreal"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 24",
+        "player": {
+            "id": "144325",
+            "slug": "brian-rodriguez",
+            "name": "Brian Rodríguez"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "América",
+            "id": "227",
+            "slug": "america"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 24",
+        "player": {
+            "id": "103029",
+            "slug": "martin-caceres",
+            "name": "Martín Cáceres"
+        },
+        "fromClub": {
+            "name": "Levante",
+            "id": "1538",
+            "slug": "levante"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 19",
+        "player": {
+            "id": "276287",
+            "slug": "matias-pellegrini",
+            "name": "Matías Pellegrini"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 19",
+        "player": {
+            "id": "256518",
+            "slug": "handwalla-bwana",
+            "name": "Handwalla Bwana"
+        },
+        "fromClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "toClub": {
+            "name": "Memphis 901 FC",
+            "id": "19409",
+            "slug": "memphis-901-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 16",
+        "player": {
+            "id": "249848",
+            "slug": "michael-estrada",
+            "name": "Michael Estrada"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "Cruz Azul",
+            "id": "218",
+            "slug": "cruz-azul"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 15",
+        "player": {
+            "id": "299932",
+            "slug": "caio-alexandre",
+            "name": "Caio Alexandre"
+        },
+        "fromClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "toClub": {
+            "name": "Fortaleza",
+            "id": "6272",
+            "slug": "fortaleza"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 13",
+        "player": {
+            "id": "277392",
+            "slug": "cole-bassett",
+            "name": "Cole Bassett"
+        },
+        "fromClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "toClub": {
+            "name": "Fortuna Sittard",
+            "id": "143",
+            "slug": "fortuna-sittard"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 10",
+        "player": {
+            "id": "230353",
+            "slug": "arnor-traustason",
+            "name": "Arnór Traustason"
+        },
+        "fromClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "toClub": {
+            "name": "IFK Göteborg",
+            "id": "2556",
+            "slug": "ifk-goteborg"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 9",
+        "player": {
+            "id": "184759",
+            "slug": "sergio-ruiz",
+            "name": "Sergio Ruiz"
+        },
+        "fromClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "toClub": {
+            "name": "Granada",
+            "id": "3747",
+            "slug": "granada"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 9",
+        "player": {
+            "id": "239736",
+            "slug": "alexandru-matan",
+            "name": "Alexandru Matan"
+        },
+        "fromClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "toClub": {
+            "name": "Rapid Bucuresti",
+            "id": "545",
+            "slug": "rapid-bucuresti"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 8",
+        "player": {
+            "id": "151053",
+            "slug": "marcos-lopez",
+            "name": "Marcos López"
+        },
+        "fromClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "toClub": {
+            "name": "Feyenoord Rotterdam",
+            "id": "142",
+            "slug": "feyenoord-rotterdam"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 8",
+        "player": {
+            "id": "66955",
+            "slug": "jonathan-gonzalez",
+            "name": "Jonathan Gonzalez"
+        },
+        "fromClub": {
+            "name": "Querétaro",
+            "id": "222",
+            "slug": "queretaro"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 7",
+        "player": {
+            "id": "287385",
+            "slug": "isaac-atanga",
+            "name": "Isaac Atanga"
+        },
+        "fromClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "toClub": {
+            "name": "Goztepe SK ",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "307660",
+            "slug": "elias-manoel",
+            "name": "Elias Manoel"
+        },
+        "fromClub": {
+            "name": "Grêmio",
+            "id": "6273",
+            "slug": "gremio"
+        },
+        "toClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "236882",
+            "slug": "rodrigues",
+            "name": "Rodrigues"
+        },
+        "fromClub": {
+            "name": "Grêmio",
+            "id": "6273",
+            "slug": "gremio"
+        },
+        "toClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "106957",
+            "slug": "christian-benteke",
+            "name": "Christian Benteke"
+        },
+        "fromClub": {
+            "name": "Crystal Palace",
+            "id": "384",
+            "slug": "crystal-palace"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "213304",
+            "slug": "denis-bouanga",
+            "name": "Dénis Bouanga"
+        },
+        "fromClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "267611",
+            "slug": "mender-garcia",
+            "name": "Mender García"
+        },
+        "fromClub": {
+            "name": "Once Caldas",
+            "id": "2919",
+            "slug": "once-caldas"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "187273",
+            "slug": "matt-miazga",
+            "name": "Matt Miazga"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "164106",
+            "slug": "clement-diop",
+            "name": "Clément Diop"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "305060",
+            "slug": "chinonso-offor",
+            "name": "Chinonso Offor"
+        },
+        "fromClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "193898",
+            "slug": "ismael-tajouri-shradi",
+            "name": "Ismael Tajouri-Shradi"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "187236",
+            "slug": "carlos-akapo",
+            "name": "Carlos Akapo"
+        },
+        "fromClub": {
+            "name": "Cádiz",
+            "id": "3842",
+            "slug": "cadiz"
+        },
+        "toClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "252481",
+            "slug": "kyle-duncan",
+            "name": "Kyle Duncan"
+        },
+        "fromClub": {
+            "name": "KV Oostende",
+            "id": "3612",
+            "slug": "kv-oostende"
+        },
+        "toClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "230626",
+            "slug": "richie-laryea",
+            "name": "Richie Laryea"
+        },
+        "fromClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "270611",
+            "slug": "ricard-puig",
+            "name": "Ricard Puig"
+        },
+        "fromClub": {
+            "name": "Barcelona",
+            "id": "83",
+            "slug": "barcelona"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "213101",
+            "slug": "rayan-raveloson",
+            "name": "Rayan Raveloson"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "AJ Auxerre",
+            "id": "172",
+            "slug": "aj-auxerre"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "241486",
+            "slug": "christian-makoun",
+            "name": "Christian Makoun"
+        },
+        "fromClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "toClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "156506",
+            "slug": "nathan-byrne",
+            "name": "Nathan Byrne"
+        },
+        "fromClub": {
+            "name": "Derby County",
+            "id": "374",
+            "slug": "derby-county"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "265977",
+            "slug": "braian-ojeda",
+            "name": "Braian Ojeda"
+        },
+        "fromClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "180955",
+            "slug": "sebastian-lletget",
+            "name": "Sebastian Lletget"
+        },
+        "fromClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "256450",
+            "slug": "daniel-musovski",
+            "name": "Daniel Musovski"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "203868",
+            "slug": "alessandro-schopf",
+            "name": "Alessandro Schöpf"
+        },
+        "fromClub": {
+            "name": "Arminia Bielefeld",
+            "id": "2506",
+            "slug": "arminia-bielefeld"
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": "286774",
+            "slug": "gaga-slonina",
+            "name": "Gaga Slonina"
+        },
+        "fromClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "toClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": "181558",
+            "slug": "wilder-cartagena",
+            "name": "Wilder Cartagena"
+        },
+        "fromClub": {
+            "name": "&#8203;&#8203;Al-Ittihad Kalba SC",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": "286214",
+            "slug": "jacob-shaffelburg",
+            "name": "Jacob Shaffelburg"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": "286774",
+            "slug": "gaga-slonina",
+            "name": "Gaga Slonina"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "178062",
+            "slug": "emiliano-rigoni",
+            "name": "Emiliano Rigoni"
+        },
+        "fromClub": {
+            "name": "São Paulo",
+            "id": "2026",
+            "slug": "sao-paulo"
+        },
+        "toClub": {
+            "name": "Austin FC",
+            "id": "20906",
+            "slug": "austin-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "261589",
+            "slug": "david-ochoa",
+            "name": "David Ochoa"
+        },
+        "fromClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jul 28",
+        "player": {
+            "id": "75589",
+            "slug": "jozy-altidore",
+            "name": "Jozy Altidore"
+        },
+        "fromClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "toClub": {
+            "name": "Puebla",
+            "id": "231",
+            "slug": "puebla"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "302672",
+            "slug": "juan-mosquera",
+            "name": "Juan Mosquera"
+        },
+        "fromClub": {
+            "name": "Independiente Medellín",
+            "id": "2690",
+            "slug": "independiente-medellin"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "153510",
+            "slug": "victor-palsson",
+            "name": "Victor Palsson"
+        },
+        "fromClub": {
+            "name": "Schalke 04",
+            "id": "133",
+            "slug": "schalke-04"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "323247",
+            "slug": "nelson-quinones",
+            "name": "Nelson Quiñones"
+        },
+        "fromClub": {
+            "name": "Once Caldas",
+            "id": "2919",
+            "slug": "once-caldas"
+        },
+        "toClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "250448",
+            "slug": "ivan-angulo",
+            "name": "Iván Angulo"
+        },
+        "fromClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "252933",
+            "slug": "valentin-castellanos",
+            "name": "Valentín Castellanos"
+        },
+        "fromClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "toClub": {
+            "name": "Girona",
+            "id": "9812",
+            "slug": "girona"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "194410",
+            "slug": "alexandru-mitrita",
+            "name": "Alexandru Mitrita"
+        },
+        "fromClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "toClub": {
+            "name": "Al-Raed",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "150259",
+            "slug": "doneil-henry",
+            "name": "Doneil Henry"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 21",
+        "player": {
+            "id": "153297",
+            "slug": "ravel-morrison",
+            "name": "Ravel Morrison"
+        },
+        "fromClub": {
+            "name": "Derby County",
+            "id": "374",
+            "slug": "derby-county"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "296749",
+            "slug": "nicholas-gioacchini",
+            "name": "Nicholas Gioacchini"
+        },
+        "fromClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "246766",
+            "slug": "miguel-berry",
+            "name": "Miguel Berry"
+        },
+        "fromClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "198906",
+            "slug": "stuart-findlay",
+            "name": "Stuart Findlay"
+        },
+        "fromClub": {
+            "name": "Philadelphia Union",
+            "id": "10739",
+            "slug": "philadelphia-union"
+        },
+        "toClub": {
+            "name": "Oxford United",
+            "id": "311",
+            "slug": "oxford-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "219275",
+            "slug": "shaq-moore",
+            "name": "Shaq Moore"
+        },
+        "fromClub": {
+            "name": "Tenerife",
+            "id": "245",
+            "slug": "tenerife"
+        },
+        "toClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "208046",
+            "slug": "jhegson-mendez",
+            "name": "Jhegson Méndez"
+        },
+        "fromClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "269901",
+            "slug": "francisco-ginella",
+            "name": "Francisco Ginella"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Nacional",
+            "id": "2684",
+            "slug": "nacional"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "251800",
+            "slug": "julian-gressel",
+            "name": "Julian Gressel"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "180956",
+            "slug": "federico-bernardeschi",
+            "name": "Federico Bernardeschi"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "184299",
+            "slug": "carlos-salcedo",
+            "name": "Carlos Salcedo"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "FC Juarez",
+            "id": "17851",
+            "slug": "fc-juarez"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "262566",
+            "slug": "julian-carranza",
+            "name": "Julián Carranza"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "Philadelphia Union",
+            "id": "10739",
+            "slug": "philadelphia-union"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "285358",
+            "slug": "edwin-mosquera",
+            "name": "Edwin Mosquera"
+        },
+        "fromClub": {
+            "name": "Independiente Medellín",
+            "id": "2690",
+            "slug": "independiente-medellin"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "250309",
+            "slug": "jason-pendant",
+            "name": "Jason Pendant"
+        },
+        "fromClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "toClub": {
+            "name": "US Quevilly",
+            "id": "7721",
+            "slug": "us-quevilly"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 8",
+        "player": {
+            "id": "94270",
+            "slug": "matheus-aias",
+            "name": "Matheus Aias"
+        },
+        "fromClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "toClub": {
+            "name": "Racing Santander",
+            "id": "87",
+            "slug": "racing-santander"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 8",
+        "player": {
+            "id": "214446",
+            "slug": "sergio-santos",
+            "name": "Sergio Santos"
+        },
+        "fromClub": {
+            "name": "Philadelphia Union",
+            "id": "10739",
+            "slug": "philadelphia-union"
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jul 8",
+        "player": {
+            "id": "237002",
+            "slug": "mark-anthony-kaye",
+            "name": "Mark-Anthony Kaye"
+        },
+        "fromClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Swap"
+    },
+    {
+        "date": "Jul 8",
+        "player": {
+            "id": "297118",
+            "slug": "ralph-priso-mbongue",
+            "name": "Ralph Priso-Mbongue"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Swap"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "313069",
+            "slug": "william-agada",
+            "name": "William Agada"
+        },
+        "fromClub": {
+            "name": "Hapoel Jerusalem",
+            "id": "20970",
+            "slug": "hapoel-jerusalem"
+        },
+        "toClub": {
+            "name": "Sporting Kansas City",
+            "id": "186",
+            "slug": "sporting-kansas-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "156228",
+            "slug": "gaston-brugman",
+            "name": "Gastón Brugman"
+        },
+        "fromClub": {
+            "name": "Parma",
+            "id": "115",
+            "slug": "parma"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "159195",
+            "slug": "francisco-calvo",
+            "name": "Francisco Calvo"
+        },
+        "fromClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "toClub": {
+            "name": "Konyaspor",
+            "id": "7648",
+            "slug": "konyaspor"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "159195",
+            "slug": "francisco-calvo",
+            "name": "Francisco Calvo"
+        },
+        "fromClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "toClub": {
+            "name": "Konyaspor",
+            "id": "7648",
+            "slug": "konyaspor"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "219508",
+            "slug": "adalberto-carrasquilla",
+            "name": "Adalberto Carrasquilla"
+        },
+        "fromClub": {
+            "name": "FC Cartagena",
+            "id": "5419",
+            "slug": "fc-cartagena"
+        },
+        "toClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "127502",
+            "slug": "douglas-costa",
+            "name": "Douglas Costa"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "286779",
+            "slug": "jack-de-vries",
+            "name": "Jack De Vries"
+        },
+        "fromClub": {
+            "name": "Philadelphia Union",
+            "id": "10739",
+            "slug": "philadelphia-union"
+        },
+        "toClub": {
+            "name": "Venezia",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "336809",
+            "slug": "cucho-hernandez",
+            "name": "Cucho Hernández"
+        },
+        "fromClub": {
+            "name": "Watford",
+            "id": "395",
+            "slug": "watford"
+        },
+        "toClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "177550",
+            "slug": "corentin-jean",
+            "name": "Corentin Jean"
+        },
+        "fromClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "148356",
+            "slug": "diego-luna",
+            "name": "Diego Luna"
+        },
+        "fromClub": {
+            "name": "El Paso Locomotive FC",
+            "id": "19407",
+            "slug": "el-paso-locomotive-fc"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "238919",
+            "slug": "maarten-paes",
+            "name": "Maarten Paes"
+        },
+        "fromClub": {
+            "name": "FC Utrecht",
+            "id": "153",
+            "slug": "fc-utrecht"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "158604",
+            "slug": "alejandro-pozuelo",
+            "name": "Alejandro Pozuelo"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "160974",
+            "slug": "martin-rodriguez",
+            "name": "Martín Rodríguez"
+        },
+        "fromClub": {
+            "name": "Altay Izmir",
+            "id": "3789",
+            "slug": "altay-izmir"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "250685",
+            "slug": "giacomo-vrioni",
+            "name": "Giacomo Vrioni"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "228483",
+            "slug": "washington-corozo",
+            "name": "Washington Corozo"
+        },
+        "fromClub": {
+            "name": "Sporting Cristal",
+            "id": "2673",
+            "slug": "sporting-cristal"
+        },
+        "toClub": {
+            "name": "Austin FC",
+            "id": "20906",
+            "slug": "austin-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "263224",
+            "slug": "juan-jose-purata",
+            "name": "Juan José Purata"
+        },
+        "fromClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "303508",
+            "slug": "tyler-wolff",
+            "name": "Tyler Wolff"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "SK Beveren",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 4",
+        "player": {
+            "id": "286757",
+            "slug": "griffin-yow",
+            "name": "Griffin Yow"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "KVC Westerlo",
+            "id": "606",
+            "slug": "kvc-westerlo"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "235817",
+            "slug": "diego-rossi",
+            "name": "Diego Rossi"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Fenerbahce",
+            "id": "436",
+            "slug": "fenerbahce"
+        },
+        "status": "€ 5.5M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "257211",
+            "slug": "adam-buksa",
+            "name": "Adam Buksa"
+        },
+        "fromClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "toClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "178225",
+            "slug": "edison-flores",
+            "name": "Edison Flores"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "Atlas",
+            "id": "216",
+            "slug": "atlas"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "186278",
+            "slug": "adrien-hunou",
+            "name": "Adrien Hunou"
+        },
+        "fromClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "303794",
+            "slug": "matt-turner",
+            "name": "Matt Turner"
+        },
+        "fromClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "toClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "226119",
+            "slug": "silvester-van-der-water",
+            "name": "Silvester van der Water"
+        },
+        "fromClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "toClub": {
+            "name": "SC Cambuur",
+            "id": "3736",
+            "slug": "sc-cambuur"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "77653",
+            "slug": "gareth-bale",
+            "name": "Gareth Bale"
+        },
+        "fromClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "24836",
+            "slug": "giorgio-chiellini",
+            "name": "Giorgio Chiellini"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "134283",
+            "slug": "thibaut-courtois",
+            "name": "Thibaut Courtois"
+        },
+        "fromClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "104369",
+            "slug": "domenico-criscito",
+            "name": "Domenico Criscito"
+        },
+        "fromClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "195301",
+            "slug": "raul-gudino",
+            "name": "Raul Gudino"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "146866",
+            "slug": "hector-herrera",
+            "name": "Héctor Herrera"
+        },
+        "fromClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "toClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "139028",
+            "slug": "lorenzo-insigne",
+            "name": "Lorenzo Insigne"
+        },
+        "fromClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "178754",
+            "slug": "sam-nicholson",
+            "name": "Sam Nicholson"
+        },
+        "fromClub": {
+            "name": "Bristol Rovers",
+            "id": "308",
+            "slug": "bristol-rovers"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "199926",
+            "slug": "erik-thommy",
+            "name": "Erik Thommy"
+        },
+        "fromClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "toClub": {
+            "name": "Sporting Kansas City",
+            "id": "186",
+            "slug": "sporting-kansas-city"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "186278",
+            "slug": "adrien-hunou",
+            "name": "Adrien Hunou"
+        },
+        "fromClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jun 27",
+        "player": {
+            "id": "262111",
+            "slug": "alan-franco",
+            "name": "Alan Franco"
+        },
+        "fromClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "toClub": {
+            "name": "Talleres (Córdoba)",
+            "id": "19",
+            "slug": "talleres-cordoba"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jun 23",
+        "player": {
+            "id": "306519",
+            "slug": "ian-hoffman",
+            "name": "Ian Hoffman"
+        },
+        "fromClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "toClub": {
+            "name": "Orange County SC",
+            "id": "18455",
+            "slug": "orange-county-sc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jun 3",
+        "player": {
+            "id": "294219",
+            "slug": "irakoze-donasiyano",
+            "name": "Irakoze Donasiyano"
+        },
+        "fromClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "toClub": {
+            "name": "Phoenix Rising FC",
+            "id": "17850",
+            "slug": "phoenix-rising-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "May 26",
+        "player": {
+            "id": "156153",
+            "slug": "bryan-meredith",
+            "name": "Bryan Meredith"
+        },
+        "fromClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "toClub": {
+            "name": "Indy Eleven",
+            "id": "17360",
+            "slug": "indy-eleven"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "May 5",
+        "player": {
+            "id": "288430",
+            "slug": "gaston-gonzalez",
+            "name": "Gastón González"
+        },
+        "fromClub": {
+            "name": "Unión (Santa Fe)",
+            "id": "20",
+            "slug": "union-santa-fe"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 5",
+        "player": {
+            "id": "263560",
+            "slug": "chase-gasper",
+            "name": "Chase Gasper"
+        },
+        "fromClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "May 5",
+        "player": {
+            "id": "228005",
+            "slug": "jake-mulraney",
+            "name": "Jake Mulraney"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "May 5",
+        "player": {
+            "id": "249943",
+            "slug": "christopher-mueller",
+            "name": "Christopher Mueller"
+        },
+        "fromClub": {
+            "name": "Hibernian",
+            "id": "258",
+            "slug": "hibernian"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "May 5",
+        "player": {
+            "id": "266026",
+            "slug": "indiana-vassilev",
+            "name": "Indiana Vassilev"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "May 4",
+        "player": {
+            "id": "177219",
+            "slug": "jefferson-savarino",
+            "name": "Jefferson Savarino"
+        },
+        "fromClub": {
+            "name": "Atlético-MG",
+            "id": "7632",
+            "slug": "atletico-mg"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 4",
+        "player": {
+            "id": "249278",
+            "slug": "jairo-torres",
+            "name": "Jairo Torres"
+        },
+        "fromClub": {
+            "name": "Atlas",
+            "id": "216",
+            "slug": "atlas"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 4",
+        "player": {
+            "id": "167862",
+            "slug": "luis-martins",
+            "name": "Luís Martins"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "May 3",
+        "player": {
+            "id": "230239",
+            "slug": "andre-shinyashiki",
+            "name": "Andre Shinyashiki"
+        },
+        "fromClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "May 2",
+        "player": {
+            "id": "340596",
+            "slug": "kerwin-vargas",
+            "name": "Kerwin Vargas"
+        },
+        "fromClub": {
+            "name": "Feirense",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 28",
+        "player": {
+            "id": "202501",
+            "slug": "andres-cubas",
+            "name": "Andrés Cubas"
+        },
+        "fromClub": {
+            "name": "Nimes",
+            "id": "7730",
+            "slug": "nimes"
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 28",
+        "player": {
+            "id": "199822",
+            "slug": "anderson-julio",
+            "name": "Anderson Julio"
+        },
+        "fromClub": {
+            "name": "Atlético de San Luis",
+            "id": "15720",
+            "slug": "atletico-de-san-luis"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 27",
+        "player": {
+            "id": "136944",
+            "slug": "rafael-romo",
+            "name": "Rafael Romo"
+        },
+        "fromClub": {
+            "name": "Oud-Heverlee Leuven",
+            "id": "5579",
+            "slug": "oud-heverlee-leuven"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 27",
+        "player": {
+            "id": "297047",
+            "slug": "rocco-rios-novo",
+            "name": "Rocco Rios Novo"
+        },
+        "fromClub": {
+            "name": "Lanús",
+            "id": "12",
+            "slug": "lanus"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Apr 22",
+        "player": {
+            "id": "287368",
+            "slug": "dylan-borrero",
+            "name": "Dylan Borrero"
+        },
+        "fromClub": {
+            "name": "Atlético-MG",
+            "id": "7632",
+            "slug": "atletico-mg"
+        },
+        "toClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 22",
+        "player": {
+            "id": "182610",
+            "slug": "gyasi-zardes",
+            "name": "Gyasi Zardes"
+        },
+        "fromClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Apr 15",
+        "player": {
+            "id": "316363",
+            "slug": "dominick-hernandez",
+            "name": "Dominick Hernandez"
+        },
+        "fromClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "toClub": {
+            "name": "San Antonio FC",
+            "id": "18265",
+            "slug": "san-antonio-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Apr 13",
+        "player": {
+            "id": "275106",
+            "slug": "obinna-nwobodo",
+            "name": "Obinna Nwobodo"
+        },
+        "fromClub": {
+            "name": "Goztepe",
+            "id": "789",
+            "slug": "goztepe"
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 8",
+        "player": {
+            "id": "292944",
+            "slug": "jojea-kwizera",
+            "name": "Jojea Kwizera"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Apr 6",
+        "player": {
+            "id": "289824",
+            "slug": "djordje-petrovic",
+            "name": "Djordje Petrovic"
+        },
+        "fromClub": {
+            "name": "FK Cukaricki",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 5",
+        "player": {
+            "id": "294187",
+            "slug": "quinn-mcneill",
+            "name": "Quinn McNeill"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Mar 30",
+        "player": {
+            "id": "293807",
+            "slug": "edward-kizza",
+            "name": "Edward Kizza"
+        },
+        "fromClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "toClub": {
+            "name": "Memphis 901 FC",
+            "id": "19409",
+            "slug": "memphis-901-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 28",
+        "player": {
+            "id": "252686",
+            "slug": "gustavo-vallecilla",
+            "name": "Gustavo Vallecilla"
+        },
+        "fromClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Mar 27",
+        "player": {
+            "id": "218207",
+            "slug": "tomas-gomez",
+            "name": "Tomás Gómez"
+        },
+        "fromClub": {
+            "name": "Sacramento Republic FC",
+            "id": "17828",
+            "slug": "sacramento-republic-fc"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Mar 24",
+        "player": {
+            "id": "220478",
+            "slug": "christopher-durkin",
+            "name": "Christopher Durkin"
+        },
+        "fromClub": {
+            "name": "Sint-Truidense",
+            "id": "936",
+            "slug": "sint-truidense"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Mar 24",
+        "player": {
+            "id": "288379",
+            "slug": "omar-sowe",
+            "name": "Omar Sowe"
+        },
+        "fromClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "toClub": {
+            "name": "Breioablik",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 21",
+        "player": {
+            "id": "183154",
+            "slug": "taxiarchis-fountas",
+            "name": "Taxiarchis Fountas"
+        },
+        "fromClub": {
+            "name": "Rapid Vienna",
+            "id": "519",
+            "slug": "rapid-vienna"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 21",
+        "player": {
+            "id": "301523",
+            "slug": "thiago-fernandes",
+            "name": "Thiago Fernandes"
+        },
+        "fromClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "toClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 21",
+        "player": {
+            "id": "208436",
+            "slug": "ronaldo-cisneros",
+            "name": "Ronaldo Cisneros"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 18",
+        "player": {
+            "id": "280060",
+            "slug": "kim-moon-hwan",
+            "name": "Kim Moon-Hwan"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Jeonbuk Hyundai",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 17",
+        "player": {
+            "id": "304350",
+            "slug": "gabriel-pereira",
+            "name": "Gabriel Pereira"
+        },
+        "fromClub": {
+            "name": "Corinthians",
+            "id": "874",
+            "slug": "corinthians"
+        },
+        "toClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 17",
+        "player": {
+            "id": "193663",
+            "slug": "kemar-lawrence",
+            "name": "Kemar Lawrence"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Mar 15",
+        "player": {
+            "id": "164649",
+            "slug": "cody-cropper",
+            "name": "Cody Cropper"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Mar 12",
+        "player": {
+            "id": "315918",
+            "slug": "frederik-kleemann",
+            "name": "Frederik Kleemann"
+        },
+        "fromClub": {
+            "name": "Austin FC",
+            "id": "20906",
+            "slug": "austin-fc"
+        },
+        "toClub": {
+            "name": "Birmingham Legion FC",
+            "id": "19405",
+            "slug": "birmingham-legion-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 11",
+        "player": {
+            "id": "235672",
+            "slug": "kamil-jozwiak",
+            "name": "Kamil Jozwiak"
+        },
+        "fromClub": {
+            "name": "Derby County",
+            "id": "374",
+            "slug": "derby-county"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 11",
+        "player": {
+            "id": "253176",
+            "slug": "robert-castellanos",
+            "name": "Robert Castellanos"
+        },
+        "fromClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "toClub": {
+            "name": "Tampa Bay Rowdies",
+            "id": "17361",
+            "slug": "tampa-bay-rowdies"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 11",
+        "player": {
+            "id": "304169",
+            "slug": "erik-duenas",
+            "name": "Erik Dueñas"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Las Vegas Lights FC",
+            "id": "18987",
+            "slug": "las-vegas-lights-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 11",
+        "player": {
+            "id": "163216",
+            "slug": "mohamed-traore",
+            "name": "Mohamed Traore"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Las Vegas Lights FC",
+            "id": "18987",
+            "slug": "las-vegas-lights-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 10",
+        "player": {
+            "id": "183779",
+            "slug": "eriq-zavaleta",
+            "name": "Eriq Zavaleta"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Mar 9",
+        "player": {
+            "id": "240232",
+            "slug": "derrick-jones",
+            "name": "Derrick Jones"
+        },
+        "fromClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Mar 9",
+        "player": {
+            "id": "286678",
+            "slug": "nico-lemoine",
+            "name": "Nico Lemoine"
+        },
+        "fromClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "toClub": {
+            "name": "Oakland Roots",
+            "id": "20687",
+            "slug": "oakland-roots"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 8",
+        "player": {
+            "id": "252814",
+            "slug": "ben-mines",
+            "name": "Ben Mines"
+        },
+        "fromClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "toClub": {
+            "name": "Colorado Springs Switchbacks FC",
+            "id": "17830",
+            "slug": "colorado-springs-switchbacks-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 4",
+        "player": {
+            "id": "101759",
+            "slug": "tosaint-ricketts",
+            "name": "Tosaint Ricketts"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Mar 4",
+        "player": {
+            "id": "246389",
+            "slug": "elliot-panicco",
+            "name": "Elliot Panicco"
+        },
+        "fromClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "toClub": {
+            "name": "Indy Eleven",
+            "id": "17360",
+            "slug": "indy-eleven"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 3",
+        "player": {
+            "id": "286517",
+            "slug": "joshue-quinonez",
+            "name": "Joshué Quiñónez"
+        },
+        "fromClub": {
+            "name": "Barcelona SC",
+            "id": "2686",
+            "slug": "barcelona-sc"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 28",
+        "player": {
+            "id": "232282",
+            "slug": "ashley-fletcher",
+            "name": "Ashley Fletcher"
+        },
+        "fromClub": {
+            "name": "Watford",
+            "id": "395",
+            "slug": "watford"
+        },
+        "toClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 27",
+        "player": {
+            "id": "308969",
+            "slug": "jasper-loeffelsend",
+            "name": "Jasper Löeffelsend"
+        },
+        "fromClub": {
+            "name": "Pittsburgh Panthers",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 25",
+        "player": {
+            "id": "180468",
+            "slug": "junior-moreno",
+            "name": "Júnior Moreno"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Feb 25",
+        "player": {
+            "id": "216214",
+            "slug": "daniel-rios",
+            "name": "Daniel Rios"
+        },
+        "fromClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Feb 24",
+        "player": {
+            "id": "267211",
+            "slug": "david-egbo",
+            "name": "David Egbo"
+        },
+        "fromClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "toClub": {
+            "name": "Memphis 901 FC",
+            "id": "19409",
+            "slug": "memphis-901-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 23",
+        "player": {
+            "id": "253002",
+            "slug": "kadin-chung",
+            "name": "Kadin Chung"
+        },
+        "fromClub": {
+            "name": "Pacific FC",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 22",
+        "player": {
+            "id": "171809",
+            "slug": "dom-dwyer",
+            "name": "Dom Dwyer"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 22",
+        "player": {
+            "id": "255097",
+            "slug": "george-marks",
+            "name": "George Marks"
+        },
+        "fromClub": {
+            "name": "Clemson Tigers",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 22",
+        "player": {
+            "id": "336523",
+            "slug": "koa-santos",
+            "name": "Koa Santos"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 22",
+        "player": {
+            "id": "285240",
+            "slug": "erik-lopez",
+            "name": "Erik López"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "Banfield",
+            "id": "235",
+            "slug": "banfield"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 19",
+        "player": {
+            "id": "48484",
+            "slug": "luis-amarilla",
+            "name": "Luis Amarilla"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 18",
+        "player": {
+            "id": "150259",
+            "slug": "doneil-henry",
+            "name": "Doneil Henry"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 18",
+        "player": {
+            "id": "75574",
+            "slug": "kei-kamara",
+            "name": "Kei Kamara"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 18",
+        "player": {
+            "id": "150637",
+            "slug": "johan-kappelhof",
+            "name": "Johan Kappelhof"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 17",
+        "player": {
+            "id": "243451",
+            "slug": "thomas-edwards",
+            "name": "Thomas Edwards"
+        },
+        "fromClub": {
+            "name": "Stoke City",
+            "id": "336",
+            "slug": "stoke-city"
+        },
+        "toClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 16",
+        "player": {
+            "id": "215818",
+            "slug": "luquinhas",
+            "name": "Luquinhas"
+        },
+        "fromClub": {
+            "name": "Legia Warsaw",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 16",
+        "player": {
+            "id": "260554",
+            "slug": "kervin-arriaga",
+            "name": "Kervin Arriaga"
+        },
+        "fromClub": {
+            "name": "Marathon",
+            "id": "7249",
+            "slug": "marathon"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Feb 16",
+        "player": {
+            "id": "253495",
+            "slug": "logan-ketterer",
+            "name": "Logan Ketterer"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 15",
+        "player": {
+            "id": "308518",
+            "slug": "nikola-vujnovic",
+            "name": "Nikola Vujnovic"
+        },
+        "fromClub": {
+            "name": "FK Vozdovac",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Sporting Kansas City",
+            "id": "186",
+            "slug": "sporting-kansas-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 14",
+        "player": {
+            "id": "227441",
+            "slug": "jamiro-monteiro",
+            "name": "Jamiro Monteiro"
+        },
+        "fromClub": {
+            "name": "Philadelphia Union",
+            "id": "10739",
+            "slug": "philadelphia-union"
+        },
+        "toClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Feb 14",
+        "player": {
+            "id": "75589",
+            "slug": "jozy-altidore",
+            "name": "Jozy Altidore"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 14",
+        "player": {
+            "id": "195353",
+            "slug": "auro",
+            "name": "Auro"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "Santos",
+            "id": "2674",
+            "slug": "santos"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 11",
+        "player": {
+            "id": "265874",
+            "slug": "carlos-dos-santos",
+            "name": "Carlos Dos Santos"
+        },
+        "fromClub": {
+            "name": "Benfica",
+            "id": "1929",
+            "slug": "benfica"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 11",
+        "player": {
+            "id": "237823",
+            "slug": "robert-taylor",
+            "name": "Robert Taylor"
+        },
+        "fromClub": {
+            "name": "SK Brann",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 10",
+        "player": {
+            "id": "201498",
+            "slug": "zeca",
+            "name": "Zeca"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 10",
+        "player": {
+            "id": "127502",
+            "slug": "douglas-costa",
+            "name": "Douglas Costa"
+        },
+        "fromClub": {
+            "name": "Grêmio",
+            "id": "6273",
+            "slug": "gremio"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 10",
+        "player": {
+            "id": "248648",
+            "slug": "marco-farfan",
+            "name": "Marco Farfan"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Swap"
+    },
+    {
+        "date": "Feb 10",
+        "player": {
+            "id": "183758",
+            "slug": "ryan-hollingshead",
+            "name": "Ryan Hollingshead"
+        },
+        "fromClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Swap"
+    },
+    {
+        "date": "Feb 9",
+        "player": {
+            "id": "277208",
+            "slug": "thiago-almada",
+            "name": "Thiago Almada"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 9",
+        "player": {
+            "id": "136775",
+            "slug": "xherdan-shaqiri",
+            "name": "Xherdan Shaqiri"
+        },
+        "fromClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 9",
+        "player": {
+            "id": "302991",
+            "slug": "caden-clark",
+            "name": "Caden Clark"
+        },
+        "fromClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "toClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 8",
+        "player": {
+            "id": "249848",
+            "slug": "michael-estrada",
+            "name": "Michael Estrada"
+        },
+        "fromClub": {
+            "name": "Toluca",
+            "id": "223",
+            "slug": "toluca"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 7",
+        "player": {
+            "id": "152732",
+            "slug": "jesus-jimenez",
+            "name": "Jesús Jiménez"
+        },
+        "fromClub": {
+            "name": "Gornik Zabrze ",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 7",
+        "player": {
+            "id": "185792",
+            "slug": "thiago-martins",
+            "name": "Thiago Martins"
+        },
+        "fromClub": {
+            "name": "Yokohama F. Marinos",
+            "id": "7116",
+            "slug": "yokohama-f-marinos"
+        },
+        "toClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 6",
+        "player": {
+            "id": "290589",
+            "slug": "ethan-dobbelaere",
+            "name": "Ethan Dobbelaere"
+        },
+        "fromClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "toClub": {
+            "name": "MFK Vyskov",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 4",
+        "player": {
+            "id": "295771",
+            "slug": "sebastian-berhalter",
+            "name": "Sebastian Berhalter"
+        },
+        "fromClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Feb 4",
+        "player": {
+            "id": "329364",
+            "slug": "brooklyn-raines",
+            "name": "Brooklyn Raines"
+        },
+        "fromClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "toClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Feb 3",
+        "player": {
+            "id": "202714",
+            "slug": "sergio-cordova",
+            "name": "Sergio Córdova"
+        },
+        "fromClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "217325",
+            "slug": "oniel-fisher",
+            "name": "Oniel Fisher"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "183778",
+            "slug": "deandre-yedlin",
+            "name": "DeAndre Yedlin"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "290715",
+            "slug": "david-ayala",
+            "name": "David Ayala"
+        },
+        "fromClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "286516",
+            "slug": "alan-velasco",
+            "name": "Alan Velasco"
+        },
+        "fromClub": {
+            "name": "Independiente",
+            "id": "11",
+            "slug": "independiente"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "231064",
+            "slug": "tsubasa-endoh",
+            "name": "Tsubasa Endoh"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "255625",
+            "slug": "thelonius-bair",
+            "name": "Thelonius Bair"
+        },
+        "fromClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "toClub": {
+            "name": "St Johnstone",
+            "id": "267",
+            "slug": "st-johnstone"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "269948",
+            "slug": "george-bello",
+            "name": "George Bello"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "Arminia Bielefeld",
+            "id": "2506",
+            "slug": "arminia-bielefeld"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "184299",
+            "slug": "carlos-salcedo",
+            "name": "Carlos Salcedo"
+        },
+        "fromClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "194039",
+            "slug": "yeferson-soteldo",
+            "name": "Yeferson Soteldo"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "228619",
+            "slug": "auston-trusty",
+            "name": "Auston Trusty"
+        },
+        "fromClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "toClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "228619",
+            "slug": "auston-trusty",
+            "name": "Auston Trusty"
+        },
+        "fromClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 29",
+        "player": {
+            "id": "241173",
+            "slug": "ezequiel-barco",
+            "name": "Ezequiel Barco"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "183529",
+            "slug": "kevin-paredes",
+            "name": "Kevin Paredes"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "VfL Wolfsburg",
+            "id": "138",
+            "slug": "vfl-wolfsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "176044",
+            "slug": "brad-smith",
+            "name": "Brad Smith"
+        },
+        "fromClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "278611",
+            "slug": "mateo-bajamich",
+            "name": "Mateo Bajamich"
+        },
+        "fromClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "toClub": {
+            "name": "Huracán",
+            "id": "10",
+            "slug": "huracan"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 27",
+        "player": {
+            "id": "302234",
+            "slug": "ercan-kara",
+            "name": "Ercan Kara"
+        },
+        "fromClub": {
+            "name": "Rapid Vienna",
+            "id": "519",
+            "slug": "rapid-vienna"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 27",
+        "player": {
+            "id": "203926",
+            "slug": "mikkel-uhre",
+            "name": "Mikkel Uhre"
+        },
+        "fromClub": {
+            "name": "Brøndby IF",
+            "id": "575",
+            "slug": "brøndby-if"
+        },
+        "toClub": {
+            "name": "Philadelphia Union",
+            "id": "10739",
+            "slug": "philadelphia-union"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "220851",
+            "slug": "karol-swiderski",
+            "name": "Karol Swiderski"
+        },
+        "fromClub": {
+            "name": "PAOK Salonika",
+            "id": "605",
+            "slug": "paok-salonika"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "159491",
+            "slug": "paul-arriola",
+            "name": "Paul Arriola"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "159195",
+            "slug": "francisco-calvo",
+            "name": "Francisco Calvo"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "276640",
+            "slug": "james-igbekeme",
+            "name": "James Igbekeme"
+        },
+        "fromClub": {
+            "name": "Real Zaragoza",
+            "id": "91",
+            "slug": "real-zaragoza"
+        },
+        "toClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "297379",
+            "slug": "damian-las",
+            "name": "Damian Las"
+        },
+        "fromClub": {
+            "name": "Fulham",
+            "id": "370",
+            "slug": "fulham"
+        },
+        "toClub": {
+            "name": "Austin FC",
+            "id": "20906",
+            "slug": "austin-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "334716",
+            "slug": "lukas-macnaughton",
+            "name": "Lukas MacNaughton"
+        },
+        "fromClub": {
+            "name": "Pacific FC",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "242597",
+            "slug": "justin-vom-steeg",
+            "name": "Justin vom Steeg"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "156321",
+            "slug": "evan-newton",
+            "name": "Evan Newton"
+        },
+        "fromClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "toClub": {
+            "name": "El Paso Locomotive FC",
+            "id": "19407",
+            "slug": "el-paso-locomotive-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "189952",
+            "slug": "jorge-figal",
+            "name": "Jorge Figal"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "133099",
+            "slug": "ruben-gabrielsen",
+            "name": "Ruben Gabrielsen"
+        },
+        "fromClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "toClub": {
+            "name": "Austin FC",
+            "id": "20906",
+            "slug": "austin-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "286802",
+            "slug": "hayden-sargis",
+            "name": "Hayden Sargis"
+        },
+        "fromClub": {
+            "name": "Sacramento Republic FC",
+            "id": "17828",
+            "slug": "sacramento-republic-fc"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "67518",
+            "slug": "facundo-torres",
+            "name": "Facundo Torres"
+        },
+        "fromClub": {
+            "name": "Peñarol",
+            "id": "2683",
+            "slug": "penarol"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "305498",
+            "slug": "marinos-tzionis",
+            "name": "Marinos Tzionis"
+        },
+        "fromClub": {
+            "name": "Omonia Nicosia",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Sporting Kansas City",
+            "id": "186",
+            "slug": "sporting-kansas-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "159502",
+            "slug": "milos-degenek",
+            "name": "Milos Degenek"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 22",
+        "player": {
+            "id": "167387",
+            "slug": "kacper-przybylko",
+            "name": "Kacper Przybylko"
+        },
+        "fromClub": {
+            "name": "Philadelphia Union",
+            "id": "10739",
+            "slug": "philadelphia-union"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "334227",
+            "slug": "william-sands",
+            "name": "William Sands"
+        },
+        "fromClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "toClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "217162",
+            "slug": "john-mccarthy",
+            "name": "John McCarthy"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "220434",
+            "slug": "greg-ranjitsingh",
+            "name": "Greg Ranjitsingh"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "205804",
+            "slug": "janio-bikel",
+            "name": "Janio Bikel"
+        },
+        "fromClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "toClub": {
+            "name": "Vicenza",
+            "id": "120",
+            "slug": "vicenza"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "282582",
+            "slug": "justin-che",
+            "name": "Justin Che"
+        },
+        "fromClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "toClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "303080",
+            "slug": "jake-lacava",
+            "name": "Jake LaCava"
+        },
+        "fromClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "toClub": {
+            "name": "Tampa Bay Rowdies",
+            "id": "17361",
+            "slug": "tampa-bay-rowdies"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "193171",
+            "slug": "marky-delgado",
+            "name": "Marky Delgado"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Swap"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "334199",
+            "slug": "jesus-castellano",
+            "name": "Jesús Castellano"
+        },
+        "fromClub": {
+            "name": "Yaracuyanos",
+            "id": "10096",
+            "slug": "yaracuyanos"
+        },
+        "toClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "159382",
+            "slug": "maxime-crepeau",
+            "name": "Maxime Crépeau"
+        },
+        "fromClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "86179",
+            "slug": "diego-valeri",
+            "name": "Diego Valeri"
+        },
+        "fromClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "toClub": {
+            "name": "Lanús",
+            "id": "12",
+            "slug": "lanus"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "277392",
+            "slug": "cole-bassett",
+            "name": "Cole Bassett"
+        },
+        "fromClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "toClub": {
+            "name": "Feyenoord Rotterdam",
+            "id": "142",
+            "slug": "feyenoord-rotterdam"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "284834",
+            "slug": "leonardo-campana",
+            "name": "Leonardo Campana"
+        },
+        "fromClub": {
+            "name": "Wolverhampton Wanderers",
+            "id": "380",
+            "slug": "wolverhampton-wanderers"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "238919",
+            "slug": "maarten-paes",
+            "name": "Maarten Paes"
+        },
+        "fromClub": {
+            "name": "FC Utrecht",
+            "id": "153",
+            "slug": "fc-utrecht"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 19",
+        "player": {
+            "id": "308522",
+            "slug": "emerson-rodriguez",
+            "name": "Emerson Rodríguez"
+        },
+        "fromClub": {
+            "name": "Millonarios",
+            "id": "5484",
+            "slug": "millonarios"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 19",
+        "player": {
+            "id": "303521",
+            "slug": "robert-voloder",
+            "name": "Robert Voloder"
+        },
+        "fromClub": {
+            "name": "NK Maribor",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Sporting Kansas City",
+            "id": "186",
+            "slug": "sporting-kansas-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 19",
+        "player": {
+            "id": "201136",
+            "slug": "bryan-acosta",
+            "name": "Bryan Acosta"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 19",
+        "player": {
+            "id": "157147",
+            "slug": "richard-sanchez",
+            "name": "Richard Sánchez"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 19",
+        "player": {
+            "id": "287404",
+            "slug": "alexander-alvarado",
+            "name": "Alexander Alvarado"
+        },
+        "fromClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "toClub": {
+            "name": "Liga de Quito",
+            "id": "4816",
+            "slug": "liga-de-quito"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 19",
+        "player": {
+            "id": "95831",
+            "slug": "christian-ortiz",
+            "name": "Christian Ortíz"
+        },
+        "fromClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "88455",
+            "slug": "sebastian-ferreira",
+            "name": "Sebastián Ferreira"
+        },
+        "fromClub": {
+            "name": "Libertad",
+            "id": "2670",
+            "slug": "libertad"
+        },
+        "toClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "256401",
+            "slug": "eric-dick",
+            "name": "Eric Dick"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 17",
+        "player": {
+            "id": "240783",
+            "slug": "ronald-hernandez",
+            "name": "Ronald Hernández"
+        },
+        "fromClub": {
+            "name": "Aberdeen",
+            "id": "263",
+            "slug": "aberdeen"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 17",
+        "player": {
+            "id": "223042",
+            "slug": "adrian-zendejas",
+            "name": "Adrián Zendejas"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 16",
+        "player": {
+            "id": "200139",
+            "slug": "damion-lowe",
+            "name": "Damion Lowe"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 16",
+        "player": {
+            "id": "271786",
+            "slug": "rodrigo-pineiro",
+            "name": "Rodrigo Piñeiro"
+        },
+        "fromClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "toClub": {
+            "name": "Unión Española",
+            "id": "4132",
+            "slug": "union-espanola"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "235096",
+            "slug": "riley-mcgree",
+            "name": "Riley McGree"
+        },
+        "fromClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "toClub": {
+            "name": "Middlesbrough",
+            "id": "369",
+            "slug": "middlesbrough"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "257114",
+            "slug": "christopher-mcvey",
+            "name": "Christopher McVey"
+        },
+        "fromClub": {
+            "name": "IF Elfsborg",
+            "id": "529",
+            "slug": "if-elfsborg"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "259925",
+            "slug": "logan-ndenbe",
+            "name": "Logan Ndenbe"
+        },
+        "fromClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "toClub": {
+            "name": "Sporting Kansas City",
+            "id": "186",
+            "slug": "sporting-kansas-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "254299",
+            "slug": "jake-morris",
+            "name": "Jake Morris"
+        },
+        "fromClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "toClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "67716",
+            "slug": "nani",
+            "name": "Nani"
+        },
+        "fromClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "toClub": {
+            "name": "Venezia",
+            "id": "17530",
+            "slug": "venezia"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "230220",
+            "slug": "kortne-ford",
+            "name": "Kortne Ford"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Sporting Kansas City",
+            "id": "186",
+            "slug": "sporting-kansas-city"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "324902",
+            "slug": "axel-kei",
+            "name": "Axel Kei"
+        },
+        "fromClub": {
+            "name": "Real Monarchs",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "136529",
+            "slug": "bobby-shuttleworth",
+            "name": "Bobby Shuttleworth"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "159478",
+            "slug": "kellyn-acosta",
+            "name": "Kellyn Acosta"
+        },
+        "fromClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Swap"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "219091",
+            "slug": "jhojan-valencia",
+            "name": "Jhojan Valencia"
+        },
+        "fromClub": {
+            "name": "Deportivo Cali",
+            "id": "2672",
+            "slug": "deportivo-cali"
+        },
+        "toClub": {
+            "name": "Austin FC",
+            "id": "20906",
+            "slug": "austin-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "266021",
+            "slug": "george-acosta",
+            "name": "George Acosta"
+        },
+        "fromClub": {
+            "name": "Fort Lauderdale CF",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "6746",
+            "slug": "david-bingham",
+            "name": "David Bingham"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "251804",
+            "slug": "abu-danladi",
+            "name": "Abu Danladi"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "288873",
+            "slug": "theodore-ku-dipietro",
+            "name": "Theodore Ku-Dipietro"
+        },
+        "fromClub": {
+            "name": "Loudoun United FC",
+            "id": "19410",
+            "slug": "loudoun-united-fc"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "318514",
+            "slug": "aime-mabika",
+            "name": "Aimé Mabika"
+        },
+        "fromClub": {
+            "name": "Fort Lauderdale CF",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "308481",
+            "slug": "jaziel-orozco",
+            "name": "Jaziel Orozco"
+        },
+        "fromClub": {
+            "name": "Real Monarchs",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "171573",
+            "slug": "albert-rusnak",
+            "name": "Albert Rusnák"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "296221",
+            "slug": "sean-zawadzki",
+            "name": "Sean Zawadzki"
+        },
+        "fromClub": {
+            "name": "Georgetown Hoyas",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 12",
+        "player": {
+            "id": "304625",
+            "slug": "gavin-beavers",
+            "name": "Gavin Beavers"
+        },
+        "fromClub": {
+            "name": "Real Monarchs",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 12",
+        "player": {
+            "id": "183792",
+            "slug": "scott-caldwell",
+            "name": "Scott Caldwell"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 12",
+        "player": {
+            "id": "150185",
+            "slug": "ilie-sanchez",
+            "name": "Ilie Sánchez"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "164106",
+            "slug": "clement-diop",
+            "name": "Clément Diop"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "303077",
+            "slug": "tega-ikoba",
+            "name": "Tega Ikoba"
+        },
+        "fromClub": {
+            "name": "North Carolina Tar Heels",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "280847",
+            "slug": "ahmed-longmire",
+            "name": "Ahmed Longmire"
+        },
+        "fromClub": {
+            "name": "UCLA Bruins",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "259111",
+            "slug": "dylan-teves",
+            "name": "Dylan Teves"
+        },
+        "fromClub": {
+            "name": "Washington Huskies",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "171809",
+            "slug": "dom-dwyer",
+            "name": "Dom Dwyer"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "241486",
+            "slug": "christian-makoun",
+            "name": "Christian Makoun"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "266028",
+            "slug": "justin-garces",
+            "name": "Justin Garces"
+        },
+        "fromClub": {
+            "name": "UCLA Bruins",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "333672",
+            "slug": "william-richmond",
+            "name": "William Richmond"
+        },
+        "fromClub": {
+            "name": "Stanford Cardinal",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "269153",
+            "slug": "nanu",
+            "name": "Nanu"
+        },
+        "fromClub": {
+            "name": "Benfica",
+            "id": "1929",
+            "slug": "benfica"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "154748",
+            "slug": "leandro-gonzalez-pirez",
+            "name": "Leandro González Pirez"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "215771",
+            "slug": "tomas-pochettino",
+            "name": "Tomás Pochettino"
+        },
+        "fromClub": {
+            "name": "Austin FC",
+            "id": "20906",
+            "slug": "austin-fc"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 8",
+        "player": {
+            "id": "230626",
+            "slug": "richie-laryea",
+            "name": "Richie Laryea"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 8",
+        "player": {
+            "id": "238950",
+            "slug": "erik-sorga",
+            "name": "Erik Sorga"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "IFK Göteborg",
+            "id": "2556",
+            "slug": "ifk-goteborg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 7",
+        "player": {
+            "id": "291218",
+            "slug": "cesar-araujo",
+            "name": "César Araujo"
+        },
+        "fromClub": {
+            "name": "Wanderers",
+            "id": "5501",
+            "slug": "wanderers"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 7",
+        "player": {
+            "id": "237164",
+            "slug": "raheem-edwards",
+            "name": "Raheem Edwards"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "287768",
+            "slug": "max",
+            "name": "Max"
+        },
+        "fromClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "182138",
+            "slug": "jan-gregus",
+            "name": "Jan Gregus"
+        },
+        "fromClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "toClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Chris Hegardt"
+        },
+        "fromClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "173386",
+            "slug": "yaw-yeboah",
+            "name": "Yaw Yeboah"
+        },
+        "fromClub": {
+            "name": "Wisla Krakow",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "126248",
+            "slug": "kelvin-leerdam",
+            "name": "Kelvin Leerdam"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "225615",
+            "slug": "john-nelson",
+            "name": "John Nelson"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "287784",
+            "slug": "bongokuhle-hlongwane",
+            "name": "Bongokuhle Hlongwane"
+        },
+        "fromClub": {
+            "name": "Maritzburg United",
+            "id": "7082",
+            "slug": "maritzburg-united"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "285250",
+            "slug": "aboubacar-keita",
+            "name": "Aboubacar Keita"
+        },
+        "fromClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "171677",
+            "slug": "raymon-gaddis",
+            "name": "Raymon Gaddis"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "258855",
+            "slug": "james-sands",
+            "name": "James Sands"
+        },
+        "fromClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "toClub": {
+            "name": "Rangers",
+            "id": "257",
+            "slug": "rangers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "284769",
+            "slug": "tajon-buchanan",
+            "name": "Tajon Buchanan"
+        },
+        "fromClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "toClub": {
+            "name": "Club Brugge",
+            "id": "570",
+            "slug": "club-brugge"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "302238",
+            "slug": "bryce-duke",
+            "name": "Bryce Duke"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "238438",
+            "slug": "brendan-hines-ike",
+            "name": "Brendan Hines-Ike"
+        },
+        "fromClub": {
+            "name": "KV Kortrijk",
+            "id": "5786",
+            "slug": "kv-kortrijk"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "217281",
+            "slug": "dominique-badji",
+            "name": "Dominique Badji"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "8894",
+            "slug": "sean-davis",
+            "name": "Sean Davis"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "176489",
+            "slug": "rodolfo-pizarro",
+            "name": "Rodolfo Pizarro"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "Monterrey",
+            "id": "220",
+            "slug": "monterrey"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 3",
+        "player": {
+            "id": "289120",
+            "slug": "ricardo-pepi",
+            "name": "Ricardo Pepi"
+        },
+        "fromClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "toClub": {
+            "name": "FC Augsburg",
+            "id": "3841",
+            "slug": "fc-augsburg"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 2",
+        "player": {
+            "id": "221602",
+            "slug": "rafael-czichos",
+            "name": "Rafael Czichos"
+        },
+        "fromClub": {
+            "name": "FC Cologne",
+            "id": "122",
+            "slug": "fc-cologne"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "198531",
+            "slug": "jean-mota",
+            "name": "Jean Mota"
+        },
+        "fromClub": {
+            "name": "Santos",
+            "id": "2674",
+            "slug": "santos"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "330368",
+            "slug": "ahmed-hamdi",
+            "name": "Ahmed Hamdi "
+        },
+        "fromClub": {
+            "name": "El Gouna",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "215961",
+            "slug": "carlos-coronel",
+            "name": "Carlos Coronel"
+        },
+        "fromClub": {
+            "name": "RB Salzburg",
+            "id": "2790",
+            "slug": "rb-salzburg"
+        },
+        "toClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "294211",
+            "slug": "daryl-dike",
+            "name": "Daryl Dike"
+        },
+        "fromClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "toClub": {
+            "name": "West Bromwich Albion",
+            "id": "383",
+            "slug": "west-bromwich-albion"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "285629",
+            "slug": "jhon-duran",
+            "name": "Jhon Durán"
+        },
+        "fromClub": {
+            "name": "Envigado",
+            "id": "5481",
+            "slug": "envigado"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "259805",
+            "slug": "zan-kolmanic",
+            "name": "Zan Kolmanic"
+        },
+        "fromClub": {
+            "name": "NK Maribor",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Austin FC",
+            "id": "20906",
+            "slug": "austin-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "307924",
+            "slug": "vinicius-mello",
+            "name": "Vinicius Mello"
+        },
+        "fromClub": {
+            "name": "Internacional",
+            "id": "1936",
+            "slug": "internacional"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "217109",
+            "slug": "joaquin-torres",
+            "name": "Joaquín Torres"
+        },
+        "fromClub": {
+            "name": "Newell's Old Boys",
+            "id": "14",
+            "slug": "newells-old-boys"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "270829",
+            "slug": "jordy-alcivar",
+            "name": "Jordy Alcivar"
+        },
+        "fromClub": {
+            "name": "Liga de Quito",
+            "id": "4816",
+            "slug": "liga-de-quito"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "237957",
+            "slug": "lassi-lappalainen",
+            "name": "Lassi Lappalainen"
+        },
+        "fromClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Guzman Corujo"
+        },
+        "fromClub": {
+            "name": "Nacional",
+            "id": "2684",
+            "slug": "nacional"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "254142",
+            "slug": "guzman-corujo",
+            "name": "Guzmán Corujo"
+        },
+        "fromClub": {
+            "name": "Nacional",
+            "id": "2684",
+            "slug": "nacional"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "249943",
+            "slug": "christopher-mueller",
+            "name": "Christopher Mueller"
+        },
+        "fromClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "toClub": {
+            "name": "Hibernian",
+            "id": "258",
+            "slug": "hibernian"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "137439",
+            "slug": "jonathan-dos-santos",
+            "name": "Jonathan dos Santos"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "América",
+            "id": "227",
+            "slug": "america"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "261401",
+            "slug": "gabriele-corbo",
+            "name": "Gabriele Corbo"
+        },
+        "fromClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "262111",
+            "slug": "alan-franco",
+            "name": "Alan Franco"
+        },
+        "fromClub": {
+            "name": "Atlético-MG",
+            "id": "7632",
+            "slug": "atletico-mg"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Loan"
+    }
+]

@@ -1,0 +1,97 @@
+.pageHeader .teamInfo{
+    display: flex;
+    gap: 5px;
+    height: 72px;
+    margin-bottom: 15px;
+    color: var(--text-color);
+}
+.pageHeader .teamInfo .teamLogo img{
+    height: 100%;
+}
+.pageHeader .teamInfo .teamNameAndQuickStat{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.pageHeader .teamInfo .teamNameAndQuickStat .followAndStat{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.pageHeader .teamInfo button{
+    background-color: var(--social-back-color);
+    padding: 5px 40px;
+    color: var(--text-color);
+    font-weight: 600;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+    font-size: 15px;
+}
+.pageHeader .teamInfo button:hover{
+    color: var(--hover-color) !important;
+}
+.Nav__Secondary__Menu{
+height: 100%;
+}
+.Nav__Secondary__Menu li{
+    display: inline-block;
+    padding: 0 10px 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Nav__Secondary__Menu li:hover{
+    box-shadow: inset 0 -3px 0 var(--text-color);  
+}
+.Nav__Secondary__Menu .activeli{
+    box-shadow: inset 0 -3px 0 var(--text-color);  
+}
+.Nav__Secondary__Menu li a{
+    color: var(--text-color);
+    font-size: 18px;
+}
+.fallDown{
+    background: linear-gradient(180deg, var(--hover-color), transparent);
+    height: 5px;
+    margin-bottom: -5px;
+}
+.followedBtn{
+    background-color: transparent !important;
+    outline: 2px solid var(--social-back-color);
+    color: var(--text-color);
+}
+@media (max-width: 590px) {
+    .pageHeader .teamInfo .teamNameAndQuickStat .followAndStat p{
+        display: none;
+    }
+}
+@media (max-width: 510px) {
+    .teamPageOpts .comptNameAndLogo{
+        min-width: 40px;
+    }
+    .teamPageOpts img{
+        width: 40px;
+        height: 40px;
+    }
+    .teamPageOpts .Nav__Secondary__Menu{
+        display: inline-flex ;
+        overflow: scroll;
+        max-width: 100%;
+    }
+    .teamPageOpts .Nav__Secondary__Menu li.fixturesSubTab a{
+        width: 80px;
+    }
+    .teamPageOpts .Nav__Secondary__Menu li a{
+        height: 100%;
+        display: block;
+    }
+    .teamPageOpts .Nav__Secondary__Menu li.fixturesSubTab a:first-child{
+        display: none;
+    }
+    .teamPageOpts .Nav__Secondary__Menu li.fixturesSubTab a:last-child{
+        display: block;
+    }
+    .teamPageOpts .comptNameAndLogo .comptName{
+        display: none;
+    }
+}

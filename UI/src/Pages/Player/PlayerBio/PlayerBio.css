@@ -1,0 +1,70 @@
+.PageLayout__MainContainer section .cardTitle p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.playerBlock  section.playerBio ul{
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.playerBlock  section.playerBio ul li{
+    display: flex;
+    gap: 15px;
+    width: calc((100% - 20px) / 3);
+}
+.playerBlock  section.playerBio ul li .bioSection{
+    color: var(--hover-color);
+}
+.playerBlock  section.playerBio ul li .bioValue{
+    color: var(--text-color);
+}
+.playerBlock  section.playerHistory {
+    margin-top: 25px;
+}
+.playerBlock  section.playerHistory ul{
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.playerBlock  section.playerHistory ul li{
+    width: calc((100% - 20px) / 3);
+}
+.playerBlock  section.playerHistory ul li a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.playerBlock  section.playerHistory ul li a .teamLogo{
+    width: 30px;
+}
+.playerBlock  section.playerHistory ul li .teamInfo{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: var(--text-color);
+}
+.playerBlock  section.playerHistory ul li .teamInfo .seasonPlayed{
+    font-size: 13px;
+    color: var(--hover-color);
+}
+.playerBlock  section.playerHistory ul li .bioValue{
+    color: var(--text-color);
+}
+@media (max-width: 620px) {
+    .playerBlock section.playerBio ul li{
+        width: calc((100% - 10px) / 2);
+    }
+    .playerBlock  section.playerHistory ul li{
+        width: calc((100% - 10px) / 2);
+    }
+  }
+@media (max-width: 400px) {
+    .playerBlock section.playerBio ul li{
+        width: 100%;
+    }
+    .playerBlock  section.playerHistory ul li{
+        width: 100%;
+    }
+  }

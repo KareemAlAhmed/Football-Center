@@ -1,0 +1,134 @@
+.authenticationBlock .container{
+    height:100%;
+}
+.authenticationBlock .container .authenticationContent{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    color: var(--text-color);
+    gap: 15px;
+}
+
+.authenticationBlock .container .authenticationContent form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .authenticationBlock .container .authenticationContent form div{
+  display: flex;
+  font-size: 21px;
+  gap: 3px;
+  font-weight: 600;
+ }
+ .authenticationBlock .container .authenticationContent form div input{
+    flex: 1;
+    padding: 2px 5px;
+    color: var(--text-color);
+    outline: 2px solid var(--hover-color);
+    background-color: transparent;
+    width: 270px;
+  }
+ .authenticationBlock .container .authenticationContent form div label{
+  min-width: 110px;
+ }
+ .authenticationBlock .container .authenticationContent h3{
+    font-size: 41px;
+    margin-bottom: 10px;
+    align-self: center;
+ }
+ .sbtBtn{
+  background-color: transparent;
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: 19px;
+  font-weight: 600;
+  border-radius: 10px;
+  align-self: end;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  cursor: pointer;
+ }
+ #customBtn {
+    background: var(--button-hover-color);
+    color: var(--text-color);
+    border-radius: 5px;
+    border: thin solid var(--button-hover-color);
+    box-shadow: 1px 1px 1px var(--button-hover-color);
+    white-space: nowrap;
+    width: 375px;
+    display: flex;
+    padding: 5px 10px;
+    gap: 10px;
+    font-size: 21px;
+    align-items: center;
+  }
+  #customBtn:hover {
+    cursor: pointer;
+  }
+  span label {
+    font-family: serif;
+    font-weight: normal;
+  }
+  span .icon {
+    /* background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat; */
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+  }
+  span .buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    /* Use the Roboto font that is loaded in the <head> */
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .optionSep{
+    height: 1px;
+    background-color: var(--text-color);
+  }
+.hadAccount span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.inputError{
+  color: #cc0000;
+}
+@media (max-width: 435px) {
+  .authenticationBlock .container .authenticationContent h3{
+    font-size: 37px;
+  }
+  .authenticationBlock .container .authenticationContent form div{
+    font-size: 19px;
+  }
+  .authenticationBlock  .sbtBtn{
+    font-size: 16px;
+  }
+  #customBtn{
+    font-size: 19px;
+    width: 100%;
+  }
+  .hadAccount{
+    font-size: 17px;
+  }
+  .authenticationBlock .container .authenticationContent form div input{
+    width: fit-content;
+  }
+}
+@media (max-width: 400px) {
+  .authenticationBlock .container .authenticationContent form{
+    width: 100%;
+  }
+  .authenticationBlock .container .authenticationContent form div{
+    flex-direction: column;
+  }
+  .authenticationBlock .container .authenticationContent form div input{
+    width: 100%;
+  }
+}

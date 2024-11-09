@@ -1,0 +1,35 @@
+.pageContent .mainContainer{
+    flex: 1;
+    max-width: 100%;
+} 
+section.gameStats{
+    width: 100%;
+    
+}
+section.gameStats .competitorsNames{
+    border-bottom: 1px dotted var(--text-color);
+    padding-bottom: 8px;
+}
+section.gameStats .teamStat .statsName{
+    width: 150px !important;
+    max-width: 150px;
+    font-weight: 500;
+    font-size: 13px !important;
+}
+@media (max-width: 1350px) {
+
+    .overviewMatchPage .pageContent .mainContainer{
+        width: calc(100% - 600px);
+    }
+    .overviewMatchPage .pageContent .mainContainer section.gameStats,
+    .overviewMatchPage .pageContent .mainContainer section.gameCommentary,
+    .overviewMatchPage .pageContent .mainContainer section.gameTimeLine{
+        padding: 12px 0;
+    }
+
+}
+@media (max-width: 575px) {
+    .overviewMatchPage .pageContent section.sideBarLineup .Wrapper .allTeamPlayers {
+        flex-direction: column;
+    }
+}

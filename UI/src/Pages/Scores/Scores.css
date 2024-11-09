@@ -1,0 +1,158 @@
+.scores .allMatches h2{
+    padding: 10px 0;
+    border-bottom: 1px solid;
+}
+.scores .allMatches .matchScoresInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Scoreboard{
+    display: flex;
+    color: var(--text-color);
+    gap: 50px;
+}
+.Scoreboard .teamsInfo{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    gap: 5px;
+}
+.Scoreboard .teamsInfo .TeamsInfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Scoreboard .teamsInfo .TeamsInfo img{
+    width: 45px;
+}
+.Scoreboard .teamsInfo .TeamsInfo .teamNameAndRecord{
+    flex: 1;
+    align-items: center;
+}
+.Scoreboard .teamsInfo .TeamsInfo .teamName{
+    font-size: 17px;
+    font-weight: 500;
+}
+.Scoreboard .teamsInfo .TeamsInfo .teamRecord{
+    font-size: 15px;
+    font-weight: 500;
+    min-width: 52px;
+}
+.Scoreboard .teamsInfo .TeamsInfo .teamScore{
+    font-weight: 500;
+}
+.Scoreboard .matchLocation{
+    width: calc(100% / 4);
+    font-weight: 500;
+}
+.Scoreboard .matchPerformer{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    justify-content: space-between;
+}
+.Scoreboard .matchPerformer img{
+    width: 24px;
+}
+.Scoreboard .matchPerformer .TeamPerformer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Scoreboard .matchPerformer .TeamPerformer .teamNameAndLogo{
+    display: flex;
+    gap: 5px;
+}
+.Scoreboard .matchPerformer .TeamPerformer .scoredPlayerList{
+    display: flex;
+    gap: 10px;
+}
+
+.Scoreboard .matchPerformer .TeamPerformer .scoredPlayerList svg{
+    fill: var(--text-color);
+    width: 18px;
+}
+.Scoreboard .matchPerformer .TeamPerformer .scoredPlayerList ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Scoreboard .matchPerformer .TeamPerformer .optionsList{
+    display: flex;
+    gap: 10px;
+}
+.Scoreboard .matchPerformer .TeamPerformer .optionsList a{
+    color: var(--hover-color);
+    transition: all 0.3s ease;
+}
+.Scoreboard .matchPerformer .TeamPerformer .optionsList a:hover{
+    color: var(--text-color);
+}
+
+.matchLink{
+    font-size: 13px;
+    height: 35px;
+    padding: 0 12px;
+    text-transform: capitalize;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1;
+    max-width: 414px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    white-space: nowrap;
+    margin-right: 4px !important;
+    margin-bottom: 12px !important;
+    width: 110px;
+    outline: 0;
+    background-color: initial;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+}
+
+@media (max-width: 760px) {
+    .Scoreboard{
+        justify-content: space-between;
+    }
+    .Scoreboard .teamsInfo{
+        flex: 1;
+    }
+    .Scoreboard .teamsInfo .TeamsInfo .teamNameAndRecord{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Scoreboard .matchLocation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .Scoreboard .matchPerformer{
+        display: none;
+    }
+    .Scoreboard .matchLinks{
+        display: none;
+    }
+  }
+@media (max-width: 500px) {
+    .scores .shortName{
+        display: block;
+    }
+    .Scoreboard .teamsInfo .TeamsInfo .teamNameAndRecord .teamName a:first-of-type{
+        display: none;
+    }
+}

@@ -1,0 +1,382 @@
+[
+    {
+        "date": "Aug 24",
+        "player": {
+            "id": "144325",
+            "slug": "brian-rodriguez",
+            "name": "Brian Rodríguez"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "América",
+            "id": "227",
+            "slug": "america"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 16",
+        "player": {
+            "id": "249848",
+            "slug": "michael-estrada",
+            "name": "Michael Estrada"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "Cruz Azul",
+            "id": "218",
+            "slug": "cruz-azul"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 10",
+        "player": {
+            "id": "178746",
+            "slug": "jorge-sanchez",
+            "name": "Jorge Sánchez"
+        },
+        "fromClub": {
+            "name": "América",
+            "id": "227",
+            "slug": "america"
+        },
+        "toClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 8",
+        "player": {
+            "id": "66955",
+            "slug": "jonathan-gonzalez",
+            "name": "Jonathan Gonzalez"
+        },
+        "fromClub": {
+            "name": "Querétaro",
+            "id": "222",
+            "slug": "queretaro"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 28",
+        "player": {
+            "id": "75589",
+            "slug": "jozy-altidore",
+            "name": "Jozy Altidore"
+        },
+        "fromClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "toClub": {
+            "name": "Puebla",
+            "id": "231",
+            "slug": "puebla"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 24",
+        "player": {
+            "id": "30901",
+            "slug": "dani-alves",
+            "name": "Dani Alves"
+        },
+        "fromClub": {
+            "name": "Barcelona",
+            "id": "83",
+            "slug": "barcelona"
+        },
+        "toClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "184299",
+            "slug": "carlos-salcedo",
+            "name": "Carlos Salcedo"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "FC Juarez",
+            "id": "17851",
+            "slug": "fc-juarez"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "263224",
+            "slug": "juan-jose-purata",
+            "name": "Juan José Purata"
+        },
+        "fromClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "178225",
+            "slug": "edison-flores",
+            "name": "Edison Flores"
+        },
+        "fromClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "toClub": {
+            "name": "Atlas",
+            "id": "216",
+            "slug": "atlas"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "195301",
+            "slug": "raul-gudino",
+            "name": "Raul Gudino"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "May 4",
+        "player": {
+            "id": "249278",
+            "slug": "jairo-torres",
+            "name": "Jairo Torres"
+        },
+        "fromClub": {
+            "name": "Atlas",
+            "id": "216",
+            "slug": "atlas"
+        },
+        "toClub": {
+            "name": "Chicago Fire FC",
+            "id": "182",
+            "slug": "chicago-fire-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 28",
+        "player": {
+            "id": "199822",
+            "slug": "anderson-julio",
+            "name": "Anderson Julio"
+        },
+        "fromClub": {
+            "name": "Atlético de San Luis",
+            "id": "15720",
+            "slug": "atletico-de-san-luis"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 21",
+        "player": {
+            "id": "208436",
+            "slug": "ronaldo-cisneros",
+            "name": "Ronaldo Cisneros"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 8",
+        "player": {
+            "id": "249848",
+            "slug": "michael-estrada",
+            "name": "Michael Estrada"
+        },
+        "fromClub": {
+            "name": "Toluca",
+            "id": "223",
+            "slug": "toluca"
+        },
+        "toClub": {
+            "name": "D.C. United",
+            "id": "193",
+            "slug": "dc-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "184299",
+            "slug": "carlos-salcedo",
+            "name": "Carlos Salcedo"
+        },
+        "fromClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "194039",
+            "slug": "yeferson-soteldo",
+            "name": "Yeferson Soteldo"
+        },
+        "fromClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "toClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 19",
+        "player": {
+            "id": "95831",
+            "slug": "christian-ortiz",
+            "name": "Christian Ortíz"
+        },
+        "fromClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "211912",
+            "slug": "jorge-mere",
+            "name": "Jorge Meré"
+        },
+        "fromClub": {
+            "name": "FC Cologne",
+            "id": "122",
+            "slug": "fc-cologne"
+        },
+        "toClub": {
+            "name": "América",
+            "id": "227",
+            "slug": "america"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "176489",
+            "slug": "rodolfo-pizarro",
+            "name": "Rodolfo Pizarro"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "Monterrey",
+            "id": "220",
+            "slug": "monterrey"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "137439",
+            "slug": "jonathan-dos-santos",
+            "name": "Jonathan dos Santos"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "América",
+            "id": "227",
+            "slug": "america"
+        },
+        "status": "Free"
+    }
+]

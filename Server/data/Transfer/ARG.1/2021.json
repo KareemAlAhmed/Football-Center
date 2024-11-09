@@ -1,0 +1,306 @@
+[
+    {
+        "date": "Aug 13",
+        "player": {
+            "id": "228262",
+            "slug": "gonzalo-montiel",
+            "name": "Gonzalo Montiel"
+        },
+        "fromClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "toClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Matias Pellegrini"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "296304",
+            "slug": "dario-sarmiento",
+            "name": "Dario Sarmiento"
+        },
+        "fromClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "toClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 29",
+        "player": {
+            "id": "158609",
+            "slug": "jonathan-menendez",
+            "name": "Jonathan Menéndez"
+        },
+        "fromClub": {
+            "name": "Independiente",
+            "id": "11",
+            "slug": "independiente"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Allocation"
+    },
+    {
+        "date": "May 19",
+        "player": {
+            "id": "167140",
+            "slug": "franco-fragapane",
+            "name": "Franco Fragapane"
+        },
+        "fromClub": {
+            "name": "Talleres (Córdoba)",
+            "id": "19",
+            "slug": "talleres-cordoba"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 8",
+        "player": {
+            "id": "228493",
+            "slug": "alan-franco",
+            "name": "Alan Franco"
+        },
+        "fromClub": {
+            "name": "Independiente",
+            "id": "11",
+            "slug": "independiente"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 7",
+        "player": {
+            "id": "200301",
+            "slug": "ramon-abila",
+            "name": "Ramón Ábila"
+        },
+        "fromClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 22",
+        "player": {
+            "id": "300115",
+            "slug": "franco-ibarra",
+            "name": "Franco Ibarra"
+        },
+        "fromClub": {
+            "name": "Argentinos Juniors",
+            "id": "3",
+            "slug": "argentinos-juniors"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 19",
+        "player": {
+            "id": "106148",
+            "slug": "fernando-meza",
+            "name": "Fernando Meza"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "Defensa y Justicia",
+            "id": "8950",
+            "slug": "defensa-y-justicia"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 12",
+        "player": {
+            "id": "271473",
+            "slug": "santiago-sosa",
+            "name": "Santiago Sosa"
+        },
+        "fromClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 11",
+        "player": {
+            "id": "215771",
+            "slug": "tomas-pochettino",
+            "name": "Tomás Pochettino"
+        },
+        "fromClub": {
+            "name": "Talleres (Córdoba)",
+            "id": "19",
+            "slug": "talleres-cordoba"
+        },
+        "toClub": {
+            "name": "Austin FC",
+            "id": null,
+            "slug": null
+        },
+        "status": "$ 2.5M"
+    },
+    {
+        "date": "Feb 9",
+        "player": {
+            "id": "199690",
+            "slug": "franco-escobar",
+            "name": "Franco Escobar"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "Newell's Old Boys",
+            "id": "14",
+            "slug": "newells-old-boys"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 4",
+        "player": {
+            "id": "217109",
+            "slug": "joaquin-torres",
+            "name": "Joaquín Torres"
+        },
+        "fromClub": {
+            "name": "Newell's Old Boys",
+            "id": "14",
+            "slug": "newells-old-boys"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "129426",
+            "slug": "marcos-rojo",
+            "name": "Marcos Rojo"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "69197",
+            "slug": "lisandro-lopez",
+            "name": "Lisandro López"
+        },
+        "fromClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "255476",
+            "slug": "rodrigo-schlegel",
+            "name": "Rodrigo Schlegel"
+        },
+        "fromClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    }
+]

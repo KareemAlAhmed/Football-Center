@@ -1,0 +1,83 @@
+section.gameTeamLastMatches{
+    width: 100%;
+    gap: 0;
+    margin-bottom: 15px;
+    padding: 0 12px;
+}
+section.gameTeamLastMatches .cardTitle{
+    /* border-style: solid; */
+}
+section.gameTeamLastMatches  .cardTitle .TeamLogo{
+    width: 20px;
+    display: inline-block;
+    transform: translateY(4px);
+    margin-right: 2px;
+    padding: 0;
+}
+section.gameTeamLastMatches .cardTitle p{
+    font-size: 18px;
+    display: inline-block;
+}
+section.gameTeamLastMatches  .Wrapper table{
+    width: 100%;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+section.gameTeamLastMatches  .Wrapper table tr{
+    height: 36px;
+}
+section.gameTeamLastMatches  .Wrapper table tr th{
+    text-align: left;
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid;
+    padding-right: 10px;
+    font-size: 14px;
+}
+section.gameTeamLastMatches  .Wrapper table tr td{
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+section.gameTeamLastMatches  .Wrapper table tr .teamColumn{
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+}
+section.gameTeamLastMatches  .Wrapper table tr .teamLogo{
+    width: 20px;
+    display: inline-block;
+    transform: translateY(4px);
+    margin-right: 2px;
+    padding: 0;
+}
+section.gameTeamLastMatches  .Wrapper table tr .matchScores{
+    padding-right: 0;
+}
+section.gameTeamLastMatches  .Wrapper table tr .results .status{
+    margin-right: 5px;
+}
+
+section.gameTeamLastMatches  .Wrapper table tr th:nth-child(1){
+    text-align: left;
+} 
+section.gameTeamLastMatches  .Wrapper table tr a{
+    color: var(--text-color);
+}
+@media (max-width: 680px) {
+
+    .matchStats .mainContainer{
+        width: 100%;
+    }
+    .matchStats section.gameTeamLastMatches{
+        max-width: 585px;
+    }
+    .matchStats section.gameTeamLastMatches .Wrapper{
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .matchStats section.gameTeamLastMatches .Wrapper table {
+        min-width: 585px;
+    }
+}

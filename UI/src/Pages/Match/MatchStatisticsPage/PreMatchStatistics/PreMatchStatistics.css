@@ -1,0 +1,48 @@
+.matchStats .mainContainer{
+    flex: 1;
+}
+.matchStats .gameStats{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.matchStats .gameStats .Wrapper .competitorsNames{
+    gap: 5%;
+}
+.matchStats .gameStats .Wrapper .competitorsNames a{
+    flex: 40% 1 !important;
+}
+.matchStats .gameStats .Wrapper .teamStat .homeTeamStats, .matchStats .gameStats .Wrapper .teamStat .awayTeamStats{
+    flex: 40% 1 !important;
+    padding: 12px 10px !important;
+}
+@media (max-width: 1200px) {
+
+    .matchStats section.gameLastTimes .Wrapper table tr a,
+    .matchStats section.gameTeamLastMatches .Wrapper table tr a{
+        font-size: 12px;
+    }
+    .matchStats section.gameTeamLastMatches .Wrapper table tr td,
+    .matchStats section.gameLastTimes .Wrapper table tr td{
+        padding-right: 5px;
+    }
+
+}
+@media (max-width: 991px) {
+
+    .matchStats .pageContent .rightSideContainer{
+        display: none;
+    }
+}
+@media (max-width: 680px) {
+
+    .matchStats section.gameLastTimes{
+        max-width: 585px;
+    }
+    .matchStats section.gameLastTimes .Wrapper{
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .matchStats section.gameLastTimes .Wrapper table {
+        min-width: 585px;
+    }
+}

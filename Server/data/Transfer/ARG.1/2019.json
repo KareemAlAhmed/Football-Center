@@ -1,0 +1,192 @@
+[
+    {
+        "date": "Aug 9",
+        "player": {
+            "id": "213056",
+            "slug": "nahitan-nandez",
+            "name": "Nahitan Nández"
+        },
+        "fromClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "toClub": {
+            "name": "Cagliari",
+            "id": "2925",
+            "slug": "cagliari"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 7",
+        "player": {
+            "id": "24388",
+            "slug": "cristian-pavon",
+            "name": "Cristian Pavón"
+        },
+        "fromClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "16207",
+            "slug": "daniele-de-rossi",
+            "name": "Daniele De Rossi"
+        },
+        "fromClub": {
+            "name": "AS Roma",
+            "id": "104",
+            "slug": "as-roma"
+        },
+        "toClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "235162",
+            "slug": "ramon-mierez",
+            "name": "Ramón Mierez"
+        },
+        "fromClub": {
+            "name": "Tigre",
+            "id": "7767",
+            "slug": "tigre"
+        },
+        "toClub": {
+            "name": "Alavés",
+            "id": "96",
+            "slug": "alaves"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 7",
+        "player": {
+            "id": "184817",
+            "slug": "favio-alvarez",
+            "name": "Favio Álvarez"
+        },
+        "fromClub": {
+            "name": "Atlético Tucumán",
+            "id": "9785",
+            "slug": "atletico-tucuman"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "171508",
+            "slug": "lucas-olaza",
+            "name": "Lucas Olaza"
+        },
+        "fromClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "toClub": {
+            "name": "Celta Vigo",
+            "id": "85",
+            "slug": "celta-vigo"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "146941",
+            "slug": "gonzalo-martinez",
+            "name": "Gonzalo Martínez"
+        },
+        "fromClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "271555",
+            "slug": "leonardo-balerdi",
+            "name": "Leonardo Balerdi"
+        },
+        "fromClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "toClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 7",
+        "player": {
+            "id": "181657",
+            "slug": "junior-alonso",
+            "name": "Júnior Alonso"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "status": "Fee"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "195714",
+            "slug": "lisandro-magallan",
+            "name": "Lisandro Magallán"
+        },
+        "fromClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "toClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "status": "Undisclosed"
+    }
+]

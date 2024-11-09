@@ -1,0 +1,344 @@
+[
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "158918",
+            "slug": "lucas-alario",
+            "name": "Lucas Alario"
+        },
+        "fromClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "toClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "status": "Fee"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "242710",
+            "slug": "juan-foyth",
+            "name": "Juan Foyth"
+        },
+        "fromClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "toClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 25",
+        "player": {
+            "id": "227730",
+            "slug": "esteban-rolon",
+            "name": "Esteban Rolón"
+        },
+        "fromClub": {
+            "name": "Argentinos Juniors",
+            "id": "3",
+            "slug": "argentinos-juniors"
+        },
+        "toClub": {
+            "name": "Málaga",
+            "id": "99",
+            "slug": "malaga"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 22",
+        "player": {
+            "id": "233734",
+            "slug": "santiago-ascacibar",
+            "name": "Santiago Ascacibar"
+        },
+        "fromClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "toClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 18",
+        "player": {
+            "id": "193360",
+            "slug": "brian-fernandez",
+            "name": "Brian Fernandez"
+        },
+        "fromClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "toClub": {
+            "name": "Metz",
+            "id": "177",
+            "slug": "metz"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 16",
+        "player": {
+            "id": "76518",
+            "slug": "matias-sanchez",
+            "name": "Matías Sánchez"
+        },
+        "fromClub": {
+            "name": "Temperley",
+            "id": "10162",
+            "slug": "temperley"
+        },
+        "toClub": {
+            "name": "Melbourne Victory",
+            "id": "5328",
+            "slug": "melbourne-victory"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 7",
+        "player": {
+            "id": "197052",
+            "slug": "rafael-borre",
+            "name": "Rafael Borré"
+        },
+        "fromClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "187337",
+            "slug": "emanuel-cecchini",
+            "name": "Emanuel Cecchini"
+        },
+        "fromClub": {
+            "name": "Banfield",
+            "id": "235",
+            "slug": "banfield"
+        },
+        "toClub": {
+            "name": "Málaga",
+            "id": "99",
+            "slug": "malaga"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "127319",
+            "slug": "enzo-perez",
+            "name": "Enzo Pérez"
+        },
+        "fromClub": {
+            "name": "Valencia",
+            "id": "94",
+            "slug": "valencia"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "76914",
+            "slug": "sebastian-blanco",
+            "name": "Sebastián Blanco"
+        },
+        "fromClub": {
+            "name": "San Lorenzo",
+            "id": "18",
+            "slug": "san-lorenzo"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 30",
+        "player": {
+            "id": "195715",
+            "slug": "walter-montoya",
+            "name": "Walter Montoya"
+        },
+        "fromClub": {
+            "name": "Rosario Central",
+            "id": "17",
+            "slug": "rosario-central"
+        },
+        "toClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "222201",
+            "slug": "daniel-mancini",
+            "name": "Daniel Mancini"
+        },
+        "fromClub": {
+            "name": "Newell's Old Boys",
+            "id": "14",
+            "slug": "newells-old-boys"
+        },
+        "toClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 17",
+        "player": {
+            "id": "192234",
+            "slug": "oscar-romero",
+            "name": "Óscar Romero"
+        },
+        "fromClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "toClub": {
+            "name": "Alavés",
+            "id": "96",
+            "slug": "alaves"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "185800",
+            "slug": "yamil-asad",
+            "name": "Yamil Asad"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 9",
+        "player": {
+            "id": "172280",
+            "slug": "lucas-melano",
+            "name": "Lucas Melano"
+        },
+        "fromClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "toClub": {
+            "name": "Belgrano (Córdoba)",
+            "id": "4",
+            "slug": "belgrano-cordoba"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 3",
+        "player": {
+            "id": "195726",
+            "slug": "nereo-champagne",
+            "name": "Nereo Champagne"
+        },
+        "fromClub": {
+            "name": "Olimpo",
+            "id": "2636",
+            "slug": "olimpo"
+        },
+        "toClub": {
+            "name": "Leganés",
+            "id": "17534",
+            "slug": "leganes"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "72490",
+            "slug": "carlos-tevez",
+            "name": "Carlos Tevez"
+        },
+        "fromClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "toClub": {
+            "name": "Shanghai Shenhua",
+            "id": "977",
+            "slug": "shanghai-shenhua"
+        },
+        "status": "$ 11M"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "207343",
+            "slug": "giovani-lo-celso",
+            "name": "Giovani Lo Celso"
+        },
+        "fromClub": {
+            "name": "Rosario Central",
+            "id": "17",
+            "slug": "rosario-central"
+        },
+        "toClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "status": "Loan"
+    }
+]

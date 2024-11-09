@@ -1,0 +1,2339 @@
+[
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "234306",
+            "slug": "federico-chiesa",
+            "name": "Federico Chiesa"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "status": "€ 12M"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "139437",
+            "slug": "romelu-lukaku",
+            "name": "Romelu Lukaku"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "282642",
+            "slug": "faustino-anjorin",
+            "name": "Faustino Anjorin"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Empoli",
+            "id": "2574",
+            "slug": "empoli"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "163166",
+            "slug": "mattia-de-sciglio",
+            "name": "Mattia De Sciglio"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Empoli",
+            "id": "2574",
+            "slug": "empoli"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "367499",
+            "slug": "facundo-gonzalez",
+            "name": "Facundo González"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Feyenoord Rotterdam",
+            "id": "142",
+            "slug": "feyenoord-rotterdam"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "258968",
+            "slug": "teun-koopmeiners",
+            "name": "Teun Koopmeiners"
+        },
+        "fromClub": {
+            "name": "Atalanta",
+            "id": "105",
+            "slug": "atalanta"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "€ 51.3M"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "265911",
+            "slug": "yacine-adli",
+            "name": "Yacine Adli"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Fiorentina",
+            "id": "109",
+            "slug": "fiorentina"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "284822",
+            "slug": "odilon-kossounou",
+            "name": "Odilon Kossounou"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "Atalanta",
+            "id": "105",
+            "slug": "atalanta"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "303308",
+            "slug": "tanner-tessmann",
+            "name": "Tanner Tessmann"
+        },
+        "fromClub": {
+            "name": "Venezia",
+            "id": "17530",
+            "slug": "venezia"
+        },
+        "toClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "status": "€ 6M"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "312659",
+            "slug": "francisco-conceicao",
+            "name": "Francisco Conceição"
+        },
+        "fromClub": {
+            "name": "FC Porto",
+            "id": "437",
+            "slug": "fc-porto"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "340704",
+            "slug": "alessandro-fontanarosa",
+            "name": "Alessandro Fontanarosa"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Reggiana",
+            "id": "3942",
+            "slug": "reggiana"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "341273",
+            "slug": "samuel-iling-junior",
+            "name": "Samuel Iling-Junior"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "177927",
+            "slug": "juan-musso",
+            "name": "Juan Musso"
+        },
+        "fromClub": {
+            "name": "Atalanta",
+            "id": "105",
+            "slug": "atalanta"
+        },
+        "toClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "303752",
+            "slug": "amin-sarr",
+            "name": "Amin Sarr"
+        },
+        "fromClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "toClub": {
+            "name": "Hellas Verona",
+            "id": "119",
+            "slug": "hellas-verona"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 25",
+        "player": {
+            "id": "337970",
+            "slug": "nico-paz",
+            "name": "Nico Paz"
+        },
+        "fromClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "toClub": {
+            "name": "Como",
+            "id": "2572",
+            "slug": "como"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 25",
+        "player": {
+            "id": "76017",
+            "slug": "nicolas-gonzalez",
+            "name": "Nicolás González"
+        },
+        "fromClub": {
+            "name": "Fiorentina",
+            "id": "109",
+            "slug": "fiorentina"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 25",
+        "player": {
+            "id": "323975",
+            "slug": "fabio-miretti",
+            "name": "Fabio Miretti"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 25",
+        "player": {
+            "id": "309241",
+            "slug": "maximo-perrone",
+            "name": "Máximo Perrone"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Como",
+            "id": "2572",
+            "slug": "como"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 24",
+        "player": {
+            "id": "276654",
+            "slug": "tommaso-pobega",
+            "name": "Tommaso Pobega"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 23",
+        "player": {
+            "id": "150225",
+            "slug": "sergi-roberto",
+            "name": "Sergi Roberto"
+        },
+        "fromClub": {
+            "name": "Barcelona",
+            "id": "83",
+            "slug": "barcelona"
+        },
+        "toClub": {
+            "name": "Como",
+            "id": "2572",
+            "slug": "como"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 23",
+        "player": {
+            "id": "284854",
+            "slug": "martin-satriano",
+            "name": "Martín Satriano"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 22",
+        "player": {
+            "id": "286764",
+            "slug": "hans-nicolussi-caviglia",
+            "name": "Hans Nicolussi Caviglia"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Venezia",
+            "id": "17530",
+            "slug": "venezia"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 22",
+        "player": {
+            "id": "32855",
+            "slug": "christos-papadopoulos",
+            "name": "Christos Papadopoulos"
+        },
+        "fromClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 21",
+        "player": {
+            "id": "290129",
+            "slug": "pierre-kalulu",
+            "name": "Pierre Kalulu"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 21",
+        "player": {
+            "id": "357109",
+            "slug": "issiaka-kamate",
+            "name": "Issiaka Kamate"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "AVS",
+            "id": "22064",
+            "slug": "avs"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 21",
+        "player": {
+            "id": "181673",
+            "slug": "daniele-rugani",
+            "name": "Daniele Rugani"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 20",
+        "player": {
+            "id": "340706",
+            "slug": "marco-nasti",
+            "name": "Marco Nasti"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Cremonese",
+            "id": "4050",
+            "slug": "cremonese"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 19",
+        "player": {
+            "id": "274971",
+            "slug": "jens-cajuste",
+            "name": "Jens Cajuste"
+        },
+        "fromClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "toClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 17",
+        "player": {
+            "id": "277307",
+            "slug": "youssouf-fofana",
+            "name": "Youssouf Fofana"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 17",
+        "player": {
+            "id": "228319",
+            "slug": "borna-sosa",
+            "name": "Borna Sosa"
+        },
+        "fromClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "toClub": {
+            "name": "Torino",
+            "id": "239",
+            "slug": "torino"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 14",
+        "player": {
+            "id": "311173",
+            "slug": "brooke-norton-cuffy",
+            "name": "Brooke Norton-Cuffy"
+        },
+        "fromClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "toClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 14",
+        "player": {
+            "id": "296749",
+            "slug": "nicholas-gioacchini",
+            "name": "Nicholas Gioacchini"
+        },
+        "fromClub": {
+            "name": "Como",
+            "id": "2572",
+            "slug": "como"
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 12",
+        "player": {
+            "id": "246844",
+            "slug": "emerson-royal",
+            "name": "Emerson Royal"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 12",
+        "player": {
+            "id": "289560",
+            "slug": "filip-stankovic",
+            "name": "Filip Stankovic"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Venezia",
+            "id": "17530",
+            "slug": "venezia"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 11",
+        "player": {
+            "id": "92055",
+            "slug": "alexis-sanchez",
+            "name": "Alexis Sánchez"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Udinese",
+            "id": "118",
+            "slug": "udinese"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 10",
+        "player": {
+            "id": "303633",
+            "slug": "marco-pellegrino",
+            "name": "Marco Pellegrino"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Independiente",
+            "id": "11",
+            "slug": "independiente"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 9",
+        "player": {
+            "id": "108482",
+            "slug": "david-de-gea",
+            "name": "David de Gea"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Fiorentina",
+            "id": "109",
+            "slug": "fiorentina"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 8",
+        "player": {
+            "id": "291677",
+            "slug": "marley-ake",
+            "name": "Marley Aké"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Yverdon",
+            "id": "21538",
+            "slug": "yverdon"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 7",
+        "player": {
+            "id": "337972",
+            "slug": "valentin-carboni",
+            "name": "Valentin Carboni"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "282289",
+            "slug": "lucien-agoume",
+            "name": "Lucien Agoumé"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "297783",
+            "slug": "tommaso-barbieri",
+            "name": "Tommaso Barbieri"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Cremonese",
+            "id": "4050",
+            "slug": "cremonese"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "251775",
+            "slug": "gianluca-frabotta",
+            "name": "Gianluca Frabotta"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "West Bromwich Albion",
+            "id": "383",
+            "slug": "west-bromwich-albion"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 31",
+        "player": {
+            "id": "330242",
+            "slug": "iker-bravo",
+            "name": "Iker Bravo"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "Udinese",
+            "id": "118",
+            "slug": "udinese"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 31",
+        "player": {
+            "id": "290545",
+            "slug": "daniel-maldini",
+            "name": "Daniel Maldini"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Monza",
+            "id": "4007",
+            "slug": "monza"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 31",
+        "player": {
+            "id": "290375",
+            "slug": "strahinja-pavlovic",
+            "name": "Strahinja Pavlovic"
+        },
+        "fromClub": {
+            "name": "RB Salzburg",
+            "id": "2790",
+            "slug": "rb-salzburg"
+        },
+        "toClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 31",
+        "player": {
+            "id": "297220",
+            "slug": "lorenzo-colombo",
+            "name": "Lorenzo Colombo"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Empoli",
+            "id": "2574",
+            "slug": "empoli"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 30",
+        "player": {
+            "id": "323974",
+            "slug": "matias-soule",
+            "name": "Matìas Soulè"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "AS Roma",
+            "id": "104",
+            "slug": "as-roma"
+        },
+        "status": "€ 25.6M"
+    },
+    {
+        "date": "Jul 30",
+        "player": {
+            "id": "356000",
+            "slug": "dean-huijsen",
+            "name": "Dean Huijsen"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "status": "€ 15.2M"
+    },
+    {
+        "date": "Jul 30",
+        "player": {
+            "id": "185897",
+            "slug": "aleksei-miranchuk",
+            "name": "Aleksei Miranchuk"
+        },
+        "fromClub": {
+            "name": "Atalanta",
+            "id": "105",
+            "slug": "atalanta"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "298329",
+            "slug": "riccardo-calafiori",
+            "name": "Riccardo Calafiori"
+        },
+        "fromClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "toClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 28",
+        "player": {
+            "id": "153053",
+            "slug": "raphael-varane",
+            "name": "Raphaël Varane"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Como",
+            "id": "2572",
+            "slug": "como"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "289941",
+            "slug": "kelvin-yeboah",
+            "name": "Kelvin Yeboah"
+        },
+        "fromClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 26",
+        "player": {
+            "id": "278822",
+            "slug": "jesper-lindstrom",
+            "name": "Jesper Lindstrom"
+        },
+        "fromClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "toClub": {
+            "name": "Everton",
+            "id": "368",
+            "slug": "everton"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "256103",
+            "slug": "zinho-vanheusden",
+            "name": "Zinho Vanheusden"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "KV Mechelen",
+            "id": "7879",
+            "slug": "kv-mechelen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "355861",
+            "slug": "jan-carlo-simic",
+            "name": "Jan-Carlo Simic"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Anderlecht",
+            "id": "441",
+            "slug": "anderlecht"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "213725",
+            "slug": "che-adams",
+            "name": "Ché Adams"
+        },
+        "fromClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "toClub": {
+            "name": "Torino",
+            "id": "239",
+            "slug": "torino"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "303844",
+            "slug": "luka-romero",
+            "name": "Luka Romero"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Alavés",
+            "id": "96",
+            "slug": "alaves"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "154446",
+            "slug": "alvaro-morata",
+            "name": "Álvaro Morata"
+        },
+        "fromClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "toClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "362776",
+            "slug": "ebenezer-akinsanmiro",
+            "name": "Ebenezer Akinsanmiro"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Sampdoria",
+            "id": "2734",
+            "slug": "sampdoria"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 18",
+        "player": {
+            "id": "24412",
+            "slug": "juan-cabal",
+            "name": "Juan Cabal"
+        },
+        "fromClub": {
+            "name": "Hellas Verona",
+            "id": "119",
+            "slug": "hellas-verona"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "€ 11M"
+    },
+    {
+        "date": "Jul 18",
+        "player": {
+            "id": "238990",
+            "slug": "nikola-milenkovic",
+            "name": "Nikola Milenkovic"
+        },
+        "fromClub": {
+            "name": "Fiorentina",
+            "id": "109",
+            "slug": "fiorentina"
+        },
+        "toClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 18",
+        "player": {
+            "id": "88965",
+            "slug": "olivier-giroud",
+            "name": "Olivier Giroud"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 18",
+        "player": {
+            "id": "12910",
+            "slug": "pepe-reina",
+            "name": "Pepe Reina"
+        },
+        "fromClub": {
+            "name": "Villarreal",
+            "id": "102",
+            "slug": "villarreal"
+        },
+        "toClub": {
+            "name": "Como",
+            "id": "2572",
+            "slug": "como"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 17",
+        "player": {
+            "id": "286929",
+            "slug": "sebastiano-esposito",
+            "name": "Sebastiano Esposito"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Empoli",
+            "id": "2574",
+            "slug": "empoli"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "288901",
+            "slug": "nuno-tavares",
+            "name": "Nuno Tavares"
+        },
+        "fromClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "toClub": {
+            "name": "Lazio",
+            "id": "112",
+            "slug": "lazio"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 14",
+        "player": {
+            "id": "276327",
+            "slug": "joshua-zirkzee",
+            "name": "Joshua Zirkzee"
+        },
+        "fromClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "toClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "297786",
+            "slug": "gaetano-oristanio",
+            "name": "Gaetano Oristanio"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Venezia",
+            "id": "17530",
+            "slug": "venezia"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "323117",
+            "slug": "mattia-zanotti",
+            "name": "Mattia Zanotti"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "FC Lugano",
+            "id": "7672",
+            "slug": "fc-lugano"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "219611",
+            "slug": "mehdi-taremi",
+            "name": "Mehdi Taremi"
+        },
+        "fromClub": {
+            "name": "FC Porto",
+            "id": "437",
+            "slug": "fc-porto"
+        },
+        "toClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "280978",
+            "slug": "kaio-jorge",
+            "name": "Kaio Jorge"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Cruzeiro",
+            "id": "2022",
+            "slug": "cruzeiro"
+        },
+        "status": "€ 7.2M"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "308939",
+            "slug": "franco-carboni",
+            "name": "Franco Carboni"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 11",
+        "player": {
+            "id": "344917",
+            "slug": "vasilije-adzic",
+            "name": "Vasilije Adzic"
+        },
+        "fromClub": {
+            "name": "Buducnost Podgorica",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "283139",
+            "slug": "khephren-thuram",
+            "name": "Khephren Thuram"
+        },
+        "fromClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "€ 20M"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "297360",
+            "slug": "rafa-marin",
+            "name": "Rafa Marín"
+        },
+        "fromClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "toClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "148974",
+            "slug": "leonardo-spinazzola",
+            "name": "Leonardo Spinazzola"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "248633",
+            "slug": "moise-kean",
+            "name": "Moise Kean"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Fiorentina",
+            "id": "109",
+            "slug": "fiorentina"
+        },
+        "status": "€ 13M"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "240533",
+            "slug": "josep-martinez",
+            "name": "Josep Martínez"
+        },
+        "fromClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "toClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "284081",
+            "slug": "caleb-okoli",
+            "name": "Caleb Okoli"
+        },
+        "fromClub": {
+            "name": "Atalanta",
+            "id": "105",
+            "slug": "atalanta"
+        },
+        "toClub": {
+            "name": "Leicester City",
+            "id": "375",
+            "slug": "leicester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "240055",
+            "slug": "michele-di-gregorio",
+            "name": "Michele Di Gregorio"
+        },
+        "fromClub": {
+            "name": "Monza",
+            "id": "4007",
+            "slug": "monza"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "320074",
+            "slug": "douglas-luiz",
+            "name": "Douglas Luiz"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "€ 50M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "341273",
+            "slug": "samuel-iling-junior",
+            "name": "Samuel Iling-Junior"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "€ 14M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "292921",
+            "slug": "enzo-barrenechea",
+            "name": "Enzo Barrenechea"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "€ 8M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "309570",
+            "slug": "koni-de-winter",
+            "name": "Koni De Winter"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "status": "€ 8M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "214319",
+            "slug": "angelino",
+            "name": "Angeliño"
+        },
+        "fromClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "toClub": {
+            "name": "AS Roma",
+            "id": "104",
+            "slug": "as-roma"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "98193",
+            "slug": "marko-arnautovic",
+            "name": "Marko Arnautovic"
+        },
+        "fromClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "toClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "271769",
+            "slug": "carlos-augusto",
+            "name": "Carlos Augusto"
+        },
+        "fromClub": {
+            "name": "Monza",
+            "id": "4007",
+            "slug": "monza"
+        },
+        "toClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "296319",
+            "slug": "charles-de-ketelaere",
+            "name": "Charles De Ketelaere"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Atalanta",
+            "id": "105",
+            "slug": "atalanta"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "212953",
+            "slug": "ben-godfrey",
+            "name": "Ben Godfrey"
+        },
+        "fromClub": {
+            "name": "Everton",
+            "id": "368",
+            "slug": "everton"
+        },
+        "toClub": {
+            "name": "Atalanta",
+            "id": "105",
+            "slug": "atalanta"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "367861",
+            "slug": "alex-jimenez",
+            "name": "Álex Jiménez"
+        },
+        "fromClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "toClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "222595",
+            "slug": "rade-krunic",
+            "name": "Rade Krunic"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Fenerbahce",
+            "id": "436",
+            "slug": "fenerbahce"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "325554",
+            "slug": "omari-forson",
+            "name": "Omari Forson"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Monza",
+            "id": "4007",
+            "slug": "monza"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "219362",
+            "slug": "daichi-kamada",
+            "name": "Daichi Kamada"
+        },
+        "fromClub": {
+            "name": "Lazio",
+            "id": "112",
+            "slug": "lazio"
+        },
+        "toClub": {
+            "name": "Crystal Palace",
+            "id": "384",
+            "slug": "crystal-palace"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "219611",
+            "slug": "mehdi-taremi",
+            "name": "Mehdi Taremi"
+        },
+        "fromClub": {
+            "name": "FC Porto",
+            "id": "437",
+            "slug": "fc-porto"
+        },
+        "toClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Mar 27",
+        "player": {
+            "id": "382771",
+            "slug": "matteo-schiavoni",
+            "name": "Matteo Schiavoni"
+        },
+        "fromClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 15",
+        "player": {
+            "id": "151510",
+            "slug": "luis-muriel",
+            "name": "Luis Muriel"
+        },
+        "fromClub": {
+            "name": "Atalanta",
+            "id": "105",
+            "slug": "atalanta"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "220851",
+            "slug": "karol-swiderski",
+            "name": "Karol Swiderski"
+        },
+        "fromClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "toClub": {
+            "name": "Hellas Verona",
+            "id": "119",
+            "slug": "hellas-verona"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "276692",
+            "slug": "gianluca-gaetano",
+            "name": "Gianluca Gaetano"
+        },
+        "fromClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "toClub": {
+            "name": "Cagliari",
+            "id": "2925",
+            "slug": "cagliari"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "303633",
+            "slug": "marco-pellegrino",
+            "name": "Marco Pellegrino"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Salernitana",
+            "id": "3240",
+            "slug": "salernitana"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "312770",
+            "slug": "chaka-traore",
+            "name": "Chaka Traorè"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Palermo",
+            "id": "2923",
+            "slug": "palermo"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "302162",
+            "slug": "carlos-alcaraz",
+            "name": "Carlos Alcaraz"
+        },
+        "fromClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 30",
+        "player": {
+            "id": "214319",
+            "slug": "angelino",
+            "name": "Angeliño"
+        },
+        "fromClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "toClub": {
+            "name": "AS Roma",
+            "id": "104",
+            "slug": "as-roma"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "182680",
+            "slug": "leander-dendoncker",
+            "name": "Leander Dendoncker"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": "252447",
+            "slug": "alessio-zerbin",
+            "name": "Alessio Zerbin"
+        },
+        "fromClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "toClub": {
+            "name": "Monza",
+            "id": "4007",
+            "slug": "monza"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 22",
+        "player": {
+            "id": "283682",
+            "slug": "tiago-djalo",
+            "name": "Tiago Djaló"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "€ 3.6M"
+    },
+    {
+        "date": "Jan 22",
+        "player": {
+            "id": "303844",
+            "slug": "luka-romero",
+            "name": "Luka Romero"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Almería",
+            "id": "6832",
+            "slug": "almeria"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 19",
+        "player": {
+            "id": "283741",
+            "slug": "cyril-ngonge",
+            "name": "Cyril Ngonge"
+        },
+        "fromClub": {
+            "name": "Hellas Verona",
+            "id": "119",
+            "slug": "hellas-verona"
+        },
+        "toClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "291677",
+            "slug": "marley-ake",
+            "name": "Marley Aké"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Yverdon",
+            "id": "21538",
+            "slug": "yverdon"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "273255",
+            "slug": "filippo-ranocchia",
+            "name": "Filippo Ranocchia"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Palermo",
+            "id": "2923",
+            "slug": "palermo"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 17",
+        "player": {
+            "id": "257058",
+            "slug": "hamed-traore",
+            "name": "Hamed Traoré"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 17",
+        "player": {
+            "id": "270010",
+            "slug": "alessandro-zanoli",
+            "name": "Alessandro Zanoli"
+        },
+        "fromClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "toClub": {
+            "name": "Salernitana",
+            "id": "3240",
+            "slug": "salernitana"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 15",
+        "player": {
+            "id": "252607",
+            "slug": "sebastian-breza",
+            "name": "Sebastian Breza"
+        },
+        "fromClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 15",
+        "player": {
+            "id": "292011",
+            "slug": "joaquin-sosa",
+            "name": "Joaquín Sosa"
+        },
+        "fromClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 13",
+        "player": {
+            "id": "222595",
+            "slug": "rade-krunic",
+            "name": "Rade Krunic"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Fenerbahce",
+            "id": "436",
+            "slug": "fenerbahce"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "310216",
+            "slug": "radu-dragusin",
+            "name": "Radu Dragusin"
+        },
+        "fromClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "toClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "251775",
+            "slug": "gianluca-frabotta",
+            "name": "Gianluca Frabotta"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Cosenza",
+            "id": "8683",
+            "slug": "cosenza"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "267711",
+            "slug": "djed-spence",
+            "name": "Djed Spence"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "282289",
+            "slug": "lucien-agoume",
+            "name": "Lucien Agoumé"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "290545",
+            "slug": "daniel-maldini",
+            "name": "Daniel Maldini"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "Monza",
+            "id": "4007",
+            "slug": "monza"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "261402",
+            "slug": "eddie-salcedo",
+            "name": "Eddie Salcedo"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Lecco",
+            "id": "6009",
+            "slug": "lecco"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 8",
+        "player": {
+            "id": "303919",
+            "slug": "filippo-terracciano",
+            "name": "Filippo Terracciano"
+        },
+        "fromClub": {
+            "name": "Hellas Verona",
+            "id": "119",
+            "slug": "hellas-verona"
+        },
+        "toClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "284769",
+            "slug": "tajon-buchanan",
+            "name": "Tajon Buchanan"
+        },
+        "fromClub": {
+            "name": "Club Brugge",
+            "id": "570",
+            "slug": "club-brugge"
+        },
+        "toClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "260188",
+            "slug": "pasquale-mazzocchi",
+            "name": "Pasquale Mazzocchi"
+        },
+        "fromClub": {
+            "name": "Salernitana",
+            "id": "3240",
+            "slug": "salernitana"
+        },
+        "toClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "237435",
+            "slug": "eljif-elmas",
+            "name": "Eljif Elmas"
+        },
+        "fromClub": {
+            "name": "Napoli",
+            "id": "114",
+            "slug": "napoli"
+        },
+        "toClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "status": "Undisclosed"
+    }
+]

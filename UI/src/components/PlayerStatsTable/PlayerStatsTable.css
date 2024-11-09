@@ -1,0 +1,103 @@
+
+.positionStatsTable .tableTitle{
+    border: none !important;
+}
+.positionStatsTable .tableTitle p{
+    color: var(--text-color);
+    font-weight: bold !important;
+    padding: 5px 0 10px;
+    font-size: 21px;
+}
+.positionStatsTable table{
+    width: 100%;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+.positionStatsTable table tr{
+    height: 36px;
+}
+.positionStatsTable table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 2px;
+
+}
+.positionStatsTable table tr td{
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+/* .positionStatsTable table tr td.teamStat{
+    display: flex;
+    gap: 5px;
+} */
+.positionStatsTable table tr td.teamStat div{
+    display: inline-block;
+}
+.positionStatsTable table tr td.teamStat .teamLogo{
+    margin-right: 3px;
+}
+.positionStatsTable table tr td.teamStat img{
+    transform: translateY(2px);
+}
+.positionStatsTable table tr .teamColumn{
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+}
+.positionStatsTable table tr .teamLogo{
+    width: 20px;
+}
+.positionStatsTable table tr .results .status{
+    margin-right: 5px;
+}
+
+.positionStatsTable table tr th:nth-child(1){
+    text-align: left;
+} 
+.positionStatsTable table tr a{
+    color: var(--text-color);
+    vertical-align: text-bottom;
+}
+@media (max-width: 600px) {
+    .positionStatsTable table tr td{
+        padding-right: 5px;
+        font-size: 13px;
+    }
+    .positionStatsTable table tr th{
+        padding-right: 5px;
+    }
+  }
+@media (max-width: 480px) {
+    .positionStatsTable table tr th:nth-child(6),
+    .positionStatsTable table tr th:nth-child(7){
+        display: none;
+    }
+    .positionStatsTable table tr td:nth-child(6),
+    .positionStatsTable table tr td:nth-child(7){
+        display: none;
+    }
+    .PageLayout__MainContainer section.currentPlayerStats .cardTitle .filters{
+        flex-direction: column;
+    }
+  }
+@media (max-width: 430px) {
+    .positionStatsTable table tr th:nth-child(4),
+    .positionStatsTable table tr th:nth-child(5){
+        display: none;
+    }
+    .positionStatsTable table tr td:nth-child(4),
+    .positionStatsTable table tr td:nth-child(5){
+        display: none;
+    }
+  }
+  @media (max-width: 400px) {
+    .positionStatsTable table tr td.teamStat .teamLogo{
+        margin-right: 0;
+    }
+  }

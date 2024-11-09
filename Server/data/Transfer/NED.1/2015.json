@@ -1,0 +1,781 @@
+[
+    {
+        "date": "Sep 1",
+        "player": {
+            "id": "190992",
+            "slug": "jordan-botaka",
+            "name": "Jordan Botaka"
+        },
+        "fromClub": {
+            "name": "Excelsior",
+            "id": "2566",
+            "slug": "excelsior"
+        },
+        "toClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "117977",
+            "slug": "jesus-corona",
+            "name": "Jesús Corona"
+        },
+        "fromClub": {
+            "name": "FC Twente",
+            "id": "152",
+            "slug": "fc-twente"
+        },
+        "toClub": {
+            "name": "FC Porto",
+            "id": "437",
+            "slug": "fc-porto"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "154550",
+            "slug": "elvis-manu",
+            "name": "Elvis Manu"
+        },
+        "fromClub": {
+            "name": "Feyenoord Rotterdam",
+            "id": "142",
+            "slug": "feyenoord-rotterdam"
+        },
+        "toClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 20",
+        "player": {
+            "id": "159245",
+            "slug": "kyle-ebecilio",
+            "name": "Kyle Ebecilio"
+        },
+        "fromClub": {
+            "name": "FC Twente",
+            "id": "152",
+            "slug": "fc-twente"
+        },
+        "toClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 15",
+        "player": {
+            "id": "125300",
+            "slug": "hector-moreno",
+            "name": "Héctor Moreno"
+        },
+        "fromClub": {
+            "name": "Espanyol",
+            "id": "88",
+            "slug": "espanyol"
+        },
+        "toClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "46528",
+            "slug": "eljero-elia",
+            "name": "Eljero Elia"
+        },
+        "fromClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "toClub": {
+            "name": "Feyenoord Rotterdam",
+            "id": "142",
+            "slug": "feyenoord-rotterdam"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "175324",
+            "slug": "todd-kane",
+            "name": "Todd Kane"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "NEC Nijmegen",
+            "id": "147",
+            "slug": "nec-nijmegen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "183097",
+            "slug": "aron-johannsson",
+            "name": "Aron Johannsson"
+        },
+        "fromClub": {
+            "name": "AZ Alkmaar",
+            "id": "140",
+            "slug": "az-alkmaar"
+        },
+        "toClub": {
+            "name": "Werder Bremen",
+            "id": "137",
+            "slug": "werder-bremen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "194115",
+            "slug": "dominic-solanke",
+            "name": "Dominic Solanke"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Vitesse",
+            "id": "154",
+            "slug": "vitesse"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 1",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Thomas Agyepong"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "FC Twente",
+            "id": "152",
+            "slug": "fc-twente"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "198134",
+            "slug": "ricardo-kishna",
+            "name": "Ricardo Kishna"
+        },
+        "fromClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "toClub": {
+            "name": "Lazio",
+            "id": "112",
+            "slug": "lazio"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "149577",
+            "slug": "steven-berghuis",
+            "name": "Steven Berghuis"
+        },
+        "fromClub": {
+            "name": "AZ Alkmaar",
+            "id": "140",
+            "slug": "az-alkmaar"
+        },
+        "toClub": {
+            "name": "Watford",
+            "id": "395",
+            "slug": "watford"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "150202",
+            "slug": "maikel-kieftenbeld",
+            "name": "Maikel Kieftenbeld"
+        },
+        "fromClub": {
+            "name": "FC Groningen",
+            "id": "145",
+            "slug": "fc-groningen"
+        },
+        "toClub": {
+            "name": "Birmingham City",
+            "id": "392",
+            "slug": "birmingham-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "199539",
+            "slug": "danilo-pantic",
+            "name": "Danilo Pantic"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Vitesse",
+            "id": "154",
+            "slug": "vitesse"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "116893",
+            "slug": "tjaronn-chery",
+            "name": "Tjaronn Chery"
+        },
+        "fromClub": {
+            "name": "FC Groningen",
+            "id": "145",
+            "slug": "fc-groningen"
+        },
+        "toClub": {
+            "name": "Queens Park Rangers",
+            "id": "334",
+            "slug": "queens-park-rangers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 17",
+        "player": {
+            "id": "144279",
+            "slug": "yaya-sanogo",
+            "name": "Yaya Sanogo"
+        },
+        "fromClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "toClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "150199",
+            "slug": "jordy-clasie",
+            "name": "Jordy Clasie"
+        },
+        "fromClub": {
+            "name": "Feyenoord Rotterdam",
+            "id": "142",
+            "slug": "feyenoord-rotterdam"
+        },
+        "toClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 14",
+        "player": {
+            "id": "150646",
+            "slug": "oscar-hiljemark",
+            "name": "Oscar Hiljemark"
+        },
+        "fromClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "toClub": {
+            "name": "Palermo",
+            "id": "2923",
+            "slug": "palermo"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 11",
+        "player": {
+            "id": "98342",
+            "slug": "georginio-wijnaldum",
+            "name": "Georginio Wijnaldum"
+        },
+        "fromClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "toClub": {
+            "name": "Newcastle United",
+            "id": "361",
+            "slug": "newcastle-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "184417",
+            "slug": "isaiah-brown",
+            "name": "Isaiah Brown"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Vitesse",
+            "id": "154",
+            "slug": "vitesse"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "195356",
+            "slug": "nathan-de-souza",
+            "name": "Nathan de Souza"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Vitesse",
+            "id": "154",
+            "slug": "vitesse"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "124245",
+            "slug": "cuco-martina",
+            "name": "Cuco Martina"
+        },
+        "fromClub": {
+            "name": "FC Twente",
+            "id": "152",
+            "slug": "fc-twente"
+        },
+        "toClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 6",
+        "player": {
+            "id": "184426",
+            "slug": "zakaria-bakkali",
+            "name": "Zakaria Bakkali"
+        },
+        "fromClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "toClub": {
+            "name": "Valencia",
+            "id": "94",
+            "slug": "valencia"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "105216",
+            "slug": "andreas-bjelland",
+            "name": "Andreas Bjelland"
+        },
+        "fromClub": {
+            "name": "FC Twente",
+            "id": "152",
+            "slug": "fc-twente"
+        },
+        "toClub": {
+            "name": "Brentford",
+            "id": "337",
+            "slug": "brentford"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "102183",
+            "slug": "kolbeinn-sigthorsson",
+            "name": "Kolbeinn Sigthorsson"
+        },
+        "fromClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "toClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "159255",
+            "slug": "memphis-depay",
+            "name": "Memphis Depay"
+        },
+        "fromClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "toClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "76932",
+            "slug": "andres-guardado",
+            "name": "Andrés Guardado"
+        },
+        "fromClub": {
+            "name": "Valencia",
+            "id": "94",
+            "slug": "valencia"
+        },
+        "toClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "147064",
+            "slug": "nicolas-isimat-mirin",
+            "name": "Nicolas Isimat-Mirin"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "128827",
+            "slug": "darryl-lachman",
+            "name": "Darryl Lachman"
+        },
+        "fromClub": {
+            "name": "FC Twente",
+            "id": "152",
+            "slug": "fc-twente"
+        },
+        "toClub": {
+            "name": "Sheffield Wednesday",
+            "id": "399",
+            "slug": "sheffield-wednesday"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "179359",
+            "slug": "arkadiusz-milik",
+            "name": "Arkadiusz Milik"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "133993",
+            "slug": "kristoffer-nordfeldt",
+            "name": "Kristoffer Nordfeldt"
+        },
+        "fromClub": {
+            "name": "Heerenveen",
+            "id": "146",
+            "slug": "heerenveen"
+        },
+        "toClub": {
+            "name": "Swansea City",
+            "id": "318",
+            "slug": "swansea-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "125136",
+            "slug": "przemyslaw-tyton",
+            "name": "Przemyslaw Tyton"
+        },
+        "fromClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "toClub": {
+            "name": "VfB Stuttgart",
+            "id": "134",
+            "slug": "vfb-stuttgart"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "10004",
+            "slug": "johnny-heitinga",
+            "name": "Johnny Heitinga"
+        },
+        "fromClub": {
+            "name": "Hertha Berlin",
+            "id": "129",
+            "slug": "hertha-berlin"
+        },
+        "toClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "190977",
+            "slug": "wesley-hoedt",
+            "name": "Wesley Hoedt"
+        },
+        "fromClub": {
+            "name": "AZ Alkmaar",
+            "id": "140",
+            "slug": "az-alkmaar"
+        },
+        "toClub": {
+            "name": "Lazio",
+            "id": "112",
+            "slug": "lazio"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "35887",
+            "slug": "niklas-moisander",
+            "name": "Niklas Moisander"
+        },
+        "fromClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "toClub": {
+            "name": "Sampdoria",
+            "id": "2734",
+            "slug": "sampdoria"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "40192",
+            "slug": "lewis-baker",
+            "name": "Lewis Baker"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Vitesse",
+            "id": "154",
+            "slug": "vitesse"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Jack Byrne"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "SC Cambuur",
+            "id": "3736",
+            "slug": "sc-cambuur"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "155531",
+            "slug": "lars-veldwijk",
+            "name": "Lars Veldwijk"
+        },
+        "fromClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "toClub": {
+            "name": "PEC Zwolle",
+            "id": "2565",
+            "slug": "pec-zwolle"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "38922",
+            "slug": "chris-david",
+            "name": "Chris David"
+        },
+        "fromClub": {
+            "name": "Fulham",
+            "id": "370",
+            "slug": "fulham"
+        },
+        "toClub": {
+            "name": "FC Twente",
+            "id": "152",
+            "slug": "fc-twente"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Andre Onana"
+        },
+        "fromClub": {
+            "name": "Barcelona",
+            "id": "83",
+            "slug": "barcelona"
+        },
+        "toClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 9",
+        "player": {
+            "id": "171573",
+            "slug": "albert-rusnak",
+            "name": "Albert Rusnák"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "FC Groningen",
+            "id": "145",
+            "slug": "fc-groningen"
+        },
+        "status": "Undisclosed"
+    }
+]

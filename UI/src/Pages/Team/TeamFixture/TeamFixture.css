@@ -1,0 +1,72 @@
+.teamSchedule .pageContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.teamSchedule .pageContent table{
+    width: 100%;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+.teamSchedule .pageContent table tr th{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.teamSchedule .pageContent table tr td{
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.teamSchedule .pageContent table tr td:nth-child(2){
+    text-align: right;
+}
+.teamSchedule .pageContent table tr th:nth-child(3){
+    text-align: center;
+}
+.teamSchedule .pageContent table tr .TeamsLogos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.teamSchedule .pageContent table tr .TeamsLogos .homeTeamLogo,
+.teamSchedule .pageContent table tr .TeamsLogos .awayTeamLogo{
+    min-width: 25px;
+}
+.teamSchedule .pageContent table tr img{
+    width: 25px;
+    height: 27px;
+    cursor: pointer;
+}
+.teamSchedule .pageContent table tr a{
+    color: var(--text-color);
+}
+.teamSchedule .pageContent table tr td .homeTeam a span:last-of-type,
+.teamSchedule .pageContent table tr td .awayTeam a span:last-of-type{
+    display: none;
+}
+@media (max-width: 991px) {
+    .pageHeader .teamInfo .teamNameAndQuickStat .followAndStat p{
+        display: none;
+    }
+    .teamSchedule .pageContent table tr td .homeTeam a span:first-of-type,
+    .teamSchedule .pageContent table tr td .awayTeam a span:first-of-type{
+        display: none;
+    }
+    .teamSchedule .pageContent table tr td .homeTeam a span:last-of-type,
+    .teamSchedule .pageContent table tr td .awayTeam a span:last-of-type{
+        display: block;
+    }
+}
+@media (max-width: 680px) {
+    .teamSchedule .pageContent table tr td{
+        padding-right: 5px;
+    }
+}
+@media (max-width: 630px) {
+    .teamSchedule .pageContent .Table_Data{
+        max-width: 630px;
+        overflow: scroll;
+    }
+    .teamSchedule .pageContent table{
+        min-width: 630px;
+    }
+}

@@ -1,0 +1,4486 @@
+[
+    {
+        "date": "Nov 2",
+        "player": {
+            "id": "41561",
+            "slug": "yoann-gourcuff",
+            "name": "Yoann Gourcuff"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Sep 14",
+        "player": {
+            "id": "41561",
+            "slug": "yoann-gourcuff",
+            "name": "Yoann Gourcuff"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Sep 1",
+        "player": {
+            "id": "144607",
+            "slug": "papy-djilobodji",
+            "name": "Papy Djilobodji"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Sep 1",
+        "player": {
+            "id": "181140",
+            "slug": "anthony-martial",
+            "name": "Anthony Martial"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Sep 1",
+        "player": {
+            "id": "135216",
+            "slug": "ryan-mendes",
+            "name": "Ryan Mendes"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "84484",
+            "slug": "lorik-cana",
+            "name": "Lorik Cana"
+        },
+        "fromClub": {
+            "name": "Lazio",
+            "id": "112",
+            "slug": "lazio"
+        },
+        "toClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "212149",
+            "slug": "olivier-kemen",
+            "name": "Olivier Kemen"
+        },
+        "fromClub": {
+            "name": "Newcastle United",
+            "id": "361",
+            "slug": "newcastle-united"
+        },
+        "toClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "159330",
+            "slug": "lenny-nangis",
+            "name": "Lenny Nangis"
+        },
+        "fromClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "toClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Rolando"
+        },
+        "fromClub": {
+            "name": "FC Porto",
+            "id": "437",
+            "slug": "fc-porto"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "215574",
+            "slug": "lucas-tousart",
+            "name": "Lucas Tousart"
+        },
+        "fromClub": {
+            "name": "Valenciennes",
+            "id": "6732",
+            "slug": "valenciennes"
+        },
+        "toClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Jeremie Boga"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "104457",
+            "slug": "paolo-de-ceglie",
+            "name": "Paolo De Ceglie"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "113574",
+            "slug": "mauricio-isla",
+            "name": "Mauricio Isla"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "181729",
+            "slug": "mario-lemina",
+            "name": "Mario Lemina"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "135216",
+            "slug": "ryan-mendes",
+            "name": "Ryan Mendes"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "187608",
+            "slug": "youssouf-sabaly",
+            "name": "Youssouf Sabaly"
+        },
+        "fromClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "toClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "135390",
+            "slug": "aymen-abdennour",
+            "name": "Aymen Abdennour"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Valencia",
+            "id": "94",
+            "slug": "valencia"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "98413",
+            "slug": "anthony-mounier",
+            "name": "Anthony Mounier"
+        },
+        "fromClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "toClub": {
+            "name": "Bologna",
+            "id": "107",
+            "slug": "bologna"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "176423",
+            "slug": "rony-lopes",
+            "name": "Rony Lopes"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "121339",
+            "slug": "ola-toivonen",
+            "name": "Ola Toivonen"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "Sunderland",
+            "id": "366",
+            "slug": "sunderland"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "152582",
+            "slug": "layvin-kurzawa",
+            "name": "Layvin Kurzawa"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "108103",
+            "slug": "lucas-silva",
+            "name": "Lucas Silva"
+        },
+        "fromClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "160115",
+            "slug": "lucas-digne",
+            "name": "Lucas Digne"
+        },
+        "fromClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "toClub": {
+            "name": "AS Roma",
+            "id": "104",
+            "slug": "as-roma"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 19",
+        "player": {
+            "id": "156898",
+            "slug": "florian-thauvin",
+            "name": "Florian Thauvin"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "Newcastle United",
+            "id": "361",
+            "slug": "newcastle-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 19",
+        "player": {
+            "id": "136688",
+            "slug": "remy-cabella",
+            "name": "Rémy Cabella"
+        },
+        "fromClub": {
+            "name": "Newcastle United",
+            "id": "361",
+            "slug": "newcastle-united"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 18",
+        "player": {
+            "id": "153634",
+            "slug": "valentin-eysseric",
+            "name": "Valentin Eysseric"
+        },
+        "fromClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "toClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 15",
+        "player": {
+            "id": "180740",
+            "slug": "clinton-njie",
+            "name": "Clinton N'Jie"
+        },
+        "fromClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "toClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 14",
+        "player": {
+            "id": "93313",
+            "slug": "mapou-yanga-mbiwa",
+            "name": "Mapou Yanga-Mbiwa"
+        },
+        "fromClub": {
+            "name": "AS Roma",
+            "id": "104",
+            "slug": "as-roma"
+        },
+        "toClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "status": "€ 8M"
+    },
+    {
+        "date": "Aug 11",
+        "player": {
+            "id": "86265",
+            "slug": "mathieu-valbuena",
+            "name": "Mathieu Valbuena"
+        },
+        "fromClub": {
+            "name": "Dinamo Moscow",
+            "id": "596",
+            "slug": "dinamo-moscow"
+        },
+        "toClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 10",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": " Gabriel Boschilia"
+        },
+        "fromClub": {
+            "name": "São Paulo",
+            "id": "2026",
+            "slug": "sao-paulo"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "108223",
+            "slug": "angel-di-maria",
+            "name": "Ángel Di María"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "136434",
+            "slug": "jacques-zoua",
+            "name": "Jacques Zoua"
+        },
+        "fromClub": {
+            "name": "Hamburg SV",
+            "id": "127",
+            "slug": "hamburg-sv"
+        },
+        "toClub": {
+            "name": "GFC Ajaccio",
+            "id": "7707",
+            "slug": "gfc-ajaccio"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "138414",
+            "slug": "benjamin-moukandjo",
+            "name": "Benjamin Moukandjo"
+        },
+        "fromClub": {
+            "name": "Stade de Reims",
+            "id": "3243",
+            "slug": "stade-de-reims"
+        },
+        "toClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "145911",
+            "slug": "majeed-waris",
+            "name": "Majeed Waris"
+        },
+        "fromClub": {
+            "name": "Trabzonspor",
+            "id": "997",
+            "slug": "trabzonspor"
+        },
+        "toClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "123983",
+            "slug": "modou-sougou",
+            "name": "Modou Sougou"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "Sheffield Wednesday",
+            "id": "399",
+            "slug": "sheffield-wednesday"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 4",
+        "player": {
+            "id": "82576",
+            "slug": "max-gradel",
+            "name": "Max Gradel"
+        },
+        "fromClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "toClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "84893",
+            "slug": "jimmy-briand",
+            "name": "Jimmy Briand"
+        },
+        "fromClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "toClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "173556",
+            "slug": "ngolo-kante",
+            "name": "N'Golo Kanté"
+        },
+        "fromClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "toClub": {
+            "name": "Leicester City",
+            "id": "375",
+            "slug": "leicester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "149878",
+            "slug": "bilel-mohsni",
+            "name": "Bilel Mohsni"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 31",
+        "player": {
+            "id": "157675",
+            "slug": "jordan-veretout",
+            "name": "Jordan Veretout"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 30",
+        "player": {
+            "id": "102040",
+            "slug": "stoppila-sunzu",
+            "name": "Stoppila Sunzu"
+        },
+        "fromClub": {
+            "name": "Shanghai Greenland Shenhua",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "43936",
+            "slug": "abou-diaby",
+            "name": "Abou Diaby"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "184118",
+            "slug": "seko-fofana",
+            "name": "Seko Fofana"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Bastia",
+            "id": "173",
+            "slug": "bastia"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 28",
+        "player": {
+            "id": "122031",
+            "slug": "abdelhamid-el-kaoutari",
+            "name": "Abdelhamid El Kaoutari"
+        },
+        "fromClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "toClub": {
+            "name": "Palermo",
+            "id": "2923",
+            "slug": "palermo"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "123518",
+            "slug": "jordan-ayew",
+            "name": "Jordan Ayew"
+        },
+        "fromClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 27",
+        "player": {
+            "id": "169220",
+            "slug": "javier-manquillo",
+            "name": "Javier Manquillo"
+        },
+        "fromClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 24",
+        "player": {
+            "id": "67870",
+            "slug": "lassana-diarra",
+            "name": "Lassana Diarra"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 22",
+        "player": {
+            "id": "33979",
+            "slug": "issa-cissokho",
+            "name": "Issa Cissokho"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "status": "€ 500K"
+    },
+    {
+        "date": "Jul 22",
+        "player": {
+            "id": "105471",
+            "slug": "milan-gajic",
+            "name": "Milan Gajic"
+        },
+        "fromClub": {
+            "name": "OFK Beograd",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 21",
+        "player": {
+            "id": "101283",
+            "slug": "mariano",
+            "name": "Mariano"
+        },
+        "fromClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "toClub": {
+            "name": "Sevilla",
+            "id": "243",
+            "slug": "sevilla"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 21",
+        "player": {
+            "id": "111207",
+            "slug": "nolan-roux",
+            "name": "Nolan Roux"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 21",
+        "player": {
+            "id": "177128",
+            "slug": "julien-fabri",
+            "name": "Julien Fabri"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "Bourg-Peronnas",
+            "id": "11895",
+            "slug": "bourg-peronnas"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 21",
+        "player": {
+            "id": "191942",
+            "slug": "marcel-tisserand",
+            "name": "Marcel Tisserand"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "122991",
+            "slug": "jonathan-kodjia",
+            "name": "Jonathan Kodjia"
+        },
+        "fromClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "toClub": {
+            "name": "Bristol City",
+            "id": "333",
+            "slug": "bristol-city"
+        },
+        "status": "£ 2.1M"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "164172",
+            "slug": "emiliano-sala",
+            "name": "Emiliano Sala"
+        },
+        "fromClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "toClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "status": "€ 1M"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "152629",
+            "slug": "jeff-louis",
+            "name": "Jeff Louis"
+        },
+        "fromClub": {
+            "name": "Standard Liege",
+            "id": "559",
+            "slug": "standard-liege"
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "144280",
+            "slug": "benjamin-stambouli",
+            "name": "Benjamin Stambouli"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 20",
+        "player": {
+            "id": "191943",
+            "slug": "jessy-pi",
+            "name": "Jessy Pi"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Troyes",
+            "id": "170",
+            "slug": "troyes"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 18",
+        "player": {
+            "id": "185455",
+            "slug": "baptiste-guillaume",
+            "name": "Baptiste Guillaume"
+        },
+        "fromClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "toClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "status": "€ 4M"
+    },
+    {
+        "date": "Jul 18",
+        "player": {
+            "id": "192058",
+            "slug": "jordan-amavi",
+            "name": "Jordan Amavi"
+        },
+        "fromClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 17",
+        "player": {
+            "id": "169801",
+            "slug": "mohamed-yattara",
+            "name": "Mohamed Yattara"
+        },
+        "fromClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "toClub": {
+            "name": "Standard Liege",
+            "id": "559",
+            "slug": "standard-liege"
+        },
+        "status": "€ 2M"
+    },
+    {
+        "date": "Jul 17",
+        "player": {
+            "id": "121568",
+            "slug": "damien-perquis",
+            "name": "Damien Perquis"
+        },
+        "fromClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "toClub": {
+            "name": "Valenciennes",
+            "id": "6732",
+            "slug": "valenciennes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "84945",
+            "slug": "mevlut-erdinc",
+            "name": "Mevlut Erdinç"
+        },
+        "fromClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "toClub": {
+            "name": "Hannover 96",
+            "id": "2428",
+            "slug": "hannover-96"
+        },
+        "status": "€ 3.3M"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "172969",
+            "slug": "junior-tallo",
+            "name": "Junior Tallo"
+        },
+        "fromClub": {
+            "name": "AS Roma",
+            "id": "104",
+            "slug": "as-roma"
+        },
+        "toClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 14",
+        "player": {
+            "id": "178782",
+            "slug": "mauro-goicoechea",
+            "name": "Mauro Goicoechea"
+        },
+        "fromClub": {
+            "name": "Arouca",
+            "id": "15784",
+            "slug": "arouca"
+        },
+        "toClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "136687",
+            "slug": "frederic-bulot",
+            "name": "Frédéric Bulot"
+        },
+        "fromClub": {
+            "name": "Standard Liege",
+            "id": "559",
+            "slug": "standard-liege"
+        },
+        "toClub": {
+            "name": "Stade de Reims",
+            "id": "3243",
+            "slug": "stade-de-reims"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "86341",
+            "slug": "mounir-obaddi",
+            "name": "Mounir Obaddi"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "85080",
+            "slug": "thomas-mangani",
+            "name": "Thomas Mangani"
+        },
+        "fromClub": {
+            "name": "Hellas Verona",
+            "id": "119",
+            "slug": "hellas-verona"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 13",
+        "player": {
+            "id": "130036",
+            "slug": "stephan-el-shaarawy",
+            "name": "Stephan El Shaarawy"
+        },
+        "fromClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "86220",
+            "slug": "ludovic-baal",
+            "name": "Ludovic Baal"
+        },
+        "fromClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "187884",
+            "slug": "ivan-cavaleiro",
+            "name": "Ivan Cavaleiro"
+        },
+        "fromClub": {
+            "name": "Benfica",
+            "id": "1929",
+            "slug": "benfica"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "€ 15M"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "69450",
+            "slug": "yohan-cabaye",
+            "name": "Yohan Cabaye"
+        },
+        "fromClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "toClub": {
+            "name": "Crystal Palace",
+            "id": "384",
+            "slug": "crystal-palace"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "174893",
+            "slug": "yannick-carrasco",
+            "name": "Yannick Carrasco"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "144517",
+            "slug": "idrissa-gueye",
+            "name": "Idrissa Gueye"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "139087",
+            "slug": "adama-noss-traore",
+            "name": "Adama Noss Traoré"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "84473",
+            "slug": "jerome-le-moigne",
+            "name": "Jérôme Le Moigne"
+        },
+        "fromClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "toClub": {
+            "name": "GFC Ajaccio",
+            "id": "7707",
+            "slug": "gfc-ajaccio"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "101779",
+            "slug": "delvin-ndinga",
+            "name": "Delvin N'Dinga"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Lokomotiv Moscow",
+            "id": "442",
+            "slug": "lokomotiv-moscow"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 8",
+        "player": {
+            "id": "122280",
+            "slug": "kevin-trapp",
+            "name": "Kevin Trapp"
+        },
+        "fromClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "toClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 8",
+        "player": {
+            "id": "88993",
+            "slug": "didier-digard",
+            "name": "Didier Digard"
+        },
+        "fromClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "toClub": {
+            "name": "Real Betis",
+            "id": "244",
+            "slug": "real-betis"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 8",
+        "player": {
+            "id": "157901",
+            "slug": "valere-germain",
+            "name": "Valère Germain"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "163922",
+            "slug": "bouna-sarr",
+            "name": "Bouna Sarr"
+        },
+        "fromClub": {
+            "name": "Metz",
+            "id": "177",
+            "slug": "metz"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "€ 2M"
+    },
+    {
+        "date": "Jul 6",
+        "player": {
+            "id": "169222",
+            "slug": "pedro-mendes",
+            "name": "Pedro Mendes"
+        },
+        "fromClub": {
+            "name": "Parma",
+            "id": "115",
+            "slug": "parma"
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "196729",
+            "slug": "hamari-traore",
+            "name": "Hamari Traoré"
+        },
+        "fromClub": {
+            "name": "Lierse",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Stade de Reims",
+            "id": "3243",
+            "slug": "stade-de-reims"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 4",
+        "player": {
+            "id": "152625",
+            "slug": "nicolas-benezet",
+            "name": "Nicolas Benezet"
+        },
+        "fromClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "toClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "status": "€ 1.2M"
+    },
+    {
+        "date": "Jul 4",
+        "player": {
+            "id": "101431",
+            "slug": "joris-delle",
+            "name": "Joris Delle"
+        },
+        "fromClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "toClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 4",
+        "player": {
+            "id": "180747",
+            "slug": "issiaga-sylla",
+            "name": "Issiaga Sylla"
+        },
+        "fromClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "toClub": {
+            "name": "GFC Ajaccio",
+            "id": "7707",
+            "slug": "gfc-ajaccio"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 3",
+        "player": {
+            "id": "154738",
+            "slug": "guido-carrillo",
+            "name": "Guido Carrillo"
+        },
+        "fromClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "€ 8.8M"
+    },
+    {
+        "date": "Jul 3",
+        "player": {
+            "id": "154738",
+            "slug": "guido-carrillo",
+            "name": "Guido Carrillo"
+        },
+        "fromClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "€ 8.8M"
+    },
+    {
+        "date": "Jul 3",
+        "player": {
+            "id": "150318",
+            "slug": "lionel-carole",
+            "name": "Lionel Carole"
+        },
+        "fromClub": {
+            "name": "Troyes",
+            "id": "170",
+            "slug": "troyes"
+        },
+        "toClub": {
+            "name": "Galatasaray",
+            "id": "432",
+            "slug": "galatasaray"
+        },
+        "status": "€ 1.5M"
+    },
+    {
+        "date": "Jul 3",
+        "player": {
+            "id": "150041",
+            "slug": "jonathan-delaplace",
+            "name": "Jonathan Delaplace"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 3",
+        "player": {
+            "id": "87706",
+            "slug": "radamel-falcao",
+            "name": "Radamel Falcao"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 3",
+        "player": {
+            "id": "189668",
+            "slug": "mario-pasalic",
+            "name": "Mario Pasalic"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "96527",
+            "slug": "claudio-beauvue",
+            "name": "Claudio Beauvue"
+        },
+        "fromClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "toClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "152270",
+            "slug": "geoffrey-kondogbia",
+            "name": "Geoffrey Kondogbia"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "159263",
+            "slug": "lucas-ocampos",
+            "name": "Lucas Ocampos"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "163961",
+            "slug": "karim-rekik",
+            "name": "Karim Rekik"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "102183",
+            "slug": "kolbeinn-sigthorsson",
+            "name": "Kolbeinn Sigthorsson"
+        },
+        "fromClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "toClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "141847",
+            "slug": "giannelli-imbula",
+            "name": "Giannelli Imbula"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "FC Porto",
+            "id": "437",
+            "slug": "fc-porto"
+        },
+        "status": "€ 20M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "147180",
+            "slug": "abdoulay-diaby",
+            "name": "Abdoulay Diaby"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Club Brugge",
+            "id": "570",
+            "slug": "club-brugge"
+        },
+        "status": "€ 2M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "111320",
+            "slug": "ryad-boudebouz",
+            "name": "Ryad Boudebouz"
+        },
+        "fromClub": {
+            "name": "Bastia",
+            "id": "173",
+            "slug": "bastia"
+        },
+        "toClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "status": "€ 1.7M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "129916",
+            "slug": "kian-hansen",
+            "name": "Kian Hansen"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "FC Midtjylland",
+            "id": "572",
+            "slug": "fc-midtjylland"
+        },
+        "status": "€ 1.5M"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "176287",
+            "slug": "fabinho",
+            "name": "Fabinho"
+        },
+        "fromClub": {
+            "name": "Rio Ave",
+            "id": "3822",
+            "slug": "rio-ave"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "143576",
+            "slug": "serge-aurier",
+            "name": "Sèrge Aurier"
+        },
+        "fromClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "toClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "113826",
+            "slug": "christian-bekamenga",
+            "name": "Christian Bekamenga"
+        },
+        "fromClub": {
+            "name": "Stade Laval",
+            "id": "3266",
+            "slug": "stade-laval"
+        },
+        "toClub": {
+            "name": "Troyes",
+            "id": "170",
+            "slug": "troyes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Ramy Bensebaini "
+        },
+        "fromClub": {
+            "name": "Paradou AC",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "85486",
+            "slug": "renato-civelli",
+            "name": "Renato Civelli"
+        },
+        "fromClub": {
+            "name": "Bursaspor",
+            "id": "3837",
+            "slug": "bursaspor"
+        },
+        "toClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "131454",
+            "slug": "christopher-glombard",
+            "name": "Christopher Glombard"
+        },
+        "fromClub": {
+            "name": "Stade de Reims",
+            "id": "3243",
+            "slug": "stade-de-reims"
+        },
+        "toClub": {
+            "name": "Paris FC",
+            "id": "6851",
+            "slug": "paris-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "147064",
+            "slug": "nicolas-isimat-mirin",
+            "name": "Nicolas Isimat-Mirin"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "PSV Eindhoven",
+            "id": "148",
+            "slug": "psv-eindhoven"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "177550",
+            "slug": "corentin-jean",
+            "name": "Corentin Jean"
+        },
+        "fromClub": {
+            "name": "Troyes",
+            "id": "170",
+            "slug": "troyes"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "155022",
+            "slug": "azbe-jug",
+            "name": "Azbe Jug"
+        },
+        "fromClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "toClub": {
+            "name": "Sporting CP",
+            "id": "2250",
+            "slug": "sporting-cp"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "99987",
+            "slug": "simon-kjaer",
+            "name": "Simon Kjaer"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Fenerbahce",
+            "id": "436",
+            "slug": "fenerbahce"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "84877",
+            "slug": "dimitri-payet",
+            "name": "Dimitri Payet"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "West Ham United",
+            "id": "371",
+            "slug": "west-ham-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "193539",
+            "slug": "jean-michael-seri",
+            "name": "Jean Michaël Seri"
+        },
+        "fromClub": {
+            "name": "Paços de Ferreira",
+            "id": "3713",
+            "slug": "pacos-de-ferreira"
+        },
+        "toClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "100645",
+            "slug": "giovanni-sio",
+            "name": "Giovanni Sio"
+        },
+        "fromClub": {
+            "name": "FC Basel",
+            "id": "989",
+            "slug": "fc-basel"
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "153075",
+            "slug": "yacouba-sylla",
+            "name": "Yacouba Sylla"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "120771",
+            "slug": "franck-tabanou",
+            "name": "Franck Tabanou"
+        },
+        "fromClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "toClub": {
+            "name": "Swansea City",
+            "id": "318",
+            "slug": "swansea-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "129415",
+            "slug": "kevin-theophile-catherine",
+            "name": "Kévin Théophile-Catherine"
+        },
+        "fromClub": {
+            "name": "Cardiff City",
+            "id": "347",
+            "slug": "cardiff-city"
+        },
+        "toClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "133613",
+            "slug": "nill-de-pauw",
+            "name": "Nill de Pauw"
+        },
+        "fromClub": {
+            "name": "KSC Lokeren",
+            "id": "1032",
+            "slug": "ksc-lokeren"
+        },
+        "toClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "41320",
+            "slug": "benoit-assou-ekotto",
+            "name": "Benoît Assou-Ekotto"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "104030",
+            "slug": "andre-ayew",
+            "name": "André Ayew"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "Swansea City",
+            "id": "318",
+            "slug": "swansea-city"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "169802",
+            "slug": "syam-ben-youssef",
+            "name": "Syam Ben Youssef"
+        },
+        "fromClub": {
+            "name": "Astra",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "101428",
+            "slug": "vincent-bessat",
+            "name": "Vincent Bessat"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "170284",
+            "slug": "pierrick-capelle",
+            "name": "Pierrick Capelle"
+        },
+        "fromClub": {
+            "name": "Clermont Foot",
+            "id": "3171",
+            "slug": "clermont-foot"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "164110",
+            "slug": "rayan-frikeche",
+            "name": "Rayan Frikeche"
+        },
+        "fromClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "toClub": {
+            "name": "AC Ajaccio",
+            "id": "2503",
+            "slug": "ac-ajaccio"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "85028",
+            "slug": "serge-gakpe",
+            "name": "Serge Gakpé"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "85028",
+            "slug": "serge-gakpe",
+            "name": "Serge Gakpé"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Genoa",
+            "id": "3263",
+            "slug": "genoa"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "84854",
+            "slug": "andre-pierre-gignac",
+            "name": "André-Pierre Gignac"
+        },
+        "fromClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "toClub": {
+            "name": "Tigres UANL",
+            "id": "232",
+            "slug": "tigres-uanl"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "98411",
+            "slug": "loosemy-karaboue",
+            "name": "Loosémy Karaboué"
+        },
+        "fromClub": {
+            "name": "AS Nancy Lorraine",
+            "id": "3267",
+            "slug": "as-nancy-lorraine"
+        },
+        "toClub": {
+            "name": "Troyes",
+            "id": "170",
+            "slug": "troyes"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "143255",
+            "slug": "billy-ketkeophomphone",
+            "name": "Billy Ketkeophomphone"
+        },
+        "fromClub": {
+            "name": "Tours",
+            "id": "6992",
+            "slug": "tours"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "84852",
+            "slug": "jeremy-morel",
+            "name": "Jérémy Morel"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Jordan Nkololo"
+        },
+        "fromClub": {
+            "name": "Clermont Foot",
+            "id": "3171",
+            "slug": "clermont-foot"
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "150282",
+            "slug": "vincent-pajot",
+            "name": "Vincent Pajot"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "128829",
+            "slug": "pape-paye",
+            "name": "Pape Paye"
+        },
+        "fromClub": {
+            "name": "Dijon FCO",
+            "id": "3170",
+            "slug": "dijon-fco"
+        },
+        "toClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "85055",
+            "slug": "yohann-pele",
+            "name": "Yohann Pelé"
+        },
+        "fromClub": {
+            "name": "Sochaux",
+            "id": "272",
+            "slug": "sochaux"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Axel Prohouly"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Queens Park Rangers",
+            "id": "334",
+            "slug": "queens-park-rangers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "127788",
+            "slug": "william-remy",
+            "name": "William Rémy"
+        },
+        "fromClub": {
+            "name": "Dijon FCO",
+            "id": "3170",
+            "slug": "dijon-fco"
+        },
+        "toClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "98965",
+            "slug": "ismael-traore",
+            "name": "Ismaël Traoré"
+        },
+        "fromClub": {
+            "name": "Brest",
+            "id": "6997",
+            "slug": "brest"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "159059",
+            "slug": "adryan",
+            "name": "Adryan"
+        },
+        "fromClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "toClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "163932",
+            "slug": "rachid-alioui",
+            "name": "Rachid Alioui"
+        },
+        "fromClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "toClub": {
+            "name": "Stade Laval",
+            "id": "3266",
+            "slug": "stade-laval"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "148987",
+            "slug": "alphonse-areola",
+            "name": "Alphonse Areola"
+        },
+        "fromClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "toClub": {
+            "name": "Villarreal",
+            "id": "102",
+            "slug": "villarreal"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "220703",
+            "slug": "ramy-bensebaini",
+            "name": "Ramy Bensebaini"
+        },
+        "fromClub": {
+            "name": "Lierse SK",
+            "id": "3682",
+            "slug": "lierse-sk"
+        },
+        "toClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "177962",
+            "slug": "dominik-furman",
+            "name": "Dominik Furman"
+        },
+        "fromClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "toClub": {
+            "name": "Legia Warsaw",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "140961",
+            "slug": "dragos-grigore",
+            "name": "Dragos Grigore"
+        },
+        "fromClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "toClub": {
+            "name": "Al-Sailiya",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "167376",
+            "slug": "philipp-hosiner",
+            "name": "Philipp Hosiner"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "FC Cologne",
+            "id": "122",
+            "slug": "fc-cologne"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "177550",
+            "slug": "corentin-jean",
+            "name": "Corentin Jean"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Troyes",
+            "id": "170",
+            "slug": "troyes"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "148988",
+            "slug": "yassine-jebbour",
+            "name": "Yassine Jebbour"
+        },
+        "fromClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "toClub": {
+            "name": "Bastia",
+            "id": "173",
+            "slug": "bastia"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "164179",
+            "slug": "saber-khalifa",
+            "name": "Saber Khalifa"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "Club Africain",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "113445",
+            "slug": "sloan-privat",
+            "name": "Sloan Privat"
+        },
+        "fromClub": {
+            "name": "KAA Gent",
+            "id": "3611",
+            "slug": "kaa-gent"
+        },
+        "toClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jun 30",
+        "player": {
+            "id": "186195",
+            "slug": "fares-bahlouli",
+            "name": "Farés Bahlouli"
+        },
+        "fromClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 27",
+        "player": {
+            "id": "144809",
+            "slug": "sadio-diallo",
+            "name": "Sadio Diallo"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "Bastia",
+            "id": "173",
+            "slug": "bastia"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 26",
+        "player": {
+            "id": "190291",
+            "slug": "thomas-lemar",
+            "name": "Thomas Lemar"
+        },
+        "fromClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "€ 4M"
+    },
+    {
+        "date": "Jun 26",
+        "player": {
+            "id": "128933",
+            "slug": "yoann-andreu",
+            "name": "Yoann Andreu"
+        },
+        "fromClub": {
+            "name": "GFC Ajaccio",
+            "id": "7707",
+            "slug": "gfc-ajaccio"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 25",
+        "player": {
+            "id": "150291",
+            "slug": "eric-bautheac",
+            "name": "Eric Bauthéac"
+        },
+        "fromClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "toClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "status": "£ 2.4M"
+    },
+    {
+        "date": "Jun 25",
+        "player": {
+            "id": "155924",
+            "slug": "gaetan-courtet",
+            "name": "Gaetan Courtet"
+        },
+        "fromClub": {
+            "name": "Stade de Reims",
+            "id": "3243",
+            "slug": "stade-de-reims"
+        },
+        "toClub": {
+            "name": "AJ Auxerre",
+            "id": "172",
+            "slug": "aj-auxerre"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 25",
+        "player": {
+            "id": "206016",
+            "slug": "florian-fabre",
+            "name": "Florian Fabre"
+        },
+        "fromClub": {
+            "name": "GFC Ajaccio",
+            "id": "7707",
+            "slug": "gfc-ajaccio"
+        },
+        "toClub": {
+            "name": "Nimes",
+            "id": "7730",
+            "slug": "nimes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 25",
+        "player": {
+            "id": "135548",
+            "slug": "maxime-le-marchand",
+            "name": "Maxime Le Marchand"
+        },
+        "fromClub": {
+            "name": "Le Havre AC",
+            "id": "3236",
+            "slug": "le-havre-ac"
+        },
+        "toClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 24",
+        "player": {
+            "id": "191109",
+            "slug": "cheikh-ndoye",
+            "name": "Cheikh N'Doye"
+        },
+        "fromClub": {
+            "name": "Créteil",
+            "id": "12971",
+            "slug": "creteil"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 23",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Mathias Serin"
+        },
+        "fromClub": {
+            "name": "SO Romorantin",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 20",
+        "player": {
+            "id": "136381",
+            "slug": "gilles-sunu",
+            "name": "Gilles Sunu"
+        },
+        "fromClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 18",
+        "player": {
+            "id": "192055",
+            "slug": "georges-kevin-nkoudou",
+            "name": "Georges-Kévin N'Koudou"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 15",
+        "player": {
+            "id": "156407",
+            "slug": "chaker-alhadhur",
+            "name": "Chaker Alhadhur"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 13",
+        "player": {
+            "id": "131456",
+            "slug": "sacha-clemence",
+            "name": "Sacha Clemence"
+        },
+        "fromClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "toClub": {
+            "name": "Créteil",
+            "id": "12971",
+            "slug": "creteil"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 12",
+        "player": {
+            "id": "191721",
+            "slug": "slimane-sissoko",
+            "name": "Slimane Sissoko"
+        },
+        "fromClub": {
+            "name": "Vendee Lucon",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 12",
+        "player": {
+            "id": "213219",
+            "slug": "salimo-sylla",
+            "name": "Salimo Sylla"
+        },
+        "fromClub": {
+            "name": "Troyes",
+            "id": "170",
+            "slug": "troyes"
+        },
+        "toClub": {
+            "name": "AJ Auxerre",
+            "id": "172",
+            "slug": "aj-auxerre"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 10",
+        "player": {
+            "id": "150450",
+            "slug": "zacharie-boucher",
+            "name": "Zacharie Boucher"
+        },
+        "fromClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "toClub": {
+            "name": "AJ Auxerre",
+            "id": "172",
+            "slug": "aj-auxerre"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 10",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Florian Le Joncour"
+        },
+        "fromClub": {
+            "name": "US Concarneau",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 9",
+        "player": {
+            "id": "113534",
+            "slug": "wilfried-moimbe",
+            "name": "Wilfried Moimbé"
+        },
+        "fromClub": {
+            "name": "Brest",
+            "id": "6997",
+            "slug": "brest"
+        },
+        "toClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 9",
+        "player": {
+            "id": "43340",
+            "slug": "hatem-ben-arfa",
+            "name": "Hatem Ben Arfa"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jun 5",
+        "player": {
+            "id": "173266",
+            "slug": "adrien-thomasson",
+            "name": "Adrien Thomasson"
+        },
+        "fromClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "toClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "status": "€ 800K"
+    },
+    {
+        "date": "Jun 3",
+        "player": {
+            "id": "113826",
+            "slug": "christian-bekamenga",
+            "name": "Christian Bekamenga"
+        },
+        "fromClub": {
+            "name": "Stade Laval",
+            "id": "3266",
+            "slug": "stade-laval"
+        },
+        "toClub": {
+            "name": "Troyes",
+            "id": "170",
+            "slug": "troyes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 25",
+        "player": {
+            "id": "171613",
+            "slug": "cyriaque-rivieyran",
+            "name": "Cyriaque Rivieyran"
+        },
+        "fromClub": {
+            "name": "GFC Ajaccio",
+            "id": "7707",
+            "slug": "gfc-ajaccio"
+        },
+        "toClub": {
+            "name": "Clermont Foot",
+            "id": "3171",
+            "slug": "clermont-foot"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 24",
+        "player": {
+            "id": "170605",
+            "slug": "wesley-jobello",
+            "name": "Wesley Jobello"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "Clermont Foot",
+            "id": "3171",
+            "slug": "clermont-foot"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 6",
+        "player": {
+            "id": "173630",
+            "slug": "doria",
+            "name": "Dória"
+        },
+        "fromClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "toClub": {
+            "name": "São Paulo",
+            "id": "2026",
+            "slug": "sao-paulo"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "192446",
+            "slug": "dimitri-kevin-cavare",
+            "name": "Dimitri Kevin Cavaré"
+        },
+        "fromClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "181713",
+            "slug": "romain-philippoteaux",
+            "name": "Romain Philippoteaux"
+        },
+        "fromClub": {
+            "name": "Dijon FCO",
+            "id": "3170",
+            "slug": "dijon-fco"
+        },
+        "toClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "136381",
+            "slug": "gilles-sunu",
+            "name": "Gilles Sunu"
+        },
+        "fromClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "toClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Sebastian Wuthrich"
+        },
+        "fromClub": {
+            "name": "FC Sion",
+            "id": "3076",
+            "slug": "fc-sion"
+        },
+        "toClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "133847",
+            "slug": "cheick-fantamady-diarra",
+            "name": "Cheick Fantamady Diarra"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "AJ Auxerre",
+            "id": "172",
+            "slug": "aj-auxerre"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "197320",
+            "slug": "lyes-houri",
+            "name": "Lyes Houri"
+        },
+        "fromClub": {
+            "name": "Valenciennes",
+            "id": "6732",
+            "slug": "valenciennes"
+        },
+        "toClub": {
+            "name": "Bastia",
+            "id": "173",
+            "slug": "bastia"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "152625",
+            "slug": "nicolas-benezet",
+            "name": "Nicolas Benezet"
+        },
+        "fromClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "170638",
+            "slug": "jean-deza",
+            "name": "Jean Deza"
+        },
+        "fromClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "toClub": {
+            "name": "Alianza Lima",
+            "id": "2680",
+            "slug": "alianza-lima"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "150332",
+            "slug": "mathieu-duhamel",
+            "name": "Mathieu Duhamel"
+        },
+        "fromClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "toClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "167728",
+            "slug": "jeremy-frick",
+            "name": "Jeremy Frick"
+        },
+        "fromClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "toClub": {
+            "name": "Servette",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "148988",
+            "slug": "yassine-jebbour",
+            "name": "Yassine Jebbour"
+        },
+        "fromClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "toClub": {
+            "name": "Varese",
+            "id": "9346",
+            "slug": "varese"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "159263",
+            "slug": "lucas-ocampos",
+            "name": "Lucas Ocampos"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Marseille",
+            "id": "176",
+            "slug": "marseille"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "198154",
+            "slug": "amine-oudrhiri",
+            "name": "Amine Oudrhiri"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Arles",
+            "id": "10373",
+            "slug": "arles"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Domonique Pandor"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Paris FC",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "121568",
+            "slug": "damien-perquis",
+            "name": "Damien Perquis"
+        },
+        "fromClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "164136",
+            "slug": "florian-raspentino",
+            "name": "Florian Raspentino"
+        },
+        "fromClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "toClub": {
+            "name": "Dijon FCO",
+            "id": "3170",
+            "slug": "dijon-fco"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "121840",
+            "slug": "ronny-rodelin",
+            "name": "Ronny Rodelin"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Mouscron",
+            "id": "12514",
+            "slug": "mouscron"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "192446",
+            "slug": "dimitri-kevin-cavare",
+            "name": "Dimitri Kevin Cavaré"
+        },
+        "fromClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "197631",
+            "slug": "mory-diaw",
+            "name": "Mory Diaw"
+        },
+        "fromClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "toClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "147867",
+            "slug": "etey-shechter",
+            "name": "Etey Shechter"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Maccabi Haifa",
+            "id": null,
+            "slug": null
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "140408",
+            "slug": "pape-souare",
+            "name": "Pape Souaré"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Crystal Palace",
+            "id": "384",
+            "slug": "crystal-palace"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "85071",
+            "slug": "gael-danic",
+            "name": "Gaël Danic"
+        },
+        "fromClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "toClub": {
+            "name": "Bastia",
+            "id": "173",
+            "slug": "bastia"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "158966",
+            "slug": "matheus-carvalho",
+            "name": "Matheus Carvalho"
+        },
+        "fromClub": {
+            "name": "Fluminense",
+            "id": "3445",
+            "slug": "fluminense"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "192446",
+            "slug": "dimitri-kevin-cavare",
+            "name": "Dimitri Kevin Cavaré"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "Lens",
+            "id": "175",
+            "slug": "lens"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "84953",
+            "slug": "alain-traore",
+            "name": "Alain Traoré"
+        },
+        "fromClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "197313",
+            "slug": "clement-badin",
+            "name": "Clement Badin"
+        },
+        "fromClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "toClub": {
+            "name": "Alavés",
+            "id": "96",
+            "slug": "alaves"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "158966",
+            "slug": "matheus-carvalho",
+            "name": "Matheus Carvalho"
+        },
+        "fromClub": {
+            "name": "Fluminense",
+            "id": "3445",
+            "slug": "fluminense"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "100645",
+            "slug": "giovanni-sio",
+            "name": "Giovanni Sio"
+        },
+        "fromClub": {
+            "name": "FC Basel",
+            "id": "989",
+            "slug": "fc-basel"
+        },
+        "toClub": {
+            "name": "Bastia",
+            "id": "173",
+            "slug": "bastia"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 29",
+        "player": {
+            "id": "84885",
+            "slug": "bocundji-ca",
+            "name": "Bocundji Ca"
+        },
+        "fromClub": {
+            "name": "Stade de Reims",
+            "id": "3243",
+            "slug": "stade-de-reims"
+        },
+        "toClub": {
+            "name": "Chateauroux",
+            "id": "2995",
+            "slug": "chateauroux"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 29",
+        "player": {
+            "id": "191153",
+            "slug": "bryan-pele",
+            "name": "Bryan Pelé"
+        },
+        "fromClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "toClub": {
+            "name": "Brest",
+            "id": "6997",
+            "slug": "brest"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 29",
+        "player": {
+            "id": "179597",
+            "slug": "borja-lopez",
+            "name": "Borja López"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Deportivo La Coruña",
+            "id": "90",
+            "slug": "deportivo-la-coruna"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 29",
+        "player": {
+            "id": "164172",
+            "slug": "emiliano-sala",
+            "name": "Emiliano Sala"
+        },
+        "fromClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "164172",
+            "slug": "emiliano-sala",
+            "name": "Emiliano Sala"
+        },
+        "fromClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "toClub": {
+            "name": "Caen",
+            "id": "2927",
+            "slug": "caen"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 25",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Tafsir Cherif"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Orléans",
+            "id": "17483",
+            "slug": "orleans"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 23",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Florian Sotoca"
+        },
+        "fromClub": {
+            "name": "Beziers",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 22",
+        "player": {
+            "id": "166657",
+            "slug": "isaac-kiese-thelin",
+            "name": "Isaac Kiese Thelin"
+        },
+        "fromClub": {
+            "name": "Malmö FF",
+            "id": "2720",
+            "slug": "malmo-ff"
+        },
+        "toClub": {
+            "name": "Bordeaux",
+            "id": "159",
+            "slug": "bordeaux"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 22",
+        "player": {
+            "id": "136691",
+            "slug": "dany-nounkeu",
+            "name": "Dany Nounkeu"
+        },
+        "fromClub": {
+            "name": "Galatasaray",
+            "id": "432",
+            "slug": "galatasaray"
+        },
+        "toClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "199833",
+            "slug": "bernardo-silva",
+            "name": "Bernardo Silva"
+        },
+        "fromClub": {
+            "name": "Benfica",
+            "id": "1929",
+            "slug": "benfica"
+        },
+        "toClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "131744",
+            "slug": "enzo-reale",
+            "name": "Enzo Réale"
+        },
+        "fromClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "toClub": {
+            "name": "Arles",
+            "id": "10373",
+            "slug": "arles"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "155600",
+            "slug": "jerome-roussillon",
+            "name": "Jérôme Roussillon"
+        },
+        "fromClub": {
+            "name": "Sochaux",
+            "id": "272",
+            "slug": "sochaux"
+        },
+        "toClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "155600",
+            "slug": "jerome-roussillon",
+            "name": "Jérôme Roussillon"
+        },
+        "fromClub": {
+            "name": "Montpellier",
+            "id": "274",
+            "slug": "montpellier"
+        },
+        "toClub": {
+            "name": "Sochaux",
+            "id": "272",
+            "slug": "sochaux"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 17",
+        "player": {
+            "id": "147213",
+            "slug": "nicolas-blandi",
+            "name": "Nicolás Blandi"
+        },
+        "fromClub": {
+            "name": "San Lorenzo",
+            "id": "18",
+            "slug": "san-lorenzo"
+        },
+        "toClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 16",
+        "player": {
+            "id": "187411",
+            "slug": "maxwel-cornet",
+            "name": "Maxwel Cornet"
+        },
+        "fromClub": {
+            "name": "Metz",
+            "id": "177",
+            "slug": "metz"
+        },
+        "toClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "status": "€ 200K"
+    },
+    {
+        "date": "Jan 16",
+        "player": {
+            "id": "85025",
+            "slug": "landry-nguemo",
+            "name": "Landry N'Guemo"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Saint-Etienne",
+            "id": "178",
+            "slug": "saint-etienne"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 16",
+        "player": {
+            "id": "155924",
+            "slug": "gaetan-courtet",
+            "name": "Gaetan Courtet"
+        },
+        "fromClub": {
+            "name": "Stade de Reims",
+            "id": "3243",
+            "slug": "stade-de-reims"
+        },
+        "toClub": {
+            "name": "Brest",
+            "id": "6997",
+            "slug": "brest"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 15",
+        "player": {
+            "id": "145561",
+            "slug": "gianni-bruno",
+            "name": "Gianni Bruno"
+        },
+        "fromClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "toClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 12",
+        "player": {
+            "id": "174863",
+            "slug": "axel-ngando",
+            "name": "Axel Ngando"
+        },
+        "fromClub": {
+            "name": "Stade de Reims",
+            "id": "3243",
+            "slug": "stade-de-reims"
+        },
+        "toClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 12",
+        "player": {
+            "id": "66822",
+            "slug": "david-ramirez",
+            "name": "David Ramírez"
+        },
+        "fromClub": {
+            "name": "Saprissa",
+            "id": "858",
+            "slug": "saprissa"
+        },
+        "toClub": {
+            "name": "Evian Thonon Gaillard",
+            "id": "11058",
+            "slug": "evian-thonon-gaillard"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "112485",
+            "slug": "jean-armel-kana-biyik",
+            "name": "Jean-Armel Kana-Biyik"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "Toulouse",
+            "id": "179",
+            "slug": "toulouse"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 8",
+        "player": {
+            "id": "178056",
+            "slug": "sofiane-boufal",
+            "name": "Sofiane Boufal"
+        },
+        "fromClub": {
+            "name": "Angers",
+            "id": "7868",
+            "slug": "angers"
+        },
+        "toClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 7",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Maki Tall"
+        },
+        "fromClub": {
+            "name": "Lille",
+            "id": "166",
+            "slug": "lille"
+        },
+        "toClub": {
+            "name": "Red Star FC",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "48372",
+            "slug": "dario-cvitanich",
+            "name": "Dario Cvitanich"
+        },
+        "fromClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "toClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Edvinas Gertmonas"
+        },
+        "fromClub": {
+            "name": "Atlantas",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "193614",
+            "slug": "ermir-lenjani",
+            "name": "Ermir Lenjani"
+        },
+        "fromClub": {
+            "name": "St. Gallen",
+            "id": "557",
+            "slug": "st-gallen"
+        },
+        "toClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": "187249",
+            "slug": "ferjani-sassi",
+            "name": "Ferjani Sassi"
+        },
+        "fromClub": {
+            "name": "Sfax",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Metz",
+            "id": "177",
+            "slug": "metz"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 6",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Edvinas Gertmonas"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "Atlantas",
+            "id": null,
+            "slug": null
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "180662",
+            "slug": "fakhreddine-ben-youssef",
+            "name": "Fakhreddine Ben Youssef"
+        },
+        "fromClub": {
+            "name": "Sfax",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Metz",
+            "id": "177",
+            "slug": "metz"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "43340",
+            "slug": "hatem-ben-arfa",
+            "name": "Hatem Ben Arfa"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Nice",
+            "id": "2502",
+            "slug": "nice"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 3",
+        "player": {
+            "id": "212927",
+            "slug": "janis-ikaunieks",
+            "name": "Janis Ikaunieks"
+        },
+        "fromClub": {
+            "name": "Liepajas Metalurgs",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Metz",
+            "id": "177",
+            "slug": "metz"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 3",
+        "player": {
+            "id": "215170",
+            "slug": "didier-ndong",
+            "name": "Didier N'Dong"
+        },
+        "fromClub": {
+            "name": "Sfax",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Lorient",
+            "id": "273",
+            "slug": "lorient"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "122549",
+            "slug": "yanis-salibur",
+            "name": "Yanis Salibur"
+        },
+        "fromClub": {
+            "name": "Clermont Foot",
+            "id": "3171",
+            "slug": "clermont-foot"
+        },
+        "toClub": {
+            "name": "Guingamp",
+            "id": "171",
+            "slug": "guingamp"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "186278",
+            "slug": "adrien-hunou",
+            "name": "Adrien Hunou"
+        },
+        "fromClub": {
+            "name": "Stade Rennais",
+            "id": "169",
+            "slug": "stade-rennais"
+        },
+        "toClub": {
+            "name": "Clermont Foot",
+            "id": "3171",
+            "slug": "clermont-foot"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "174896",
+            "slug": "birama-toure",
+            "name": "Birama Touré"
+        },
+        "fromClub": {
+            "name": "Nantes",
+            "id": "165",
+            "slug": "nantes"
+        },
+        "toClub": {
+            "name": "Brest",
+            "id": "6997",
+            "slug": "brest"
+        },
+        "status": "Loan"
+    }
+]

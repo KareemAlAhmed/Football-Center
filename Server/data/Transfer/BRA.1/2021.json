@@ -1,0 +1,496 @@
+[
+    {
+        "date": "Dec 13",
+        "player": {
+            "id": "241473",
+            "slug": "eduard-atuesta",
+            "name": "Eduard Atuesta"
+        },
+        "fromClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "toClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Sep 11",
+        "player": {
+            "id": "98398",
+            "slug": "david-luiz",
+            "name": "David Luiz"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "178487",
+            "slug": "willian",
+            "name": "Willian"
+        },
+        "fromClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "toClub": {
+            "name": "Corinthians",
+            "id": "874",
+            "slug": "corinthians"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 20",
+        "player": {
+            "id": "210143",
+            "slug": "andreas-pereira",
+            "name": "Andreas Pereira"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 19",
+        "player": {
+            "id": "195349",
+            "slug": "kenedy",
+            "name": "Kenedy"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 17",
+        "player": {
+            "id": "280978",
+            "slug": "kaio-jorge",
+            "name": "Kaio Jorge"
+        },
+        "fromClub": {
+            "name": "Santos",
+            "id": "2674",
+            "slug": "santos"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 14",
+        "player": {
+            "id": "95410",
+            "slug": "diego-costa",
+            "name": "Diego Costa"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Atlético-MG",
+            "id": "7632",
+            "slug": "atletico-mg"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 11",
+        "player": {
+            "id": "287773",
+            "slug": "davo",
+            "name": "Davó"
+        },
+        "fromClub": {
+            "name": "Corinthians",
+            "id": "874",
+            "slug": "corinthians"
+        },
+        "toClub": {
+            "name": "Philadelphia Union",
+            "id": "10739",
+            "slug": "philadelphia-union"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "300110",
+            "slug": "leo-chu",
+            "name": "Léo Chú"
+        },
+        "fromClub": {
+            "name": "Grêmio",
+            "id": "6273",
+            "slug": "gremio"
+        },
+        "toClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 5",
+        "player": {
+            "id": "286841",
+            "slug": "lucas-esteves",
+            "name": "Lucas Esteves"
+        },
+        "fromClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "202607",
+            "slug": "jorge",
+            "name": "Jorge"
+        },
+        "fromClub": {
+            "name": "AS Monaco",
+            "id": "174",
+            "slug": "as-monaco"
+        },
+        "toClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "225538",
+            "slug": "matheus-fernandes",
+            "name": "Matheus Fernandes"
+        },
+        "fromClub": {
+            "name": "Barcelona",
+            "id": "83",
+            "slug": "barcelona"
+        },
+        "toClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "282588",
+            "slug": "marcos-paulo",
+            "name": "Marcos Paulo"
+        },
+        "fromClub": {
+            "name": "Fluminense",
+            "id": "3445",
+            "slug": "fluminense"
+        },
+        "toClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "314846",
+            "slug": "kayky-chagas",
+            "name": "Kayky Chagas"
+        },
+        "fromClub": {
+            "name": "Fluminense",
+            "id": "3445",
+            "slug": "fluminense"
+        },
+        "toClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 21",
+        "player": {
+            "id": "127502",
+            "slug": "douglas-costa",
+            "name": "Douglas Costa"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "Grêmio",
+            "id": "6273",
+            "slug": "gremio"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Apr 26",
+        "player": {
+            "id": "194039",
+            "slug": "yeferson-soteldo",
+            "name": "Yeferson Soteldo"
+        },
+        "fromClub": {
+            "name": "Santos",
+            "id": "2674",
+            "slug": "santos"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 10",
+        "player": {
+            "id": "144012",
+            "slug": "thiago",
+            "name": "Thiago"
+        },
+        "fromClub": {
+            "name": "Bahia",
+            "id": "9967",
+            "slug": "bahia"
+        },
+        "toClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 1",
+        "player": {
+            "id": "188143",
+            "slug": "thiago-santos",
+            "name": "Thiago Santos"
+        },
+        "fromClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "toClub": {
+            "name": "Grêmio",
+            "id": "6273",
+            "slug": "gremio"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 25",
+        "player": {
+            "id": "285089",
+            "slug": "camilo",
+            "name": "Camilo"
+        },
+        "fromClub": {
+            "name": "Lyon",
+            "id": "167",
+            "slug": "lyon"
+        },
+        "toClub": {
+            "name": "Cuiabá",
+            "id": "17313",
+            "slug": "cuiaba"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 12",
+        "player": {
+            "id": "299932",
+            "slug": "caio-alexandre",
+            "name": "Caio Alexandre"
+        },
+        "fromClub": {
+            "name": "Botafogo",
+            "id": "6086",
+            "slug": "botafogo"
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 24",
+        "player": {
+            "id": "235893",
+            "slug": "gregore",
+            "name": "Gregore"
+        },
+        "fromClub": {
+            "name": "Bahia",
+            "id": "9967",
+            "slug": "bahia"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 9",
+        "player": {
+            "id": "257744",
+            "slug": "brenner",
+            "name": "Brenner"
+        },
+        "fromClub": {
+            "name": "São Paulo",
+            "id": "2026",
+            "slug": "sao-paulo"
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Diego Rosa"
+        },
+        "fromClub": {
+            "name": "Grêmio",
+            "id": "6273",
+            "slug": "gremio"
+        },
+        "toClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 29",
+        "player": {
+            "id": "124068",
+            "slug": "hulk",
+            "name": "Hulk"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "Atlético-MG",
+            "id": "7632",
+            "slug": "atletico-mg"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 21",
+        "player": {
+            "id": "201606",
+            "slug": "joao-paulo",
+            "name": "João Paulo"
+        },
+        "fromClub": {
+            "name": "Botafogo",
+            "id": "6086",
+            "slug": "botafogo"
+        },
+        "toClub": {
+            "name": "Seattle Sounders FC",
+            "id": "9726",
+            "slug": "seattle-sounders-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "196842",
+            "slug": "antonio-carlos",
+            "name": "Antônio Carlos"
+        },
+        "fromClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    }
+]

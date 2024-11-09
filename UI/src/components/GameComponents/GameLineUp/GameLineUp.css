@@ -1,0 +1,181 @@
+.LineUp_bothTeams{
+    display: flex;
+    gap: 20px;
+}
+.LineUp_bothTeams .LineUpContainer{
+    width: calc((100% - 20px) / 2);
+}
+.LineUp_bothTeams .LineUpContainer .LineUp_Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.LineUp_bothTeams .LineUpContainer .LineUp_Header .TeamLogo{
+    width: 20px;
+}
+.LineUp_bothTeams .LineUpContainer .LineUp_Header .teamFormation{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--text-color);
+}
+
+.LineUp_bothTeams .LineUpContainer  .tacticalFormation{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-top: 20px;
+    padding-top: 12px;
+    width: 100%;
+}
+.LineUp_bothTeams .LineUpContainer  .tacticalFormation .tacticalFormationField{
+    background: url(https://a.espncdn.com/redesign/assets/img/formations/ukcom-soccer-field-001.svg) 0 0 no-repeat;
+    display: block;
+    height: 278px;
+    list-style: none;
+    width: 421px;
+    position: relative;
+}
+
+.LineUp_bothTeams .LineUpContainer  .tacticalFormation .tacticalFormationField li{
+    height: 55px;
+    padding-left: 8px;
+    position: absolute;
+    width: 55px;
+}
+.LineUp_bothTeams .LineUpContainer  .tacticalFormation .tacticalFormationField li span.playerName{
+    bottom: 6px;
+    color: #fff;
+    font-size: 13px;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    text-overflow: ellipsis;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.LineUp_bothTeams .Wrapper .playerJersy{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.LineUp_bothTeams .Wrapper .playerJersy .shirtNumber{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    font-size: 11px;
+    font-weight: 700;
+}
+.LineUp_bothTeams .Wrapper .playerJersy svg{
+    display: block;
+    height: 80%;
+    margin: 10% auto;
+    overflow: hidden;
+}
+.LineUp_bothTeams .Wrapper  table {
+    width: 80%;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+.LineUp_bothTeams .Wrapper  table thead th{
+    text-align: left;
+}
+.LineUp_bothTeams .Wrapper  table thead th span:last-of-type{
+    margin-left: 8px;
+}
+.LineUp_bothTeams .Wrapper  table tbody td{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    gap: 5px;
+}
+.LineUp_bothTeams .Wrapper  table tbody td .mainPlayer,
+.LineUp_bothTeams .Wrapper  table tbody td .subedPlayer{
+    display: flex;
+    gap: 15px;
+}
+.LineUp_bothTeams .Wrapper  table tbody td .subedPlayer{
+    margin-left: 25px;
+    gap: 10px;
+}
+.LineUp_bothTeams .Wrapper  table tbody td .subedPlayer svg{
+    width: 25px;
+    fill: var(--text-color);
+}
+
+.LineUp_bothTeams .Wrapper  table tbody td span{
+    min-width: 20px;
+}
+/* .LineUp_bothTeams .Wrapper  table tbody td a{
+    margin-left: 23px;
+} */
+.LineUp_bothTeams .Wrapper .onSubstitutesPlayers table thead th:first-of-type{
+    text-align: left;
+    padding: 0px 20px 5px;
+    font-size: 19px;
+}
+.LineUp_bothTeams .Wrapper .onPitchPlayersList{
+    margin-bottom: 24px;
+}
+.scoredIcon{
+    width: 25px;
+    fill: var(--text-color);
+    cursor: pointer;
+}
+.yellowCardIcon{
+    width: 25px;
+    fill: yellow !important;
+    cursor: pointer;
+}
+.redCardIcon{
+    width: 25px;
+    fill: #C21807 !important;
+    cursor: pointer;
+}
+.tactFormSubIcon{
+    width: 22px;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    fill: var(--toastify-color-transparent);
+}
+.iconSvg{
+    position: relative;
+    cursor: pointer;
+}
+.iconSvg .iconValueContainer{
+    position: absolute;
+    bottom: 100%;
+    /* left: -5px;
+    right: -5px; */
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: var(--button-hover-color);
+    padding: 0px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    padding: 0 5px;
+}
+.iconSvg:hover .iconValueContainer{
+    max-height: 35px;
+}

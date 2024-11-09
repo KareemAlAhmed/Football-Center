@@ -1,0 +1,191 @@
+
+.playerHeaderInfo{
+    display: flex;
+    margin-bottom: 10px;
+}
+.playerHeaderInfo .teamLogo{
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+.playerHeaderInfo .teamLogo img{
+    width: 220px;
+    transform: translate(10px, -30px);
+}
+
+.playerHeaderInfo .playerQuickInfoAndStats{
+    display: flex;
+    flex: 1;
+    gap: 130px;
+}
+.playerHeaderInfo .playerQuickInfoAndStats .playerQuickInfo{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 3px;
+}
+.playerHeaderInfo .playerTeamInfo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.playerHeaderInfo  .playerNameAndTeam{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.playerHeaderInfo .playerNameAndTeam .playerTeamHeader{
+    display: flex;
+    gap: 7px;
+    color: var(--hover-color);
+    margin-bottom: 5px;
+}
+.playerHeaderInfo .playerTeamLogo img{
+    width: 23px;
+}
+
+.followBtn{
+    background-color: var(--text-color);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+.followBtn:hover{
+    background-color: var(--hover-color);
+}
+.playerHeaderInfo  .playerBio{
+    padding: 0 15px;
+    margin: 0 50px;
+}
+.playerHeaderInfo  .playerBio ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    justify-content: center;
+}
+.playerHeaderInfo  .playerBio ul li{
+    display: flex;
+    gap: 15px;
+}
+.playerHeaderInfo  .playerBio ul li .bioSection{
+    color: var(--hover-color);
+}
+.playerHeaderInfo  .playerBio ul li .bioValue{
+    color: var(--text-color);
+}
+.playerHeaderInfo .playerQuickInfoAndStats .playerCurrentStats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-color);
+}
+.playerHeaderInfo .playerQuickInfoAndStats .playerCurrentStats .statsWrapper{
+    border: 1px solid var(--social-back-color);
+    border-radius: 10px;
+}
+.playerHeaderInfo .playerQuickInfoAndStats .playerCurrentStats .currentLeagueSeason{
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: var(--social-back-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0 5px;
+}
+.playerHeaderInfo .playerQuickInfoAndStats .playerCurrentStats ul{
+    display: flex;
+    padding: 5px 15px;
+}
+.playerHeaderInfo .playerQuickInfoAndStats .playerCurrentStats ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.playerHeaderInfo .playerQuickInfoAndStats .playerCurrentStats ul li .statSection{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--hover-color);
+}
+.playerHeaderInfo .playerQuickInfoAndStats .playerCurrentStats ul li .statValue{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.leftlayer{
+    backface-visibility: hidden;
+    border-right: 2px solid;
+    -webkit-box-shadow: -5px 0 10px 0 rgba(0, 0, 0, .3);
+    box-shadow: -5px 0 10px 0 rgba(0, 0, 0, .3);
+    height: 160px;
+    left: 38px;
+    opacity: .7;
+    position: absolute;
+    -webkit-transform: skew(-25deg) translateZ(0);
+    transform: skew(-25deg) translateZ(0);
+    width: 108px;
+    /* z-index: 400; */
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+.rightlayer{
+    opacity: 1;
+    right: -40px;
+    background-color: var(--back-color);
+    transform: skew(-25deg);
+    width: 76px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    z-index: 400;
+}
+
+.playerPageOpts{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    color: var(--text-color);
+}
+
+.playerPageOpts span{
+    font-weight: 600;
+}
+.playerPageOpts .Nav__Secondary__Menu li{
+    padding: 0 10px 11px;
+}
+
+
+.playerQuickInfoAndStats .playerTeamHeader a{
+    color: var(--hover-color);
+}
+
+@media (max-width: 991px) {
+    .hideLeftSide{
+        display: none !important;
+    }
+    .playerHeaderInfo .playerBio{
+        margin: 0;
+    }
+    .playerPageOpts .Nav__Secondary__Menu{
+        display: inline-flex ;
+        overflow: scroll;
+    }
+}
+@media (max-width: 510px) {
+    .hidePlayerBio {
+        display: none;
+    }
+  }
+@media (max-width: 400px) {
+    .playerHeaderInfo .Nav__Secondary__Menu li a {
+        font-size: 15px;
+    }
+  }

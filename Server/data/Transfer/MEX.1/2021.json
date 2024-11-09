@@ -1,0 +1,230 @@
+[
+    {
+        "date": "Aug 31",
+        "player": {
+            "id": "297277",
+            "slug": "santiago-munoz",
+            "name": "Santiago Muñoz"
+        },
+        "fromClub": {
+            "name": "Santos",
+            "id": "225",
+            "slug": "santos"
+        },
+        "toClub": {
+            "name": "Newcastle United",
+            "id": "361",
+            "slug": "newcastle-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "257062",
+            "slug": "ake-arnaud-loba",
+            "name": "Aké Arnaud Loba"
+        },
+        "fromClub": {
+            "name": "Monterrey",
+            "id": "220",
+            "slug": "monterrey"
+        },
+        "toClub": {
+            "name": "Nashville SC",
+            "id": "18986",
+            "slug": "nashville-sc"
+        },
+        "status": "$ 6.8M"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "172599",
+            "slug": "jose-macias",
+            "name": "José Macías"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Getafe",
+            "id": "2922",
+            "slug": "getafe"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "207549",
+            "slug": "nicolas-ibanez",
+            "name": "Nicolás Ibáñez"
+        },
+        "fromClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "toClub": {
+            "name": "Pachuca",
+            "id": "234",
+            "slug": "pachuca"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 17",
+        "player": {
+            "id": "199958",
+            "slug": "luciano-acosta",
+            "name": "Luciano Acosta"
+        },
+        "fromClub": {
+            "name": "Atlas",
+            "id": "216",
+            "slug": "atlas"
+        },
+        "toClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 12",
+        "player": {
+            "id": "199822",
+            "slug": "anderson-julio",
+            "name": "Anderson Julio"
+        },
+        "fromClub": {
+            "name": "Atlético de San Luis",
+            "id": "15720",
+            "slug": "atletico-de-san-luis"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 3",
+        "player": {
+            "id": "269169",
+            "slug": "jonathan-suarez",
+            "name": "Jonathan Suarez"
+        },
+        "fromClub": {
+            "name": "Querétaro",
+            "id": "222",
+            "slug": "queretaro"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 3",
+        "player": {
+            "id": "181735",
+            "slug": "jose-van-rankin",
+            "name": "José Van Rankin"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 2",
+        "player": {
+            "id": "174703",
+            "slug": "william-yarbrough",
+            "name": "William Yarbrough"
+        },
+        "fromClub": {
+            "name": "León",
+            "id": "228",
+            "slug": "leon"
+        },
+        "toClub": {
+            "name": "Colorado Rapids",
+            "id": "184",
+            "slug": "colorado-rapids"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "104428",
+            "slug": "javier-lopez",
+            "name": "Javier López"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 19",
+        "player": {
+            "id": "202539",
+            "slug": "felipe-mora",
+            "name": "Felipe Mora"
+        },
+        "fromClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "197642",
+            "slug": "mauro-manotas",
+            "name": "Mauro Manotas"
+        },
+        "fromClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "toClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "status": "Undisclosed"
+    }
+]

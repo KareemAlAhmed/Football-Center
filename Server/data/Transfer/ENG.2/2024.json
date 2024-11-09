@@ -1,0 +1,2225 @@
+[
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "357769",
+            "slug": "ibane-bowat",
+            "name": "Ibane Bowat"
+        },
+        "fromClub": {
+            "name": "Fulham",
+            "id": "370",
+            "slug": "fulham"
+        },
+        "toClub": {
+            "name": "Portsmouth",
+            "id": "385",
+            "slug": "portsmouth"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "294344",
+            "slug": "harrison-ashby",
+            "name": "Harrison Ashby"
+        },
+        "fromClub": {
+            "name": "Newcastle United",
+            "id": "361",
+            "slug": "newcastle-united"
+        },
+        "toClub": {
+            "name": "Queens Park Rangers",
+            "id": "334",
+            "slug": "queens-park-rangers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "255915",
+            "slug": "josh-bowler",
+            "name": "Josh Bowler"
+        },
+        "fromClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "toClub": {
+            "name": "Preston North End",
+            "id": "394",
+            "slug": "preston-north-end"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "328023",
+            "slug": "thomas-cannon",
+            "name": "Thomas Cannon"
+        },
+        "fromClub": {
+            "name": "Leicester City",
+            "id": "375",
+            "slug": "leicester-city"
+        },
+        "toClub": {
+            "name": "Stoke City",
+            "id": "336",
+            "slug": "stoke-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "327170",
+            "slug": "amario-cozier-duberry",
+            "name": "Amario Cozier-Duberry"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Blackburn Rovers",
+            "id": "365",
+            "slug": "blackburn-rovers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "312182",
+            "slug": "daniel-jebbison",
+            "name": "Daniel Jebbison"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Watford",
+            "id": "395",
+            "slug": "watford"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "306541",
+            "slug": "myles-peart-harris",
+            "name": "Myles Peart-Harris"
+        },
+        "fromClub": {
+            "name": "Brentford",
+            "id": "337",
+            "slug": "brentford"
+        },
+        "toClub": {
+            "name": "Swansea City",
+            "id": "318",
+            "slug": "swansea-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "275109",
+            "slug": "nathaniel-phillips",
+            "name": "Nathaniel Phillips"
+        },
+        "fromClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "toClub": {
+            "name": "Derby County",
+            "id": "374",
+            "slug": "derby-county"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "307069",
+            "slug": "carl-rushworth",
+            "name": "Carl Rushworth"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "328013",
+            "slug": "jeremy-sarmiento",
+            "name": "Jeremy Sarmiento"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "177042",
+            "slug": "wout-weghorst",
+            "name": "Wout Weghorst"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "307657",
+            "slug": "jaidon-anthony",
+            "name": "Jaidon Anthony"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 29",
+        "player": {
+            "id": "359218",
+            "slug": "calum-scanlon",
+            "name": "Calum Scanlon"
+        },
+        "fromClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "toClub": {
+            "name": "Millwall",
+            "id": "391",
+            "slug": "millwall"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "300007",
+            "slug": "hannibal-mejbri",
+            "name": "Hannibal Mejbri"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "238192",
+            "slug": "chiedozie-ogbene",
+            "name": "Chiedozie Ogbene"
+        },
+        "fromClub": {
+            "name": "Luton Town",
+            "id": "301",
+            "slug": "luton-town"
+        },
+        "toClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 28",
+        "player": {
+            "id": "358407",
+            "slug": "mark-o’mahony",
+            "name": "Mark O’Mahony"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Portsmouth",
+            "id": "385",
+            "slug": "portsmouth"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "324164",
+            "slug": "shea-charles",
+            "name": "Shea Charles"
+        },
+        "fromClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "toClub": {
+            "name": "Sheffield Wednesday",
+            "id": "399",
+            "slug": "sheffield-wednesday"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "341736",
+            "slug": "gustavo-puerta",
+            "name": "Gustavo Puerta"
+        },
+        "fromClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "toClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 27",
+        "player": {
+            "id": "257256",
+            "slug": "manor-solomon",
+            "name": "Manor Solomon"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 26",
+        "player": {
+            "id": "298938",
+            "slug": "tawanda-chirewa",
+            "name": "Tawanda Chirewa"
+        },
+        "fromClub": {
+            "name": "Wolverhampton Wanderers",
+            "id": "380",
+            "slug": "wolverhampton-wanderers"
+        },
+        "toClub": {
+            "name": "Derby County",
+            "id": "374",
+            "slug": "derby-county"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 22",
+        "player": {
+            "id": "218998",
+            "slug": "sander-berge",
+            "name": "Sander Berge"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Fulham",
+            "id": "370",
+            "slug": "fulham"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 22",
+        "player": {
+            "id": "232291",
+            "slug": "joe-worrall",
+            "name": "Joe Worrall"
+        },
+        "fromClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "toClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 21",
+        "player": {
+            "id": "325541",
+            "slug": "bashir-humphreys",
+            "name": "Bashir Humphreys"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 20",
+        "player": {
+            "id": "304739",
+            "slug": "abdoulaye-kamara",
+            "name": "Abdoulaye Kamara"
+        },
+        "fromClub": {
+            "name": "Borussia Dortmund",
+            "id": "124",
+            "slug": "borussia-dortmund"
+        },
+        "toClub": {
+            "name": "Portsmouth",
+            "id": "385",
+            "slug": "portsmouth"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 19",
+        "player": {
+            "id": "278061",
+            "slug": "georginio-rutter",
+            "name": "Georginio Rutter"
+        },
+        "fromClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "toClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 16",
+        "player": {
+            "id": "326201",
+            "slug": "mason-burstow",
+            "name": "Mason Burstow"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 16",
+        "player": {
+            "id": "345687",
+            "slug": "wilson-odobert",
+            "name": "Wilson Odobert"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 16",
+        "player": {
+            "id": "223547",
+            "slug": "sammie-szmodics",
+            "name": "Sammie Szmodics"
+        },
+        "fromClub": {
+            "name": "Blackburn Rovers",
+            "id": "365",
+            "slug": "blackburn-rovers"
+        },
+        "toClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 16",
+        "player": {
+            "id": "307126",
+            "slug": "andy-moran",
+            "name": "Andy Moran"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Stoke City",
+            "id": "336",
+            "slug": "stoke-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 16",
+        "player": {
+            "id": "317718",
+            "slug": "jesurun-rak-sakyi",
+            "name": "Jesurun Rak-Sakyi"
+        },
+        "fromClub": {
+            "name": "Crystal Palace",
+            "id": "384",
+            "slug": "crystal-palace"
+        },
+        "toClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 14",
+        "player": {
+            "id": "348777",
+            "slug": "george-earthy",
+            "name": "George Earthy"
+        },
+        "fromClub": {
+            "name": "West Ham United",
+            "id": "371",
+            "slug": "west-ham-united"
+        },
+        "toClub": {
+            "name": "Bristol City",
+            "id": "333",
+            "slug": "bristol-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 12",
+        "player": {
+            "id": "306012",
+            "slug": "dane-scarlett",
+            "name": "Dane Scarlett"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Oxford United",
+            "id": "311",
+            "slug": "oxford-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 10",
+        "player": {
+            "id": "350661",
+            "slug": "lewis-koumas",
+            "name": "Lewis Koumas"
+        },
+        "fromClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "toClub": {
+            "name": "Stoke City",
+            "id": "336",
+            "slug": "stoke-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 9",
+        "player": {
+            "id": "310597",
+            "slug": "micah-hamilton",
+            "name": "Micah Hamilton"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Middlesbrough",
+            "id": "369",
+            "slug": "middlesbrough"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 9",
+        "player": {
+            "id": "298519",
+            "slug": "finley-burns",
+            "name": "Finley Burns"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 8",
+        "player": {
+            "id": "319431",
+            "slug": "william-osula",
+            "name": "William Osula"
+        },
+        "fromClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "toClub": {
+            "name": "Newcastle United",
+            "id": "361",
+            "slug": "newcastle-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 7",
+        "player": {
+            "id": "311181",
+            "slug": "alex-robertson",
+            "name": "Alex Robertson"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Cardiff City",
+            "id": "347",
+            "slug": "cardiff-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 7",
+        "player": {
+            "id": "325536",
+            "slug": "alfie-gilchrist",
+            "name": "Alfie Gilchrist"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 7",
+        "player": {
+            "id": "294308",
+            "slug": "kaine-kesler-hayden",
+            "name": "Kaine Kesler Hayden"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Preston North End",
+            "id": "394",
+            "slug": "preston-north-end"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "251775",
+            "slug": "gianluca-frabotta",
+            "name": "Gianluca Frabotta"
+        },
+        "fromClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "toClub": {
+            "name": "West Bromwich Albion",
+            "id": "383",
+            "slug": "west-bromwich-albion"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "296615",
+            "slug": "lewis-dobbin",
+            "name": "Lewis Dobbin"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "West Bromwich Albion",
+            "id": "383",
+            "slug": "west-bromwich-albion"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "310598",
+            "slug": "callum-doyle",
+            "name": "Callum Doyle"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Norwich City",
+            "id": "381",
+            "slug": "norwich-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 6",
+        "player": {
+            "id": "207461",
+            "slug": "harry-souttar",
+            "name": "Harry Souttar"
+        },
+        "fromClub": {
+            "name": "Leicester City",
+            "id": "375",
+            "slug": "leicester-city"
+        },
+        "toClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 3",
+        "player": {
+            "id": "284792",
+            "slug": "crysencio-summerville",
+            "name": "Crysencio Summerville"
+        },
+        "fromClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "toClub": {
+            "name": "West Ham United",
+            "id": "371",
+            "slug": "west-ham-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": "303742",
+            "slug": "malcolm-ebiowei",
+            "name": "Malcolm Ebiowei"
+        },
+        "fromClub": {
+            "name": "Crystal Palace",
+            "id": "384",
+            "slug": "crystal-palace"
+        },
+        "toClub": {
+            "name": "Oxford United",
+            "id": "311",
+            "slug": "oxford-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Aug 1",
+        "player": {
+            "id": "168309",
+            "slug": "conor-townsend",
+            "name": "Conor Townsend"
+        },
+        "fromClub": {
+            "name": "West Bromwich Albion",
+            "id": "383",
+            "slug": "west-bromwich-albion"
+        },
+        "toClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 30",
+        "player": {
+            "id": "292004",
+            "slug": "benjamin-chrisene",
+            "name": "Benjamin Chrisene"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Norwich City",
+            "id": "381",
+            "slug": "norwich-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 26",
+        "player": {
+            "id": "329951",
+            "slug": "jacob-farrell",
+            "name": "Jacob Farrell"
+        },
+        "fromClub": {
+            "name": "Central Coast Mariners",
+            "id": "5325",
+            "slug": "central-coast-mariners"
+        },
+        "toClub": {
+            "name": "Portsmouth",
+            "id": "385",
+            "slug": "portsmouth"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "210139",
+            "slug": "paddy-mcnair",
+            "name": "Paddy McNair"
+        },
+        "fromClub": {
+            "name": "Middlesbrough",
+            "id": "369",
+            "slug": "middlesbrough"
+        },
+        "toClub": {
+            "name": "San Diego FC",
+            "id": null,
+            "slug": null
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 25",
+        "player": {
+            "id": "210139",
+            "slug": "paddy-mcnair",
+            "name": "Paddy McNair"
+        },
+        "fromClub": {
+            "name": "San Diego FC",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "West Bromwich Albion",
+            "id": "383",
+            "slug": "west-bromwich-albion"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 24",
+        "player": {
+            "id": "345407",
+            "slug": "david-ozoh",
+            "name": "David Ozoh"
+        },
+        "fromClub": {
+            "name": "Crystal Palace",
+            "id": "384",
+            "slug": "crystal-palace"
+        },
+        "toClub": {
+            "name": "Derby County",
+            "id": "374",
+            "slug": "derby-county"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "295370",
+            "slug": "jaden-philogene",
+            "name": "Jaden Philogene"
+        },
+        "fromClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 17",
+        "player": {
+            "id": "259838",
+            "slug": "aro-muric",
+            "name": "Aro Muric"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 15",
+        "player": {
+            "id": "189605",
+            "slug": "kieffer-moore",
+            "name": "Kieffer Moore"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 14",
+        "player": {
+            "id": "176266",
+            "slug": "calum-chambers",
+            "name": "Calum Chambers"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Cardiff City",
+            "id": "347",
+            "slug": "cardiff-city"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "291174",
+            "slug": "jacob-greaves",
+            "name": "Jacob Greaves"
+        },
+        "fromClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "toClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 11",
+        "player": {
+            "id": "293347",
+            "slug": "cameron-archer",
+            "name": "Cameron Archer"
+        },
+        "fromClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 11",
+        "player": {
+            "id": "215790",
+            "slug": "joe-rothwell",
+            "name": "Joe Rothwell"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "312182",
+            "slug": "daniel-jebbison",
+            "name": "Daniel Jebbison"
+        },
+        "fromClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "toClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "325548",
+            "slug": "charlie-mcneill",
+            "name": "Charlie McNeill"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Sheffield Wednesday",
+            "id": "399",
+            "slug": "sheffield-wednesday"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "291174",
+            "slug": "jacob-greaves",
+            "name": "Jacob Greaves"
+        },
+        "fromClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "toClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 11",
+        "player": {
+            "id": "293347",
+            "slug": "cameron-archer",
+            "name": "Cameron Archer"
+        },
+        "fromClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 11",
+        "player": {
+            "id": "215790",
+            "slug": "joe-rothwell",
+            "name": "Joe Rothwell"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "312182",
+            "slug": "daniel-jebbison",
+            "name": "Daniel Jebbison"
+        },
+        "fromClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "toClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "325548",
+            "slug": "charlie-mcneill",
+            "name": "Charlie McNeill"
+        },
+        "fromClub": {
+            "name": "Manchester United",
+            "id": "360",
+            "slug": "manchester-united"
+        },
+        "toClub": {
+            "name": "Sheffield Wednesday",
+            "id": "399",
+            "slug": "sheffield-wednesday"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "256912",
+            "slug": "japhet-tanganga",
+            "name": "Japhet Tanganga"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Millwall",
+            "id": "391",
+            "slug": "millwall"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "286877",
+            "slug": "idris-el-mizouni",
+            "name": "Idris El Mizouni"
+        },
+        "fromClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "toClub": {
+            "name": "Oxford United",
+            "id": "311",
+            "slug": "oxford-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "250584",
+            "slug": "liam-morrison",
+            "name": "Liam Morrison"
+        },
+        "fromClub": {
+            "name": "Bayern Munich",
+            "id": "132",
+            "slug": "bayern-munich"
+        },
+        "toClub": {
+            "name": "Queens Park Rangers",
+            "id": "334",
+            "slug": "queens-park-rangers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "277005",
+            "slug": "nathan-wood",
+            "name": "Nathan Wood"
+        },
+        "fromClub": {
+            "name": "Swansea City",
+            "id": "318",
+            "slug": "swansea-city"
+        },
+        "toClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 4",
+        "player": {
+            "id": "329170",
+            "slug": "james-beadle",
+            "name": "James Beadle"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Sheffield Wednesday",
+            "id": "399",
+            "slug": "sheffield-wednesday"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "328050",
+            "slug": "archie-gray",
+            "name": "Archie Gray"
+        },
+        "fromClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "toClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "232325",
+            "slug": "joe-rodon",
+            "name": "Joe Rodon"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "152469",
+            "slug": "ross-barkley",
+            "name": "Ross Barkley"
+        },
+        "fromClub": {
+            "name": "Luton Town",
+            "id": "301",
+            "slug": "luton-town"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "295544",
+            "slug": "raphael-borges-rodrigues",
+            "name": "Raphael Borges Rodrigues"
+        },
+        "fromClub": {
+            "name": "Macarthur FC",
+            "id": "19340",
+            "slug": "macarthur-fc"
+        },
+        "toClub": {
+            "name": "Coventry City",
+            "id": "388",
+            "slug": "coventry-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "281121",
+            "slug": "taylor-harwood-bellis",
+            "name": "Taylor Harwood-Bellis"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "293826",
+            "slug": "aidan-morris",
+            "name": "Aidan Morris"
+        },
+        "fromClub": {
+            "name": "Columbus Crew",
+            "id": "183",
+            "slug": "columbus-crew"
+        },
+        "toClub": {
+            "name": "Middlesbrough",
+            "id": "369",
+            "slug": "middlesbrough"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "235116",
+            "slug": "luis-sinisterra",
+            "name": "Luis Sinisterra"
+        },
+        "fromClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "toClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "138821",
+            "slug": "charlie-taylor",
+            "name": "Charlie Taylor"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "157236",
+            "slug": "wes-foderingham",
+            "name": "Wes Foderingham"
+        },
+        "fromClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "toClub": {
+            "name": "West Ham United",
+            "id": "371",
+            "slug": "west-ham-united"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "199850",
+            "slug": "jack-harrison",
+            "name": "Jack Harrison"
+        },
+        "fromClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "toClub": {
+            "name": "Everton",
+            "id": "368",
+            "slug": "everton"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jun 27",
+        "player": {
+            "id": "246933",
+            "slug": "jamie-cumming",
+            "name": "Jamie Cumming"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Oxford United",
+            "id": "311",
+            "slug": "oxford-united"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 20",
+        "player": {
+            "id": "140531",
+            "slug": "kevin-long",
+            "name": "Kevin Long"
+        },
+        "fromClub": {
+            "name": "Birmingham City",
+            "id": "392",
+            "slug": "birmingham-city"
+        },
+        "toClub": {
+            "name": "Toronto FC",
+            "id": "7318",
+            "slug": "toronto-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 13",
+        "player": {
+            "id": "153613",
+            "slug": "matt-crooks",
+            "name": "Matt Crooks"
+        },
+        "fromClub": {
+            "name": "Middlesbrough",
+            "id": "369",
+            "slug": "middlesbrough"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "108374",
+            "slug": "john-fleck",
+            "name": "John Fleck"
+        },
+        "fromClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "toClub": {
+            "name": "Blackburn Rovers",
+            "id": "365",
+            "slug": "blackburn-rovers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "192027",
+            "slug": "ethan-horvath",
+            "name": "Ethan Horvath"
+        },
+        "fromClub": {
+            "name": "Nottingham Forest",
+            "id": "393",
+            "slug": "nottingham-forest"
+        },
+        "toClub": {
+            "name": "Cardiff City",
+            "id": "347",
+            "slug": "cardiff-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "362361",
+            "slug": "josh-robertson",
+            "name": "Josh Robertson"
+        },
+        "fromClub": {
+            "name": "Sunderland",
+            "id": "366",
+            "slug": "sunderland"
+        },
+        "toClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "265653",
+            "slug": "morgan-rogers",
+            "name": "Morgan Rogers"
+        },
+        "fromClub": {
+            "name": "Middlesbrough",
+            "id": "369",
+            "slug": "middlesbrough"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "333419",
+            "slug": "adam-wharton",
+            "name": "Adam Wharton"
+        },
+        "fromClub": {
+            "name": "Blackburn Rovers",
+            "id": "365",
+            "slug": "blackburn-rovers"
+        },
+        "toClub": {
+            "name": "Crystal Palace",
+            "id": "384",
+            "slug": "crystal-palace"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "192031",
+            "slug": "isaac-hayden",
+            "name": "Isaac Hayden"
+        },
+        "fromClub": {
+            "name": "Newcastle United",
+            "id": "361",
+            "slug": "newcastle-united"
+        },
+        "toClub": {
+            "name": "Queens Park Rangers",
+            "id": "334",
+            "slug": "queens-park-rangers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "290102",
+            "slug": "joseph-hodge",
+            "name": "Joseph Hodge"
+        },
+        "fromClub": {
+            "name": "Wolverhampton Wanderers",
+            "id": "380",
+            "slug": "wolverhampton-wanderers"
+        },
+        "toClub": {
+            "name": "Queens Park Rangers",
+            "id": "334",
+            "slug": "queens-park-rangers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "296469",
+            "slug": "billy-koumetio",
+            "name": "Billy Koumetio"
+        },
+        "fromClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "toClub": {
+            "name": "Blackburn Rovers",
+            "id": "365",
+            "slug": "blackburn-rovers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "189605",
+            "slug": "kieffer-moore",
+            "name": "Kieffer Moore"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "177110",
+            "slug": "connor-roberts",
+            "name": "Connor Roberts"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "329556",
+            "slug": "charles-sagoe-junior",
+            "name": "Charles Sagoe Junior"
+        },
+        "fromClub": {
+            "name": "Arsenal",
+            "id": "359",
+            "slug": "arsenal"
+        },
+        "toClub": {
+            "name": "Swansea City",
+            "id": "318",
+            "slug": "swansea-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "283798",
+            "slug": "femi-seriki",
+            "name": "Femi Seriki"
+        },
+        "fromClub": {
+            "name": "Sheffield United",
+            "id": "398",
+            "slug": "sheffield-united"
+        },
+        "toClub": {
+            "name": "Rotherham United",
+            "id": "402",
+            "slug": "rotherham-united"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "345119",
+            "slug": "lino-sousa",
+            "name": "Lino Sousa"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Plymouth Argyle",
+            "id": "307",
+            "slug": "plymouth-argyle"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "307117",
+            "slug": "josh-wilson-esbrand",
+            "name": "Josh Wilson-Esbrand"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Cardiff City",
+            "id": "347",
+            "slug": "cardiff-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "323725",
+            "slug": "anass-zaroury",
+            "name": "Anass Zaroury"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "302162",
+            "slug": "carlos-alcaraz",
+            "name": "Carlos Alcaraz"
+        },
+        "fromClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "toClub": {
+            "name": "Juventus",
+            "id": "111",
+            "slug": "juventus"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 30",
+        "player": {
+            "id": "72487",
+            "slug": "david-brooks",
+            "name": "David Brooks"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 23",
+        "player": {
+            "id": "251138",
+            "slug": "michael-obafemi",
+            "name": "Michael Obafemi"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Millwall",
+            "id": "391",
+            "slug": "millwall"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 18",
+        "player": {
+            "id": "256912",
+            "slug": "japhet-tanganga",
+            "name": "Japhet Tanganga"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Millwall",
+            "id": "391",
+            "slug": "millwall"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 17",
+        "player": {
+            "id": "306013",
+            "slug": "alfie-devine",
+            "name": "Alfie Devine"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Plymouth Argyle",
+            "id": "307",
+            "slug": "plymouth-argyle"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 15",
+        "player": {
+            "id": "215790",
+            "slug": "joe-rothwell",
+            "name": "Joe Rothwell"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 15",
+        "player": {
+            "id": "236014",
+            "slug": "scott-twine",
+            "name": "Scott Twine"
+        },
+        "fromClub": {
+            "name": "Burnley",
+            "id": "379",
+            "slug": "burnley"
+        },
+        "toClub": {
+            "name": "Bristol City",
+            "id": "333",
+            "slug": "bristol-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "231049",
+            "slug": "fabio-carvalho",
+            "name": "Fábio Carvalho"
+        },
+        "fromClub": {
+            "name": "Liverpool",
+            "id": "364",
+            "slug": "liverpool"
+        },
+        "toClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 9",
+        "player": {
+            "id": "208285",
+            "slug": "robin-koch",
+            "name": "Robin Koch"
+        },
+        "fromClub": {
+            "name": "Leeds United",
+            "id": "357",
+            "slug": "leeds-united"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 9",
+        "player": {
+            "id": "281730",
+            "slug": "luke-cundle",
+            "name": "Luke Cundle"
+        },
+        "fromClub": {
+            "name": "Wolverhampton Wanderers",
+            "id": "380",
+            "slug": "wolverhampton-wanderers"
+        },
+        "toClub": {
+            "name": "Stoke City",
+            "id": "336",
+            "slug": "stoke-city"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 8",
+        "player": {
+            "id": "329170",
+            "slug": "james-beadle",
+            "name": "James Beadle"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Sheffield Wednesday",
+            "id": "399",
+            "slug": "sheffield-wednesday"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 8",
+        "player": {
+            "id": "273628",
+            "slug": "ashley-phillips",
+            "name": "Ashley Phillips"
+        },
+        "fromClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "toClub": {
+            "name": "Plymouth Argyle",
+            "id": "307",
+            "slug": "plymouth-argyle"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "251631",
+            "slug": "finn-azaz",
+            "name": "Finn Azaz"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Middlesbrough",
+            "id": "369",
+            "slug": "middlesbrough"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "304242",
+            "slug": "yasin-ayari",
+            "name": "Yasin Ayari"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Blackburn Rovers",
+            "id": "365",
+            "slug": "blackburn-rovers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 5",
+        "player": {
+            "id": "292004",
+            "slug": "benjamin-chrisene",
+            "name": "Benjamin Chrisene"
+        },
+        "fromClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "toClub": {
+            "name": "Blackburn Rovers",
+            "id": "365",
+            "slug": "blackburn-rovers"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 4",
+        "player": {
+            "id": "335913",
+            "slug": "alex-matos",
+            "name": "Alex Matos"
+        },
+        "fromClub": {
+            "name": "Chelsea",
+            "id": "363",
+            "slug": "chelsea"
+        },
+        "toClub": {
+            "name": "Huddersfield Town",
+            "id": "335",
+            "slug": "huddersfield-town"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 3",
+        "player": {
+            "id": "328013",
+            "slug": "jeremy-sarmiento",
+            "name": "Jeremy Sarmiento"
+        },
+        "fromClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "toClub": {
+            "name": "Ipswich Town",
+            "id": "373",
+            "slug": "ipswich-town"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "43617",
+            "slug": "billy-sharp",
+            "name": "Billy Sharp"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "43617",
+            "slug": "billy-sharp",
+            "name": "Billy Sharp"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "Hull City",
+            "id": "306",
+            "slug": "hull-city"
+        },
+        "status": "Free"
+    }
+]

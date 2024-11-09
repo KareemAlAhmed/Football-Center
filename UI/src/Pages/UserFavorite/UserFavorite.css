@@ -1,0 +1,73 @@
+.userFavoriteContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userFavoriteContainer .searchTitle{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.userFavoriteContainer .searchSubtitle{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.listOfCompetetions,.userFavoriteContainer .listOfTeams,.userFavoriteContainer .listOfPlayers{
+    display: flex;
+    flex-direction: column;
+}
+.listOfCompetetions  .competetion,.userFavoriteContainer .listOfTeams .team,.userFavoriteContainer .listOfPlayers .player{
+    width: 100%;
+    height: 64px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-top: 1px solid #2b2b2b;
+
+}
+.listOfCompetetions  .competetion img,.userFavoriteContainer .listOfTeams .team img,.userFavoriteContainer .listOfPlayers .player img{
+    /* border-radius: 100%; */
+    width: 35px;
+    height: 35px;
+}
+.listOfTeams .team img,.listOfPlayers .player img{
+    border-radius: 0;
+}
+.listOfCompetetions .competetionInfo,.userFavoriteContainer .listOfTeams .teamInfo,.userFavoriteContainer .listOfPlayers .playerInfo{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+}
+.listOfCompetetions .catName{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+.listOfCompetetions .competetionInfo p,.userFavoriteContainer .listOfTeams .teamInfo p,.userFavoriteContainer .listOfPlayers .playerInfo p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.listOfCompetetions .competetionInfo svg,.userFavoriteContainer .listOfTeams .teamInfo svg,.userFavoriteContainer .listOfPlayers .playerInfo svg{
+    width: 15px;
+    height: 15px;
+    fill: var(--text-color);
+}
+.listTitle{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+.notFoundClass{
+    font-size: 26px;
+    color: var(--text-color);
+}
+.focusedBlock{
+    border-color: var(--text-color) !important;
+}

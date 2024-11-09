@@ -1,0 +1,5 @@
+.scoredIcon{
+    width: 25px;
+    fill: var(--text-color);
+    cursor: pointer;
+}

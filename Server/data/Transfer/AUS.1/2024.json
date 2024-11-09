@@ -1,0 +1,268 @@
+[
+    {
+        "date": "Aug 30",
+        "player": {
+            "id": "297800",
+            "slug": "alex-paulsen",
+            "name": "Alex Paulsen"
+        },
+        "fromClub": {
+            "name": "AFC Bournemouth",
+            "id": "349",
+            "slug": "afc-bournemouth"
+        },
+        "toClub": {
+            "name": "Auckland FC",
+            "id": "22344",
+            "slug": "auckland-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 26",
+        "player": {
+            "id": "329951",
+            "slug": "jacob-farrell",
+            "name": "Jacob Farrell"
+        },
+        "fromClub": {
+            "name": "Central Coast Mariners",
+            "id": "5325",
+            "slug": "central-coast-mariners"
+        },
+        "toClub": {
+            "name": "Portsmouth",
+            "id": "385",
+            "slug": "portsmouth"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "249186",
+            "slug": "lachlan-brook",
+            "name": "Lachlan Brook"
+        },
+        "fromClub": {
+            "name": "Western Sydney Wanderers",
+            "id": "13696",
+            "slug": "western-sydney-wanderers"
+        },
+        "toClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 19",
+        "player": {
+            "id": "332367",
+            "slug": "finn-surman",
+            "name": "Finn Surman"
+        },
+        "fromClub": {
+            "name": "Wellington Phoenix FC",
+            "id": "8352",
+            "slug": "wellington-phoenix-fc"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 18",
+        "player": {
+            "id": "336926",
+            "slug": "jake-girdwood-reich",
+            "name": "Jake Girdwood-Reich"
+        },
+        "fromClub": {
+            "name": "Sydney FC",
+            "id": "5327",
+            "slug": "sydney-fc"
+        },
+        "toClub": {
+            "name": "St. Louis CITY SC",
+            "id": "21812",
+            "slug": "st-louis-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "291994",
+            "slug": "alfie-mccalmont",
+            "name": "Alfie McCalmont"
+        },
+        "fromClub": {
+            "name": "Carlisle United",
+            "id": "322",
+            "slug": "carlisle-united"
+        },
+        "toClub": {
+            "name": "Central Coast Mariners",
+            "id": "5325",
+            "slug": "central-coast-mariners"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 9",
+        "player": {
+            "id": "268461",
+            "slug": "anas-ouahim",
+            "name": "Anas Ouahim"
+        },
+        "fromClub": {
+            "name": "Heracles Almelo",
+            "id": "3708",
+            "slug": "heracles-almelo"
+        },
+        "toClub": {
+            "name": "Sydney FC",
+            "id": "5327",
+            "slug": "sydney-fc"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 4",
+        "player": {
+            "id": "206463",
+            "slug": "oskar-zawada",
+            "name": "Oskar Zawada"
+        },
+        "fromClub": {
+            "name": "Wellington Phoenix FC",
+            "id": "8352",
+            "slug": "wellington-phoenix-fc"
+        },
+        "toClub": {
+            "name": "RKC Waalwijk",
+            "id": "155",
+            "slug": "rkc-waalwijk"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 4",
+        "player": {
+            "id": "270938",
+            "slug": "marco-tilio",
+            "name": "Marco Tilio"
+        },
+        "fromClub": {
+            "name": "Celtic",
+            "id": "256",
+            "slug": "celtic"
+        },
+        "toClub": {
+            "name": "Melbourne City FC",
+            "id": "11143",
+            "slug": "melbourne-city-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "295544",
+            "slug": "raphael-borges-rodrigues",
+            "name": "Raphael Borges Rodrigues"
+        },
+        "fromClub": {
+            "name": "Macarthur FC",
+            "id": "19340",
+            "slug": "macarthur-fc"
+        },
+        "toClub": {
+            "name": "Coventry City",
+            "id": "388",
+            "slug": "coventry-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "290562",
+            "slug": "marcus-ferkranus",
+            "name": "Marcus Ferkranus"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "Brisbane Roar",
+            "id": "5326",
+            "slug": "brisbane-roar"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "328535",
+            "slug": "nestory-irankunda",
+            "name": "Nestory Irankunda"
+        },
+        "fromClub": {
+            "name": "Adelaide United",
+            "id": "5321",
+            "slug": "adelaide-united"
+        },
+        "toClub": {
+            "name": "Bayer Leverkusen",
+            "id": "131",
+            "slug": "bayer-leverkusen"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 23",
+        "player": {
+            "id": "333333",
+            "slug": "giuseppe-bovalina",
+            "name": "Giuseppe Bovalina"
+        },
+        "fromClub": {
+            "name": "Adelaide United",
+            "id": "5321",
+            "slug": "adelaide-united"
+        },
+        "toClub": {
+            "name": "Vancouver Whitecaps",
+            "id": "9727",
+            "slug": "vancouver-whitecaps"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "241429",
+            "slug": "joe-gauci",
+            "name": "Joe Gauci"
+        },
+        "fromClub": {
+            "name": "Adelaide United",
+            "id": "5321",
+            "slug": "adelaide-united"
+        },
+        "toClub": {
+            "name": "Aston Villa",
+            "id": "362",
+            "slug": "aston-villa"
+        },
+        "status": "Undisclosed"
+    }
+]

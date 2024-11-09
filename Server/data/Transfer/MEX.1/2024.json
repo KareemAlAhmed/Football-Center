@@ -1,0 +1,249 @@
+[
+    {
+        "date": "Jul 5",
+        "player": {
+            "id": "178746",
+            "slug": "jorge-sanchez",
+            "name": "Jorge Sánchez"
+        },
+        "fromClub": {
+            "name": "Ajax Amsterdam",
+            "id": "139",
+            "slug": "ajax-amsterdam"
+        },
+        "toClub": {
+            "name": "Cruz Azul",
+            "id": "218",
+            "slug": "cruz-azul"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 2",
+        "player": {
+            "id": "350481",
+            "slug": "fidel-barajas",
+            "name": "Fidel Barajas"
+        },
+        "fromClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "toClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "133111",
+            "slug": "daniel-aguirre",
+            "name": "Daniel Aguirre"
+        },
+        "fromClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "toClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "283228",
+            "slug": "frankie-amaya",
+            "name": "Frankie Amaya"
+        },
+        "fromClub": {
+            "name": "New York Red Bulls",
+            "id": "190",
+            "slug": "new-york-red-bulls"
+        },
+        "toClub": {
+            "name": "Toluca",
+            "id": "223",
+            "slug": "toluca"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "239525",
+            "slug": "giorgos-giakoumakis",
+            "name": "Giorgos Giakoumakis"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "Cruz Azul",
+            "id": "218",
+            "slug": "cruz-azul"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "May 30",
+        "player": {
+            "id": "233326",
+            "slug": "emanuel-reynoso",
+            "name": "Emanuel Reynoso"
+        },
+        "fromClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "toClub": {
+            "name": "Tijuana",
+            "id": "10125",
+            "slug": "tijuana"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 20",
+        "player": {
+            "id": "129395",
+            "slug": "jonathan-rodriguez",
+            "name": "Jonathan Rodríguez"
+        },
+        "fromClub": {
+            "name": "América",
+            "id": "227",
+            "slug": "america"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Mar 20",
+        "player": {
+            "id": "351302",
+            "slug": "daniel-rios",
+            "name": "Daniel Ríos"
+        },
+        "fromClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 30",
+        "player": {
+            "id": "136124",
+            "slug": "omar-campos",
+            "name": "Omar Campos"
+        },
+        "fromClub": {
+            "name": "Santos",
+            "id": "225",
+            "slug": "santos"
+        },
+        "toClub": {
+            "name": "LAFC",
+            "id": "18966",
+            "slug": "lafc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 23",
+        "player": {
+            "id": "183316",
+            "slug": "nicolas-freire",
+            "name": "Nicolás Freire"
+        },
+        "fromClub": {
+            "name": "Pumas UNAM",
+            "id": "233",
+            "slug": "pumas-unam"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 15",
+        "player": {
+            "id": "285698",
+            "slug": "cade-cowell",
+            "name": "Cade Cowell"
+        },
+        "fromClub": {
+            "name": "San Jose Earthquakes",
+            "id": "191",
+            "slug": "san-jose-earthquakes"
+        },
+        "toClub": {
+            "name": "Guadalajara",
+            "id": "219",
+            "slug": "guadalajara"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 14",
+        "player": {
+            "id": "205657",
+            "slug": "rubio-rubin",
+            "name": "Rubio Rubín"
+        },
+        "fromClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "toClub": {
+            "name": "Querétaro",
+            "id": "222",
+            "slug": "queretaro"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "228620",
+            "slug": "brandon-vazquez",
+            "name": "Brandon Vázquez"
+        },
+        "fromClub": {
+            "name": "FC Cincinnati",
+            "id": "18267",
+            "slug": "fc-cincinnati"
+        },
+        "toClub": {
+            "name": "Monterrey",
+            "id": "220",
+            "slug": "monterrey"
+        },
+        "status": "Undisclosed"
+    }
+]

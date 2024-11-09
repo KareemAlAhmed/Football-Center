@@ -1,0 +1,173 @@
+
+.wrapperList{
+    width: 90%;
+    overflow: hidden;
+}
+.matchesBlock{
+    margin-top: 15px;
+}
+.matchesBlock h2{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+.allMatches{
+    height: fit-content !important;
+}
+.allMatches table{
+    width: 100%;
+    color: var(--text-color);
+}
+.allMatches table thead th{
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+.allMatches table thead th:first-of-type{
+    width: 65%;
+    text-align: center;
+}
+.allMatches table thead th:last-of-type{
+    width: 25%;
+}
+.allMatches table tbody tr:first-of-type td{
+    padding-top: 10px;
+}
+.allMatches table tbody tr td{
+    padding-bottom: 1em;
+}
+.allMatches table tbody tr td:first-of-type{
+    display: flex;
+    justify-content: center;
+}
+.allMatches table tbody tr td.location{
+    padding-right: 0;
+}
+.allMatches table tbody tr td.time{
+    text-align: center;
+}
+.allMatches table tbody tr td:first-of-type div{
+    display: flex;
+}
+.allMatches table tbody tr td:first-of-type .scores{
+    margin-right: 15px;
+    margin-left: 12px;
+}
+.allMatches table tbody tr td:first-of-type .team{
+    width: 50%;
+}
+.allMatches table tbody tr td:first-of-type .team:first-of-type{
+    justify-content: end;
+}
+.allMatches table tbody tr img{
+    width: 25px;
+}
+.allMatches table .Home,.allMatches table .Away{
+    gap: 5px;
+}
+.live{
+    color: red !important;
+}
+.hiddenTab{
+    display: none;
+}
+.loadingBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allMatches table tbody tr td.teamsInfo{
+    padding-right: 0;
+}
+
+.schedule .allMatches .matchesBlock table tr a p:last-of-type{
+    display: none;
+}
+.schedule .allMatches table tbody tr td:first-of-type .team:first-of-type{
+    align-items: center;
+}
+.schedule .matchesBlock table tr td{
+    padding-right: 0;
+}
+.allMatches table tbody tr .imgWrapper{
+    min-width: 25px;
+}
+
+
+@media (max-width: 1199px) {
+    .wrapperList {
+        overflow: scroll;
+        width: 100%;
+    }
+    .nextPhase,.prevPhase{
+        display: none;
+    }
+  }
+
+@media (max-width: 600px) {
+    .schedule .allMatches .matchesBlock table tr a p:first-of-type{
+        display: none;
+    }
+    .schedule .allMatches .matchesBlock table tr a p:last-of-type{
+        display: block;
+    }
+}
+.schedule .allMatches table tbody tr td.teamsInfo{
+    padding-right: 0;
+}
+
+  @media (max-width: 991px) {
+    .schedule .allMatches table tbody tr td.location p{
+        font-size: 15px;
+        padding-left: 5px;
+        text-align: center;
+    }
+    .schedule .allMatches table tbody tr td.time{
+        padding-right: 0;
+        font-size: 14px;
+    }
+}
+  @media (max-width: 680px) {
+    .schedule .allMatches .matchesBlock table tr a p{
+        font-size: 15px;
+    }
+    .schedule .allMatches .matchesBlock table tr a p:first-of-type{
+        display: none;
+    }
+    .schedule .allMatches .matchesBlock table tr a p:last-of-type{
+        display: block;
+    }
+    .schedule .allMatches table tbody tr td.location p{
+        font-size: 13px;
+    }
+    .schedule .allMatches table tbody tr td.time{
+        padding-right: 0;
+        font-size: 12px;
+    }
+    .schedule .allMatches table tbody tr td.teamsInfo{
+        align-items: center;
+    }
+    .schedule .allMatches table tbody tr td:first-of-type .team:last-of-type{
+        align-items: center;
+    }
+    .loadingBlock{
+        min-height: 280px;
+    }
+}
+@media (max-width: 629px) {
+    .schedule .allMatches table thead th:first-of-type{
+        width: 60%;
+    }
+}
+@media (max-width: 420px) {
+
+    .schedule .allMatches table thead th:first-of-type{
+        width: 55%;
+    }
+}
+@media (max-width: 400px) {
+    .schedule .matchesBlock h2{
+        font-size: 22px;
+    }
+    .allMatches table tbody tr td:first-of-type .team:first-of-type{
+        width: fit-content;
+    }
+}

@@ -1,0 +1,382 @@
+[
+    {
+        "date": "Sep 2",
+        "player": {
+            "id": "235017",
+            "slug": "pedro",
+            "name": "Pedro"
+        },
+        "fromClub": {
+            "name": "Fluminense",
+            "id": "3445",
+            "slug": "fluminense"
+        },
+        "toClub": {
+            "name": "Fiorentina",
+            "id": "109",
+            "slug": "fiorentina"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 7",
+        "player": {
+            "id": "234015",
+            "slug": "leo-duarte",
+            "name": "Léo Duarte"
+        },
+        "fromClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "toClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 2",
+        "player": {
+            "id": "30901",
+            "slug": "dani-alves",
+            "name": "Dani Alves"
+        },
+        "fromClub": {
+            "name": "Paris Saint-Germain",
+            "id": "160",
+            "slug": "paris-saint-germain"
+        },
+        "toClub": {
+            "name": "São Paulo",
+            "id": "2026",
+            "slug": "sao-paulo"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Aug 1",
+        "player": {
+            "id": "30901",
+            "slug": "dani-alves",
+            "name": "Dani Alves"
+        },
+        "fromClub": {
+            "name": "No team",
+            "id": null,
+            "slug": null
+        },
+        "toClub": {
+            "name": "São Paulo",
+            "id": "2026",
+            "slug": "sao-paulo"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 23",
+        "player": {
+            "id": "52994",
+            "slug": "filipe-luis",
+            "name": "Filipe Luís"
+        },
+        "fromClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "toClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 12",
+        "player": {
+            "id": "210135",
+            "slug": "gerson",
+            "name": "Gerson"
+        },
+        "fromClub": {
+            "name": "AS Roma",
+            "id": "104",
+            "slug": "as-roma"
+        },
+        "toClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "status": "€ 11.8M"
+    },
+    {
+        "date": "Jul 7",
+        "player": {
+            "id": "245858",
+            "slug": "renan-lodi",
+            "name": "Renan Lodi"
+        },
+        "fromClub": {
+            "name": "Athletico-PR",
+            "id": "3458",
+            "slug": "athletico-pr"
+        },
+        "toClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "267804",
+            "slug": "rodrygo",
+            "name": "Rodrygo"
+        },
+        "fromClub": {
+            "name": "Santos",
+            "id": "2674",
+            "slug": "santos"
+        },
+        "toClub": {
+            "name": "Real Madrid",
+            "id": "86",
+            "slug": "real-madrid"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": "266676",
+            "slug": "luan-candido",
+            "name": "Luan Cândido"
+        },
+        "fromClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "toClub": {
+            "name": "RB Leipzig",
+            "id": "11420",
+            "slug": "rb-leipzig"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 1",
+        "player": {
+            "id": null,
+            "slug": null,
+            "name": "Andre Grandi"
+        },
+        "fromClub": {
+            "name": "Internacional",
+            "id": "1936",
+            "slug": "internacional"
+        },
+        "toClub": {
+            "name": "Leganés",
+            "id": "17534",
+            "slug": "leganes"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 13",
+        "player": {
+            "id": "99025",
+            "slug": "ramires",
+            "name": "Ramires"
+        },
+        "fromClub": {
+            "name": "Jiangsu Suning",
+            "id": "15105",
+            "slug": "jiangsu-suning"
+        },
+        "toClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Mar 18",
+        "player": {
+            "id": "225603",
+            "slug": "pierre-da-silva",
+            "name": "Pierre Da Silva"
+        },
+        "fromClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "toClub": {
+            "name": "Athletico-PR",
+            "id": "3458",
+            "slug": "athletico-pr"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "246844",
+            "slug": "emerson-royal",
+            "name": "Emerson Royal"
+        },
+        "fromClub": {
+            "name": "Atlético-MG",
+            "id": "7632",
+            "slug": "atletico-mg"
+        },
+        "toClub": {
+            "name": "Barcelona",
+            "id": "83",
+            "slug": "barcelona"
+        },
+        "status": "€ 12M"
+    },
+    {
+        "date": "Jan 30",
+        "player": {
+            "id": "283224",
+            "slug": "tuta",
+            "name": "Tuta"
+        },
+        "fromClub": {
+            "name": "São Paulo",
+            "id": "2026",
+            "slug": "sao-paulo"
+        },
+        "toClub": {
+            "name": "Eintracht Frankfurt",
+            "id": "125",
+            "slug": "eintracht-frankfurt"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "277436",
+            "slug": "lucas-ribeiro",
+            "name": "Lucas Ribeiro"
+        },
+        "fromClub": {
+            "name": "Vitória",
+            "id": "3457",
+            "slug": "vitoria"
+        },
+        "toClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "252406",
+            "slug": "lucas-perri",
+            "name": "Lucas Perri"
+        },
+        "fromClub": {
+            "name": "São Paulo",
+            "id": "2026",
+            "slug": "sao-paulo"
+        },
+        "toClub": {
+            "name": "Crystal Palace",
+            "id": "384",
+            "slug": "crystal-palace"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 15",
+        "player": {
+            "id": "240353",
+            "slug": "caio-henrique",
+            "name": "Caio Henrique"
+        },
+        "fromClub": {
+            "name": "Atlético Madrid",
+            "id": "1068",
+            "slug": "atletico-madrid"
+        },
+        "toClub": {
+            "name": "Fluminense",
+            "id": "3445",
+            "slug": "fluminense"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "182522",
+            "slug": "gabriel-barbosa",
+            "name": "Gabriel Barbosa"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 3",
+        "player": {
+            "id": "234715",
+            "slug": "lucas-paqueta",
+            "name": "Lucas Paquetá"
+        },
+        "fromClub": {
+            "name": "Flamengo",
+            "id": "819",
+            "slug": "flamengo"
+        },
+        "toClub": {
+            "name": "AC Milan",
+            "id": "103",
+            "slug": "ac-milan"
+        },
+        "status": "€ 35M"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "217014",
+            "slug": "felipe-pires",
+            "name": "Felipe Pires"
+        },
+        "fromClub": {
+            "name": "TSG Hoffenheim",
+            "id": "7911",
+            "slug": "tsg-hoffenheim"
+        },
+        "toClub": {
+            "name": "Palmeiras",
+            "id": "2029",
+            "slug": "palmeiras"
+        },
+        "status": "Loan"
+    }
+]

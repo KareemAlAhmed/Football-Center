@@ -1,0 +1,75 @@
+.competStatPerformance .pageContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.competStatPerformance .pageContent table{
+    width: 100%;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+.competStatPerformance .pageContent table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+}
+.competStatPerformance .pageContent table tr td{
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.competStatPerformance .pageContent table tr .TeamsLogos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.competStatPerformance .pageContent table tr img{
+    width: 25px;
+    height: 27px;
+    cursor: pointer;
+}
+.competStatPerformance .pageContent table tr a{
+    color: var(--text-color);
+}
+.competStatPerformance .pageContent table tr .matchBlock{
+    display: flex;
+    gap: 10px;
+}
+.competStatPerformance .pageContent table tr .matchBlock .homeTeamBlock,.competStatPerformance .pageContent table tr .matchBlock .awayTeamBlock{
+    display: flex;
+    gap: 5px;
+}
+.competStatPerformance .pageContent .listOfStats{
+    display: flex;
+    flex-direction: column;
+}
+.competStatPerformance .pageContent .listOfStats .matchPerTable,
+.competStatPerformance .pageContent .listOfStats .streaksTable,
+.competStatPerformance .pageContent .listOfStats .attendTable{
+    width: 100%;
+    overflow: scroll;
+}
+.competStatPerformance .pageContent .listOfStats .attendTable .Table_Data{
+    min-width: 570px;
+}
+.competStatPerformance .pageContent .listOfStats .matchPerTable .Table_Data,
+.competStatPerformance .pageContent .listOfStats .streaksTable .Table_Data{
+    min-width: 490px;
+}
+.competStatPerformance table tbody tr:first-of-type td{
+    padding-top: 5px;
+}
+.awayTeamName a .show-mobile,
+.homeTeamName a .show-mobile{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .awayTeamName a .show-mobile,
+    .homeTeamName a .show-mobile{
+        display: block;
+    }
+    .awayTeamName a .hide-mobile,
+    .homeTeamName a .hide-mobile{
+        display: none;
+    }
+  }

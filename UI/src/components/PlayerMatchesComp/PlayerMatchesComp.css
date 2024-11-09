@@ -1,0 +1,88 @@
+
+.matchesBlock .tableTitle p{
+    color: var(--text-color);
+    font-weight: bold !important;
+    padding: 5px 0 10px;
+    font-size: 21px;
+}
+.matchesBlock table{
+    width: 100%;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+.matchesBlock table tr{
+    height: 36px;
+}
+.matchesBlock table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 2px;
+
+}
+.matchesBlock table tr td{
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+.matchesBlock table tr .teamColumn{
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+}
+.matchesBlock table tr .teamLogo{
+    width: 20px;
+}
+.matchesBlock table tr .results .status{
+    margin-right: 5px;
+}
+
+.matchesBlock table tr th:nth-child(1){
+    text-align: left;
+} 
+.matchesBlock table tr a{
+    color: var(--text-color);
+}
+
+
+
+@media (max-width: 629px) {
+    .matchesBlock table tr{
+        position: relative;
+    }
+    .matchesBlock table tr::after{
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: var(--hover-color);
+    }
+    .matchesBlock table tr:last-child::after{
+        width: 0;
+    }
+}
+@media (max-width: 410px) {
+    .matchesBlock table tr td{
+        padding-right: 5px;
+        font-size: 13px;
+    }
+    .matchesBlock table tr th{
+        padding-right: 5px;
+    }
+    .positionStatsTable table tr a{
+        font-size: 12px;
+    }
+    .playerBlock .matchesBlock .tableTitle p{
+        font-size: 19px;
+    }
+  }
+
+
+ 

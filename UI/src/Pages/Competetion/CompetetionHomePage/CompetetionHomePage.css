@@ -1,0 +1,94 @@
+.competBlock .pageContent{
+    width: 90%;
+    gap: 40px;
+}
+.competBlock .pageContent .listOfnews{
+    width: 70%;
+}
+.competBlock .pageContent .listOfnews .newsContainer{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--hover-color);
+}
+.competBlock .pageContent .listOfnews .newsContainer:last-of-type{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0;
+}
+.competBlock .pageContent .listOfnews .newsContainer .text-container{
+    margin-top: 10px;
+}
+.competBlock .pageContent .listOfnews .newsContainer .article-meta-data{
+    display: flex;
+    gap: 3px;
+    font-size: 13px;
+    color: var(--hover-color);
+}
+.competBlock .pageContent .listOfnews .newsContainer h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.competBlock .pageContent .listOfnews .newsContainer p{
+    font-size: 16px;
+    color: var(--hover-color);
+}
+.competBlock .pageContent .competStanding{
+    width: 30%;
+}
+.competBlock .pageContent .competStanding table{
+    color: var(--text-color);
+    margin-top: 10px;
+    width: 100%;
+}
+.competBlock .pageContent .competStanding table thead th{
+    padding: 0 10px 5px;
+    text-align: left;
+}
+
+.competBlock .pageContent .competStanding table thead th:first-of-type{
+   
+    padding-left: 0;
+}
+.competBlock .pageContent .competStanding table tbody td{
+    padding: 0 10px 5px;
+}
+
+.competBlock .pageContent .competStanding table tbody tr td:first-of-type{
+    text-align: left;
+    padding-left: 0;
+}
+.competBlock .pageContent .competStanding table tbody td a{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.competBlock .pageContent .competStanding .moreStandings,.competBlock .pageContent .moreRanking{
+    color: var(--text-color);
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+@media (max-width: 991px) {
+    .competBlock .pageContent .competStanding{
+        display: none ;
+    }
+    .competBlock .pageContent .listOfnews{
+        width: 100%;
+    }
+}
+@media (max-width: 550px) {
+    .competBlock .pageContent .listOfnews .newsContainer h1{
+        font-size: 22px;
+    }
+    .competBlock .pageContent .listOfnews .newsContainer p{
+        font-size: 15px
+    }
+}
+@media (max-width: 450px) {
+    .competBlock .pageContent .listOfnews .newsContainer h1{
+        font-size: 20px;
+    }
+    .competBlock .pageContent .listOfnews .newsContainer p{
+        font-size: 14px
+    }
+}

@@ -1,0 +1,381 @@
+.gameHeaderInfo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.gameHeaderInfo .gameCompet{
+    text-align: center;
+}
+.gameHeaderInfo .gameCompet p {
+    font-size: 15px;
+    color: var(--hover-color);
+}
+.gameHeaderInfo .competitorsInfo{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 112px;
+    gap: 10px;
+}
+
+.gameHeaderInfo .competitorsInfo .homeTeamInfo,
+.gameHeaderInfo .competitorsInfo .awayTeamInfo{
+    display: flex;
+    flex: 40%;
+}
+.gameHeaderInfo .competitorsInfo .homeTeamInfo{
+    justify-content: flex-end;
+}
+.gameHeaderInfo .competitorsInfo .teamInfos {
+    gap: 5px;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container{
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 300px;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-left,
+.gameHeaderInfo .competitorsInfo .Logo-Container-left .TeamLogo{
+    left: 0;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-left .TeamLogo{
+    clip-path: polygon(0 100%, 0 0, 137px 0, 83px 100%);
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-left .TeamLogo img{
+    left: 10px;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-right,
+.gameHeaderInfo .competitorsInfo .Logo-Container-right .TeamLogo{
+    right: 0;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container-right .TeamLogo{
+    clip-path: polygon(100% 100%, 100% 0, 11px 0, 65px 100%);
+
+}
+.gameHeaderInfo .performedPlayers{
+    display: flex;
+    padding: 8px 0;
+    gap: 10px;
+}
+.gameHeaderInfo .performedPlayers .seperatorList{
+    flex: 10% 0;
+}
+.gameHeaderInfo .performedPlayers .performedPlayersList{
+    flex: 45% 0;
+}
+.gameHeaderInfo .performedPlayers .performedPlayersList.homePlayers{
+    text-align: right;
+}
+.gameHeaderInfo .performedPlayers .performedPlayersList .scorredPlayers .scorredPlayersWrapper,
+.gameHeaderInfo .performedPlayers .performedPlayersList .redCardPlayers .redCardPlayerssWrapper{
+    display: inline-block;
+    padding: 0 5px;
+}
+.gameHeaderInfo .performedPlayers  ul li{
+    display: inline-block;
+    padding: 0 5px;
+    color: var(--text-color);
+}
+.gameHeaderInfo .performedPlayers .performedPlayersList .scorredPlayers .scorredPlayersWrapper .goalTime{  
+    margin-left: 5px;
+}
+.gameHeaderInfo .performedPlayers  svg{
+    display: inline-block;
+    align-self: flex-start;
+    min-width: 25px;
+}
+.Logo-Container-left .SkewedLine--1, .Logo-Container-left .SkewedLine--2{
+    bottom: 0;
+    content: "";
+    height: 230px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: skew(-26deg) translateY(-50%);
+    -ms-transform: skew(-26deg) translateY(-50%);
+    transform: skew(-26deg) translateY(-50%);
+    width: 8px;
+    z-index: 2;
+}
+
+
+.Logo-Container-left .SkewedLine--1{
+    left: 83px;
+}
+.Logo-Container-left .SkewedLine--2{
+    left: 93px;
+}
+
+
+
+.Logo-Container-right .SkewedLine--1, .Logo-Container-right .SkewedLine--2{
+    bottom: 0;
+    content: "";
+    height: 230px;
+    top: 0;
+    -webkit-transform: skew(26deg) translateY(-50%);
+    -ms-transform: skew(26deg) translateY(-50%);
+    transform: skew(26deg) translateY(-50%);
+    width: 8px;
+    position: absolute;
+}
+
+.Logo-Container-right .SkewedLine--1{
+    left: 209px;
+}
+.Logo-Container-right .SkewedLine--2{
+    left: 199px;
+}
+
+.gameHeaderInfo .competitorsInfo .Logo-Container-right .TeamLogo img{
+    right: 10px;
+}
+
+
+.gameHeaderInfo .competitorsInfo .Logo-Container .TeamLogo{
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 148px;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container .TeamLogo .logoWrapper{
+    position: relative;
+}
+.gameHeaderInfo .competitorsInfo .Logo-Container .TeamLogo img{
+    height: 80px;
+    width: 80px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo{
+    flex: 1 0 auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.gameHeaderInfo .competitorsInfo .homeTeamInfo .competitorInfo{
+    justify-content: flex-end;
+}
+.gameHeaderInfo .competitorsInfo .awayTeamInfo .competitorInfo{
+    justify-content: flex-start;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints a:nth-child(2){
+    display: none;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints span{
+    font-size: 15px;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamScore{
+    font-size: 39px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamScore:first-child{
+    margin-right: 15px;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamScore:last-child{
+    margin-left: 15px;
+}
+
+.gameHeaderInfo .competitorsInfo .competitorInfo img{
+    width: 48px;
+}
+
+.gameHeaderInfo .competitorsInfo .matchDataAndTime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 10% 0;
+    position: relative;
+}
+.gameHeaderInfo .competitorsInfo .matchDataAndTime .arrowIcon{
+    width: 20px;
+    fill: var(--text-color);
+    position: absolute;
+}
+.gameHeaderInfo .competitorsInfo .matchDataAndTime .rightArrow{
+    right: 0;
+}
+.gameHeaderInfo .competitorsInfo .matchDataAndTime .leftArrow{
+    left: 0;
+}
+.gameHeaderInfo .competitorsInfo .matchDataAndTime .finishedTime{
+    font-size: 20px;
+}
+.gameHeaderInfo .competitorsInfo span{
+    color: var(--hover-color);
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamScore span:first-of-type{
+    max-height: 50px;
+    display: flex;
+    align-items: baseline;
+}
+.gameHeaderInfo .competitorsInfo .competitorInfo .teamScore span:last-of-type{
+    font-size: 13px;
+}
+.gameHeaderInfo .competitorsInfo .matchDate{
+    color: var(--text-color);
+}
+.winnerScore{
+    color: var(--text-color) !important;
+}
+.matchLiveTime{
+    color: var(--red-color) !important;
+    font-size: 23px;
+    position: relative;
+}
+.matchLiveTime::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: var(--red-color);
+    width: 100%;
+    animation: pulse 2s infinite ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  .gameHeaderInfo .performedPlayers .performedPlayersList .redCardPlayers,
+  .gameHeaderInfo .performedPlayers .performedPlayersList .scorredPlayers{
+        justify-content: flex-end;
+  }
+  .gameHeaderInfo .performedPlayers .performedPlayersList.awayPlayers .redCardPlayers,
+  .gameHeaderInfo .performedPlayers .performedPlayersList.awayPlayers .scorredPlayers{
+        justify-content: flex-start;
+  }
+  @media (max-width: 1550px) {
+    .gameHeaderInfo .performedPlayers .performedPlayersList .scorredPlayers,
+    .gameHeaderInfo .performedPlayers .performedPlayersList .redCardPlayers{
+        display: flex;
+    }
+  }
+  @media (max-width: 991px) {
+    .gameHeaderInfo .competitorsInfo .Logo-Container{
+        display: none;
+    }
+    .gameHeaderInfo .competitorsInfo{
+        gap: 35px;
+    }
+    .gameHeaderInfo .competitorsInfo .matchDataAndTime{
+        flex: 15% 0;
+        height: 100%;
+    }
+  }
+@media (max-width: 680px) {
+    .gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints a:nth-child(1){
+        display: none;
+    }
+    .gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints a:nth-child(2){
+        display: block;
+    }
+    .gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints span{
+        font-size: 13px;
+    }
+}
+@media (max-width: 590px) {
+    .gameHeaderInfo .competitorsInfo .teamInfos{
+        flex-direction: column-reverse;      
+    }
+    .gameHeaderInfo .competitorsInfo .teamInfos{
+        justify-content: flex-start;
+    }
+    .gameHeaderInfo .competitorsInfo .teamInfos.awayTeamInfo{
+        justify-content: flex-end;
+        flex-direction: column; 
+    }
+    .gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints .teamPoints{
+        display: none;
+    }
+    .gameHeaderInfo .competitorsInfo .matchDataAndTime {
+        flex: 25% 0;
+        font-size: 14px;
+    }
+    .gameHeaderInfo .competitorsInfo{
+        gap: 25px;
+    }
+    .gamePageOpts {
+        overflow: scroll;
+        max-width: 100%;
+    }
+    .gamePageOpts .Nav__Secondary__Menu{
+        display: inline-flex ;
+    }
+    .gameBlock .pageContent .mainContainer .gamePreviewQuickInfo .gamePreviewContent,
+    .gameBlock .pageContent .mainContainer .gamePreviewQuickInfo .gamePreviewMetaDeta{
+        font-size: 15px;
+        line-height: 17px; 
+    }
+    .gamePageOpts .Nav__Secondary__Menu li{
+        min-width: 85px;
+    }
+    .gamePageOpts .Nav__Secondary__Menu li a{
+        font-size: 16px;
+    }
+
+
+    .gameHeaderInfo .performedPlayers .performedPlayersList .scorredPlayers,
+    .gameHeaderInfo .performedPlayers .performedPlayersList .redCardPlayers{
+        flex-direction: row-reverse;
+    }
+    .gameHeaderInfo .performedPlayers .performedPlayersList .scorredPlayers ul,
+    .gameHeaderInfo .performedPlayers .performedPlayersList .redCardPlayers ul{
+        text-align: left;
+    }
+    .gameHeaderInfo .performedPlayers .performedPlayersList.awayPlayers .scorredPlayers ul,
+    .gameHeaderInfo .performedPlayers .performedPlayersList.awayPlayers .redCardPlayers ul{
+        text-align: right;
+    }
+    .gameHeaderInfo .competitorsInfo .competitorInfo .teamNameAndPoints a:nth-child(2){
+        display: none;
+    }
+    .gameHeaderInfo .performedPlayers .seperatorList{
+        display: none;
+    }
+    .gameHeaderInfo .performedPlayers .performedPlayersList{
+        flex: 50% 0;
+    }
+    .gameHeaderInfo .performedPlayers ul li{
+        font-size: 15px;
+    }
+}
+@media (max-width: 490px) {
+    .gameHeaderInfo .performedPlayers{
+        gap: 0;
+    }
+    .gameHeaderInfo .performedPlayers ul li{
+        font-size: 13px;
+        padding: 0;
+    }
+
+}
+@media (max-width: 400px) {
+    .gameHeaderInfo .performedPlayers ul li{
+        font-size: 12px;
+        padding: 0;
+    }
+    .gameHeaderInfo .gameCompet p{
+        font-size: 14px;
+    }
+}

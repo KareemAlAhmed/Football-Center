@@ -1,0 +1,344 @@
+[
+    {
+        "date": "Dec 1",
+        "player": {
+            "id": "70624",
+            "slug": "maxi-moralez",
+            "name": "Maxi Morález"
+        },
+        "fromClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "toClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jun 27",
+        "player": {
+            "id": "262111",
+            "slug": "alan-franco",
+            "name": "Alan Franco"
+        },
+        "fromClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "toClub": {
+            "name": "Talleres (Córdoba)",
+            "id": "19",
+            "slug": "talleres-cordoba"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "May 5",
+        "player": {
+            "id": "288430",
+            "slug": "gaston-gonzalez",
+            "name": "Gastón González"
+        },
+        "fromClub": {
+            "name": "Unión (Santa Fe)",
+            "id": "20",
+            "slug": "union-santa-fe"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Apr 27",
+        "player": {
+            "id": "297047",
+            "slug": "rocco-rios-novo",
+            "name": "Rocco Rios Novo"
+        },
+        "fromClub": {
+            "name": "Lanús",
+            "id": "12",
+            "slug": "lanus"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 22",
+        "player": {
+            "id": "285240",
+            "slug": "erik-lopez",
+            "name": "Erik López"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "Banfield",
+            "id": "235",
+            "slug": "banfield"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 19",
+        "player": {
+            "id": "48484",
+            "slug": "luis-amarilla",
+            "name": "Luis Amarilla"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "Minnesota United FC",
+            "id": "17362",
+            "slug": "minnesota-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 9",
+        "player": {
+            "id": "277208",
+            "slug": "thiago-almada",
+            "name": "Thiago Almada"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "290715",
+            "slug": "david-ayala",
+            "name": "David Ayala"
+        },
+        "fromClub": {
+            "name": "Estudiantes de La Plata",
+            "id": "8",
+            "slug": "estudiantes-de-la-plata"
+        },
+        "toClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 1",
+        "player": {
+            "id": "286516",
+            "slug": "alan-velasco",
+            "name": "Alan Velasco"
+        },
+        "fromClub": {
+            "name": "Independiente",
+            "id": "11",
+            "slug": "independiente"
+        },
+        "toClub": {
+            "name": "FC Dallas",
+            "id": "185",
+            "slug": "fc-dallas"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "277206",
+            "slug": "julian-alvarez",
+            "name": "Julián Álvarez"
+        },
+        "fromClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "toClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 31",
+        "player": {
+            "id": "277206",
+            "slug": "julian-alvarez",
+            "name": "Julián Álvarez"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 29",
+        "player": {
+            "id": "241173",
+            "slug": "ezequiel-barco",
+            "name": "Ezequiel Barco"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 28",
+        "player": {
+            "id": "278611",
+            "slug": "mateo-bajamich",
+            "name": "Mateo Bajamich"
+        },
+        "fromClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "toClub": {
+            "name": "Huracán",
+            "id": "10",
+            "slug": "huracan"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 24",
+        "player": {
+            "id": "189952",
+            "slug": "jorge-figal",
+            "name": "Jorge Figal"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 20",
+        "player": {
+            "id": "86179",
+            "slug": "diego-valeri",
+            "name": "Diego Valeri"
+        },
+        "fromClub": {
+            "name": "Portland Timbers",
+            "id": "9723",
+            "slug": "portland-timbers"
+        },
+        "toClub": {
+            "name": "Lanús",
+            "id": "12",
+            "slug": "lanus"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "154748",
+            "slug": "leandro-gonzalez-pirez",
+            "name": "Leandro González Pirez"
+        },
+        "fromClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 10",
+        "player": {
+            "id": "215771",
+            "slug": "tomas-pochettino",
+            "name": "Tomás Pochettino"
+        },
+        "fromClub": {
+            "name": "Austin FC",
+            "id": "20906",
+            "slug": "austin-fc"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "217109",
+            "slug": "joaquin-torres",
+            "name": "Joaquín Torres"
+        },
+        "fromClub": {
+            "name": "Newell's Old Boys",
+            "id": "14",
+            "slug": "newells-old-boys"
+        },
+        "toClub": {
+            "name": "CF Montréal",
+            "id": "9720",
+            "slug": "cf-montreal"
+        },
+        "status": "Undisclosed"
+    }
+]

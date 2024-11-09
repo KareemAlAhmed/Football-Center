@@ -1,0 +1,13 @@
+.teamStat .pageContent .Nav__Secondary__Menu{
+    min-width: 430px;
+}
+.teamStat .pageContent .Nav__Secondary__Menu li{
+    width: calc(100% / 3);
+    text-align: center;
+    font-weight: 500;
+}
+.teamStat .pageContent .statsOptsWrapper{
+    margin-bottom: 10px;
+    max-width: 100%;
+    overflow-x: scroll;
+}

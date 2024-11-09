@@ -1,0 +1,2704 @@
+[
+    {
+        "id": "263",
+        "name": "Aberdeen",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/263.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "256",
+        "name": "Celtic",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/256.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "261",
+        "name": "Dundee",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/261.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "264",
+        "name": "Dundee United",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/264.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "262",
+        "name": "Heart of Midlothian",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/262.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "258",
+        "name": "Hibernian",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/258.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "260",
+        "name": "Kilmarnock",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/260.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "266",
+        "name": "Motherwell",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/266.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "257",
+        "name": "Rangers",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/257.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "251",
+        "name": "Ross County",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/251.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "267",
+        "name": "St Johnstone",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/267.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "250",
+        "name": "St Mirren",
+        "leagueName": "Scottish Premiership",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/250.png",
+        "LegaueID": 45
+    },
+    {
+        "id": "7853",
+        "name": "AGF",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7853.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2986",
+        "name": "AaB",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2986.png",
+        "LegaueID": null
+    },
+    {
+        "id": "575",
+        "name": "Brøndby IF",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/575.png",
+        "LegaueID": null
+    },
+    {
+        "id": "909",
+        "name": "F.C. København",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/909.png",
+        "LegaueID": null
+    },
+    {
+        "id": "572",
+        "name": "FC Midtjylland",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/572.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3101",
+        "name": "FC Nordsjælland",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3101.png",
+        "LegaueID": null
+    },
+    {
+        "id": "7860",
+        "name": "Lyngby Boldklub",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7860.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3132",
+        "name": "Randers FC",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3132.png",
+        "LegaueID": null
+    },
+    {
+        "id": "607",
+        "name": "Silkeborg IF",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/607.png",
+        "LegaueID": null
+    },
+    {
+        "id": "8118",
+        "name": "Sønderjyske Fodbold",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8118.png",
+        "LegaueID": null
+    },
+    {
+        "id": "12498",
+        "name": "Vejle Boldklub",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12498.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3153",
+        "name": "Viborg FF",
+        "leagueName": "Danish Superliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3153.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20765",
+        "name": "Adana Demirspor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20765.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "9078",
+        "name": "Alanyaspor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9078.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "3794",
+        "name": "Antalyaspor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3794.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "1895",
+        "name": "Besiktas",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1895.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "22321",
+        "name": "Bodrum FK",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22321.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "7656",
+        "name": "Caykur Rizespor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7656.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "20729",
+        "name": "Eyupspor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20729.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "436",
+        "name": "Fenerbahce",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/436.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "432",
+        "name": "Galatasaray",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/432.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "20070",
+        "name": "Gaziantep FK",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20070.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "789",
+        "name": "Goztepe",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/789.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "20737",
+        "name": "Hatayspor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20737.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "7914",
+        "name": "Istanbul Basaksehir",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7914.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "6870",
+        "name": "Kasimpasa",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6870.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "3643",
+        "name": "Kayserispor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3643.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "7648",
+        "name": "Konyaspor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7648.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "11429",
+        "name": "Samsunspor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11429.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "3691",
+        "name": "Sivasspor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3691.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "997",
+        "name": "Trabzonspor",
+        "leagueName": "Turkish Super Lig",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/997.png",
+        "LegaueID": 18
+    },
+    {
+        "id": "2726",
+        "name": "ADO Den Haag",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2726.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "144",
+        "name": "De Graafschap",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/144.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "2566",
+        "name": "Excelsior",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2566.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "271",
+        "name": "FC Den Bosch",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/271.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "4426",
+        "name": "FC Dordrecht",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4426.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "3732",
+        "name": "FC Eindhoven",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3732.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "3707",
+        "name": "FC Emmen",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3707.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "2727",
+        "name": "FC Volendam",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2727.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "3775",
+        "name": "Helmond Sport",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3775.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "18748",
+        "name": "Jong AZ",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18748.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "10597",
+        "name": "Jong Ajax",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10597.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "18278",
+        "name": "Jong FC Utrecht",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18278.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "9983",
+        "name": "Jong PSV",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9983.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "3730",
+        "name": "MVV Maastricht",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3730.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "149",
+        "name": "Roda JC Kerkrade",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/149.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "3736",
+        "name": "SC Cambuur",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3736.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "3728",
+        "name": "TOP Oss",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3728.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "3735",
+        "name": "Telstar",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3735.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "3731",
+        "name": "VVV-Venlo",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3731.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "154",
+        "name": "Vitesse",
+        "leagueName": "Dutch Keuken Kampioen Divisie",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/154.png",
+        "LegaueID": 105
+    },
+    {
+        "id": "13884",
+        "name": "AFC Fylde",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13884.png",
+        "LegaueID": null
+    },
+    {
+        "id": "632",
+        "name": "Aldershot Town",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/632.png",
+        "LegaueID": null
+    },
+    {
+        "id": "633",
+        "name": "Altrincham",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/633.png",
+        "LegaueID": null
+    },
+    {
+        "id": "280",
+        "name": "Barnet",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/280.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3256",
+        "name": "Boston United",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3256.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3828",
+        "name": "Braintree Town",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3828.png",
+        "LegaueID": null
+    },
+    {
+        "id": "275",
+        "name": "Dagenham & Redbridge",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/275.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3897",
+        "name": "Eastleigh",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3897.png",
+        "LegaueID": null
+    },
+    {
+        "id": "640",
+        "name": "Ebbsfleet United",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/640.png",
+        "LegaueID": null
+    },
+    {
+        "id": "312",
+        "name": "FC Halifax Town",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/312.png",
+        "LegaueID": null
+    },
+    {
+        "id": "282",
+        "name": "Forest Green Rovers",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/282.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3138",
+        "name": "Gateshead",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3138.png",
+        "LegaueID": null
+    },
+    {
+        "id": "323",
+        "name": "Hartlepool United",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/323.png",
+        "LegaueID": null
+    },
+    {
+        "id": "7156",
+        "name": "Maidenhead United",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7156.png",
+        "LegaueID": null
+    },
+    {
+        "id": "332",
+        "name": "Oldham Athletic",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/332.png",
+        "LegaueID": null
+    },
+    {
+        "id": "303",
+        "name": "Rochdale",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/303.png",
+        "LegaueID": null
+    },
+    {
+        "id": "13061",
+        "name": "Solihull Moors",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13061.png",
+        "LegaueID": null
+    },
+    {
+        "id": "310",
+        "name": "Southend United",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/310.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3231",
+        "name": "Sutton United",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3231.png",
+        "LegaueID": null
+    },
+    {
+        "id": "645",
+        "name": "Tamworth",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/645.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3887",
+        "name": "Wealdstone",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3887.png",
+        "LegaueID": null
+    },
+    {
+        "id": "290",
+        "name": "Woking",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/290.png",
+        "LegaueID": null
+    },
+    {
+        "id": "284",
+        "name": "Yeovil Town",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/284.png",
+        "LegaueID": null
+    },
+    {
+        "id": "315",
+        "name": "York City",
+        "leagueName": "English National League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/315.png",
+        "LegaueID": null
+    },
+    {
+        "id": "139",
+        "name": "Ajax Amsterdam",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/139.png",
+        "LegaueID": null
+    },
+    {
+        "id": "441",
+        "name": "Anderlecht",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/441.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2497",
+        "name": "Apoel Nicosia",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2497.png",
+        "LegaueID": null
+    },
+    {
+        "id": "1895",
+        "name": "Besiktas",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1895.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20710",
+        "name": "Borac Banja Luka",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20710.png",
+        "LegaueID": null
+    },
+    {
+        "id": "7293",
+        "name": "Botev Plovdiv",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7293.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2994",
+        "name": "Braga",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2994.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3610",
+        "name": "Cercle Brugge KSV",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3610.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22282",
+        "name": "Corvinul Hunedoara",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22282.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2539",
+        "name": "Dinamo Minsk",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2539.png",
+        "LegaueID": null
+    },
+    {
+        "id": "7672",
+        "name": "FC Lugano",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7672.png",
+        "LegaueID": null
+    },
+    {
+        "id": "484",
+        "name": "FCSB",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/484.png",
+        "LegaueID": null
+    },
+    {
+        "id": "622",
+        "name": "Ferencvaros",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/622.png",
+        "LegaueID": null
+    },
+    {
+        "id": "262",
+        "name": "Heart of Midlothian",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/262.png",
+        "LegaueID": null
+    },
+    {
+        "id": "529",
+        "name": "IF Elfsborg",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/529.png",
+        "LegaueID": null
+    },
+    {
+        "id": "11505",
+        "name": "Jagiellonia Bialystok",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11505.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2547",
+        "name": "KI Klaksvik",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2547.png",
+        "LegaueID": null
+    },
+    {
+        "id": "260",
+        "name": "Kilmarnock",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/260.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22332",
+        "name": "Kryvbas KR",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22332.png",
+        "LegaueID": null
+    },
+    {
+        "id": "4411",
+        "name": "LASK Linz",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4411.png",
+        "LegaueID": null
+    },
+    {
+        "id": "17856",
+        "name": "Lincoln Red Imps",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17856.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21000",
+        "name": "Llapi",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21000.png",
+        "LegaueID": null
+    },
+    {
+        "id": "13018",
+        "name": "Ludogorets Razgrad",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13018.png",
+        "LegaueID": null
+    },
+    {
+        "id": "12207",
+        "name": "MFK Ruzomberok",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12207.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2983",
+        "name": "Maccabi Petah-Tikva",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2983.png",
+        "LegaueID": null
+    },
+    {
+        "id": "524",
+        "name": "Maccabi Tel-Aviv",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/524.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2715",
+        "name": "Molde",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2715.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3362",
+        "name": "NK Celje",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3362.png",
+        "LegaueID": null
+    },
+    {
+        "id": "619",
+        "name": "NK Maribor",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/619.png",
+        "LegaueID": null
+    },
+    {
+        "id": "605",
+        "name": "PAOK Salonika",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/605.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22281",
+        "name": "Pafos",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22281.png",
+        "LegaueID": null
+    },
+    {
+        "id": "11523",
+        "name": "Paksi SE",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11523.png",
+        "LegaueID": null
+    },
+    {
+        "id": "443",
+        "name": "Panathinaikos",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/443.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21004",
+        "name": "Panevezys",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21004.png",
+        "LegaueID": null
+    },
+    {
+        "id": "541",
+        "name": "Partizan Belgrade",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/541.png",
+        "LegaueID": null
+    },
+    {
+        "id": "19250",
+        "name": "Petrocub-Hincesti",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19250.png",
+        "LegaueID": null
+    },
+    {
+        "id": "519",
+        "name": "Rapid Vienna",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/519.png",
+        "LegaueID": null
+    },
+    {
+        "id": "12030",
+        "name": "Rigas Futbola Skola",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12030.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2988",
+        "name": "Rijeka",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2988.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20032",
+        "name": "Servette",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20032.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2564",
+        "name": "Shamrock Rovers",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2564.png",
+        "LegaueID": null
+    },
+    {
+        "id": "614",
+        "name": "Sheriff Tiraspol",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/614.png",
+        "LegaueID": null
+    },
+    {
+        "id": "607",
+        "name": "Silkeborg IF",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/607.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20713",
+        "name": "TSC Backa Topola",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20713.png",
+        "LegaueID": null
+    },
+    {
+        "id": "576",
+        "name": "The New Saints",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/576.png",
+        "LegaueID": null
+    },
+    {
+        "id": "6748",
+        "name": "Tobol Kostanay",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6748.png",
+        "LegaueID": null
+    },
+    {
+        "id": "997",
+        "name": "Trabzonspor",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/997.png",
+        "LegaueID": null
+    },
+    {
+        "id": "11441",
+        "name": "UE Santa Coloma",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11441.png",
+        "LegaueID": null
+    },
+    {
+        "id": "11706",
+        "name": "Viktoria Plzen",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11706.png",
+        "LegaueID": null
+    },
+    {
+        "id": "7825",
+        "name": "Vojvodina",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7825.png",
+        "LegaueID": null
+    },
+    {
+        "id": "488",
+        "name": "Wisla Krakow",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/488.png",
+        "LegaueID": null
+    },
+    {
+        "id": "18754",
+        "name": "Zira FK",
+        "leagueName": "UEFA Europa League Qualifying",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18754.png",
+        "LegaueID": null
+    },
+    {
+        "id": "615",
+        "name": "Bohemians",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/615.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "2712",
+        "name": "Derry City",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2712.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "6741",
+        "name": "Drogheda Utd",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6741.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "2559",
+        "name": "Dundalk",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2559.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "7587",
+        "name": "Galway Utd",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7587.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "2564",
+        "name": "Shamrock Rovers",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2564.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "20297",
+        "name": "Shelbourne",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20297.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "7601",
+        "name": "Sligo",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7601.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "7588",
+        "name": "St Patricks Athletic",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7588.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "18968",
+        "name": "Waterford",
+        "leagueName": "Irish Premier Division",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18968.png",
+        "LegaueID": 116
+    },
+    {
+        "id": "403",
+        "name": "Alloa Athletic",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/403.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "7166",
+        "name": "Annan Athletic",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7166.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "252",
+        "name": "Arbroath",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/252.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "2613",
+        "name": "Cove Rangers",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2613.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "415",
+        "name": "Dumbarton",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/415.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "253",
+        "name": "Inverness Caledonian Thistle",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/253.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "18018",
+        "name": "Kelty Hearts",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18018.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "414",
+        "name": "Montrose",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/414.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "406",
+        "name": "Queen of the South",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/406.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "405",
+        "name": "Stenhousemuir",
+        "leagueName": "Scottish League One",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/405.png",
+        "LegaueID": 47
+    },
+    {
+        "id": "20798",
+        "name": "ADO Den Haag",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20798.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21977",
+        "name": "AZ Alkmaar",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21977.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20796",
+        "name": "Ajax Amsterdam",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20796.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20799",
+        "name": "Excelsior",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20799.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22188",
+        "name": "FC Eindhoven",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22188.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20114",
+        "name": "FC Twente",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20114.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21978",
+        "name": "FC Utrecht",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21978.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20984",
+        "name": "Feyenoord Rotterdam",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20984.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21584",
+        "name": "Fortuna Sittard",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21584.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20800",
+        "name": "Heerenveen",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20800.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22197",
+        "name": "Jong Ajax",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22197.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20797",
+        "name": "PEC Zwolle",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20797.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20802",
+        "name": "PSV Eindhoven",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20802.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22195",
+        "name": "RKSV Nuenen",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22195.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22196",
+        "name": "Saestum II",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22196.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21585",
+        "name": "Telstar",
+        "leagueName": "Dutch KNVB Beker Vrouwen",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21585.png",
+        "LegaueID": null
+    },
+    {
+        "id": "106",
+        "name": "Bari",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/106.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "108",
+        "name": "Brescia",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/108.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3988",
+        "name": "Carrarese",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3988.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3257",
+        "name": "Catanzaro",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3257.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3337",
+        "name": "Cesena",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3337.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3943",
+        "name": "Cittadella",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3943.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "8683",
+        "name": "Cosenza",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8683.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "4050",
+        "name": "Cremonese",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4050.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "4057",
+        "name": "Frosinone",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4057.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3975",
+        "name": "Juve Stabia",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3975.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3991",
+        "name": "Mantova",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3991.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "2573",
+        "name": "Modena",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2573.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "2923",
+        "name": "Palermo",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2923.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3956",
+        "name": "Pisa",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3956.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3942",
+        "name": "Reggiana",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3942.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3240",
+        "name": "Salernitana",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3240.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "2734",
+        "name": "Sampdoria",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2734.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "3997",
+        "name": "Sassuolo",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3997.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "4056",
+        "name": "Spezia",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4056.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "11139",
+        "name": "Suditrol",
+        "leagueName": "Italian Serie B",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11139.png",
+        "LegaueID": 99
+    },
+    {
+        "id": "994",
+        "name": "AIK",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/994.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "7834",
+        "name": "BK Häcken",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7834.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "2339",
+        "name": "Djurgården",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2339.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "8222",
+        "name": "GAIS",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8222.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "3017",
+        "name": "Halmstads BK",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3017.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "2495",
+        "name": "Hammarby IF",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2495.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "8221",
+        "name": "IF Brommapojkarna",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8221.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "529",
+        "name": "IF Elfsborg",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/529.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "2556",
+        "name": "IFK Göteborg",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2556.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "8544",
+        "name": "IFK Norrköping",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8544.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "21382",
+        "name": "IFK Värnamo",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21382.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "8547",
+        "name": "IK Sirius",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8547.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "3052",
+        "name": "Kalmar FF",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3052.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "2720",
+        "name": "Malmö FF",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2720.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "20301",
+        "name": "Mjällby AIF",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20301.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "22163",
+        "name": "Västerås SK",
+        "leagueName": "Swedish Allsvenskan",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22163.png",
+        "LegaueID": 16
+    },
+    {
+        "id": "20796",
+        "name": "Ajax Amsterdam",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20796.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "21124",
+        "name": "BK Häcken",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21124.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "20091",
+        "name": "Barcelona",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20091.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "20103",
+        "name": "Bayern Munich",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20103.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "20830",
+        "name": "Benfica",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20830.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "19970",
+        "name": "Chelsea",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19970.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "22092",
+        "name": "Eintracht Frankfurt",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22092.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "19256",
+        "name": "Lyon",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19256.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "21640",
+        "name": "Paris FC",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21640.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "19258",
+        "name": "Paris Saint-Germain",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19258.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "21128",
+        "name": "Real Madrid",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21128.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "21685",
+        "name": "Roma",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21685.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "20833",
+        "name": "Rosengard",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20833.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "22093",
+        "name": "SK Brann",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22093.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "20105",
+        "name": "Slavia Prague",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20105.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "20115",
+        "name": "St. Pölten",
+        "leagueName": "UEFA Women's Champions League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20115.png",
+        "LegaueID": 2408
+    },
+    {
+        "id": "263",
+        "name": "Aberdeen",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/263.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2500",
+        "name": "Airdrieonians",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2500.png",
+        "LegaueID": null
+    },
+    {
+        "id": "403",
+        "name": "Alloa Athletic",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/403.png",
+        "LegaueID": null
+    },
+    {
+        "id": "7166",
+        "name": "Annan Athletic",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7166.png",
+        "LegaueID": null
+    },
+    {
+        "id": "252",
+        "name": "Arbroath",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/252.png",
+        "LegaueID": null
+    },
+    {
+        "id": "248",
+        "name": "Ayr United",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/248.png",
+        "LegaueID": null
+    },
+    {
+        "id": "10605",
+        "name": "Bonnyrigg Rose",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10605.png",
+        "LegaueID": null
+    },
+    {
+        "id": "413",
+        "name": "Brechin City",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/413.png",
+        "LegaueID": null
+    },
+    {
+        "id": "650",
+        "name": "Buckie Thistle",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/650.png",
+        "LegaueID": null
+    },
+    {
+        "id": "256",
+        "name": "Celtic",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/256.png",
+        "LegaueID": null
+    },
+    {
+        "id": "255",
+        "name": "Clyde",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/255.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2613",
+        "name": "Cove Rangers",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2613.png",
+        "LegaueID": null
+    },
+    {
+        "id": "415",
+        "name": "Dumbarton",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/415.png",
+        "LegaueID": null
+    },
+    {
+        "id": "261",
+        "name": "Dundee",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/261.png",
+        "LegaueID": null
+    },
+    {
+        "id": "264",
+        "name": "Dundee United",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/264.png",
+        "LegaueID": null
+    },
+    {
+        "id": "265",
+        "name": "Dunfermline Athletic",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/265.png",
+        "LegaueID": null
+    },
+    {
+        "id": "421",
+        "name": "East Fife",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/421.png",
+        "LegaueID": null
+    },
+    {
+        "id": "17582",
+        "name": "East Kilbride",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17582.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2832",
+        "name": "Edinburgh City",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2832.png",
+        "LegaueID": null
+    },
+    {
+        "id": "419",
+        "name": "Elgin City",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/419.png",
+        "LegaueID": null
+    },
+    {
+        "id": "254",
+        "name": "Falkirk",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/254.png",
+        "LegaueID": null
+    },
+    {
+        "id": "408",
+        "name": "Forfar Athletic",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/408.png",
+        "LegaueID": null
+    },
+    {
+        "id": "411",
+        "name": "Greenock Morton",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/411.png",
+        "LegaueID": null
+    },
+    {
+        "id": "409",
+        "name": "Hamilton Academical",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/409.png",
+        "LegaueID": null
+    },
+    {
+        "id": "262",
+        "name": "Heart of Midlothian",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/262.png",
+        "LegaueID": null
+    },
+    {
+        "id": "258",
+        "name": "Hibernian",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/258.png",
+        "LegaueID": null
+    },
+    {
+        "id": "253",
+        "name": "Inverness Caledonian Thistle",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/253.png",
+        "LegaueID": null
+    },
+    {
+        "id": "18018",
+        "name": "Kelty Hearts",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18018.png",
+        "LegaueID": null
+    },
+    {
+        "id": "260",
+        "name": "Kilmarnock",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/260.png",
+        "LegaueID": null
+    },
+    {
+        "id": "259",
+        "name": "Livingston",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/259.png",
+        "LegaueID": null
+    },
+    {
+        "id": "414",
+        "name": "Montrose",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/414.png",
+        "LegaueID": null
+    },
+    {
+        "id": "266",
+        "name": "Motherwell",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/266.png",
+        "LegaueID": null
+    },
+    {
+        "id": "247",
+        "name": "Partick Thistle",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/247.png",
+        "LegaueID": null
+    },
+    {
+        "id": "416",
+        "name": "Peterhead",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/416.png",
+        "LegaueID": null
+    },
+    {
+        "id": "406",
+        "name": "Queen of the South",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/406.png",
+        "LegaueID": null
+    },
+    {
+        "id": "422",
+        "name": "Queen's Park",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/422.png",
+        "LegaueID": null
+    },
+    {
+        "id": "249",
+        "name": "Raith Rovers",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/249.png",
+        "LegaueID": null
+    },
+    {
+        "id": "257",
+        "name": "Rangers",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/257.png",
+        "LegaueID": null
+    },
+    {
+        "id": "251",
+        "name": "Ross County",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/251.png",
+        "LegaueID": null
+    },
+    {
+        "id": "18015",
+        "name": "Spartans FC",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18015.png",
+        "LegaueID": null
+    },
+    {
+        "id": "267",
+        "name": "St Johnstone",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/267.png",
+        "LegaueID": null
+    },
+    {
+        "id": "250",
+        "name": "St Mirren",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/250.png",
+        "LegaueID": null
+    },
+    {
+        "id": "405",
+        "name": "Stenhousemuir",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/405.png",
+        "LegaueID": null
+    },
+    {
+        "id": "417",
+        "name": "Stirling Albion",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/417.png",
+        "LegaueID": null
+    },
+    {
+        "id": "407",
+        "name": "Stranraer",
+        "leagueName": "Scottish League Cup",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/407.png",
+        "LegaueID": null
+    },
+    {
+        "id": "7612",
+        "name": "Aberystwyth",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7612.png",
+        "LegaueID": null
+    },
+    {
+        "id": "10496",
+        "name": "Bala Town",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10496.png",
+        "LegaueID": null
+    },
+    {
+        "id": "621",
+        "name": "Barry Town",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/621.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22301",
+        "name": "Briton Ferry",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22301.png",
+        "LegaueID": null
+    },
+    {
+        "id": "7590",
+        "name": "Caernarfon",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7590.png",
+        "LegaueID": null
+    },
+    {
+        "id": "18288",
+        "name": "Cardiff MU",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18288.png",
+        "LegaueID": null
+    },
+    {
+        "id": "7591",
+        "name": "Connah's Quay",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7591.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20745",
+        "name": "Flint Town United FC",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20745.png",
+        "LegaueID": null
+    },
+    {
+        "id": "2934",
+        "name": "Haverfordwest",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2934.png",
+        "LegaueID": null
+    },
+    {
+        "id": "4172",
+        "name": "Newtown",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4172.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20038",
+        "name": "Penybont FC",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20038.png",
+        "LegaueID": null
+    },
+    {
+        "id": "576",
+        "name": "The New Saints",
+        "leagueName": "Welsh Premier League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/576.png",
+        "LegaueID": null
+    },
+    {
+        "id": "1382",
+        "name": "Austria Vienna",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1382.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "21950",
+        "name": "FC Blau-Weiß Linz",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21950.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "21846",
+        "name": "Grazer AK",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21846.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "4411",
+        "name": "LASK Linz",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4411.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "2790",
+        "name": "RB Salzburg",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2790.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "519",
+        "name": "Rapid Vienna",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/519.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "4405",
+        "name": "SC Rheindorf Altach",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4405.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "20966",
+        "name": "SK Austria Klagenfurt",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20966.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "3746",
+        "name": "SK Sturm Graz",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3746.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "6907",
+        "name": "TSV Hartberg",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6907.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "18794",
+        "name": "WSG Swarovski Tirol",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18794.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "13294",
+        "name": "Wolfsberger",
+        "leagueName": "Austrian Bundesliga",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13294.png",
+        "LegaueID": 5
+    },
+    {
+        "id": "2737",
+        "name": "Albacete",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2737.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "6832",
+        "name": "Almería",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6832.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "12597",
+        "name": "Burgos",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12597.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "4438",
+        "name": "Castellón",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4438.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "3842",
+        "name": "Cádiz",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3842.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "8447",
+        "name": "Córdoba",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8447.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "90",
+        "name": "Deportivo La Coruña",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/90.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "3752",
+        "name": "Eibar",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3752.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "3751",
+        "name": "Elche",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3751.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "7320",
+        "name": "Eldense",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7320.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "5419",
+        "name": "FC Cartagena",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5419.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "3747",
+        "name": "Granada",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3747.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "5413",
+        "name": "Huesca",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5413.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "1538",
+        "name": "Levante",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1538.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "4515",
+        "name": "Mirandés",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4515.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "99",
+        "name": "Málaga",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/99.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "8448",
+        "name": "Racing Ferrol",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8448.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "87",
+        "name": "Racing Santander",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/87.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "92",
+        "name": "Real Oviedo",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/92.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "91",
+        "name": "Real Zaragoza",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/91.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "3788",
+        "name": "Sporting Gijón",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3788.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "245",
+        "name": "Tenerife",
+        "leagueName": "Spanish LALIGA 2",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/245.png",
+        "LegaueID": 107
+    },
+    {
+        "id": "19973",
+        "name": "Arsenal",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19973.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20707",
+        "name": "Aston Villa",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20707.png",
+        "LegaueID": null
+    },
+    {
+        "id": "19976",
+        "name": "Brighton & Hove Albion",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19976.png",
+        "LegaueID": null
+    },
+    {
+        "id": "19970",
+        "name": "Chelsea",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19970.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21037",
+        "name": "Crystal Palace",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21037.png",
+        "LegaueID": null
+    },
+    {
+        "id": "19972",
+        "name": "Everton",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19972.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21036",
+        "name": "Leicester City",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21036.png",
+        "LegaueID": null
+    },
+    {
+        "id": "19971",
+        "name": "Liverpool",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19971.png",
+        "LegaueID": null
+    },
+    {
+        "id": "19257",
+        "name": "Manchester City",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19257.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20061",
+        "name": "Manchester United",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20061.png",
+        "LegaueID": null
+    },
+    {
+        "id": "20062",
+        "name": "Tottenham Hotspur",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20062.png",
+        "LegaueID": null
+    },
+    {
+        "id": "19975",
+        "name": "West Ham United",
+        "leagueName": "English Women's Super League",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19975.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21135",
+        "name": "AEM",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21135.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21378",
+        "name": "Alavés",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21378.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21137",
+        "name": "Alhama",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21137.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22017",
+        "name": "Balears",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22017.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21658",
+        "name": "Bizkerre",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21658.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21139",
+        "name": "CD Femarguín",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21139.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21656",
+        "name": "CE Europa",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21656.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22019",
+        "name": "CF Albacete",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22019.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21156",
+        "name": "CP Cacereño",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21156.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21143",
+        "name": "Córdoba",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21143.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21145",
+        "name": "Deportivo de La Coruña",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21145.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21175",
+        "name": "Dux Logroño",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21175.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21134",
+        "name": "Elche",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21134.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21154",
+        "name": "Espanyol",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21154.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21147",
+        "name": "Fundación Albacete",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21147.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21657",
+        "name": "Fundación Tenerife",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21657.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22012",
+        "name": "Getafe",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22012.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22346",
+        "name": "Guiniguada Apolinario",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22346.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22016",
+        "name": "Huesca",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22016.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21148",
+        "name": "Juan Grande",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21148.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21146",
+        "name": "La Solana",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21146.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21160",
+        "name": "Málaga",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21160.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21151",
+        "name": "Osasuna",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21151.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21157",
+        "name": "Pradejón",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21157.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21152",
+        "name": "Racing",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21152.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21375",
+        "name": "Rayo Vallecano",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21375.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21138",
+        "name": "Real Oviedo",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21138.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21158",
+        "name": "Real Unión Tenerife",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21158.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21136",
+        "name": "Sporting Gijón",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21136.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21655",
+        "name": "Unión Viera",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21655.png",
+        "LegaueID": null
+    },
+    {
+        "id": "22013",
+        "name": "Viajes Interrias",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22013.png",
+        "LegaueID": null
+    },
+    {
+        "id": "21163",
+        "name": "Zaragoza",
+        "leagueName": "Spanish Copa de la Reina",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21163.png",
+        "LegaueID": null
+    },
+    {
+        "id": "3802",
+        "name": "AFC Wimbledon",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3802.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "2731",
+        "name": "Accrington Stanley",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2731.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "642",
+        "name": "Barrow",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/642.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "387",
+        "name": "Bradford City",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/387.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "3129",
+        "name": "Bromley",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3129.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "322",
+        "name": "Carlisle United",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/322.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "320",
+        "name": "Cheltenham Town",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/320.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "343",
+        "name": "Chesterfield",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/343.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "339",
+        "name": "Colchester United",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/339.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "396",
+        "name": "Crewe Alexandra",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/396.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "279",
+        "name": "Doncaster Rovers",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/279.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "3891",
+        "name": "Fleetwood Town",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3891.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "389",
+        "name": "Gillingham",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/389.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "386",
+        "name": "Grimsby Town",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/386.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "19262",
+        "name": "Harrogate Town",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19262.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "390",
+        "name": "Milton Keynes Dons",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/390.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "278",
+        "name": "Morecambe",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/278.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "635",
+        "name": "Newport County",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/635.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "340",
+        "name": "Notts County",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/340.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "348",
+        "name": "Port Vale",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/348.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "4703",
+        "name": "Salford City",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4703.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "341",
+        "name": "Swindon Town",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/341.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "345",
+        "name": "Tranmere Rovers",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/345.png",
+        "LegaueID": 26
+    },
+    {
+        "id": "401",
+        "name": "Walsall",
+        "leagueName": "English League Two",
+        "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/401.png",
+        "LegaueID": 26
+    }
+]

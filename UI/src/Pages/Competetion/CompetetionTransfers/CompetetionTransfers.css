@@ -1,0 +1,64 @@
+.competTransfers .pageContent{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.competTransfers table{
+    color: var(--text-color);
+}
+.competTransfers table thead th{
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.competTransfers table tbody .clubInfo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+}
+.competTransfers table tbody tr td{
+    padding-bottom: 10px;
+}
+.competTransfers table tbody tr:first-of-type td{
+    padding-top: 10px;
+}
+.competTransfers table tbody tr  img{
+    width: 32px;
+}
+.competTransfers table tbody tr td .playerAndTeams{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.competTransfers table tbody tr td .playerAndTeams .transferTeams{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.competTransfers table tbody tr td .playerAndTeams .transferTeams .clubInfo{
+    flex: 40%;
+}
+.competTransfers table tbody tr td .playerAndTeams .transferTeams svg{
+    flex: 20%;
+}
+@media (max-width: 768px) {
+    .competTransfers table thead tr th:first-of-type{
+        padding-right: 5px;
+    }
+    .competTransfers table tbody tr:first-of-type td{
+        padding-right: 5px;
+    }
+    .competTransfers table tbody tr td{
+        vertical-align: top;
+    }
+    .competTransfers .dropdown__select{
+        font-size: 17px;
+    }
+}
+@media (max-width: 450px) {
+    .competTransfers table tbody tr td{
+        font-size: 15px;
+    }
+}

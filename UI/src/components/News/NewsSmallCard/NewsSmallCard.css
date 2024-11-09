@@ -1,0 +1,21 @@
+
+.NewsSmallCard .newsImage img{
+    width: 100%;
+    height: 193px;
+}
+.NewsSmallCard .newsInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+.NewsSmallCard .newsInfo .newsTitle{
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.originalPSmall{
+    color: var(--text-color);
+    text-decoration: underline;
+}

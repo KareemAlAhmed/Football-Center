@@ -1,0 +1,59 @@
+.PageLayout__MainContainer section.latestNews .cardTitle p{
+    font-weight: 600;
+    font-size: 25px;
+}
+.PageLayout__MainContainer section.latestNews .cardHeader{
+    margin-bottom: 25px;
+}
+.PageLayout__MainContainer .latestNews{
+    width: 100%;
+}
+.PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li .articleInfo{
+    font-size: 18px;
+    width: 100%;
+}
+.PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 10px;
+    margin-top: 15px;
+}
+.PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li a{
+    color: var(--text-color);
+    word-wrap: break-word;
+    font-size: 26px;
+    transition: all 0.3s ease;
+}
+.PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li a:hover{
+    color: var(--hover-color);
+}
+.PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li img{
+    width: 100%;
+    height: 450px;
+}
+
+.PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li .articleInfo .articleMetaData{
+    display: flex;
+    gap: 5px;
+    color:var(--hover-color);
+    margin-top: 5px;
+}
+
+
+@media (max-width: 680px) {
+    .PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li img{
+        height: 250px;
+    }
+    .PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li a{
+        font-size: 23px;
+    }
+}
+@media (max-width: 450px) {
+    .PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li img{
+        height: 200px;
+    }
+    .PageLayout__MainContainer .latestNews .Wrapper .listOfPlayerNews li a{
+        font-size: 20px;
+    }
+}

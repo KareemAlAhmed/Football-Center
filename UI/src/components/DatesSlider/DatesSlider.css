@@ -1,0 +1,69 @@
+.date-timeline{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.date-timeline .date-list{
+    display: flex;
+    position: relative;
+    width: 100%;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+.date-timeline .date-list::-webkit-scrollbar {
+    display: none;
+  }
+.date-timeline .date-list li {
+    width: calc((100% - 60px) / 7);
+    display: block;
+    background-color: var(--social-back-color);
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.date-timeline .date-list li a{
+    display: block;
+    /* width: 200px; */
+    color: var(--hover-color);
+    font-weight: 600;
+}
+.date-timeline .date-list .activeLi{
+    border: 3px solid var(--text-color);
+}
+.date-timeline .date-list .activeLi a{
+    color: var(--text-color);
+}
+.date-timeline .date-list li a span{
+    display: block;
+    /* width: 200px; */
+}
+.date-timeline h3{
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.scheduler{
+    display: flex;
+    gap: 25PX;
+    justify-content: space-between;
+}
+.scheduler svg{
+    width: 20px;
+    fill: var(--text-color);
+}
+.selectedDateString{
+    margin-top: 15px;
+}
+
+@media (max-width: 1199px) {
+    .date-timeline .date-list li{
+        width: 115px;
+    }
+    .date-timeline .date-list li a{
+        width: 75px !important;
+    }
+  }
+@media (max-width: 400px) {
+    .selectedDateString{
+        font-size: 24px;
+    }
+  }

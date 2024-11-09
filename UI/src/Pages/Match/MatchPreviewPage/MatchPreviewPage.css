@@ -1,0 +1,59 @@
+.matchPreview .pageContent .mainContainer{
+    flex: 1 ;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.matchPreview  .mainContainer  .articleMetaData{
+    padding: 10px 0px 15px;
+    border-bottom: 1px solid var(--hover-color);
+    margin-bottom: 15px;
+}
+.matchPreview  .mainContainer  .articleMetaData ul li{
+    display: inline-block;
+    padding-right: 5px;
+    color: var(--text-color);
+}
+.matchPreview  .mainContainer .articleMetaData .timeStamps{
+    font-size: 13px;
+    color: var(--hover-color);
+    margin-top: 3px;
+}
+.matchPreview  .mainContainer .articleBody{
+    color: var(--text-color);
+    font-size: 17px !important;
+}
+.matchPreview  .mainContainer .articleBody ul{
+    list-style: circle;
+    margin-bottom: 26px;
+}
+.matchPreview  .mainContainer .articleBody p{
+    line-height: 26px;
+    margin-bottom: 36px;
+}
+
+.matchPreview  .mainContainer .articleBody h1,
+.matchPreview  .mainContainer .articleBody h2,
+.matchPreview  .mainContainer .articleBody h3{
+    margin-bottom: 5px;
+}
+@media (max-width: 1350px) {
+    .matchPreview .pageContent .mainContainer{
+        max-width: 60%;
+    }
+}
+@media (max-width: 990px) {
+    .matchPreview .pageContent .rightSideContainer{
+        display: none;
+    }
+    .matchPreview .pageContent .mainContainer{
+        max-width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .matchPreview .pageContent .mainContainer h1{
+        font-size: 27px;
+    }
+    .matchPreview .mainContainer .articleBody p{
+        font-size: 16px;
+    }
+}

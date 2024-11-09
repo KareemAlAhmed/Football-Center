@@ -1,0 +1,74 @@
+section.userSetting{
+    width: 100%;
+}
+section.userSetting .cardTitle{
+    border: none;
+}
+section.userSetting .cardTitle p{
+    font-size: 18px;
+}
+section.userSetting ul.themeOptions{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-column-gap: 2.5em;
+    grid-row-gap: 2.5em;
+}
+section.userSetting ul.themeOptions li button{
+    display: inline-flex;
+    min-height: 3.75em;
+    padding: 0 .5em;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--hover-color);
+    border-radius: 0.25rem;
+    transition: color .25s ease-in-out, border-color .25s ease-in-out, filter .25s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: var(--text-color);
+    max-width: 18.125em;
+    height: 4.375em;
+    width: 100%;
+    filter: drop-shadow(0 .3125em .625em rgba(0, 0, 0, .06));
+}
+section.userSetting ul.themeOptions li button span.optionWrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-gap: .5em;
+    gap: .5em;
+    padding: 0 .5em;
+    align-items: center;
+}
+section.userSetting ul.themeOptions li button span.optionWrapper span.optionName{
+    text-align: left;
+}
+section.userSetting ul.themeOptions li button span.optionWrapper .checkedLogo{
+    border: 1px solid;
+    --icon-size: 1.125em;
+    display: flex;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    place-content: center;
+    color: var(--elevated-background-color);
+    border-radius: 100%;
+}
+@media (max-width: 991px) {
+    section.userSetting ul.themeOptions{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+@media (max-width: 768px) {
+    section.userSetting ul.themeOptions{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (max-width: 490px) {
+    section.userSetting ul.themeOptions{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    section.userSetting ul.themeOptions li button{
+        max-width: 100%;
+    }
+}

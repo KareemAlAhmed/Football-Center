@@ -1,0 +1,134 @@
+section.teamTopPerformer{
+    width: 100%;
+    padding: 0 12px;
+    margin-bottom: 15px;
+}
+section.teamTopPerformer .Wrapper {
+    display: flex;
+    flex-direction: row;
+}
+section.teamTopPerformer .cardTitle p{
+    font-size: 18px;
+    /* border-style: solid; */
+}
+
+section.teamTopPerformer .Wrapper .teamScorers{
+    display: flex;
+    flex-direction: column;
+    flex: 50% 0;
+    gap: 15px;
+}
+section.teamTopPerformer .Wrapper .teamScorers:first-of-type{
+    border-right: 1px solid var(--hover-color);
+}
+section.teamTopPerformer .Wrapper .teamScorers .teamNameAndLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+section.teamTopPerformer .Wrapper .teamScorers .teamNameAndLogo a:nth-child(3){
+    display: none;
+}
+section.teamTopPerformer .Wrapper .teamScorers .teamLogo{
+    width: 28px;
+}
+section.teamTopPerformer .Wrapper .playerJersy{
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+section.teamTopPerformer .Wrapper .playerJersy .shirtNumber{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+}
+section.teamTopPerformer .Wrapper .scorersList {
+    display: flex;
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData{
+    padding: 0 8px;
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid var(--hover-color);
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData:last-child{
+    border: none;
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData .playerInfo{
+    text-align: center;
+    /* width: 100%; */
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData .playerInfo .playerName{
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+section.teamTopPerformer .Wrapper .scorersList .playerData .playerInfo ul{
+    font-size: 11px;
+    color: var(--hover-color);
+}
+@media (max-width: 1520px) {
+    .overviewMatchPage section.teamTopPerformer .Wrapper .scorersList .playerData{
+        padding: 0;
+    }
+}
+@media (max-width: 1350px) {
+
+    .overviewMatchPage section.teamTopPerformer{
+        padding: 12px 0;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .scorersList .playerData .playerInfo .playerName{
+        font-size: 12px;
+    }
+    .overviewMatchPage .Card .Wrapper .playerName{
+        padding: 0;
+    }
+}
+
+@media (max-width: 680px) {
+    .overviewMatchPage section.teamTopPerformer .Wrapper .scorersList{
+        flex-direction: column;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .scorersList .playerData{
+        width: 100%;
+        flex-direction: row;
+        border-right: 0;
+        border-bottom: 1px solid var(--hover-color);
+        justify-content: space-between;
+        padding: 5px 5px 5px 0;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .teamScorers .teamNameAndLogo{
+        justify-content: flex-start;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .teamScorers:last-of-type .teamNameAndLogo{
+        justify-content: flex-end;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .scorersList .playerData .playerInfo{
+        text-align: right;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .teamScorers:last-of-type .scorersList .playerData{
+        flex-direction: row-reverse;
+        padding-left: 5px;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .teamScorers:last-of-type .scorersList .playerData .playerInfo{
+        text-align: left;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .scorersList .playerData:last-of-type{
+        border-bottom: 0;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .teamScorers .teamNameAndLogo a:nth-child(2){
+        display: none;
+    }
+    .overviewMatchPage section.teamTopPerformer .Wrapper .teamScorers .teamNameAndLogo a:nth-child(3){
+        display: block;
+    }
+}

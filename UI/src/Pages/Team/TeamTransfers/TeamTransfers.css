@@ -1,0 +1,65 @@
+.teamTransfers .pageContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.teamTransfers .pageContent table{
+    width: 100%;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+.teamTransfers .pageContent table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+}
+.teamTransfers .pageContent table tr td{
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.teamTransfers .pageContent table tr .TeamsLogos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.teamTransfers .Table__fixtures table .teamWrapper .teamLogo{
+    min-width: 25px;
+}
+.teamTransfers .pageContent table tr img{
+    width: 25px;
+    height: 27px;
+    cursor: pointer;
+}
+.teamTransfers .pageContent table tr a{
+    color: var(--text-color);
+}
+.teamTransfers .pageContent .listOfPlayers{
+    display: flex;
+    /* gap: 15px; */
+}
+.teamTransfers .pageContent .listOfPlayers .Table__fixtures{
+    width: calc((100% - 15px) / 2);
+}
+.teamTransfers .pageContent .listOfPlayers .Table__fixtures:first-of-type{
+    margin-right: 15px;
+}
+.teamTransfers .pageContent .listOfPlayers .Table__fixtures:last-of-type{
+    margin-left: 15px;
+}
+.teamTransfers .Table__fixtures table .teamWrapper{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 991px) {
+    .teamTransfers .pageContent .listOfPlayers{
+        flex-direction: column;
+    }
+    .teamTransfers .pageContent .listOfPlayers .Table__fixtures{
+        width: 100%;
+    }
+    .teamTransfers .pageContent .listOfPlayers .Table__fixtures:first-of-type{
+        margin-right: 0;
+    }
+    .teamTransfers .pageContent .listOfPlayers .Table__fixtures:last-of-type{
+        margin-left: 0;
+    }
+}

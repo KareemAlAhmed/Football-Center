@@ -1,0 +1,51 @@
+.matchReport .pageContent .mainContainer{
+    flex: 1 ;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.matchReport  .mainContainer  .articleMetaData{
+    padding: 10px 0px 15px;
+    border-bottom: 1px solid var(--hover-color);
+    margin-bottom: 15px;
+}
+.matchReport  .mainContainer  .articleMetaData ul li{
+    display: inline-block;
+    padding-right: 5px;
+    color: var(--text-color);
+}
+.matchReport  .mainContainer .articleMetaData .timeStamps{
+    font-size: 13px;
+    color: var(--hover-color);
+    margin-top: 3px;
+}
+.matchReport  .mainContainer .articleBody{
+    color: var(--text-color);
+    font-size: 17px !important;
+}
+.matchReport  .mainContainer .articleBody ul{
+    list-style: circle;
+    margin-bottom: 26px;
+}
+.matchReport  .mainContainer .articleBody p{
+    line-height: 26px;
+    margin-bottom: 36px;
+}
+
+.matchReport  .mainContainer .articleBody h1,
+.matchReport  .mainContainer .articleBody h2,
+.matchReport  .mainContainer .articleBody h3{
+    margin-bottom: 5px;
+}
+@media (max-width: 1350px) {
+    .matchPreview .pageContent .mainContainer{
+        max-width: 60%;
+    }
+}
+@media (max-width: 990px) {
+    .matchReport .pageContent .rightSideContainer{
+        display: none;
+    }
+    .matchReport .pageContent .mainContainer{
+        max-width: 100%;
+    }
+}

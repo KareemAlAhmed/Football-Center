@@ -1,0 +1,206 @@
+.pageContent{
+    width: 95%;
+    margin: 15px auto;
+    display: flex;
+}
+.pageHeader{
+    height: fit-content !important;
+}
+.teamBlock .pageContent{
+    gap: 35px;
+}
+.teamBlock .teamSchedule{
+    width: 20%;
+}
+.teamBlock .teamSchedule .listOfMatches{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.listOfMatches .match{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    color: var(--text-color);
+}
+.listOfMatches .match .matchInfo{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.listOfMatches .match .matchInfo .homeTeam,.listOfMatches .match .matchInfo .awayTeam{
+    display: flex;
+    gap: 20px;
+}
+.listOfMatches .match .leagueInfo{
+    display: flex;
+    justify-content: center;
+}
+.listOfMatches .match svg{
+    width: 10px;
+    fill: var(--text-color);
+}
+.listOfMatches .match .matchStatus{
+    display: flex;
+    gap: 15px;
+}
+.listOfMatches .match .matchTimeAndDate{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.matchInfo .homeTeamName,.match .awayTeamName{
+    font-weight: 600;
+}
+.losingScore{
+    color: var(--hover-color) !important;
+}
+
+.pageContent .NewsSmallCard{
+    width: 100%;
+    height: fit-content;
+}
+.pageContent .NewsSmallCard .newsImg img{
+    width: 100%;
+}
+.pageContent .leagueStanding table{
+    color: var(--text-color);
+    margin-top: 10px;
+    width: 100%;
+}
+.pageContent .leagueStanding table thead th{
+    padding: 0 10px 5px;
+    text-align: left;
+}
+
+.pageContent .leagueStanding table thead th:first-of-type{
+   
+    padding-left: 0;
+}
+.pageContent .leagueStanding table tbody td{
+    padding: 0 10px 5px;
+}
+
+.pageContent .leagueStanding table tbody tr td:first-of-type{
+    text-align: left;
+    padding-left: 0;
+}
+.pageContent .leagueStanding table tbody td a{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.pageContent .leagueStanding .moreStandings,.pageContent .moreRanking{
+    color: var(--text-color);
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.pageContent .teamSats{
+    color: var(--text-color);
+    margin-top: 15px;
+}
+.pageContent .teamSats header{
+    border-bottom: 1px dotted var(--hover-color);
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.pageContent .teamSats .statList{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pageContent .teamSats .statList .statsInfo{
+    width: calc(100% / 2);
+    padding: 3px;
+    text-align: center;
+    color: var(--hover-color);
+}
+.pageContent .teamSats .statList .statsInfo p:nth-child(2){
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 29px;
+}
+.noData{
+    display: flex;
+    justify-content: center;
+}
+.teamBlock .NewsSmallCard .newsInfo{
+    justify-content: space-around;
+}
+.teamBlock .NewsSmallCard {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--hover-color);
+}
+.teamBlock .NewsSmallCard:last-of-type{
+    border-color: transparent;
+}
+
+@media (max-width: 1349px) {
+    .pageContent .leagueStanding table thead th,
+    .pageContent .leagueStanding table tbody td{
+        padding: 0 5px 5px;
+    }
+    .teamBlock .pageContent{
+        gap: 20px;
+    }
+}
+@media (max-width: 1200px) {
+    .teamBlock .teamLeagueStats{
+        display: none;
+    }
+    .teamBlock .teamSchedule{
+        width: fit-content;
+        max-width: 100%;
+    }
+  }
+@media (max-width: 680px) {
+    .teamBlock .pageContent{
+        flex-direction: column;
+    }
+    .teamBlock .teamSchedule{
+        overflow: scroll;
+    }
+    .teamBlock .teamSchedule .listOfMatches{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .listOfMatches .match .leagueInfo{
+        font-size: 13px;
+    }
+    .listOfMatches .match{
+        min-width: 215px;
+        justify-content: center;
+    }
+    .listOfMatches .match .matchTimeAndDate{
+        font-size: 13px;
+    }
+    .listOfMatches .match:not(:last-of-type):after{
+        content: "";
+        position: absolute;
+        right: -10px;
+        height: 100%;
+        width: 1px;
+        top: 0;
+        bottom: 0;
+        background-color: var(--hover-color);
+    }
+    .teamBlock .NewsSmallCard .newsInfo{
+        gap: 10px;
+        margin-top: 5px;
+    }
+    .teamBlock .NewsSmallCard .newsInfo a{
+        font-size: 15px;
+    }
+    .teamBlock .NewsSmallCard .newsInfo .channel p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 450px) {
+
+}

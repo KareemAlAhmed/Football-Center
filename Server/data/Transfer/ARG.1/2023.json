@@ -1,0 +1,382 @@
+[
+    {
+        "date": "Nov 28",
+        "player": {
+            "id": "261168",
+            "slug": "tomas-chancalay",
+            "name": "Tomás Chancalay"
+        },
+        "fromClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "toClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 8",
+        "player": {
+            "id": "318291",
+            "slug": "alejo-veliz",
+            "name": "Alejo Veliz"
+        },
+        "fromClub": {
+            "name": "Rosario Central",
+            "id": "17",
+            "slug": "rosario-central"
+        },
+        "toClub": {
+            "name": "Tottenham Hotspur",
+            "id": "367",
+            "slug": "tottenham-hotspur"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 1",
+        "player": {
+            "id": "358595",
+            "slug": "tomas-aviles",
+            "name": "Tomás Avilés"
+        },
+        "fromClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Aug 1",
+        "player": {
+            "id": "335238",
+            "slug": "julian-fernandez",
+            "name": "Julián Fernández"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "New York City FC",
+            "id": "17606",
+            "slug": "new-york-city-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "298592",
+            "slug": "facundo-farias",
+            "name": "Facundo Farías"
+        },
+        "fromClub": {
+            "name": "Colón (Santa Fe)",
+            "id": "7",
+            "slug": "colon-santa-fe"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 29",
+        "player": {
+            "id": "95469",
+            "slug": "edinson-cavani",
+            "name": "Edinson Cavani"
+        },
+        "fromClub": {
+            "name": "Valencia",
+            "id": "94",
+            "slug": "valencia"
+        },
+        "toClub": {
+            "name": "Boca Juniors",
+            "id": "5",
+            "slug": "boca-juniors"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jul 22",
+        "player": {
+            "id": "275941",
+            "slug": "facundo-colidio",
+            "name": "Facundo Colidio"
+        },
+        "fromClub": {
+            "name": "Internazionale",
+            "id": "110",
+            "slug": "internazionale"
+        },
+        "toClub": {
+            "name": "River Plate",
+            "id": "16",
+            "slug": "river-plate"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jul 10",
+        "player": {
+            "id": "261168",
+            "slug": "tomas-chancalay",
+            "name": "Tomás Chancalay"
+        },
+        "fromClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "toClub": {
+            "name": "New England Revolution",
+            "id": "189",
+            "slug": "new-england-revolution"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Mar 21",
+        "player": {
+            "id": "297050",
+            "slug": "julian-aude",
+            "name": "Julian Aude"
+        },
+        "fromClub": {
+            "name": "Lanús",
+            "id": "12",
+            "slug": "lanus"
+        },
+        "toClub": {
+            "name": "LA Galaxy",
+            "id": "187",
+            "slug": "la-galaxy"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Feb 7",
+        "player": {
+            "id": "196343",
+            "slug": "jonathan-menendez",
+            "name": "Jonathan Menéndez"
+        },
+        "fromClub": {
+            "name": "Real Salt Lake",
+            "id": "4771",
+            "slug": "real-salt-lake"
+        },
+        "toClub": {
+            "name": "Newell's Old Boys",
+            "id": "14",
+            "slug": "newells-old-boys"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Feb 3",
+        "player": {
+            "id": "285358",
+            "slug": "edwin-mosquera",
+            "name": "Edwin Mosquera"
+        },
+        "fromClub": {
+            "name": "Atlanta United FC",
+            "id": "18418",
+            "slug": "atlanta-united-fc"
+        },
+        "toClub": {
+            "name": "Defensa y Justicia",
+            "id": "8950",
+            "slug": "defensa-y-justicia"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 26",
+        "player": {
+            "id": "309410",
+            "slug": "ramiro-enrique",
+            "name": "Ramiro Enrique"
+        },
+        "fromClub": {
+            "name": "Banfield",
+            "id": "235",
+            "slug": "banfield"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 23",
+        "player": {
+            "id": "309241",
+            "slug": "maximo-perrone",
+            "name": "Máximo Perrone"
+        },
+        "fromClub": {
+            "name": "Vélez Sarsfield",
+            "id": "21",
+            "slug": "velez-sarsfield"
+        },
+        "toClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "302162",
+            "slug": "carlos-alcaraz",
+            "name": "Carlos Alcaraz"
+        },
+        "fromClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "toClub": {
+            "name": "Southampton",
+            "id": "376",
+            "slug": "southampton"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "241544",
+            "slug": "enzo-copetti",
+            "name": "Enzo Copetti"
+        },
+        "fromClub": {
+            "name": "Racing Club",
+            "id": "15",
+            "slug": "racing-club"
+        },
+        "toClub": {
+            "name": "Charlotte FC",
+            "id": "21300",
+            "slug": "charlotte-fc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 11",
+        "player": {
+            "id": "242613",
+            "slug": "franco-negri",
+            "name": "Franco Negri"
+        },
+        "fromClub": {
+            "name": "Godoy Cruz Antonio Tomba",
+            "id": "6756",
+            "slug": "godoy-cruz-antonio-tomba"
+        },
+        "toClub": {
+            "name": "Inter Miami CF",
+            "id": "20232",
+            "slug": "inter-miami-cf"
+        },
+        "status": "Free"
+    },
+    {
+        "date": "Jan 9",
+        "player": {
+            "id": "218440",
+            "slug": "matias-vera",
+            "name": "Matías Vera"
+        },
+        "fromClub": {
+            "name": "Houston Dynamo FC",
+            "id": "6077",
+            "slug": "houston-dynamo-fc"
+        },
+        "toClub": {
+            "name": "Argentinos Juniors",
+            "id": "3",
+            "slug": "argentinos-juniors"
+        },
+        "status": "Loan"
+    },
+    {
+        "date": "Jan 7",
+        "player": {
+            "id": "233401",
+            "slug": "martin-ojeda",
+            "name": "Martín Ojeda"
+        },
+        "fromClub": {
+            "name": "Godoy Cruz Antonio Tomba",
+            "id": "6756",
+            "slug": "godoy-cruz-antonio-tomba"
+        },
+        "toClub": {
+            "name": "Orlando City SC",
+            "id": "12011",
+            "slug": "orlando-city-sc"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "318284",
+            "slug": "facundo-buonanotte",
+            "name": "Facundo Buonanotte"
+        },
+        "fromClub": {
+            "name": "Rosario Central",
+            "id": "17",
+            "slug": "rosario-central"
+        },
+        "toClub": {
+            "name": "Brighton & Hove Albion",
+            "id": "331",
+            "slug": "brighton-hove-albion"
+        },
+        "status": "Undisclosed"
+    },
+    {
+        "date": "Jan 1",
+        "player": {
+            "id": "233845",
+            "slug": "nahuel-bustos",
+            "name": "Nahuel Bustos"
+        },
+        "fromClub": {
+            "name": "Manchester City",
+            "id": "382",
+            "slug": "manchester-city"
+        },
+        "toClub": {
+            "name": "Talleres (Córdoba)",
+            "id": "19",
+            "slug": "talleres-cordoba"
+        },
+        "status": "Loan"
+    }
+]

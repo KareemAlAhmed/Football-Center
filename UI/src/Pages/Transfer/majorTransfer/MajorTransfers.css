@@ -1,0 +1,99 @@
+.selectOpts{
+    display: flex;
+    gap: 10px;
+}
+
+.dropdown__select{
+    font-size: 19px;
+    background: transparent;
+    color: var(--text-color);
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid;
+}
+.dropdown__select option{
+    background-color: var(--back-color);
+    cursor: pointer;
+}
+.dropdown__select option:hover{
+    background: var(--text-color) !important;
+    color: var(--back-color) !important;
+}
+.majorTransfers .wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.majorTransfers table{
+    color: var(--text-color);
+}
+.majorTransfers table thead th{
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+.majorTransfers table tbody .clubInfo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+}
+.majorTransfers table tbody tr td{
+    padding-bottom: 10px;
+}
+.majorTransfers table tbody tr:first-of-type td{
+    padding-top: 10px;
+}
+.majorTransfers table tbody tr  img{
+    width: 32px;
+}
+.majorTransfers table tbody tr td .playerAndTeams{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.majorTransfers table tbody tr td .playerAndTeams .transferTeams{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.majorTransfers table tbody tr td .playerAndTeams .transferTeams .clubInfo{
+    flex: 40%;
+}
+.majorTransfers table tbody tr td .playerAndTeams .transferTeams svg{
+    flex: 20%;
+}
+.majorTransfers .loadingBlock{
+    flex: 1;
+}
+.showMobile{
+    display: none;
+}
+@media (max-width: 768px) {
+    .hideMobile{
+        display: none;
+    }
+    .showMobile{
+        display: block;
+    }
+    .majorTransfers table thead tr th:first-of-type{
+        padding-right: 5px;
+    }
+    .majorTransfers table tbody tr:first-of-type td{
+        padding-right: 5px;
+    }
+    .majorTransfers table tbody tr td{
+        vertical-align: top;
+    }
+    .majorTransfers .dropdown__select{
+        font-size: 17px;
+    }
+}
+@media (max-width: 450px) {
+    .majorTransfers table tbody tr td{
+        font-size: 15px;
+    }
+}

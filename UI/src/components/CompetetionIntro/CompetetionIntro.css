@@ -1,0 +1,68 @@
+.competPageOpts{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    color: var(--text-color);
+}
+.competPageOpts .comptNameAndLogo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 5px;
+    position: relative;
+    margin-left:10px;
+    cursor: pointer;
+}
+.comptNameAndLogo::after{
+    content: "";
+    width: 1px;
+    height: 60%;
+    background-color: var(--hover-color);
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.competPageOpts img{
+    width: 40px;
+}
+.competPageOpts span{
+    font-weight: 600;
+}
+.competPageOpts .Nav__Secondary__Menu li{
+    padding: 0 10px 11px;
+}
+.competPageOpts .Nav__Secondary__Menu li.fixturesSubTab a:last-child{
+    display: none;
+}
+@media (max-width: 991px) {
+    .competPageOpts .comptNameAndLogo{
+        min-width: 40px;
+    }
+    .competPageOpts img{
+        width: 40px;
+        height: 40px;
+    }
+    .competPageOpts .Nav__Secondary__Menu{
+        display: inline-flex ;
+        overflow: scroll;
+    }
+    .competPageOpts .Nav__Secondary__Menu li.fixturesSubTab a{
+        width: 80px;
+    }
+    .competPageOpts .Nav__Secondary__Menu li a{
+        height: 100%;
+        display: block;
+    }
+    .competPageOpts .Nav__Secondary__Menu li.fixturesSubTab a:first-child{
+        display: none;
+    }
+    .competPageOpts .Nav__Secondary__Menu li.fixturesSubTab a:last-child{
+        display: block;
+    }
+    .competPageOpts .comptNameAndLogo .comptName{
+        display: none;
+    }
+
+
+}

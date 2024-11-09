@@ -1,0 +1,63 @@
+.competStatsScoring .pageContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.competStatsScoring .pageContent table{
+    width: 100%;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+.competStatsScoring .pageContent table tr th{
+    text-align: left;
+    padding-bottom: 5px;
+}
+.competStatsScoring .pageContent table tr td{
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.competStatsScoring .pageContent table tr .TeamsLogos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.competStatsScoring .pageContent table tr img{
+    width: 25px;
+    height: 27px;
+    cursor: pointer;
+}
+.competStatsScoring .pageContent table tr a{
+    color: var(--text-color);
+}
+.competStatsScoring .pageContent .listOfPlayers{
+    display: flex;
+    /* gap: 15px; */
+}
+.competStatsScoring .pageContent .listOfPlayers .Table__fixtures{
+    width: calc((100% - 15px) / 2);
+}
+.competStatsScoring .pageContent .listOfPlayers .Table__fixtures:first-of-type{
+    margin-right: 15px;
+}
+.competStatsScoring .pageContent .listOfPlayers .Table__fixtures:last-of-type{
+    margin-left: 15px;
+}
+@media (max-width: 680px) {
+    .competStatsScoring .pageContent .listOfPlayers{
+        flex-direction: column;
+    }
+    .competStatsScoring .pageContent .listOfPlayers .Table__fixtures{
+        width: 100%;
+    }
+    .competStatsScoring .pageContent .listOfPlayers .Table__fixtures:last-of-type{
+        margin: 0;
+    }
+}
+@media (max-width: 450px) {
+    .competStatsScoring .pageContent table tr td{
+        padding-right: 5px;
+    }
+    .competStatsScoring .pageContent table tr a{
+        font-size: 15px;
+    }
+}
